@@ -2303,7 +2303,8 @@
     <member refid="classMdDox_1_1IndexPageWriter_1ad06e1785cdbe0f7186bb539769aced40" kind="variable"><name>_writer</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1aec94abb8b8d9f45b1fa2e7685aa47cb5" kind="function"><name>dispatchFilter</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1afd6bd463f95fc3691b896eb248718fbf" kind="function"><name>makeFilename</name></member>
-    <member refid="classMdDox_1_1IndexPageWriter_1a056727376fb08d5aff424cd197ce7643" kind="function"><name>writeReferenceFile</name></member>
+    <member refid="classMdDox_1_1IndexPageWriter_1af6519abfd51c77727a205986db7e15c6" kind="function"><name>writeReferenceFile</name></member>
+    <member refid="classMdDox_1_1IndexPageWriter_1a1ab046de58032ab297dbefd1859511a2" kind="function"><name>extractTopLevelDirectories</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1af32e63230ba9618577ed2c40727804a6" kind="function"><name>IndexPageWriter</name></member>
     <member refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" kind="function"><name>exec</name></member>
   </compound>
@@ -2353,6 +2354,14 @@
     <member refid="classMdDox_1_1MarkdownDocumentWriter_1ac27f2c8cdde0047ca0c295b4d069ad75" kind="function"><name>~MarkdownDocumentWriter</name></member>
     <member refid="classMdDox_1_1MarkdownDocumentWriter_1a1150f137edb6f722579428907c551c29" kind="function"><name>beginDocument</name></member>
     <member refid="classMdDox_1_1MarkdownDocumentWriter_1a1f2b5dac793d3693eab1b275a50f87f4" kind="function"><name>code</name></member>
+  </compound>
+  <compound refid="classMdDox_1_1MarkupQueryWriter" kind="class"><name>MdDox::MarkupQueryWriter</name>
+    <member refid="classMdDox_1_1MarkupQueryWriter_1ab5a84bbe2e16a37a8fc03fe0f35693b3" kind="variable"><name>_out</name></member>
+    <member refid="classMdDox_1_1MarkupQueryWriter_1a54e55fdfab145e532a56c3733ba85c03" kind="variable"><name>_stream</name></member>
+    <member refid="classMdDox_1_1MarkupQueryWriter_1a7cb03c2b9163209baa3e0eac2ee7450f" kind="variable"><name>_writer</name></member>
+    <member refid="classMdDox_1_1MarkupQueryWriter_1af91e2164acd22c218d3fefff8b598e02" kind="function"><name>visitedRef</name></member>
+    <member refid="classMdDox_1_1MarkupQueryWriter_1ad66bf4077400c6ff92ccb213a5cc8af0" kind="function"><name>MarkupQueryWriter</name></member>
+    <member refid="classMdDox_1_1MarkupQueryWriter_1a114f8ef3a332adb024c9be99803405e1" kind="function"><name>write</name></member>
   </compound>
   <compound refid="classMdDox_1_1MemberDefListingWriter" kind="class"><name>MdDox::MemberDefListingWriter</name>
     <member refid="classMdDox_1_1MemberDefListingWriter_1a31e945bfe890ee3662b6fea52a64d194" kind="variable"><name>_out</name></member>
@@ -3467,6 +3476,7 @@
   </compound>
   <compound refid="namespaceMdDox_1_1LinkUtils" kind="namespace"><name>MdDox::LinkUtils</name>
     <member refid="namespaceMdDox_1_1LinkUtils_1ae19f047fded439c619b471401585fa63" kind="function"><name>LBR</name></member>
+    <member refid="namespaceMdDox_1_1LinkUtils_1a3ab7ea1b8751dc336e327b385c9d3c83" kind="function"><name>LSS</name></member>
   </compound>
   <compound refid="namespaceMdDox_1_1Md" kind="namespace"><name>MdDox::Md</name>
     <member refid="namespaceMdDox_1_1Md_1aabb7b82b8902d06f9674962517957b89" kind="function"><name>addHash</name></member>
@@ -3541,8 +3551,6 @@
     <member refid="namespaceMdDox_1_1Xml_1a3614d2269202e4804c65d03fafd977d1" kind="function"><name>isValidIdentifier</name></member>
   </compound>
   <compound refid="Directories_8h" kind="file"><name>Directories.h</name>
-  </compound>
-  <compound refid="HtmlStyle_8h" kind="file"><name>HtmlStyle.h</name>
   </compound>
   <compound refid="Image_8h" kind="file"><name>Image.h</name>
   </compound>
@@ -3630,6 +3638,10 @@
   <compound refid="MarkdownDocumentWriter_8cpp" kind="file"><name>MarkdownDocumentWriter.cpp</name>
   </compound>
   <compound refid="MarkdownDocumentWriter_8h" kind="file"><name>MarkdownDocumentWriter.h</name>
+  </compound>
+  <compound refid="MarkupQueryWriter_8cpp" kind="file"><name>MarkupQueryWriter.cpp</name>
+  </compound>
+  <compound refid="MarkupQueryWriter_8h" kind="file"><name>MarkupQueryWriter.h</name>
   </compound>
   <compound refid="MemberDefListingWriter_8cpp" kind="file"><name>MemberDefListingWriter.cpp</name>
   </compound>
@@ -4200,8 +4212,6 @@
   <compound refid="Simple_8h" kind="file"><name>Simple.h</name>
   </compound>
   <compound refid="Types_8h" kind="file"><name>Types.h</name>
-  </compound>
-  <compound refid="Html" kind="page"><name>Html</name>
   </compound>
   <compound refid="Image" kind="page"><name>Image</name>
   </compound>

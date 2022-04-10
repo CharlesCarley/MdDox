@@ -8,7 +8,11 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para><dot>
+<sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1Contents">
+<title>Contents</title>
+<para><itemizedlist>
+<listitem><para><bold>Doxygen</bold> is a generated scaffolding library.</para></listitem><listitem><para><bold>GenApi</bold> is the generator that writes the scaffolding library.</para></listitem><listitem><para><bold>ResourceCompiler</bold> is a resource compiler for the generator.</para></listitem></itemizedlist>
+</para><para><dot>
 digraph {
     rankdir  = &quot;RL&quot;
     bgcolor  = none
@@ -53,10 +57,11 @@ digraph {
 
 }
  </dot>
- <linebreak/>
-<itemizedlist>
-<listitem><para><bold>Doxygen</bold> is a generated scaffolding library.</para></listitem><listitem><para><bold>GenApi</bold> is the generator that writes the scaffolding library.</para></listitem><listitem><para><bold>ResourceCompiler</bold> is a resource compiler for the generator. It compiles small code fragment templates into a resource class. </para></listitem></itemizedlist>
-</para>    </detaileddescription>
+</para></sect1>
+<sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1Sub">
+<title>Directories</title>
+</sect1>
+    </detaileddescription>
     <location file="Tools/"/>
   </compounddef>
 </doxygen>

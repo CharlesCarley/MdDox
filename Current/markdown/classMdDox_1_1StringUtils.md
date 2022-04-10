@@ -90,11 +90,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <a id="generate"></a>
 <h2>generate</h2>
 <span class="inline-text">void</span>
@@ -159,11 +157,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="replaceall"></a>
 <h2>replaceAll</h2>
@@ -209,11 +205,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="scramble"></a>
 <h2>scramble</h2>
@@ -294,11 +288,9 @@ Not-Randomized:
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="scramble"></a>
 <h2>scramble</h2>
@@ -341,11 +333,9 @@ Not-Randomized:
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="split"></a>
 <h2>split</h2>
@@ -402,11 +392,9 @@ Not-Randomized:
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="split"></a>
 <h2>split</h2>
@@ -465,11 +453,9 @@ Not-Randomized:
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="split"></a>
 <h2>split</h2>
@@ -528,11 +514,9 @@ Not-Randomized:
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="splitline"></a>
 <h2>splitLine</h2>
@@ -581,11 +565,9 @@ Not-Randomized:
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="splitrejectempty"></a>
 <h2>splitRejectEmpty</h2>
@@ -650,11 +632,9 @@ Removes any empty strings from the result. </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="tolower"></a>
 <h2>toLower</h2>
@@ -686,11 +666,9 @@ Removes any empty strings from the result. </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="tolowerfirst"></a>
 <h2>toLowerFirst</h2>
@@ -716,11 +694,9 @@ Removes any empty strings from the result. </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="toupper"></a>
 <h2>toUpper</h2>
@@ -752,11 +728,9 @@ Removes any empty strings from the result. </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="toupperfirst"></a>
 <h2>toUpperFirst</h2>
@@ -782,11 +756,9 @@ Removes any empty strings from the result. </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="trim"></a>
 <h2>trim</h2>
@@ -853,11 +825,9 @@ Removes any empty strings from the result. </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="triml"></a>
 <h2>trimL</h2>
@@ -914,11 +884,9 @@ Removes any empty strings from the result. </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="trimr"></a>
 <h2>trimR</h2>
@@ -975,11 +943,9 @@ Removes any empty strings from the result. </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="trimwhitespace"></a>
 <h2>trimWhiteSpace</h2>
@@ -1033,11 +999,9 @@ Removes any empty strings from the result. </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#stringutils" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 </div>
 </div>

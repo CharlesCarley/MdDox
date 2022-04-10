@@ -1,20 +1,23 @@
 # MdDox
 
-Is a project that transforms Doxygen XML output into a GFM based 
+MdDox is a project that transforms Doxygen XML output into a GFM based 
 HTML format. 
+
 
 The primary goal is to embed the output files into the markdown browser on GitHub. 
 The embedded content would serve the same purpose as a static document site. 
-Except that it would be more integrated with the online source code browser. Another 
-goal is to build dot graphs and custom SVG content from the source code comments. 
+Except that it would be more integrated with the online source code browser. 
+
 
 ## Current State
 
-It is still in active development. In its current state, it can embed into GitHub,
-and it can generate graphs.
+It is still in active development. But in its current state, it can embed into GitHub,
+and it can generate graphs from source code comments.
 
-There are still a lot of loose ends that need worked out. It is only slightly beyod
-a proof of concept stage. Changes to its structure may happen frequently.
+There are still a lot of loose ends that need worked out. And it is only slightly beyod
+a proof of concept. Changes to its structure may happen frequently.
+
+
 
 - [x] Create a small XML parser from scratch. 
 - [x] Load index.xml and use it to generate the initial site. 
@@ -23,10 +26,9 @@ a proof of concept stage. Changes to its structure may happen frequently.
 - [X] Output a basic html site.
 - [ ] Make the MarkdownDocumentWriter write pure markdown.
 - [ ] Build small example use cases.
-- [ ] Reference the dot executable from a path in the config file.  
 - [ ] Test on different repositories. 
-- [ ] Write a c++ SVG drawing context that can be called from code comments.  
+
 
 ### Documentation index
 
-The output can be found in the [Index](Current/markdown/indexpage.md#mddox) and in the [Current](Current/) directory.
+The root of the output can be found in the [Index file](Current/markdown/indexpage.md#mddox), and the output is generated in the [Current](Current/) directory.

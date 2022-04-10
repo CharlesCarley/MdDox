@@ -12,6 +12,9 @@
     <briefdescription>
 <para>Contains the base classes for implementing recursive descent parsers. </para>    </briefdescription>
     <detaileddescription>
+<sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1Contents">
+<title>Contents</title>
+</sect1>
     </detaileddescription>
     <location file="Source/Utils/ParserBase/"/>
   </compounddef>

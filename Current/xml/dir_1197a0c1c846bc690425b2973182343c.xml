@@ -6,7 +6,10 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Provides a separation between the main library and the main executable. </para>    </detaileddescription>
+<para>This directory provides the separation between the main library and the main <ref refid="classMdDox_1_1Application" kindref="compound">executable</ref>.</para><sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1Contents">
+<title>Contents</title>
+</sect1>
+    </detaileddescription>
     <location file="Source/MdDox/"/>
   </compounddef>
 </doxygen>

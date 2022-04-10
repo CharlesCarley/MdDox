@@ -36,11 +36,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#templateparamlistqueryvisitor" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <a id="~templateparamlistqueryvisitor"></a>
 <h2>~TemplateParamListQueryVisitor</h2>
 <span class="bold-text"><b>~TemplateParamListQueryVisitor</b></span>
@@ -53,11 +51,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#templateparamlistqueryvisitor" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="visitedparameter"></a>
 <h2>visitedParameter</h2>
@@ -95,11 +91,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#templateparamlistqueryvisitor" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
@@ -125,11 +119,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#templateparamlistqueryvisitor" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 </div>
 </div>

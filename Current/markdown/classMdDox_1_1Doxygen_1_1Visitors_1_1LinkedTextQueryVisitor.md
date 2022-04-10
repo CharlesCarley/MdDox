@@ -20,7 +20,7 @@
 <div class="icon-link">
 <img src="../images/class.svg"/><a href="classMdDox_1_1LinkedTextWriter.md#linkedtextwriter">MdDox::LinkedTextWriter</a>
 </div>
-<img src="../images/dot/internal-diagram-84.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-83.dot.svg"/><br/>
 <a id="public-methods"></a>
 <h2>Public Methods</h2>
 <span class="icon-list-item"><a href="#~linkedtextqueryvisitor" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">~LinkedTextQueryVisitor</span>
@@ -42,11 +42,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#linkedtextqueryvisitor" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <a id="~linkedtextqueryvisitor"></a>
 <h2>~LinkedTextQueryVisitor</h2>
 <span class="bold-text"><b>~LinkedTextQueryVisitor</b></span>
@@ -59,11 +57,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#linkedtextqueryvisitor" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="visitedref"></a>
 <h2>visitedRef</h2>
@@ -101,11 +97,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#linkedtextqueryvisitor" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="visitedtext"></a>
 <h2>visitedText</h2>
@@ -131,11 +125,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#linkedtextqueryvisitor" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 </div>
 </div>

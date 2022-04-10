@@ -97,7 +97,7 @@
         </inbodydescription>
         <location file="Source/MdDox/Main.cpp" line="168" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="168" bodyend="187"/>
         <references refid="classMdDox_1_1SiteBuilder_1a1cf92964093f95d7a65fbf17355c387a" compoundref="SiteBuilder_8cpp" startline="106" endline="167">MdDox::SiteBuilder::loadConfig</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a4c999e025cc414b6a323d0328527ee1f" compoundref="SiteBuilder_8h" startline="261">MdDox::SiteBuilder::backendType</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a4c999e025cc414b6a323d0328527ee1f" compoundref="SiteBuilder_8h" startline="260">MdDox::SiteBuilder::backendType</references>
         <references refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" compoundref="SiteBuilder_8h" startline="45">MdDox::BackendMarkdown</references>
         <references refid="namespaceMdDox_1a64e89506cd6e8d71ef2d84c3f0521bffaf0a84bc4cba0f83c21a94c6e7f5a21ae" compoundref="SiteBuilder_8h" startline="41">MdDox::BackendHtml</references>
         <references refid="classMdDox_1_1SiteBuilder_1a791dee508bba850fa164d1f9a81e26da" compoundref="SiteBuilder_8cpp" startline="59" endline="85">MdDox::SiteBuilder::buildFromXml</references>
@@ -137,9 +137,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para><ref refid="classMdDox_1_1Application" kindref="compound">Application</ref> is the primary entry point. </para>    </briefdescription>
+<para><ref refid="classMdDox_1_1Application" kindref="compound">Application</ref> is the primary <ref refid="namespaceMdDox" kindref="compound">MdDox</ref> entry point. </para>    </briefdescription>
     <detaileddescription>
-<para>The application&apos;s responsibility is to collect enough information to instantiate a <ref refid="classMdDox_1_1SiteBuilder" kindref="compound">SiteBuilder</ref>. </para>    </detaileddescription>
+<para>Its primary responsibility is to collect just enough information to instantiate a <ref refid="classMdDox_1_1SiteBuilder" kindref="compound">MdDox::SiteBuilder</ref>. </para>    </detaileddescription>
     <location file="Source/MdDox/Main.cpp" line="122" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="121" bodyend="188"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Application_1ad91e8fbf7ab789a2799ac159ac14f702" prot="private" virt="non-virtual"><scope>MdDox::Application</scope><name>_config</name></member>

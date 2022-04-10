@@ -11,8 +11,8 @@
 <span class="bold-text"><b>MdDoxTree</b></span>
 <br/>
 <br/>
-<span class="inline-text">Implements the main program. It is primarily composed of </span>
-<a href="namespaceMdDox_1_1Doxygen_1_1Visitors.md#visitors">Visitors</a>
+<span class="inline-text">Implements the main library.</span>
+<a id="f:/emulation/mddox/current/pages/directories.h_1contents"></a>
 <a id="contents"></a>
 <h2>Contents</h2>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/ClassPageWriter.cpp#L1" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">ClassPageWriter.cpp</span>
@@ -152,6 +152,14 @@
 </span>
 <br/>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/MarkdownDocumentWriter.h#L1" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkdownDocumentWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/MarkupQueryWriter.cpp#L1" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQueryWriter.cpp</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/MarkupQueryWriter.h#L1" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">MarkupQueryWriter.h</span>
 </a>
 </span>
 <br/>

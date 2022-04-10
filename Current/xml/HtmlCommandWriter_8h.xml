@@ -7,17 +7,19 @@
     <includedby refid="HtmlDocumentWriter_8cpp" local="yes">Source/MdDoxTree/HtmlDocumentWriter.cpp</includedby>
     <includedby refid="MarkdownDocumentWriter_8cpp" local="yes">Source/MdDoxTree/MarkdownDocumentWriter.cpp</includedby>
     <incdepgraph>
-      <node id="768">
+      <node id="767">
         <label>iomanip</label>
       </node>
-      <node id="765">
+      <node id="764">
         <label>string</label>
       </node>
-      <node id="763">
+      <node id="762">
         <label>fstream</label>
       </node>
-      <node id="761">
+      <node id="760">
         <label>Utils/String.h</label>
+        <childnode refid="761" relation="include">
+        </childnode>
         <childnode refid="762" relation="include">
         </childnode>
         <childnode refid="763" relation="include">
@@ -30,46 +32,44 @@
         </childnode>
         <childnode refid="767" relation="include">
         </childnode>
-        <childnode refid="768" relation="include">
-        </childnode>
-      </node>
-      <node id="767">
-        <label>vector</label>
-      </node>
-      <node id="764">
-        <label>sstream</label>
-      </node>
-      <node id="762">
-        <label>deque</label>
       </node>
       <node id="766">
+        <label>vector</label>
+      </node>
+      <node id="763">
+        <label>sstream</label>
+      </node>
+      <node id="761">
+        <label>deque</label>
+      </node>
+      <node id="765">
         <label>unordered_map</label>
       </node>
-      <node id="760">
+      <node id="759">
         <label>Source/MdDoxTree/HtmlCommandWriter.h</label>
         <link refid="HtmlCommandWriter_8h"/>
-        <childnode refid="761" relation="include">
+        <childnode refid="760" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="770">
+      <node id="769">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="771">
+      <node id="770">
         <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="772">
+      <node id="771">
         <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
       </node>
-      <node id="769">
+      <node id="768">
         <label>Source/MdDoxTree/HtmlCommandWriter.h</label>
         <link refid="HtmlCommandWriter_8h"/>
+        <childnode refid="769" relation="include">
+        </childnode>
         <childnode refid="770" relation="include">
         </childnode>
         <childnode refid="771" relation="include">
-        </childnode>
-        <childnode refid="772" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

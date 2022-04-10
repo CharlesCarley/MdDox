@@ -205,4 +205,13 @@ namespace MdDox
         return name;
     }
 
+    String LinkUtils::LSS(const String& name)
+    {
+        StringDeque dest;
+        StringUtils::split(dest, name, "/");
+        if (!dest.empty())
+            return dest.back();
+        return name;
+    }
+
 }  // namespace MdDox

@@ -37,6 +37,8 @@
     <innerfile refid="MarkdownCommandWriter_8h">MarkdownCommandWriter.h</innerfile>
     <innerfile refid="MarkdownDocumentWriter_8cpp">MarkdownDocumentWriter.cpp</innerfile>
     <innerfile refid="MarkdownDocumentWriter_8h">MarkdownDocumentWriter.h</innerfile>
+    <innerfile refid="MarkupQueryWriter_8cpp">MarkupQueryWriter.cpp</innerfile>
+    <innerfile refid="MarkupQueryWriter_8h">MarkupQueryWriter.h</innerfile>
     <innerfile refid="MemberDefListingWriter_8cpp">MemberDefListingWriter.cpp</innerfile>
     <innerfile refid="MemberDefListingWriter_8h">MemberDefListingWriter.h</innerfile>
     <innerfile refid="MemberDefWriter_8cpp">MemberDefWriter.cpp</innerfile>
@@ -77,7 +79,10 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Implements the main program. It is primarily composed of <ref refid="namespaceMdDox_1_1Doxygen_1_1Visitors" kindref="compound">Visitors</ref> </para>    </detaileddescription>
+<para>Implements the main library.</para><sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1Contents">
+<title>Contents</title>
+</sect1>
+    </detaileddescription>
     <location file="Source/MdDoxTree/"/>
   </compounddef>
 </doxygen>

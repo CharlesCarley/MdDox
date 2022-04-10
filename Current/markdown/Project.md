@@ -9,8 +9,10 @@
 <span class="bold-text"><b>Project</b></span>
 <br/>
 <br/>
-<span class="inline-text">The following diagram shows the overall library and executable dependency structure. </span>
-<br/>
+<span class="inline-text">The following diagram shows the overall library and executable dependency structure.</span>
+<a id="project_1projectcontents"></a>
+<a id="structure"></a>
+<h2>Structure</h2>
 <img src="../images/dot/internal-diagram-1.dot.svg"/><br/>
 <br/>
 </div>

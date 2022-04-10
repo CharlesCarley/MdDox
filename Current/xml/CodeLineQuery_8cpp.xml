@@ -6,150 +6,150 @@
     <includes refid="DoxygenFilter_8h" local="yes">TypeFilter/DoxygenFilter.h</includes>
     <includes refid="HighlightQuery_8h" local="yes">HighlightQuery.h</includes>
     <incdepgraph>
-      <node id="4691">
+      <node id="4756">
         <label>Utils/Console.h</label>
-        <childnode refid="4679" relation="include">
+        <childnode refid="4744" relation="include">
         </childnode>
       </node>
-      <node id="4685">
+      <node id="4750">
         <label>iomanip</label>
       </node>
-      <node id="4677">
+      <node id="4742">
         <label>functional</label>
       </node>
-      <node id="4696">
+      <node id="4761">
         <label>cstdint</label>
       </node>
-      <node id="4687">
+      <node id="4752">
         <label>Utils/Exception.h</label>
-        <childnode refid="4688" relation="include">
+        <childnode refid="4753" relation="include">
         </childnode>
-        <childnode refid="4689" relation="include">
+        <childnode refid="4754" relation="include">
         </childnode>
-        <childnode refid="4690" relation="include">
+        <childnode refid="4755" relation="include">
         </childnode>
-        <childnode refid="4691" relation="include">
+        <childnode refid="4756" relation="include">
         </childnode>
-        <childnode refid="4679" relation="include">
+        <childnode refid="4744" relation="include">
         </childnode>
       </node>
-      <node id="4674">
+      <node id="4739">
         <label>Tools/Doxygen/CodeLineQuery.cpp</label>
         <link refid="CodeLineQuery_8cpp"/>
-        <childnode refid="4675" relation="include">
+        <childnode refid="4740" relation="include">
         </childnode>
-        <childnode refid="4694" relation="include">
+        <childnode refid="4759" relation="include">
         </childnode>
-        <childnode refid="4697" relation="include">
+        <childnode refid="4762" relation="include">
         </childnode>
       </node>
-      <node id="4689">
+      <node id="4754">
         <label>stdexcept</label>
       </node>
-      <node id="4683">
+      <node id="4748">
         <label>string</label>
       </node>
-      <node id="4676">
+      <node id="4741">
         <label>Doxygen.h</label>
-        <childnode refid="4677" relation="include">
+        <childnode refid="4742" relation="include">
         </childnode>
-        <childnode refid="4678" relation="include">
+        <childnode refid="4743" relation="include">
         </childnode>
-        <childnode refid="4679" relation="include">
+        <childnode refid="4744" relation="include">
         </childnode>
-        <childnode refid="4686" relation="include">
+        <childnode refid="4751" relation="include">
         </childnode>
-        <childnode refid="4687" relation="include">
+        <childnode refid="4752" relation="include">
         </childnode>
       </node>
-      <node id="4698">
+      <node id="4763">
         <label>DoxHighlightClass.h</label>
-        <childnode refid="4676" relation="include">
+        <childnode refid="4741" relation="include">
         </childnode>
       </node>
-      <node id="4688">
+      <node id="4753">
         <label>exception</label>
       </node>
-      <node id="4681">
+      <node id="4746">
         <label>fstream</label>
       </node>
-      <node id="4686">
+      <node id="4751">
         <label>Xml/Node.h</label>
-        <childnode refid="4677" relation="include">
+        <childnode refid="4742" relation="include">
         </childnode>
-        <childnode refid="4678" relation="include">
+        <childnode refid="4743" relation="include">
         </childnode>
-        <childnode refid="4679" relation="include">
+        <childnode refid="4744" relation="include">
         </childnode>
       </node>
-      <node id="4692">
+      <node id="4757">
         <label>DoxRefKind.h</label>
-        <childnode refid="4676" relation="include">
+        <childnode refid="4741" relation="include">
         </childnode>
       </node>
-      <node id="4679">
+      <node id="4744">
         <label>Utils/String.h</label>
-        <childnode refid="4680" relation="include">
+        <childnode refid="4745" relation="include">
         </childnode>
-        <childnode refid="4681" relation="include">
+        <childnode refid="4746" relation="include">
         </childnode>
-        <childnode refid="4682" relation="include">
+        <childnode refid="4747" relation="include">
         </childnode>
-        <childnode refid="4683" relation="include">
+        <childnode refid="4748" relation="include">
         </childnode>
-        <childnode refid="4678" relation="include">
+        <childnode refid="4743" relation="include">
         </childnode>
-        <childnode refid="4684" relation="include">
+        <childnode refid="4749" relation="include">
         </childnode>
-        <childnode refid="4685" relation="include">
+        <childnode refid="4750" relation="include">
         </childnode>
       </node>
-      <node id="4684">
+      <node id="4749">
         <label>vector</label>
       </node>
-      <node id="4697">
+      <node id="4762">
         <label>HighlightQuery.h</label>
-        <childnode refid="4676" relation="include">
+        <childnode refid="4741" relation="include">
         </childnode>
-        <childnode refid="4698" relation="include">
+        <childnode refid="4763" relation="include">
         </childnode>
       </node>
-      <node id="4690">
+      <node id="4755">
         <label>utility</label>
       </node>
-      <node id="4682">
+      <node id="4747">
         <label>sstream</label>
       </node>
-      <node id="4694">
+      <node id="4759">
         <label>TypeFilter/DoxygenFilter.h</label>
-        <childnode refid="4695" relation="include">
+        <childnode refid="4760" relation="include">
         </childnode>
       </node>
-      <node id="4680">
+      <node id="4745">
         <label>deque</label>
       </node>
-      <node id="4678">
+      <node id="4743">
         <label>unordered_map</label>
       </node>
-      <node id="4695">
+      <node id="4760">
         <label>Utils/TypeFilter.h</label>
-        <childnode refid="4696" relation="include">
+        <childnode refid="4761" relation="include">
         </childnode>
-        <childnode refid="4679" relation="include">
+        <childnode refid="4744" relation="include">
         </childnode>
       </node>
-      <node id="4675">
+      <node id="4740">
         <label>CodeLineQuery.h</label>
-        <childnode refid="4676" relation="include">
+        <childnode refid="4741" relation="include">
         </childnode>
-        <childnode refid="4692" relation="include">
+        <childnode refid="4757" relation="include">
         </childnode>
-        <childnode refid="4693" relation="include">
+        <childnode refid="4758" relation="include">
         </childnode>
       </node>
-      <node id="4693">
+      <node id="4758">
         <label>DoxBool.h</label>
-        <childnode refid="4676" relation="include">
+        <childnode refid="4741" relation="include">
         </childnode>
       </node>
     </incdepgraph>

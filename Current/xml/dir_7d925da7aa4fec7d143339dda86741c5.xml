@@ -11,6 +11,9 @@
     <briefdescription>
 <para>Contains a basic command line argument parser. </para>    </briefdescription>
     <detaileddescription>
+<sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1Contents">
+<title>Contents</title>
+</sect1>
     </detaileddescription>
     <location file="Source/Utils/CommandLine/"/>
   </compounddef>

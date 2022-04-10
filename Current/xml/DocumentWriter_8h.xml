@@ -16,6 +16,7 @@
     <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
     <includedby refid="LinkedTextWriter_8cpp" local="yes">Source/MdDoxTree/LinkedTextWriter.cpp</includedby>
     <includedby refid="LocationWriter_8cpp" local="yes">Source/MdDoxTree/LocationWriter.cpp</includedby>
+    <includedby refid="MarkupQueryWriter_8cpp" local="yes">Source/MdDoxTree/MarkupQueryWriter.cpp</includedby>
     <includedby refid="MemberDefListingWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefListingWriter.cpp</includedby>
     <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
     <includedby refid="NamespacePageWriter_8cpp" local="yes">Source/MdDoxTree/NamespacePageWriter.cpp</includedby>
@@ -32,32 +33,36 @@
     <includedby refid="SiteBuilder_8cpp" local="yes">Source/MdDoxTree/SiteBuilder.cpp</includedby>
     <includedby refid="WriteUtils_8cpp" local="yes">Source/MdDoxTree/WriteUtils.cpp</includedby>
     <incdepgraph>
-      <node id="344">
+      <node id="342">
         <label>iomanip</label>
       </node>
-      <node id="341">
+      <node id="339">
         <label>string</label>
       </node>
-      <node id="339">
+      <node id="337">
         <label>fstream</label>
       </node>
-      <node id="336">
+      <node id="334">
         <label>IconSet.h</label>
-        <childnode refid="337" relation="include">
+        <childnode refid="335" relation="include">
+        </childnode>
+      </node>
+      <node id="333">
+        <label>Source/MdDoxTree/DocumentWriter.h</label>
+        <link refid="DocumentWriter_8h"/>
+        <childnode refid="334" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="335" relation="include">
         </childnode>
       </node>
       <node id="335">
-        <label>Source/MdDoxTree/DocumentWriter.h</label>
-        <link refid="DocumentWriter_8h"/>
+        <label>Utils/String.h</label>
         <childnode refid="336" relation="include">
-        </childnode>
-        <childnode refid="345" relation="include">
         </childnode>
         <childnode refid="337" relation="include">
         </childnode>
-      </node>
-      <node id="337">
-        <label>Utils/String.h</label>
         <childnode refid="338" relation="include">
         </childnode>
         <childnode refid="339" relation="include">
@@ -68,70 +73,70 @@
         </childnode>
         <childnode refid="342" relation="include">
         </childnode>
-        <childnode refid="343" relation="include">
-        </childnode>
-        <childnode refid="344" relation="include">
-        </childnode>
       </node>
-      <node id="343">
+      <node id="341">
         <label>vector</label>
       </node>
-      <node id="340">
+      <node id="338">
         <label>sstream</label>
       </node>
-      <node id="345">
+      <node id="343">
         <label>Utils/FileSystem.h</label>
-        <childnode refid="346" relation="include">
+        <childnode refid="344" relation="include">
         </childnode>
-        <childnode refid="337" relation="include">
+        <childnode refid="335" relation="include">
         </childnode>
       </node>
-      <node id="338">
+      <node id="336">
         <label>deque</label>
       </node>
-      <node id="342">
+      <node id="340">
         <label>unordered_map</label>
       </node>
-      <node id="346">
+      <node id="344">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="371">
+      <node id="370">
         <label>Source/MdDoxTree/ParameterWriter.cpp</label>
       </node>
-      <node id="366">
+      <node id="365">
         <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
-      <node id="353">
+      <node id="351">
         <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
       </node>
-      <node id="377">
+      <node id="376">
         <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
       </node>
-      <node id="379">
+      <node id="378">
         <label>Source/MdDoxTree/WriteUtils.cpp</label>
       </node>
-      <node id="355">
+      <node id="353">
         <label>Source/MdDoxTree/HtmlDocumentWriter.h</label>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="355" relation="include">
+        </childnode>
         <childnode refid="356" relation="include">
         </childnode>
         <childnode refid="357" relation="include">
         </childnode>
-        <childnode refid="358" relation="include">
-        </childnode>
-        <childnode refid="359" relation="include">
-        </childnode>
       </node>
-      <node id="354">
+      <node id="352">
         <label>Source/MdDoxTree/GraphWriter.cpp</label>
       </node>
-      <node id="357">
+      <node id="355">
         <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
       </node>
-      <node id="347">
+      <node id="345">
         <label>Source/MdDoxTree/DocumentWriter.h</label>
         <link refid="DocumentWriter_8h"/>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="347" relation="include">
+        </childnode>
         <childnode refid="348" relation="include">
         </childnode>
         <childnode refid="349" relation="include">
@@ -144,9 +149,9 @@
         </childnode>
         <childnode refid="353" relation="include">
         </childnode>
-        <childnode refid="354" relation="include">
+        <childnode refid="360" relation="include">
         </childnode>
-        <childnode refid="355" relation="include">
+        <childnode refid="361" relation="include">
         </childnode>
         <childnode refid="362" relation="include">
         </childnode>
@@ -182,85 +187,86 @@
         </childnode>
         <childnode refid="378" relation="include">
         </childnode>
-        <childnode refid="379" relation="include">
-        </childnode>
-      </node>
-      <node id="375">
-        <label>Source/MdDoxTree/Section4Writer.cpp</label>
-      </node>
-      <node id="351">
-        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
-      </node>
-      <node id="359">
-        <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
-        <childnode refid="356" relation="include">
-        </childnode>
-        <childnode refid="360" relation="include">
-        </childnode>
-        <childnode refid="361" relation="include">
-        </childnode>
-      </node>
-      <node id="367">
-        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
-      </node>
-      <node id="368">
-        <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
       <node id="374">
-        <label>Source/MdDoxTree/Section3Writer.cpp</label>
-      </node>
-      <node id="352">
-        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
-      </node>
-      <node id="373">
-        <label>Source/MdDoxTree/Section2Writer.cpp</label>
+        <label>Source/MdDoxTree/Section4Writer.cpp</label>
       </node>
       <node id="349">
-        <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
-      <node id="358">
-        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
+      <node id="357">
+        <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="358" relation="include">
+        </childnode>
+        <childnode refid="359" relation="include">
+        </childnode>
       </node>
-      <node id="348">
-        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
+      <node id="366">
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
       </node>
-      <node id="378">
-        <label>Source/MdDoxTree/SiteBuilder.cpp</label>
+      <node id="367">
+        <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
-      <node id="370">
-        <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
-      </node>
-      <node id="372">
-        <label>Source/MdDoxTree/Section1Writer.cpp</label>
-      </node>
-      <node id="361">
-        <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
-      </node>
-      <node id="360">
-        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
-      </node>
-      <node id="369">
-        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
-      </node>
-      <node id="356">
-        <label>Source/MdDox/Main.cpp</label>
-      </node>
-      <node id="363">
-        <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
-      </node>
-      <node id="376">
-        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
-      </node>
-      <node id="365">
-        <label>Source/MdDoxTree/MemberDefListingWriter.cpp</label>
-      </node>
-      <node id="364">
-        <label>Source/MdDoxTree/LocationWriter.cpp</label>
+      <node id="373">
+        <label>Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
       <node id="350">
-        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+      </node>
+      <node id="372">
+        <label>Source/MdDoxTree/Section2Writer.cpp</label>
+      </node>
+      <node id="347">
+        <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
+      </node>
+      <node id="356">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="346">
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
+      </node>
+      <node id="377">
+        <label>Source/MdDoxTree/SiteBuilder.cpp</label>
+      </node>
+      <node id="369">
+        <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
+      </node>
+      <node id="371">
+        <label>Source/MdDoxTree/Section1Writer.cpp</label>
+      </node>
+      <node id="359">
+        <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
+      </node>
+      <node id="358">
+        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="368">
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
+      </node>
+      <node id="354">
+        <label>Source/MdDox/Main.cpp</label>
+      </node>
+      <node id="361">
+        <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
+      </node>
+      <node id="375">
+        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="364">
+        <label>Source/MdDoxTree/MemberDefListingWriter.cpp</label>
+      </node>
+      <node id="363">
+        <label>Source/MdDoxTree/MarkupQueryWriter.cpp</label>
       </node>
       <node id="362">
+        <label>Source/MdDoxTree/LocationWriter.cpp</label>
+      </node>
+      <node id="348">
+        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="360">
         <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>

@@ -35,6 +35,7 @@
 #include "Doxygen/RefTextQuery.h"
 #include "Doxygen/SimpleSectQuery.h"
 #include "Doxygen/UrlLinkQuery.h"
+#include "MarkupQueryWriter.h"
 #include "MdDoxTree/DocumentWriter.h"
 #include "MdDoxTree/ParameterListWriter.h"
 #include "MdDoxTree/SiteBuilder.h"

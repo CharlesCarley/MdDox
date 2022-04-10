@@ -9,24 +9,21 @@
 <span class="bold-text"><b>index</b></span>
 <br/>
 <br/>
-<img src="../images/dot/internal-diagram-3.dot.svg"/><br/>
 <a id="index_1topics"></a>
 <a id="topics"></a>
 <h2>Topics</h2>
 <ul>
-<li><a href="index.md#index">Primary Index.</a>
-</li>
 <li><a href="Project.md#project">Project Structure</a>
-<span class="inline-text"> Defines the overall project structure.</span>
+<span class="inline-text"> defines the overall project structure.</span>
 </li>
 <li><a href="Site.md#site">Site Layout</a>
-<span class="inline-text"> Defines the overall layout of the generated site.</span>
+<span class="inline-text"> defines the overall layout of the generated site.</span>
 </li>
 <li><a href="Image.md#image">Image handling</a>
-<span class="inline-text"> Describes how images are linked.</span>
+<span class="inline-text"> describes how images are linked.</span>
 </li>
-<li><a href="Html.md#html">Style Sheet</a>
-<span class="inline-text"> Describes the current html style sheet. </span>
+<li><a href="directory_index.md#directory">Directory</a>
+<span class="inline-text"> Index. </span>
 </li>
 </ul>
 </div>

@@ -18,7 +18,7 @@
 <div class="icon-link">
 <img src="../images/class.svg"/><a href="classMdDox_1_1Exception.md#exception">MdDox::Exception</a>
 </div>
-<img src="../images/dot/internal-diagram-123.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-124.dot.svg"/><br/>
 <a id="private-static-methods"></a>
 <h2>Private Static Methods</h2>
 <span class="icon-list-item"><a href="#geterror" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">getError</span>
@@ -46,11 +46,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#parseerror" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <a id="geterror"></a>
 <h2>getError</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -136,11 +134,9 @@ The message is formatted as: </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#parseerror" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="parseerror"></a>
 <h2>ParseError</h2>
@@ -159,11 +155,9 @@ The message is formatted as: </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#parseerror" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="parseerror"></a>
 <h2>ParseError</h2>
@@ -189,11 +183,9 @@ The message is formatted as: </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#parseerror" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="parseerror"></a>
 <h2>ParseError</h2>
@@ -272,11 +264,9 @@ The message is formatted as: </span>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#parseerror" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 </div>
 </div>

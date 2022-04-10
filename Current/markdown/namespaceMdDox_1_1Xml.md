@@ -135,11 +135,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <a id="tokentype"></a>
 <h2>TokenType</h2>
 <span class="bold-text"><b>TokenType</b></span>
@@ -223,11 +221,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="attributemap"></a>
 <h2>AttributeMap</h2>
@@ -248,11 +244,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="codecache"></a>
 <h2>CodeCache</h2>
@@ -268,11 +262,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="nodearray"></a>
 <h2>NodeArray</h2>
@@ -291,11 +283,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="nodemap"></a>
 <h2>NodeMap</h2>
@@ -316,11 +306,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="nodesortfunc"></a>
 <h2>NodeSortFunc</h2>
@@ -338,11 +326,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="nodestack"></a>
 <h2>NodeStack</h2>
@@ -361,11 +347,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="stringcache"></a>
 <h2>StringCache</h2>
@@ -387,11 +371,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="token"></a>
 <h2>Token</h2>
@@ -405,11 +387,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="indent"></a>
 <h2>Indent</h2>
@@ -423,11 +403,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="isquote"></a>
 <h2>isQuote</h2>
@@ -447,11 +425,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="isvalidcharacter"></a>
 <h2>isValidCharacter</h2>
@@ -471,11 +447,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="isvalididentifier"></a>
 <h2>isValidIdentifier</h2>
@@ -505,11 +479,9 @@ catch(Exception &ex)
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#xml" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 </div>
 </div>

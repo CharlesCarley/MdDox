@@ -43,7 +43,7 @@ namespace MdDox
     void DirectoryPageWriter::beginDirectoryHeading()
     {
         _hasContent = true;
-        _writer->beginSection(_out, "Contents", 2);
+        //_writer->beginSection(_out, "Contents", 2);
     }
 
     void DirectoryPageWriter::visitedLocation(const Doxygen::LocationQuery& query)

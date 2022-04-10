@@ -46,7 +46,7 @@
 <br/>
 <span class="bold-text"><b>Concept</b></span>
 <br/>
-<img src="../images/dot/internal-diagram-4.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-3.dot.svg"/><br/>
 <span class="bold-text"><b>For example</b></span>
 <a href="classMdDox_1_1Doxygen_1_1CompoundDefQuery.md#compounddefquery">MdDox::Doxygen::CompoundDefQuery</a>
 <br/>
@@ -216,11 +216,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <a id="elementtype"></a>
 <h2>ElementType</h2>
 <span class="bold-text"><b>ElementType</b></span>
@@ -256,11 +254,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="options"></a>
 <h2>Options</h2>
@@ -330,11 +326,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="allocarray"></a>
 <h2>AllocArray</h2>
@@ -350,11 +344,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="attributearray"></a>
 <h2>AttributeArray</h2>
@@ -370,11 +362,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="attributemap"></a>
 <h2>AttributeMap</h2>
@@ -392,11 +382,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="complexmap"></a>
 <h2>ComplexMap</h2>
@@ -414,11 +402,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="elementarray"></a>
 <h2>ElementArray</h2>
@@ -434,11 +420,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="grouparray"></a>
 <h2>GroupArray</h2>
@@ -454,11 +438,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="groupmap"></a>
 <h2>GroupMap</h2>
@@ -476,11 +458,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="nodemap"></a>
 <h2>NodeMap</h2>
@@ -498,11 +478,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="objectmap"></a>
 <h2>ObjectMap</h2>
@@ -520,11 +498,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="switches"></a>
 <h2>Switches</h2>
@@ -542,11 +518,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#genapi" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 </div>
 </div>

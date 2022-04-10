@@ -149,6 +149,9 @@
 <img src="../images/class.svg"/><a href="classMdDox_1_1MarkdownDocumentWriter.md#markdowndocumentwriter">MarkdownDocumentWriter</a>
 </div>
 <div class="icon-link">
+<img src="../images/class.svg"/><a href="classMdDox_1_1MarkupQueryWriter.md#markupquerywriter">MarkupQueryWriter</a>
+</div>
+<div class="icon-link">
 <img src="../images/class.svg"/><a href="classMdDox_1_1MemberDefListingWriter.md#memberdeflistingwriter">MemberDefListingWriter</a>
 </div>
 <div class="icon-link">
@@ -479,16 +482,14 @@
 <br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Current/pages/Index.h#L53" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Index.h</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Current/pages/Index.h#L21" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">Index.h</span>
 </a>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <a id="backendwriter"></a>
 <h2>BackendWriter</h2>
 <span class="bold-text"><b>BackendWriter</b></span>
@@ -512,11 +513,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="consolecolor"></a>
 <h2>ConsoleColor</h2>
@@ -628,11 +627,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="iconid"></a>
 <h2>IconId</h2>
@@ -738,11 +735,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="options"></a>
 <h2>Options</h2>
@@ -845,11 +840,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="compoundnamemap"></a>
 <h2>CompoundNameMap</h2>
@@ -870,11 +863,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="compoundreferencemap"></a>
 <h2>CompoundReferenceMap</h2>
@@ -892,11 +883,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="directory"></a>
 <h2>Directory</h2>
@@ -910,11 +899,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="inputfilestream"></a>
 <h2>InputFileStream</h2>
@@ -931,11 +918,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="inputstringstream"></a>
 <h2>InputStringStream</h2>
@@ -952,11 +937,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="inttable"></a>
 <h2>IntTable</h2>
@@ -971,11 +954,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="istream"></a>
 <h2>IStream</h2>
@@ -992,11 +973,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="memberreferencemap"></a>
 <h2>MemberReferenceMap</h2>
@@ -1014,11 +993,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="ostream"></a>
 <h2>OStream</h2>
@@ -1035,11 +1012,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="outputfilestream"></a>
 <h2>OutputFileStream</h2>
@@ -1056,11 +1031,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="outputstringstream"></a>
 <h2>OutputStringStream</h2>
@@ -1077,11 +1050,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="path"></a>
 <h2>Path</h2>
@@ -1095,11 +1066,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="patharray"></a>
 <h2>PathArray</h2>
@@ -1115,11 +1084,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="referencelist"></a>
 <h2>ReferenceList</h2>
@@ -1135,11 +1102,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="referencemap"></a>
 <h2>ReferenceMap</h2>
@@ -1160,11 +1125,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="string"></a>
 <h2>String</h2>
@@ -1181,11 +1144,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="stringarray"></a>
 <h2>StringArray</h2>
@@ -1202,11 +1163,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="stringdeque"></a>
 <h2>StringDeque</h2>
@@ -1223,11 +1182,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="stringmap"></a>
 <h2>StringMap</h2>
@@ -1244,11 +1201,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="stringstream"></a>
 <h2>StringStream</h2>
@@ -1265,11 +1220,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="stringtable"></a>
 <h2>StringTable</h2>
@@ -1286,11 +1239,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="strintmap"></a>
 <h2>StrIntMap</h2>
@@ -1306,11 +1257,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="typefiltermap"></a>
 <h2>TypeFilterMap</h2>
@@ -1326,11 +1275,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="__gbackground"></a>
 <h2>__gBackground</h2>
@@ -1344,11 +1291,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="__gforeground"></a>
 <h2>__gForeground</h2>
@@ -1362,11 +1307,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="basechars"></a>
 <h2>BaseChars</h2>
@@ -1380,11 +1323,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="basecharssize"></a>
 <h2>BaseCharsSize</h2>
@@ -1398,11 +1339,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="multilinecommentstop0"></a>
 <h2>MultiLineCommentStop0</h2>
@@ -1416,11 +1355,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="multilinecommentstop1"></a>
 <h2>MultiLineCommentStop1</h2>
@@ -1434,11 +1371,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="nloc"></a>
 <h2>NLoc</h2>
@@ -1452,11 +1387,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="switches"></a>
 <h2>Switches</h2>
@@ -1471,11 +1404,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="crtdump"></a>
 <h2>CrtDump</h2>
@@ -1490,11 +1421,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="crttestmemory"></a>
 <h2>CrtTestMemory</h2>
@@ -1509,11 +1438,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="dispatch"></a>
 <h2>dispatch</h2>
@@ -1588,16 +1515,14 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </div>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.cpp#L124" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/IndexPageWriter.cpp#L123" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">IndexPageWriter.cpp</span>
 </a>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="isdecimal"></a>
 <h2>isDecimal</h2>
@@ -1625,11 +1550,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="isletter"></a>
 <h2>isLetter</h2>
@@ -1657,11 +1580,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="isnewline"></a>
 <h2>isNewLine</h2>
@@ -1688,11 +1609,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="iswhitespace"></a>
 <h2>isWhiteSpace</h2>
@@ -1725,11 +1644,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="linkref"></a>
 <h2>linkRef</h2>
@@ -1775,11 +1692,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="linkreficon"></a>
 <h2>linkRefIcon</h2>
@@ -1830,11 +1745,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="makeinternalpages"></a>
 <h2>makeInternalPages</h2>
@@ -1871,11 +1784,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="maketypefilter"></a>
 <h2>makeTypeFilter</h2>
@@ -1918,11 +1829,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="mapcolor"></a>
 <h2>MapColor</h2>
@@ -1949,11 +1858,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="setcolor"></a>
 <h2>SetColor</h2>
@@ -1968,11 +1875,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="streammerge"></a>
 <h2>StreamMerge</h2>
@@ -1998,11 +1903,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="stringcombine"></a>
 <h2>StringCombine</h2>
@@ -2028,11 +1931,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="stringcombine"></a>
 <h2>StringCombine</h2>
@@ -2052,11 +1953,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="syncstream"></a>
 <h2>syncStream</h2>
@@ -2083,11 +1982,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="writecommonnav"></a>
 <h2>writeCommonNav</h2>
@@ -2140,11 +2037,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="writedirectorytitlebar"></a>
 <h2>writeDirectoryTitleBar</h2>
@@ -2220,11 +2115,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="writeexternaliconlink"></a>
 <h2>writeExternalIconLink</h2>
@@ -2294,11 +2187,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="writegenerictitlebar"></a>
 <h2>writeGenericTitleBar</h2>
@@ -2346,11 +2237,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="writenamespacetitlebar"></a>
 <h2>writeNamespaceTitleBar</h2>
@@ -2426,11 +2315,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="writereferenceiconlink"></a>
 <h2>writeReferenceIconLink</h2>
@@ -2532,11 +2419,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="writereferenceiconlinkheading"></a>
 <h2>writeReferenceIconLinkHeading</h2>
@@ -2598,11 +2483,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="writereferenceiconstub"></a>
 <h2>writeReferenceIconStub</h2>
@@ -2664,11 +2547,9 @@ Usage: MdDox <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#mddox" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 </div>
 </div>

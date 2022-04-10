@@ -38,6 +38,7 @@ set(Target_HDR
 	LinkedTextWriter.h
 	LocationWriter.h
 	MarkdownCommandWriter.h
+	MarkupQueryWriter.h
 	MarkdownDocumentWriter.h
 	MemberDefListingWriter.h
 	MemberDefWriter.h
@@ -77,6 +78,7 @@ set(Target_SRC
 	LinkedTextWriter.cpp
 	LocationWriter.cpp
 	MarkdownCommandWriter.cpp
+	MarkupQueryWriter.cpp
 	MarkdownDocumentWriter.cpp
 	MemberDefListingWriter.cpp
 	MemberDefWriter.cpp

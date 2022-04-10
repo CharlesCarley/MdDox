@@ -201,26 +201,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="836">
+      <node id="837">
         <label>MdDox::Doxygen::Visitors::GraphQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor"/>
       </node>
-      <node id="835">
+      <node id="836">
         <label>MdDox::GraphWriter</label>
         <link refid="classMdDox_1_1GraphWriter"/>
-        <childnode refid="836" relation="public-inheritance">
+        <childnode refid="837" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="838">
+      <node id="839">
         <label>MdDox::Doxygen::Visitors::GraphQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1GraphQueryVisitor"/>
       </node>
-      <node id="837">
+      <node id="838">
         <label>MdDox::GraphWriter</label>
         <link refid="classMdDox_1_1GraphWriter"/>
-        <childnode refid="838" relation="public-inheritance">
+        <childnode refid="839" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

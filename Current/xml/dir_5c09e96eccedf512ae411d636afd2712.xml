@@ -25,6 +25,9 @@
     <briefdescription>
 <para>Contains general source utilities that are used project wide. </para>    </briefdescription>
     <detaileddescription>
+<sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1Contents">
+<title>Contents</title>
+</sect1>
     </detaileddescription>
     <location file="Source/Utils/"/>
   </compounddef>

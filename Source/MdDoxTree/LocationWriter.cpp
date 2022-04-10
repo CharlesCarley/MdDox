@@ -80,9 +80,7 @@ namespace MdDox
 
         _writer->lineBreak(_out);
         _writer->lineBreak(_out);
-        _writer->beginBlockQuote(_out);
         _writer->embedContentLinkText(_out, ICO_JUMP_TO_TOP, root, "top");
-        _writer->endBlockQuote(_out);
          return syncStream(_stream, _out);
     }
 

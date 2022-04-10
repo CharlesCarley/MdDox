@@ -144,31 +144,31 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="955">
+      <node id="960">
         <label>MdDox::CompoundReference</label>
         <link refid="classMdDox_1_1CompoundReference"/>
-        <childnode refid="954" relation="public-inheritance">
+        <childnode refid="959" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="954">
+      <node id="959">
         <label>MdDox::Reference</label>
         <link refid="classMdDox_1_1Reference"/>
       </node>
-      <node id="956">
+      <node id="961">
         <label>MdDox::MemberReference</label>
         <link refid="classMdDox_1_1MemberReference"/>
-        <childnode refid="954" relation="public-inheritance">
+        <childnode refid="959" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="958">
+      <node id="963">
         <label>string</label>
       </node>
-      <node id="957">
+      <node id="962">
         <label>MdDox::Reference</label>
         <link refid="classMdDox_1_1Reference"/>
-        <childnode refid="958" relation="usage">
+        <childnode refid="963" relation="usage">
           <edgelabel>_ref</edgelabel>
           <edgelabel>_name</edgelabel>
         </childnode>

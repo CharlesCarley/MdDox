@@ -385,6 +385,8 @@
 </li>
 <li><a href="classMdDox_1_1MarkdownDocumentWriter.md#markdowndocumentwriter">MdDox::MarkdownDocumentWriter</a>
 </li>
+<li><a href="classMdDox_1_1MarkupQueryWriter.md#markupquerywriter">MdDox::MarkupQueryWriter</a>
+</li>
 <li><a href="classMdDox_1_1MemberDefListingWriter.md#memberdeflistingwriter">MdDox::MemberDefListingWriter</a>
 </li>
 <li><a href="classMdDox_1_1MemberDefWriter.md#memberdefwriter">MdDox::MemberDefWriter</a>

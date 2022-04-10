@@ -102,11 +102,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <a id="_attributes"></a>
 <h2>_attributes</h2>
 <a href="namespaceMdDox.md#stringmap">StringMap</a>
@@ -119,11 +117,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="next"></a>
 <h2>next</h2>
@@ -148,11 +144,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="scancomment"></a>
 <h2>scanComment</h2>
@@ -177,11 +171,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="scankey"></a>
 <h2>scanKey</h2>
@@ -212,11 +204,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="scantoquote"></a>
 <h2>scanToQuote</h2>
@@ -241,11 +231,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="scanvalue"></a>
 <h2>scanValue</h2>
@@ -276,11 +264,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="config"></a>
 <h2>Config</h2>
@@ -294,11 +280,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="~config"></a>
 <h2>~Config</h2>
@@ -312,11 +296,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="attributes"></a>
 <h2>attributes</h2>
@@ -337,11 +319,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="contains"></a>
 <h2>contains</h2>
@@ -367,11 +347,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="getbool"></a>
 <h2>getBool</h2>
@@ -410,11 +388,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="getint"></a>
 <h2>getInt</h2>
@@ -457,11 +433,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="getvalue"></a>
 <h2>getValue</h2>
@@ -498,11 +472,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="load"></a>
 <h2>load</h2>
@@ -527,11 +499,9 @@ key = "value";
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#config" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 </div>
 </div>

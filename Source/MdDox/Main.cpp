@@ -113,10 +113,10 @@ namespace MdDox
     };
 
     /**
-     * \brief Application is the primary entry point.
+     * \brief Application is the primary MdDox entry point.
      *
-     * The application's responsibility is to collect enough
-     * information to instantiate a SiteBuilder.
+     * Its primary responsibility is to collect just enough
+     * information to instantiate a \ref MdDox::SiteBuilder.
      */
     class Application
     {

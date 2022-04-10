@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor" kind="class" language="C++" prot="public">
     <compoundname>MdDox::Doxygen::Visitors::MarkupQueryVisitor</compoundname>
+    <derivedcompoundref refid="classMdDox_1_1MarkupQueryWriter" prot="public" virt="non-virtual">MdDox::MarkupQueryWriter</derivedcompoundref>
     <includes local="no">Tools/Doxygen/MarkupQuery.h</includes>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1a245305299a054c56aa8743041f3e66cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
@@ -622,6 +623,7 @@
         <definition>virtual void MdDox::Doxygen::Visitors::MarkupQueryVisitor::visitedRef</definition>
         <argsstring>(const RefTextQuery &amp;query)</argsstring>
         <name>visitedRef</name>
+        <reimplementedby refid="classMdDox_1_1MarkupQueryWriter_1af91e2164acd22c218d3fefff8b598e02">visitedRef</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1RefTextQuery" kindref="compound">RefTextQuery</ref> &amp;</type>
           <declname>query</declname>
@@ -913,6 +915,18 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <inheritancegraph>
+      <node id="655">
+        <label>MdDox::MarkupQueryWriter</label>
+        <link refid="classMdDox_1_1MarkupQueryWriter"/>
+        <childnode refid="654" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="654">
+        <label>MdDox::Doxygen::Visitors::MarkupQueryVisitor</label>
+        <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor"/>
+      </node>
+    </inheritancegraph>
     <location file="Tools/Doxygen/MarkupQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/MarkupQuery.h" bodystart="30" bodyend="215"/>
     <listofallmembers>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor_1ad03e550d4e64db2d705ba2631b2e9c34" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::MarkupQueryVisitor</scope><name>visitedAnchor</name></member>

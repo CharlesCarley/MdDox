@@ -95,7 +95,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="52" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="52" bodyend="113"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="52" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="52" bodyend="112"/>
         <references refid="classMdDox_1_1Reference_1a737cb4738a11bffa7525cb8ea80fe9d7" compoundref="Reference_8h" startline="56" endline="59">MdDox::Reference::setName</references>
         <references refid="classMdDox_1_1Doxygen_1_1CompoundIndexQuery_1aef78b4cb268fc661462e1ea6925df81c" compoundref="CompoundIndexQuery_8cpp" startline="66" endline="73">MdDox::Doxygen::CompoundIndexQuery::getName</references>
         <references refid="classMdDox_1_1Reference_1a21cbf83380d6939fe892eface687c172" compoundref="Reference_8h" startline="66" endline="69">MdDox::Reference::setId</references>
@@ -140,28 +140,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="849">
+      <node id="850">
         <label>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor"/>
       </node>
-      <node id="848">
+      <node id="849">
         <label>MdDox::IndexPageFilter</label>
         <link refid="classMdDox_1_1IndexPageFilter"/>
-        <childnode refid="849" relation="public-inheritance">
+        <childnode refid="850" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="851">
+      <node id="852">
         <label>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1DoxygenIndexQueryVisitor"/>
       </node>
-      <node id="850">
+      <node id="851">
         <label>MdDox::IndexPageFilter</label>
         <link refid="classMdDox_1_1IndexPageFilter"/>
-        <childnode refid="851" relation="public-inheritance">
+        <childnode refid="852" relation="public-inheritance">
         </childnode>
-        <childnode refid="852" relation="usage">
+        <childnode refid="853" relation="usage">
           <edgelabel>dirPaths</edgelabel>
           <edgelabel>directories</edgelabel>
           <edgelabel>namespaces</edgelabel>
@@ -169,11 +169,11 @@
           <edgelabel>pages</edgelabel>
         </childnode>
       </node>
-      <node id="852">
+      <node id="853">
         <label>vector&lt; Reference &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="43" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="42" bodyend="114"/>
+    <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="43" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="42" bodyend="113"/>
     <listofallmembers>
       <member refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" prot="public" virt="non-virtual"><scope>MdDox::IndexPageFilter</scope><name>classes</name></member>
       <member refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" prot="public" virt="non-virtual"><scope>MdDox::IndexPageFilter</scope><name>directories</name></member>

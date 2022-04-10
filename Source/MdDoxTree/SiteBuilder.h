@@ -52,7 +52,7 @@ namespace MdDox
 
     /**
      * \brief The site builder runs the main loop, and provides static
-     * access to properties during the build stage. 
+     * access to properties during the build stage. <a href="#details">more ...</a>
      *
      * <b>The site builder</b> handles setting up and running the main loop.
      * It stores references to other pages and general configuration
@@ -90,12 +90,11 @@ namespace MdDox
      * \enddot
      * <br/>
      *
-     * First, it should have all necessary configuration parameters before running.
-     * From there, it needs to load an index file. Then based on the contents of the index,
-     * It should write the primary index. After that, It should dispatch all sub-page writers.
-     * Page writers can register graph files during their dispatch routine. After all pages have
-     * completed any registered graph files are processed.
-     *
+     * The builder needs to have all necessary configuration parameters set before running.
+     * From there, it needs to load an index file. From input in the supplied index it writes a
+     * primary index, class, page, namespace, and directory indexes.
+     * After that, iterates over all elements and dispatches writers
+     * for each individual element.
      * 
      */
     class SiteBuilder

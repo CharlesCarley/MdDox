@@ -2,7 +2,8 @@
  \page Project Project Structure
 
 The following diagram shows the overall library and executable dependency structure.
-\n
+
+\section ProjectContents Structure
 
  \dot
 digraph {

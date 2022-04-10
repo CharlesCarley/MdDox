@@ -6,8 +6,9 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>The following diagram shows the overall library and executable dependency structure. <linebreak/>
- <dot>
+<para>The following diagram shows the overall library and executable dependency structure.</para><sect1 id="Project_1ProjectContents">
+<title>Structure</title>
+<para><dot>
 digraph {
     rankdir  = &quot;TB&quot;
     bgcolor  = none
@@ -60,6 +61,7 @@ digraph {
 }
  </dot>
  <linebreak/>
-</para>    </detaileddescription>
+</para></sect1>
+    </detaileddescription>
   </compounddef>
 </doxygen>

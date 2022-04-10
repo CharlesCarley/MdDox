@@ -99,33 +99,33 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="884">
+      <node id="889">
         <label>MdDox::Reference</label>
         <link refid="classMdDox_1_1Reference"/>
       </node>
-      <node id="883">
+      <node id="888">
         <label>MdDox::MemberReference</label>
         <link refid="classMdDox_1_1MemberReference"/>
-        <childnode refid="884" relation="public-inheritance">
+        <childnode refid="889" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="887">
+      <node id="892">
         <label>string</label>
       </node>
-      <node id="886">
+      <node id="891">
         <label>MdDox::Reference</label>
         <link refid="classMdDox_1_1Reference"/>
-        <childnode refid="887" relation="usage">
+        <childnode refid="892" relation="usage">
           <edgelabel>_ref</edgelabel>
           <edgelabel>_name</edgelabel>
         </childnode>
       </node>
-      <node id="885">
+      <node id="890">
         <label>MdDox::MemberReference</label>
         <link refid="classMdDox_1_1MemberReference"/>
-        <childnode refid="886" relation="public-inheritance">
+        <childnode refid="891" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

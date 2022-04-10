@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LocationWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/LocationWriter.cpp" bodystart="39" bodyend="87"/>
+        <location file="Source/MdDoxTree/LocationWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/LocationWriter.cpp" bodystart="39" bodyend="85"/>
         <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a27a144259da294a167d424f007bbf31b" compoundref="LocationQuery_8cpp" startline="35" endline="40">MdDox::Doxygen::LocationQuery::getFile</references>
         <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1acc6307af92b229be442f2516e60dd942" compoundref="LocationQuery_8cpp" startline="28" endline="33">MdDox::Doxygen::LocationQuery::getBodyFile</references>
         <references refid="classMdDox_1_1Doxygen_1_1LocationQuery_1a6a8703060d4afdceceea8c212a9e9e85" compoundref="LocationQuery_8cpp" startline="52" endline="55">MdDox::Doxygen::LocationQuery::getLine</references>
@@ -89,7 +89,7 @@
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="246" endline="251">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1DocumentWriter_1a2f743defa2378643d75f55989cc54319">MdDox::DocumentWriter::addSection</references>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" compoundref="SiteBuilder_8h" startline="229">MdDox::SiteBuilder::fileUrl</references>
+        <references refid="classMdDox_1_1SiteBuilder_1ab3d27ff9347009b029054c1ab2bfc557" compoundref="SiteBuilder_8h" startline="228">MdDox::SiteBuilder::fileUrl</references>
         <references refid="namespaceMdDox_1_1HashUtils_1a4a9cd5a09c91b2558f86e17c2d447999" compoundref="HashUtils_8cpp" startline="26" endline="29">MdDox::HashUtils::lineNumber</references>
         <references refid="classMdDox_1_1DocumentWriter_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" compoundref="IconSet_8h" startline="35">MdDox::ICO_FILE</references>
@@ -99,9 +99,7 @@
         <references refid="classMdDox_1_1Xml_1_1Node_1a351e5efc578e2af82cec5e6edbfff72d" compoundref="Node_8cpp" startline="244" endline="254">MdDox::Xml::Node::firstParentOf</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af8cb21026e60adb7382ac5bcbe9d43a7" compoundref="DoxygenFilter_8h" startline="44">MdDox::Doxygen::DoxCompoundDef</references>
         <references refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="HashUtils_8cpp" startline="31" endline="34">MdDox::HashUtils::heading</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a82149b0063947f6d17da752ab655543e">MdDox::DocumentWriter::beginBlockQuote</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a326ed5ffe4f436e2dbf69e7c6311065b" compoundref="IconSet_8h" startline="40">MdDox::ICO_JUMP_TO_TOP</references>
-        <references refid="classMdDox_1_1DocumentWriter_1a7b90d2ddf0e732ad50db882d7b895967">MdDox::DocumentWriter::endBlockQuote</references>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="186" endline="197">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>

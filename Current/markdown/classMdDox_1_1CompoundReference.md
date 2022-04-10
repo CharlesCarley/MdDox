@@ -16,7 +16,7 @@
 <div class="icon-link">
 <img src="../images/class.svg"/><a href="classMdDox_1_1Reference.md#reference">MdDox::Reference</a>
 </div>
-<img src="../images/dot/internal-diagram-6.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-5.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_kind" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_kind</span>
@@ -48,11 +48,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#compoundreference" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <a id="_kind"></a>
 <h2>_kind</h2>
 <a href="namespaceMdDox_1_1Doxygen.md#doxcompoundkindenum">Doxygen::DoxCompoundKindEnum</a>
@@ -65,11 +63,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#compoundreference" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="compoundreference"></a>
 <h2>CompoundReference</h2>
@@ -83,11 +79,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#compoundreference" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="~compoundreference"></a>
 <h2>~CompoundReference</h2>
@@ -101,11 +95,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#compoundreference" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="getkind"></a>
 <h2>getKind</h2>
@@ -122,11 +114,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#compoundreference" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="setkind"></a>
 <h2>setKind</h2>
@@ -148,11 +138,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#compoundreference" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 </div>
 </div>

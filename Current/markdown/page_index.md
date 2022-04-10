@@ -9,8 +9,6 @@
 <br/>
 <br/>
 <ul>
-<li><a href="Html.md#html">Html</a>
-</li>
 <li><a href="Image.md#image">Image</a>
 </li>
 <li><a href="Project.md#project">Project</a>

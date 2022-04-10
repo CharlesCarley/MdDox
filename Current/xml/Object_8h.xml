@@ -7,116 +7,116 @@
     <includes refid="Node_8h" local="yes">Xml/Node.h</includes>
     <includedby refid="Group_8h" local="yes">Tools/GenApi/Group.h</includedby>
     <incdepgraph>
-      <node id="9322">
+      <node id="9393">
         <label>functional</label>
       </node>
-      <node id="9319">
+      <node id="9390">
         <label>iomanip</label>
       </node>
-      <node id="9311">
+      <node id="9382">
         <label>Tools/GenApi/Object.h</label>
         <link refid="Object_8h"/>
-        <childnode refid="9312" relation="include">
+        <childnode refid="9383" relation="include">
         </childnode>
-        <childnode refid="9320" relation="include">
+        <childnode refid="9391" relation="include">
         </childnode>
-        <childnode refid="9321" relation="include">
+        <childnode refid="9392" relation="include">
         </childnode>
       </node>
-      <node id="9316">
+      <node id="9387">
         <label>string</label>
       </node>
-      <node id="9314">
+      <node id="9385">
         <label>fstream</label>
       </node>
-      <node id="9321">
+      <node id="9392">
         <label>Xml/Node.h</label>
-        <childnode refid="9322" relation="include">
+        <childnode refid="9393" relation="include">
         </childnode>
-        <childnode refid="9317" relation="include">
+        <childnode refid="9388" relation="include">
         </childnode>
-        <childnode refid="9312" relation="include">
+        <childnode refid="9383" relation="include">
         </childnode>
       </node>
-      <node id="9320">
+      <node id="9391">
         <label>Writer.h</label>
-        <childnode refid="9312" relation="include">
+        <childnode refid="9383" relation="include">
         </childnode>
-        <childnode refid="9321" relation="include">
+        <childnode refid="9392" relation="include">
         </childnode>
       </node>
-      <node id="9312">
+      <node id="9383">
         <label>Utils/String.h</label>
-        <childnode refid="9313" relation="include">
+        <childnode refid="9384" relation="include">
         </childnode>
-        <childnode refid="9314" relation="include">
+        <childnode refid="9385" relation="include">
         </childnode>
-        <childnode refid="9315" relation="include">
+        <childnode refid="9386" relation="include">
         </childnode>
-        <childnode refid="9316" relation="include">
+        <childnode refid="9387" relation="include">
         </childnode>
-        <childnode refid="9317" relation="include">
+        <childnode refid="9388" relation="include">
         </childnode>
-        <childnode refid="9318" relation="include">
+        <childnode refid="9389" relation="include">
         </childnode>
-        <childnode refid="9319" relation="include">
+        <childnode refid="9390" relation="include">
         </childnode>
       </node>
-      <node id="9318">
+      <node id="9389">
         <label>vector</label>
       </node>
-      <node id="9315">
+      <node id="9386">
         <label>sstream</label>
       </node>
-      <node id="9313">
+      <node id="9384">
         <label>deque</label>
       </node>
-      <node id="9317">
+      <node id="9388">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="9327">
+      <node id="9398">
         <label>Tools/GenApi/Generator.cpp</label>
       </node>
-      <node id="9326">
+      <node id="9397">
         <label>Tools/GenApi/Complex.cpp</label>
       </node>
-      <node id="9323">
+      <node id="9394">
         <label>Tools/GenApi/Object.h</label>
         <link refid="Object_8h"/>
-        <childnode refid="9324" relation="include">
+        <childnode refid="9395" relation="include">
         </childnode>
       </node>
-      <node id="9325">
+      <node id="9396">
         <label>Tools/GenApi/Complex.h</label>
-        <childnode refid="9326" relation="include">
+        <childnode refid="9397" relation="include">
         </childnode>
-        <childnode refid="9327" relation="include">
+        <childnode refid="9398" relation="include">
         </childnode>
       </node>
-      <node id="9328">
+      <node id="9399">
         <label>Tools/GenApi/Simple.h</label>
-        <childnode refid="9327" relation="include">
+        <childnode refid="9398" relation="include">
         </childnode>
-        <childnode refid="9329" relation="include">
+        <childnode refid="9400" relation="include">
         </childnode>
       </node>
-      <node id="9329">
+      <node id="9400">
         <label>Tools/GenApi/Simple.cpp</label>
       </node>
-      <node id="9330">
+      <node id="9401">
         <label>Tools/GenApi/Group.cpp</label>
       </node>
-      <node id="9324">
+      <node id="9395">
         <label>Tools/GenApi/Group.h</label>
-        <childnode refid="9325" relation="include">
+        <childnode refid="9396" relation="include">
         </childnode>
-        <childnode refid="9328" relation="include">
+        <childnode refid="9399" relation="include">
         </childnode>
-        <childnode refid="9330" relation="include">
+        <childnode refid="9401" relation="include">
         </childnode>
-        <childnode refid="9329" relation="include">
+        <childnode refid="9400" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

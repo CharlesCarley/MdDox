@@ -5,22 +5,38 @@
 
 \brief Is the primary source directory.
 
+
+\section Contents
+
 */
 
 
 /*!
 \dir Source/MdDox
 
-Provides a separation between the main library and the main executable. 
+This directory provides the separation between the main library and the main
+\ref MdDox::Application "executable".
+
+\section Contents
+
 
 \dir Source/MdDoxTree
 
-Implements the main program. It is primarily composed of \ref MdDox::Doxygen::Visitors "Visitors"
+Implements the main library.
+
+\section Contents
 
 */
 
+
+
 /*!
 \dir Tools
+
+\section Contents
+- \b Doxygen is a generated scaffolding library.
+- \b GenApi is the generator that writes the scaffolding library.
+- \b ResourceCompiler is a resource compiler for the generator.
 
  \dot
 digraph {
@@ -67,12 +83,8 @@ digraph {
 
 }
  \enddot
-  \n
-  
-- \b Doxygen is a generated scaffolding library.
-- \b GenApi is the generator that writes the scaffolding library.
-- \b ResourceCompiler is a resource compiler for the generator.
-It compiles small code fragment templates into a resource class.
+
+\section Sub Directories
 
 */
 
@@ -80,16 +92,25 @@ It compiles small code fragment templates into a resource class.
 /*!
 \dir Tools/Doxygen
 
-\brief This directory contains an auto generated scaffolding library.
+\brief This directory contains the output from the \ref MdDox::GenApi::Application program.
 
+\section Contents
 
 */
 
+/*!
+\dir Tools/ResourceCompiler
+
+\section Contents
+
+*/
 
 /*!
 \dir Tools/GenApi
 
 \brief Contains the generator for the Doxygen scaffolding library.
+
+\section Contents
 
 */
 
@@ -97,6 +118,8 @@ It compiles small code fragment templates into a resource class.
 \dir Source/Utils
 
 \brief Contains general source utilities that are used project wide.
+
+\section Contents
 */
 
 /*!
@@ -104,6 +127,8 @@ It compiles small code fragment templates into a resource class.
 \dir Source/Utils/CommandLine
 
 \brief Contains a basic command line argument parser.
+
+\section Contents
 
 */
 
@@ -113,12 +138,15 @@ It compiles small code fragment templates into a resource class.
 
 \brief Contains the base classes for implementing recursive descent parsers.
 
+\section Contents
 */
 
 /*!
 \dir Source/TypeFilter
 
 \brief Contains a constant static mapping of element names to enumerated types.
+
+\section Details
 
 The purpose of the filter is to reduce unnecessary string comparisons. The XML parser aims to
 be generic enough so that it can be reusable in other projects. So, the idea behind the
@@ -127,6 +155,9 @@ the parse stage. The node maintains an extra optional integer storage value whic
 ignored.
 
 To use, apply the filter to the parser before parsing a XML file.
+
+
+\section Contents
 
 */
 
@@ -137,10 +168,15 @@ Contains a custom XML parser.
 
 \see MdDox::Xml 
 
+\section Contents
+
 */
 
 /*!
 \dir Source/Utils/Win32
 
 \brief Contains platform dependent code to test for unallocated memory.
+
+
+\section Contents
 */

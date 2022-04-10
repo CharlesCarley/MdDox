@@ -23,7 +23,7 @@
 <div class="icon-link">
 <img src="../images/class.svg"/><a href="classMdDox_1_1GenApi_1_1Object.md#object">MdDox::GenApi::Object</a>
 </div>
-<img src="../images/dot/internal-diagram-138.dot.svg"/><br/>
+<img src="../images/dot/internal-diagram-139.dot.svg"/><br/>
 <a id="private-members"></a>
 <h2>Private Members</h2>
 <span class="icon-list-item"><a href="#_indent" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">_indent</span>
@@ -93,11 +93,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <a id="_indent"></a>
 <h2>_indent</h2>
 <span class="inline-text">int</span>
@@ -110,11 +108,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="_out"></a>
 <h2>_out</h2>
@@ -128,11 +124,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="_root"></a>
 <h2>_root</h2>
@@ -147,11 +141,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="_writexml"></a>
 <h2>_writeXml</h2>
@@ -165,11 +157,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="closetag"></a>
 <h2>closeTag</h2>
@@ -194,11 +184,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="inlinetag"></a>
 <h2>inlineTag</h2>
@@ -223,11 +211,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="opentag"></a>
 <h2>openTag</h2>
@@ -252,11 +238,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="writeattributes"></a>
 <h2>writeAttributes</h2>
@@ -281,11 +265,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="writetag"></a>
 <h2>writeTag</h2>
@@ -310,11 +292,9 @@
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="writer"></a>
 <h2>Writer</h2>
@@ -354,11 +334,9 @@ When write is invoked, the text based structure will be logged to the supplied s
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="~writer"></a>
 <h2>~Writer</h2>
@@ -372,11 +350,9 @@ When write is invoked, the text based structure will be logged to the supplied s
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="setindent"></a>
 <h2>setIndent</h2>
@@ -419,11 +395,9 @@ When write is invoked, the text based structure will be logged to the supplied s
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="setwritexml"></a>
 <h2>setWriteXml</h2>
@@ -463,11 +437,9 @@ When write is invoked, the text based structure will be logged to the supplied s
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="write"></a>
 <h2>write</h2>
@@ -504,11 +476,9 @@ When write is invoked, the text based structure will be logged to the supplied s
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#writer" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 </div>
 </div>

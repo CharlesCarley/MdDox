@@ -58,6 +58,7 @@ namespace MdDox
     namespace  LinkUtils
     {
         extern String LBR(const String& name);
+        extern String LSS(const String& name);
     }
 
 }  // namespace MdDox

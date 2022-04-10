@@ -70,7 +70,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="87" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="344" bodyend="347"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="87" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="345" bodyend="348"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a3f0bdd1e7a65f48737b9a36c38dd59ad" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -96,7 +96,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="293" bodyend="307"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="294" bodyend="308"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae140da60e1f09393451629bf6f43255e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -122,7 +122,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="77" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="319" bodyend="322"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="77" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="320" bodyend="323"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1aee83ae908841b8d2ed56668978605201" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -148,7 +148,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="334" bodyend="337"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="335" bodyend="338"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae0a4fd164752e739b92fc70d0c47726d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -174,7 +174,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="81" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="329" bodyend="332"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="81" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="330" bodyend="333"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a40c1d7369068c2983a4ab6082c5bd497" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -200,7 +200,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="99" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="388" bodyend="406"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="99" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="389" bodyend="407"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a3355c08d130a42358551c265db06afed" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -226,7 +226,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="63" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="272" bodyend="275"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="63" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="273" bodyend="276"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1aa0881769cf1aa1fe9caffc94b01fb7e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -252,7 +252,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="79" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="324" bodyend="327"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="79" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="325" bodyend="328"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1af0212ec2c0e0cdfc995bdd653d208fdd" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -278,7 +278,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="59" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="246" bodyend="249"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="59" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="247" bodyend="250"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a89abac5bc767b71a8b5dd969f8769966" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -304,7 +304,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="68" bodyend="71"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="69" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a6a2261a9a8d912e798ef41566f0b133c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -330,7 +330,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="61" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="251" bodyend="270"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="61" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="252" bodyend="271"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a5dc28d81da09fa63bba98f4e01feced2" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -356,7 +356,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="49" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="138" bodyend="157"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="49" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="139" bodyend="158"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a2e0307641cc613efbe3ef7c26dfea28b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -382,7 +382,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="67" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="282" bodyend="285"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="67" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="283" bodyend="286"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4063855338dd4a08c4ed26c5767f6734" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -408,7 +408,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="63" bodyend="66"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="64" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a782f7cbbb9a9ca07d30f5f8f03a16ee6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -434,7 +434,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="47" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="133" bodyend="136"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="47" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="134" bodyend="137"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a3213fc70b6b43db03062a6ace1ff9510" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -460,7 +460,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="93" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="372" bodyend="376"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="93" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="373" bodyend="377"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1acdd3fafbdd5988da7f6fb2f1a37177f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -486,7 +486,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="287" bodyend="291"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="288" bodyend="292"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a09c834994cf818a20696d6405f2b3814" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -512,7 +512,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="73" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="309" bodyend="312"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="73" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="310" bodyend="313"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4f0b0cc713bee4a44cb62aa76df4c729" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -538,7 +538,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="95" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="378" bodyend="381"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="95" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="379" bodyend="382"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a042d69cdc61b7d2afc199000ba360d1d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -564,7 +564,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="73" bodyend="76"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="74" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ac38a4a71bdfd4b302deff4ed9d23b6a2" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -590,7 +590,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="78" bodyend="131"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="79" bodyend="132"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a7c55b74a1031d8d8f26dab7fde82918c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -616,7 +616,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="97" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="383" bodyend="386"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="97" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="384" bodyend="387"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a20617f49bd5fed1da6e84cee8daf09f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -642,7 +642,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="89" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="349" bodyend="365"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="89" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="350" bodyend="366"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4d54b84fd386fd41544af81467b78eaf" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -668,7 +668,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="91" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="367" bodyend="370"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="91" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="368" bodyend="371"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae40557d02adfcac2efd80ea67dab071f" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -694,7 +694,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="159" bodyend="229"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="160" bodyend="230"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4ac97a696889a9d468585cbfdb1ee80b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -720,7 +720,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="85" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="339" bodyend="342"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="85" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="340" bodyend="343"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1af7599b9e1f74b739a08b7c32012edea6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -746,7 +746,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="57" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="241" bodyend="244"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="57" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="242" bodyend="245"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a9bd4615a3a0de72d4a62786dc456eee5" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -763,7 +763,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="58" bodyend="61"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="59" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a619633dbeeb5c23e0f04c8d603892e1d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -789,7 +789,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="53" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="231" bodyend="234"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="53" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="232" bodyend="235"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a4ef70e4549c3d5fefae7918056c21925" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -815,7 +815,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="65" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="277" bodyend="280"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="65" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="278" bodyend="281"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1ae3609d087151a7c9859ceecb78a1f3e5" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -841,7 +841,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="75" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="314" bodyend="317"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="75" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="315" bodyend="318"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a85b93dae7ab61093e25aba38e64c2601" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -867,7 +867,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="55" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="236" bodyend="239"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="55" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="237" bodyend="240"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -890,7 +890,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="102" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="46" bodyend="50"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="102" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="47" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1ParagraphWriter_1a12fb1a47a01fb80687cfa7f18801584b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -907,7 +907,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/ParagraphWriter.h" line="104" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="52" bodyend="56"/>
+        <location file="Source/MdDoxTree/ParagraphWriter.h" line="104" column="1" bodyfile="Source/MdDoxTree/ParagraphWriter.cpp" bodystart="53" bodyend="57"/>
         <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="186" endline="197">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
@@ -916,26 +916,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="923">
+      <node id="928">
         <label>MdDox::Doxygen::Visitors::ParaQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor"/>
       </node>
-      <node id="922">
+      <node id="927">
         <label>MdDox::ParagraphWriter</label>
         <link refid="classMdDox_1_1ParagraphWriter"/>
-        <childnode refid="923" relation="public-inheritance">
+        <childnode refid="928" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="925">
+      <node id="930">
         <label>MdDox::Doxygen::Visitors::ParaQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParaQueryVisitor"/>
       </node>
-      <node id="924">
+      <node id="929">
         <label>MdDox::ParagraphWriter</label>
         <link refid="classMdDox_1_1ParagraphWriter"/>
-        <childnode refid="925" relation="public-inheritance">
+        <childnode refid="930" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

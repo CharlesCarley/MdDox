@@ -42,12 +42,13 @@ Icons are expected to be in the <a href="../images">images</a> directory.
 
 \subsection Internal Icons
 
-The static class \ref MdDox::IconSet maps the enum \ref MdDox::IconId
-to the following files to use specific icons internally.
+The static class \ref MdDox::IconSet maps files in the image directory to the enum \ref MdDox::IconId.
+Internal icons are referenced by \ref MdDox::IconId through \ref MdDox::IconSet.
+
 
 \subsubsection  Sources
 
-A few of the icons have been copied and modified from the material-design-icons set.
+Some icons have been copied and modified from the material-design-icons set.
 The original sources can be found here: https://github.com/google/material-design-icons
 
 */

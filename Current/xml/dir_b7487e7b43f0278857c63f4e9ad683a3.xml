@@ -180,8 +180,11 @@
     <innerfile refid="XRefSectQuery_8cpp">XRefSectQuery.cpp</innerfile>
     <innerfile refid="XRefSectQuery_8h">XRefSectQuery.h</innerfile>
     <briefdescription>
-<para>This directory contains an auto generated scaffolding library. </para>    </briefdescription>
+<para>This directory contains the output from the <ref refid="classMdDox_1_1GenApi_1_1Application" kindref="compound">MdDox::GenApi::Application</ref> program. </para>    </briefdescription>
     <detaileddescription>
+<sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1Contents">
+<title>Contents</title>
+</sect1>
     </detaileddescription>
     <location file="Tools/Doxygen/"/>
   </compounddef>

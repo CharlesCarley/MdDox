@@ -73,13 +73,12 @@ namespace MdDox
                 break;
             case Doxygen::DCK_DIR:
             {
-                const String name = compoundRef.getName();
+                const String& name = compoundRef.getName();
 
                 StringArray str;
                 StringUtils::split(str, name, "/");
                 if (!str.empty())
                 {
-                    compoundRef.setName(str.back());
                     if (str.size() == 1)
                         dirPaths.push_back(compoundRef);
                 }
@@ -162,10 +161,20 @@ namespace MdDox
                              HashUtils::heading(ref.getName()));
     }
 
+    void IndexPageWriter::extractTopLevelDirectories(ReferenceList& dir, const ReferenceList& list)
+    {
+        for (const Reference& item : list)
+        {
+            if (item.getName().find('/') == (size_t)-1)
+                dir.push_back(item);
+        }
+    }
+
     void IndexPageWriter::writeReferenceFile(const String&        name,
                                              IconId               icon,
                                              const String&        heading,
-                                             const ReferenceList& list) const
+                                             const ReferenceList& list,
+                                             int                  specialization) const
     {
         OutputFileStream out(name);
         if (!out.is_open())
@@ -174,16 +183,32 @@ namespace MdDox
         _writer->beginDocument(out, heading);
         writeGenericTitleBar(out, _writer, heading);
 
-        //_writer->beginSection(out, "Contents", 2);
-
-        _writer->beginList(out);
-        for (const Reference& page : list)
+        if (specialization == 0)
         {
-            _writer->beginListItem(out);
-            _writer->linkText(out, page.getName(), page.getId());
-            _writer->endListItem(out);
+            _writer->beginList(out);
+            for (const Reference& page : list)
+            {
+                _writer->beginListItem(out);
+                _writer->linkText(out, page.getName(), page.getId());
+                _writer->endListItem(out);
+            }
+            _writer->endList(out);
         }
-        _writer->endList(out);
+        else if (specialization == 1)  // directory
+        {
+            ReferenceList dest;
+            extractTopLevelDirectories(dest, list);
+
+            for (const Reference& page : dest)
+            {
+                _writer->embedContentLinkText(out,
+                                              ICO_FOLDER,
+                                              StringCombine(page.getId(), SiteBuilder::get().outputFileExt),
+                                              page.getName());
+                _writer->lineBreak(out);
+            }
+        }
+
         _writer->endSection(out);
         _writer->endDocument(out);
     }
@@ -214,7 +239,6 @@ namespace MdDox
         String name;
         _outDir = outDir;
 
-        // _writer->beginSection(out, "Contents", 2);
         _writer->beginList(out);
 
         // Pages
@@ -233,7 +257,7 @@ namespace MdDox
         name = StringCombine(_outDir.fullPath(), '/', ref.getId(), builder.outputFileExt);
 
         if (!name.empty())
-            writeReferenceFile(name, ICO_FOLDER, ref.getName(), filter.directories);
+            writeReferenceFile(name, ICO_FOLDER, ref.getName(), filter.directories, 1);
 
         _writer->beginListItem(out);
         _writer->linkRef(out, 0, ref.getId(), ref.getName());
@@ -251,7 +275,6 @@ namespace MdDox
         _writer->endListItem(out);
 
         // Classes
-
         ref  = builder.getRefId("class_index");
         name = StringCombine(_outDir.fullPath(), '/', ref.getId(), builder.outputFileExt);
 

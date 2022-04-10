@@ -42,11 +42,14 @@ namespace MdDox
         void dispatchFilter(const IndexPageFilter& filter) const;
 
         String makeFilename(const Reference& ref) const;
-        
-    	void writeReferenceFile(const String&        name,
+
+        static void extractTopLevelDirectories(ReferenceList &dir, const ReferenceList& list);
+
+        void writeReferenceFile(const String&        name,
                                 IconId               icon,
                                 const String&        heading,
-                                const ReferenceList& list) const;
+                                const ReferenceList& list,
+                                int                  specialization=0) const;
 
     public:
         IndexPageWriter(DocumentWriter* writer, String indexDir);

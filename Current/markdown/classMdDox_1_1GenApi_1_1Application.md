@@ -123,11 +123,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <a id="_attributenames"></a>
 <h2>_attributeNames</h2>
 <span class="inline-text">bool</span>
@@ -140,11 +138,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="_complex"></a>
 <h2>_complex</h2>
@@ -158,11 +154,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="_elementnames"></a>
 <h2>_elementNames</h2>
@@ -176,11 +170,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="_enumvalues"></a>
 <h2>_enumValues</h2>
@@ -194,11 +186,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="_groupnames"></a>
 <h2>_groupNames</h2>
@@ -212,11 +202,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="_indexfile"></a>
 <h2>_indexFile</h2>
@@ -230,11 +218,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="_outdir"></a>
 <h2>_outDir</h2>
@@ -248,11 +234,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="_simple"></a>
 <h2>_simple</h2>
@@ -266,11 +250,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="application"></a>
 <h2>Application</h2>
@@ -284,11 +266,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="go"></a>
 <h2>go</h2>
@@ -321,11 +301,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="log"></a>
 <h2>log</h2>
@@ -347,11 +325,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="logattributenames"></a>
 <h2>logAttributeNames</h2>
@@ -372,11 +348,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="logcomplex"></a>
 <h2>logComplex</h2>
@@ -397,11 +371,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="logelementnames"></a>
 <h2>logElementNames</h2>
@@ -422,11 +394,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="logenumvalues"></a>
 <h2>logEnumValues</h2>
@@ -447,11 +417,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="loggroupnames"></a>
 <h2>logGroupNames</h2>
@@ -472,11 +440,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="logsimple"></a>
 <h2>logSimple</h2>
@@ -497,11 +463,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="parse"></a>
 <h2>parse</h2>
@@ -588,11 +552,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 <a id="logtype"></a>
 <h2>logType</h2>
@@ -647,11 +609,9 @@ Usage: GenApi <options> <arg[0] .. arg[n]>
 </span>
 <br/>
 <br/>
-<blockquote>
 <span class="icon-list-item"><a href="#application" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
 </a>
 </span>
-</blockquote>
 <br/>
 </div>
 </div>

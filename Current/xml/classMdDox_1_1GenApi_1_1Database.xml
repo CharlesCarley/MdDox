@@ -260,26 +260,26 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="768">
+      <node id="769">
         <label>unordered_map&lt; std::string, std::string &gt;</label>
       </node>
-      <node id="767">
+      <node id="768">
         <label>unordered_map&lt; String, Node *&gt;</label>
       </node>
-      <node id="766">
+      <node id="767">
         <label>MdDox::GenApi::Database</label>
         <link refid="classMdDox_1_1GenApi_1_1Database"/>
-        <childnode refid="767" relation="usage">
+        <childnode refid="768" relation="usage">
           <edgelabel>_nodes</edgelabel>
         </childnode>
-        <childnode refid="768" relation="usage">
+        <childnode refid="769" relation="usage">
           <edgelabel>_data</edgelabel>
         </childnode>
-        <childnode refid="769" relation="usage">
+        <childnode refid="770" relation="usage">
           <edgelabel>_objects</edgelabel>
         </childnode>
       </node>
-      <node id="769">
+      <node id="770">
         <label>unordered_map&lt; String, Object *&gt;</label>
       </node>
     </collaborationgraph>

@@ -514,26 +514,26 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="880">
+      <node id="885">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="879">
+      <node id="884">
         <label>MdDox::MemberDefWriter</label>
         <link refid="classMdDox_1_1MemberDefWriter"/>
-        <childnode refid="880" relation="public-inheritance">
+        <childnode refid="885" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="882">
+      <node id="887">
         <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MemberDefQueryVisitor"/>
       </node>
-      <node id="881">
+      <node id="886">
         <label>MdDox::MemberDefWriter</label>
         <link refid="classMdDox_1_1MemberDefWriter"/>
-        <childnode refid="882" relation="public-inheritance">
+        <childnode refid="887" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

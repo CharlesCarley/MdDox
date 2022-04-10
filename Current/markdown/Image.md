@@ -31,13 +31,17 @@
 <h3>Icons</h3>
 <span class="inline-text">The static class </span>
 <a href="classMdDox_1_1IconSet.md#iconset">MdDox::IconSet</a>
-<span class="inline-text"> maps the enum </span>
+<span class="inline-text"> maps files in the image directory to the enum </span>
 <a href="namespaceMdDox.md#iconid">MdDox::IconId</a>
-<span class="inline-text"> to the following files to use specific icons internally.</span>
+<span class="inline-text">. Internal icons are referenced by </span>
+<a href="namespaceMdDox.md#iconid">MdDox::IconId</a>
+<span class="inline-text"> through </span>
+<a href="classMdDox_1_1IconSet.md#iconset">MdDox::IconSet</a>
+<span class="inline-text">.</span>
 <a id="image_1sources"></a>
 <a id="sources"></a>
 <h4>Sources</h4>
-<span class="inline-text">A few of the icons have been copied and modified from the material-design-icons set. The original sources can be found here: </span>
+<span class="inline-text">Some icons have been copied and modified from the material-design-icons set. The original sources can be found here: </span>
 <a href="https://github.com/google/material-design-icons#https:--github.com-google-material-design-icons">https://github.com/google/material-design-icons</a>
 </div>
 </div>

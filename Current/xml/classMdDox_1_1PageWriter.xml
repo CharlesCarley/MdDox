@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="70" bodyend="85"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="70" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PageWriter_1ade67be3a10921926e583b25f2f5a7193" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="87" bodyend="90"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="93" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1PageWriter_1a73b700549a5cdfc1fb925ddb50879307" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -299,7 +299,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="92" bodyend="99"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="51" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="98" bodyend="105"/>
         <references refid="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" compoundref="PageWriter_8h" startline="35">_writer</references>
         <references refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" compoundref="PageWriter_8h" startline="37">_out</references>
         <references refid="classMdDox_1_1SectionDefListingWriter_1a687b673217b074953bb64347127e778a" compoundref="SectionDefListingWriter_8cpp" startline="37" endline="40">MdDox::SectionDefListingWriter::setDepth</references>
@@ -318,7 +318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="65" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="101" bodyend="108"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="65" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="107" bodyend="114"/>
         <references refid="classMdDox_1_1PageWriter_1a4c7ba3bc919a40013541f6c409781d01" compoundref="PageWriter_8h" startline="41">_sections</references>
         <references refid="classMdDox_1_1PageWriter_1a95e0ecf4368ab7b570ab15f4e17fd9a5" compoundref="PageWriter_8h" startline="35">_writer</references>
         <references refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" compoundref="PageWriter_8h" startline="37">_out</references>
@@ -383,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="110" bodyend="129"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="116" bodyend="135"/>
         <references refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" compoundref="PageWriter_8h" startline="37">_out</references>
         <references refid="classMdDox_1_1PageWriter_1a3199dcb45dcad5468a8b8a1060bd25ec" compoundref="PageWriter_8h" startline="38">_outDir</references>
         <references refid="classMdDox_1_1PathUtil_1a557163bcb8705610f1f58c45590d3f78" compoundref="Path_8cpp" startline="107" endline="110">MdDox::PathUtil::fileName</references>
@@ -391,12 +391,12 @@
         <references refid="classMdDox_1_1PageWriter_1acc94668f2fc82e437e3f7f79f3dda0ae" compoundref="PageWriter_8h" startline="36">_ref</references>
         <references refid="classMdDox_1_1Reference_1a9caaf6a7703029c6c819bf558c05960b" compoundref="Reference_8h" startline="61" endline="64">MdDox::Reference::getId</references>
         <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="246" endline="251">MdDox::SiteBuilder::get</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="199">MdDox::SiteBuilder::outputFileExt</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" compoundref="SiteBuilder_8h" startline="198">MdDox::SiteBuilder::outputFileExt</references>
         <references refid="classMdDox_1_1PathUtil_1affcdc94254d5be39dd6e195cfff55092" compoundref="Path_8cpp" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
         <references refid="classMdDox_1_1Doxygen_1_1Query_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="Doxygen_8h" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1a40236f07810dc8800e95fada2cc09ef5" compoundref="Node_8cpp" startline="184" endline="206">MdDox::Xml::Node::getFirstChild</references>
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af8cb21026e60adb7382ac5bcbe9d43a7" compoundref="DoxygenFilter_8h" startline="44">MdDox::Doxygen::DoxCompoundDef</references>
-        <references refid="classMdDox_1_1PageWriter_1a09b77ba57a73bbc653a7ca5b04b35ecf" compoundref="PageWriter_8cpp" startline="101" endline="108">writeDetails</references>
+        <references refid="classMdDox_1_1PageWriter_1a09b77ba57a73bbc653a7ca5b04b35ecf" compoundref="PageWriter_8cpp" startline="107" endline="114">writeDetails</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -404,89 +404,89 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="911">
+      <node id="916">
         <label>MdDox::DirectoryPageWriter</label>
         <link refid="classMdDox_1_1DirectoryPageWriter"/>
-        <childnode refid="908" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="908">
-        <label>MdDox::PageWriter</label>
-        <link refid="classMdDox_1_1PageWriter"/>
-        <childnode refid="909" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="912">
-        <label>MdDox::GenericPageWriter</label>
-        <link refid="classMdDox_1_1GenericPageWriter"/>
-        <childnode refid="908" relation="public-inheritance">
+        <childnode refid="913" relation="public-inheritance">
         </childnode>
       </node>
       <node id="913">
-        <label>MdDox::NamespacePageWriter</label>
-        <link refid="classMdDox_1_1NamespacePageWriter"/>
-        <childnode refid="908" relation="public-inheritance">
+        <label>MdDox::PageWriter</label>
+        <link refid="classMdDox_1_1PageWriter"/>
+        <childnode refid="914" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="909">
+      <node id="917">
+        <label>MdDox::GenericPageWriter</label>
+        <link refid="classMdDox_1_1GenericPageWriter"/>
+        <childnode refid="913" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="918">
+        <label>MdDox::NamespacePageWriter</label>
+        <link refid="classMdDox_1_1NamespacePageWriter"/>
+        <childnode refid="913" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="914">
         <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"/>
       </node>
-      <node id="910">
+      <node id="915">
         <label>MdDox::ClassPageWriter</label>
         <link refid="classMdDox_1_1ClassPageWriter"/>
-        <childnode refid="908" relation="public-inheritance">
+        <childnode refid="913" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="917">
+      <node id="922">
         <label>MdDox::DocumentWriter</label>
         <link refid="classMdDox_1_1DocumentWriter"/>
       </node>
-      <node id="914">
+      <node id="919">
         <label>MdDox::PageWriter</label>
         <link refid="classMdDox_1_1PageWriter"/>
-        <childnode refid="915" relation="public-inheritance">
+        <childnode refid="920" relation="public-inheritance">
         </childnode>
-        <childnode refid="916" relation="usage">
+        <childnode refid="921" relation="usage">
           <edgelabel>_sections</edgelabel>
         </childnode>
-        <childnode refid="917" relation="usage">
+        <childnode refid="922" relation="usage">
           <edgelabel>_writer</edgelabel>
         </childnode>
-        <childnode refid="918" relation="usage">
+        <childnode refid="923" relation="usage">
           <edgelabel>_inDir</edgelabel>
           <edgelabel>_outDir</edgelabel>
         </childnode>
-        <childnode refid="919" relation="usage">
+        <childnode refid="924" relation="usage">
           <edgelabel>_ref</edgelabel>
         </childnode>
-        <childnode refid="921" relation="usage">
+        <childnode refid="926" relation="usage">
           <edgelabel>_out</edgelabel>
         </childnode>
       </node>
-      <node id="920">
+      <node id="925">
         <label>string</label>
       </node>
-      <node id="921">
+      <node id="926">
         <label>ofstream</label>
       </node>
-      <node id="915">
+      <node id="920">
         <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor"/>
       </node>
-      <node id="916">
+      <node id="921">
         <label>vector&lt; Node *&gt;</label>
       </node>
-      <node id="918">
+      <node id="923">
         <label>MdDox::PathUtil</label>
         <link refid="classMdDox_1_1PathUtil"/>
       </node>
-      <node id="919">
+      <node id="924">
         <label>MdDox::Reference</label>
         <link refid="classMdDox_1_1Reference"/>
-        <childnode refid="920" relation="usage">
+        <childnode refid="925" relation="usage">
           <edgelabel>_ref</edgelabel>
           <edgelabel>_name</edgelabel>
         </childnode>

@@ -6,40 +6,10 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para><dot>
-digraph {
-    rankdir = &quot;LR&quot;;
-    bgcolor  = none
-    node [
-        shape     = rect
-        style     = &quot;filled,solid&quot;
-        fontname  = &quot;${font-family}&quot;
-        fontsize  = &quot;${font-size}&quot;
-        fontcolor = &quot;${node-primary-text}&quot;
-        color     = &quot;${node-primary-border}&quot;
-        fillcolor = &quot;${node-primary}&quot;
-    ]
-    edge [
-        arrowsize = &quot;${arrow-size}&quot;
-        fontname  = &quot;${font-family}&quot;
-        fontsize  = &quot;${font-size}&quot;
-        color     = &quot;${node-primary-edge}&quot;
-        fontcolor = &quot;${node-primary-text}&quot;
-    ]
-
-    
-    Doxygen[label=&quot;Doxygen XML-Backend&quot; shape=rect] 
-    MdDox[label=&quot;MdDox XML&quot; shape=rect] 
-    Doxygen -&gt;MdDox;
-    GitHub[label=&quot;Content in the user \n repository on GitHub&quot;]
-    MdDox -&gt; GitHub
-
-}
-</dot>
-</para><sect1 id="index_1Topics">
+<sect1 id="index_1Topics">
 <title>Topics</title>
 <para><itemizedlist>
-<listitem><para><ref refid="index" kindref="compound">Primary Index.</ref></para></listitem><listitem><para><ref refid="Project" kindref="compound">Project Structure</ref> Defines the overall project structure.</para></listitem><listitem><para><ref refid="Site" kindref="compound">Site Layout</ref> Defines the overall layout of the generated site.</para></listitem><listitem><para><ref refid="Image" kindref="compound">Image handling</ref> Describes how images are linked.</para></listitem><listitem><para><ref refid="Html" kindref="compound">Style Sheet</ref> Describes the current html style sheet. </para></listitem></itemizedlist>
+<listitem><para><ref refid="Project" kindref="compound">Project Structure</ref> defines the overall project structure.</para></listitem><listitem><para><ref refid="Site" kindref="compound">Site Layout</ref> defines the overall layout of the generated site.</para></listitem><listitem><para><ref refid="Image" kindref="compound">Image handling</ref> describes how images are linked.</para></listitem><listitem><para><ulink url="directory_index.md">Directory</ulink> Index. </para></listitem></itemizedlist>
 </para></sect1>
     </detaileddescription>
   </compounddef>

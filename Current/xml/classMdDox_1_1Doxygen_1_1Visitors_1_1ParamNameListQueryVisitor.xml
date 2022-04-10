@@ -66,13 +66,13 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="671">
+      <node id="672">
         <label>MdDox::NameListVisitor</label>
         <link refid="classMdDox_1_1NameListVisitor"/>
-        <childnode refid="670" relation="public-inheritance">
+        <childnode refid="671" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="670">
+      <node id="671">
         <label>MdDox::Doxygen::Visitors::ParamNameListQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1ParamNameListQueryVisitor"/>
       </node>
