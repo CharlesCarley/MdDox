@@ -5,7 +5,7 @@ HTML format.
 
 
 The primary goal is to embed the output files into the markdown browser on GitHub. 
-The embedded serves the same purpose as a static document site. 
+The embedded content serves the same purpose as a static document site. 
 Except that it is more integrated with the online source code browser. 
 
 
