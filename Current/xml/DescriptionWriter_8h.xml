@@ -7,6 +7,7 @@
     <includedby refid="DescriptionWriter_8cpp" local="yes">Source/MdDoxTree/DescriptionWriter.cpp</includedby>
     <includedby refid="EnumDefWriter_8cpp" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
     <includedby refid="FunctionDefWriter_8cpp" local="yes">Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
+    <includedby refid="IndexPageWriter_8cpp" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
     <includedby refid="MemberDefWriter_8cpp" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
     <includedby refid="PageWriter_8cpp" local="yes">Source/MdDoxTree/PageWriter.cpp</includedby>
     <includedby refid="ParameterListWriter_8cpp" local="yes">Source/MdDoxTree/ParameterListWriter.cpp</includedby>
@@ -121,13 +122,13 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="256">
+      <node id="257">
         <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
       </node>
       <node id="254">
         <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
       </node>
-      <node id="257">
+      <node id="258">
         <label>Source/MdDoxTree/PageWriter.cpp</label>
       </node>
       <node id="255">
@@ -136,7 +137,7 @@
       <node id="253">
         <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
       </node>
-      <node id="258">
+      <node id="259">
         <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
       </node>
       <node id="252">
@@ -154,6 +155,11 @@
         </childnode>
         <childnode refid="258" relation="include">
         </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
     <innerclass refid="classMdDox_1_1DescriptionWriter" prot="public">MdDox::DescriptionWriter</innerclass>

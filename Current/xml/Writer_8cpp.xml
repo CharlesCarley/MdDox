@@ -7,52 +7,46 @@
     <includes refid="FileSystem_8h" local="yes">Utils/FileSystem.h</includes>
     <includes refid="Node_8h" local="yes">Xml/Node.h</includes>
     <incdepgraph>
-      <node id="4511">
+      <node id="4514">
         <label>functional</label>
       </node>
-      <node id="4507">
+      <node id="4510">
         <label>iomanip</label>
       </node>
-      <node id="4504">
+      <node id="4507">
         <label>string</label>
       </node>
-      <node id="4502">
+      <node id="4505">
         <label>fstream</label>
       </node>
-      <node id="4510">
+      <node id="4513">
         <label>Xml/Node.h</label>
-        <childnode refid="4511" relation="include">
-        </childnode>
-        <childnode refid="4505" relation="include">
-        </childnode>
-        <childnode refid="4500" relation="include">
-        </childnode>
-      </node>
-      <node id="4499">
-        <label>Xml/Writer.h</label>
-        <childnode refid="4500" relation="include">
-        </childnode>
-      </node>
-      <node id="4498">
-        <label>Source/Xml/Writer.cpp</label>
-        <link refid="Writer_8cpp"/>
-        <childnode refid="4499" relation="include">
-        </childnode>
-        <childnode refid="4507" relation="include">
+        <childnode refid="4514" relation="include">
         </childnode>
         <childnode refid="4508" relation="include">
         </childnode>
-        <childnode refid="4510" relation="include">
-        </childnode>
-      </node>
-      <node id="4500">
-        <label>Utils/String.h</label>
-        <childnode refid="4501" relation="include">
-        </childnode>
-        <childnode refid="4502" relation="include">
-        </childnode>
         <childnode refid="4503" relation="include">
         </childnode>
+      </node>
+      <node id="4502">
+        <label>Xml/Writer.h</label>
+        <childnode refid="4503" relation="include">
+        </childnode>
+      </node>
+      <node id="4501">
+        <label>Source/Xml/Writer.cpp</label>
+        <link refid="Writer_8cpp"/>
+        <childnode refid="4502" relation="include">
+        </childnode>
+        <childnode refid="4510" relation="include">
+        </childnode>
+        <childnode refid="4511" relation="include">
+        </childnode>
+        <childnode refid="4513" relation="include">
+        </childnode>
+      </node>
+      <node id="4503">
+        <label>Utils/String.h</label>
         <childnode refid="4504" relation="include">
         </childnode>
         <childnode refid="4505" relation="include">
@@ -61,27 +55,33 @@
         </childnode>
         <childnode refid="4507" relation="include">
         </childnode>
-      </node>
-      <node id="4506">
-        <label>vector</label>
-      </node>
-      <node id="4503">
-        <label>sstream</label>
-      </node>
-      <node id="4508">
-        <label>Utils/FileSystem.h</label>
+        <childnode refid="4508" relation="include">
+        </childnode>
         <childnode refid="4509" relation="include">
         </childnode>
-        <childnode refid="4500" relation="include">
+        <childnode refid="4510" relation="include">
         </childnode>
       </node>
-      <node id="4501">
+      <node id="4509">
+        <label>vector</label>
+      </node>
+      <node id="4506">
+        <label>sstream</label>
+      </node>
+      <node id="4511">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="4512" relation="include">
+        </childnode>
+        <childnode refid="4503" relation="include">
+        </childnode>
+      </node>
+      <node id="4504">
         <label>deque</label>
       </node>
-      <node id="4505">
+      <node id="4508">
         <label>unordered_map</label>
       </node>
-      <node id="4509">
+      <node id="4512">
         <label>experimental/filesystem</label>
       </node>
     </incdepgraph>

@@ -2,14 +2,20 @@
 
 /*!
  \mainpage MdDox
+ 
+Is a project that transforms Doxygen XML output into a GFM based 
+HTML format. \n\n
 
-\section Topics
+The primary goal is to embed the output files into the markdown browser on GitHub. 
+The embedded content serves the same purpose as a static document site. 
+Except that it is more integrated with the online source code browser. 
 
-
+\section MP001 Topics
 - \ref Project defines the overall project structure.
 - \ref Site defines the overall layout of the generated site.
 - \ref Image describes how images are linked.
-- <a href="directory_index.md">Directory</a> Index.
+
+\section MP002 Index
 
 */
 

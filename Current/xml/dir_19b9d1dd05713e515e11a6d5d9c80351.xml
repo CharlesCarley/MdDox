@@ -15,8 +15,25 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Contains a custom XML parser.</para><para><simplesect kind="see"><para><ref refid="namespaceMdDox_1_1Xml" kindref="compound">MdDox::Xml</ref></para></simplesect>
-</para><sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1Contents">
+<para>Contains a custom XML parser. <linebreak/>
+<linebreak/>
+ <bold>Typical Usage:</bold><linebreak/>
+</para><para>The Parser is easy to use, just create an instance of the parser then invoke it&apos;s parse method.</para><para>Internally, parse and syntax errors will throw an exception so it needs to be wrapped in a try catch block. On a successful parse, the root method will return the root node of the tree.</para><para>The following example shows how to use it.</para><para><programlisting filename=".cpp"><codeline><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMdDox" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref>;</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Parser" kindref="compound" tooltip="Parser is the XML based implementation of the ParseBase base class. ">Xml::Parser</ref><sp/>parser;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>parser.<ref refid="classMdDox_1_1ParserBase_1ac0f4754066eb37834a6e6bed93993b50" kindref="member" tooltip="Attempts to load the supplied file. ">parse</ref>(</highlight><highlight class="stringliteral">&quot;file.xml&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Node" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*root<sp/>=<sp/>parser.<ref refid="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" kindref="member" tooltip="Provides access to the root of the node tree. ">root</ref>();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Xml_1_1Writer" kindref="compound" tooltip="Is a utility class that is used to write the xml text structure to the supplied stream from the suppl...">Xml::Writer</ref><sp/>writer(root);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>writer.write(std::cout);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="classMdDox_1_1Exception" kindref="compound" tooltip="Primary class for exception handling   ">Exception</ref><sp/>&amp;ex)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classMdDox_1_1Console_1aaf1391b3bcf6cfd461fa04ac9c7003a5" kindref="member">Console::writeLine</ref>(ex.<ref refid="classMdDox_1_1Exception_1a82ae019fbc61a2278347945daeb69187" kindref="member">what</ref>());</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1SX001">
 <title>Contents</title>
 </sect1>
     </detaileddescription>

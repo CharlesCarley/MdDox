@@ -7,10 +7,10 @@
     <briefdescription>
 <para>Contains a constant static mapping of element names to enumerated types. </para>    </briefdescription>
     <detaileddescription>
-<sect1 id="Site_1Details">
+<sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1STF001">
 <title>Details</title>
 <para>The purpose of the filter is to reduce unnecessary string comparisons. The XML parser aims to be generic enough so that it can be reusable in other projects. So, the idea behind the filter is to maintain specific type info elsewhere, and bind the information to the node during the parse stage. The node maintains an extra optional integer storage value which can be used or ignored.</para><para>To use, apply the filter to the parser before parsing a XML file.</para></sect1>
-<sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1Contents">
+<sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1STF002">
 <title>Contents</title>
 </sect1>
     </detaileddescription>

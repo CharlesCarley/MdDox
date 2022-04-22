@@ -454,52 +454,52 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="972">
+      <node id="973">
         <label>MdDox::ScannerBase</label>
         <link refid="classMdDox_1_1ScannerBase"/>
       </node>
-      <node id="973">
+      <node id="974">
         <label>MdDox::Xml::Scanner</label>
         <link refid="classMdDox_1_1Xml_1_1Scanner"/>
-        <childnode refid="972" relation="public-inheritance">
+        <childnode refid="973" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="974">
+      <node id="975">
         <label>MdDox::ScannerBase</label>
         <link refid="classMdDox_1_1ScannerBase"/>
-        <childnode refid="975" relation="usage">
+        <childnode refid="976" relation="usage">
           <edgelabel>_stringTable</edgelabel>
         </childnode>
-        <childnode refid="976" relation="usage">
+        <childnode refid="977" relation="usage">
           <edgelabel>_intTable</edgelabel>
         </childnode>
-        <childnode refid="977" relation="usage">
+        <childnode refid="978" relation="usage">
           <edgelabel>_line</edgelabel>
         </childnode>
-        <childnode refid="978" relation="usage">
+        <childnode refid="979" relation="usage">
           <edgelabel>_file</edgelabel>
         </childnode>
-        <childnode refid="979" relation="usage">
+        <childnode refid="980" relation="usage">
           <edgelabel>_stream</edgelabel>
         </childnode>
       </node>
-      <node id="977">
+      <node id="978">
         <label>size_t</label>
       </node>
-      <node id="979">
+      <node id="980">
         <label>IStream *</label>
       </node>
-      <node id="976">
+      <node id="977">
         <label>MdDox::IndexCache&lt; int &gt;</label>
         <link refid="classMdDox_1_1IndexCache"/>
       </node>
-      <node id="975">
+      <node id="976">
         <label>MdDox::IndexCache&lt; String &gt;</label>
         <link refid="classMdDox_1_1IndexCache"/>
       </node>
-      <node id="978">
+      <node id="979">
         <label>MdDox::PathUtil</label>
         <link refid="classMdDox_1_1PathUtil"/>
       </node>

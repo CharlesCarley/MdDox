@@ -1,9 +1,7 @@
 <a id="directory-index"></a>
 <h1>Directory Index</h1>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
-<a href="indexpage.md#mddox">MdDox</a>
-<span class="inline-text">/</span>
-<a href="index.md#index">Index</a>
+<a href="index.md#index">MdDox</a>
 <span class="inline-text">/</span>
 <span class="bold-text"><b>Directory Index</b></span>
 <br/>

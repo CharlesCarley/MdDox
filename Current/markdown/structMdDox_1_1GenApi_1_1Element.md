@@ -2,9 +2,7 @@
 <h1>Element</h1>
 <a id="structmddox_1_1genapi_1_1element"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
-<a href="indexpage.md#mddox">MdDox</a>
-<span class="inline-text">/</span>
-<a href="index.md#index">Index</a>
+<a href="index.md#index">MdDox</a>
 <span class="inline-text">/</span>
 <a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>

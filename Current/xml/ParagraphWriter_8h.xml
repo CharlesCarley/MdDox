@@ -12,140 +12,134 @@
     <includedby refid="Section3Writer_8cpp" local="yes">Source/MdDoxTree/Section3Writer.cpp</includedby>
     <includedby refid="Section4Writer_8cpp" local="yes">Source/MdDoxTree/Section4Writer.cpp</includedby>
     <incdepgraph>
-      <node id="1588">
+      <node id="1591">
         <label>Utils/Console.h</label>
-        <childnode refid="1576" relation="include">
-        </childnode>
-      </node>
-      <node id="1582">
-        <label>iomanip</label>
-      </node>
-      <node id="1574">
-        <label>functional</label>
-      </node>
-      <node id="1589">
-        <label>Utils/Path.h</label>
-        <childnode refid="1576" relation="include">
-        </childnode>
-      </node>
-      <node id="1584">
-        <label>Utils/Exception.h</label>
-        <childnode refid="1585" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-        <childnode refid="1587" relation="include">
-        </childnode>
-        <childnode refid="1588" relation="include">
-        </childnode>
-        <childnode refid="1576" relation="include">
-        </childnode>
-      </node>
-      <node id="1586">
-        <label>stdexcept</label>
-      </node>
-      <node id="1580">
-        <label>string</label>
-      </node>
-      <node id="1573">
-        <label>Doxygen.h</label>
-        <childnode refid="1574" relation="include">
-        </childnode>
-        <childnode refid="1575" relation="include">
-        </childnode>
-        <childnode refid="1576" relation="include">
-        </childnode>
-        <childnode refid="1583" relation="include">
-        </childnode>
-        <childnode refid="1584" relation="include">
+        <childnode refid="1579" relation="include">
         </childnode>
       </node>
       <node id="1585">
-        <label>exception</label>
+        <label>iomanip</label>
       </node>
-      <node id="1578">
-        <label>fstream</label>
+      <node id="1577">
+        <label>functional</label>
+      </node>
+      <node id="1592">
+        <label>Utils/Path.h</label>
+        <childnode refid="1579" relation="include">
+        </childnode>
+      </node>
+      <node id="1587">
+        <label>Utils/Exception.h</label>
+        <childnode refid="1588" relation="include">
+        </childnode>
+        <childnode refid="1589" relation="include">
+        </childnode>
+        <childnode refid="1590" relation="include">
+        </childnode>
+        <childnode refid="1591" relation="include">
+        </childnode>
+        <childnode refid="1579" relation="include">
+        </childnode>
+      </node>
+      <node id="1589">
+        <label>stdexcept</label>
       </node>
       <node id="1583">
-        <label>Xml/Node.h</label>
-        <childnode refid="1574" relation="include">
-        </childnode>
-        <childnode refid="1575" relation="include">
-        </childnode>
-        <childnode refid="1576" relation="include">
-        </childnode>
-      </node>
-      <node id="1572">
-        <label>Doxygen/ParaQuery.h</label>
-        <childnode refid="1573" relation="include">
-        </childnode>
+        <label>string</label>
       </node>
       <node id="1576">
-        <label>Utils/String.h</label>
+        <label>Doxygen.h</label>
         <childnode refid="1577" relation="include">
         </childnode>
         <childnode refid="1578" relation="include">
         </childnode>
         <childnode refid="1579" relation="include">
         </childnode>
-        <childnode refid="1580" relation="include">
+        <childnode refid="1586" relation="include">
         </childnode>
-        <childnode refid="1575" relation="include">
+        <childnode refid="1587" relation="include">
+        </childnode>
+      </node>
+      <node id="1588">
+        <label>exception</label>
+      </node>
+      <node id="1581">
+        <label>fstream</label>
+      </node>
+      <node id="1586">
+        <label>Xml/Node.h</label>
+        <childnode refid="1577" relation="include">
+        </childnode>
+        <childnode refid="1578" relation="include">
+        </childnode>
+        <childnode refid="1579" relation="include">
+        </childnode>
+      </node>
+      <node id="1575">
+        <label>Doxygen/ParaQuery.h</label>
+        <childnode refid="1576" relation="include">
+        </childnode>
+      </node>
+      <node id="1579">
+        <label>Utils/String.h</label>
+        <childnode refid="1580" relation="include">
         </childnode>
         <childnode refid="1581" relation="include">
         </childnode>
         <childnode refid="1582" relation="include">
         </childnode>
+        <childnode refid="1583" relation="include">
+        </childnode>
+        <childnode refid="1578" relation="include">
+        </childnode>
+        <childnode refid="1584" relation="include">
+        </childnode>
+        <childnode refid="1585" relation="include">
+        </childnode>
       </node>
-      <node id="1571">
+      <node id="1574">
         <label>Source/MdDoxTree/ParagraphWriter.h</label>
         <link refid="ParagraphWriter_8h"/>
-        <childnode refid="1572" relation="include">
+        <childnode refid="1575" relation="include">
         </childnode>
-        <childnode refid="1589" relation="include">
+        <childnode refid="1592" relation="include">
         </childnode>
       </node>
-      <node id="1581">
+      <node id="1584">
         <label>vector</label>
       </node>
-      <node id="1587">
+      <node id="1590">
         <label>utility</label>
       </node>
-      <node id="1579">
+      <node id="1582">
         <label>sstream</label>
       </node>
-      <node id="1577">
+      <node id="1580">
         <label>deque</label>
       </node>
-      <node id="1575">
+      <node id="1578">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1597">
+      <node id="1600">
         <label>Source/MdDoxTree/Section4Writer.cpp</label>
       </node>
-      <node id="1596">
+      <node id="1599">
         <label>Source/MdDoxTree/Section3Writer.cpp</label>
       </node>
-      <node id="1595">
+      <node id="1598">
         <label>Source/MdDoxTree/Section2Writer.cpp</label>
       </node>
-      <node id="1591">
+      <node id="1594">
         <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
       </node>
-      <node id="1592">
+      <node id="1595">
         <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
       </node>
-      <node id="1590">
+      <node id="1593">
         <label>Source/MdDoxTree/ParagraphWriter.h</label>
         <link refid="ParagraphWriter_8h"/>
-        <childnode refid="1591" relation="include">
-        </childnode>
-        <childnode refid="1592" relation="include">
-        </childnode>
-        <childnode refid="1593" relation="include">
-        </childnode>
         <childnode refid="1594" relation="include">
         </childnode>
         <childnode refid="1595" relation="include">
@@ -154,11 +148,17 @@
         </childnode>
         <childnode refid="1597" relation="include">
         </childnode>
+        <childnode refid="1598" relation="include">
+        </childnode>
+        <childnode refid="1599" relation="include">
+        </childnode>
+        <childnode refid="1600" relation="include">
+        </childnode>
       </node>
-      <node id="1594">
+      <node id="1597">
         <label>Source/MdDoxTree/Section1Writer.cpp</label>
       </node>
-      <node id="1593">
+      <node id="1596">
         <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
       </node>
     </invincdepgraph>

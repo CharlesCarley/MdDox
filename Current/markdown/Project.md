@@ -2,9 +2,7 @@
 <h1>Project Structure</h1>
 <a id="project"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
-<a href="indexpage.md#mddox">MdDox</a>
-<span class="inline-text">/</span>
-<a href="index.md#index">Index</a>
+<a href="index.md#index">MdDox</a>
 <span class="inline-text">/</span>
 <span class="bold-text"><b>Project</b></span>
 <br/>

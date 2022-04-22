@@ -33,9 +33,7 @@ namespace MdDox
         const SiteBuilder& builder = SiteBuilder::get();
 
         writer->linkUrl(out, "~", builder.siteUrl);
-        writer->linkRef(out, 0, "indexpage", builder.getCompoundName("indexpage"));
-        writer->inlineText(out, "/");
-        writer->linkRef(out, 0, "index", builder.getCompoundName("index"));
+        writer->linkRef(out, 0, "index", builder.projectTitle);
         writer->inlineText(out, "/");
     }
 

@@ -1,9 +1,7 @@
 <a id="page-index"></a>
 <h1>Page Index</h1>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
-<a href="indexpage.md#mddox">MdDox</a>
-<span class="inline-text">/</span>
-<a href="index.md#index">Index</a>
+<a href="index.md#index">MdDox</a>
 <span class="inline-text">/</span>
 <span class="bold-text"><b>Page Index</b></span>
 <br/>
@@ -14,8 +12,6 @@
 <li><a href="Project.md#project">Project</a>
 </li>
 <li><a href="Site.md#site">Site</a>
-</li>
-<li><a href="indexpage.md#index">index</a>
 </li>
 </ul>
 </div>

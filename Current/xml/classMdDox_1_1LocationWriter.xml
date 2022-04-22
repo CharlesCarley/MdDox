@@ -100,7 +100,7 @@
         <references refid="namespaceMdDox_1_1Doxygen_1a65e5a8c426cac4de9a60cc1e64468f06af8cb21026e60adb7382ac5bcbe9d43a7" compoundref="DoxygenFilter_8h" startline="44">MdDox::Doxygen::DoxCompoundDef</references>
         <references refid="namespaceMdDox_1_1HashUtils_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="HashUtils_8cpp" startline="31" endline="34">MdDox::HashUtils::heading</references>
         <references refid="namespaceMdDox_1ae00359e24be5b111fdb21332d3a103d9a326ed5ffe4f436e2dbf69e7c6311065b" compoundref="IconSet_8h" startline="40">MdDox::ICO_JUMP_TO_TOP</references>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="186" endline="197">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="184" endline="195">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

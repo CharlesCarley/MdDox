@@ -21,6 +21,7 @@
 */
 #include "MdDoxTree/IndexPageWriter.h"
 #include <utility>
+#include "Doxygen/DescriptionWriter.h"
 #include "Doxygen/DoxCompoundKind.h"
 #include "Doxygen/DoxygenQuery.h"
 #include "Doxygen/MemberIndexQuery.h"
@@ -47,20 +48,39 @@ namespace MdDox
         ReferenceList namespaces;
         ReferenceList directories;
         ReferenceList dirPaths;
+        bool          hasMainPage{false};
 
     public:
-        void visitedCompound(const Doxygen::CompoundIndexQuery& query) override
+        void addPage(const Reference& compoundRef)
         {
-            Reference compoundRef;
-            compoundRef.setName(query.getName());
-            compoundRef.setId(query.getRefId());
+            if (compoundRef.getId() != "indexpage")
+                pages.push_back(compoundRef);
+            else
+                hasMainPage = true;
+        }
 
+        void addDirectory(const Reference& compoundRef)
+        {
+            const String& name = compoundRef.getName();
+
+            StringArray str;
+            StringUtils::split(str, name, "/");
+            if (!str.empty())
+            {
+                if (str.size() == 1)
+                    dirPaths.push_back(compoundRef);
+            }
+            directories.push_back(compoundRef);
+        }
+
+        void filterReference(const Doxygen::CompoundIndexQuery& query, const Reference& compoundRef)
+        {
             switch (query.getKind())
             {
             case Doxygen::DCK_GROUP:
             case Doxygen::DCK_EXAMPLE:
             case Doxygen::DCK_PAGE:
-                pages.push_back(compoundRef);
+                addPage(compoundRef);
                 break;
             case Doxygen::DCK_MODULE:
             case Doxygen::DCK_NAMESPACE:
@@ -72,19 +92,8 @@ namespace MdDox
                 classes.push_back(compoundRef);
                 break;
             case Doxygen::DCK_DIR:
-            {
-                const String& name = compoundRef.getName();
-
-                StringArray str;
-                StringUtils::split(str, name, "/");
-                if (!str.empty())
-                {
-                    if (str.size() == 1)
-                        dirPaths.push_back(compoundRef);
-                }
-                directories.push_back(compoundRef);
-            }
-            break;
+                addDirectory(compoundRef);
+                break;
             case Doxygen::DCK_INTERFACE:
             case Doxygen::DCK_SERVICE:
             case Doxygen::DCK_PROTOCOL:
@@ -94,9 +103,19 @@ namespace MdDox
             case Doxygen::DCK_TYPE:
             case Doxygen::DCK_FILE:
             case Doxygen::DCK_INVALID:
+            case Doxygen::DCK_MAX:
             default:
                 break;
             }
+        }
+
+        void visitedCompound(const Doxygen::CompoundIndexQuery& query) override
+        {
+            Reference compoundRef;
+            compoundRef.setName(query.getName());
+            compoundRef.setId(query.getRefId());
+
+            filterReference(query, compoundRef);
 
             SiteBuilder::get().insertCompound(query.getKind(),
                                               query.getName(),
@@ -213,6 +232,45 @@ namespace MdDox
         _writer->endDocument(out);
     }
 
+    void writeMainPageDescriptions(DocumentWriter* writer,
+                                   const String&   indexDir,
+                                   OStream&        out)
+    {
+        Console::writeLine("building => Main page descriptions");
+
+        PathUtil path(indexDir);
+        path.fileName("indexpage.xml");
+
+        if (path.exists())
+        {
+            Xml::Parser psr;
+            psr.applyFilter(Doxygen::getFilter(), Doxygen::getFilterSize());
+            psr.parse(path.fullPath());
+
+            const Doxygen::DoxygenQuery doxygen(psr.root()->firstChildOf("doxygen"));
+
+            doxygen.foreachCompoundDef(
+                [writer, &out](const Doxygen::CompoundDefQuery& obj)
+                {
+                    DescriptionWriter brief(writer, &out);
+
+                    Doxygen::DescriptionQuery desc = obj.getBriefDescription();
+                    if (desc.isValid())
+                        brief.write(desc);
+
+                    DescriptionWriter detail(writer, &out);
+
+                    desc = obj.getDetailedDescription();
+                    if (desc.isValid())
+                        detail.write(desc);
+                });
+        }
+        else
+        {
+            Console::writeLine("Failed to find  ", path.fullPath());
+        }
+    }
+
     void IndexPageWriter::exec(const Doxygen::DoxygenIndexQuery& query, const PathUtil& outDir)
     {
         const SiteBuilder& builder = SiteBuilder::get();
@@ -230,10 +288,33 @@ namespace MdDox
         IndexPageFilter filter;
         query.visit(&filter);
 
-        String title = builder.getCompoundName("index");
-        _writer->beginDocument(out, title.empty() ? builder.projectTitle : title);
+        _writer->beginDocument(out, builder.projectTitle);
 
-        writeGenericTitleBar(out, _writer, "Contents");
+        writeGenericTitleBar(out, _writer, "");
+
+
+        if (filter.hasMainPage)
+        {
+            // extract the descriptions from the main page and dump it into
+            // the primary index (before the main links to the sub index
+            // pages).
+            //
+            // Currently:
+            //
+            // When writing the main page, it's assumed that the internal
+            // links to the sub pages are written after the main descriptions.
+            //
+            // So, for example to control the output:
+            //  \mainpage MainIndex
+            //
+            //  provide the detailed description, then at the end of the
+            //  description, declare a section to the auto-generated index
+            //  pages
+            // 
+            //  \section Index
+            // (eof)
+            writeMainPageDescriptions(_writer, _indexDir, out);
+        }
 
         String file;
         String name;

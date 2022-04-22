@@ -6,23 +6,17 @@
     <includedby refid="Utils_2CommandLine_2Parser_8h" local="yes">Source/Utils/CommandLine/Parser.h</includedby>
     <includedby refid="Utils_2CommandLine_2Scanner_8cpp" local="yes">Source/Utils/CommandLine/Scanner.cpp</includedby>
     <incdepgraph>
-      <node id="2694">
+      <node id="2697">
         <label>iomanip</label>
       </node>
-      <node id="2691">
+      <node id="2694">
         <label>string</label>
       </node>
-      <node id="2689">
+      <node id="2692">
         <label>fstream</label>
       </node>
-      <node id="2687">
+      <node id="2690">
         <label>Utils/String.h</label>
-        <childnode refid="2688" relation="include">
-        </childnode>
-        <childnode refid="2689" relation="include">
-        </childnode>
-        <childnode refid="2690" relation="include">
-        </childnode>
         <childnode refid="2691" relation="include">
         </childnode>
         <childnode refid="2692" relation="include">
@@ -31,64 +25,70 @@
         </childnode>
         <childnode refid="2694" relation="include">
         </childnode>
-      </node>
-      <node id="2685">
-        <label>Source/Utils/CommandLine/Scanner.h</label>
-        <link refid="Utils_2CommandLine_2Scanner_8h"/>
-        <childnode refid="2686" relation="include">
+        <childnode refid="2695" relation="include">
+        </childnode>
+        <childnode refid="2696" relation="include">
+        </childnode>
+        <childnode refid="2697" relation="include">
         </childnode>
       </node>
-      <node id="2693">
+      <node id="2688">
+        <label>Source/Utils/CommandLine/Scanner.h</label>
+        <link refid="Utils_2CommandLine_2Scanner_8h"/>
+        <childnode refid="2689" relation="include">
+        </childnode>
+      </node>
+      <node id="2696">
         <label>vector</label>
       </node>
-      <node id="2690">
+      <node id="2693">
         <label>sstream</label>
       </node>
-      <node id="2688">
+      <node id="2691">
         <label>deque</label>
       </node>
-      <node id="2692">
+      <node id="2695">
         <label>unordered_map</label>
       </node>
-      <node id="2686">
+      <node id="2689">
         <label>Utils/CommandLine/Token.h</label>
-        <childnode refid="2687" relation="include">
+        <childnode refid="2690" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2701">
+      <node id="2704">
         <label>Source/Utils/CommandLine/Scanner.cpp</label>
       </node>
-      <node id="2700">
+      <node id="2703">
         <label>Tools/ResourceCompiler/Main.cpp</label>
       </node>
-      <node id="2699">
+      <node id="2702">
         <label>Tools/GenApi/Main.cpp</label>
       </node>
-      <node id="2698">
+      <node id="2701">
         <label>Source/Utils/CommandLine/Parser.cpp</label>
       </node>
-      <node id="2696">
+      <node id="2699">
         <label>Source/Utils/CommandLine/Parser.h</label>
-        <childnode refid="2697" relation="include">
-        </childnode>
-        <childnode refid="2698" relation="include">
-        </childnode>
-        <childnode refid="2699" relation="include">
-        </childnode>
         <childnode refid="2700" relation="include">
-        </childnode>
-      </node>
-      <node id="2695">
-        <label>Source/Utils/CommandLine/Scanner.h</label>
-        <link refid="Utils_2CommandLine_2Scanner_8h"/>
-        <childnode refid="2696" relation="include">
         </childnode>
         <childnode refid="2701" relation="include">
         </childnode>
+        <childnode refid="2702" relation="include">
+        </childnode>
+        <childnode refid="2703" relation="include">
+        </childnode>
       </node>
-      <node id="2697">
+      <node id="2698">
+        <label>Source/Utils/CommandLine/Scanner.h</label>
+        <link refid="Utils_2CommandLine_2Scanner_8h"/>
+        <childnode refid="2699" relation="include">
+        </childnode>
+        <childnode refid="2704" relation="include">
+        </childnode>
+      </node>
+      <node id="2700">
         <label>Source/MdDox/Main.cpp</label>
       </node>
     </invincdepgraph>

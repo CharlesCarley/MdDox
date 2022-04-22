@@ -348,7 +348,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         <references refid="classMdDox_1_1ParserBase_1ac0f4754066eb37834a6e6bed93993b50" compoundref="ParserBase_8cpp" startline="83" endline="99">MdDox::ParserBase::parse</references>
         <references refid="classMdDox_1_1Xml_1_1Parser_1ad981d8abab00654645b673875dde2b9a" compoundref="Xml_2Parser_8cpp" startline="82" endline="87">MdDox::Xml::Parser::root</references>
         <references refid="classMdDox_1_1Xml_1_1Node_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="Node_8cpp" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="IndexPageWriter_8cpp" startline="216" endline="294">MdDox::IndexPageWriter::exec</references>
+        <references refid="classMdDox_1_1IndexPageWriter_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="IndexPageWriter_8cpp" startline="274" endline="375">MdDox::IndexPageWriter::exec</references>
         <references refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="SiteBuilder_8h" startline="212">outputDir</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1SiteBuilder_1a6f1d0e35196991ee8b6e28eac813d917" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -631,23 +631,23 @@ digraph {
  <linebreak/>
 </para><para>The builder needs to have all necessary configuration parameters set before running. From there, it needs to load an index file. From input in the supplied index it writes a primary index, class, page, namespace, and directory indexes. After that, iterates over all elements and dispatches writers for each individual element. </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="1006">
+      <node id="1007">
         <label>BackendWriter</label>
       </node>
-      <node id="1008">
+      <node id="1009">
         <label>string</label>
       </node>
-      <node id="1005">
+      <node id="1006">
         <label>MdDox::SiteBuilder</label>
         <link refid="classMdDox_1_1SiteBuilder"/>
-        <childnode refid="1006" relation="usage">
+        <childnode refid="1007" relation="usage">
           <edgelabel>backendType</edgelabel>
         </childnode>
-        <childnode refid="1007" relation="usage">
+        <childnode refid="1008" relation="usage">
           <edgelabel>hideLocation</edgelabel>
           <edgelabel>showDebug</edgelabel>
         </childnode>
-        <childnode refid="1008" relation="usage">
+        <childnode refid="1009" relation="usage">
           <edgelabel>styleSheet</edgelabel>
           <edgelabel>siteUrl</edgelabel>
           <edgelabel>outputDir</edgelabel>
@@ -658,7 +658,7 @@ digraph {
           <edgelabel>imageDir</edgelabel>
         </childnode>
       </node>
-      <node id="1007">
+      <node id="1008">
         <label>bool</label>
       </node>
     </collaborationgraph>

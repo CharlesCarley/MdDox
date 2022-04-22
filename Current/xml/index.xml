@@ -2292,8 +2292,12 @@
     <member refid="classMdDox_1_1IndexPageFilter_1a84cb5694739503f1e96f2adbf3cb1b83" kind="variable"><name>classes</name></member>
     <member refid="classMdDox_1_1IndexPageFilter_1a8ad2267ac487803567b97ccd6a2b63e4" kind="variable"><name>directories</name></member>
     <member refid="classMdDox_1_1IndexPageFilter_1a5af790a805305e03445993ab73b41d16" kind="variable"><name>dirPaths</name></member>
+    <member refid="classMdDox_1_1IndexPageFilter_1a00ca08211ae104a97a81bc848a1badef" kind="variable"><name>hasMainPage</name></member>
     <member refid="classMdDox_1_1IndexPageFilter_1a8997dcb5798f0a9b4c5f10155da6811a" kind="variable"><name>namespaces</name></member>
     <member refid="classMdDox_1_1IndexPageFilter_1af95e9d593b18963c3759b466a1a63d53" kind="variable"><name>pages</name></member>
+    <member refid="classMdDox_1_1IndexPageFilter_1a05b0e7dee4ba5e59d39a576c0ed9863b" kind="function"><name>addDirectory</name></member>
+    <member refid="classMdDox_1_1IndexPageFilter_1a4b11bd55f2547d99725cf9d4f0474b37" kind="function"><name>addPage</name></member>
+    <member refid="classMdDox_1_1IndexPageFilter_1a4c8663e86cff482fd73a51bb7ee69ac2" kind="function"><name>filterReference</name></member>
     <member refid="classMdDox_1_1IndexPageFilter_1a0272d01ca025bd91ac7dd9b6656569c5" kind="function"><name>visitedCompound</name></member>
   </compound>
   <compound refid="classMdDox_1_1IndexPageWriter" kind="class"><name>MdDox::IndexPageWriter</name>
@@ -2992,6 +2996,7 @@
     <member refid="namespaceMdDox_1a6a044efa0d8ab36f057906e935bdf520" kind="function"><name>writeDirectoryTitleBar</name></member>
     <member refid="namespaceMdDox_1aa6abb0ee693aad2d8dc028f0668c9c42" kind="function"><name>writeExternalIconLink</name></member>
     <member refid="namespaceMdDox_1a5cf8aec3a43f96f556d9401bf72cb7dc" kind="function"><name>writeGenericTitleBar</name></member>
+    <member refid="namespaceMdDox_1aeb49b708dff49ea284839bbb7353f533" kind="function"><name>writeMainPageDescriptions</name></member>
     <member refid="namespaceMdDox_1abd83695519b08c759c042dc95cb3a95e" kind="function"><name>writeNamespaceTitleBar</name></member>
     <member refid="namespaceMdDox_1a85bc9b7c1598307fd67b28576b005c71" kind="function"><name>writeReferenceIconLink</name></member>
     <member refid="namespaceMdDox_1ae82c265f6ad332a3719182607f446d95" kind="function"><name>writeReferenceIconLinkHeading</name></member>

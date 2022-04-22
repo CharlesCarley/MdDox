@@ -6,11 +6,16 @@
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<sect1 id="index_1Topics">
+<para>Is a project that transforms Doxygen XML output into a GFM based HTML format. <linebreak/>
+<linebreak/>
+ The primary goal is to embed the output files into the markdown browser on GitHub. The embedded content serves the same purpose as a static document site. Except that it is more integrated with the online source code browser.</para><sect1 id="index_1MP001">
 <title>Topics</title>
 <para><itemizedlist>
-<listitem><para><ref refid="Project" kindref="compound">Project Structure</ref> defines the overall project structure.</para></listitem><listitem><para><ref refid="Site" kindref="compound">Site Layout</ref> defines the overall layout of the generated site.</para></listitem><listitem><para><ref refid="Image" kindref="compound">Image handling</ref> describes how images are linked.</para></listitem><listitem><para><ulink url="directory_index.md">Directory</ulink> Index. </para></listitem></itemizedlist>
+<listitem><para><ref refid="Project" kindref="compound">Project Structure</ref> defines the overall project structure.</para></listitem><listitem><para><ref refid="Site" kindref="compound">Site Layout</ref> defines the overall layout of the generated site.</para></listitem><listitem><para><ref refid="Image" kindref="compound">Image handling</ref> describes how images are linked.</para></listitem></itemizedlist>
 </para></sect1>
+<sect1 id="index_1MP002">
+<title>Index</title>
+</sect1>
     </detaileddescription>
   </compounddef>
 </doxygen>

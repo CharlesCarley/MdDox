@@ -5,8 +5,8 @@ HTML format.
 
 
 The primary goal is to embed the output files into the markdown browser on GitHub. 
-The embedded content would serve the same purpose as a static document site. 
-Except that it would be more integrated with the online source code browser. 
+The embedded serves the same purpose as a static document site. 
+Except that it is more integrated with the online source code browser. 
 
 
 ## Current State
@@ -31,4 +31,4 @@ a proof of concept. Changes to its structure may happen frequently.
 
 ### Documentation index
 
-The root of the output can be found in the [Index file](Current/markdown/indexpage.md#mddox), and the output is generated in the [Current](Current/) directory.
+The root of the output can be found in the [Index file](Current/markdown/index.md#mddox), and the output is generated in the [Current](Current/) directory.

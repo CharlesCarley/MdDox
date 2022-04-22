@@ -111,7 +111,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/MarkupQueryWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/MarkupQueryWriter.cpp" bodystart="38" bodyend="42"/>
-        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="186" endline="197">MdDox::syncStream</references>
+        <references refid="namespaceMdDox_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="WriteUtils_8cpp" startline="184" endline="195">MdDox::syncStream</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -119,25 +119,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="876">
+      <node id="877">
         <label>MdDox::MarkupQueryWriter</label>
         <link refid="classMdDox_1_1MarkupQueryWriter"/>
-        <childnode refid="877" relation="public-inheritance">
+        <childnode refid="878" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="877">
+      <node id="878">
         <label>MdDox::Doxygen::Visitors::MarkupQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="878">
+      <node id="879">
         <label>MdDox::MarkupQueryWriter</label>
         <link refid="classMdDox_1_1MarkupQueryWriter"/>
-        <childnode refid="879" relation="public-inheritance">
+        <childnode refid="880" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="879">
+      <node id="880">
         <label>MdDox::Doxygen::Visitors::MarkupQueryVisitor</label>
         <link refid="classMdDox_1_1Doxygen_1_1Visitors_1_1MarkupQueryVisitor"/>
       </node>

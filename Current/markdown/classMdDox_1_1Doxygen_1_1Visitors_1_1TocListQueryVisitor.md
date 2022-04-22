@@ -2,9 +2,7 @@
 <h1>TocListQueryVisitor</h1>
 <a id="classmddox_1_1doxygen_1_1visitors_1_1toclistqueryvisitor"></a>
 <a href="https://github.com/CharlesCarley/MdDox#~">~</a>
-<a href="indexpage.md#mddox">MdDox</a>
-<span class="inline-text">/</span>
-<a href="index.md#index">Index</a>
+<a href="index.md#index">MdDox</a>
 <span class="inline-text">/</span>
 <a href="namespaceMdDox.md#mddox">MdDox</a>
 <span class="inline-text">::</span>
