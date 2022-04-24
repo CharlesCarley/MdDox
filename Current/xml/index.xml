@@ -2203,6 +2203,8 @@
     <member refid="classMdDox_1_1GenericPageWriter_1a08e35031519e2ae87433da07e1793750" kind="function"><name>visitedCompoundName</name></member>
     <member refid="classMdDox_1_1GenericPageWriter_1a4c5b8b8eb4b0a06d6510ed94e42078fb" kind="function"><name>GenericPageWriter</name></member>
     <member refid="classMdDox_1_1GenericPageWriter_1a1e168962c12758c06bfab9dd750e0812" kind="function"><name>~GenericPageWriter</name></member>
+    <member refid="classMdDox_1_1GenericPageWriter_1a54b2383dbf72922f4c5fc38253682d6e" kind="function"><name>visitedBriefDescription</name></member>
+    <member refid="classMdDox_1_1GenericPageWriter_1a05d9790fd1b50f4515efdaa4133d98fa" kind="function"><name>visitedDetailedDescription</name></member>
   </compound>
   <compound refid="classMdDox_1_1GraphNode" kind="class"><name>MdDox::GraphNode</name>
     <member refid="classMdDox_1_1GraphNode_1a5db4492b71c071bb8a31c723dc7c4344" kind="function"><name>GraphNode</name></member>
@@ -2727,6 +2729,7 @@
     <member refid="classMdDox_1_1SiteBuilder_1ac3ab43b7907e823f43afd20c2b7b1742" kind="variable"><name>imageDir</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a818f474bf94b27ba6ec9debe11da39fb" kind="variable"><name>outputDir</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a918f3a77721cccaac92bd2e593880b99" kind="variable"><name>outputFileExt</name></member>
+    <member refid="classMdDox_1_1SiteBuilder_1a1a086472ae27f1719216893079990d5a" kind="variable"><name>pagesShowBrief</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a79e35d18abf0b773ab42fb4b2680ad35" kind="variable"><name>projectBrief</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1a558d8fe39601e29714b12c5af622d84a" kind="variable"><name>projectTitle</name></member>
     <member refid="classMdDox_1_1SiteBuilder_1aef403c6d9c5df4edfa0cbb88f7e3758d" kind="variable"><name>showDebug</name></member>

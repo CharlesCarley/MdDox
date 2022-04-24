@@ -150,8 +150,9 @@ namespace MdDox
         else
             StringUtils::trimR(fileUrl, fileUrl, '/');
 
-        projectTitle = config.getValue("PROJECT_TITLE");
-        projectBrief = config.getValue("PROJECT_BRIEF");
+        projectTitle   = config.getValue("PROJECT_TITLE");
+        projectBrief   = config.getValue("PROJECT_BRIEF");
+        pagesShowBrief = config.getBool("SHOW_PAGE_BRIEF");
 
         String dotCfg = FileSystem::absolute(config.getValue("DOT_CONFIG")).string();
         if (!dotCfg.empty())

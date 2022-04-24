@@ -52,6 +52,7 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedBriefDescription</definition>
         <argsstring>(const DescriptionQuery &amp;query)</argsstring>
         <name>visitedBriefDescription</name>
+        <reimplementedby refid="classMdDox_1_1GenericPageWriter_1a54b2383dbf72922f4c5fc38253682d6e">visitedBriefDescription</reimplementedby>
         <reimplementedby refid="classMdDox_1_1PageWriter_1a7160540760aa919d69427ad74df8ebc5">visitedBriefDescription</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> &amp;</type>
@@ -163,6 +164,7 @@
         <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedDetailedDescription</definition>
         <argsstring>(const DescriptionQuery &amp;query)</argsstring>
         <name>visitedDetailedDescription</name>
+        <reimplementedby refid="classMdDox_1_1GenericPageWriter_1a05d9790fd1b50f4515efdaa4133d98fa">visitedDetailedDescription</reimplementedby>
         <reimplementedby refid="classMdDox_1_1PageWriter_1a59596c8bb00a0e5b7c8e57a23e4594df">visitedDetailedDescription</reimplementedby>
         <param>
           <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">DescriptionQuery</ref> &amp;</type>

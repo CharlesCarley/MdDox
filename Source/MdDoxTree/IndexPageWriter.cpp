@@ -21,7 +21,7 @@
 */
 #include "MdDoxTree/IndexPageWriter.h"
 #include <utility>
-#include "Doxygen/DescriptionWriter.h"
+#include "MdDoxTree/DescriptionWriter.h"
 #include "Doxygen/DoxCompoundKind.h"
 #include "Doxygen/DoxygenQuery.h"
 #include "Doxygen/MemberIndexQuery.h"

@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GenericPageWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="44" bodyend="52"/>
+        <location file="Source/MdDoxTree/GenericPageWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="55" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1GenericPageWriter_1a08e35031519e2ae87433da07e1793750" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -47,7 +47,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/GenericPageWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="39" bodyend="42"/>
+        <location file="Source/MdDoxTree/GenericPageWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="50" bodyend="53"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -88,6 +88,63 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/GenericPageWriter.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMdDox_1_1GenericPageWriter_1a54b2383dbf72922f4c5fc38253682d6e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::GenericPageWriter::visitedBriefDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
+        <name>visitedBriefDescription</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1aa1edbb7417781126ad7ede3e4731bf2b">visitedBriefDescription</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>briefdescription</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the DescriptionQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/GenericPageWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="39" bodyend="43"/>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="247" endline="252">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1PageWriter_1a7160540760aa919d69427ad74df8ebc5" compoundref="PageWriter_8cpp" startline="48" endline="52">MdDox::PageWriter::visitedBriefDescription</references>
+      </memberdef>
+      <memberdef kind="function" id="classMdDox_1_1GenericPageWriter_1a05d9790fd1b50f4515efdaa4133d98fa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::GenericPageWriter::visitedDetailedDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
+        <name>visitedDetailedDescription</name>
+        <reimplements refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1ac31b04c04ba016cec20e5805ccef0d1d">visitedDetailedDescription</reimplements>
+        <param>
+          <type>const <ref refid="classMdDox_1_1Doxygen_1_1DescriptionQuery" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>detaileddescription</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the DescriptionQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/GenericPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="45" bodyend="48"/>
+        <references refid="classMdDox_1_1PageWriter_1a59596c8bb00a0e5b7c8e57a23e4594df" compoundref="PageWriter_8cpp" startline="54" endline="60">MdDox::PageWriter::visitedDetailedDescription</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -171,7 +228,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/GenericPageWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.h" bodystart="33" bodyend="44"/>
+    <location file="Source/MdDoxTree/GenericPageWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.h" bodystart="33" bodyend="47"/>
     <listofallmembers>
       <member refid="classMdDox_1_1PageWriter_1ac012825bbcafe1452762c50cd2d35037" prot="protected" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>_inDir</name></member>
       <member refid="classMdDox_1_1PageWriter_1a1fd2e2d5dddec4f47bb5c229d79c6229" prot="protected" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>_out</name></member>
@@ -187,11 +244,11 @@
       <member refid="classMdDox_1_1PageWriter_1a7b84542c57c02926a9930f35bc95fc47" prot="public" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>PageWriter</name></member>
       <member refid="classMdDox_1_1GenericPageWriter_1a9abad2c98b3a9ecf672d6b1a45c859da" prot="private" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>preSortQuery</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a61b8487366558ce7cd7749ad7baee3ac" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedBaseCompoundRef</name></member>
-      <member refid="classMdDox_1_1PageWriter_1a7160540760aa919d69427ad74df8ebc5" prot="protected" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedBriefDescription</name></member>
+      <member refid="classMdDox_1_1GenericPageWriter_1a54b2383dbf72922f4c5fc38253682d6e" prot="protected" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedBriefDescription</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a07b21a15f65d8614859140fc71579e39" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedCollaborationGraph</name></member>
       <member refid="classMdDox_1_1GenericPageWriter_1a08e35031519e2ae87433da07e1793750" prot="private" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedCompoundName</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1a75a893e5819d6bd49e5e0005d8c8dadc" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedDerivedCompoundRef</name></member>
-      <member refid="classMdDox_1_1PageWriter_1a59596c8bb00a0e5b7c8e57a23e4594df" prot="protected" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedDetailedDescription</name></member>
+      <member refid="classMdDox_1_1GenericPageWriter_1a05d9790fd1b50f4515efdaa4133d98fa" prot="protected" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedDetailedDescription</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1af52e424ab412bc68bfb5f973b7b5b27c" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedIncDepGraph</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1aaa0b3a67ada1b58bd4059ac320f15eab" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedIncludedBy</name></member>
       <member refid="classMdDox_1_1Doxygen_1_1Visitors_1_1CompoundDefQueryVisitor_1ad2da872ba085491d223264276737a8e7" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedIncludes</name></member>

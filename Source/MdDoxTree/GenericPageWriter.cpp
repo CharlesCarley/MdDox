@@ -36,6 +36,17 @@ namespace MdDox
     {
     }
 
+    void GenericPageWriter::visitedBriefDescription(const Doxygen::DescriptionQuery& query)
+    {
+        if (SiteBuilder::get().pagesShowBrief)
+            PageWriter::visitedBriefDescription(query);
+    }
+
+    void GenericPageWriter::visitedDetailedDescription(const Doxygen::DescriptionQuery& query)
+    {
+        PageWriter::visitedDetailedDescription(query);
+    }
+
     void GenericPageWriter::visitedCompoundName(const String& text)
     {
         writeGenericTitleBar(_out, _writer, text);

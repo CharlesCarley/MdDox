@@ -40,7 +40,10 @@ namespace MdDox
     public:
         GenericPageWriter(DocumentWriter* writer, const Reference& ref, const PathUtil& out);
         ~GenericPageWriter() override = default;
-        
+
+    protected:
+        void visitedBriefDescription(const Doxygen::DescriptionQuery& query) override;
+        void visitedDetailedDescription(const Doxygen::DescriptionQuery& query) override;
     };
 
 }  // namespace MdDox

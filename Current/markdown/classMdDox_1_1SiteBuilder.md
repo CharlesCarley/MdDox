@@ -76,6 +76,10 @@
 </a>
 </span>
 <br/>
+<span class="icon-list-item"><a href="#pagesshowbrief" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">pagesShowBrief</span>
+</a>
+</span>
+<br/>
 <span class="icon-list-item"><a href="#projectbrief" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">projectBrief</span>
 </a>
 </span>
@@ -457,6 +461,25 @@ Maps to the config option </span>
 </a>
 </span>
 <br/>
+<a id="pagesshowbrief"></a>
+<h2>pagesShowBrief</h2>
+<span class="inline-text">bool</span>
+<span class="bold-text"><b>pagesShowBrief</b></span>
+<br/>
+<span class="inline-text">Allows the page brief print to be switched on or off. </span>
+<br/>
+<br/>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.h#L267" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<span class="icon-list-item"><a href="#sitebuilder" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+<br/>
 <a id="projectbrief"></a>
 <h2>projectBrief</h2>
 <a href="namespaceMdDox.md#string">String</a>
@@ -754,7 +777,7 @@ Maps to the config option </span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L199" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L200" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
 <br/>
@@ -792,7 +815,7 @@ Maps to the config option </span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L192" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L193" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
 <br/>
@@ -830,7 +853,7 @@ Maps to the config option </span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L206" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L207" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
 <br/>
@@ -865,7 +888,7 @@ Maps to the config option </span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L177" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L178" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
 <br/>
@@ -900,7 +923,7 @@ Maps to the config option </span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L225" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L226" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
 <br/>
@@ -943,7 +966,7 @@ Maps to the config option </span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L184" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L185" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
 <br/>
@@ -998,7 +1021,7 @@ Maps to the config option </span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L169" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L170" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
 <br/>
@@ -1053,7 +1076,7 @@ Maps to the config option </span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L217" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L218" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
 <br/>
@@ -1170,6 +1193,10 @@ Uses </span>
 </span>
 </div>
 <div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SiteBuilder.md#pagesshowbrief">pagesShowBrief</a>
+</span>
+</div>
+<div class="paragraph">
 <span class="paragraph"><img src="../images/class.svg"/><a href="namespaceMdDox.md#makeinternalpages">makeInternalPages</a>
 </span>
 </div>
@@ -1231,7 +1258,7 @@ Uses </span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L232" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L233" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
 <br/>
@@ -1259,7 +1286,7 @@ Uses </span>
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L246" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/SiteBuilder.cpp#L247" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">SiteBuilder.cpp</span>
 </a>
 </span>
 <br/>

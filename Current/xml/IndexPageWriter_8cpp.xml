@@ -4,7 +4,7 @@
     <compoundname>IndexPageWriter.cpp</compoundname>
     <includes refid="IndexPageWriter_8h" local="yes">MdDoxTree/IndexPageWriter.h</includes>
     <includes local="no">utility</includes>
-    <includes refid="DescriptionWriter_8h" local="yes">DescriptionWriter.h</includes>
+    <includes refid="DescriptionWriter_8h" local="yes">MdDoxTree/DescriptionWriter.h</includes>
     <includes refid="DoxCompoundKind_8h" local="yes">Doxygen/DoxCompoundKind.h</includes>
     <includes refid="DoxygenQuery_8h" local="yes">Doxygen/DoxygenQuery.h</includes>
     <includes refid="MemberIndexQuery_8h" local="yes">Doxygen/MemberIndexQuery.h</includes>
@@ -264,7 +264,7 @@
         </childnode>
       </node>
       <node id="908">
-        <label>DescriptionWriter.h</label>
+        <label>MdDoxTree/DescriptionWriter.h</label>
         <childnode refid="909" relation="include">
         </childnode>
         <childnode refid="907" relation="include">
@@ -476,7 +476,7 @@
 <codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/IndexPageWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DescriptionWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/DescriptionWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DoxCompoundKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DoxygenQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/MemberIndexQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>

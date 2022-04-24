@@ -309,7 +309,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlCommandWriter.cpp" line="185" column="1" bodyfile="Source/MdDoxTree/HtmlCommandWriter.cpp" bodystart="185" bodyend="189"/>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="246" endline="251">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="247" endline="252">MdDox::SiteBuilder::get</references>
         <references refid="namespaceMdDox_1_1Html_1a97fe56265abcde241b1562de413ece45" compoundref="HtmlCommandWriter_8cpp" startline="141" endline="147">inlineImage</references>
       </memberdef>
       <memberdef kind="function" id="namespaceMdDox_1_1Html_1a079b0a5c964849113fa9c5dd8943c5c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -337,7 +337,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlCommandWriter.cpp" line="191" column="1" bodyfile="Source/MdDoxTree/HtmlCommandWriter.cpp" bodystart="191" bodyend="197"/>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="246" endline="251">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="247" endline="252">MdDox::SiteBuilder::get</references>
         <references refid="namespaceMdDox_1_1Html_1acf2ca4cce2f6a82e53465809c87bef51" compoundref="HtmlCommandWriter_8cpp" startline="236" endline="242">beginLink</references>
         <references refid="namespaceMdDox_1_1Html_1a97fe56265abcde241b1562de413ece45" compoundref="HtmlCommandWriter_8cpp" startline="141" endline="147">inlineImage</references>
         <references refid="namespaceMdDox_1_1Html_1ae00b2ad365f221d267c183ac53f572a7" compoundref="HtmlCommandWriter_8cpp" startline="244" endline="247">endLink</references>
@@ -397,7 +397,7 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/HtmlCommandWriter.cpp" line="199" column="1" bodyfile="Source/MdDoxTree/HtmlCommandWriter.cpp" bodystart="199" bodyend="209"/>
         <references refid="namespaceMdDox_1a15dad607ed0da2e2586a76873d2e4620" compoundref="String_8h" startline="223" endline="228">MdDox::StringCombine</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="246" endline="251">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="247" endline="252">MdDox::SiteBuilder::get</references>
         <references refid="namespaceMdDox_1_1Html_1a1dc8a7d9f3c29e9e7e15e40a6303ee6d" compoundref="HtmlCommandWriter_8cpp" startline="223" endline="229">beginSpan</references>
         <references refid="namespaceMdDox_1_1Html_1acf2ca4cce2f6a82e53465809c87bef51" compoundref="HtmlCommandWriter_8cpp" startline="236" endline="242">beginLink</references>
         <references refid="namespaceMdDox_1_1Html_1a97fe56265abcde241b1562de413ece45" compoundref="HtmlCommandWriter_8cpp" startline="141" endline="147">inlineImage</references>

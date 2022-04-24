@@ -107,7 +107,7 @@ namespace MdDox
         mutable StringArray     _dotFiles;
         mutable Config          _dot;
         mutable ReferenceTable* _referenceMap;
-
+        
         /**
          * \brief Writes all dot files to disk.
          */
@@ -258,6 +258,13 @@ namespace MdDox
     	 * the default value is BackendMarkdown
          */
         BackendWriter backendType{BackendMarkdown};
+
+
+        /**
+         * \brief Allows the page brief print to be switched on or off. 
+         *
+         */
+        bool pagesShowBrief{false};
     };
 
 }  // namespace MdDox

@@ -59,9 +59,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Source/MdDoxTree/ReferenceIdentifiers.h" line="56" column="1" bodyfile="Source/MdDoxTree/ReferenceIdentifiers.cpp" bodystart="27" bodyend="40"/>
-        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="246" endline="251">MdDox::SiteBuilder::get</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a69f198ab68458ee9fa64bd7538415af4" compoundref="SiteBuilder_8cpp" startline="247" endline="252">MdDox::SiteBuilder::get</references>
         <references refid="classMdDox_1_1Reference_1ae3d362db9aea6bfa980f3b71689a5cd5" compoundref="Reference_8h" startline="34">MdDox::Reference::_ref</references>
-        <references refid="classMdDox_1_1SiteBuilder_1a13d889c67d37360ce5c46f8596ac6fb0" compoundref="SiteBuilder_8cpp" startline="177" endline="182">MdDox::SiteBuilder::getCompoundRef</references>
+        <references refid="classMdDox_1_1SiteBuilder_1a13d889c67d37360ce5c46f8596ac6fb0" compoundref="SiteBuilder_8cpp" startline="178" endline="183">MdDox::SiteBuilder::getCompoundRef</references>
       </memberdef>
       <memberdef kind="function" id="classMdDox_1_1MemberReference_1a22463d3ae05194a06cd03945a09a6795" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="namespaceMdDox_1_1Doxygen_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">Doxygen::DoxMemberKindEnum</ref> &amp;</type>

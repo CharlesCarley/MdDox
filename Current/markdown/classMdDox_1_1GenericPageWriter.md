@@ -35,6 +35,16 @@
 </a>
 </span>
 <br/>
+<a id="protected-methods"></a>
+<h2>Protected Methods</h2>
+<span class="icon-list-item"><a href="#visitedbriefdescription" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedBriefDescription</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="#visiteddetaileddescription" class="icon-list-item"><img src="../images/class.svg" class="icon-list-item"/><span class="icon-list-item">visitedDetailedDescription</span>
+</a>
+</span>
+<br/>
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/GenericPageWriter.h#L34" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.h</span>
@@ -64,7 +74,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/GenericPageWriter.cpp#L44" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/GenericPageWriter.cpp#L55" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -106,7 +116,7 @@
 </a>
 </span>
 <br/>
-<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/GenericPageWriter.cpp#L39" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.cpp</span>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/GenericPageWriter.cpp#L50" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.cpp</span>
 </a>
 </span>
 <br/>
@@ -163,6 +173,106 @@
 <a id="defined-in"></a>
 <h4>Defined in</h4>
 <span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/GenericPageWriter.h#L42" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.h</span>
+</a>
+</span>
+<br/>
+<br/>
+<span class="icon-list-item"><a href="#genericpagewriter" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+<br/>
+<a id="visitedbriefdescription"></a>
+<h2>visitedBriefDescription</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedBriefDescription</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">Doxygen::DescriptionQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>briefdescription</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the DescriptionQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1SiteBuilder.md#get">get</a>
+</span>
+</div>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#visitedbriefdescription">visitedBriefDescription</a>
+</span>
+</div>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/GenericPageWriter.h#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/GenericPageWriter.cpp#L39" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.cpp</span>
+</a>
+</span>
+<br/>
+<br/>
+<span class="icon-list-item"><a href="#genericpagewriter" class="icon-list-item"><img src="../images/jumpToTop.svg" class="icon-list-item"/><span class="icon-list-item">top</span>
+</a>
+</span>
+<br/>
+<a id="visiteddetaileddescription"></a>
+<h2>visitedDetailedDescription</h2>
+<span class="inline-text">void</span>
+<span class="bold-text"><b>visitedDetailedDescription</b></span>
+<span class="italic-text"><i>(</i></span>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/horSpace24px.svg"/><span class="inline-text">const </span>
+<a href="classMdDox_1_1Doxygen_1_1DescriptionQuery.md#descriptionquery">Doxygen::DescriptionQuery</a>
+<span class="inline-text"> &amp;</span>
+<span class="inline-text">query</span>
+</span>
+</div>
+<span class="italic-text"><i>)</i></span>
+<a id="details"></a>
+<h4>Details</h4>
+<span class="inline-text">Called when the element </span>
+<span class="bold-text"><b>detaileddescription</b></span>
+<span class="inline-text"> is found. </span>
+<br/>
+<br/>
+<ul>
+<li><span class="bold-text"><b>query</b></span>
+<span class="inline-text"> - </span>
+<span class="inline-text">Const reference to the DescriptionQuery class. </span>
+</li>
+</ul>
+<br/>
+<a id="references"></a>
+<h4>References</h4>
+<div class="paragraph">
+<span class="paragraph"><img src="../images/class.svg"/><a href="classMdDox_1_1PageWriter.md#visiteddetaileddescription">visitedDetailedDescription</a>
+</span>
+</div>
+<a id="defined-in"></a>
+<h4>Defined in</h4>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/GenericPageWriter.h#L46" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.h</span>
+</a>
+</span>
+<br/>
+<span class="icon-list-item"><a href="https://github.com/CharlesCarley/MdDox/blob/master/Source/MdDoxTree/GenericPageWriter.cpp#L45" class="icon-list-item"><img src="../images/file.svg" class="icon-list-item"/><span class="icon-list-item">GenericPageWriter.cpp</span>
 </a>
 </span>
 <br/>
