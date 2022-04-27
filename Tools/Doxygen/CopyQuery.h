@@ -59,7 +59,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>docCopyType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="docCopyType">
      *    <xsd:sequence>

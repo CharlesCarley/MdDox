@@ -31,7 +31,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>linkType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="linkType">
      *    <xsd:attribute name="refid" type="xsd:string"/>

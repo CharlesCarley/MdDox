@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01691" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::ParBlockQueryVisitor</compoundname>
+    <includes local="no">Tools/Doxygen/ParBlockQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01691_1ac5db1c5e401bb98be010dd23cc996663" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::ParBlockQueryVisitor::~ParBlockQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ParBlockQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParBlockQuery.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01691_1a73ae6cd099de3978c75d3be849ba9026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ParBlockQueryVisitor::visitedParagraph</definition>
+        <argsstring>(const ParaQuery &amp;query)</argsstring>
+        <name>visitedParagraph</name>
+        <param>
+          <type>const <ref refid="a01687" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a01687" kindref="compound">ParaQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParBlockQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="a01691_1a1df60e9a1afc62b55c16bfc5dd3620f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ParBlockQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParBlockQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/ParBlockQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="30" bodyend="45"/>
+    <listofallmembers>
+      <member refid="a01691_1a73ae6cd099de3978c75d3be849ba9026" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ParBlockQueryVisitor</scope><name>visitedParagraph</name></member>
+      <member refid="a01691_1a1df60e9a1afc62b55c16bfc5dd3620f8" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ParBlockQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="a01691_1ac5db1c5e401bb98be010dd23cc996663" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ParBlockQueryVisitor</scope><name>~ParBlockQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

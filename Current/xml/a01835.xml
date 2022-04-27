@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01835" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::GenApi::Common</compoundname>
+    <basecompoundref refid="a01271" prot="public" virt="non-virtual">MdDox::Xml::Writer</basecompoundref>
+    <includes local="no">Tools/GenApi/Common.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="a01835_1aa1f6ef1b66c2181ba326f69a12adf836" prot="protected" static="no" mutable="no">
+        <type><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref></type>
+        <definition>StringArray MdDox::GenApi::Common::_forwards</definition>
+        <argsstring></argsstring>
+        <name>_forwards</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Common.h" line="188" column="1" bodyfile="Tools/GenApi/Common.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01835_1aa1569376c497781f16fb174df236b7c9" prot="protected" static="no" mutable="no">
+        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::GenApi::Common::_header</definition>
+        <argsstring></argsstring>
+        <name>_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Common.h" line="187" column="1" bodyfile="Tools/GenApi/Common.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01835_1a3ed1d0aad3cf0281ff56e6b38f846e64" prot="protected" static="no" mutable="no">
+        <type><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref></type>
+        <definition>StringArray MdDox::GenApi::Common::_includes</definition>
+        <argsstring></argsstring>
+        <name>_includes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Common.h" line="189" column="1" bodyfile="Tools/GenApi/Common.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="a01835_1ab290f1573b5e5b4a4008c1d8a682c681" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Common::writeHeader</definition>
+        <argsstring>(OStream &amp;out)</argsstring>
+        <name>writeHeader</name>
+        <param>
+          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Common.h" line="192" column="1" bodyfile="Tools/GenApi/Common.cpp" bodystart="47" bodyend="68"/>
+        <references refid="a01867_1a3ca4d4f3747d2bab8d48e9ebe9862c41" compoundref="a00971" startline="5" endline="10">MdDox::GenApi::Resources::Resource::getCommon</references>
+        <references refid="a01835_1a3ed1d0aad3cf0281ff56e6b38f846e64" compoundref="a00941" startline="189">_includes</references>
+        <references refid="a01835_1aa1f6ef1b66c2181ba326f69a12adf836" compoundref="a00941" startline="188">_forwards</references>
+        <references refid="a01247_1a7c366ea2942779a96722181c617fbe35" compoundref="a00371" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01835_1ab9c1336c9c08b8361872bb56e99efaf0" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::GenApi::Common::Common</definition>
+        <argsstring>(String header)</argsstring>
+        <name>Common</name>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+          <declname>header</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Common.h" line="195" column="1" bodyfile="Tools/GenApi/Common.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="a01835_1a8e0dec82cf3248a60d42c0881db291ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::GenApi::Common::~Common</definition>
+        <argsstring>() override=default</argsstring>
+        <name>~Common</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Common.h" line="196" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01835_1aca886b22514a354cf34e98b21383fe67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Common::addForward</definition>
+        <argsstring>(const String &amp;fwd)</argsstring>
+        <name>addForward</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>fwd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Common.h" line="200" column="1" bodyfile="Tools/GenApi/Common.cpp" bodystart="70" bodyend="73"/>
+        <references refid="a01835_1aa1f6ef1b66c2181ba326f69a12adf836" compoundref="a00941" startline="188">_forwards</references>
+      </memberdef>
+      <memberdef kind="function" id="a01835_1aec2be8ee6719b1bf9b501718be34c36a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Common::addInclude</definition>
+        <argsstring>(const String &amp;inc)</argsstring>
+        <name>addInclude</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>inc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Common.h" line="201" column="1" bodyfile="Tools/GenApi/Common.cpp" bodystart="75" bodyend="78"/>
+        <references refid="a01835_1a3ed1d0aad3cf0281ff56e6b38f846e64" compoundref="a00941" startline="189">_includes</references>
+      </memberdef>
+      <memberdef kind="function" id="a01835_1abfa39477bb8491c8429905a756feb567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Common::write</definition>
+        <argsstring>(const PathUtil &amp;output)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="a01239" kindref="compound">PathUtil</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Common.h" line="198" column="1" bodyfile="Tools/GenApi/Common.cpp" bodystart="35" bodyend="45"/>
+        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">MdDox::StringCombine</references>
+        <references refid="a01239_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="a00365" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
+        <references refid="a01239_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="a00365" startline="126" endline="129">MdDox::PathUtil::stem</references>
+        <references refid="a01835_1ab290f1573b5e5b4a4008c1d8a682c681" compoundref="a00938" startline="47" endline="68">writeHeader</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="746">
+        <label>MdDox::Xml::Writer</label>
+        <link refid="a01271"/>
+      </node>
+      <node id="745">
+        <label>MdDox::GenApi::Common</label>
+        <link refid="a01835"/>
+        <childnode refid="746" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="748">
+        <label>MdDox::Xml::Writer</label>
+        <link refid="a01271"/>
+      </node>
+      <node id="747">
+        <label>MdDox::GenApi::Common</label>
+        <link refid="a01835"/>
+        <childnode refid="748" relation="public-inheritance">
+        </childnode>
+        <childnode refid="749" relation="usage">
+          <edgelabel>_includes</edgelabel>
+          <edgelabel>_forwards</edgelabel>
+        </childnode>
+        <childnode refid="750" relation="usage">
+          <edgelabel>_header</edgelabel>
+        </childnode>
+      </node>
+      <node id="750">
+        <label>string</label>
+      </node>
+      <node id="749">
+        <label>vector&lt; std::string &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/GenApi/Common.h" line="185" column="1" bodyfile="Tools/GenApi/Common.h" bodystart="184" bodyend="203"/>
+    <listofallmembers>
+      <member refid="a01835_1aa1f6ef1b66c2181ba326f69a12adf836" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>_forwards</name></member>
+      <member refid="a01835_1aa1569376c497781f16fb174df236b7c9" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>_header</name></member>
+      <member refid="a01835_1a3ed1d0aad3cf0281ff56e6b38f846e64" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>_includes</name></member>
+      <member refid="a01835_1aca886b22514a354cf34e98b21383fe67" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>addForward</name></member>
+      <member refid="a01835_1aec2be8ee6719b1bf9b501718be34c36a" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>addInclude</name></member>
+      <member refid="a01835_1ab9c1336c9c08b8361872bb56e99efaf0" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>Common</name></member>
+      <member refid="a01271_1a7d48f1a4ee7a1bbefb8ca05a0ded4536" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>setIndent</name></member>
+      <member refid="a01271_1a386ffcf7d74ba57836183ad2be6214a5" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>setWriteXml</name></member>
+      <member refid="a01835_1abfa39477bb8491c8429905a756feb567" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>write</name></member>
+      <member refid="a01271_1a3de47d9176cd5216f12c3e71d7c6e828" prot="public" virt="non-virtual" ambiguityscope="MdDox::Xml::Writer::"><scope>MdDox::GenApi::Common</scope><name>write</name></member>
+      <member refid="a01835_1ab290f1573b5e5b4a4008c1d8a682c681" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>writeHeader</name></member>
+      <member refid="a01271_1ab057bff69eed3c14bd6fc1c7558af3c1" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>Writer</name></member>
+      <member refid="a01835_1a8e0dec82cf3248a60d42c0881db291ce" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>~Common</name></member>
+      <member refid="a01271_1aa7759dd2e58c15311613673da60ecb38" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Common</scope><name>~Writer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

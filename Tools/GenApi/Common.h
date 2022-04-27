@@ -29,40 +29,43 @@ namespace MdDox
 }
 
 /**
-
 \brief GenApi is used to generate a static scaffolding library.
 
-The main idea for the library is to place a node inside a shell or scaffolding to
-define a concrete structure. It does this by generating a library off of the compound
-schema file provided by Doxygen.
-<br/>
-<br/>
-It has a direct dependency on MdDox::Xml both to generate the library and in
-the final output.
-<br/>
-<br/>
-The program will not work out of the box. By design, it needs to be flexible
-enough to allow renaming types in the schema without modifying the actual
-element names. So, it needs to output a few extra files first before generating
-the API. The application command line provides the means to extract a 1:1
-mapping of all the needed names. After initial setup is complete, any type
-can be renamed. The generator always uses the first value when searching the
-file. The second value becomes the output name in the API 
-<br/>
-<br/>
-<b>Concept</b><br/>
+The main idea for this library is to provide the means to place a node inside
+a shell or scaffolding. The %GenApi namespace allows this by generating a
+source library off of the compound schema file provided by %Doxygen.
+\br
+
+By design, the program will not work out of the box. It needs to be flexible
+enough to allow the renaming of types in the schema without modifying the
+actual element names. In order to do this, it needs to output a few extra files
+before generating the API.
+\br
+
+The command line provides the means to extract a 1:1 mapping of all the names.
+It stores the names in individual resource files that the program uses during
+runtime.
+\br
 
 \dot
 digraph {
-    bgcolor = none;
-    rankdir = "LR";
     layout  = dot;
-    
+    bgcolor = "${graph-bg}";
+    rankdir = "LR";
+    labelloc= "t"
+    label   = "Functional Structure"
+    fontname= "${font-family}"
+    fontsize= "${font-size}"
+    margin  = "${node-primary-margin}"
+
     node [
 		shape     = none
+		style     = none
 		fontname  = "${font-family}"
-		fontcolor = "${text}"
 		fontsize  = "${font-size}"
+		fontcolor = "${node-primary-text}"
+		color     = "${node-primary-border}"
+		fillcolor = "${node-primary-exe}"
 	]
     edge [
 		arrowsize = "${arrow-size}"
@@ -73,23 +76,26 @@ digraph {
 	]
 
 	subgraph cluster_a{
+	    label       = ""
 		peripheries = 0
 	    bgcolor     = none
 
 		Application[label=<
 			<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-0}">
-				<tr><td align="center" port="Title"><font color="${bold}"><b>Application</b></font></td></tr>
+				<tr>
+				<td align="center" port="Title"><font color="${bold}"><b>Application</b></font></td>
+				</tr>
 				<tr><td align="left">
-				<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-1}">
+			    <table border="0" cellspacing="3" cellpadding="4" bgcolor="${grey-table-1}">
 				<tr><td align="center">Setup</td></tr>
-				<tr><td align="left" port="C">-c</td></tr>
-				<tr><td align="left" port="G">-g</td></tr>
-				<tr><td align="left" port="E">-e</td></tr>
-				<tr><td align="left" port="S">-s</td></tr>
-				<tr><td align="left" port="N">-n</td></tr>
+				<tr><td align="left" border="1" port="C">-c</td></tr>
+				<tr><td align="left" border="1" port="G">-g</td></tr>
+				<tr><td align="left" border="1" port="E">-e</td></tr>
+				<tr><td align="left" border="1" port="S">-s</td></tr>
+				<tr><td align="left" border="1" port="N">-n</td></tr>
 				<tr><td align="center">Generate</td></tr>
-				<tr><td align="left" port="I">-i</td></tr>
-				<tr><td align="left" port="O">-o</td></tr>
+				<tr><td align="left" border="1" port="I">-i</td></tr>
+				<tr><td align="left" border="1" port="O">-o</td></tr>
 				</table>
 				</td></tr>
 			</table>
@@ -99,13 +105,13 @@ digraph {
 			<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-0}">
 				<tr><td align="center" port="Title"><font color="${bold}"><b>Swap Database</b></font></td></tr>
 				<tr><td align="left">
-				<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-1}">
-				<tr><td align="left" port="C">Complex.txt</td></tr>
-				<tr><td align="left" port="G">Groups.txt</td></tr>
-				<tr><td align="left" port="E">Elements.xt</td></tr>
-				<tr><td align="left" port="S">Simple.txt</td></tr>
-				<tr><td align="left" port="N">Enums.txt</td></tr>
-				<tr><td align="left" port="I">input.xsd</td></tr>
+			    <table border="0" cellspacing="3" cellpadding="4" bgcolor="${grey-table-1}">
+				<tr><td align="left" border="1" port="C">Complex.txt</td></tr>
+				<tr><td align="left" border="1" port="G">Groups.txt</td></tr>
+				<tr><td align="left" border="1" port="E">Elements.xt</td></tr>
+				<tr><td align="left" border="1" port="S">Simple.txt</td></tr>
+				<tr><td align="left" border="1" port="N">Enums.txt</td></tr>
+				<tr><td align="left" border="1" port="I">input.xsd</td></tr>
 				</table>
 				</td></tr>
 			</table>
@@ -115,18 +121,20 @@ digraph {
 		<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-0}">
 			<tr><td align="center" port="Title"><font color="${bold}"><b>Index</b></font></td></tr>
 			<tr><td align="left">
-			<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-1}">
-			<tr><td align="left" port="C">xsd:complexType</td></tr>
-			<tr><td align="left" port="G">xsd:group</td></tr>
-			<tr><td align="left" port="E">xsd:element</td></tr>
-			<tr><td align="left" port="S">xsd:simpleType</td></tr>
-			<tr><td align="left" port="N">xsd:enumeration</td></tr>
-			<tr><td align="left" port="I">input.xsd</td></tr>
+			<table border="0" cellspacing="3" cellpadding="4" bgcolor="${grey-table-1}">
+			<tr><td align="left" border="1" port="C">xsd:complexType</td></tr>
+			<tr><td align="left" border="1" port="G">xsd:group</td></tr>
+			<tr><td align="left" border="1" port="E">xsd:element</td></tr>
+			<tr><td align="left" border="1" port="S">xsd:simpleType</td></tr>
+			<tr><td align="left" border="1" port="N">xsd:enumeration</td></tr>
+			<tr><td align="left" border="1" port="I">input.xsd</td></tr>
 			</table>
 			</td></tr>
 		</table>
 		>];
 
+        Class[shape=circle style="filled,solid"]
+        Enum[shape=circle style="filled,solid"]
 
 		Index:C->Class
 		Index:G->Class
@@ -137,9 +145,10 @@ digraph {
 	}
 
 	subgraph cluster_b{
-		peripheries=0
+	    label       = ""
+		peripheries = 0
 		Input[label=<
-		<table border="0" cellspacing="0" cellpadding="4" bgcolor="${grey-table-0}">
+		<table border="1" cellspacing="0" cellpadding="0" bgcolor="${grey-table-0}">
 			<tr><td align="center" port="Title"><font color="${bold}"><b>input.xsd</b></font></td></tr>
 		</table>
 		>];
@@ -162,19 +171,13 @@ digraph {
 	Input->Index:I;
 }
 \enddot
+\br
 
-
-<b>For example</b> MdDox::Doxygen::CompoundDefQuery <br/>
+For instance,
 \copydetails MdDox::Doxygen::CompoundDefQuery
 
-
-The \ref MdDox::GenApi::Application "Application" class provides the entry point for the program.
-<br/>
-
-
-<b>Usage</b><br/>
-\copydetails MdDox::GenApi::Application
-
+The name attributes are substituted through the respective swap file. The application
+will use the substitutions to produce the class \ref_class{Doxygen::CompoundDefQuery}
 */
 namespace MdDox::GenApi
 {

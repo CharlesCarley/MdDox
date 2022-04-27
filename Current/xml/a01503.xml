@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01503" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::IndexEntryQuery</compoundname>
+    <basecompoundref refid="a01415" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/IndexEntryQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01503_1a011b66ad350500c132b0243020dfdc75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::IndexEntryQuery::IndexEntryQuery</definition>
+        <argsstring>()=default</argsstring>
+        <name>IndexEntryQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/IndexEntryQuery.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01503_1a2d2e549d0a1e7f7420553435ce7aaf3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::IndexEntryQuery::IndexEntryQuery</definition>
+        <argsstring>(const IndexEntryQuery &amp;other)=default</argsstring>
+        <name>IndexEntryQuery</name>
+        <param>
+          <type>const <ref refid="a01503" kindref="compound">IndexEntryQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/IndexEntryQuery.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01503_1a7a82b2eb565c8813e1933501f4e1221b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::IndexEntryQuery::IndexEntryQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>IndexEntryQuery</name>
+        <param>
+          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/IndexEntryQuery.h" line="50" column="1" bodyfile="Tools/Doxygen/IndexEntryQuery.h" bodystart="50" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>docIndexEntryType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>docIndexEntryType</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docIndexEntryType&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;primaryie&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;secondaryie&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="234">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a01415"/>
+      </node>
+      <node id="233">
+        <label>MdDox::Doxygen::IndexEntryQuery</label>
+        <link refid="a01503"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="237">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a01259"/>
+        <childnode refid="238" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="236">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a01415"/>
+        <childnode refid="237" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="235">
+        <label>MdDox::Doxygen::IndexEntryQuery</label>
+        <link refid="a01503"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/IndexEntryQuery.h" line="45" column="1" bodyfile="Tools/Doxygen/IndexEntryQuery.h" bodystart="44" bodyend="55"/>
+    <listofallmembers>
+      <member refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>_node</name></member>
+      <member refid="a01415_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>empty</name></member>
+      <member refid="a01503_1a011b66ad350500c132b0243020dfdc75" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>IndexEntryQuery</name></member>
+      <member refid="a01503_1a2d2e549d0a1e7f7420553435ce7aaf3f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>IndexEntryQuery</name></member>
+      <member refid="a01503_1a7a82b2eb565c8813e1933501f4e1221b" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>IndexEntryQuery</name></member>
+      <member refid="a01415_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>isValid</name></member>
+      <member refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>node</name></member>
+      <member refid="a01415_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>Query</name></member>
+      <member refid="a01415_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>Query</name></member>
+      <member refid="a01415_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>reset</name></member>
+      <member refid="a01415_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>sort</name></member>
+      <member refid="a01415_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::IndexEntryQuery</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

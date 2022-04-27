@@ -49,7 +49,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>docListType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="docListType">
      *    <xsd:sequence>

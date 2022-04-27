@@ -54,7 +54,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>docInternalS1Type</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="docInternalS1Type" mixed="true">
      *    <xsd:sequence>

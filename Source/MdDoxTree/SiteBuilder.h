@@ -52,49 +52,66 @@ namespace MdDox
 
     /**
      * \brief The site builder runs the main loop, and provides static
-     * access to properties during the build stage. <a href="#details">more ...</a>
+     * access to properties during the build stage.
      *
      * <b>The site builder</b> handles setting up and running the main loop.
      * It stores references to other pages and general configuration
-     * properties.
-     * <br/>
-     * <br/>
+     * properties to control the final output.
+     * \br
+     *
      * The following diagram outlines its main routine.
-     * 
+     * \br
+     *
      * \dot
      * digraph {
-     *      bgcolor = none;
-     *      rankdir = "LR";
-     *      node [
-     *          shape     = none
-     *          fontname  = "${font-family}"
-     *          fontcolor = "${text}"
-     *          fontsize  = "${font-size}"
-     *      ]
-     *      edge [
-     *          arrowsize = "${arrow-size}"
-     *          color     = "${edge-red}"
-     *      ]
-     *      SiteBuilder->Config[dir=back];
      *
-     *      {rank=same Config SiteBuilder}
+     *   layout  = dot;
+     *   bgcolor = "${graph-bg}";
+     *   rankdir = "LR";
+     *   labelloc= "t"
+     *   label   = "Build Routine"
+     *   fontname= "${font-family}"
+     *   fontsize= "${font-size}"
+     *   margin  = "${node-primary-margin}"
      *
-     *      SiteBuilder->buildFromXml
-     *      buildFromXml->Build
-     *      buildFromXml->WriteIndex
-     *      buildFromXml->Dispatch
-     *      buildFromXml->ConvertGraphs
-     *      Dispatch->BuildItem
-     *      Dispatch->WriteItem
+     *   node [
+     *     shape     = none
+     *     style     = none
+     *     fontname  = "${font-family}"
+     *     fontsize  = "${font-size}"
+     *     fontcolor = "${node-primary-text}"
+     *     color     = "${node-primary-border}"
+     *     fillcolor = "${node-primary-exe}"
+     *     margin    = "0.01"
+     *   ]
+     *   edge [
+     *     arrowsize = "${arrow-size}"
+     *     fontname  = "${font-family}"
+     *     fontsize  = "${font-size}"
+     *     color     = "${node-primary-edge}"
+     *     fontcolor = "${node-primary-text}"
+     *   ]
+     *   SiteBuilder->Config[dir=back]
+     *
+     *   {rank=same Config SiteBuilder}
+     *
+     *   SiteBuilder->buildFromXml
+     *   buildFromXml->Build
+     *   buildFromXml->WriteIndex
+     *   buildFromXml->Dispatch
+     *   buildFromXml->ConvertGraphs
+     *   Dispatch->BuildItem
+     *   Dispatch->WriteItem
      * }
      * \enddot
-     * <br/>
+     * \br
      *
-     * The builder needs to have all necessary configuration parameters set before running.
-     * From there, it needs to load an index file. From input in the supplied index it writes a
-     * primary index, class, page, namespace, and directory indexes.
-     * After that, iterates over all elements and dispatches writers
-     * for each individual element.
+     * It needs to have all configuration parameters set before running. From
+     * there, it needs to load %Doxygen's index file. With the input, it writes a
+     * primary index, class index, page index, namespace index, and directory index.
+     *
+     * The application will then branch off and iterate over all individual elements
+     * which will invoke writers for each element.
      * 
      */
     class SiteBuilder
@@ -107,7 +124,7 @@ namespace MdDox
         mutable StringArray     _dotFiles;
         mutable Config          _dot;
         mutable ReferenceTable* _referenceMap;
-        
+
         /**
          * \brief Writes all dot files to disk.
          */
@@ -259,10 +276,15 @@ namespace MdDox
          */
         BackendWriter backendType{BackendMarkdown};
 
+        int pageIndex[4]{
+            Doxygen::DCK_PAGE,
+            Doxygen::DCK_DIR,
+            Doxygen::DCK_NAMESPACE,
+            Doxygen::DCK_CLASS,
+        };
 
         /**
          * \brief Allows the page brief print to be switched on or off. 
-         *
          */
         bool pagesShowBrief{false};
     };

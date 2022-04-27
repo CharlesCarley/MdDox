@@ -31,7 +31,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>docEmptyType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="docEmptyType"/>
      * \endcode

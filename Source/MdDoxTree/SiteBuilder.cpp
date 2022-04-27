@@ -103,6 +103,36 @@ namespace MdDox
         table->insertCompound(kind, p5, "page_index");
     }
 
+    void makeIndexList(int* list, size_t max, const String& value)
+    {
+        StringArray arr;
+        StringUtils::splitRejectEmpty(arr, value, ',');
+
+        for (size_t i=0; i<4;++i)
+            list[i] = -1;
+
+        for (size_t i = 0; i < arr.size() && i < max; ++i)
+        {
+            switch (arr[i][0])
+            {
+            case 'P':
+                list[i] = Doxygen::DCK_PAGE;
+                break;
+            case 'C':
+                list[i] = Doxygen::DCK_CLASS;
+                break;
+            case 'N':
+                list[i] = Doxygen::DCK_NAMESPACE;
+                break;
+            case 'D':
+                list[i] = Doxygen::DCK_DIR;
+                break;
+            default:
+                list[i] = -1;
+            }
+        }
+    }
+
     void SiteBuilder::loadConfig(const String& configFile)
     {
         InputFileStream ifs(configFile);
@@ -153,6 +183,8 @@ namespace MdDox
         projectTitle   = config.getValue("PROJECT_TITLE");
         projectBrief   = config.getValue("PROJECT_BRIEF");
         pagesShowBrief = config.getBool("SHOW_PAGE_BRIEF");
+
+        makeIndexList(pageIndex, 4, config.getValue("INDEX_LIST"));
 
         String dotCfg = FileSystem::absolute(config.getValue("DOT_CONFIG")).string();
         if (!dotCfg.empty())

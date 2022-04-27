@@ -219,7 +219,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>docParaType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="docParaType" mixed="true">
      *    <xsd:group ref="docCmdGroup" minOccurs="0" maxOccurs="unbounded"/>

@@ -64,7 +64,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>descriptionType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="descriptionType" mixed="true">
      *    <xsd:sequence>

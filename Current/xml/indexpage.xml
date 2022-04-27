@@ -2,19 +2,19 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="indexpage" kind="page">
     <compoundname>index</compoundname>
-    <title>MdDox</title>
+    <title>MD000 MdDox</title>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Is a project that transforms Doxygen XML output into a GFM based HTML format. <linebreak/>
+<para>Transforms Doxygen XML output into a GitHub flavored markdown based HTML format. <linebreak/>
 <linebreak/>
- The primary goal is to embed the output files into the markdown browser on GitHub. The embedded content serves the same purpose as a static document site. Except that it is more integrated with the online source code browser.</para><sect1 id="index_1MP001">
-<title>Topics</title>
+ Its primary goal is to embed its output files into the GitHub markdown browser. The embedded content serves the same purpose as a static site. Except that it is more integrated with the GitHub site.</para><sect1 id="index_1Md001">
+<title>Pages</title>
 <para><itemizedlist>
-<listitem><para><ref refid="Project" kindref="compound">Project Structure</ref> defines the overall project structure.</para></listitem><listitem><para><ref refid="Site" kindref="compound">Site Layout</ref> defines the overall layout of the generated site.</para></listitem><listitem><para><ref refid="Image" kindref="compound">Image handling</ref> describes how images are linked.</para></listitem></itemizedlist>
+<listitem><para><ref refid="a02120" kindref="compound">Project Structure</ref> Illustrates the project&apos;s library and executable dependency structure.</para></listitem><listitem><para><ref refid="a02121" kindref="compound">Site Layout</ref> Illustrates the structure of the generated site.</para></listitem><listitem><para><ref refid="a02122" kindref="compound">Image handling</ref> Describes the way internal icons are accessed.</para></listitem></itemizedlist>
 </para></sect1>
-<sect1 id="index_1MP002">
-<title>Index</title>
+<sect1 id="index_1Md002">
+<title>Source Contents</title>
 </sect1>
     </detaileddescription>
   </compounddef>

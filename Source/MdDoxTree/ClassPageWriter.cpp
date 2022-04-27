@@ -161,7 +161,7 @@ namespace MdDox
 
     void ClassPageWriter::notifyDetailDescriptionHeading(const Doxygen::DescriptionQuery& query)
     {
-        _writer->addSection(_out, "Details", 2);
+        _writer->lineBreak(_out);
     }
 
     void ClassPageWriter::notifyDetailDescription(const Doxygen::DescriptionQuery& query)
@@ -180,13 +180,13 @@ namespace MdDox
         Doxygen::SortMap map;
         map[Doxygen::DoxCompoundName]        = i++;
         map[Doxygen::DoxBriefDescription]    = i++;
+        map[Doxygen::DoxDetailedDescription] = i++;
         map[Doxygen::DoxBaseCompoundRef]     = i++;
         map[Doxygen::DoxDerivedCompoundRef]  = i++;
         map[Doxygen::DoxInheritanceGraph]    = i++;
         map[Doxygen::DoxInnerNamespace]      = i++;
         map[Doxygen::DoxInnerclass]          = i++;
         map[Doxygen::DoxSectionDef]          = i++;
-        map[Doxygen::DoxDetailedDescription] = i++;
         map[Doxygen::DoxLocation]            = i++;
         map[Doxygen::DoxIncludes]            = i++;
         map[Doxygen::DoxIncludedBy]          = i++;

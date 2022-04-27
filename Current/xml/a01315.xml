@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01315" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor</compoundname>
+    <includes local="no">Tools/Doxygen/CompoundIndexQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01315_1a1318006f381f93b651466cbea41f9453" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor::~CompoundIndexQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~CompoundIndexQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundIndexQuery.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01315_1a9d90590bb9b098554c941f74ff1c220b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor::visitedMember</definition>
+        <argsstring>(const MemberIndexQuery &amp;query)</argsstring>
+        <name>visitedMember</name>
+        <param>
+          <type>const <ref refid="a01619" kindref="compound">MemberIndexQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>member</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a01619" kindref="compound">MemberIndexQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundIndexQuery.h" line="44" column="1" bodyfile="Tools/Doxygen/CompoundIndexQuery.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="a01315_1aa5ca5ac8130238aaf36145efb2f1a969" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor::visitedName</definition>
+        <argsstring>(const String &amp;text)</argsstring>
+        <name>visitedName</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>name</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundIndexQuery.h" line="49" column="1" bodyfile="Tools/Doxygen/CompoundIndexQuery.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="a01315_1aaff1d49dd3c44bb75c7fb8a7a8af98b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundIndexQuery.h" line="39" column="1" bodyfile="Tools/Doxygen/CompoundIndexQuery.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/CompoundIndexQuery.h" line="32" column="1" bodyfile="Tools/Doxygen/CompoundIndexQuery.h" bodystart="31" bodyend="51"/>
+    <listofallmembers>
+      <member refid="a01315_1a9d90590bb9b098554c941f74ff1c220b" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor</scope><name>visitedMember</name></member>
+      <member refid="a01315_1aa5ca5ac8130238aaf36145efb2f1a969" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor</scope><name>visitedName</name></member>
+      <member refid="a01315_1aaff1d49dd3c44bb75c7fb8a7a8af98b8" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="a01315_1a1318006f381f93b651466cbea41f9453" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor</scope><name>~CompoundIndexQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

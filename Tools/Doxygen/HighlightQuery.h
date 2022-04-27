@@ -55,7 +55,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>highlightType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="highlightType" mixed="true">
      *    <xsd:choice minOccurs="0" maxOccurs="unbounded">

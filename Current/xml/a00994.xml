@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a00994" kind="namespace" language="C++">
+    <compoundname>MdDox::Xml</compoundname>
+    <innerclass refid="a01255" prot="public">MdDox::Xml::Attribute</innerclass>
+    <innerclass refid="a01259" prot="public">MdDox::Xml::Node</innerclass>
+    <innerclass refid="a01263" prot="public">MdDox::Xml::Parser</innerclass>
+    <innerclass refid="a01267" prot="public">MdDox::Xml::Scanner</innerclass>
+    <innerclass refid="a01271" prot="public">MdDox::Xml::Writer</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="a00994_1ae2e43e460900094e7671de1651f5bc2a" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TokenType</name>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aaa18a2c9d6c8629db76d0492ac7d66841" prot="public">
+          <name>TOK_ERROR</name>
+          <initializer>= -2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aa391ba2b15a8c85672ff1afb40b343a82" prot="public">
+          <name>TOK_EOF</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aa505f0e690ac1b1793aa33bd91bfb2a34" prot="public">
+          <name>TOK_NULL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aa2055ea47eaaf5ed52da6f2c7f69b7da6" prot="public">
+          <name>TOK_IDENTIFIER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aa7517c0bfa395414d9e144ce6195aacd0" prot="public">
+          <name>TOK_STRING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aa11a274785c604d701aaab79a74ba7c6b" prot="public">
+          <name>TOK_TEXT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aae181099e091f3afa4118a6265d5c3281" prot="public">
+          <name>TOK_EQUALS</name>
+          <initializer>= &apos;=&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aac378eb636edcdd9a777bb90fa92c1468" prot="public">
+          <name>TOK_ST_TAG</name>
+          <initializer>= &apos;&lt;&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aa0b6a99b8e69f2385f73275ff05bbff66" prot="public">
+          <name>TOK_EN_TAG</name>
+          <initializer>= &apos;&gt;&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aaeb86fb8fb5d3a55e9b74fa1817198cdb" prot="public">
+          <name>TOK_SLASH</name>
+          <initializer>= &apos;/&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aa7ae9c0d88899839609a11bf1d37fb575" prot="public">
+          <name>TOK_QUESTION</name>
+          <initializer>= &apos;?&apos;</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00994_1ae2e43e460900094e7671de1651f5bc2aab499c3d8eb00e0c784b692820fed7b46" prot="public">
+          <name>TOK_KW_XML</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Token.h" line="28" column="1" bodyfile="Source/Xml/Token.h" bodystart="27" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="a00994_1a0b1831d2f6bb20e16b0298d1b90feb4d" prot="public" static="no">
+        <type>std::unordered_map&lt; <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
+        <definition>typedef std::unordered_map&lt;String, String&gt; MdDox::Xml::AttributeMap</definition>
+        <argsstring></argsstring>
+        <name>AttributeMap</name>
+        <briefdescription>
+<para>Defines the attribute storage container. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="38" column="1" bodyfile="Source/Xml/Node.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="a00994_1a385d6562ae57490103bc9f6c24179be3" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
+        <definition>using MdDox::Xml::CodeCache = typedef std::vector&lt;String&gt;</definition>
+        <argsstring></argsstring>
+        <name>CodeCache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.h" line="28" column="1" bodyfile="Source/Xml/Scanner.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="a00994_1aacf07cb68e25a8fa469b0b5063a38e0c" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="a01259" kindref="compound">Node</ref> * &gt;</type>
+        <definition>typedef std::vector&lt;Node*&gt; MdDox::Xml::NodeArray</definition>
+        <argsstring></argsstring>
+        <name>NodeArray</name>
+        <briefdescription>
+<para>Defines the child node storage array container. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="43" column="1" bodyfile="Source/Xml/Node.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="a00994_1ac338b08335403d9c90feedb1f3c9ee95" prot="public" static="no">
+        <type>std::unordered_map&lt; <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="a01259" kindref="compound">Node</ref> * &gt;</type>
+        <definition>typedef std::unordered_map&lt;String, Node*&gt; MdDox::Xml::NodeMap</definition>
+        <argsstring></argsstring>
+        <name>NodeMap</name>
+        <briefdescription>
+<para>Defines a name lookup map for nodes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="48" column="1" bodyfile="Source/Xml/Node.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="a00994_1a010a26f3b7d0ee89ab19eab357474ca9" prot="public" static="no">
+        <type>std::function&lt; bool(<ref refid="a01259" kindref="compound">Node</ref> *a, <ref refid="a01259" kindref="compound">Node</ref> *b)&gt;</type>
+        <definition>using MdDox::Xml::NodeSortFunc = typedef std::function&lt;bool(Node* a, Node* b)&gt;</definition>
+        <argsstring></argsstring>
+        <name>NodeSortFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Node.h" line="32" column="1" bodyfile="Source/Xml/Node.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="a00994_1a642d5079d25ebeb0618bf168bea03f17" prot="public" static="no">
+        <type>std::stack&lt; <ref refid="a01259" kindref="compound">Node</ref> * &gt;</type>
+        <definition>using MdDox::Xml::NodeStack = typedef std::stack&lt;Node*&gt;</definition>
+        <argsstring></argsstring>
+        <name>NodeStack</name>
+        <briefdescription>
+<para>Provides a stack structure to build the node tree. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="76" column="1" bodyfile="Source/Xml/Parser.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="a00994_1a253bb379db365511c76461630042cfdf" prot="public" static="no">
+        <type><ref refid="a01215" kindref="compound">Cache</ref>&lt; <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
+        <definition>using MdDox::Xml::StringCache = typedef Cache&lt;String&gt;</definition>
+        <argsstring></argsstring>
+        <name>StringCache</name>
+        <briefdescription>
+<para>Provides a string based <ref refid="a01215" kindref="compound">Cache</ref> implementation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Parser.h" line="71" column="1" bodyfile="Source/Xml/Parser.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="a00994_1a63e69d53462a482c47cb25ec51c6d6d3" prot="public" static="no">
+        <type><ref refid="a01235" kindref="compound">TokenBase</ref></type>
+        <definition>using MdDox::Xml::Token = typedef TokenBase</definition>
+        <argsstring></argsstring>
+        <name>Token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Token.h" line="44" column="1" bodyfile="Source/Xml/Token.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="a00994_1ab4bfb109bb0e255caab9746ab85bfc87" prot="public" static="no" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t MdDox::Xml::Indent</definition>
+        <argsstring></argsstring>
+        <name>Indent</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Writer.cpp" line="29" column="1" bodyfile="Source/Xml/Writer.cpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="a00994_1ac0ae22fbb9d6aa5ddcffbc2df4348963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::isQuote</definition>
+        <argsstring>(const int ch)</argsstring>
+        <name>isQuote</name>
+        <param>
+          <type>const int</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.cpp" line="46" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="a00994_1abe10ae08b1960d2b50fafa77f024f84e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::isValidCharacter</definition>
+        <argsstring>(const int ch)</argsstring>
+        <name>isValidCharacter</name>
+        <param>
+          <type>const int</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.cpp" line="33" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="33" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="a00994_1a3614d2269202e4804c65d03fafd977d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::isValidIdentifier</definition>
+        <argsstring>(const int ch)</argsstring>
+        <name>isValidIdentifier</name>
+        <param>
+          <type>const int</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.cpp" line="41" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="41" bodyend="44"/>
+        <references refid="a00986_1abe37af316ba8d5a613895a5f016233f7" compoundref="a00299" startline="205" endline="208">MdDox::isLetter</references>
+        <references refid="a00986_1a4338aec09dbef3739444c62befccc06b" compoundref="a00299" startline="199" endline="202">MdDox::isDecimal</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides a grouping of classes that handle parsing XML files. </para>    </briefdescription>
+    <detaileddescription>
+<para><bold>Typical Usage:</bold><linebreak/>
+</para><para>The <ref refid="a01263" kindref="compound">Parser</ref> is easy to use, just create an instance of the parser then invoke it&apos;s parse method.</para><para>Internally, parse and syntax errors will throw an exception so it needs to be wrapped in a try catch block. On a successful parse, the root method will return the root node of the tree.</para><para>The following example shows how to use it.</para><para><programlisting filename=".cpp"><codeline><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="a00986" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref>;</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a01263" kindref="compound" tooltip="Parser is the XML based implementation of the ParseBase base class. ">Xml::Parser</ref><sp/>parser;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>parser.<ref refid="a01227_1ac0f4754066eb37834a6e6bed93993b50" kindref="member" tooltip="Attempts to load the supplied file. ">parse</ref>(</highlight><highlight class="stringliteral">&quot;file.xml&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a01259" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*root<sp/>=<sp/>parser.<ref refid="a01263_1ad981d8abab00654645b673875dde2b9a" kindref="member" tooltip="Provides access to the root of the node tree. ">root</ref>();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a01271" kindref="compound" tooltip="Is a utility class that is used to write the xml text structure to the supplied stream from the suppl...">Xml::Writer</ref><sp/>writer(root);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>writer.write(std::cout);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="a01203" kindref="compound" tooltip="Primary class for exception handling   ">Exception</ref><sp/>&amp;ex)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a01199_1aaf1391b3bcf6cfd461fa04ac9c7003a5" kindref="member">Console::writeLine</ref>(ex.<ref refid="a01203_1a82ae019fbc61a2278347945daeb69187" kindref="member">what</ref>());</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <location file="Source/Xml/Attribute.h" line="27" column="1"/>
+  </compounddef>
+</doxygen>

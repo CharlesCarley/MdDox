@@ -32,7 +32,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>MemberIndexType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="MemberIndexType">
      *    <xsd:sequence>

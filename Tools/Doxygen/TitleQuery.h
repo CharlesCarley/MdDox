@@ -119,7 +119,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>docTitleType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="docTitleType" mixed="true">
      *    <xsd:group ref="docTitleCmdGroup" minOccurs="0" maxOccurs="unbounded"/>

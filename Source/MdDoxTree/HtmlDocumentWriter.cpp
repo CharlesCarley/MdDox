@@ -67,10 +67,9 @@ namespace MdDox
         if (SiteBuilder::get().showDebug && !docSource.empty())
         {
             const PathUtil util(docSource);
+            Html::heading(output, 3, "Debug links");
 
-            Html::lineBreak(output);
             Html::beginBlockQuote(output);
-
             Html::embedContent(output, IconSet::fileName(ICO_DEBUG));
             Html::inlineText(output, "The following sources were used to generate this page.");
             Html::lineBreak(output);
@@ -86,7 +85,6 @@ namespace MdDox
                                         false);
             Html::endBlockQuote(output);
         }
-
         Html::endDivSection(output, "document-content");
         Html::endDivSection(output, "document");
 

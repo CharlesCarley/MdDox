@@ -31,7 +31,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>spType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="spType" mixed="true">
      *    <xsd:attribute name="value" type="xsd:integer" use="optional"/>

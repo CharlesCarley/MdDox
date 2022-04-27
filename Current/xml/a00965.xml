@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a00965" kind="file" language="C++">
+    <compoundname>Group.h</compoundname>
+    <includes refid="a00968" local="yes">Object.h</includes>
+    <includes refid="a00983" local="yes">Types.h</includes>
+    <includes refid="a00374" local="yes">Utils/String.h</includes>
+    <includes refid="a00398" local="yes">Xml/Node.h</includes>
+    <includedby refid="a00947" local="yes">Tools/GenApi/Complex.h</includedby>
+    <includedby refid="a00980" local="yes">Tools/GenApi/Simple.h</includedby>
+    <includedby refid="a00962" local="yes">Tools/GenApi/Group.cpp</includedby>
+    <includedby refid="a00977" local="yes">Tools/GenApi/Simple.cpp</includedby>
+    <incdepgraph>
+      <node id="9376">
+        <label>functional</label>
+      </node>
+      <node id="9373">
+        <label>iomanip</label>
+      </node>
+      <node id="9378">
+        <label>cstdint</label>
+      </node>
+      <node id="9365">
+        <label>Object.h</label>
+        <childnode refid="9366" relation="include">
+        </childnode>
+        <childnode refid="9374" relation="include">
+        </childnode>
+        <childnode refid="9375" relation="include">
+        </childnode>
+      </node>
+      <node id="9370">
+        <label>string</label>
+      </node>
+      <node id="9368">
+        <label>fstream</label>
+      </node>
+      <node id="9377">
+        <label>Types.h</label>
+        <childnode refid="9378" relation="include">
+        </childnode>
+        <childnode refid="9366" relation="include">
+        </childnode>
+      </node>
+      <node id="9375">
+        <label>Xml/Node.h</label>
+        <childnode refid="9376" relation="include">
+        </childnode>
+        <childnode refid="9371" relation="include">
+        </childnode>
+        <childnode refid="9366" relation="include">
+        </childnode>
+      </node>
+      <node id="9374">
+        <label>Writer.h</label>
+        <childnode refid="9366" relation="include">
+        </childnode>
+        <childnode refid="9375" relation="include">
+        </childnode>
+      </node>
+      <node id="9366">
+        <label>Utils/String.h</label>
+        <childnode refid="9367" relation="include">
+        </childnode>
+        <childnode refid="9368" relation="include">
+        </childnode>
+        <childnode refid="9369" relation="include">
+        </childnode>
+        <childnode refid="9370" relation="include">
+        </childnode>
+        <childnode refid="9371" relation="include">
+        </childnode>
+        <childnode refid="9372" relation="include">
+        </childnode>
+        <childnode refid="9373" relation="include">
+        </childnode>
+      </node>
+      <node id="9372">
+        <label>vector</label>
+      </node>
+      <node id="9369">
+        <label>sstream</label>
+      </node>
+      <node id="9367">
+        <label>deque</label>
+      </node>
+      <node id="9371">
+        <label>unordered_map</label>
+      </node>
+      <node id="9364">
+        <label>Tools/GenApi/Group.h</label>
+        <link refid="a00965"/>
+        <childnode refid="9365" relation="include">
+        </childnode>
+        <childnode refid="9377" relation="include">
+        </childnode>
+        <childnode refid="9366" relation="include">
+        </childnode>
+        <childnode refid="9375" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="9382">
+        <label>Tools/GenApi/Generator.cpp</label>
+      </node>
+      <node id="9381">
+        <label>Tools/GenApi/Complex.cpp</label>
+      </node>
+      <node id="9380">
+        <label>Tools/GenApi/Complex.h</label>
+        <childnode refid="9381" relation="include">
+        </childnode>
+        <childnode refid="9382" relation="include">
+        </childnode>
+      </node>
+      <node id="9383">
+        <label>Tools/GenApi/Simple.h</label>
+        <childnode refid="9382" relation="include">
+        </childnode>
+        <childnode refid="9384" relation="include">
+        </childnode>
+      </node>
+      <node id="9384">
+        <label>Tools/GenApi/Simple.cpp</label>
+      </node>
+      <node id="9385">
+        <label>Tools/GenApi/Group.cpp</label>
+      </node>
+      <node id="9379">
+        <label>Tools/GenApi/Group.h</label>
+        <link refid="a00965"/>
+        <childnode refid="9380" relation="include">
+        </childnode>
+        <childnode refid="9383" relation="include">
+        </childnode>
+        <childnode refid="9385" relation="include">
+        </childnode>
+        <childnode refid="9384" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a01855" prot="public">MdDox::GenApi::Group</innerclass>
+    <innernamespace refid="a00986">MdDox</innernamespace>
+    <innernamespace refid="a00996">MdDox::GenApi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Object.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Xml/Node.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00986" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">PathUtil;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00996" kindref="compound" tooltip="GenApi is used to generate a static scaffolding library. ">MdDox::GenApi</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Group;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a00996_1a8506c438f76b4e422a526477806e60da" kindref="member">ElementArray</ref><sp/><sp/><sp/>=<sp/>std::vector&lt;Element&gt;;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a00996_1afdad56995d9980eac00f17e1b815b488" kindref="member">AttributeArray</ref><sp/>=<sp/>std::vector&lt;Attribute&gt;;</highlight></codeline>
+<codeline lineno="39" refid="a00996_1aa966ac5451d8ded569e90d4d2dcffbb2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a00996_1aa966ac5451d8ded569e90d4d2dcffbb2" kindref="member">GroupArray</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>std::vector&lt;Group*&gt;;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a00994_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member" tooltip="Defines the attribute storage container. ">AttributeMap</ref><sp/><sp/><sp/>=<sp/>std::unordered_map&lt;String,<sp/>Attribute&gt;;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="a01855" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a01855" kindref="compound">Group</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a01863" kindref="compound">Object</ref></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45" refid="a01855_1a3e6d87b5fadced46e6decede161443a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01259" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref>*<sp/><ref refid="a01855_1a3e6d87b5fadced46e6decede161443a8" kindref="member">_node</ref>;</highlight></codeline>
+<codeline lineno="46" refid="a01855_1a3f2b6d71aaefa528f3950197904307e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><sp/><sp/><ref refid="a01855_1a3f2b6d71aaefa528f3950197904307e4" kindref="member">_tagType</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48" refid="a01855_1a70c29435b823d9e9fb05f6e77101a228" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00994_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member" tooltip="Defines the attribute storage container. ">AttributeMap</ref><sp/><ref refid="a01855_1a70c29435b823d9e9fb05f6e77101a228" kindref="member">_stringAttributes</ref>;</highlight></codeline>
+<codeline lineno="49" refid="a01855_1ac0ad6accc04e5671ca135fe95625a3b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00994_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member" tooltip="Defines the attribute storage container. ">AttributeMap</ref><sp/><ref refid="a01855_1ac0ad6accc04e5671ca135fe95625a3b1" kindref="member">_integerAttributes</ref>;</highlight></codeline>
+<codeline lineno="50" refid="a01855_1a6a50c87e762c3dc61ff76a21322f1066" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00994_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member" tooltip="Defines the attribute storage container. ">AttributeMap</ref><sp/><ref refid="a01855_1a6a50c87e762c3dc61ff76a21322f1066" kindref="member">_enumAttributes</ref>;</highlight></codeline>
+<codeline lineno="51" refid="a01855_1a97b2a5261119b03d3970655b60707f76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member" tooltip="Structure to hold a key value string. ">StringMap</ref><sp/><sp/><sp/><sp/><ref refid="a01855_1a97b2a5261119b03d3970655b60707f76" kindref="member">_dependentTypes</ref>;</highlight></codeline>
+<codeline lineno="52" refid="a01855_1ab691fb2100aa94a659dcda88a5884b7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member" tooltip="Structure to hold a key value string. ">StringMap</ref><sp/><sp/><sp/><sp/><ref refid="a01855_1ab691fb2100aa94a659dcda88a5884b7a" kindref="member">_dependentHeaderTypes</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="a01855_1a58d8eb4faf1136b2574bec8e5dcebf65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00996_1a8506c438f76b4e422a526477806e60da" kindref="member">ElementArray</ref><sp/><ref refid="a01855_1a58d8eb4faf1136b2574bec8e5dcebf65" kindref="member">_textReturns</ref>;</highlight></codeline>
+<codeline lineno="55" refid="a01855_1a84facfa06d2fe6a525a53789969f3b1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00996_1a8506c438f76b4e422a526477806e60da" kindref="member">ElementArray</ref><sp/><ref refid="a01855_1a84facfa06d2fe6a525a53789969f3b1d" kindref="member">_singleReturns</ref>;</highlight></codeline>
+<codeline lineno="56" refid="a01855_1a45b775e686164e197337cff2e324321e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00996_1a8506c438f76b4e422a526477806e60da" kindref="member">ElementArray</ref><sp/><ref refid="a01855_1a45b775e686164e197337cff2e324321e" kindref="member">_elements</ref>;</highlight></codeline>
+<codeline lineno="57" refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00996_1aa966ac5451d8ded569e90d4d2dcffbb2" kindref="member">GroupArray</ref><sp/><sp/><sp/><ref refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" kindref="member">_groups</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="a01855_1a170ee7fc3edb34e81da2028023d5a88f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01855_1a170ee7fc3edb34e81da2028023d5a88f" kindref="member">_first</ref>{</highlight><highlight class="keyword">true</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="60" refid="a01855_1a040f01434f53b98917564a2ae66fd60d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01855_1a040f01434f53b98917564a2ae66fd60d" kindref="member">_foreach</ref>{</highlight><highlight class="keyword">true</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01855_1a8d616c9df8cf6fa56e4bbbde7be635b5" kindref="member">canHaveVisitors</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a54a45dd15eb51ff0b22923127e3f2dc5" kindref="member">writeVisitElement</ref>(<ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1ae779a1556e2e68ee172437716dc02206" kindref="member">writeHeader</ref>(<ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a45beb0e96c63403bbc99b7e7dadcaba0" kindref="member">writeVisitElementSource</ref>(<ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a2f1e34a46c2afbc1f61057b31028db75" kindref="member">writeVisitElementItem</ref>(<ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/><ref refid="a01875" kindref="compound">Element</ref>&amp;<sp/>el);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1ab9127617000e31463c5a23614d750b28" kindref="member">writeVisitElementItemText</ref>(<ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/><ref refid="a01875" kindref="compound">Element</ref>&amp;<sp/>el);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a852f0637694bf248fd2f007db3eafeba" kindref="member">writeVisitElementItems</ref>(<ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1af9680b0901481956bf51c025c9d6a79d" kindref="member">writeSource</ref>(<ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a888bd481755c42946dfdf6f28f33a587" kindref="member">writeStringGettersHeader</ref>(<ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a6283208a31ea3adfa8626e7713fe425a" kindref="member">writeStringGettersSource</ref>(<ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1ac71d0fdad5e9b5e0f7384da2b9dfbbfa" kindref="member">writeForeachHeader</ref>(<ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a912a199b7b7d52badc355c7d89734263" kindref="member">writeForeachSource</ref>(<ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01855" kindref="compound">Group</ref>*<sp/><ref refid="a01855_1afb0e32c688e5b3b0d497916c9dba829c" kindref="member">replicate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>newName)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01855_1afbb9dc3336478795a577993abc87cbdc" kindref="member">Group</ref>(<ref refid="a01259" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref>*<sp/>node,<sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>name,<sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>type);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01855_1afbb9dc3336478795a577993abc87cbdc" kindref="member">Group</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01855" kindref="compound">Group</ref>&amp;<sp/>group,<sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>name);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01855_1ae3284ae5ed3a5e0484c721ab11be6045" kindref="member">~Group</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a4e8dd1f4e16317ca926da1ec5e3a6592" kindref="member">setForeach</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1ab1a610ffab87fc4c30b58fbc6b81f778" kindref="member">addStringAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01255" kindref="compound" tooltip="Provides a key-value representation of an XML attribute. ">Attribute</ref>&amp;<sp/>attr);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a0ec10f2269dc9705c80d53d9124e3b8f" kindref="member">addIntegerAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01255" kindref="compound" tooltip="Provides a key-value representation of an XML attribute. ">Attribute</ref>&amp;<sp/>attr);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1af1f857fb9ca4e94790b29de7ed0c3bde" kindref="member">addElement</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01875" kindref="compound">Element</ref>&amp;<sp/>element);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a9d1801a39a637e20ecdcae46ed7a6f16" kindref="member">addStringTextElement</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01875" kindref="compound">Element</ref>&amp;<sp/>name);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a7a69ae96c946a0074e2a2e09f4cd5173" kindref="member">addSingleElement</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01875" kindref="compound">Element</ref>&amp;<sp/>element);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1ab7373a29323cc8420720462ae2f55e2e" kindref="member">addGroup</ref>(<ref refid="a01855" kindref="compound">Group</ref>*<sp/>group);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01855_1a58debcbe89901b51283db9008bcf40aa" kindref="member">addEnumAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01255" kindref="compound" tooltip="Provides a key-value representation of an XML attribute. ">Attribute</ref>&amp;<sp/>attr);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::DoxApi</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/GenApi/Group.h"/>
+  </compounddef>
+</doxygen>

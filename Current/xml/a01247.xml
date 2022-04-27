@@ -1,0 +1,669 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01247" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::StringUtils</compoundname>
+    <includes local="no">Source/Utils/String.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="a01247_1a25d7c52c64b0071b83d11feee43ea0cb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::generate</definition>
+        <argsstring>(String &amp;destination, int &amp;counter, void *seed)</argsstring>
+        <name>generate</name>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>counter</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+<para>Scrambles and combines a contextually unique counter, time stamp, and a memory address. </para>        </briefdescription>
+        <detaileddescription>
+<para>Used to generate a unique string without using a GUID.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string that will hold the generated value </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>counter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A reference to an external counter variable. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The memory address to mix into the generated value. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="164" column="1" bodyfile="Source/Utils/String.cpp" bodystart="257" bodyend="266"/>
+        <references refid="a01247_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" compoundref="a00371" startline="204" endline="227">scramble</references>
+        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">MdDox::StringCombine</references>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a7c366ea2942779a96722181c617fbe35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::replaceAll</definition>
+        <argsstring>(String &amp;dest, const String &amp;input, const String &amp;a, const String &amp;b)</argsstring>
+        <name>replaceAll</name>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="202" column="1" bodyfile="Source/Utils/String.cpp" bodystart="31" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::scramble</definition>
+        <argsstring>(String &amp;destination, size_t value, bool randomize=true)</argsstring>
+        <name>scramble</name>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>randomize</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Converts the supplied integer to base 64 and uses a nonsensical symbol alphabet to produce a randomized string. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string that will hold the scrambled value. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to scramble. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>randomize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If true, the result will randomly be shifted.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<programlisting filename=".txt"><codeline><highlight class="normal">Randomized:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>1ILtZEF</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>h804iWy</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>DpZzzmg</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>I0BBSCd</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">Not-Randomized:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>n1mLZd3</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>n1mLZd3</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>n1mLZd3</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>n1mLZd3</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="149" column="1" bodyfile="Source/Utils/String.cpp" bodystart="204" bodyend="227"/>
+        <references refid="a00986_1ac1e40b26a321318c518279d7a346142e" compoundref="a00371" startline="202">MdDox::BaseCharsSize</references>
+        <references refid="a00986_1a42fb98e42434407c66cfe313080ee049" compoundref="a00371" startline="190">MdDox::BaseChars</references>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1ae11e608ead047e4c71e71de7ae6e0536" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::StringUtils::scramble</definition>
+        <argsstring>(const String &amp;value, bool randomize=true)</argsstring>
+        <name>scramble</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>randomize</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="152" column="1" bodyfile="Source/Utils/String.cpp" bodystart="240" bodyend="255"/>
+        <references refid="a01243_1a9b71915964768f4d254bad795d80dbd5" compoundref="a00371" startline="232">MdDox::Merge::b</references>
+        <references refid="a01247_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" compoundref="a00371" startline="204" endline="227">scramble</references>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1aca409c0c7ed03c4e60564c4955b736d2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::split</definition>
+        <argsstring>(StringArray &amp;destination, const String &amp;input, char separator)</argsstring>
+        <name>split</name>
+        <param>
+          <type><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref> &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>separator</declname>
+        </param>
+        <briefdescription>
+<para>Splits the supplied string into a list of sub-strings. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The structure that will hold the sub-strings. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input string to split. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>separator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value that determines a split. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="100" column="1" bodyfile="Source/Utils/String.cpp" bodystart="125" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a6837f6baff05561c25008bab6dfba745" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::split</definition>
+        <argsstring>(StringArray &amp;destination, const String &amp;input, const String &amp;separator)</argsstring>
+        <name>split</name>
+        <param>
+          <type><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref> &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>separator</declname>
+        </param>
+        <briefdescription>
+<para>Splits the supplied string into a list of sub-strings. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The structure that will hold the sub-strings. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input string to split. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>separator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value that determines a split. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="116" column="1" bodyfile="Source/Utils/String.cpp" bodystart="156" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a46aa4499cbbb3a4566d073ebd1a064c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::split</definition>
+        <argsstring>(StringDeque &amp;destination, const String &amp;input, const String &amp;separator)</argsstring>
+        <name>split</name>
+        <param>
+          <type><ref refid="a00986_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member">StringDeque</ref> &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>separator</declname>
+        </param>
+        <briefdescription>
+<para>Splits the supplied string into a list of sub-strings. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The structure that will hold the sub-strings. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input string to split. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>separator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value that determines a split. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="123" column="1" bodyfile="Source/Utils/String.cpp" bodystart="173" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a182fe1efd809e486f6d93d53f573b92d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::splitLine</definition>
+        <argsstring>(StringArray &amp;dest, const String &amp;input, char swap=&apos;$&apos;)</argsstring>
+        <name>splitLine</name>
+        <param>
+          <type><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>swap</declname>
+          <defval>&apos;$&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="200" column="1" bodyfile="Source/Utils/String.cpp" bodystart="108" bodyend="123"/>
+        <references refid="a01247_1a7c366ea2942779a96722181c617fbe35" compoundref="a00371" startline="31" endline="74">replaceAll</references>
+        <references refid="a01247_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="a00371" startline="125" endline="132">split</references>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a4e2a0d38a0435a6f041509d70b4c0cd7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::splitRejectEmpty</definition>
+        <argsstring>(StringArray &amp;destination, const String &amp;input, char separator)</argsstring>
+        <name>splitRejectEmpty</name>
+        <param>
+          <type><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref> &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>separator</declname>
+        </param>
+        <briefdescription>
+<para>Splits the supplied string into a list of sub-strings. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The structure that will hold the sub-strings. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input string to split. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>separator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value that determines a split.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Removes any empty strings from the result. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="109" column="1" bodyfile="Source/Utils/String.cpp" bodystart="134" bodyend="154"/>
+        <references refid="a01247_1a129eedfc9277ca8acab4fe29cf3dcdea" compoundref="a00371" startline="274" endline="302">trimWhiteSpace</references>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a0c6460ffd00b82ae4cd21ce37ea22a4e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::toLower</definition>
+        <argsstring>(String &amp;dest, const String &amp;in)</argsstring>
+        <name>toLower</name>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="204" column="1" bodyfile="Source/Utils/String.cpp" bodystart="76" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a25b8d33edc11ae70f016f217cb7ae330" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::StringUtils::toLowerFirst</definition>
+        <argsstring>(const String &amp;in)</argsstring>
+        <name>toLowerFirst</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="208" column="1" bodyfile="Source/Utils/String.cpp" bodystart="92" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1ab56d6cf09aedb16bd222016a02709fc8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::toUpper</definition>
+        <argsstring>(String &amp;dest, const String &amp;in)</argsstring>
+        <name>toUpper</name>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="206" column="1" bodyfile="Source/Utils/String.cpp" bodystart="84" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a10a2d9d4209047792b39cc2330cf646a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::StringUtils::toUpperFirst</definition>
+        <argsstring>(const String &amp;in)</argsstring>
+        <name>toUpperFirst</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="210" column="1" bodyfile="Source/Utils/String.cpp" bodystart="100" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a7dd724d8a259c73e7f952d01b4f42548" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::trim</definition>
+        <argsstring>(String &amp;destination, const String &amp;input, char character)</argsstring>
+        <name>trim</name>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>character</declname>
+        </param>
+        <briefdescription>
+<para>A combination of trimL and trimR. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The destination storage. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input string that needs to be trimmed. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>character</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the character to trim. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="198" column="1" bodyfile="Source/Utils/String.cpp" bodystart="268" bodyend="272"/>
+        <references refid="a01247_1a87fc763d8ed23042621827d65de690aa" compoundref="a00371" startline="304" endline="317">trimL</references>
+        <references refid="a01247_1a84fd2c771eb5953236d6fee9acc6d8d6" compoundref="a00371" startline="319" endline="335">trimR</references>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a87fc763d8ed23042621827d65de690aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::trimL</definition>
+        <argsstring>(String &amp;destination, const String &amp;input, char character)</argsstring>
+        <name>trimL</name>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>character</declname>
+        </param>
+        <briefdescription>
+<para>Removes all occurrences of the supplied character from the left hand side of the string. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The destination storage. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input string that needs to be trimmed. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>character</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the character to trim. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="180" column="1" bodyfile="Source/Utils/String.cpp" bodystart="304" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a84fd2c771eb5953236d6fee9acc6d8d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::trimR</definition>
+        <argsstring>(String &amp;destination, const String &amp;input, char character)</argsstring>
+        <name>trimR</name>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>character</declname>
+        </param>
+        <briefdescription>
+<para>Removes all occurrences of the supplied character from the right hand side of the string. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The destination storage. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input string that needs to be trimmed. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>character</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the character to trim. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="189" column="1" bodyfile="Source/Utils/String.cpp" bodystart="319" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="a01247_1a129eedfc9277ca8acab4fe29cf3dcdea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::StringUtils::trimWhiteSpace</definition>
+        <argsstring>(String &amp;destination, const String &amp;input)</argsstring>
+        <name>trimWhiteSpace</name>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+<para>Removes any white space characters from the start and end of the string. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The destination storage. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input string that needs to be trimmed. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/String.h" line="171" column="1" bodyfile="Source/Utils/String.cpp" bodystart="274" bodyend="302"/>
+        <references refid="a00986_1ab988273a03d78c09f4ed6f85c3e2eb13" compoundref="a00299" startline="193" endline="196">MdDox::isWhiteSpace</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides general string conversion utility routines. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Utils/String.h" line="92" column="1" bodyfile="Source/Utils/String.h" bodystart="91" bodyend="212"/>
+    <listofallmembers>
+      <member refid="a01247_1a25d7c52c64b0071b83d11feee43ea0cb" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>generate</name></member>
+      <member refid="a01247_1a7c366ea2942779a96722181c617fbe35" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>replaceAll</name></member>
+      <member refid="a01247_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>scramble</name></member>
+      <member refid="a01247_1ae11e608ead047e4c71e71de7ae6e0536" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>scramble</name></member>
+      <member refid="a01247_1aca409c0c7ed03c4e60564c4955b736d2" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>split</name></member>
+      <member refid="a01247_1a6837f6baff05561c25008bab6dfba745" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>split</name></member>
+      <member refid="a01247_1a46aa4499cbbb3a4566d073ebd1a064c9" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>split</name></member>
+      <member refid="a01247_1a182fe1efd809e486f6d93d53f573b92d" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>splitLine</name></member>
+      <member refid="a01247_1a4e2a0d38a0435a6f041509d70b4c0cd7" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>splitRejectEmpty</name></member>
+      <member refid="a01247_1a0c6460ffd00b82ae4cd21ce37ea22a4e" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>toLower</name></member>
+      <member refid="a01247_1a25b8d33edc11ae70f016f217cb7ae330" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>toLowerFirst</name></member>
+      <member refid="a01247_1ab56d6cf09aedb16bd222016a02709fc8" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>toUpper</name></member>
+      <member refid="a01247_1a10a2d9d4209047792b39cc2330cf646a" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>toUpperFirst</name></member>
+      <member refid="a01247_1a7dd724d8a259c73e7f952d01b4f42548" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>trim</name></member>
+      <member refid="a01247_1a87fc763d8ed23042621827d65de690aa" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>trimL</name></member>
+      <member refid="a01247_1a84fd2c771eb5953236d6fee9acc6d8d6" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>trimR</name></member>
+      <member refid="a01247_1a129eedfc9277ca8acab4fe29cf3dcdea" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>trimWhiteSpace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

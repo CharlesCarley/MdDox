@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01871" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::GenApi::Simple</compoundname>
+    <basecompoundref refid="a01863" prot="public" virt="non-virtual">MdDox::GenApi::Object</basecompoundref>
+    <includes local="no">Tools/GenApi/Simple.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a01871_1a96e3b5c71223a471029af4b195630ffe" prot="private" static="no" mutable="no">
+        <type><ref refid="a00986_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member">StringMap</ref></type>
+        <definition>StringMap MdDox::GenApi::Simple::_enums</definition>
+        <argsstring></argsstring>
+        <name>_enums</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="34" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01871_1a192c3a961eb696260007f32bfdc71800" prot="private" static="no" mutable="no">
+        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::GenApi::Simple::_header</definition>
+        <argsstring></argsstring>
+        <name>_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="33" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01871_1af1fcc579adb8ab13a77ec4f69c0103a9" prot="private" static="no" mutable="no">
+        <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
+        <definition>Xml::Node* MdDox::GenApi::Simple::_node</definition>
+        <argsstring></argsstring>
+        <name>_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="31" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01871_1a61f52ae01c4a2d0e3f22ecd17e24e777" prot="private" static="no" mutable="no">
+        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::GenApi::Simple::_prefix</definition>
+        <argsstring></argsstring>
+        <name>_prefix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="35" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01871_1adfe826bdba42983f9989f761d806ef4e" prot="private" static="no" mutable="no">
+        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::GenApi::Simple::_tagType</definition>
+        <argsstring></argsstring>
+        <name>_tagType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="32" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01871_1ae42f3562cb13785a5f07f695a32fa2b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::GenApi::Simple::Simple</definition>
+        <argsstring>(Xml::Node *node, String name, String type, String header)</argsstring>
+        <name>Simple</name>
+        <param>
+          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+          <declname>header</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="38" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="36" bodyend="47"/>
+        <references refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="a00968" startline="32">MdDox::GenApi::Object::_name</references>
+      </memberdef>
+      <memberdef kind="function" id="a01871_1a371a012e7eb3511e17591dd97c4aa490" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::GenApi::Simple::~Simple</definition>
+        <argsstring>() override</argsstring>
+        <name>~Simple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01871_1aa72e1f0b2cac1a416f2f7a9d9fd9e076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Simple::addEnumValue</definition>
+        <argsstring>(const String &amp;searchTerm, const String &amp;value)</argsstring>
+        <name>addEnumValue</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>searchTerm</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="45" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="146" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="a01871_1a16c28db586098493f7076662db0fb457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Simple::write</definition>
+        <argsstring>(const String &amp;output)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="43" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="124" bodyend="144"/>
+        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">MdDox::StringCombine</references>
+        <references refid="a01239_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="a00365" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
+        <references refid="a01239_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="a00365" startline="126" endline="129">MdDox::PathUtil::stem</references>
+        <references refid="a01871_1a3f93f35cae7b04e89dff905f76780518" compoundref="a00977" startline="51" endline="97">writeHeader</references>
+        <references refid="a01871_1a7866e4471bb71712f2f3f86886c4e046" compoundref="a00977" startline="99" endline="122">writeSource</references>
+      </memberdef>
+      <memberdef kind="function" id="a01871_1a3f93f35cae7b04e89dff905f76780518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Simple::writeHeader</definition>
+        <argsstring>(OutputFileStream &amp;output)</argsstring>
+        <name>writeHeader</name>
+        <param>
+          <type><ref refid="a00986_1adc74d0adf91d7282eae3edd76765bf03" kindref="member">OutputFileStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="41" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="51" bodyend="97"/>
+        <references refid="a01271_1a7d48f1a4ee7a1bbefb8ca05a0ded4536" compoundref="a00401" startline="36" endline="39">MdDox::Xml::Writer::setIndent</references>
+        <references refid="a01271_1a386ffcf7d74ba57836183ad2be6214a5" compoundref="a00401" startline="41" endline="44">MdDox::Xml::Writer::setWriteXml</references>
+        <references refid="a01271_1a3de47d9176cd5216f12c3e71d7c6e828" compoundref="a00401" startline="115" endline="124">MdDox::Xml::Writer::write</references>
+        <references refid="a01247_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="a00371" startline="125" endline="132">MdDox::StringUtils::split</references>
+        <references refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="a00968" startline="32">MdDox::GenApi::Object::_name</references>
+      </memberdef>
+      <memberdef kind="function" id="a01871_1a7866e4471bb71712f2f3f86886c4e046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::GenApi::Simple::writeSource</definition>
+        <argsstring>(OutputFileStream &amp;output)</argsstring>
+        <name>writeSource</name>
+        <param>
+          <type><ref refid="a00986_1adc74d0adf91d7282eae3edd76765bf03" kindref="member">OutputFileStream</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/GenApi/Simple.h" line="42" column="1" bodyfile="Tools/GenApi/Simple.cpp" bodystart="99" bodyend="122"/>
+        <references refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="a00968" startline="32">MdDox::GenApi::Object::_name</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="806">
+        <label>MdDox::GenApi::Simple</label>
+        <link refid="a01871"/>
+        <childnode refid="807" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="808">
+        <label>MdDox::Xml::Writer</label>
+        <link refid="a01271"/>
+      </node>
+      <node id="807">
+        <label>MdDox::GenApi::Object</label>
+        <link refid="a01863"/>
+        <childnode refid="808" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="809">
+        <label>MdDox::GenApi::Simple</label>
+        <link refid="a01871"/>
+        <childnode refid="810" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="811">
+        <label>MdDox::Xml::Writer</label>
+        <link refid="a01271"/>
+      </node>
+      <node id="810">
+        <label>MdDox::GenApi::Object</label>
+        <link refid="a01863"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+        <childnode refid="812" relation="usage">
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="812">
+        <label>string</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/GenApi/Simple.h" line="29" column="1" bodyfile="Tools/GenApi/Simple.h" bodystart="28" bodyend="46"/>
+    <listofallmembers>
+      <member refid="a01871_1a96e3b5c71223a471029af4b195630ffe" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>_enums</name></member>
+      <member refid="a01871_1a192c3a961eb696260007f32bfdc71800" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>_header</name></member>
+      <member refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>_name</name></member>
+      <member refid="a01871_1af1fcc579adb8ab13a77ec4f69c0103a9" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>_node</name></member>
+      <member refid="a01871_1a61f52ae01c4a2d0e3f22ecd17e24e777" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>_prefix</name></member>
+      <member refid="a01871_1adfe826bdba42983f9989f761d806ef4e" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>_tagType</name></member>
+      <member refid="a01871_1aa72e1f0b2cac1a416f2f7a9d9fd9e076" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>addEnumValue</name></member>
+      <member refid="a01863_1a6be862a818c5b97b96fa69e6e29f4ba9" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>Object</name></member>
+      <member refid="a01271_1a7d48f1a4ee7a1bbefb8ca05a0ded4536" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>setIndent</name></member>
+      <member refid="a01271_1a386ffcf7d74ba57836183ad2be6214a5" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>setWriteXml</name></member>
+      <member refid="a01871_1ae42f3562cb13785a5f07f695a32fa2b6" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>Simple</name></member>
+      <member refid="a01871_1a16c28db586098493f7076662db0fb457" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>write</name></member>
+      <member refid="a01271_1a3de47d9176cd5216f12c3e71d7c6e828" prot="public" virt="non-virtual" ambiguityscope="MdDox::GenApi::Object::"><scope>MdDox::GenApi::Simple</scope><name>write</name></member>
+      <member refid="a01871_1a3f93f35cae7b04e89dff905f76780518" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>writeHeader</name></member>
+      <member refid="a01271_1ab057bff69eed3c14bd6fc1c7558af3c1" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>Writer</name></member>
+      <member refid="a01871_1a7866e4471bb71712f2f3f86886c4e046" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>writeSource</name></member>
+      <member refid="a01863_1a4386695048c025b9141bc42bd45c1bf4" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>~Object</name></member>
+      <member refid="a01871_1a371a012e7eb3511e17591dd97c4aa490" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>~Simple</name></member>
+      <member refid="a01271_1aa7759dd2e58c15311613673da60ecb38" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Simple</scope><name>~Writer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

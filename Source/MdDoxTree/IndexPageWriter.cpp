@@ -21,11 +21,11 @@
 */
 #include "MdDoxTree/IndexPageWriter.h"
 #include <utility>
-#include "MdDoxTree/DescriptionWriter.h"
 #include "Doxygen/DoxCompoundKind.h"
 #include "Doxygen/DoxygenQuery.h"
 #include "Doxygen/MemberIndexQuery.h"
 #include "MdDoxTree/ClassPageWriter.h"
+#include "MdDoxTree/DescriptionWriter.h"
 #include "MdDoxTree/DirectoryPageWriter.h"
 #include "MdDoxTree/DocumentWriter.h"
 #include "MdDoxTree/GenericPageWriter.h"
@@ -190,17 +190,21 @@ namespace MdDox
     }
 
     void IndexPageWriter::writeReferenceFile(const String&        name,
-                                             IconId               icon,
                                              const String&        heading,
-                                             const ReferenceList& list,
-                                             int                  specialization) const
+                                             const ReferenceList* listPtr,
+                                             const int            specialization) const
     {
         OutputFileStream out(name);
         if (!out.is_open())
             throw InputException("Failed to open the supplied file path: ", name);
 
+        if (!listPtr)
+            throw InvalidPointer();
+
         _writer->beginDocument(out, heading);
         writeGenericTitleBar(out, _writer, heading);
+
+        const ReferenceList& list = *listPtr;
 
         if (specialization == 0)
         {
@@ -292,29 +296,8 @@ namespace MdDox
 
         writeGenericTitleBar(out, _writer, "");
 
-
         if (filter.hasMainPage)
-        {
-            // extract the descriptions from the main page and dump it into
-            // the primary index (before the main links to the sub index
-            // pages).
-            //
-            // Currently:
-            //
-            // When writing the main page, it's assumed that the internal
-            // links to the sub pages are written after the main descriptions.
-            //
-            // So, for example to control the output:
-            //  \mainpage MainIndex
-            //
-            //  provide the detailed description, then at the end of the
-            //  description, declare a section to the auto-generated index
-            //  pages
-            // 
-            //  \section Index
-            // (eof)
             writeMainPageDescriptions(_writer, _indexDir, out);
-        }
 
         String file;
         String name;
@@ -322,49 +305,50 @@ namespace MdDox
 
         _writer->beginList(out);
 
-        // Pages
-        Reference ref = builder.getRefId("page_index");
-        name          = StringCombine(_outDir.fullPath(), '/', ref.getId(), builder.outputFileExt);
+        for (int i = 0; i < 4; ++i)
+        {
+            int current = builder.pageIndex[i];
+            if (current == -1)
+                continue;
 
-        if (!name.empty())
-            writeReferenceFile(name, ICO_FILE, ref.getName(), filter.pages);
+            Reference      ref;
+            ReferenceList* list  = nullptr;
+            bool           isDir = false;
 
-        _writer->beginListItem(out);
-        _writer->linkRef(out, 0, ref.getId(), ref.getName());
-        _writer->endListItem(out);
+            switch (current)
+            {
+            case Doxygen::DCK_PAGE:
+                ref  = builder.getRefId("page_index");
+                list = &filter.pages;
+                break;
+            case Doxygen::DCK_DIR:
+                ref   = builder.getRefId("directory_index");
+                list  = &filter.directories;
+                isDir = true;
+                break;
+            case Doxygen::DCK_NAMESPACE:
+                ref  = builder.getRefId("namespace_index");
+                list = &filter.namespaces;
+                break;
+            case Doxygen::DCK_CLASS:
+                ref  = builder.getRefId("class_index");
+                list = &filter.classes;
+                break;
+            default:
+                break;
+            }
 
-        // Directories
-        ref  = builder.getRefId("directory_index");
-        name = StringCombine(_outDir.fullPath(), '/', ref.getId(), builder.outputFileExt);
+            if (list != nullptr)
+            {
+                name = StringCombine(_outDir.fullPath(), '/', ref.getId(), builder.outputFileExt);
+                if (!name.empty())
+                    writeReferenceFile(name, ref.getName(), list, isDir ? 1 : 0);
 
-        if (!name.empty())
-            writeReferenceFile(name, ICO_FOLDER, ref.getName(), filter.directories, 1);
-
-        _writer->beginListItem(out);
-        _writer->linkRef(out, 0, ref.getId(), ref.getName());
-        _writer->endListItem(out);
-
-        // Namespaces
-        ref  = builder.getRefId("namespace_index");
-        name = StringCombine(_outDir.fullPath(), '/', ref.getId(), builder.outputFileExt);
-
-        if (!name.empty())
-            writeReferenceFile(name, ICO_NAMESPACE, ref.getName(), filter.namespaces);
-
-        _writer->beginListItem(out);
-        _writer->linkRef(out, 0, ref.getId(), ref.getName());
-        _writer->endListItem(out);
-
-        // Classes
-        ref  = builder.getRefId("class_index");
-        name = StringCombine(_outDir.fullPath(), '/', ref.getId(), builder.outputFileExt);
-
-        if (!name.empty())
-            writeReferenceFile(name, ICO_CLASS, ref.getName(), filter.classes);
-
-        _writer->beginListItem(out);
-        _writer->linkRef(out, 0, ref.getId(), ref.getName());
-        _writer->endListItem(out);
+                _writer->beginListItem(out);
+                _writer->linkRef(out, 0, ref.getId(), ref.getName());
+                _writer->endListItem(out);
+            }
+        }
 
         _writer->endList(out);
         _writer->endSection(out);

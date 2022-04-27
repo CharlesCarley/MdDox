@@ -80,11 +80,10 @@ namespace MdDox
             title = _ref.getName();
         }
 
-        if (title.find(':') != title.npos)
+        if (title.find(':') != String::npos)
             title = LinkUtils::LBR(title);
-        else if (title.find('/') != title.npos)
+        else if (title.find('/') != String::npos)
             title = LinkUtils::LSS(title);
-
 
         _writer->beginDocument(_out, title);
         _writer->anchor(_out, query.getId());

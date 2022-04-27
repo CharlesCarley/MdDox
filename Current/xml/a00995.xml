@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a00995" kind="namespace" language="C++">
+    <compoundname>MdDox::Doxygen::Visitors</compoundname>
+    <innerclass refid="a01279" prot="public">MdDox::Doxygen::Visitors::BlockQuoteQueryVisitor</innerclass>
+    <innerclass refid="a01287" prot="public">MdDox::Doxygen::Visitors::CaptionQueryVisitor</innerclass>
+    <innerclass refid="a01299" prot="public">MdDox::Doxygen::Visitors::CodeLineQueryVisitor</innerclass>
+    <innerclass refid="a01307" prot="public">MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</innerclass>
+    <innerclass refid="a01315" prot="public">MdDox::Doxygen::Visitors::CompoundIndexQueryVisitor</innerclass>
+    <innerclass refid="a01327" prot="public">MdDox::Doxygen::Visitors::CopyQueryVisitor</innerclass>
+    <innerclass refid="a01335" prot="public">MdDox::Doxygen::Visitors::DescriptionQueryVisitor</innerclass>
+    <innerclass refid="a01419" prot="public">MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</innerclass>
+    <innerclass refid="a01427" prot="public">MdDox::Doxygen::Visitors::DoxygenQueryVisitor</innerclass>
+    <innerclass refid="a01439" prot="public">MdDox::Doxygen::Visitors::EntryQueryVisitor</innerclass>
+    <innerclass refid="a01447" prot="public">MdDox::Doxygen::Visitors::EnumValueQueryVisitor</innerclass>
+    <innerclass refid="a01455" prot="public">MdDox::Doxygen::Visitors::FileQueryVisitor</innerclass>
+    <innerclass refid="a01467" prot="public">MdDox::Doxygen::Visitors::GraphQueryVisitor</innerclass>
+    <innerclass refid="a01475" prot="public">MdDox::Doxygen::Visitors::HeadingQueryVisitor</innerclass>
+    <innerclass refid="a01483" prot="public">MdDox::Doxygen::Visitors::HighlightQueryVisitor</innerclass>
+    <innerclass refid="a01491" prot="public">MdDox::Doxygen::Visitors::ImageQueryVisitor</innerclass>
+    <innerclass refid="a01507" prot="public">MdDox::Doxygen::Visitors::InternalQueryVisitor</innerclass>
+    <innerclass refid="a01515" prot="public">MdDox::Doxygen::Visitors::InternalS1QueryVisitor</innerclass>
+    <innerclass refid="a01523" prot="public">MdDox::Doxygen::Visitors::InternalS2QueryVisitor</innerclass>
+    <innerclass refid="a01531" prot="public">MdDox::Doxygen::Visitors::InternalS3QueryVisitor</innerclass>
+    <innerclass refid="a01539" prot="public">MdDox::Doxygen::Visitors::InternalS4QueryVisitor</innerclass>
+    <innerclass refid="a01547" prot="public">MdDox::Doxygen::Visitors::LanguageQueryVisitor</innerclass>
+    <innerclass refid="a01555" prot="public">MdDox::Doxygen::Visitors::LinkedTextQueryVisitor</innerclass>
+    <innerclass refid="a01567" prot="public">MdDox::Doxygen::Visitors::ListingQueryVisitor</innerclass>
+    <innerclass refid="a01575" prot="public">MdDox::Doxygen::Visitors::ListItemQueryVisitor</innerclass>
+    <innerclass refid="a01583" prot="public">MdDox::Doxygen::Visitors::ListOfAllMembersQueryVisitor</innerclass>
+    <innerclass refid="a01591" prot="public">MdDox::Doxygen::Visitors::ListQueryVisitor</innerclass>
+    <innerclass refid="a01603" prot="public">MdDox::Doxygen::Visitors::MarkupQueryVisitor</innerclass>
+    <innerclass refid="a01611" prot="public">MdDox::Doxygen::Visitors::MemberDefQueryVisitor</innerclass>
+    <innerclass refid="a01627" prot="public">MdDox::Doxygen::Visitors::NodeQueryVisitor</innerclass>
+    <innerclass refid="a01635" prot="public">MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</innerclass>
+    <innerclass refid="a01643" prot="public">MdDox::Doxygen::Visitors::ParamListQueryVisitor</innerclass>
+    <innerclass refid="a01651" prot="public">MdDox::Doxygen::Visitors::ParamNameListQueryVisitor</innerclass>
+    <innerclass refid="a01659" prot="public">MdDox::Doxygen::Visitors::ParamNameQueryVisitor</innerclass>
+    <innerclass refid="a01667" prot="public">MdDox::Doxygen::Visitors::ParamQueryVisitor</innerclass>
+    <innerclass refid="a01675" prot="public">MdDox::Doxygen::Visitors::ParamTypeQueryVisitor</innerclass>
+    <innerclass refid="a01683" prot="public">MdDox::Doxygen::Visitors::ParaQueryVisitor</innerclass>
+    <innerclass refid="a01691" prot="public">MdDox::Doxygen::Visitors::ParBlockQueryVisitor</innerclass>
+    <innerclass refid="a01715" prot="public">MdDox::Doxygen::Visitors::RowQueryVisitor</innerclass>
+    <innerclass refid="a01723" prot="public">MdDox::Doxygen::Visitors::Sect1QueryVisitor</innerclass>
+    <innerclass refid="a01731" prot="public">MdDox::Doxygen::Visitors::Sect2QueryVisitor</innerclass>
+    <innerclass refid="a01739" prot="public">MdDox::Doxygen::Visitors::Sect3QueryVisitor</innerclass>
+    <innerclass refid="a01747" prot="public">MdDox::Doxygen::Visitors::Sect4QueryVisitor</innerclass>
+    <innerclass refid="a01755" prot="public">MdDox::Doxygen::Visitors::SectionDefQueryVisitor</innerclass>
+    <innerclass refid="a01763" prot="public">MdDox::Doxygen::Visitors::SimpleSectQueryVisitor</innerclass>
+    <innerclass refid="a01775" prot="public">MdDox::Doxygen::Visitors::TableQueryVisitor</innerclass>
+    <innerclass refid="a01783" prot="public">MdDox::Doxygen::Visitors::TemplateParamListQueryVisitor</innerclass>
+    <innerclass refid="a01791" prot="public">MdDox::Doxygen::Visitors::TitleQueryVisitor</innerclass>
+    <innerclass refid="a01799" prot="public">MdDox::Doxygen::Visitors::TocItemQueryVisitor</innerclass>
+    <innerclass refid="a01807" prot="public">MdDox::Doxygen::Visitors::TocListQueryVisitor</innerclass>
+    <innerclass refid="a01815" prot="public">MdDox::Doxygen::Visitors::UrlLinkQueryVisitor</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/BlockQuoteQuery.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

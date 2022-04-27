@@ -168,7 +168,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>compounddefType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="compounddefType">
      *    <xsd:sequence>

@@ -31,7 +31,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>docFormulaType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="docFormulaType" mixed="true">
      *    <xsd:attribute name="id" type="xsd:string"/>

@@ -65,7 +65,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>enumvalueType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="enumvalueType" mixed="true">
      *    <xsd:sequence>

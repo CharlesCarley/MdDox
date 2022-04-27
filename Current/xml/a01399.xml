@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01399" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::DoxSectionKind</compoundname>
+    <includes local="no">Tools/Doxygen/DoxSectionKind.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="a01399_1a35a56c6b65ce7f9ac08bd0085d6a2164" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8a" kindref="member">DoxSectionKindEnum</ref></type>
+        <definition>DoxSectionKindEnum MdDox::Doxygen::DoxSectionKind::get</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <defname>look</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxSectionKind.h" line="229" column="1" bodyfile="Tools/Doxygen/DoxSectionKind.cpp" bodystart="30" bodyend="105"/>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aab92c3b7adf9250340252cf086ddbacd4" compoundref="a00554" startline="82">MdDox::Doxygen::DSK_PRIVATE_STATIC_FUNC</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aab3f50f1d0a4d5816f951c20dd5e00ff5" compoundref="a00554" startline="86">MdDox::Doxygen::DSK_USER_DEFINED</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aaa53780f4c4c0043fb1c40b63119001e3" compoundref="a00554" startline="90">MdDox::Doxygen::DSK_PUBLIC_TYPE</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa8000ce30d3cc98de60205dab7f662bb6" compoundref="a00554" startline="94">MdDox::Doxygen::DSK_PACKAGE_STATIC_FUNC</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa345c4e5d65fabe2eaf85b4cd5fbd0da7" compoundref="a00554" startline="98">MdDox::Doxygen::DSK_PUBLIC_FUNC</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa447557d7249bf564b36d4db87840e912" compoundref="a00554" startline="102">MdDox::Doxygen::DSK_PUBLIC_SLOT</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa0c54373da4ff54b914e7f4c5c40f9e45" compoundref="a00554" startline="106">MdDox::Doxygen::DSK_PACKAGE_STATIC_ATTRIB</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa9ceb5788cab738c5a9a8209226bed334" compoundref="a00554" startline="110">MdDox::Doxygen::DSK_PROTECTED_STATIC_FUNC</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa07e66fb0f9b9a5ff6b29de776e018387" compoundref="a00554" startline="114">MdDox::Doxygen::DSK_PUBLIC_ATTRIB</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa86ccbfbb3d0fc114517d9dbddfca58ad" compoundref="a00554" startline="118">MdDox::Doxygen::DSK_SIGNAL</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa5b6d003688f0d5c050fc07d1c5e5fde2" compoundref="a00554" startline="122">MdDox::Doxygen::DSK_PROPERTY</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa74e05c727dd81ca3468648035a36bcb3" compoundref="a00554" startline="126">MdDox::Doxygen::DSK_DCOP_FUNC</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aaec53f0816e6ee8bfe6f36dcf6260fe03" compoundref="a00554" startline="130">MdDox::Doxygen::DSK_PRIVATE_SLOT</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa3f5d7a1b70744a69826cdf51c919dd0e" compoundref="a00554" startline="134">MdDox::Doxygen::DSK_EVENT</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa15eff7fa205926942de3459122242e06" compoundref="a00554" startline="138">MdDox::Doxygen::DSK_PUBLIC_STATIC_FUNC</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa99068a369918c1f670a696351a0ed5fd" compoundref="a00554" startline="142">MdDox::Doxygen::DSK_TYPEDEF</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa820d68bbb4444349bcc9a480317d4329" compoundref="a00554" startline="146">MdDox::Doxygen::DSK_PACKAGE_FUNC</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aadc56b1243ca1c57d987d8314fef4f778" compoundref="a00554" startline="150">MdDox::Doxygen::DSK_PUBLIC_STATIC_ATTRIB</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa5e1091887503d601e5bcd099d62a613d" compoundref="a00554" startline="154">MdDox::Doxygen::DSK_RELATED</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa2447912563759853932a0daf6d90e9a0" compoundref="a00554" startline="158">MdDox::Doxygen::DSK_PROTECTED_TYPE</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aaf524687aba4c62b524c230ad77424d2c" compoundref="a00554" startline="162">MdDox::Doxygen::DSK_PROTECTED_FUNC</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa410fc8c1661b6d0605c0d0f80abdfc99" compoundref="a00554" startline="166">MdDox::Doxygen::DSK_PROTECTED_ATTRIB</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aad8ee1872d561fc20a1e6c314e586e046" compoundref="a00554" startline="170">MdDox::Doxygen::DSK_PROTECTED_SLOT</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aad7ab8741c39784b2a86fed7201c386cb" compoundref="a00554" startline="174">MdDox::Doxygen::DSK_PROTECTED_STATIC_ATTRIB</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa966a4c5feccfad6392f107e092e41921" compoundref="a00554" startline="178">MdDox::Doxygen::DSK_DEFINE</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa0e82e6a1a72723b1c8198012de8cd547" compoundref="a00554" startline="182">MdDox::Doxygen::DSK_PACKAGE_TYPE</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa6bc18e318f10c06b2373d01b90679a42" compoundref="a00554" startline="186">MdDox::Doxygen::DSK_PACKAGE_ATTRIB</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa5c9fb6765a21348f97e3085c9b84b411" compoundref="a00554" startline="190">MdDox::Doxygen::DSK_PRIVATE_TYPE</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa438ec733a266bc64d57ab56e0809e180" compoundref="a00554" startline="194">MdDox::Doxygen::DSK_PRIVATE_FUNC</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa5031eb30701565718c277d4ac0bd1ada" compoundref="a00554" startline="198">MdDox::Doxygen::DSK_FUNC</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa4cd9bd7fc84aaf43cdc9d0457c037e49" compoundref="a00554" startline="202">MdDox::Doxygen::DSK_PRIVATE_ATTRIB</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa317b9e6d99ce42d6d302b98ef17f91ca" compoundref="a00554" startline="206">MdDox::Doxygen::DSK_PRIVATE_STATIC_ATTRIB</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aad78bd8b74cc9b5266c7ad89e8d63e306" compoundref="a00554" startline="210">MdDox::Doxygen::DSK_FRIEND</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aa5eda391c8dfba9291ddfacbd4fcd9d35" compoundref="a00554" startline="214">MdDox::Doxygen::DSK_PROTOTYPE</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aac9b5158f9f3b973221f5961ed6c2169c" compoundref="a00554" startline="218">MdDox::Doxygen::DSK_ENUM</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aaa65b62e5c0b20851be3836270a46290f" compoundref="a00554" startline="222">MdDox::Doxygen::DSK_VAR</references>
+        <references refid="a00991_1a7f2b31fb58f486ef341e07ed25f12b8aacce9799a7656f593ab7ef5e5e1779220" compoundref="a00554" startline="78">MdDox::Doxygen::DSK_INVALID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/DoxSectionKind.h" line="227" column="1" bodyfile="Tools/Doxygen/DoxSectionKind.h" bodystart="226" bodyend="230"/>
+    <listofallmembers>
+      <member refid="a01399_1a35a56c6b65ce7f9ac08bd0085d6a2164" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxSectionKind</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

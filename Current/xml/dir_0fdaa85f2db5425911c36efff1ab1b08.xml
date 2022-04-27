@@ -2,11 +2,11 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_0fdaa85f2db5425911c36efff1ab1b08" kind="dir">
     <compoundname>Current/pages</compoundname>
-    <innerfile refid="Directories_8h">Directories.h</innerfile>
-    <innerfile refid="Image_8h">Image.h</innerfile>
-    <innerfile refid="Index_8h">Index.h</innerfile>
-    <innerfile refid="Project_8h">Project.h</innerfile>
-    <innerfile refid="SiteLayout_8h">SiteLayout.h</innerfile>
+    <innerfile refid="a00002">Directories.h</innerfile>
+    <innerfile refid="a00005">MD000_Index.h</innerfile>
+    <innerfile refid="a00008">MD001_Project.h</innerfile>
+    <innerfile refid="a00011">MD002_Layout.h</innerfile>
+    <innerfile refid="a00014">MD003_Images.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

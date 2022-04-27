@@ -120,7 +120,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>docImageType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="docImageType" mixed="true">
      *    <xsd:group ref="docTitleCmdGroup" minOccurs="0" maxOccurs="unbounded"/>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01403" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::DoxSimpleSectKind</compoundname>
+    <includes local="no">Tools/Doxygen/DoxSimpleSectKind.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="a01403_1acd37d1a8bbcc5d31a274aa75a3775c09" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ad" kindref="member">DoxSimpleSectKindEnum</ref></type>
+        <definition>DoxSimpleSectKindEnum MdDox::Doxygen::DoxSimpleSectKind::get</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <defname>look</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxSimpleSectKind.h" line="134" column="1" bodyfile="Tools/Doxygen/DoxSimpleSectKind.cpp" bodystart="30" bodyend="67"/>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada4bbbcc8680efa81115fb217e54be1075" compoundref="a00560" startline="63">MdDox::Doxygen::DSSK_SEE</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada435b89449a9870db4c43e1e210138bb5" compoundref="a00560" startline="67">MdDox::Doxygen::DSSK_VERSION</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada57137766dbe0558e8371d7b872d11d04" compoundref="a00560" startline="71">MdDox::Doxygen::DSSK_RETURN</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada5d82dbc2cd35adce809511da45c328dd" compoundref="a00560" startline="75">MdDox::Doxygen::DSSK_AUTHORS</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5adaef12ae2a599b6e22e6fe04786961005e" compoundref="a00560" startline="79">MdDox::Doxygen::DSSK_AUTHOR</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada7b1794fa18f359f056a98ca9c166803c" compoundref="a00560" startline="83">MdDox::Doxygen::DSSK_SINCE</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada468ef1c97c51010cec94c7de45e5d078" compoundref="a00560" startline="87">MdDox::Doxygen::DSSK_NOTE</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5adad81312632ca3680ba6c65bb5cf513936" compoundref="a00560" startline="91">MdDox::Doxygen::DSSK_ATTENTION</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5adad7c5fc325482545b793d03cec9e1725a" compoundref="a00560" startline="95">MdDox::Doxygen::DSSK_DATE</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada20cefaeedb26ee7f7fbf5a24c7ec5001" compoundref="a00560" startline="99">MdDox::Doxygen::DSSK_WARNING</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada5921fae3a1be3061b8d470a17f14ddd9" compoundref="a00560" startline="103">MdDox::Doxygen::DSSK_PRE</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada6fb2d51802a70bac28903223640f1b93" compoundref="a00560" startline="107">MdDox::Doxygen::DSSK_POST</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada733bf4c63d70c677c859ebdfabced3a3" compoundref="a00560" startline="111">MdDox::Doxygen::DSSK_COPYRIGHT</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada4530d89231766c8b168c80a19c98f761" compoundref="a00560" startline="115">MdDox::Doxygen::DSSK_INVARIANT</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5adab0d9499a61a6a1767d19c9cc6595c1aa" compoundref="a00560" startline="119">MdDox::Doxygen::DSSK_REMARK</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada8c53f0c5eec72bd8b66ada5bbb4449f8" compoundref="a00560" startline="123">MdDox::Doxygen::DSSK_PAR</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5adaf85f20ecf5a50309204045f959ae6150" compoundref="a00560" startline="127">MdDox::Doxygen::DSSK_RCS</references>
+        <references refid="a00991_1af2044d6cdcb49102aee11ae4cc4ba5ada0915be23a86ce8c8bd578551e302a1e0" compoundref="a00560" startline="59">MdDox::Doxygen::DSSK_INVALID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/DoxSimpleSectKind.h" line="132" column="1" bodyfile="Tools/Doxygen/DoxSimpleSectKind.h" bodystart="131" bodyend="135"/>
+    <listofallmembers>
+      <member refid="a01403_1acd37d1a8bbcc5d31a274aa75a3775c09" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxSimpleSectKind</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01583" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::ListOfAllMembersQueryVisitor</compoundname>
+    <includes local="no">Tools/Doxygen/ListOfAllMembersQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01583_1a3b88ac0439c11786e881254f3ffbec2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::ListOfAllMembersQueryVisitor::~ListOfAllMembersQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ListOfAllMembersQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ListOfAllMembersQuery.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01583_1a7243ce0b8d29a330defa7901a1ac3157" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ListOfAllMembersQueryVisitor::visitedMember</definition>
+        <argsstring>(const MemberRefQuery &amp;query)</argsstring>
+        <name>visitedMember</name>
+        <param>
+          <type>const <ref refid="a01623" kindref="compound">MemberRefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>member</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a01623" kindref="compound">MemberRefQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ListOfAllMembersQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/ListOfAllMembersQuery.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="a01583_1a0bee20983e2679000e7bcb51aafd9d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ListOfAllMembersQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ListOfAllMembersQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/ListOfAllMembersQuery.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/ListOfAllMembersQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/ListOfAllMembersQuery.h" bodystart="30" bodyend="45"/>
+    <listofallmembers>
+      <member refid="a01583_1a7243ce0b8d29a330defa7901a1ac3157" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ListOfAllMembersQueryVisitor</scope><name>visitedMember</name></member>
+      <member refid="a01583_1a0bee20983e2679000e7bcb51aafd9d4d" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ListOfAllMembersQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="a01583_1a3b88ac0439c11786e881254f3ffbec2e" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ListOfAllMembersQueryVisitor</scope><name>~ListOfAllMembersQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

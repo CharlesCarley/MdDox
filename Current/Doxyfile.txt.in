@@ -29,7 +29,7 @@ INLINE_INHERITED_MEMB  = NO
 FULL_PATH_NAMES        = YES
 STRIP_FROM_PATH        = "${CMAKE_SOURCE_DIR}"
 STRIP_FROM_INC_PATH    = "${CMAKE_SOURCE_DIR}"
-SHORT_NAMES            = NO
+SHORT_NAMES            = YES
 JAVADOC_AUTOBRIEF      = NO
 QT_AUTOBRIEF           = NO
 MULTILINE_CPP_IS_BRIEF = NO
@@ -342,3 +342,21 @@ DOT_TRANSPARENT        = YES
 DOT_MULTI_TARGETS      = NO
 GENERATE_LEGEND        = NO
 DOT_CLEANUP            = YES
+
+#---------------------------------------------------------------------------
+# ALIASES
+#---------------------------------------------------------------------------
+ALIASES += br="\n\n"
+
+ALIASES += h1="## "
+ALIASES += h2="### "
+ALIASES += h3="#### "
+ALIASES += h4="##### "
+
+ALIASES += ref_class{1}="\ref MdDox::\1 \"\1\""
+
+ALIASES += s1{1}="\section \1"
+ALIASES += s2{1}="\subsection \1"
+ALIASES += s3{1}="\subsubsection \1"
+
+ALIASES += ref_brief{1}="\ref \1 \copybrief \1"

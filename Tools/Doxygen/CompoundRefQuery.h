@@ -33,7 +33,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>compoundRefType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="compoundRefType">
      *    <xsd:simpleContent>

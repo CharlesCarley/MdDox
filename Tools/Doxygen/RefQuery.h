@@ -32,7 +32,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>refType</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="refType">
      *    <xsd:simpleContent>

@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01003" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Application</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a01003_1ad91e8fbf7ab789a2799ac159ac14f702" prot="private" static="no" mutable="no">
+        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::Application::_config</definition>
+        <argsstring></argsstring>
+        <name>_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDox/Main.cpp" line="129" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01003_1a7886a3f357cea319bf05b97330390c48" prot="private" static="no" mutable="no">
+        <type><ref refid="a01239" kindref="compound">PathUtil</ref></type>
+        <definition>PathUtil MdDox::Application::_indexFile</definition>
+        <argsstring></argsstring>
+        <name>_indexFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDox/Main.cpp" line="127" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01003_1a72f5d19b9a07de16d8e1590dc5ed5d82" prot="private" static="no" mutable="no">
+        <type><ref refid="a01239" kindref="compound">PathUtil</ref></type>
+        <definition>PathUtil MdDox::Application::_outDir</definition>
+        <argsstring></argsstring>
+        <name>_outDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDox/Main.cpp" line="128" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01003_1ab7c709c2577f1bc90eb5c4630792d067" prot="private" static="no" mutable="no">
+        <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::Application::_writer</definition>
+        <argsstring></argsstring>
+        <name>_writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDox/Main.cpp" line="126" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01003_1a580e1b1886d5514923557a3da827c04e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Application::Application</definition>
+        <argsstring>()</argsstring>
+        <name>Application</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDox/Main.cpp" line="132" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="a01003_1adb48bbeb26bb380844dafb81e4e9ba79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Application::~Application</definition>
+        <argsstring>()</argsstring>
+        <name>~Application</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDox/Main.cpp" line="137" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="a01003_1a5e26f2c61df5344be166f4030d232734" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MdDox::Application::go</definition>
+        <argsstring>()</argsstring>
+        <name>go</name>
+        <briefdescription>
+<para>Is the primary application routine. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Zero on success or not at all if an internal exception is raised. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDox/Main.cpp" line="170" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="170" bodyend="189"/>
+        <references refid="a01167_1a1cf92964093f95d7a65fbf17355c387a" compoundref="a00272" startline="136" endline="200">MdDox::SiteBuilder::loadConfig</references>
+        <references refid="a01167_1a4c999e025cc414b6a323d0328527ee1f" compoundref="a00275" startline="277">MdDox::SiteBuilder::backendType</references>
+        <references refid="a00986_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" compoundref="a00275" startline="45">MdDox::BackendMarkdown</references>
+        <references refid="a00986_1a64e89506cd6e8d71ef2d84c3f0521bffaf0a84bc4cba0f83c21a94c6e7f5a21ae" compoundref="a00275" startline="41">MdDox::BackendHtml</references>
+        <references refid="a01167_1a791dee508bba850fa164d1f9a81e26da" compoundref="a00272" startline="59" endline="85">MdDox::SiteBuilder::buildFromXml</references>
+        <references refid="a01239_1affcdc94254d5be39dd6e195cfff55092" compoundref="a00365" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
+      </memberdef>
+      <memberdef kind="function" id="a01003_1a7464ef04382b7dd0c71069b178b9c42b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Application::parse</definition>
+        <argsstring>(const int argc, char **argv)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>const int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+<para>Interprets the supplied command line variables. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True on success, otherwise, false if the parser fails to parse the arguments. </para></simplesect>
+<simplesect kind="see"><para><ref refid="a00992" kindref="compound">MdDox::CommandLine</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDox/Main.cpp" line="147" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="147" bodyend="164"/>
+        <references refid="a01183_1a07ef47203678799f14aff45bd593f962" compoundref="a02133" startline="53" endline="177">MdDox::CommandLine::Parser::parse</references>
+        <references refid="a00986_1a05eb5502d200714d8a3f429bb891db0c" compoundref="a02124" startline="85">MdDox::Switches</references>
+        <references refid="a00986_1a2a045741e91ac06db43c953eae95c43eae01cfe25875523e198a57725e58d7e0a" compoundref="a02124" startline="82">MdDox::OpMax</references>
+        <references refid="a01183_1ae19e2d4dac9f9bcdf9af321798b91bf5" compoundref="a02133" startline="241" endline="256">MdDox::CommandLine::Parser::string</references>
+        <references refid="a00986_1a2a045741e91ac06db43c953eae95c43ea39b558e96c16007cf1aa78e3c082395c" compoundref="a02124" startline="65">MdDox::OptOutputDirectory</references>
+        <references refid="a00986_1a2a045741e91ac06db43c953eae95c43ea0a4e9b2b31a3270c55bdcfbd656dad67" compoundref="a02124" startline="73">MdDox::OptIndexFile</references>
+        <references refid="a00986_1a2a045741e91ac06db43c953eae95c43eaaf9ae2599ecf4ca56b203b90daa51595" compoundref="a02124" startline="81">MdDox::OptConfigFile</references>
+        <references refid="a01239_1a38c8b6c0791f16a60e2b9f542a7ef561" compoundref="a00368" startline="112" endline="115">MdDox::PathUtil::empty</references>
+        <references refid="a01183_1ada221ca664083f9a06a12f55e385a9f6" compoundref="a02133" startline="258" endline="263">MdDox::CommandLine::Parser::usage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="a01003" kindref="compound">Application</ref> is the entry point of this project. </para>    </briefdescription>
+    <detaileddescription>
+<para>Its primary responsibility is to collect just enough information to instantiate a <ref refid="a01167" kindref="compound">MdDox::SiteBuilder</ref>. <linebreak/>
+<linebreak/>
+<bold>The site builder</bold> handles setting up and running the main loop. It stores references to other pages and general configuration properties to control the final output. <linebreak/>
+<linebreak/>
+ The following diagram outlines its main routine. <linebreak/>
+<linebreak/>
+ <dot>
+digraph {
+
+  layout  = dot;
+  bgcolor = &quot;${graph-bg}&quot;;
+  rankdir = &quot;LR&quot;;
+  labelloc= &quot;t&quot;
+  label   = &quot;Build Routine&quot;
+  fontname= &quot;${font-family}&quot;
+  fontsize= &quot;${font-size}&quot;
+  margin  = &quot;${node-primary-margin}&quot;
+
+  node [
+    shape     = none
+    style     = none
+    fontname  = &quot;${font-family}&quot;
+    fontsize  = &quot;${font-size}&quot;
+    fontcolor = &quot;${node-primary-text}&quot;
+    color     = &quot;${node-primary-border}&quot;
+    fillcolor = &quot;${node-primary-exe}&quot;
+    margin    = &quot;0.01&quot;
+  ]
+  edge [
+    arrowsize = &quot;${arrow-size}&quot;
+    fontname  = &quot;${font-family}&quot;
+    fontsize  = &quot;${font-size}&quot;
+    color     = &quot;${node-primary-edge}&quot;
+    fontcolor = &quot;${node-primary-text}&quot;
+  ]
+  SiteBuilder-&gt;Config[dir=back]
+
+  {rank=same Config SiteBuilder}
+
+  SiteBuilder-&gt;buildFromXml
+  buildFromXml-&gt;Build
+  buildFromXml-&gt;WriteIndex
+  buildFromXml-&gt;Dispatch
+  buildFromXml-&gt;ConvertGraphs
+  Dispatch-&gt;BuildItem
+  Dispatch-&gt;WriteItem
+}
+</dot>
+ <linebreak/>
+<linebreak/>
+ It needs to have all configuration parameters set before running. From there, it needs to load Doxygen&apos;s index file. With the input, it writes a primary index, class index, page index, namespace index, and directory index.</para><para>The application will then branch off and iterate over all individual elements which will invoke writers for each element. </para>    </detaileddescription>
+    <location file="Source/MdDox/Main.cpp" line="124" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="123" bodyend="190"/>
+    <listofallmembers>
+      <member refid="a01003_1ad91e8fbf7ab789a2799ac159ac14f702" prot="private" virt="non-virtual"><scope>MdDox::Application</scope><name>_config</name></member>
+      <member refid="a01003_1a7886a3f357cea319bf05b97330390c48" prot="private" virt="non-virtual"><scope>MdDox::Application</scope><name>_indexFile</name></member>
+      <member refid="a01003_1a72f5d19b9a07de16d8e1590dc5ed5d82" prot="private" virt="non-virtual"><scope>MdDox::Application</scope><name>_outDir</name></member>
+      <member refid="a01003_1ab7c709c2577f1bc90eb5c4630792d067" prot="private" virt="non-virtual"><scope>MdDox::Application</scope><name>_writer</name></member>
+      <member refid="a01003_1a580e1b1886d5514923557a3da827c04e" prot="public" virt="non-virtual"><scope>MdDox::Application</scope><name>Application</name></member>
+      <member refid="a01003_1a5e26f2c61df5344be166f4030d232734" prot="public" virt="non-virtual"><scope>MdDox::Application</scope><name>go</name></member>
+      <member refid="a01003_1a7464ef04382b7dd0c71069b178b9c42b" prot="public" virt="non-virtual"><scope>MdDox::Application</scope><name>parse</name></member>
+      <member refid="a01003_1adb48bbeb26bb380844dafb81e4e9ba79" prot="public" virt="non-virtual"><scope>MdDox::Application</scope><name>~Application</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

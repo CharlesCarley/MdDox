@@ -59,7 +59,7 @@ namespace MdDox::Doxygen
      *
      * The following xml provides the source for the <b>docSect4Type</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}
      *  <xsd:complexType name="docSect4Type" mixed="true">
      *    <xsd:sequence>

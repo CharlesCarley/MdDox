@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a00992" kind="namespace" language="C++">
+    <compoundname>MdDox::CommandLine</compoundname>
+    <innerclass refid="a01179" prot="public">MdDox::CommandLine::ParseOption</innerclass>
+    <innerclass refid="a01183" prot="public">MdDox::CommandLine::Parser</innerclass>
+    <innerclass refid="a01187" prot="public">MdDox::CommandLine::Scanner</innerclass>
+    <innerclass refid="a01175" prot="public">MdDox::CommandLine::Switch</innerclass>
+    <innerclass refid="a01191" prot="public">MdDox::CommandLine::Token</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="a00992_1a03e4cd225e19f002e73e70896a99a1d8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TokenType</name>
+        <enumvalue id="a00992_1a03e4cd225e19f002e73e70896a99a1d8a90bfa7b51d907946dfa6b3fbb69ff4d4" prot="public">
+          <name>TOK_NONE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00992_1a03e4cd225e19f002e73e70896a99a1d8adefa4c3792d7f2337acf3d6f3f799d9f" prot="public">
+          <name>TOK_SWITCH_SHORT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00992_1a03e4cd225e19f002e73e70896a99a1d8a05a2d08c2b15bd0f35f3363e31945c2f" prot="public">
+          <name>TOK_SWITCH_LONG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00992_1a03e4cd225e19f002e73e70896a99a1d8a5a7fb23fd3b79f2ac74709ccb7d88215" prot="public">
+          <name>TOK_NEXT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00992_1a03e4cd225e19f002e73e70896a99a1d8a7b900831ba61e82ad856c6824525ee2d" prot="public">
+          <name>TOK_OPTION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00992_1a03e4cd225e19f002e73e70896a99a1d8a132de4efb92bf1c1a2aca5b2a665b33f" prot="public">
+          <name>TOK_INTEGER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00992_1a03e4cd225e19f002e73e70896a99a1d8a539473131756a26afa099e124ba93065" prot="public">
+          <name>TOK_REAL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00992_1a03e4cd225e19f002e73e70896a99a1d8acb940d3c384d587411d9e062100b194a" prot="public">
+          <name>TOK_IDENTIFIER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00992_1a03e4cd225e19f002e73e70896a99a1d8af3c6e14a7459b1288c3bcedfd29dc40e" prot="public">
+          <name>TOK_FILEPATH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00992_1a03e4cd225e19f002e73e70896a99a1d8a1d6999ba00df0f8fe5044a5fe91e37ad" prot="public">
+          <name>TOK_EOS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="a00992_1a03e4cd225e19f002e73e70896a99a1d8a594cda9fe8f31c481dfd70012adb9a2f" prot="public">
+          <name>TOK_ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/CommandLine/Token.h" line="29" column="1" bodyfile="Source/Utils/CommandLine/Token.h" bodystart="28" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides classes that handle parsing command line options. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Utils/CommandLine/Option.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

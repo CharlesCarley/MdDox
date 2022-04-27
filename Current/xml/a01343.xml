@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01343" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::DoxAccessor</compoundname>
+    <includes local="no">Tools/Doxygen/DoxAccessor.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="a01343_1a31dd146fe72ae37909b1b6f811bb8919" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a00991_1a2d0defe73aa325f7cb3ac7666f0d29a8" kindref="member">DoxAccessorEnum</ref></type>
+        <definition>DoxAccessorEnum MdDox::Doxygen::DoxAccessor::get</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <defname>look</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxAccessor.h" line="79" column="1" bodyfile="Tools/Doxygen/DoxAccessor.cpp" bodystart="30" bodyend="45"/>
+        <references refid="a00991_1a2d0defe73aa325f7cb3ac7666f0d29a8af84d3f868257713c28552c2157959abf" compoundref="a00470" startline="52">MdDox::Doxygen::DA_ASSIGN</references>
+        <references refid="a00991_1a2d0defe73aa325f7cb3ac7666f0d29a8ac15e544545f1ff92d5b6529b74bfb614" compoundref="a00470" startline="56">MdDox::Doxygen::DA_COPY</references>
+        <references refid="a00991_1a2d0defe73aa325f7cb3ac7666f0d29a8a8c4bbd26b6254c68c13020cb17735dba" compoundref="a00470" startline="60">MdDox::Doxygen::DA_RETAIN</references>
+        <references refid="a00991_1a2d0defe73aa325f7cb3ac7666f0d29a8a8d6d059946744e52adc4da25a867a935" compoundref="a00470" startline="64">MdDox::Doxygen::DA_WEAK</references>
+        <references refid="a00991_1a2d0defe73aa325f7cb3ac7666f0d29a8a26e9e846489fe0ab162945cc5335d261" compoundref="a00470" startline="68">MdDox::Doxygen::DA_STRONG</references>
+        <references refid="a00991_1a2d0defe73aa325f7cb3ac7666f0d29a8a4b4b9d661adbff2b5e6f9b3040ba414a" compoundref="a00470" startline="72">MdDox::Doxygen::DA_UNRETAINED</references>
+        <references refid="a00991_1a2d0defe73aa325f7cb3ac7666f0d29a8a00e580f9a89cf3ec94789ddf9d85a1da" compoundref="a00470" startline="48">MdDox::Doxygen::DA_INVALID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/DoxAccessor.h" line="77" column="1" bodyfile="Tools/Doxygen/DoxAccessor.h" bodystart="76" bodyend="80"/>
+    <listofallmembers>
+      <member refid="a01343_1a31dd146fe72ae37909b1b6f811bb8919" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxAccessor</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

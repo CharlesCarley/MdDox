@@ -46,9 +46,8 @@ namespace MdDox
         static void extractTopLevelDirectories(ReferenceList &dir, const ReferenceList& list);
 
         void writeReferenceFile(const String&        name,
-                                IconId               icon,
                                 const String&        heading,
-                                const ReferenceList& list,
+                                const ReferenceList* listPtr,
                                 int                  specialization=0) const;
 
     public:

@@ -31,7 +31,7 @@ ${visitor}
      *
      * The following xml provides the source for the <b>${tagName}</b> 
      * scaffolding.
-     *
+     * \n\n
      * \code{.xml}${xmlSource}
      * \endcode
      */

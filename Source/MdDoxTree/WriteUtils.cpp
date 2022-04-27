@@ -172,15 +172,7 @@ namespace MdDox
         writer->inlineText(out, ref.getName());
         writer->endParagraph(out);
     }
-
-    void linkRef(OStream& output, DocumentWriter* writer, int kind, const String& id, const String& title)
-    {
-    }
-
-    void linkRefIcon(OStream& output, DocumentWriter* writer, IconId ico, int kind, const String& id, const String& title)
-    {
-    }
-
+    
     bool syncStream(OStream* stream, OutputStringStream& out)
     {
         if (stream)
