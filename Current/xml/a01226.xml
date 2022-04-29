@@ -1,0 +1,3077 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01226" kind="file" language="C++">
+    <compoundname>String.h</compoundname>
+    <includes local="no">deque</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">unordered_map</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">iomanip</includes>
+    <includedby refid="a00992" local="yes">Source/MdDoxTree/IconSet.h</includedby>
+    <includedby refid="a00938" local="yes">Source/MdDoxTree/DocumentWriter.h</includedby>
+    <includedby refid="a00944" local="yes">Source/MdDoxTree/DotWriter.h</includedby>
+    <includedby refid="a00974" local="yes">Source/MdDoxTree/HashUtils.h</includedby>
+    <includedby refid="a00980" local="yes">Source/MdDoxTree/HtmlCommandWriter.h</includedby>
+    <includedby refid="a00986" local="yes">Source/MdDoxTree/HtmlDocumentWriter.h</includedby>
+    <includedby refid="a01073" local="yes">Source/MdDoxTree/Reference.h</includedby>
+    <includedby refid="a01016" local="yes">Source/MdDoxTree/MarkdownCommandWriter.h</includedby>
+    <includedby refid="a01022" local="yes">Source/MdDoxTree/MarkdownDocumentWriter.h</includedby>
+    <includedby refid="a01127" local="yes">Source/MdDoxTree/SiteBuilder.h</includedby>
+    <includedby refid="a01139" local="yes">Source/MdDoxTree/WriteUtils.h</includedby>
+    <includedby refid="a01148" local="yes">Source/Utils/Char.cpp</includedby>
+    <includedby refid="a01151" local="yes">Source/Utils/Char.h</includedby>
+    <includedby refid="a01154" local="yes">Source/Utils/CommandLine/Option.h</includedby>
+    <includedby refid="a03009" local="yes">Source/Utils/CommandLine/Token.h</includedby>
+    <includedby refid="a01175" local="yes">Source/Utils/Config.h</includedby>
+    <includedby refid="a01181" local="yes">Source/Utils/Console.h</includedby>
+    <includedby refid="a01184" local="yes">Source/Utils/Exception.h</includedby>
+    <includedby refid="a01190" local="yes">Source/Utils/FileSystem.h</includedby>
+    <includedby refid="a01220" local="yes">Source/Utils/Path.h</includedby>
+    <includedby refid="a01223" local="yes">Source/Utils/String.cpp</includedby>
+    <includedby refid="a01229" local="yes">Source/Utils/TextStreamWriter.h</includedby>
+    <includedby refid="a01235" local="yes">Source/Utils/TypeFilter.h</includedby>
+    <includedby refid="a01232" local="yes">Source/Utils/TypeFilter.cpp</includedby>
+    <includedby refid="a01244" local="yes">Source/Xml/Attribute.h</includedby>
+    <includedby refid="a01250" local="yes">Source/Xml/Node.h</includedby>
+    <includedby refid="a02994" local="yes">Source/Xml/Parser.h</includedby>
+    <includedby refid="a03015" local="yes">Source/Xml/Writer.h</includedby>
+    <includedby refid="a01427" local="yes">Tools/Doxygen/Doxygen.h</includedby>
+    <includedby refid="a01793" local="yes">Tools/GenApi/Common.h</includedby>
+    <includedby refid="a03018" local="yes">Tools/GenApi/Writer.h</includedby>
+    <includedby refid="a01820" local="yes">Tools/GenApi/Object.h</includedby>
+    <includedby refid="a01835" local="yes">Tools/GenApi/Types.h</includedby>
+    <includedby refid="a01817" local="yes">Tools/GenApi/Group.h</includedby>
+    <includedby refid="a01799" local="yes">Tools/GenApi/Complex.h</includedby>
+    <includedby refid="a01796" local="yes">Tools/GenApi/Complex.cpp</includedby>
+    <includedby refid="a01805" local="yes">Tools/GenApi/Database.h</includedby>
+    <includedby refid="a01832" local="yes">Tools/GenApi/Simple.h</includedby>
+    <includedby refid="a01814" local="yes">Tools/GenApi/Group.cpp</includedby>
+    <includedby refid="a01829" local="yes">Tools/GenApi/Simple.cpp</includedby>
+    <incdepgraph>
+      <node id="3750">
+        <label>iomanip</label>
+      </node>
+      <node id="3747">
+        <label>string</label>
+      </node>
+      <node id="3745">
+        <label>fstream</label>
+      </node>
+      <node id="3743">
+        <label>Source/Utils/String.h</label>
+        <link refid="a01226"/>
+        <childnode refid="3744" relation="include">
+        </childnode>
+        <childnode refid="3745" relation="include">
+        </childnode>
+        <childnode refid="3746" relation="include">
+        </childnode>
+        <childnode refid="3747" relation="include">
+        </childnode>
+        <childnode refid="3748" relation="include">
+        </childnode>
+        <childnode refid="3749" relation="include">
+        </childnode>
+        <childnode refid="3750" relation="include">
+        </childnode>
+      </node>
+      <node id="3749">
+        <label>vector</label>
+      </node>
+      <node id="3746">
+        <label>sstream</label>
+      </node>
+      <node id="3744">
+        <label>deque</label>
+      </node>
+      <node id="3748">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3971">
+        <label>Tools/Doxygen/DoxParamListKind.h</label>
+        <childnode refid="3972" relation="include">
+        </childnode>
+        <childnode refid="3973" relation="include">
+        </childnode>
+      </node>
+      <node id="3821">
+        <label>Source/Xml/Parser.cpp</label>
+      </node>
+      <node id="4010">
+        <label>Tools/Doxygen/ListQuery.cpp</label>
+      </node>
+      <node id="3905">
+        <label>Source/MdDoxTree/FunctionDefWriter.h</label>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+      </node>
+      <node id="4016">
+        <label>Tools/Doxygen/TocListQuery.h</label>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="4017" relation="include">
+        </childnode>
+      </node>
+      <node id="3858">
+        <label>Tools/Doxygen/InternalQuery.cpp</label>
+      </node>
+      <node id="3827">
+        <label>Source/Utils/CommandLine/Scanner.cpp</label>
+      </node>
+      <node id="3960">
+        <label>Tools/Doxygen/DoxAccessor.h</label>
+        <childnode refid="3961" relation="include">
+        </childnode>
+        <childnode refid="3903" relation="include">
+        </childnode>
+      </node>
+      <node id="3791">
+        <label>Source/MdDoxTree/DotWriter.h</label>
+        <childnode refid="3792" relation="include">
+        </childnode>
+        <childnode refid="3760" relation="include">
+        </childnode>
+      </node>
+      <node id="3980">
+        <label>Tools/Doxygen/SimpleSectQuery.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3870" relation="include">
+        </childnode>
+      </node>
+      <node id="3950">
+        <label>Tools/Doxygen/LocationQuery.cpp</label>
+      </node>
+      <node id="4030">
+        <label>Tools/Doxygen/VarListEntryQuery.h</label>
+        <childnode refid="4031" relation="include">
+        </childnode>
+      </node>
+      <node id="3823">
+        <label>Tools/GenApi/Generator.cpp</label>
+      </node>
+      <node id="3829">
+        <label>Source/Utils/Console.h</label>
+        <childnode refid="3762" relation="include">
+        </childnode>
+        <childnode refid="3811" relation="include">
+        </childnode>
+        <childnode refid="3830" relation="include">
+        </childnode>
+        <childnode refid="3831" relation="include">
+        </childnode>
+        <childnode refid="3961" relation="include">
+        </childnode>
+        <childnode refid="3900" relation="include">
+        </childnode>
+        <childnode refid="3963" relation="include">
+        </childnode>
+        <childnode refid="3917" relation="include">
+        </childnode>
+        <childnode refid="3893" relation="include">
+        </childnode>
+        <childnode refid="3912" relation="include">
+        </childnode>
+        <childnode refid="3965" relation="include">
+        </childnode>
+        <childnode refid="3919" relation="include">
+        </childnode>
+        <childnode refid="3955" relation="include">
+        </childnode>
+        <childnode refid="3968" relation="include">
+        </childnode>
+        <childnode refid="3972" relation="include">
+        </childnode>
+        <childnode refid="3925" relation="include">
+        </childnode>
+        <childnode refid="3888" relation="include">
+        </childnode>
+        <childnode refid="3977" relation="include">
+        </childnode>
+        <childnode refid="3947" relation="include">
+        </childnode>
+        <childnode refid="3979" relation="include">
+        </childnode>
+        <childnode refid="3982" relation="include">
+        </childnode>
+        <childnode refid="3936" relation="include">
+        </childnode>
+        <childnode refid="3812" relation="include">
+        </childnode>
+        <childnode refid="3813" relation="include">
+        </childnode>
+      </node>
+      <node id="4001">
+        <label>Source/MdDoxTree/Section3Writer.h</label>
+        <childnode refid="3780" relation="include">
+        </childnode>
+        <childnode refid="3781" relation="include">
+        </childnode>
+      </node>
+      <node id="3883">
+        <label>Tools/Doxygen/RefTextQuery.cpp</label>
+      </node>
+      <node id="3813">
+        <label>Tools/ResourceCompiler/Main.cpp</label>
+      </node>
+      <node id="3778">
+        <label>Source/MdDoxTree/ParameterWriter.cpp</label>
+      </node>
+      <node id="3867">
+        <label>Tools/Doxygen/Sect2Query.cpp</label>
+      </node>
+      <node id="3962">
+        <label>Tools/Doxygen/DoxCharRange.h</label>
+        <childnode refid="3963" relation="include">
+        </childnode>
+      </node>
+      <node id="3812">
+        <label>Tools/GenApi/Main.cpp</label>
+      </node>
+      <node id="4014">
+        <label>Tools/Doxygen/VariableListQuery.h</label>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="4015" relation="include">
+        </childnode>
+      </node>
+      <node id="3819">
+        <label>Source/Utils/String.cpp</label>
+      </node>
+      <node id="3891">
+        <label>Tools/Doxygen/NodeQuery.cpp</label>
+      </node>
+      <node id="3976">
+        <label>Tools/Doxygen/DoxRefQualifierKind.h</label>
+        <childnode refid="3977" relation="include">
+        </childnode>
+        <childnode refid="3903" relation="include">
+        </childnode>
+      </node>
+      <node id="3961">
+        <label>Tools/Doxygen/DoxAccessor.cpp</label>
+      </node>
+      <node id="3773">
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
+      </node>
+      <node id="3814">
+        <label>Source/Utils/Config.cpp</label>
+      </node>
+      <node id="3901">
+        <label>Tools/Doxygen/EntryQuery.h</label>
+        <childnode refid="3857" relation="include">
+        </childnode>
+        <childnode refid="3902" relation="include">
+        </childnode>
+      </node>
+      <node id="3928">
+        <label>Tools/Doxygen/MemberRefQuery.h</label>
+        <childnode refid="3929" relation="include">
+        </childnode>
+        <childnode refid="3930" relation="include">
+        </childnode>
+      </node>
+      <node id="3973">
+        <label>Tools/Doxygen/ParamListQuery.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3974" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3975" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+      </node>
+      <node id="3879">
+        <label>Tools/Doxygen/HighlightQuery.cpp</label>
+      </node>
+      <node id="4057">
+        <label>Tools/GenApi/Database.cpp</label>
+      </node>
+      <node id="3917">
+        <label>Tools/Doxygen/DoxCompoundKind.cpp</label>
+      </node>
+      <node id="3833">
+        <label>Source/Utils/ParserBase/ScannerBase.h</label>
+        <childnode refid="3816" relation="include">
+        </childnode>
+        <childnode refid="3834" relation="include">
+        </childnode>
+        <childnode refid="3817" relation="include">
+        </childnode>
+        <childnode refid="3836" relation="include">
+        </childnode>
+      </node>
+      <node id="3759">
+        <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
+      </node>
+      <node id="3866">
+        <label>Tools/Doxygen/Sect1Query.cpp</label>
+      </node>
+      <node id="4027">
+        <label>Tools/Doxygen/ParamTypeQuery.h</label>
+        <childnode refid="3882" relation="include">
+        </childnode>
+      </node>
+      <node id="4028">
+        <label>Tools/Doxygen/RowQuery.h</label>
+        <childnode refid="3902" relation="include">
+        </childnode>
+      </node>
+      <node id="4007">
+        <label>Tools/Doxygen/LinkQuery.h</label>
+        <childnode refid="4008" relation="include">
+        </childnode>
+        <childnode refid="3891" relation="include">
+        </childnode>
+      </node>
+      <node id="3978">
+        <label>Tools/Doxygen/DoxSimpleSectKind.h</label>
+        <childnode refid="3979" relation="include">
+        </childnode>
+        <childnode refid="3980" relation="include">
+        </childnode>
+      </node>
+      <node id="3834">
+        <label>Source/Utils/ParserBase/ParserBase.h</label>
+        <childnode refid="3814" relation="include">
+        </childnode>
+        <childnode refid="3816" relation="include">
+        </childnode>
+        <childnode refid="3820" relation="include">
+        </childnode>
+        <childnode refid="3835" relation="include">
+        </childnode>
+      </node>
+      <node id="4039">
+        <label>Source/Utils/Path.h</label>
+        <childnode refid="3797" relation="include">
+        </childnode>
+        <childnode refid="3798" relation="include">
+        </childnode>
+        <childnode refid="3932" relation="include">
+        </childnode>
+        <childnode refid="3799" relation="include">
+        </childnode>
+        <childnode refid="3904" relation="include">
+        </childnode>
+        <childnode refid="3905" relation="include">
+        </childnode>
+        <childnode refid="3800" relation="include">
+        </childnode>
+        <childnode refid="3939" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3788" relation="include">
+        </childnode>
+        <childnode refid="3986" relation="include">
+        </childnode>
+        <childnode refid="3770" relation="include">
+        </childnode>
+        <childnode refid="3766" relation="include">
+        </childnode>
+        <childnode refid="3877" relation="include">
+        </childnode>
+        <childnode refid="3906" relation="include">
+        </childnode>
+        <childnode refid="3907" relation="include">
+        </childnode>
+        <childnode refid="3801" relation="include">
+        </childnode>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3854" relation="include">
+        </childnode>
+        <childnode refid="3974" relation="include">
+        </childnode>
+        <childnode refid="4024" relation="include">
+        </childnode>
+        <childnode refid="3958" relation="include">
+        </childnode>
+        <childnode refid="3998" relation="include">
+        </childnode>
+        <childnode refid="4001" relation="include">
+        </childnode>
+        <childnode refid="4004" relation="include">
+        </childnode>
+        <childnode refid="3944" relation="include">
+        </childnode>
+        <childnode refid="3833" relation="include">
+        </childnode>
+        <childnode refid="3818" relation="include">
+        </childnode>
+        <childnode refid="4034" relation="include">
+        </childnode>
+        <childnode refid="4035" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+        <childnode refid="4036" relation="include">
+        </childnode>
+        <childnode refid="3813" relation="include">
+        </childnode>
+      </node>
+      <node id="3857">
+        <label>Tools/Doxygen/EntryQuery.cpp</label>
+      </node>
+      <node id="3784">
+        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
+      </node>
+      <node id="3855">
+        <label>Tools/Doxygen/CopyQuery.cpp</label>
+      </node>
+      <node id="4017">
+        <label>Tools/Doxygen/TocListQuery.cpp</label>
+      </node>
+      <node id="3847">
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
+      </node>
+      <node id="3888">
+        <label>Tools/Doxygen/DoxRefKind.cpp</label>
+      </node>
+      <node id="3786">
+        <label>Source/MdDoxTree/WriteUtils.cpp</label>
+      </node>
+      <node id="3886">
+        <label>Tools/Doxygen/CodeLineQuery.cpp</label>
+      </node>
+      <node id="3831">
+        <label>Source/Utils/Exception.h</label>
+        <childnode refid="3762" relation="include">
+        </childnode>
+        <childnode refid="3785" relation="include">
+        </childnode>
+        <childnode refid="3832" relation="include">
+        </childnode>
+        <childnode refid="3837" relation="include">
+        </childnode>
+        <childnode refid="3820" relation="include">
+        </childnode>
+        <childnode refid="3839" relation="include">
+        </childnode>
+        <childnode refid="3961" relation="include">
+        </childnode>
+        <childnode refid="3900" relation="include">
+        </childnode>
+        <childnode refid="3963" relation="include">
+        </childnode>
+        <childnode refid="3917" relation="include">
+        </childnode>
+        <childnode refid="3893" relation="include">
+        </childnode>
+        <childnode refid="3912" relation="include">
+        </childnode>
+        <childnode refid="3965" relation="include">
+        </childnode>
+        <childnode refid="3919" relation="include">
+        </childnode>
+        <childnode refid="3955" relation="include">
+        </childnode>
+        <childnode refid="3968" relation="include">
+        </childnode>
+        <childnode refid="3972" relation="include">
+        </childnode>
+        <childnode refid="3925" relation="include">
+        </childnode>
+        <childnode refid="3888" relation="include">
+        </childnode>
+        <childnode refid="3977" relation="include">
+        </childnode>
+        <childnode refid="3947" relation="include">
+        </childnode>
+        <childnode refid="3979" relation="include">
+        </childnode>
+        <childnode refid="3982" relation="include">
+        </childnode>
+        <childnode refid="3936" relation="include">
+        </childnode>
+        <childnode refid="4034" relation="include">
+        </childnode>
+        <childnode refid="4035" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+        <childnode refid="3812" relation="include">
+        </childnode>
+        <childnode refid="4036" relation="include">
+        </childnode>
+        <childnode refid="3813" relation="include">
+        </childnode>
+      </node>
+      <node id="3929">
+        <label>Tools/Doxygen/ListOfAllMembersQuery.cpp</label>
+      </node>
+      <node id="3845">
+        <label>Tools/Doxygen/ImageQuery.cpp</label>
+      </node>
+      <node id="3844">
+        <label>Tools/Doxygen/HeadingQuery.cpp</label>
+      </node>
+      <node id="4035">
+        <label>Tools/GenApi/Complex.cpp</label>
+      </node>
+      <node id="4049">
+        <label>Tools/GenApi/Object.h</label>
+        <childnode refid="4050" relation="include">
+        </childnode>
+      </node>
+      <node id="3803">
+        <label>Source/MdDoxTree/ReferenceIdentifiers.cpp</label>
+      </node>
+      <node id="4022">
+        <label>Tools/Doxygen/ReferenceQuery.cpp</label>
+      </node>
+      <node id="3944">
+        <label>Source/MdDoxTree/SectionDefListingWriter.h</label>
+        <childnode refid="3775" relation="include">
+        </childnode>
+        <childnode refid="3783" relation="include">
+        </childnode>
+      </node>
+      <node id="3972">
+        <label>Tools/Doxygen/DoxParamListKind.cpp</label>
+      </node>
+      <node id="3975">
+        <label>Tools/Doxygen/ParamListQuery.cpp</label>
+      </node>
+      <node id="3875">
+        <label>Tools/Doxygen/UrlLinkQuery.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3843" relation="include">
+        </childnode>
+        <childnode refid="3844" relation="include">
+        </childnode>
+        <childnode refid="3845" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3848" relation="include">
+        </childnode>
+        <childnode refid="3849" relation="include">
+        </childnode>
+        <childnode refid="3850" relation="include">
+        </childnode>
+      </node>
+      <node id="3850">
+        <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
+      </node>
+      <node id="3931">
+        <label>Tools/Doxygen/DescriptionQuery.h</label>
+        <childnode refid="3932" relation="include">
+        </childnode>
+        <childnode refid="3774" relation="include">
+        </childnode>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3856" relation="include">
+        </childnode>
+        <childnode refid="3927" relation="include">
+        </childnode>
+        <childnode refid="3908" relation="include">
+        </childnode>
+        <childnode refid="3933" relation="include">
+        </childnode>
+        <childnode refid="3934" relation="include">
+        </childnode>
+        <childnode refid="3909" relation="include">
+        </childnode>
+      </node>
+      <node id="3918">
+        <label>Tools/Doxygen/DoxLanguage.h</label>
+        <childnode refid="3895" relation="include">
+        </childnode>
+        <childnode refid="3919" relation="include">
+        </childnode>
+      </node>
+      <node id="3983">
+        <label>Tools/Doxygen/DoxygenQuery.h</label>
+        <childnode refid="3756" relation="include">
+        </childnode>
+        <childnode refid="3759" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3775" relation="include">
+        </childnode>
+        <childnode refid="3897" relation="include">
+        </childnode>
+      </node>
+      <node id="3811">
+        <label>Source/Utils/CommandLine/Parser.cpp</label>
+      </node>
+      <node id="3761">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.h</label>
+        <childnode refid="3762" relation="include">
+        </childnode>
+        <childnode refid="3763" relation="include">
+        </childnode>
+        <childnode refid="3764" relation="include">
+        </childnode>
+        <childnode refid="3765" relation="include">
+        </childnode>
+      </node>
+      <node id="3946">
+        <label>Tools/Doxygen/DoxSectionKind.h</label>
+        <childnode refid="3774" relation="include">
+        </childnode>
+        <childnode refid="3944" relation="include">
+        </childnode>
+        <childnode refid="3943" relation="include">
+        </childnode>
+        <childnode refid="3947" relation="include">
+        </childnode>
+      </node>
+      <node id="3964">
+        <label>Tools/Doxygen/DoxImageKind.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3965" relation="include">
+        </childnode>
+        <childnode refid="3966" relation="include">
+        </childnode>
+      </node>
+      <node id="3760">
+        <label>Source/MdDoxTree/GraphWriter.cpp</label>
+      </node>
+      <node id="4021">
+        <label>Tools/Doxygen/ReferenceQuery.h</label>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3908" relation="include">
+        </childnode>
+        <childnode refid="4022" relation="include">
+        </childnode>
+      </node>
+      <node id="4031">
+        <label>Tools/Doxygen/VarListEntryQuery.cpp</label>
+      </node>
+      <node id="3914">
+        <label>Tools/Doxygen/CompoundIndexQuery.h</label>
+        <childnode refid="3797" relation="include">
+        </childnode>
+        <childnode refid="3799" relation="include">
+        </childnode>
+        <childnode refid="3800" relation="include">
+        </childnode>
+        <childnode refid="3801" relation="include">
+        </childnode>
+        <childnode refid="3915" relation="include">
+        </childnode>
+        <childnode refid="3916" relation="include">
+        </childnode>
+      </node>
+      <node id="3806">
+        <label>Source/MdDoxTree/MarkdownCommandWriter.h</label>
+        <childnode refid="3766" relation="include">
+        </childnode>
+        <childnode refid="3767" relation="include">
+        </childnode>
+      </node>
+      <node id="3953">
+        <label>Tools/Doxygen/MemberIndexQuery.cpp</label>
+      </node>
+      <node id="3792">
+        <label>Source/MdDoxTree/DotWriter.cpp</label>
+      </node>
+      <node id="3871">
+        <label>Tools/Doxygen/CaptionQuery.h</label>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3872" relation="include">
+        </childnode>
+      </node>
+      <node id="3890">
+        <label>Tools/Doxygen/ChildNodeQuery.cpp</label>
+      </node>
+      <node id="3801">
+        <label>Source/MdDoxTree/NamespacePageWriter.h</label>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3774" relation="include">
+        </childnode>
+      </node>
+      <node id="3912">
+        <label>Tools/Doxygen/DoxHighlightClass.cpp</label>
+      </node>
+      <node id="3818">
+        <label>Source/Utils/Path.cpp</label>
+      </node>
+      <node id="3839">
+        <label>Tools/Doxygen/Doxygen.h</label>
+        <childnode refid="3840" relation="include">
+        </childnode>
+        <childnode refid="3851" relation="include">
+        </childnode>
+        <childnode refid="3853" relation="include">
+        </childnode>
+        <childnode refid="3871" relation="include">
+        </childnode>
+        <childnode refid="3873" relation="include">
+        </childnode>
+        <childnode refid="3875" relation="include">
+        </childnode>
+        <childnode refid="3876" relation="include">
+        </childnode>
+        <childnode refid="3878" relation="include">
+        </childnode>
+        <childnode refid="3884" relation="include">
+        </childnode>
+        <childnode refid="3889" relation="include">
+        </childnode>
+        <childnode refid="3892" relation="include">
+        </childnode>
+        <childnode refid="3885" relation="include">
+        </childnode>
+        <childnode refid="3894" relation="include">
+        </childnode>
+        <childnode refid="3910" relation="include">
+        </childnode>
+        <childnode refid="3911" relation="include">
+        </childnode>
+        <childnode refid="3895" relation="include">
+        </childnode>
+        <childnode refid="3913" relation="include">
+        </childnode>
+        <childnode refid="3918" relation="include">
+        </childnode>
+        <childnode refid="3920" relation="include">
+        </childnode>
+        <childnode refid="3931" relation="include">
+        </childnode>
+        <childnode refid="3921" relation="include">
+        </childnode>
+        <childnode refid="3935" relation="include">
+        </childnode>
+        <childnode refid="3937" relation="include">
+        </childnode>
+        <childnode refid="3898" relation="include">
+        </childnode>
+        <childnode refid="3938" relation="include">
+        </childnode>
+        <childnode refid="3923" relation="include">
+        </childnode>
+        <childnode refid="3941" relation="include">
+        </childnode>
+        <childnode refid="3943" relation="include">
+        </childnode>
+        <childnode refid="3946" relation="include">
+        </childnode>
+        <childnode refid="3948" relation="include">
+        </childnode>
+        <childnode refid="3951" relation="include">
+        </childnode>
+        <childnode refid="3914" relation="include">
+        </childnode>
+        <childnode refid="3952" relation="include">
+        </childnode>
+        <childnode refid="3954" relation="include">
+        </childnode>
+        <childnode refid="3956" relation="include">
+        </childnode>
+        <childnode refid="3957" relation="include">
+        </childnode>
+        <childnode refid="3959" relation="include">
+        </childnode>
+        <childnode refid="3960" relation="include">
+        </childnode>
+        <childnode refid="3962" relation="include">
+        </childnode>
+        <childnode refid="3964" relation="include">
+        </childnode>
+        <childnode refid="3967" relation="include">
+        </childnode>
+        <childnode refid="3971" relation="include">
+        </childnode>
+        <childnode refid="3976" relation="include">
+        </childnode>
+        <childnode refid="3978" relation="include">
+        </childnode>
+        <childnode refid="3981" relation="include">
+        </childnode>
+        <childnode refid="3984" relation="include">
+        </childnode>
+        <childnode refid="3983" relation="include">
+        </childnode>
+        <childnode refid="3901" relation="include">
+        </childnode>
+        <childnode refid="3926" relation="include">
+        </childnode>
+        <childnode refid="3985" relation="include">
+        </childnode>
+        <childnode refid="3987" relation="include">
+        </childnode>
+        <childnode refid="3988" relation="include">
+        </childnode>
+        <childnode refid="3990" relation="include">
+        </childnode>
+        <childnode refid="3991" relation="include">
+        </childnode>
+        <childnode refid="3992" relation="include">
+        </childnode>
+        <childnode refid="3966" relation="include">
+        </childnode>
+        <childnode refid="3994" relation="include">
+        </childnode>
+        <childnode refid="3996" relation="include">
+        </childnode>
+        <childnode refid="3997" relation="include">
+        </childnode>
+        <childnode refid="3999" relation="include">
+        </childnode>
+        <childnode refid="4000" relation="include">
+        </childnode>
+        <childnode refid="4002" relation="include">
+        </childnode>
+        <childnode refid="4003" relation="include">
+        </childnode>
+        <childnode refid="4005" relation="include">
+        </childnode>
+        <childnode refid="4006" relation="include">
+        </childnode>
+        <childnode refid="4007" relation="include">
+        </childnode>
+        <childnode refid="4009" relation="include">
+        </childnode>
+        <childnode refid="3928" relation="include">
+        </childnode>
+        <childnode refid="4011" relation="include">
+        </childnode>
+        <childnode refid="4012" relation="include">
+        </childnode>
+        <childnode refid="4013" relation="include">
+        </childnode>
+        <childnode refid="4014" relation="include">
+        </childnode>
+        <childnode refid="3980" relation="include">
+        </childnode>
+        <childnode refid="4016" relation="include">
+        </childnode>
+        <childnode refid="3973" relation="include">
+        </childnode>
+        <childnode refid="4018" relation="include">
+        </childnode>
+        <childnode refid="3903" relation="include">
+        </childnode>
+        <childnode refid="4019" relation="include">
+        </childnode>
+        <childnode refid="4021" relation="include">
+        </childnode>
+        <childnode refid="4023" relation="include">
+        </childnode>
+        <childnode refid="4025" relation="include">
+        </childnode>
+        <childnode refid="4026" relation="include">
+        </childnode>
+        <childnode refid="3969" relation="include">
+        </childnode>
+        <childnode refid="4027" relation="include">
+        </childnode>
+        <childnode refid="4028" relation="include">
+        </childnode>
+        <childnode refid="4029" relation="include">
+        </childnode>
+        <childnode refid="4030" relation="include">
+        </childnode>
+        <childnode refid="4032" relation="include">
+        </childnode>
+      </node>
+      <node id="3936">
+        <label>Tools/Doxygen/DoxVirtualKind.cpp</label>
+      </node>
+      <node id="3877">
+        <label>Source/MdDoxTree/MarkupQueryWriter.h</label>
+        <childnode refid="3771" relation="include">
+        </childnode>
+        <childnode refid="3776" relation="include">
+        </childnode>
+      </node>
+      <node id="3865">
+        <label>Tools/Doxygen/ParBlockQuery.cpp</label>
+      </node>
+      <node id="4013">
+        <label>Tools/Doxygen/TableQuery.h</label>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3872" relation="include">
+        </childnode>
+      </node>
+      <node id="4004">
+        <label>Source/MdDoxTree/Section4Writer.h</label>
+        <childnode refid="3781" relation="include">
+        </childnode>
+        <childnode refid="3782" relation="include">
+        </childnode>
+      </node>
+      <node id="3838">
+        <label>Source/Utils/ParserBase/ParseError.cpp</label>
+      </node>
+      <node id="3974">
+        <label>Source/MdDoxTree/ParameterListWriter.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3777" relation="include">
+        </childnode>
+      </node>
+      <node id="3900">
+        <label>Tools/Doxygen/DoxBool.cpp</label>
+      </node>
+      <node id="4045">
+        <label>Source/Xml/Attribute.h</label>
+        <childnode refid="3820" relation="include">
+        </childnode>
+      </node>
+      <node id="3893">
+        <label>Tools/Doxygen/DoxGraphRelation.cpp</label>
+      </node>
+      <node id="3984">
+        <label>Tools/Doxygen/DoxygenIndexQuery.h</label>
+        <childnode refid="3788" relation="include">
+        </childnode>
+        <childnode refid="3785" relation="include">
+        </childnode>
+        <childnode refid="3916" relation="include">
+        </childnode>
+      </node>
+      <node id="4015">
+        <label>Tools/Doxygen/VariableListQuery.cpp</label>
+      </node>
+      <node id="3923">
+        <label>Tools/Doxygen/RefQuery.h</label>
+        <childnode refid="3756" relation="include">
+        </childnode>
+        <childnode refid="3774" relation="include">
+        </childnode>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3924" relation="include">
+        </childnode>
+      </node>
+      <node id="4011">
+        <label>Tools/Doxygen/ListQuery.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="4010" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+      </node>
+      <node id="3911">
+        <label>Tools/Doxygen/DoxHighlightClass.h</label>
+        <childnode refid="3910" relation="include">
+        </childnode>
+        <childnode refid="3912" relation="include">
+        </childnode>
+      </node>
+      <node id="3924">
+        <label>Tools/Doxygen/RefQuery.cpp</label>
+      </node>
+      <node id="3849">
+        <label>Tools/Doxygen/TocItemQuery.cpp</label>
+      </node>
+      <node id="3969">
+        <label>Tools/Doxygen/ParamNameQuery.h</label>
+        <childnode refid="3777" relation="include">
+        </childnode>
+        <childnode refid="3970" relation="include">
+        </childnode>
+        <childnode refid="3881" relation="include">
+        </childnode>
+      </node>
+      <node id="4056">
+        <label>Tools/GenApi/Database.h</label>
+        <childnode refid="4057" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+      </node>
+      <node id="3982">
+        <label>Tools/Doxygen/DoxVersionNumber.cpp</label>
+      </node>
+      <node id="3959">
+        <label>Tools/Doxygen/InternalQuery.h</label>
+        <childnode refid="3855" relation="include">
+        </childnode>
+        <childnode refid="3856" relation="include">
+        </childnode>
+        <childnode refid="3858" relation="include">
+        </childnode>
+      </node>
+      <node id="3815">
+        <label>Source/Utils/FileSystem.cpp</label>
+      </node>
+      <node id="4003">
+        <label>Tools/Doxygen/Sect4Query.h</label>
+        <childnode refid="4004" relation="include">
+        </childnode>
+        <childnode refid="3861" relation="include">
+        </childnode>
+        <childnode refid="3868" relation="include">
+        </childnode>
+        <childnode refid="3869" relation="include">
+        </childnode>
+      </node>
+      <node id="3804">
+        <label>Source/MdDoxTree/SiteBuilder.h</label>
+        <childnode refid="3762" relation="include">
+        </childnode>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3756" relation="include">
+        </childnode>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3759" relation="include">
+        </childnode>
+        <childnode refid="3760" relation="include">
+        </childnode>
+        <childnode refid="3763" relation="include">
+        </childnode>
+        <childnode refid="3764" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3770" relation="include">
+        </childnode>
+        <childnode refid="3766" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3774" relation="include">
+        </childnode>
+        <childnode refid="3775" relation="include">
+        </childnode>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3803" relation="include">
+        </childnode>
+        <childnode refid="3785" relation="include">
+        </childnode>
+        <childnode refid="3786" relation="include">
+        </childnode>
+      </node>
+      <node id="3916">
+        <label>Tools/Doxygen/DoxygenIndexQuery.cpp</label>
+      </node>
+      <node id="3963">
+        <label>Tools/Doxygen/DoxCharRange.cpp</label>
+      </node>
+      <node id="3909">
+        <label>Tools/Doxygen/SectionDefQuery.cpp</label>
+      </node>
+      <node id="3846">
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
+      </node>
+      <node id="3949">
+        <label>Source/MdDoxTree/LocationWriter.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3770" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3774" relation="include">
+        </childnode>
+      </node>
+      <node id="4055">
+        <label>Tools/GenApi/Types.h</label>
+        <childnode refid="4050" relation="include">
+        </childnode>
+        <childnode refid="4051" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+      </node>
+      <node id="3752">
+        <label>Source/MdDoxTree/IconSet.h</label>
+        <childnode refid="3753" relation="include">
+        </childnode>
+        <childnode refid="3764" relation="include">
+        </childnode>
+        <childnode refid="3787" relation="include">
+        </childnode>
+        <childnode refid="3788" relation="include">
+        </childnode>
+        <childnode refid="3789" relation="include">
+        </childnode>
+        <childnode refid="3786" relation="include">
+        </childnode>
+      </node>
+      <node id="4000">
+        <label>Tools/Doxygen/Sect3Query.h</label>
+        <childnode refid="4001" relation="include">
+        </childnode>
+        <childnode refid="3860" relation="include">
+        </childnode>
+        <childnode refid="3867" relation="include">
+        </childnode>
+        <childnode refid="3868" relation="include">
+        </childnode>
+      </node>
+      <node id="3763">
+        <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
+      </node>
+      <node id="4051">
+        <label>Tools/GenApi/Complex.h</label>
+        <childnode refid="4035" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+      </node>
+      <node id="3977">
+        <label>Tools/Doxygen/DoxRefQualifierKind.cpp</label>
+      </node>
+      <node id="3941">
+        <label>Tools/Doxygen/TemplateParamListQuery.h</label>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3908" relation="include">
+        </childnode>
+        <childnode refid="3942" relation="include">
+        </childnode>
+      </node>
+      <node id="3807">
+        <label>Source/Utils/Char.cpp</label>
+      </node>
+      <node id="4046">
+        <label>Source/Xml/Node.h</label>
+        <childnode refid="3792" relation="include">
+        </childnode>
+        <childnode refid="3791" relation="include">
+        </childnode>
+        <childnode refid="3828" relation="include">
+        </childnode>
+        <childnode refid="3820" relation="include">
+        </childnode>
+        <childnode refid="3821" relation="include">
+        </childnode>
+        <childnode refid="3835" relation="include">
+        </childnode>
+        <childnode refid="4038" relation="include">
+        </childnode>
+        <childnode refid="3839" relation="include">
+        </childnode>
+        <childnode refid="4047" relation="include">
+        </childnode>
+        <childnode refid="4049" relation="include">
+        </childnode>
+        <childnode refid="4050" relation="include">
+        </childnode>
+        <childnode refid="4051" relation="include">
+        </childnode>
+        <childnode refid="4053" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+      </node>
+      <node id="3956">
+        <label>Tools/Doxygen/CopyQuery.h</label>
+        <childnode refid="3855" relation="include">
+        </childnode>
+      </node>
+      <node id="3753">
+        <label>Source/MdDoxTree/DocumentWriter.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3755" relation="include">
+        </childnode>
+        <childnode refid="3756" relation="include">
+        </childnode>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3759" relation="include">
+        </childnode>
+        <childnode refid="3760" relation="include">
+        </childnode>
+        <childnode refid="3761" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3769" relation="include">
+        </childnode>
+        <childnode refid="3770" relation="include">
+        </childnode>
+        <childnode refid="3771" relation="include">
+        </childnode>
+        <childnode refid="3772" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3774" relation="include">
+        </childnode>
+        <childnode refid="3775" relation="include">
+        </childnode>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3777" relation="include">
+        </childnode>
+        <childnode refid="3778" relation="include">
+        </childnode>
+        <childnode refid="3779" relation="include">
+        </childnode>
+        <childnode refid="3780" relation="include">
+        </childnode>
+        <childnode refid="3781" relation="include">
+        </childnode>
+        <childnode refid="3782" relation="include">
+        </childnode>
+        <childnode refid="3783" relation="include">
+        </childnode>
+        <childnode refid="3784" relation="include">
+        </childnode>
+        <childnode refid="3785" relation="include">
+        </childnode>
+        <childnode refid="3786" relation="include">
+        </childnode>
+      </node>
+      <node id="3881">
+        <label>Tools/Doxygen/ParamNameQuery.cpp</label>
+      </node>
+      <node id="3942">
+        <label>Tools/Doxygen/TemplateParamListQuery.cpp</label>
+      </node>
+      <node id="3782">
+        <label>Source/MdDoxTree/Section4Writer.cpp</label>
+      </node>
+      <node id="3899">
+        <label>Tools/Doxygen/IncQuery.cpp</label>
+      </node>
+      <node id="3787">
+        <label>Source/MdDoxTree/IconSet.cpp</label>
+      </node>
+      <node id="4006">
+        <label>Tools/Doxygen/LanguageQuery.h</label>
+        <childnode refid="3863" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+      </node>
+      <node id="3810">
+        <label>Source/Utils/CommandLine/Parser.h</label>
+        <childnode refid="3762" relation="include">
+        </childnode>
+        <childnode refid="3811" relation="include">
+        </childnode>
+        <childnode refid="3812" relation="include">
+        </childnode>
+        <childnode refid="3813" relation="include">
+        </childnode>
+      </node>
+      <node id="3757">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+      </node>
+      <node id="3816">
+        <label>Source/Utils/ParserBase/ParserBase.cpp</label>
+      </node>
+      <node id="3884">
+        <label>Tools/Doxygen/DoxRefKind.h</label>
+        <childnode refid="3769" relation="include">
+        </childnode>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3878" relation="include">
+        </childnode>
+        <childnode refid="3885" relation="include">
+        </childnode>
+        <childnode refid="3888" relation="include">
+        </childnode>
+      </node>
+      <node id="3765">
+        <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
+        <childnode refid="3762" relation="include">
+        </childnode>
+        <childnode refid="3766" relation="include">
+        </childnode>
+        <childnode refid="3767" relation="include">
+        </childnode>
+      </node>
+      <node id="3955">
+        <label>Tools/Doxygen/DoxMemberKind.cpp</label>
+      </node>
+      <node id="3938">
+        <label>Tools/Doxygen/GraphQuery.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3939" relation="include">
+        </childnode>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3940" relation="include">
+        </childnode>
+      </node>
+      <node id="4047">
+        <label>Tools/GenApi/Writer.h</label>
+        <childnode refid="4048" relation="include">
+        </childnode>
+        <childnode refid="4049" relation="include">
+        </childnode>
+      </node>
+      <node id="3798">
+        <label>Source/MdDoxTree/ClassPageWriter.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+      </node>
+      <node id="3967">
+        <label>Tools/Doxygen/DoxParamDir.h</label>
+        <childnode refid="3968" relation="include">
+        </childnode>
+        <childnode refid="3969" relation="include">
+        </childnode>
+      </node>
+      <node id="3774">
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
+      </node>
+      <node id="3882">
+        <label>Tools/Doxygen/ParamTypeQuery.cpp</label>
+      </node>
+      <node id="3997">
+        <label>Tools/Doxygen/Sect2Query.h</label>
+        <childnode refid="3998" relation="include">
+        </childnode>
+        <childnode refid="3859" relation="include">
+        </childnode>
+        <childnode refid="3866" relation="include">
+        </childnode>
+        <childnode refid="3867" relation="include">
+        </childnode>
+      </node>
+      <node id="3809">
+        <label>Source/Utils/CommandLine/Option.h</label>
+        <childnode refid="3810" relation="include">
+        </childnode>
+      </node>
+      <node id="3775">
+        <label>Source/MdDoxTree/PageWriter.cpp</label>
+      </node>
+      <node id="3895">
+        <label>Tools/Doxygen/CompoundDefQuery.h</label>
+        <childnode refid="3797" relation="include">
+        </childnode>
+        <childnode refid="3799" relation="include">
+        </childnode>
+        <childnode refid="3800" relation="include">
+        </childnode>
+        <childnode refid="3770" relation="include">
+        </childnode>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3897" relation="include">
+        </childnode>
+      </node>
+      <node id="3987">
+        <label>Tools/Doxygen/FileQuery.h</label>
+        <childnode refid="3843" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+      </node>
+      <node id="3842">
+        <label>Tools/Doxygen/CaptionQuery.cpp</label>
+      </node>
+      <node id="4048">
+        <label>Tools/GenApi/Common.h</label>
+        <childnode refid="4034" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+      </node>
+      <node id="3793">
+        <label>Source/MdDoxTree/HashUtils.h</label>
+        <childnode refid="3756" relation="include">
+        </childnode>
+        <childnode refid="3794" relation="include">
+        </childnode>
+        <childnode refid="3763" relation="include">
+        </childnode>
+        <childnode refid="3764" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3770" relation="include">
+        </childnode>
+        <childnode refid="3767" relation="include">
+        </childnode>
+        <childnode refid="3786" relation="include">
+        </childnode>
+      </node>
+      <node id="3781">
+        <label>Source/MdDoxTree/Section3Writer.cpp</label>
+      </node>
+      <node id="3957">
+        <label>Tools/Doxygen/Sect1Query.h</label>
+        <childnode refid="3755" relation="include">
+        </childnode>
+        <childnode refid="3779" relation="include">
+        </childnode>
+        <childnode refid="3958" relation="include">
+        </childnode>
+        <childnode refid="3855" relation="include">
+        </childnode>
+        <childnode refid="3856" relation="include">
+        </childnode>
+        <childnode refid="3858" relation="include">
+        </childnode>
+        <childnode refid="3866" relation="include">
+        </childnode>
+      </node>
+      <node id="4054">
+        <label>Source/Xml/Writer.h</label>
+        <childnode refid="4038" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+        <childnode refid="3824" relation="include">
+        </childnode>
+        <childnode refid="4036" relation="include">
+        </childnode>
+      </node>
+      <node id="4038">
+        <label>Source/Xml/Writer.cpp</label>
+      </node>
+      <node id="3848">
+        <label>Tools/Doxygen/TitleQuery.cpp</label>
+      </node>
+      <node id="3990">
+        <label>Tools/Doxygen/NodeQuery.h</label>
+        <childnode refid="3760" relation="include">
+        </childnode>
+        <childnode refid="3940" relation="include">
+        </childnode>
+        <childnode refid="3891" relation="include">
+        </childnode>
+      </node>
+      <node id="3830">
+        <label>Source/Utils/Console.cpp</label>
+      </node>
+      <node id="3988">
+        <label>Tools/Doxygen/FormulaQuery.h</label>
+        <childnode refid="3989" relation="include">
+        </childnode>
+      </node>
+      <node id="3853">
+        <label>Tools/Doxygen/ParaQuery.h</label>
+        <childnode refid="3755" relation="include">
+        </childnode>
+        <childnode refid="3854" relation="include">
+        </childnode>
+        <childnode refid="3852" relation="include">
+        </childnode>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3855" relation="include">
+        </childnode>
+        <childnode refid="3856" relation="include">
+        </childnode>
+        <childnode refid="3857" relation="include">
+        </childnode>
+        <childnode refid="3843" relation="include">
+        </childnode>
+        <childnode refid="3844" relation="include">
+        </childnode>
+        <childnode refid="3845" relation="include">
+        </childnode>
+        <childnode refid="3858" relation="include">
+        </childnode>
+        <childnode refid="3859" relation="include">
+        </childnode>
+        <childnode refid="3860" relation="include">
+        </childnode>
+        <childnode refid="3861" relation="include">
+        </childnode>
+        <childnode refid="3862" relation="include">
+        </childnode>
+        <childnode refid="3863" relation="include">
+        </childnode>
+        <childnode refid="3864" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3865" relation="include">
+        </childnode>
+        <childnode refid="3866" relation="include">
+        </childnode>
+        <childnode refid="3867" relation="include">
+        </childnode>
+        <childnode refid="3868" relation="include">
+        </childnode>
+        <childnode refid="3869" relation="include">
+        </childnode>
+        <childnode refid="3870" relation="include">
+        </childnode>
+        <childnode refid="3848" relation="include">
+        </childnode>
+        <childnode refid="3849" relation="include">
+        </childnode>
+        <childnode refid="3850" relation="include">
+        </childnode>
+      </node>
+      <node id="3822">
+        <label>Source/Xml/Scanner.cpp</label>
+      </node>
+      <node id="3874">
+        <label>Tools/Doxygen/EmptyQuery.cpp</label>
+      </node>
+      <node id="3920">
+        <label>Tools/Doxygen/DoxProtectionKind.h</label>
+        <childnode refid="3895" relation="include">
+        </childnode>
+        <childnode refid="3921" relation="include">
+        </childnode>
+        <childnode refid="3923" relation="include">
+        </childnode>
+        <childnode refid="3925" relation="include">
+        </childnode>
+        <childnode refid="3926" relation="include">
+        </childnode>
+        <childnode refid="3928" relation="include">
+        </childnode>
+        <childnode refid="3903" relation="include">
+        </childnode>
+      </node>
+      <node id="3872">
+        <label>Tools/Doxygen/TableQuery.cpp</label>
+      </node>
+      <node id="4052">
+        <label>Tools/GenApi/Simple.h</label>
+        <childnode refid="3823" relation="include">
+        </childnode>
+        <childnode refid="4036" relation="include">
+        </childnode>
+      </node>
+      <node id="3758">
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+      </node>
+      <node id="3954">
+        <label>Tools/Doxygen/DoxMemberKind.h</label>
+        <childnode refid="3802" relation="include">
+        </childnode>
+        <childnode refid="3804" relation="include">
+        </childnode>
+        <childnode refid="3952" relation="include">
+        </childnode>
+        <childnode refid="3955" relation="include">
+        </childnode>
+        <childnode refid="3903" relation="include">
+        </childnode>
+      </node>
+      <node id="3986">
+        <label>Source/MdDoxTree/LinkedTextWriter.h</label>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3769" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3778" relation="include">
+        </childnode>
+      </node>
+      <node id="4026">
+        <label>Tools/Doxygen/ParamNameListQuery.h</label>
+        <childnode refid="3777" relation="include">
+        </childnode>
+        <childnode refid="3933" relation="include">
+        </childnode>
+        <childnode refid="3970" relation="include">
+        </childnode>
+      </node>
+      <node id="3780">
+        <label>Source/MdDoxTree/Section2Writer.cpp</label>
+      </node>
+      <node id="3835">
+        <label>Source/Xml/Parser.h</label>
+        <childnode refid="3762" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3785" relation="include">
+        </childnode>
+        <childnode refid="3821" relation="include">
+        </childnode>
+        <childnode refid="3812" relation="include">
+        </childnode>
+      </node>
+      <node id="3994">
+        <label>Tools/Doxygen/IndexEntryQuery.h</label>
+        <childnode refid="3995" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+      </node>
+      <node id="3958">
+        <label>Source/MdDoxTree/Section1Writer.h</label>
+        <childnode refid="3755" relation="include">
+        </childnode>
+        <childnode refid="3779" relation="include">
+        </childnode>
+      </node>
+      <node id="3802">
+        <label>Source/MdDoxTree/ReferenceIdentifiers.h</label>
+        <childnode refid="3764" relation="include">
+        </childnode>
+        <childnode refid="3803" relation="include">
+        </childnode>
+        <childnode refid="3804" relation="include">
+        </childnode>
+        <childnode refid="3805" relation="include">
+        </childnode>
+      </node>
+      <node id="3755">
+        <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
+      </node>
+      <node id="3764">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="3898">
+        <label>Tools/Doxygen/IncQuery.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3774" relation="include">
+        </childnode>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3899" relation="include">
+        </childnode>
+      </node>
+      <node id="3751">
+        <label>Source/Utils/String.h</label>
+        <link refid="a01226"/>
+        <childnode refid="3752" relation="include">
+        </childnode>
+        <childnode refid="3753" relation="include">
+        </childnode>
+        <childnode refid="3791" relation="include">
+        </childnode>
+        <childnode refid="3793" relation="include">
+        </childnode>
+        <childnode refid="3795" relation="include">
+        </childnode>
+        <childnode refid="3761" relation="include">
+        </childnode>
+        <childnode refid="3796" relation="include">
+        </childnode>
+        <childnode refid="3806" relation="include">
+        </childnode>
+        <childnode refid="3765" relation="include">
+        </childnode>
+        <childnode refid="3804" relation="include">
+        </childnode>
+        <childnode refid="3789" relation="include">
+        </childnode>
+        <childnode refid="3807" relation="include">
+        </childnode>
+        <childnode refid="3808" relation="include">
+        </childnode>
+        <childnode refid="3809" relation="include">
+        </childnode>
+        <childnode refid="3825" relation="include">
+        </childnode>
+        <childnode refid="3828" relation="include">
+        </childnode>
+        <childnode refid="3829" relation="include">
+        </childnode>
+        <childnode refid="3831" relation="include">
+        </childnode>
+        <childnode refid="4037" relation="include">
+        </childnode>
+        <childnode refid="4039" relation="include">
+        </childnode>
+        <childnode refid="3819" relation="include">
+        </childnode>
+        <childnode refid="4040" relation="include">
+        </childnode>
+        <childnode refid="4041" relation="include">
+        </childnode>
+        <childnode refid="4044" relation="include">
+        </childnode>
+        <childnode refid="4045" relation="include">
+        </childnode>
+        <childnode refid="4046" relation="include">
+        </childnode>
+        <childnode refid="3835" relation="include">
+        </childnode>
+        <childnode refid="4054" relation="include">
+        </childnode>
+        <childnode refid="3839" relation="include">
+        </childnode>
+        <childnode refid="4048" relation="include">
+        </childnode>
+        <childnode refid="4047" relation="include">
+        </childnode>
+        <childnode refid="4049" relation="include">
+        </childnode>
+        <childnode refid="4055" relation="include">
+        </childnode>
+        <childnode refid="4050" relation="include">
+        </childnode>
+        <childnode refid="4051" relation="include">
+        </childnode>
+        <childnode refid="4035" relation="include">
+        </childnode>
+        <childnode refid="4056" relation="include">
+        </childnode>
+        <childnode refid="4052" relation="include">
+        </childnode>
+        <childnode refid="3824" relation="include">
+        </childnode>
+        <childnode refid="4036" relation="include">
+        </childnode>
+      </node>
+      <node id="4024">
+        <label>Source/MdDoxTree/ParameterWriter.h</label>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3778" relation="include">
+        </childnode>
+      </node>
+      <node id="3805">
+        <label>Source/MdDoxTree/ReferenceTable.h</label>
+        <childnode refid="3790" relation="include">
+        </childnode>
+        <childnode refid="3785" relation="include">
+        </childnode>
+      </node>
+      <node id="3864">
+        <label>Tools/Doxygen/ListItemQuery.cpp</label>
+      </node>
+      <node id="3981">
+        <label>Tools/Doxygen/DoxVersionNumber.h</label>
+        <childnode refid="3982" relation="include">
+        </childnode>
+        <childnode refid="3983" relation="include">
+        </childnode>
+      </node>
+      <node id="3970">
+        <label>Tools/Doxygen/ParamNameListQuery.cpp</label>
+      </node>
+      <node id="3794">
+        <label>Source/MdDoxTree/HashUtils.cpp</label>
+      </node>
+      <node id="3754">
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
+      </node>
+      <node id="3854">
+        <label>Source/MdDoxTree/ParagraphWriter.h</label>
+        <childnode refid="3755" relation="include">
+        </childnode>
+        <childnode refid="3764" relation="include">
+        </childnode>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3779" relation="include">
+        </childnode>
+        <childnode refid="3780" relation="include">
+        </childnode>
+        <childnode refid="3781" relation="include">
+        </childnode>
+        <childnode refid="3782" relation="include">
+        </childnode>
+      </node>
+      <node id="3785">
+        <label>Source/MdDoxTree/SiteBuilder.cpp</label>
+      </node>
+      <node id="3777">
+        <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
+      </node>
+      <node id="3779">
+        <label>Source/MdDoxTree/Section1Writer.cpp</label>
+      </node>
+      <node id="3989">
+        <label>Tools/Doxygen/FormulaQuery.cpp</label>
+      </node>
+      <node id="3948">
+        <label>Tools/Doxygen/LocationQuery.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3756" relation="include">
+        </childnode>
+        <childnode refid="3949" relation="include">
+        </childnode>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3950" relation="include">
+        </childnode>
+        <childnode refid="3908" relation="include">
+        </childnode>
+      </node>
+      <node id="3887">
+        <label>Tools/Doxygen/ListingQuery.cpp</label>
+      </node>
+      <node id="3927">
+        <label>Tools/Doxygen/EnumValueQuery.cpp</label>
+      </node>
+      <node id="3826">
+        <label>Source/Utils/CommandLine/Scanner.h</label>
+        <childnode refid="3810" relation="include">
+        </childnode>
+        <childnode refid="3827" relation="include">
+        </childnode>
+      </node>
+      <node id="3767">
+        <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
+      </node>
+      <node id="4009">
+        <label>Tools/Doxygen/ListItemQuery.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3864" relation="include">
+        </childnode>
+        <childnode refid="4010" relation="include">
+        </childnode>
+      </node>
+      <node id="3932">
+        <label>Source/MdDoxTree/DescriptionWriter.h</label>
+        <childnode refid="3755" relation="include">
+        </childnode>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3775" relation="include">
+        </childnode>
+        <childnode refid="3777" relation="include">
+        </childnode>
+      </node>
+      <node id="4036">
+        <label>Tools/GenApi/Simple.cpp</label>
+      </node>
+      <node id="3880">
+        <label>Tools/Doxygen/LinkedTextQuery.cpp</label>
+      </node>
+      <node id="3766">
+        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="3919">
+        <label>Tools/Doxygen/DoxLanguage.cpp</label>
+      </node>
+      <node id="3951">
+        <label>Tools/Doxygen/ListOfAllMembersQuery.h</label>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3929" relation="include">
+        </childnode>
+      </node>
+      <node id="3910">
+        <label>Tools/Doxygen/HighlightQuery.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3886" relation="include">
+        </childnode>
+        <childnode refid="3879" relation="include">
+        </childnode>
+      </node>
+      <node id="3776">
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
+      </node>
+      <node id="4053">
+        <label>Tools/GenApi/Generator.h</label>
+        <childnode refid="3823" relation="include">
+        </childnode>
+        <childnode refid="3812" relation="include">
+        </childnode>
+      </node>
+      <node id="3841">
+        <label>Tools/Doxygen/AnchorQuery.cpp</label>
+      </node>
+      <node id="3921">
+        <label>Tools/Doxygen/CompoundRefQuery.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3922" relation="include">
+        </childnode>
+      </node>
+      <node id="3817">
+        <label>Source/Utils/ParserBase/ScannerBase.cpp</label>
+      </node>
+      <node id="3925">
+        <label>Tools/Doxygen/DoxProtectionKind.cpp</label>
+      </node>
+      <node id="3762">
+        <label>Source/MdDox/Main.cpp</label>
+      </node>
+      <node id="4012">
+        <label>Tools/Doxygen/TitleQuery.h</label>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3870" relation="include">
+        </childnode>
+        <childnode refid="3848" relation="include">
+        </childnode>
+      </node>
+      <node id="3915">
+        <label>Tools/Doxygen/CompoundIndexQuery.cpp</label>
+      </node>
+      <node id="3788">
+        <label>Source/MdDoxTree/IndexPageWriter.h</label>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3785" relation="include">
+        </childnode>
+      </node>
+      <node id="3769">
+        <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
+      </node>
+      <node id="4029">
+        <label>Tools/Doxygen/TocItemQuery.h</label>
+        <childnode refid="3849" relation="include">
+        </childnode>
+        <childnode refid="4017" relation="include">
+        </childnode>
+      </node>
+      <node id="3922">
+        <label>Tools/Doxygen/CompoundRefQuery.cpp</label>
+      </node>
+      <node id="3843">
+        <label>Tools/Doxygen/FileQuery.cpp</label>
+      </node>
+      <node id="3789">
+        <label>Source/MdDoxTree/WriteUtils.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3755" relation="include">
+        </childnode>
+        <childnode refid="3756" relation="include">
+        </childnode>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3759" relation="include">
+        </childnode>
+        <childnode refid="3760" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3769" relation="include">
+        </childnode>
+        <childnode refid="3770" relation="include">
+        </childnode>
+        <childnode refid="3771" relation="include">
+        </childnode>
+        <childnode refid="3772" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3774" relation="include">
+        </childnode>
+        <childnode refid="3775" relation="include">
+        </childnode>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3777" relation="include">
+        </childnode>
+        <childnode refid="3778" relation="include">
+        </childnode>
+        <childnode refid="3790" relation="include">
+        </childnode>
+        <childnode refid="3779" relation="include">
+        </childnode>
+        <childnode refid="3780" relation="include">
+        </childnode>
+        <childnode refid="3781" relation="include">
+        </childnode>
+        <childnode refid="3782" relation="include">
+        </childnode>
+        <childnode refid="3783" relation="include">
+        </childnode>
+        <childnode refid="3784" relation="include">
+        </childnode>
+        <childnode refid="3786" relation="include">
+        </childnode>
+      </node>
+      <node id="3783">
+        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="3952">
+        <label>Tools/Doxygen/MemberIndexQuery.h</label>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3915" relation="include">
+        </childnode>
+        <childnode refid="3953" relation="include">
+        </childnode>
+      </node>
+      <node id="3935">
+        <label>Tools/Doxygen/DoxVirtualKind.h</label>
+        <childnode refid="3921" relation="include">
+        </childnode>
+        <childnode refid="3936" relation="include">
+        </childnode>
+        <childnode refid="3928" relation="include">
+        </childnode>
+        <childnode refid="3903" relation="include">
+        </childnode>
+      </node>
+      <node id="4020">
+        <label>Tools/Doxygen/ReimplementQuery.cpp</label>
+      </node>
+      <node id="4019">
+        <label>Tools/Doxygen/ReimplementQuery.h</label>
+        <childnode refid="3908" relation="include">
+        </childnode>
+        <childnode refid="4020" relation="include">
+        </childnode>
+      </node>
+      <node id="3993">
+        <label>Tools/Doxygen/SpQuery.cpp</label>
+      </node>
+      <node id="4008">
+        <label>Tools/Doxygen/LinkQuery.cpp</label>
+      </node>
+      <node id="3897">
+        <label>Tools/Doxygen/DoxygenQuery.cpp</label>
+      </node>
+      <node id="3869">
+        <label>Tools/Doxygen/Sect4Query.cpp</label>
+      </node>
+      <node id="3992">
+        <label>Tools/Doxygen/SpQuery.h</label>
+        <childnode refid="3879" relation="include">
+        </childnode>
+        <childnode refid="3993" relation="include">
+        </childnode>
+      </node>
+      <node id="3892">
+        <label>Tools/Doxygen/DoxGraphRelation.h</label>
+        <childnode refid="3889" relation="include">
+        </childnode>
+        <childnode refid="3893" relation="include">
+        </childnode>
+      </node>
+      <node id="4042">
+        <label>Source/TypeFilter/DoxygenFilter.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3756" relation="include">
+        </childnode>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3759" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3770" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3774" relation="include">
+        </childnode>
+        <childnode refid="3775" relation="include">
+        </childnode>
+        <childnode refid="3783" relation="include">
+        </childnode>
+        <childnode refid="3785" relation="include">
+        </childnode>
+        <childnode refid="4043" relation="include">
+        </childnode>
+        <childnode refid="3841" relation="include">
+        </childnode>
+        <childnode refid="3852" relation="include">
+        </childnode>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3890" relation="include">
+        </childnode>
+        <childnode refid="3886" relation="include">
+        </childnode>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3915" relation="include">
+        </childnode>
+        <childnode refid="3922" relation="include">
+        </childnode>
+        <childnode refid="3855" relation="include">
+        </childnode>
+        <childnode refid="3856" relation="include">
+        </childnode>
+        <childnode refid="3916" relation="include">
+        </childnode>
+        <childnode refid="3897" relation="include">
+        </childnode>
+        <childnode refid="3874" relation="include">
+        </childnode>
+        <childnode refid="3857" relation="include">
+        </childnode>
+        <childnode refid="3927" relation="include">
+        </childnode>
+        <childnode refid="3843" relation="include">
+        </childnode>
+        <childnode refid="3989" relation="include">
+        </childnode>
+        <childnode refid="3940" relation="include">
+        </childnode>
+        <childnode refid="3844" relation="include">
+        </childnode>
+        <childnode refid="3879" relation="include">
+        </childnode>
+        <childnode refid="3845" relation="include">
+        </childnode>
+        <childnode refid="3899" relation="include">
+        </childnode>
+        <childnode refid="3995" relation="include">
+        </childnode>
+        <childnode refid="3858" relation="include">
+        </childnode>
+        <childnode refid="3859" relation="include">
+        </childnode>
+        <childnode refid="3860" relation="include">
+        </childnode>
+        <childnode refid="3861" relation="include">
+        </childnode>
+        <childnode refid="3862" relation="include">
+        </childnode>
+        <childnode refid="3863" relation="include">
+        </childnode>
+        <childnode refid="3880" relation="include">
+        </childnode>
+        <childnode refid="4008" relation="include">
+        </childnode>
+        <childnode refid="3887" relation="include">
+        </childnode>
+        <childnode refid="3864" relation="include">
+        </childnode>
+        <childnode refid="3929" relation="include">
+        </childnode>
+        <childnode refid="4010" relation="include">
+        </childnode>
+        <childnode refid="3950" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3908" relation="include">
+        </childnode>
+        <childnode refid="3953" relation="include">
+        </childnode>
+        <childnode refid="3930" relation="include">
+        </childnode>
+        <childnode refid="3891" relation="include">
+        </childnode>
+        <childnode refid="3933" relation="include">
+        </childnode>
+        <childnode refid="3975" relation="include">
+        </childnode>
+        <childnode refid="3970" relation="include">
+        </childnode>
+        <childnode refid="3881" relation="include">
+        </childnode>
+        <childnode refid="3934" relation="include">
+        </childnode>
+        <childnode refid="3882" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3865" relation="include">
+        </childnode>
+        <childnode refid="4022" relation="include">
+        </childnode>
+        <childnode refid="3924" relation="include">
+        </childnode>
+        <childnode refid="3883" relation="include">
+        </childnode>
+        <childnode refid="4020" relation="include">
+        </childnode>
+        <childnode refid="3902" relation="include">
+        </childnode>
+        <childnode refid="3866" relation="include">
+        </childnode>
+        <childnode refid="3867" relation="include">
+        </childnode>
+        <childnode refid="3868" relation="include">
+        </childnode>
+        <childnode refid="3869" relation="include">
+        </childnode>
+        <childnode refid="3909" relation="include">
+        </childnode>
+        <childnode refid="3870" relation="include">
+        </childnode>
+        <childnode refid="3993" relation="include">
+        </childnode>
+        <childnode refid="3872" relation="include">
+        </childnode>
+        <childnode refid="3942" relation="include">
+        </childnode>
+        <childnode refid="3848" relation="include">
+        </childnode>
+        <childnode refid="3849" relation="include">
+        </childnode>
+        <childnode refid="4017" relation="include">
+        </childnode>
+        <childnode refid="3850" relation="include">
+        </childnode>
+        <childnode refid="4015" relation="include">
+        </childnode>
+        <childnode refid="4031" relation="include">
+        </childnode>
+        <childnode refid="4033" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+      </node>
+      <node id="3808">
+        <label>Source/Utils/Char.h</label>
+        <childnode refid="3792" relation="include">
+        </childnode>
+        <childnode refid="3763" relation="include">
+        </childnode>
+        <childnode refid="3766" relation="include">
+        </childnode>
+        <childnode refid="3807" relation="include">
+        </childnode>
+        <childnode refid="3809" relation="include">
+        </childnode>
+        <childnode refid="3814" relation="include">
+        </childnode>
+        <childnode refid="3815" relation="include">
+        </childnode>
+        <childnode refid="3816" relation="include">
+        </childnode>
+        <childnode refid="3817" relation="include">
+        </childnode>
+        <childnode refid="3818" relation="include">
+        </childnode>
+        <childnode refid="3819" relation="include">
+        </childnode>
+        <childnode refid="3820" relation="include">
+        </childnode>
+        <childnode refid="3821" relation="include">
+        </childnode>
+        <childnode refid="3822" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+        <childnode refid="3824" relation="include">
+        </childnode>
+      </node>
+      <node id="3824">
+        <label>Tools/GenApi/Group.cpp</label>
+      </node>
+      <node id="4037">
+        <label>Source/Utils/FileSystem.h</label>
+        <childnode refid="3753" relation="include">
+        </childnode>
+        <childnode refid="3761" relation="include">
+        </childnode>
+        <childnode refid="3765" relation="include">
+        </childnode>
+        <childnode refid="3810" relation="include">
+        </childnode>
+        <childnode refid="3811" relation="include">
+        </childnode>
+        <childnode refid="3815" relation="include">
+        </childnode>
+        <childnode refid="3816" relation="include">
+        </childnode>
+        <childnode refid="3833" relation="include">
+        </childnode>
+        <childnode refid="3818" relation="include">
+        </childnode>
+        <childnode refid="4038" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+      </node>
+      <node id="3836">
+        <label>Source/Xml/Scanner.h</label>
+        <childnode refid="3821" relation="include">
+        </childnode>
+        <childnode refid="3822" relation="include">
+        </childnode>
+      </node>
+      <node id="4040">
+        <label>Source/Utils/TextStreamWriter.h</label>
+        <childnode refid="3792" relation="include">
+        </childnode>
+        <childnode refid="3813" relation="include">
+        </childnode>
+      </node>
+      <node id="4002">
+        <label>Tools/Doxygen/InternalS3Query.h</label>
+        <childnode refid="3861" relation="include">
+        </childnode>
+        <childnode refid="3868" relation="include">
+        </childnode>
+      </node>
+      <node id="3995">
+        <label>Tools/Doxygen/IndexEntryQuery.cpp</label>
+      </node>
+      <node id="3863">
+        <label>Tools/Doxygen/LanguageQuery.cpp</label>
+      </node>
+      <node id="4043">
+        <label>Source/TypeFilter/DoxygenFilter.cpp</label>
+      </node>
+      <node id="4025">
+        <label>Tools/Doxygen/ParamListItemQuery.h</label>
+        <childnode refid="3777" relation="include">
+        </childnode>
+        <childnode refid="3933" relation="include">
+        </childnode>
+        <childnode refid="3975" relation="include">
+        </childnode>
+      </node>
+      <node id="4005">
+        <label>Tools/Doxygen/InternalS4Query.h</label>
+        <childnode refid="3862" relation="include">
+        </childnode>
+        <childnode refid="3869" relation="include">
+        </childnode>
+      </node>
+      <node id="3934">
+        <label>Tools/Doxygen/ParamQuery.cpp</label>
+      </node>
+      <node id="3907">
+        <label>Source/MdDoxTree/MemberDefWriter.h</label>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3784" relation="include">
+        </childnode>
+      </node>
+      <node id="3868">
+        <label>Tools/Doxygen/Sect3Query.cpp</label>
+      </node>
+      <node id="3930">
+        <label>Tools/Doxygen/MemberRefQuery.cpp</label>
+      </node>
+      <node id="3837">
+        <label>Source/Utils/ParserBase/ParseError.h</label>
+        <childnode refid="3838" relation="include">
+        </childnode>
+        <childnode refid="3816" relation="include">
+        </childnode>
+        <childnode refid="3817" relation="include">
+        </childnode>
+      </node>
+      <node id="3985">
+        <label>Tools/Doxygen/LinkedTextQuery.h</label>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3939" relation="include">
+        </childnode>
+        <childnode refid="3986" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3927" relation="include">
+        </childnode>
+        <childnode refid="3880" relation="include">
+        </childnode>
+        <childnode refid="3908" relation="include">
+        </childnode>
+        <childnode refid="3934" relation="include">
+        </childnode>
+      </node>
+      <node id="3996">
+        <label>Tools/Doxygen/InternalS1Query.h</label>
+        <childnode refid="3859" relation="include">
+        </childnode>
+        <childnode refid="3866" relation="include">
+        </childnode>
+      </node>
+      <node id="3861">
+        <label>Tools/Doxygen/InternalS3Query.cpp</label>
+      </node>
+      <node id="4044">
+        <label>Source/Utils/TypeFilter.cpp</label>
+      </node>
+      <node id="3828">
+        <label>Source/Utils/Config.h</label>
+        <childnode refid="3804" relation="include">
+        </childnode>
+        <childnode refid="3814" relation="include">
+        </childnode>
+      </node>
+      <node id="3999">
+        <label>Tools/Doxygen/InternalS2Query.h</label>
+        <childnode refid="3860" relation="include">
+        </childnode>
+        <childnode refid="3867" relation="include">
+        </childnode>
+      </node>
+      <node id="3902">
+        <label>Tools/Doxygen/RowQuery.cpp</label>
+      </node>
+      <node id="3873">
+        <label>Tools/Doxygen/EmptyQuery.h</label>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3874" relation="include">
+        </childnode>
+        <childnode refid="3843" relation="include">
+        </childnode>
+        <childnode refid="3844" relation="include">
+        </childnode>
+        <childnode refid="3845" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3848" relation="include">
+        </childnode>
+        <childnode refid="3849" relation="include">
+        </childnode>
+        <childnode refid="3850" relation="include">
+        </childnode>
+      </node>
+      <node id="3998">
+        <label>Source/MdDoxTree/Section2Writer.h</label>
+        <childnode refid="3779" relation="include">
+        </childnode>
+        <childnode refid="3780" relation="include">
+        </childnode>
+      </node>
+      <node id="3896">
+        <label>Tools/Doxygen/CompoundDefQuery.cpp</label>
+      </node>
+      <node id="3965">
+        <label>Tools/Doxygen/DoxImageKind.cpp</label>
+      </node>
+      <node id="3947">
+        <label>Tools/Doxygen/DoxSectionKind.cpp</label>
+      </node>
+      <node id="3772">
+        <label>Source/MdDoxTree/MemberDefListingWriter.cpp</label>
+      </node>
+      <node id="3800">
+        <label>Source/MdDoxTree/GenericPageWriter.h</label>
+        <childnode refid="3759" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+      </node>
+      <node id="4018">
+        <label>Tools/Doxygen/ParBlockQuery.h</label>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3865" relation="include">
+        </childnode>
+      </node>
+      <node id="3856">
+        <label>Tools/Doxygen/DescriptionQuery.cpp</label>
+      </node>
+      <node id="3825">
+        <label>Source/Utils/CommandLine/Token.h</label>
+        <childnode refid="3826" relation="include">
+        </childnode>
+      </node>
+      <node id="3795">
+        <label>Source/MdDoxTree/HtmlCommandWriter.h</label>
+        <childnode refid="3763" relation="include">
+        </childnode>
+        <childnode refid="3764" relation="include">
+        </childnode>
+        <childnode refid="3767" relation="include">
+        </childnode>
+      </node>
+      <node id="3966">
+        <label>Tools/Doxygen/ImageQuery.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3845" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+      </node>
+      <node id="3939">
+        <label>Source/MdDoxTree/GraphWriter.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3760" relation="include">
+        </childnode>
+      </node>
+      <node id="3906">
+        <label>Source/MdDoxTree/MemberDefListingWriter.h</label>
+        <childnode refid="3772" relation="include">
+        </childnode>
+        <childnode refid="3783" relation="include">
+        </childnode>
+      </node>
+      <node id="3889">
+        <label>Tools/Doxygen/ChildNodeQuery.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3760" relation="include">
+        </childnode>
+        <childnode refid="3890" relation="include">
+        </childnode>
+        <childnode refid="3891" relation="include">
+        </childnode>
+      </node>
+      <node id="3862">
+        <label>Tools/Doxygen/InternalS4Query.cpp</label>
+      </node>
+      <node id="3771">
+        <label>Source/MdDoxTree/MarkupQueryWriter.cpp</label>
+      </node>
+      <node id="4032">
+        <label>Tools/Doxygen/XRefSectQuery.h</label>
+        <childnode refid="4033" relation="include">
+        </childnode>
+      </node>
+      <node id="3797">
+        <label>Source/MdDoxTree/PageWriter.h</label>
+        <childnode refid="3798" relation="include">
+        </childnode>
+        <childnode refid="3799" relation="include">
+        </childnode>
+        <childnode refid="3800" relation="include">
+        </childnode>
+        <childnode refid="3801" relation="include">
+        </childnode>
+        <childnode refid="3775" relation="include">
+        </childnode>
+      </node>
+      <node id="3878">
+        <label>Tools/Doxygen/RefTextQuery.h</label>
+        <childnode refid="3769" relation="include">
+        </childnode>
+        <childnode refid="3771" relation="include">
+        </childnode>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3843" relation="include">
+        </childnode>
+        <childnode refid="3844" relation="include">
+        </childnode>
+        <childnode refid="3879" relation="include">
+        </childnode>
+        <childnode refid="3845" relation="include">
+        </childnode>
+        <childnode refid="3880" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3881" relation="include">
+        </childnode>
+        <childnode refid="3882" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3883" relation="include">
+        </childnode>
+        <childnode refid="3848" relation="include">
+        </childnode>
+        <childnode refid="3849" relation="include">
+        </childnode>
+        <childnode refid="3850" relation="include">
+        </childnode>
+      </node>
+      <node id="3926">
+        <label>Tools/Doxygen/EnumValueQuery.h</label>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="3927" relation="include">
+        </childnode>
+        <childnode refid="3908" relation="include">
+        </childnode>
+      </node>
+      <node id="3770">
+        <label>Source/MdDoxTree/LocationWriter.cpp</label>
+      </node>
+      <node id="3876">
+        <label>Tools/Doxygen/MarkupQuery.h</label>
+        <childnode refid="3877" relation="include">
+        </childnode>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3843" relation="include">
+        </childnode>
+        <childnode refid="3844" relation="include">
+        </childnode>
+        <childnode refid="3845" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3848" relation="include">
+        </childnode>
+        <childnode refid="3849" relation="include">
+        </childnode>
+        <childnode refid="3850" relation="include">
+        </childnode>
+      </node>
+      <node id="3940">
+        <label>Tools/Doxygen/GraphQuery.cpp</label>
+      </node>
+      <node id="3904">
+        <label>Source/MdDoxTree/EnumDefWriter.h</label>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+      </node>
+      <node id="3908">
+        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
+      </node>
+      <node id="3756">
+        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="3859">
+        <label>Tools/Doxygen/InternalS1Query.cpp</label>
+      </node>
+      <node id="4033">
+        <label>Tools/Doxygen/XRefSectQuery.cpp</label>
+      </node>
+      <node id="4041">
+        <label>Source/Utils/TypeFilter.h</label>
+        <childnode refid="4042" relation="include">
+        </childnode>
+        <childnode refid="4043" relation="include">
+        </childnode>
+        <childnode refid="4044" relation="include">
+        </childnode>
+        <childnode refid="3821" relation="include">
+        </childnode>
+        <childnode refid="3835" relation="include">
+        </childnode>
+      </node>
+      <node id="3852">
+        <label>Tools/Doxygen/BlockQuoteQuery.cpp</label>
+      </node>
+      <node id="3885">
+        <label>Tools/Doxygen/CodeLineQuery.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3886" relation="include">
+        </childnode>
+        <childnode refid="3887" relation="include">
+        </childnode>
+      </node>
+      <node id="4050">
+        <label>Tools/GenApi/Group.h</label>
+        <childnode refid="4051" relation="include">
+        </childnode>
+        <childnode refid="4052" relation="include">
+        </childnode>
+        <childnode refid="3824" relation="include">
+        </childnode>
+        <childnode refid="4036" relation="include">
+        </childnode>
+      </node>
+      <node id="3894">
+        <label>Tools/Doxygen/DoxBool.h</label>
+        <childnode refid="3885" relation="include">
+        </childnode>
+        <childnode refid="3895" relation="include">
+        </childnode>
+        <childnode refid="3898" relation="include">
+        </childnode>
+        <childnode refid="3900" relation="include">
+        </childnode>
+        <childnode refid="3901" relation="include">
+        </childnode>
+        <childnode refid="3903" relation="include">
+        </childnode>
+      </node>
+      <node id="3790">
+        <label>Source/MdDoxTree/ReferenceTable.cpp</label>
+      </node>
+      <node id="3979">
+        <label>Tools/Doxygen/DoxSimpleSectKind.cpp</label>
+      </node>
+      <node id="3903">
+        <label>Tools/Doxygen/MemberDefQuery.h</label>
+        <childnode refid="3904" relation="include">
+        </childnode>
+        <childnode refid="3905" relation="include">
+        </childnode>
+        <childnode refid="3906" relation="include">
+        </childnode>
+        <childnode refid="3907" relation="include">
+        </childnode>
+        <childnode refid="3908" relation="include">
+        </childnode>
+        <childnode refid="3909" relation="include">
+        </childnode>
+      </node>
+      <node id="3968">
+        <label>Tools/Doxygen/DoxParamDir.cpp</label>
+      </node>
+      <node id="3937">
+        <label>Tools/Doxygen/ListingQuery.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3887" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+      </node>
+      <node id="3991">
+        <label>Tools/Doxygen/HeadingQuery.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3844" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+      </node>
+      <node id="3799">
+        <label>Source/MdDoxTree/DirectoryPageWriter.h</label>
+        <childnode refid="3756" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+      </node>
+      <node id="3832">
+        <label>Source/Utils/IndexCache.h</label>
+        <childnode refid="3833" relation="include">
+        </childnode>
+      </node>
+      <node id="3840">
+        <label>Tools/Doxygen/AnchorQuery.h</label>
+        <childnode refid="3841" relation="include">
+        </childnode>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3843" relation="include">
+        </childnode>
+        <childnode refid="3844" relation="include">
+        </childnode>
+        <childnode refid="3845" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3848" relation="include">
+        </childnode>
+        <childnode refid="3849" relation="include">
+        </childnode>
+        <childnode refid="3850" relation="include">
+        </childnode>
+      </node>
+      <node id="4023">
+        <label>Tools/Doxygen/ParamQuery.h</label>
+        <childnode refid="3757" relation="include">
+        </childnode>
+        <childnode refid="3758" relation="include">
+        </childnode>
+        <childnode refid="3773" relation="include">
+        </childnode>
+        <childnode refid="4024" relation="include">
+        </childnode>
+        <childnode refid="3908" relation="include">
+        </childnode>
+        <childnode refid="3934" relation="include">
+        </childnode>
+        <childnode refid="3942" relation="include">
+        </childnode>
+      </node>
+      <node id="3913">
+        <label>Tools/Doxygen/DoxCompoundKind.h</label>
+        <childnode refid="3802" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3804" relation="include">
+        </childnode>
+        <childnode refid="3895" relation="include">
+        </childnode>
+        <childnode refid="3914" relation="include">
+        </childnode>
+        <childnode refid="3917" relation="include">
+        </childnode>
+      </node>
+      <node id="3943">
+        <label>Tools/Doxygen/SectionDefQuery.h</label>
+        <childnode refid="3774" relation="include">
+        </childnode>
+        <childnode refid="3944" relation="include">
+        </childnode>
+        <childnode refid="3945" relation="include">
+        </childnode>
+        <childnode refid="3896" relation="include">
+        </childnode>
+        <childnode refid="3909" relation="include">
+        </childnode>
+      </node>
+      <node id="3768">
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
+      </node>
+      <node id="3945">
+        <label>Source/MdDoxTree/SectionDefWriter.h</label>
+        <childnode refid="3775" relation="include">
+        </childnode>
+        <childnode refid="3784" relation="include">
+        </childnode>
+      </node>
+      <node id="3860">
+        <label>Tools/Doxygen/InternalS2Query.cpp</label>
+      </node>
+      <node id="3820">
+        <label>Source/Xml/Node.cpp</label>
+      </node>
+      <node id="3870">
+        <label>Tools/Doxygen/SimpleSectQuery.cpp</label>
+      </node>
+      <node id="3933">
+        <label>Tools/Doxygen/ParamListItemQuery.cpp</label>
+      </node>
+      <node id="3796">
+        <label>Source/MdDoxTree/Reference.h</label>
+        <childnode refid="3754" relation="include">
+        </childnode>
+        <childnode refid="3797" relation="include">
+        </childnode>
+        <childnode refid="3798" relation="include">
+        </childnode>
+        <childnode refid="3756" relation="include">
+        </childnode>
+        <childnode refid="3799" relation="include">
+        </childnode>
+        <childnode refid="3759" relation="include">
+        </childnode>
+        <childnode refid="3800" relation="include">
+        </childnode>
+        <childnode refid="3802" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3788" relation="include">
+        </childnode>
+        <childnode refid="3774" relation="include">
+        </childnode>
+        <childnode refid="3801" relation="include">
+        </childnode>
+        <childnode refid="3789" relation="include">
+        </childnode>
+        <childnode refid="3786" relation="include">
+        </childnode>
+      </node>
+      <node id="4034">
+        <label>Tools/GenApi/Common.cpp</label>
+      </node>
+      <node id="3851">
+        <label>Tools/Doxygen/BlockQuoteQuery.h</label>
+        <childnode refid="3776" relation="include">
+        </childnode>
+        <childnode refid="3852" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a02099" prot="public">MdDox::StringUtils</innerclass>
+    <innernamespace refid="a01838">MdDox</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;deque&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unordered_map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iomanip&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37" refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>=<sp/>std::string;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="a01838_1ab821d2f5c5e2cba37c52746683cd8f0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01838_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref><sp/>=<sp/>std::deque&lt;std::string&gt;;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="a01838_1af43ecb087272339550cd14a78f59b6a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01838_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref><sp/>=<sp/>std::vector&lt;std::string&gt;;</highlight></codeline>
+<codeline lineno="51" refid="a01838_1ab2f3c2c82f1a5b6e56b35fc78399c078" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01838_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member" tooltip="Structure to hold a key value string. ">StringMap</ref><sp/>=<sp/>std::unordered_map&lt;std::string,<sp/>std::string&gt;;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="a01838_1a44797403486135f74c4a8bb2d3594b2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01838_1a44797403486135f74c4a8bb2d3594b2b" kindref="member" tooltip="Declaration of an input/output string stream. ">StringStream</ref><sp/>=<sp/>std::stringstream;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="a01838_1a955ce196b4b41434c533c9ab65fd539b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01838_1a955ce196b4b41434c533c9ab65fd539b" kindref="member" tooltip="Declaration of an input only string stream. ">InputStringStream</ref><sp/>=<sp/>std::istringstream;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>=<sp/>std::ostringstream;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="a01838_1a9601d0e9c9bcb992817361caf37a8518" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01838_1a9601d0e9c9bcb992817361caf37a8518" kindref="member" tooltip="Declaration of the input stream base class. ">IStream</ref><sp/>=<sp/>std::istream;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref><sp/>=<sp/>std::ostream;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="a01838_1a568c80ba180b98c6bb783385a6c8649b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01838_1a568c80ba180b98c6bb783385a6c8649b" kindref="member" tooltip="Declaration of the input file stream class. ">InputFileStream</ref><sp/>=<sp/>std::ifstream;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="a01838_1adc74d0adf91d7282eae3edd76765bf03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01838_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref><sp/>=<sp/>std::ofstream;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="a02099" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02099" kindref="compound" tooltip="Provides general string conversion utility routines. ">StringUtils</ref></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">split</ref>(<ref refid="a01838_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref>&amp;<sp/><sp/>destination,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>separator);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1a4e2a0d38a0435a6f041509d70b4c0cd7" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">splitRejectEmpty</ref>(<ref refid="a01838_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref>&amp;<sp/><sp/>destination,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>separator);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">split</ref>(<ref refid="a01838_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref>&amp;<sp/><sp/>destination,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>separator);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">split</ref>(<ref refid="a01838_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref>&amp;<sp/><sp/>destination,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>separator);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" kindref="member" tooltip="Converts the supplied integer to base 64 and uses a nonsensical symbol alphabet to produce a randomiz...">scramble</ref>(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>randomize=</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="a02099_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" kindref="member" tooltip="Converts the supplied integer to base 64 and uses a nonsensical symbol alphabet to produce a randomiz...">scramble</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>value,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>randomize<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1a25d7c52c64b0071b83d11feee43ea0cb" kindref="member" tooltip="Scrambles and combines a contextually unique counter, time stamp, and a memory address. ">generate</ref>(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>counter,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>seed);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1a129eedfc9277ca8acab4fe29cf3dcdea" kindref="member" tooltip="Removes any white space characters from the start and end of the string. ">trimWhiteSpace</ref>(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1a87fc763d8ed23042621827d65de690aa" kindref="member" tooltip="Removes all occurrences of the supplied character from the left hand side of the string. ">trimL</ref>(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>character);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1a84fd2c771eb5953236d6fee9acc6d8d6" kindref="member" tooltip="Removes all occurrences of the supplied character from the right hand side of the string...">trimR</ref>(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>character);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1a7dd724d8a259c73e7f952d01b4f42548" kindref="member" tooltip="A combination of trimL and trimR. ">trim</ref>(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>destination,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>character);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1a182fe1efd809e486f6d93d53f573b92d" kindref="member">splitLine</ref>(<ref refid="a01838_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>swap<sp/>=<sp/></highlight><highlight class="charliteral">&apos;$&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1a7c366ea2942779a96722181c617fbe35" kindref="member">replaceAll</ref>(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>input,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>b);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1a0c6460ffd00b82ae4cd21ce37ea22a4e" kindref="member">toLower</ref>(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>in);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02099_1ab56d6cf09aedb16bd222016a02709fc8" kindref="member">toUpper</ref>(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>in);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="a02099_1a25b8d33edc11ae70f016f217cb7ae330" kindref="member">toLowerFirst</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>in);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="a02099_1a10a2d9d4209047792b39cc2330cf646a" kindref="member">toUpperFirst</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>in);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="215" refid="a01838_1a0a58f178b85f56fe1d08c136ee981a23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01838_1a0a58f178b85f56fe1d08c136ee981a23" kindref="member">StreamMerge</ref>(<ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref>&amp;<sp/>dest,<sp/>Args&amp;&amp;...<sp/>args)</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>oss;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((oss<sp/>&lt;&lt;<sp/>std::forward&lt;Args&gt;(args)),<sp/>...);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>&lt;&lt;<sp/>oss.str()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="223" refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/>Args&amp;&amp;...<sp/>args)</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>oss;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((oss<sp/>&lt;&lt;<sp/>std::forward&lt;Args&gt;(args)),<sp/>...);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/>oss.str();</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="231" refid="a01838_1a7d54a855d1dfafa2f06b225dd346553f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(Args&amp;&amp;...<sp/>args)</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>oss;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((oss<sp/>&lt;&lt;<sp/>std::forward&lt;Args&gt;(args)),<sp/>...);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>oss.str();</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/Utils/String.h"/>
+  </compounddef>
+</doxygen>

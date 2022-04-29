@@ -1,120 +1,169 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="a00929" kind="file" language="C++">
-    <compoundname>VarListEntryQuery.h</compoundname>
-    <includes refid="a00575" local="yes">Doxygen.h</includes>
-    <includedby refid="a00926" local="yes">Tools/Doxygen/VarListEntryQuery.cpp</includedby>
+    <compoundname>DescriptionWriter.h</compoundname>
+    <includes refid="a01316" local="yes">Doxygen/DescriptionQuery.h</includes>
+    <includes refid="a01220" local="yes">Utils/Path.h</includes>
+    <includedby refid="a00926" local="yes">Source/MdDoxTree/DescriptionWriter.cpp</includedby>
+    <includedby refid="a00947" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
+    <includedby refid="a00953" local="yes">Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
+    <includedby refid="a00995" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
+    <includedby refid="a01037" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
+    <includedby refid="a01049" local="yes">Source/MdDoxTree/PageWriter.cpp</includedby>
+    <includedby refid="a01061" local="yes">Source/MdDoxTree/ParameterListWriter.cpp</includedby>
     <incdepgraph>
-      <node id="9131">
-        <label>Tools/Doxygen/VarListEntryQuery.h</label>
-        <link refid="a00929"/>
-        <childnode refid="9132" relation="include">
-        </childnode>
-      </node>
-      <node id="9147">
+      <node id="250">
         <label>Utils/Console.h</label>
-        <childnode refid="9135" relation="include">
+        <childnode refid="238" relation="include">
         </childnode>
       </node>
-      <node id="9141">
+      <node id="244">
         <label>iomanip</label>
       </node>
-      <node id="9133">
+      <node id="236">
         <label>functional</label>
       </node>
-      <node id="9143">
-        <label>Utils/Exception.h</label>
-        <childnode refid="9144" relation="include">
-        </childnode>
-        <childnode refid="9145" relation="include">
-        </childnode>
-        <childnode refid="9146" relation="include">
-        </childnode>
-        <childnode refid="9147" relation="include">
-        </childnode>
-        <childnode refid="9135" relation="include">
+      <node id="251">
+        <label>Utils/Path.h</label>
+        <childnode refid="238" relation="include">
         </childnode>
       </node>
-      <node id="9145">
+      <node id="246">
+        <label>Utils/Exception.h</label>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>Doxygen/DescriptionQuery.h</label>
+        <childnode refid="235" relation="include">
+        </childnode>
+      </node>
+      <node id="248">
         <label>stdexcept</label>
       </node>
-      <node id="9139">
+      <node id="242">
         <label>string</label>
       </node>
-      <node id="9132">
+      <node id="235">
         <label>Doxygen.h</label>
-        <childnode refid="9133" relation="include">
+        <childnode refid="236" relation="include">
         </childnode>
-        <childnode refid="9134" relation="include">
+        <childnode refid="237" relation="include">
         </childnode>
-        <childnode refid="9135" relation="include">
+        <childnode refid="238" relation="include">
         </childnode>
-        <childnode refid="9142" relation="include">
+        <childnode refid="245" relation="include">
         </childnode>
-        <childnode refid="9143" relation="include">
+        <childnode refid="246" relation="include">
         </childnode>
       </node>
-      <node id="9144">
+      <node id="247">
         <label>exception</label>
       </node>
-      <node id="9137">
+      <node id="240">
         <label>fstream</label>
       </node>
-      <node id="9142">
+      <node id="245">
         <label>Xml/Node.h</label>
-        <childnode refid="9133" relation="include">
+        <childnode refid="236" relation="include">
         </childnode>
-        <childnode refid="9134" relation="include">
+        <childnode refid="237" relation="include">
         </childnode>
-        <childnode refid="9135" relation="include">
+        <childnode refid="238" relation="include">
         </childnode>
       </node>
-      <node id="9135">
+      <node id="238">
         <label>Utils/String.h</label>
-        <childnode refid="9136" relation="include">
+        <childnode refid="239" relation="include">
         </childnode>
-        <childnode refid="9137" relation="include">
+        <childnode refid="240" relation="include">
         </childnode>
-        <childnode refid="9138" relation="include">
+        <childnode refid="241" relation="include">
         </childnode>
-        <childnode refid="9139" relation="include">
+        <childnode refid="242" relation="include">
         </childnode>
-        <childnode refid="9134" relation="include">
+        <childnode refid="237" relation="include">
         </childnode>
-        <childnode refid="9140" relation="include">
+        <childnode refid="243" relation="include">
         </childnode>
-        <childnode refid="9141" relation="include">
+        <childnode refid="244" relation="include">
         </childnode>
       </node>
-      <node id="9140">
+      <node id="233">
+        <label>Source/MdDoxTree/DescriptionWriter.h</label>
+        <link refid="a00929"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="243">
         <label>vector</label>
       </node>
-      <node id="9146">
+      <node id="249">
         <label>utility</label>
       </node>
-      <node id="9138">
+      <node id="241">
         <label>sstream</label>
       </node>
-      <node id="9136">
+      <node id="239">
         <label>deque</label>
       </node>
-      <node id="9134">
+      <node id="237">
         <label>unordered_map</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="9148">
-        <label>Tools/Doxygen/VarListEntryQuery.h</label>
+      <node id="257">
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
+      </node>
+      <node id="254">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+      </node>
+      <node id="258">
+        <label>Source/MdDoxTree/PageWriter.cpp</label>
+      </node>
+      <node id="255">
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+      </node>
+      <node id="253">
+        <label>Source/MdDoxTree/DescriptionWriter.cpp</label>
+      </node>
+      <node id="259">
+        <label>Source/MdDoxTree/ParameterListWriter.cpp</label>
+      </node>
+      <node id="252">
+        <label>Source/MdDoxTree/DescriptionWriter.h</label>
         <link refid="a00929"/>
-        <childnode refid="9149" relation="include">
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
         </childnode>
       </node>
-      <node id="9149">
-        <label>Tools/Doxygen/VarListEntryQuery.cpp</label>
+      <node id="256">
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
       </node>
     </invincdepgraph>
-    <innerclass refid="a01827" prot="public">MdDox::Doxygen::VarListEntryQuery</innerclass>
-    <innernamespace refid="a00991">MdDox::Doxygen</innernamespace>
+    <innerclass refid="a01863" prot="public">MdDox::DescriptionWriter</innerclass>
+    <innernamespace refid="a01838">MdDox</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -142,26 +191,36 @@
 <codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
 <codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DescriptionQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Path.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00991" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="a01827" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a01827" kindref="compound" tooltip="Implements the docVarListEntryType scaffolding. ">VarListEntryQuery</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a01415" kindref="compound">Query</ref></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DocumentWriter;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="a01863" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a01863" kindref="compound">DescriptionWriter</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02187" kindref="compound">Doxygen::Visitors::DescriptionQueryVisitor</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/><sp/><sp/><sp/>_writer;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_stream;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>_out;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedText(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedParagraph(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02539" kindref="compound" tooltip="Implements the docParaType scaffolding. ">Doxygen::ParaQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedSect1(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02579" kindref="compound" tooltip="Implements the docSect1Type scaffolding. ">Doxygen::Sect1Query</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedTitle(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01827_1a4a8f8979184c3d1ade613e1a69e8f125" kindref="member">VarListEntryQuery</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01827_1a4a8f8979184c3d1ade613e1a69e8f125" kindref="member">VarListEntryQuery</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01827" kindref="compound" tooltip="Implements the docVarListEntryType scaffolding. ">VarListEntryQuery</ref>&amp;<sp/>other)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="a01827_1a5dfd28f87cc59413b8c3a725b733b9c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="a01827_1a5dfd28f87cc59413b8c3a725b733b9c9" kindref="member">VarListEntryQuery</ref>(<ref refid="a01259" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref>*<sp/><ref refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)<sp/>:</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01415" kindref="compound">Query</ref>(<ref refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="55"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01863_1ae3d8aa6f0d56d4eb82adbc293c068d57" kindref="member">DescriptionWriter</ref>(<ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/>out);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01863_1a0785268e8ef04fee7ac9f368664689ac" kindref="member">write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">Doxygen::DescriptionQuery</ref>&amp;<sp/>description);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/Doxygen/VarListEntryQuery.h"/>
+    <location file="Source/MdDoxTree/DescriptionWriter.h"/>
   </compounddef>
 </doxygen>

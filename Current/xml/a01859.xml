@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01859" kind="class" language="C++" prot="public">
-    <compoundname>MdDox::GenApi::Application</compoundname>
+  <compounddef id="a01859" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::ClassPageWriter</compoundname>
+    <basecompoundref refid="a01955" prot="public" virt="non-virtual">MdDox::PageWriter</basecompoundref>
+    <includes local="no">Source/MdDoxTree/ClassPageWriter.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="a01859_1a7fb312110c6015e126415a43ce3ef155" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="a01859_1a8f4bafa7b7dcf75796ac2a6054027abb" prot="private" static="no" mutable="no">
         <type>bool</type>
-        <definition>bool MdDox::GenApi::Application::_attributeNames</definition>
+        <definition>bool MdDox::ClassPageWriter::_baseInit</definition>
         <argsstring></argsstring>
-        <name>_attributeNames</name>
+        <name>_baseInit</name>
         <initializer>{false}</initializer>
         <briefdescription>
         </briefdescription>
@@ -15,13 +17,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="135" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="135" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.h" bodystart="34" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="a01859_1affe7eea8b17118831370d50895d202f2" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="a01859_1a21e4581ad277c15d55e61a561d63cb76" prot="private" static="no" mutable="no">
         <type>bool</type>
-        <definition>bool MdDox::GenApi::Application::_complex</definition>
+        <definition>bool MdDox::ClassPageWriter::_deriveInit</definition>
         <argsstring></argsstring>
-        <name>_complex</name>
+        <name>_deriveInit</name>
         <initializer>{false}</initializer>
         <briefdescription>
         </briefdescription>
@@ -29,508 +31,770 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="133" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="133" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.h" bodystart="35" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="a01859_1a7835f513736c5d372fc70c2499a3f3b7" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::GenApi::Application::_elementNames</definition>
-        <argsstring></argsstring>
-        <name>_elementNames</name>
-        <initializer>{false}</initializer>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="a01859_1a8f73f1cb18b7e7ec1afd8f9c3c94cc91" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::notifyBriefDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
+        <name>notifyBriefDescription</name>
+        <reimplements refid="a01955_1a92b457f94cf847bb021dbacd0d292579">notifyBriefDescription</reimplements>
+        <param>
+          <type>const <ref refid="a02191" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="136" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="136" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="81" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="172" bodyend="175"/>
       </memberdef>
-      <memberdef kind="variable" id="a01859_1a30ff77fa2202e697269385518a694677" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::GenApi::Application::_enumValues</definition>
-        <argsstring></argsstring>
-        <name>_enumValues</name>
-        <initializer>{false}</initializer>
+      <memberdef kind="function" id="a01859_1a0bc06fa770308bc08c13c200cb0793dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::notifyDetailDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
+        <name>notifyDetailDescription</name>
+        <reimplements refid="a01955_1a4af6fb6bc18922ccfe3df4688f0c625e">notifyDetailDescription</reimplements>
+        <param>
+          <type>const <ref refid="a02191" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="138" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="138" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="85" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="167" bodyend="170"/>
       </memberdef>
-      <memberdef kind="variable" id="a01859_1a85897557ae458fa1a4e4a89961a72622" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::GenApi::Application::_groupNames</definition>
-        <argsstring></argsstring>
-        <name>_groupNames</name>
-        <initializer>{false}</initializer>
+      <memberdef kind="function" id="a01859_1a5a812fc72f9826de858b822e6ea8d308" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::notifyDetailDescriptionHeading</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
+        <name>notifyDetailDescriptionHeading</name>
+        <reimplements refid="a01955_1a34a7cd04b8e56c0c65d11084e1951d34">notifyDetailDescriptionHeading</reimplements>
+        <param>
+          <type>const <ref refid="a02191" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="137" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="137" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="162" bodyend="165"/>
       </memberdef>
-      <memberdef kind="variable" id="a01859_1adc5b993f2fb29a488f5b522b552750f3" prot="private" static="no" mutable="no">
-        <type><ref refid="a01239" kindref="compound">PathUtil</ref></type>
-        <definition>PathUtil MdDox::GenApi::Application::_indexFile</definition>
-        <argsstring></argsstring>
-        <name>_indexFile</name>
+      <memberdef kind="function" id="a01859_1a4a1cb00a84c2006d7a21bf7be2eb498b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::preSortQuery</definition>
+        <argsstring>(const Doxygen::CompoundDefQuery &amp;query) override</argsstring>
+        <name>preSortQuery</name>
+        <reimplements refid="a01955_1a85da1c3da15b04352ddaeb0fb877ce8c">preSortQuery</reimplements>
+        <param>
+          <type>const <ref refid="a02163" kindref="compound">Doxygen::CompoundDefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="130" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="130" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="79" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="177" bodyend="195"/>
       </memberdef>
-      <memberdef kind="variable" id="a01859_1a9547bd7a8153445c1ea976b8bc170d10" prot="private" static="no" mutable="no">
-        <type><ref refid="a01239" kindref="compound">PathUtil</ref></type>
-        <definition>PathUtil MdDox::GenApi::Application::_outDir</definition>
-        <argsstring></argsstring>
-        <name>_outDir</name>
+      <memberdef kind="function" id="a01859_1a5dd2797b3932ac98d21d0d8816c6d451" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedBaseCompoundRef</definition>
+        <argsstring>(const Doxygen::CompoundRefQuery &amp;query) override</argsstring>
+        <name>visitedBaseCompoundRef</name>
+        <reimplements refid="a02159_1a61b8487366558ce7cd7749ad7baee3ac">visitedBaseCompoundRef</reimplements>
+        <param>
+          <type>const <ref refid="a02175" kindref="compound">Doxygen::CompoundRefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
         <briefdescription>
-        </briefdescription>
+<para>Called when the element <bold>basecompoundref</bold> is found. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the CompoundRefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="131" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="131" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="50" bodyend="59"/>
       </memberdef>
-      <memberdef kind="variable" id="a01859_1a285369c727a568cfcb75ba306713fe6a" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::GenApi::Application::_simple</definition>
-        <argsstring></argsstring>
-        <name>_simple</name>
-        <initializer>{false}</initializer>
+      <memberdef kind="function" id="a01859_1a5b80da8a8547f5b15966d08a997eff9a" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedCollaborationGraph</definition>
+        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
+        <name>visitedCollaborationGraph</name>
+        <reimplements refid="a02159_1a07b21a15f65d8614859140fc71579e39">visitedCollaborationGraph</reimplements>
+        <param>
+          <type>const <ref refid="a02323" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
         <briefdescription>
-        </briefdescription>
+<para>Called when the element <bold>collaborationgraph</bold> is found. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the GraphQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="134" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="134" bodyend="-1"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1acb373e835ec95dd0117bc38a61073dbe" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedCompoundName</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedCompoundName</name>
+        <reimplements refid="a02159_1ab9b0bbbcc61d79676ab6ca42ee73cef2">visitedCompoundName</reimplements>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>compoundname</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="72" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1a415ff5d1ce6e51b9b191dd323f77f3af" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedDerivedCompoundRef</definition>
+        <argsstring>(const Doxygen::CompoundRefQuery &amp;query) override</argsstring>
+        <name>visitedDerivedCompoundRef</name>
+        <reimplements refid="a02159_1a75a893e5819d6bd49e5e0005d8c8dadc">visitedDerivedCompoundRef</reimplements>
+        <param>
+          <type>const <ref refid="a02175" kindref="compound">Doxygen::CompoundRefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>derivedcompoundref</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the CompoundRefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="61" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1a9f313f16a5105f0bff0f09b6ffdf74a8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedIncDepGraph</definition>
+        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
+        <name>visitedIncDepGraph</name>
+        <reimplements refid="a02159_1af52e424ab412bc68bfb5f973b7b5b27c">visitedIncDepGraph</reimplements>
+        <param>
+          <type>const <ref refid="a02323" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>incdepgraph</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the GraphQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1aef006e533167b0b56e3fbb9b0c141ae1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedIncludedBy</definition>
+        <argsstring>(const Doxygen::IncQuery &amp;query) override</argsstring>
+        <name>visitedIncludedBy</name>
+        <reimplements refid="a02159_1aaa0b3a67ada1b58bd4059ac320f15eab">visitedIncludedBy</reimplements>
+        <param>
+          <type>const <ref refid="a02351" kindref="compound">Doxygen::IncQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>includedby</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the IncQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1afc0097c6bfabd17613398f52bf810d7c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedIncludes</definition>
+        <argsstring>(const Doxygen::IncQuery &amp;query) override</argsstring>
+        <name>visitedIncludes</name>
+        <reimplements refid="a02159_1ad2da872ba085491d223264276737a8e7">visitedIncludes</reimplements>
+        <param>
+          <type>const <ref refid="a02351" kindref="compound">Doxygen::IncQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>includes</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the IncQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1ac7811400097404d8d21063422b48dd8b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedInheritanceGraph</definition>
+        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
+        <name>visitedInheritanceGraph</name>
+        <reimplements refid="a02159_1a60616523a9a6cd3aff6897862cb5c14b">visitedInheritanceGraph</reimplements>
+        <param>
+          <type>const <ref refid="a02323" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>inheritancegraph</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the GraphQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="127" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1ae844ae18453b21220e8b1d7d9bdedcde" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedInnerClass</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerClass</name>
+        <reimplements refid="a02159_1a2b27eae2f46b53f204c8174a54207175">visitedInnerClass</reimplements>
+        <param>
+          <type>const <ref refid="a02555" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innerclass</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="50" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1a4aa91fc8cbe34bb5eaa9de700b6d3900" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedInnerDir</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerDir</name>
+        <reimplements refid="a02159_1a5072b0b483becf3b84daf42925b80853">visitedInnerDir</reimplements>
+        <param>
+          <type>const <ref refid="a02555" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innerdir</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1a01b6644a8c73ff5901fe8aa921be378c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedInnerFile</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerFile</name>
+        <reimplements refid="a02159_1ad2e10284bb8208420841a0849375db05">visitedInnerFile</reimplements>
+        <param>
+          <type>const <ref refid="a02555" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innerfile</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1adaaae97bcba75233e4c2d302926d76b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedInnerGroup</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerGroup</name>
+        <reimplements refid="a02159_1a74899cd76eb6db5a8ee59146c77b07b3">visitedInnerGroup</reimplements>
+        <param>
+          <type>const <ref refid="a02555" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innergroup</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="56" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1ab09afee50cf5ad20c82d110593ec19f8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedInnerNamespace</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerNamespace</name>
+        <reimplements refid="a02159_1a97bac53ff2623f83712993ab2f5ae852">visitedInnerNamespace</reimplements>
+        <param>
+          <type>const <ref refid="a02555" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innernamespace</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1addd339c6b74e27b2ee537474a3d3e7b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedInnerPage</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerPage</name>
+        <reimplements refid="a02159_1ab79909c80676fc9bccbb6e431ba412c2">visitedInnerPage</reimplements>
+        <param>
+          <type>const <ref refid="a02555" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innerpage</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1a36651f0a2dd4f8a6abaf38ef277bc7e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedInvIncDepGraph</definition>
+        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
+        <name>visitedInvIncDepGraph</name>
+        <reimplements refid="a02159_1a728a5f23cbb39f768d46e4c9e7314ecb">visitedInvIncDepGraph</reimplements>
+        <param>
+          <type>const <ref refid="a02323" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>invincdepgraph</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the GraphQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1a5d3fc55feded32356046c2fdfe6711de" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedLocation</definition>
+        <argsstring>(const Doxygen::LocationQuery &amp;query) override</argsstring>
+        <name>visitedLocation</name>
+        <reimplements refid="a02159_1ab432daf1eec44809f0140f9140509532">visitedLocation</reimplements>
+        <param>
+          <type>const <ref refid="a02451" kindref="compound">Doxygen::LocationQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>location</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the LocationQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="70" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="143" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1a0dd7ffa920914e52007d3216a3b65cf2" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedProgramListing</definition>
+        <argsstring>(const Doxygen::ListingQuery &amp;query) override</argsstring>
+        <name>visitedProgramListing</name>
+        <reimplements refid="a02159_1af838f90479d190c3d25be240f05a9c6c">visitedProgramListing</reimplements>
+        <param>
+          <type>const <ref refid="a02423" kindref="compound">Doxygen::ListingQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>programlisting</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ListingQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="68" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1a8d7c06dcdc567be33ac5fd941b361753" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedTableOfContents</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedTableOfContents</name>
+        <reimplements refid="a02159_1a2008b336a42ef282667002b5fb39eae5">visitedTableOfContents</reimplements>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>tableofcontents</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="76" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1a113b00d9671b56d5f239d7b9b5726683" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedTemplateParamList</definition>
+        <argsstring>(const Doxygen::TemplateParamListQuery &amp;query) override</argsstring>
+        <name>visitedTemplateParamList</name>
+        <reimplements refid="a02159_1a5d0ceb3437dac0e5f9da19bf6762b3ba">visitedTemplateParamList</reimplements>
+        <param>
+          <type>const <ref refid="a02639" kindref="compound">Doxygen::TemplateParamListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>templateparamlist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the TemplateParamListQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="62" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="a01859_1ae70d5a14e9f16b0c1d471a6058cff704" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ClassPageWriter::visitedTitle</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedTitle</name>
+        <reimplements refid="a02159_1a4f31cf429855fdbc0a9b38a16f18e68b">visitedTitle</reimplements>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="74" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="152" bodyend="155"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01859_1ad70d9a90a3cdf2eda50b93901da5c860" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="a01859_1a9f99dbdfd13e3350735ec146b10817fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
-        <definition>MdDox::GenApi::Application::Application</definition>
-        <argsstring>()=default</argsstring>
-        <name>Application</name>
+        <definition>MdDox::ClassPageWriter::ClassPageWriter</definition>
+        <argsstring>(DocumentWriter *writer, const Reference &amp;ref, const PathUtil &amp;out)</argsstring>
+        <name>ClassPageWriter</name>
+        <param>
+          <type><ref refid="a01871" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a01979" kindref="compound">Reference</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a02091" kindref="compound">PathUtil</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="141" column="1"/>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="89" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="38" bodyend="43"/>
       </memberdef>
-      <memberdef kind="function" id="a01859_1ac73887e8f8a04c66399b5afdd315e980" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MdDox::GenApi::Application::go</definition>
-        <argsstring>() const</argsstring>
-        <name>go</name>
+      <memberdef kind="function" id="a01859_1aa8592f0f4eca3dad3f1ff9794256426e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::ClassPageWriter::~ClassPageWriter</definition>
+        <argsstring>() override=default</argsstring>
+        <name>~ClassPageWriter</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="248" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="248" bodyend="282"/>
-        <references refid="a01227_1ac0f4754066eb37834a6e6bed93993b50" compoundref="a00350" startline="83" endline="99">MdDox::ParserBase::parse</references>
-        <references refid="a01239_1affcdc94254d5be39dd6e195cfff55092" compoundref="a00365" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
-        <references refid="a01263_1ad981d8abab00654645b673875dde2b9a" compoundref="a02136" startline="82" endline="87">MdDox::Xml::Parser::root</references>
-        <references refid="a01851_1af500d26e74f6c8e58092fc67141df721" compoundref="a00956" startline="512" endline="516">MdDox::GenApi::Generator::write</references>
-      </memberdef>
-      <memberdef kind="function" id="a01859_1afc396c7506316aaf03dfe7da4eea353f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Application::log</definition>
-        <argsstring>(const StringMap &amp;map) const</argsstring>
-        <name>log</name>
-        <param>
-          <type>const <ref refid="a00986_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member">StringMap</ref> &amp;</type>
-          <declname>map</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="183" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="183" bodyend="203"/>
-      </memberdef>
-      <memberdef kind="function" id="a01859_1a0565e733818796b4fc88013cdb0c13c5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Application::logAttributeNames</definition>
-        <argsstring>(Xml::Node *node) const</argsstring>
-        <name>logAttributeNames</name>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="220" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="220" bodyend="225"/>
-      </memberdef>
-      <memberdef kind="function" id="a01859_1a43f35796d381e6a79919b966a4bdf1c7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Application::logComplex</definition>
-        <argsstring>(Xml::Node *node) const</argsstring>
-        <name>logComplex</name>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="205" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="205" bodyend="211"/>
-      </memberdef>
-      <memberdef kind="function" id="a01859_1a9ffb28d1c6266bbc62629e70a4d7bbaf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Application::logElementNames</definition>
-        <argsstring>(Xml::Node *node) const</argsstring>
-        <name>logElementNames</name>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="227" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="227" bodyend="232"/>
-      </memberdef>
-      <memberdef kind="function" id="a01859_1a0e15cba4aaf4b63340592de56f312312" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Application::logEnumValues</definition>
-        <argsstring>(Xml::Node *node) const</argsstring>
-        <name>logEnumValues</name>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="241" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="241" bodyend="246"/>
-      </memberdef>
-      <memberdef kind="function" id="a01859_1a019c4d93e4f8bdec7483af32968f91e5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Application::logGroupNames</definition>
-        <argsstring>(Xml::Node *node) const</argsstring>
-        <name>logGroupNames</name>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="234" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="234" bodyend="239"/>
-      </memberdef>
-      <memberdef kind="function" id="a01859_1aef0627ef4536fc49b9d863a4f2e88b7c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Application::logSimple</definition>
-        <argsstring>(Xml::Node *node) const</argsstring>
-        <name>logSimple</name>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="213" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="213" bodyend="218"/>
-      </memberdef>
-      <memberdef kind="function" id="a01859_1a5eefb70ffb3ef1481ae34f089c46c199" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::GenApi::Application::parse</definition>
-        <argsstring>(const int argc, char **argv)</argsstring>
-        <name>parse</name>
-        <param>
-          <type>const int</type>
-          <declname>argc</declname>
-        </param>
-        <param>
-          <type>char **</type>
-          <declname>argv</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="143" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="143" bodyend="166"/>
-        <references refid="a01183_1a07ef47203678799f14aff45bd593f962" compoundref="a02133" startline="53" endline="177">MdDox::CommandLine::Parser::parse</references>
-        <references refid="a00986_1a05eb5502d200714d8a3f429bb891db0c" compoundref="a02124" startline="85">MdDox::Switches</references>
-        <references refid="a00996_1a93cda827227cbbb45d150a9c37e59f8dad786b6781cdc9133fe88e6b9c3004275" compoundref="a02127" startline="47">MdDox::GenApi::OptionsMax</references>
-        <references refid="a01183_1ae19e2d4dac9f9bcdf9af321798b91bf5" compoundref="a02133" startline="241" endline="256">MdDox::CommandLine::Parser::string</references>
-        <references refid="a00996_1a93cda827227cbbb45d150a9c37e59f8da633a711f7325d6b20c340400f3634a6d" compoundref="a02127" startline="39">MdDox::GenApi::OptInputFile</references>
-        <references refid="a00996_1a93cda827227cbbb45d150a9c37e59f8da63ee21f8a8ac14b5e572aceb03b3a235" compoundref="a02127" startline="40">MdDox::GenApi::OptOutDir</references>
-        <references refid="a01183_1a8bf42d630de22b3fd7791e01fcfebd29" compoundref="a02133" startline="201" endline="206">MdDox::CommandLine::Parser::isPresent</references>
-        <references refid="a00996_1a93cda827227cbbb45d150a9c37e59f8daac7c7032c46020eb27dabcc4818241ea" compoundref="a02127" startline="41">MdDox::GenApi::OptLogComplexTypes</references>
-        <references refid="a00996_1a93cda827227cbbb45d150a9c37e59f8da3f3251db42def7b449f4b4f15ddd88ae" compoundref="a02127" startline="42">MdDox::GenApi::OptLogSimpleTypes</references>
-        <references refid="a00996_1a93cda827227cbbb45d150a9c37e59f8dad74b92eaa8a6d899cf553ee9548cc4c3" compoundref="a02127" startline="43">MdDox::GenApi::OptLogAttributeNames</references>
-        <references refid="a00996_1a93cda827227cbbb45d150a9c37e59f8da885e3b687fbd278d2bd748ec18870262" compoundref="a02127" startline="44">MdDox::GenApi::OptLogElementNames</references>
-        <references refid="a00996_1a93cda827227cbbb45d150a9c37e59f8dae52af1a3b37fec230fb5009334606f1c" compoundref="a02127" startline="45">MdDox::GenApi::OptLogGroupNames</references>
-        <references refid="a00996_1a93cda827227cbbb45d150a9c37e59f8da92ed4e4e6c1b46a268323f126b01b679" compoundref="a02127" startline="46">MdDox::GenApi::OptOpLogEnumValues</references>
-        <references refid="a01239_1a38c8b6c0791f16a60e2b9f542a7ef561" compoundref="a00368" startline="112" endline="115">MdDox::PathUtil::empty</references>
-        <references refid="a01183_1ada221ca664083f9a06a12f55e385a9f6" compoundref="a02133" startline="258" endline="263">MdDox::CommandLine::Parser::usage</references>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="a01859_1abdc2f5535f40669cee63868e51f8e3fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>static void MdDox::GenApi::Application::logType</definition>
-        <argsstring>(StringMap &amp;dest, Xml::Node *node, const char *name, const char *attr)</argsstring>
-        <name>logType</name>
-        <param>
-          <type><ref refid="a00986_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member">StringMap</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <param>
-          <type>const char *</type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type>const char *</type>
-          <declname>attr</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Main.cpp" line="168" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="168" bodyend="181"/>
-        <references refid="a01259_1a9d5753492b09c134f7c9401729cff881" compoundref="a00395" startline="125" endline="133">MdDox::Xml::Node::isTypeOf</references>
-        <references refid="a01259_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a00395" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-        <references refid="a01259_1aa349bddf51e8b625d2404778f57873ef" compoundref="a00395" startline="140" endline="143">MdDox::Xml::Node::hasChildren</references>
-        <references refid="a01259_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a00398" startline="275" endline="278">MdDox::Xml::Node::children</references>
+        <location file="Source/MdDoxTree/ClassPageWriter.h" line="91" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Provides the entry point for the GenApi executable. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para><heading level="2">Details</heading>
-</para><para>The main idea for this library is to provide the means to place a node inside a shell or scaffolding. The GenApi namespace allows this by generating a source library off of the compound schema file provided by Doxygen. <linebreak/>
-<linebreak/>
- By design, the program will not work out of the box. It needs to be flexible enough to allow the renaming of types in the schema without modifying the actual element names. In order to do this, it needs to output a few extra files before generating the API. <linebreak/>
-<linebreak/>
- The command line provides the means to extract a 1:1 mapping of all the names. It stores the names in individual resource files that the program uses during runtime. <linebreak/>
-<linebreak/>
- <dot>
-digraph {
-    layout  = dot;
-    bgcolor = &quot;${graph-bg}&quot;;
-    rankdir = &quot;LR&quot;;
-    labelloc= &quot;t&quot;
-    label   = &quot;Functional Structure&quot;
-    fontname= &quot;${font-family}&quot;
-    fontsize= &quot;${font-size}&quot;
-    margin  = &quot;${node-primary-margin}&quot;
-
-    node [
-        shape     = none
-        style     = none
-        fontname  = &quot;${font-family}&quot;
-        fontsize  = &quot;${font-size}&quot;
-        fontcolor = &quot;${node-primary-text}&quot;
-        color     = &quot;${node-primary-border}&quot;
-        fillcolor = &quot;${node-primary-exe}&quot;
-    ]
-    edge [
-        arrowsize = &quot;${arrow-size}&quot;
-        color     = &quot;${grey-table-edge}&quot;
-        fontname  = &quot;${font-family}&quot;
-        fontcolor = &quot;${text}&quot;
-        fontsize  = &quot;${font-size}&quot;
-    ]
-
-    subgraph cluster_a{
-        label       = &quot;&quot;
-        peripheries = 0
-        bgcolor     = none
-
-        Application[label=&lt;
-            &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-0}&quot;&gt;
-                &lt;tr&gt;
-                &lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Application&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;
-                &lt;table border=&quot;0&quot; cellspacing=&quot;3&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-1}&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Setup&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;C&quot;&gt;-c&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;G&quot;&gt;-g&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;E&quot;&gt;-e&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;S&quot;&gt;-s&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;N&quot;&gt;-n&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Generate&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;I&quot;&gt;-i&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;O&quot;&gt;-o&lt;/td&gt;&lt;/tr&gt;
-                &lt;/table&gt;
-                &lt;/td&gt;&lt;/tr&gt;
-            &lt;/table&gt;
-        &gt;];
-
-        Database[label=&lt;
-            &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-0}&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Swap Database&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;
-                &lt;table border=&quot;0&quot; cellspacing=&quot;3&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-1}&quot;&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;C&quot;&gt;Complex.txt&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;G&quot;&gt;Groups.txt&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;E&quot;&gt;Elements.xt&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;S&quot;&gt;Simple.txt&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;N&quot;&gt;Enums.txt&lt;/td&gt;&lt;/tr&gt;
-                &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;I&quot;&gt;input.xsd&lt;/td&gt;&lt;/tr&gt;
-                &lt;/table&gt;
-                &lt;/td&gt;&lt;/tr&gt;
-            &lt;/table&gt;
-        &gt;];
-        
-        Index[label=&lt;
-        &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-0}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;Index&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;
-            &lt;table border=&quot;0&quot; cellspacing=&quot;3&quot; cellpadding=&quot;4&quot; bgcolor=&quot;${grey-table-1}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;C&quot;&gt;xsd:complexType&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;G&quot;&gt;xsd:group&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;E&quot;&gt;xsd:element&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;S&quot;&gt;xsd:simpleType&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;N&quot;&gt;xsd:enumeration&lt;/td&gt;&lt;/tr&gt;
-            &lt;tr&gt;&lt;td align=&quot;left&quot; border=&quot;1&quot; port=&quot;I&quot;&gt;input.xsd&lt;/td&gt;&lt;/tr&gt;
-            &lt;/table&gt;
-            &lt;/td&gt;&lt;/tr&gt;
-        &lt;/table&gt;
-        &gt;];
-
-        Class[shape=circle style=&quot;filled,solid&quot;]
-        Enum[shape=circle style=&quot;filled,solid&quot;]
-
-        Index:C-&gt;Class
-        Index:G-&gt;Class
-        Index:E-&gt;Class
-        Index:S-&gt;Enum
-        Index:N-&gt;Enum
-                
-    }
-
-    subgraph cluster_b{
-        label       = &quot;&quot;
-        peripheries = 0
-        Input[label=&lt;
-        &lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; bgcolor=&quot;${grey-table-0}&quot;&gt;
-            &lt;tr&gt;&lt;td align=&quot;center&quot; port=&quot;Title&quot;&gt;&lt;font color=&quot;${bold}&quot;&gt;&lt;b&gt;input.xsd&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
-        &lt;/table&gt;
-        &gt;];
-    }
-    
-    Application:C-&gt;Database:C
-    Application:S-&gt;Database:S
-    Application:E-&gt;Database:E
-    Application:N-&gt;Database:N
-    Application:G-&gt;Database:G
-    
-
-    Application:I-&gt;Input;
-    Database:C-&gt;Index:C;
-    Database:S-&gt;Index:S;
-    Database:E-&gt;Index:E;
-    Database:N-&gt;Index:N;
-    Database:G-&gt;Index:G;
-    Input-&gt;Database:I;
-    Input-&gt;Index:I;
-}
-</dot>
- <linebreak/>
-<linebreak/>
- For instance, The following xml provides the source for the <bold>compounddefType</bold> scaffolding. <linebreak/>
-<linebreak/>
-<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;compounddefType&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;compoundname&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;title&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;basecompoundref&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;compoundRefType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;derivedcompoundref&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;compoundRefType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;includes&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;incType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;includedby&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;incType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;incdepgraph&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;graphType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;invincdepgraph&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;graphType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;innerdir&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;innerfile&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;innerclass&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;innernamespace&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;innerpage&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;innergroup&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;templateparamlist&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;templateparamlistType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;sectiondef&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;sectiondefType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;tableofcontents&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;1&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;briefdescription&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;descriptionType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;detaileddescription&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;descriptionType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;inheritancegraph&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;graphType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;collaborationgraph&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;graphType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;programlisting&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;listingType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;location&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;locationType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;listofallmembers&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;listofallmembersType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;id&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;kind&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxCompoundKind&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;language&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxLanguage&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;prot&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxProtectionKind&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;final&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;sealed&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;abstract&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
-</programlisting></para><para>The name attributes are substituted through the respective swap file. The application will use the substitutions to produce the class <ref refid="a01311" kindref="compound">Doxygen::CompoundDefQuery</ref> </para>    </detaileddescription>
-    <location file="Tools/GenApi/Main.cpp" line="128" column="1" bodyfile="Tools/GenApi/Main.cpp" bodystart="127" bodyend="283"/>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>MdDox::PageWriter</label>
+        <link refid="a01955"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
+        <link refid="a02159"/>
+      </node>
+      <node id="6">
+        <label>MdDox::ClassPageWriter</label>
+        <link refid="a01859"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>MdDox::DocumentWriter</label>
+        <link refid="a01871"/>
+      </node>
+      <node id="10">
+        <label>MdDox::PageWriter</label>
+        <link refid="a01955"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>_sections</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>_writer</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>_inDir</edgelabel>
+          <edgelabel>_outDir</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>_ref</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>_out</edgelabel>
+        </childnode>
+      </node>
+      <node id="16">
+        <label>string</label>
+      </node>
+      <node id="17">
+        <label>ofstream</label>
+      </node>
+      <node id="11">
+        <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
+        <link refid="a02159"/>
+      </node>
+      <node id="9">
+        <label>MdDox::ClassPageWriter</label>
+        <link refid="a01859"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>vector&lt; Node *&gt;</label>
+      </node>
+      <node id="14">
+        <label>MdDox::PathUtil</label>
+        <link refid="a02091"/>
+      </node>
+      <node id="15">
+        <label>MdDox::Reference</label>
+        <link refid="a01979"/>
+        <childnode refid="16" relation="usage">
+          <edgelabel>_ref</edgelabel>
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/MdDoxTree/ClassPageWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.h" bodystart="31" bodyend="92"/>
     <listofallmembers>
-      <member refid="a01859_1a7fb312110c6015e126415a43ce3ef155" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>_attributeNames</name></member>
-      <member refid="a01859_1affe7eea8b17118831370d50895d202f2" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>_complex</name></member>
-      <member refid="a01859_1a7835f513736c5d372fc70c2499a3f3b7" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>_elementNames</name></member>
-      <member refid="a01859_1a30ff77fa2202e697269385518a694677" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>_enumValues</name></member>
-      <member refid="a01859_1a85897557ae458fa1a4e4a89961a72622" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>_groupNames</name></member>
-      <member refid="a01859_1adc5b993f2fb29a488f5b522b552750f3" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>_indexFile</name></member>
-      <member refid="a01859_1a9547bd7a8153445c1ea976b8bc170d10" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>_outDir</name></member>
-      <member refid="a01859_1a285369c727a568cfcb75ba306713fe6a" prot="private" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>_simple</name></member>
-      <member refid="a01859_1ad70d9a90a3cdf2eda50b93901da5c860" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>Application</name></member>
-      <member refid="a01859_1ac73887e8f8a04c66399b5afdd315e980" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>go</name></member>
-      <member refid="a01859_1afc396c7506316aaf03dfe7da4eea353f" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>log</name></member>
-      <member refid="a01859_1a0565e733818796b4fc88013cdb0c13c5" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>logAttributeNames</name></member>
-      <member refid="a01859_1a43f35796d381e6a79919b966a4bdf1c7" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>logComplex</name></member>
-      <member refid="a01859_1a9ffb28d1c6266bbc62629e70a4d7bbaf" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>logElementNames</name></member>
-      <member refid="a01859_1a0e15cba4aaf4b63340592de56f312312" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>logEnumValues</name></member>
-      <member refid="a01859_1a019c4d93e4f8bdec7483af32968f91e5" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>logGroupNames</name></member>
-      <member refid="a01859_1aef0627ef4536fc49b9d863a4f2e88b7c" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>logSimple</name></member>
-      <member refid="a01859_1abdc2f5535f40669cee63868e51f8e3fd" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>logType</name></member>
-      <member refid="a01859_1a5eefb70ffb3ef1481ae34f089c46c199" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Application</scope><name>parse</name></member>
+      <member refid="a01859_1a8f4bafa7b7dcf75796ac2a6054027abb" prot="private" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_baseInit</name></member>
+      <member refid="a01859_1a21e4581ad277c15d55e61a561d63cb76" prot="private" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_deriveInit</name></member>
+      <member refid="a01955_1ac012825bbcafe1452762c50cd2d35037" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_inDir</name></member>
+      <member refid="a01955_1a1fd2e2d5dddec4f47bb5c229d79c6229" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_out</name></member>
+      <member refid="a01955_1a3199dcb45dcad5468a8b8a1060bd25ec" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_outDir</name></member>
+      <member refid="a01955_1acc94668f2fc82e437e3f7f79f3dda0ae" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_ref</name></member>
+      <member refid="a01955_1a4c7ba3bc919a40013541f6c409781d01" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_sections</name></member>
+      <member refid="a01955_1a95e0ecf4368ab7b570ab15f4e17fd9a5" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_writer</name></member>
+      <member refid="a01859_1a9f99dbdfd13e3350735ec146b10817fe" prot="public" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>ClassPageWriter</name></member>
+      <member refid="a01955_1a51f4ed154feeb26e6a5ed4e940d53377" prot="public" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>exec</name></member>
+      <member refid="a01859_1a8f73f1cb18b7e7ec1afd8f9c3c94cc91" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>notifyBriefDescription</name></member>
+      <member refid="a01859_1a0bc06fa770308bc08c13c200cb0793dc" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>notifyDetailDescription</name></member>
+      <member refid="a01859_1a5a812fc72f9826de858b822e6ea8d308" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>notifyDetailDescriptionHeading</name></member>
+      <member refid="a01955_1a7b84542c57c02926a9930f35bc95fc47" prot="public" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>PageWriter</name></member>
+      <member refid="a01859_1a4a1cb00a84c2006d7a21bf7be2eb498b" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>preSortQuery</name></member>
+      <member refid="a01859_1a5dd2797b3932ac98d21d0d8816c6d451" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedBaseCompoundRef</name></member>
+      <member refid="a01955_1a7160540760aa919d69427ad74df8ebc5" prot="protected" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedBriefDescription</name></member>
+      <member refid="a01859_1a5b80da8a8547f5b15966d08a997eff9a" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedCollaborationGraph</name></member>
+      <member refid="a01859_1acb373e835ec95dd0117bc38a61073dbe" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedCompoundName</name></member>
+      <member refid="a01859_1a415ff5d1ce6e51b9b191dd323f77f3af" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedDerivedCompoundRef</name></member>
+      <member refid="a01955_1a59596c8bb00a0e5b7c8e57a23e4594df" prot="protected" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedDetailedDescription</name></member>
+      <member refid="a01859_1a9f313f16a5105f0bff0f09b6ffdf74a8" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedIncDepGraph</name></member>
+      <member refid="a01859_1aef006e533167b0b56e3fbb9b0c141ae1" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedIncludedBy</name></member>
+      <member refid="a01859_1afc0097c6bfabd17613398f52bf810d7c" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedIncludes</name></member>
+      <member refid="a01859_1ac7811400097404d8d21063422b48dd8b" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInheritanceGraph</name></member>
+      <member refid="a01859_1ae844ae18453b21220e8b1d7d9bdedcde" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerClass</name></member>
+      <member refid="a01859_1a4aa91fc8cbe34bb5eaa9de700b6d3900" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerDir</name></member>
+      <member refid="a01859_1a01b6644a8c73ff5901fe8aa921be378c" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerFile</name></member>
+      <member refid="a01859_1adaaae97bcba75233e4c2d302926d76b1" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerGroup</name></member>
+      <member refid="a01859_1ab09afee50cf5ad20c82d110593ec19f8" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerNamespace</name></member>
+      <member refid="a01859_1addd339c6b74e27b2ee537474a3d3e7b1" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerPage</name></member>
+      <member refid="a01859_1a36651f0a2dd4f8a6abaf38ef277bc7e8" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInvIncDepGraph</name></member>
+      <member refid="a02159_1a13689b56851840c15903ed8320968695" prot="public" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedListOfAllMembers</name></member>
+      <member refid="a01859_1a5d3fc55feded32356046c2fdfe6711de" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedLocation</name></member>
+      <member refid="a01859_1a0dd7ffa920914e52007d3216a3b65cf2" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedProgramListing</name></member>
+      <member refid="a01955_1a1797bd939c1c708fe68fc62caf3f208f" prot="protected" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedSectionDef</name></member>
+      <member refid="a01859_1a8d7c06dcdc567be33ac5fd941b361753" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedTableOfContents</name></member>
+      <member refid="a01859_1a113b00d9671b56d5f239d7b9b5726683" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedTemplateParamList</name></member>
+      <member refid="a02159_1aae60bad7f1b3cf035e71eedba8e55ba3" prot="public" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedText</name></member>
+      <member refid="a01859_1ae70d5a14e9f16b0c1d471a6058cff704" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedTitle</name></member>
+      <member refid="a01955_1a09b77ba57a73bbc653a7ca5b04b35ecf" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>writeDetails</name></member>
+      <member refid="a01859_1aa8592f0f4eca3dad3f1ff9794256426e" prot="public" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>~ClassPageWriter</name></member>
+      <member refid="a02159_1a128fb87d0a9bae23d3be69e2904330a9" prot="public" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>~CompoundDefQueryVisitor</name></member>
+      <member refid="a01955_1adcae154a36099ba1f1895758b128252e" prot="public" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>~PageWriter</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

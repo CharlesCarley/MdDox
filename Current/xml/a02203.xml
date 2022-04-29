@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02203" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::DoxCharRange</compoundname>
+    <includes local="no">Tools/Doxygen/DoxCharRange.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="a02203_1a1964cf57ad7379f3ac8a920b0e588486" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a7d54479e273f12f712a1aca96cb1e23e" kindref="member">DoxCharRangeEnum</ref></type>
+        <definition>DoxCharRangeEnum MdDox::Doxygen::DoxCharRange::get</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <defname>look</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxCharRange.h" line="50" column="1" bodyfile="Tools/Doxygen/DoxCharRange.cpp" bodystart="30" bodyend="33"/>
+        <references refid="a01843_1a7d54479e273f12f712a1aca96cb1e23ea6c634c4ac0807fa1a384af7941bd5fe4" compoundref="a01334" startline="43">MdDox::Doxygen::DCR_INVALID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/DoxCharRange.h" line="48" column="1" bodyfile="Tools/Doxygen/DoxCharRange.h" bodystart="47" bodyend="51"/>
+    <listofallmembers>
+      <member refid="a02203_1a1964cf57ad7379f3ac8a920b0e588486" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxCharRange</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

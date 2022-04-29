@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01136" kind="file" language="C++">
+    <compoundname>WriteUtils.cpp</compoundname>
+    <includes refid="a01139" local="yes">MdDoxTree/WriteUtils.h</includes>
+    <includes refid="a00938" local="yes">MdDoxTree/DocumentWriter.h</includes>
+    <includes refid="a00974" local="yes">MdDoxTree/HashUtils.h</includes>
+    <includes refid="a00992" local="yes">MdDoxTree/IconSet.h</includes>
+    <includes refid="a01073" local="yes">MdDoxTree/Reference.h</includes>
+    <includes refid="a01127" local="yes">MdDoxTree/SiteBuilder.h</includes>
+    <incdepgraph>
+      <node id="2324">
+        <label>Utils/Console.h</label>
+        <childnode refid="2302" relation="include">
+        </childnode>
+      </node>
+      <node id="2318">
+        <label>functional</label>
+      </node>
+      <node id="2309">
+        <label>iomanip</label>
+      </node>
+      <node id="2299">
+        <label>Source/MdDoxTree/WriteUtils.cpp</label>
+        <link refid="a01136"/>
+        <childnode refid="2300" relation="include">
+        </childnode>
+        <childnode refid="2311" relation="include">
+        </childnode>
+        <childnode refid="2314" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2315" relation="include">
+        </childnode>
+      </node>
+      <node id="2320">
+        <label>Utils/Exception.h</label>
+        <childnode refid="2321" relation="include">
+        </childnode>
+        <childnode refid="2322" relation="include">
+        </childnode>
+        <childnode refid="2323" relation="include">
+        </childnode>
+        <childnode refid="2324" relation="include">
+        </childnode>
+        <childnode refid="2302" relation="include">
+        </childnode>
+      </node>
+      <node id="2322">
+        <label>stdexcept</label>
+      </node>
+      <node id="2306">
+        <label>string</label>
+      </node>
+      <node id="2317">
+        <label>Doxygen.h</label>
+        <childnode refid="2318" relation="include">
+        </childnode>
+        <childnode refid="2307" relation="include">
+        </childnode>
+        <childnode refid="2302" relation="include">
+        </childnode>
+        <childnode refid="2319" relation="include">
+        </childnode>
+        <childnode refid="2320" relation="include">
+        </childnode>
+      </node>
+      <node id="2321">
+        <label>exception</label>
+      </node>
+      <node id="2304">
+        <label>fstream</label>
+      </node>
+      <node id="2315">
+        <label>MdDoxTree/SiteBuilder.h</label>
+        <childnode refid="2307" relation="include">
+        </childnode>
+        <childnode refid="2316" relation="include">
+        </childnode>
+        <childnode refid="2325" relation="include">
+        </childnode>
+        <childnode refid="2326" relation="include">
+        </childnode>
+        <childnode refid="2327" relation="include">
+        </childnode>
+        <childnode refid="2302" relation="include">
+        </childnode>
+      </node>
+      <node id="2301">
+        <label>MdDoxTree/IconSet.h</label>
+        <childnode refid="2302" relation="include">
+        </childnode>
+      </node>
+      <node id="2319">
+        <label>Xml/Node.h</label>
+        <childnode refid="2318" relation="include">
+        </childnode>
+        <childnode refid="2307" relation="include">
+        </childnode>
+        <childnode refid="2302" relation="include">
+        </childnode>
+      </node>
+      <node id="2311">
+        <label>MdDoxTree/DocumentWriter.h</label>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2312" relation="include">
+        </childnode>
+        <childnode refid="2302" relation="include">
+        </childnode>
+      </node>
+      <node id="2314">
+        <label>MdDoxTree/HashUtils.h</label>
+        <childnode refid="2302" relation="include">
+        </childnode>
+      </node>
+      <node id="2325">
+        <label>Doxygen/DoxMemberKind.h</label>
+        <childnode refid="2317" relation="include">
+        </childnode>
+      </node>
+      <node id="2326">
+        <label>ReferenceIdentifiers.h</label>
+        <childnode refid="2316" relation="include">
+        </childnode>
+        <childnode refid="2325" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+      </node>
+      <node id="2302">
+        <label>Utils/String.h</label>
+        <childnode refid="2303" relation="include">
+        </childnode>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2305" relation="include">
+        </childnode>
+        <childnode refid="2306" relation="include">
+        </childnode>
+        <childnode refid="2307" relation="include">
+        </childnode>
+        <childnode refid="2308" relation="include">
+        </childnode>
+        <childnode refid="2309" relation="include">
+        </childnode>
+      </node>
+      <node id="2308">
+        <label>vector</label>
+      </node>
+      <node id="2323">
+        <label>utility</label>
+      </node>
+      <node id="2305">
+        <label>sstream</label>
+      </node>
+      <node id="2300">
+        <label>MdDoxTree/WriteUtils.h</label>
+        <childnode refid="2301" relation="include">
+        </childnode>
+        <childnode refid="2310" relation="include">
+        </childnode>
+        <childnode refid="2302" relation="include">
+        </childnode>
+      </node>
+      <node id="2312">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="2313" relation="include">
+        </childnode>
+        <childnode refid="2302" relation="include">
+        </childnode>
+      </node>
+      <node id="2303">
+        <label>deque</label>
+      </node>
+      <node id="2327">
+        <label>Utils/Config.h</label>
+        <childnode refid="2302" relation="include">
+        </childnode>
+        <childnode refid="2319" relation="include">
+        </childnode>
+      </node>
+      <node id="2307">
+        <label>unordered_map</label>
+      </node>
+      <node id="2316">
+        <label>Doxygen/DoxCompoundKind.h</label>
+        <childnode refid="2317" relation="include">
+        </childnode>
+      </node>
+      <node id="2310">
+        <label>MdDoxTree/Reference.h</label>
+        <childnode refid="2302" relation="include">
+        </childnode>
+      </node>
+      <node id="2313">
+        <label>experimental/filesystem</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="a01838">MdDox</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/WriteUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/DocumentWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/HashUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/IconSet.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/Reference.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/SiteBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31" refid="a01838_1adf0b8415191058f900ec33f847904249" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01838_1adf0b8415191058f900ec33f847904249" kindref="member">writeCommonNav</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02019" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>&amp;<sp/>builder<sp/>=<sp/><ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1a96bb9b4cca54c9085c90a9ce3b479e09" kindref="member" tooltip="Implementations should write an external URL. ">linkUrl</ref>(out,<sp/></highlight><highlight class="stringliteral">&quot;~&quot;</highlight><highlight class="normal">,<sp/>builder.<ref refid="a02019_1ac4ab5f42eb5e5594c45f9f13d450571d" kindref="member" tooltip="Defines the GitHub project URL. ">siteUrl</ref>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1affa3f8a87798296d0b0e81ffa624f001" kindref="member" tooltip="Implementations write text link to a page. ">linkRef</ref>(out,<sp/>0,<sp/></highlight><highlight class="stringliteral">&quot;index&quot;</highlight><highlight class="normal">,<sp/>builder.<ref refid="a02019_1a558d8fe39601e29714b12c5af622d84a" kindref="member" tooltip="Defines a title for the current project. ">projectTitle</ref>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1a365a4214620abbb22cd9e7b021905393" kindref="member" tooltip="Implementations should write fragment of plain-text. ">inlineText</ref>(out,<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="a01838_1a5cf8aec3a43f96f556d9401bf72cb7dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01838_1a5cf8aec3a43f96f556d9401bf72cb7dc" kindref="member">writeGenericTitleBar</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>item)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1adf0b8415191058f900ec33f847904249" kindref="member">writeCommonNav</ref>(out,<sp/>writer);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1acd2adcce65db9b8191ecc0479ba41d56" kindref="member" tooltip="Implementations should write a bold block of text. ">boldText</ref>(out,<sp/>item);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(out);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(out);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="a01838_1abd83695519b08c759c042dc95cb3a95e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01838_1abd83695519b08c759c042dc95cb3a95e" kindref="member">writeNamespaceTitleBar</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01979" kindref="compound">Reference</ref>&amp;<sp/>item)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>split<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;::&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref><sp/>navList;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">StringUtils::split</ref>(navList,<sp/>item.<ref refid="a01979_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>(),<sp/>split);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>lastSep<sp/>=<sp/>navList.back();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>navList.pop_back();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02019" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>&amp;<sp/>builder<sp/>=<sp/><ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>(~RepoHome)<sp/>MainPage<sp/>/<sp/>Index<sp/>/<sp/>NS0::NS1::LBR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1adf0b8415191058f900ec33f847904249" kindref="member">writeCommonNav</ref>(out,<sp/>writer);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(!navList.empty())</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>resolve<sp/>references<sp/>for<sp/>each<sp/>split.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>curName<sp/>=<sp/>navList.front();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01979" kindref="compound">Reference</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>builder.<ref refid="a02019_1af6dbfd644fcf3daea5e94745c0f279e3" kindref="member">findNamespace</ref>(curName);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.empty())</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1affa3f8a87798296d0b0e81ffa624f001" kindref="member" tooltip="Implementations write text link to a page. ">linkRef</ref>(out,<sp/>0,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.getId(),<sp/><ref refid="a01842_1ae19f047fded439c619b471401585fa63" kindref="member">LinkUtils::LBR</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.getName()));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1a365a4214620abbb22cd9e7b021905393" kindref="member" tooltip="Implementations should write fragment of plain-text. ">inlineText</ref>(out,<sp/></highlight><highlight class="stringliteral">&quot;::&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>navList.pop_front();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1acd2adcce65db9b8191ecc0479ba41d56" kindref="member" tooltip="Implementations should write a bold block of text. ">boldText</ref>(out,<sp/>lastSep);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(out);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(out);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="a01838_1a6a044efa0d8ab36f057906e935bdf520" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01838_1a6a044efa0d8ab36f057906e935bdf520" kindref="member">writeDirectoryTitleBar</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01979" kindref="compound">Reference</ref>&amp;<sp/>item)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref><sp/>navList;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">StringUtils::split</ref>(navList,<sp/>item.<ref refid="a01979_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>lastPath<sp/>=<sp/>navList.back();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>navList.pop_back();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02019" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>&amp;<sp/>builder<sp/>=<sp/><ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1adf0b8415191058f900ec33f847904249" kindref="member">writeCommonNav</ref>(out,<sp/>writer);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>the<sp/>directory<sp/>to<sp/>be<sp/>unique,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>it<sp/>needs<sp/>to<sp/>store<sp/>the<sp/>file<sp/>path.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>So,<sp/>to<sp/>link<sp/>back<sp/>to<sp/>individual<sp/>directories</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>it<sp/>needs<sp/>to<sp/>be<sp/>constructed<sp/>as<sp/>a<sp/>relative<sp/>path.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>(front<sp/>to<sp/>back)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>reconstruct;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(!navList.empty())</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(reconstruct,<sp/>reconstruct,<sp/>navList.front());</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01979" kindref="compound">Reference</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>builder.<ref refid="a02019_1a6f1d0e35196991ee8b6e28eac813d917" kindref="member">findDirectory</ref>(reconstruct);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.empty())</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1affa3f8a87798296d0b0e81ffa624f001" kindref="member" tooltip="Implementations write text link to a page. ">linkRef</ref>(out,<sp/>0,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.getId(),<sp/>navList.front());</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1a365a4214620abbb22cd9e7b021905393" kindref="member" tooltip="Implementations should write fragment of plain-text. ">inlineText</ref>(out,<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>navList.pop_front();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reconstruct.push_back(</highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1acd2adcce65db9b8191ecc0479ba41d56" kindref="member" tooltip="Implementations should write a bold block of text. ">boldText</ref>(out,<sp/>lastPath);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(out);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(out);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="a01838_1a85bc9b7c1598307fd67b28576b005c71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01838_1a85bc9b7c1598307fd67b28576b005c71" kindref="member">writeReferenceIconLink</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01979" kindref="compound">Reference</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02019" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>&amp;<sp/>builder<sp/>=<sp/><ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01987" kindref="compound">MemberReference</ref>*<sp/>mRef<sp/>=<sp/>builder.<ref refid="a02019_1a0e191e2993aef67a4aac62a8f26dadc3" kindref="member">getMemberRef</ref>(ref.<ref refid="a01979_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>());</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1a9d24711328dc0ab43f35cb9ada183f94" kindref="member" tooltip="Implementations should start a paragraph block. ">beginParagraph</ref>(out);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1ae4bb1d21ea47485bd6b8ae345c6403ee" kindref="member" tooltip="Implementations should embed the predefined content icon. ">embedContent</ref>(out,<sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9ada8d11ea29ff98f15c600f05b9797e3c" kindref="member">ICO_CLASS</ref>);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>name<sp/>=<sp/><ref refid="a01842_1ae19f047fded439c619b471401585fa63" kindref="member">LinkUtils::LBR</ref>(ref.<ref refid="a01979_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>find<sp/>the<sp/>owning<sp/>file<sp/>then<sp/>link<sp/>to<sp/>the<sp/>heading</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01983" kindref="compound">CompoundReference</ref>*<sp/>cref<sp/>=<sp/>mRef<sp/>?<sp/>mRef-&gt;<ref refid="a01987_1a2cc383744ae39efba753bb79d120f9f6" kindref="member">findParent</ref>()<sp/>:<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cref<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1a94828ae1539600cf1a2231fdf58ac8f3" kindref="member" tooltip="Implementations write a text link. ">linkText</ref>(out,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(cref-&gt;getId(),</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>builder.<ref refid="a02019_1a918f3a77721cccaac92bd2e593880b99" kindref="member" tooltip="Defines the file extension for pages. ">outputFileExt</ref>,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(name)));</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1acd2adcce65db9b8191ecc0479ba41d56" kindref="member" tooltip="Implementations should write a bold block of text. ">boldText</ref>(out,<sp/>name);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1aac387e99c32bac3258824c69eb39a71b" kindref="member" tooltip="Implementations should end a paragraph block. ">endParagraph</ref>(out);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="a01838_1ae82c265f6ad332a3719182607f446d95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae82c265f6ad332a3719182607f446d95" kindref="member">writeReferenceIconLinkHeading</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01979" kindref="compound">Reference</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>title<sp/>=<sp/><ref refid="a01842_1ae19f047fded439c619b471401585fa63" kindref="member">LinkUtils::LBR</ref>(ref.<ref refid="a01979_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1a9be820d4ab0e061e7344846e0ce3df87" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(out,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(title),<sp/>title);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(out);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="a01838_1aa6abb0ee693aad2d8dc028f0668c9c42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01838_1aa6abb0ee693aad2d8dc028f0668c9c42" kindref="member">writeExternalIconLink</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01979" kindref="compound">Reference</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title<sp/>=<sp/>ref.<ref refid="a01979_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>();</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/>file<sp/><sp/>=<sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(<ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>().fileUrl,<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>ref.<ref refid="a01979_1a9caaf6a7703029c6c819bf558c05960b" kindref="member">getId</ref>());</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>link<sp/>=<sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(file,<sp/><ref refid="a01839_1a4a9cd5a09c91b2558f86e17c2d447999" kindref="member" tooltip="Constructs a line fragment. ">HashUtils::lineNumber</ref>(1));</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1a9be820d4ab0e061e7344846e0ce3df87" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(out,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>link,<sp/>title);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(out);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="a01838_1a09d2ecc7d854ef15c1824ed170b37d21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01838_1a09d2ecc7d854ef15c1824ed170b37d21" kindref="member">writeReferenceIconStub</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>out,<sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01979" kindref="compound">Reference</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1a9d24711328dc0ab43f35cb9ada183f94" kindref="member" tooltip="Implementations should start a paragraph block. ">beginParagraph</ref>(out);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1ae4bb1d21ea47485bd6b8ae345c6403ee" kindref="member" tooltip="Implementations should embed the predefined content icon. ">embedContent</ref>(out,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1a365a4214620abbb22cd9e7b021905393" kindref="member" tooltip="Implementations should write fragment of plain-text. ">inlineText</ref>(out,<sp/>ref.<ref refid="a01979_1a16a58266e43ad09778943db15e471f38" kindref="member">getName</ref>());</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writer-&gt;<ref refid="a01871_1aac387e99c32bac3258824c69eb39a71b" kindref="member" tooltip="Implementations should end a paragraph block. ">endParagraph</ref>(out);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="176" refid="a01838_1abcedb5cde83c1d846f72a4e6c116924c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01838_1abcedb5cde83c1d846f72a4e6c116924c" kindref="member">syncStream</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/>stream,<sp/><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref>&amp;<sp/>out)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stream)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>data<sp/>=<sp/>out.str();</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/>any<sp/><sp/>=<sp/>!data.empty();</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(any)</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*stream<sp/>&lt;&lt;<sp/>data;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>any;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="a01842_1ae19f047fded439c619b471401585fa63" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="a01842_1ae19f047fded439c619b471401585fa63" kindref="member">LinkUtils::LBR</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">StringUtils::split</ref>(dest,<sp/>name,<sp/></highlight><highlight class="stringliteral">&quot;::&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!dest.empty())</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest.back();</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="a01842_1a3ab7ea1b8751dc336e327b385c9d3c83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="a01842_1a3ab7ea1b8751dc336e327b385c9d3c83" kindref="member">LinkUtils::LSS</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member" tooltip="Structure to hold a double ended queue of strings. ">StringDeque</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">StringUtils::split</ref>(dest,<sp/>name,<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!dest.empty())</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest.back();</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/MdDoxTree/WriteUtils.cpp"/>
+  </compounddef>
+</doxygen>

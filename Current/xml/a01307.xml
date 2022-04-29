@@ -1,786 +1,253 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01307" kind="class" language="C++" prot="public">
-    <compoundname>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</compoundname>
-    <derivedcompoundref refid="a01103" prot="public" virt="non-virtual">MdDox::PageWriter</derivedcompoundref>
-    <derivedcompoundref refid="a01095" prot="public" virt="non-virtual">MdDox::TableOfContents</derivedcompoundref>
-    <includes local="no">Tools/Doxygen/CompoundDefQuery.h</includes>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01307_1a128fb87d0a9bae23d3be69e2904330a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::~CompoundDefQueryVisitor</definition>
-        <argsstring>()=default</argsstring>
-        <name>~CompoundDefQueryVisitor</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="37" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a61b8487366558ce7cd7749ad7baee3ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedBaseCompoundRef</definition>
-        <argsstring>(const CompoundRefQuery &amp;query)</argsstring>
-        <name>visitedBaseCompoundRef</name>
-        <reimplementedby refid="a01007_1a5dd2797b3932ac98d21d0d8816c6d451">visitedBaseCompoundRef</reimplementedby>
-        <reimplementedby refid="a01015_1aa70aafa32ed0b79c5793044977bf165a">visitedBaseCompoundRef</reimplementedby>
-        <reimplementedby refid="a01099_1a2d313018254ad25b252eeba723315334">visitedBaseCompoundRef</reimplementedby>
-        <param>
-          <type>const <ref refid="a01323" kindref="compound">CompoundRefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>basecompoundref</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01323" kindref="compound">CompoundRefQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="47" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="47" bodyend="47"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1aa1edbb7417781126ad7ede3e4731bf2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedBriefDescription</definition>
-        <argsstring>(const DescriptionQuery &amp;query)</argsstring>
-        <name>visitedBriefDescription</name>
-        <reimplementedby refid="a01039_1a54b2383dbf72922f4c5fc38253682d6e">visitedBriefDescription</reimplementedby>
-        <reimplementedby refid="a01103_1a7160540760aa919d69427ad74df8ebc5">visitedBriefDescription</reimplementedby>
-        <param>
-          <type>const <ref refid="a01339" kindref="compound">DescriptionQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>briefdescription</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01339" kindref="compound">DescriptionQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="117" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="117" bodyend="117"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a07b21a15f65d8614859140fc71579e39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedCollaborationGraph</definition>
-        <argsstring>(const GraphQuery &amp;query)</argsstring>
-        <name>visitedCollaborationGraph</name>
-        <reimplementedby refid="a01007_1a5b80da8a8547f5b15966d08a997eff9a">visitedCollaborationGraph</reimplementedby>
-        <reimplementedby refid="a01099_1a90ff00c61ac325a498e2cba6263dd0d1">visitedCollaborationGraph</reimplementedby>
-        <reimplementedby refid="a01015_1a68191ccfc34c20484f98b77fda083fdb">visitedCollaborationGraph</reimplementedby>
-        <param>
-          <type>const <ref refid="a01471" kindref="compound">GraphQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>collaborationgraph</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01471" kindref="compound">GraphQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="132" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="132" bodyend="132"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1ab9b0bbbcc61d79676ab6ca42ee73cef2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedCompoundName</definition>
-        <argsstring>(const String &amp;text)</argsstring>
-        <name>visitedCompoundName</name>
-        <reimplementedby refid="a01039_1a08e35031519e2ae87433da07e1793750">visitedCompoundName</reimplementedby>
-        <reimplementedby refid="a01099_1addb538d010ad7d656fc01c4ac5e8fdeb">visitedCompoundName</reimplementedby>
-        <reimplementedby refid="a01007_1acb373e835ec95dd0117bc38a61073dbe">visitedCompoundName</reimplementedby>
-        <reimplementedby refid="a01015_1a211f3df677fc8a70f51769fe2ffa8be7">visitedCompoundName</reimplementedby>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>compoundname</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="152" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="152" bodyend="152"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a75a893e5819d6bd49e5e0005d8c8dadc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedDerivedCompoundRef</definition>
-        <argsstring>(const CompoundRefQuery &amp;query)</argsstring>
-        <name>visitedDerivedCompoundRef</name>
-        <reimplementedby refid="a01007_1a415ff5d1ce6e51b9b191dd323f77f3af">visitedDerivedCompoundRef</reimplementedby>
-        <reimplementedby refid="a01015_1a2c0a637fcf374f6c0025d0b8f9add86f">visitedDerivedCompoundRef</reimplementedby>
-        <reimplementedby refid="a01099_1ad590bef655fb918640ecb011457ccce7">visitedDerivedCompoundRef</reimplementedby>
-        <param>
-          <type>const <ref refid="a01323" kindref="compound">CompoundRefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>derivedcompoundref</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01323" kindref="compound">CompoundRefQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="52" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="52" bodyend="52"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1ac31b04c04ba016cec20e5805ccef0d1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedDetailedDescription</definition>
-        <argsstring>(const DescriptionQuery &amp;query)</argsstring>
-        <name>visitedDetailedDescription</name>
-        <reimplementedby refid="a01039_1a05d9790fd1b50f4515efdaa4133d98fa">visitedDetailedDescription</reimplementedby>
-        <reimplementedby refid="a01103_1a59596c8bb00a0e5b7c8e57a23e4594df">visitedDetailedDescription</reimplementedby>
-        <param>
-          <type>const <ref refid="a01339" kindref="compound">DescriptionQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>detaileddescription</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01339" kindref="compound">DescriptionQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="122" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="122" bodyend="122"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1af52e424ab412bc68bfb5f973b7b5b27c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedIncDepGraph</definition>
-        <argsstring>(const GraphQuery &amp;query)</argsstring>
-        <name>visitedIncDepGraph</name>
-        <reimplementedby refid="a01007_1a9f313f16a5105f0bff0f09b6ffdf74a8">visitedIncDepGraph</reimplementedby>
-        <reimplementedby refid="a01099_1aaff91c77819ce7f373b8da20cd37baff">visitedIncDepGraph</reimplementedby>
-        <reimplementedby refid="a01015_1a1c912fc3b72cb3de0c5bba914324e785">visitedIncDepGraph</reimplementedby>
-        <param>
-          <type>const <ref refid="a01471" kindref="compound">GraphQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>incdepgraph</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01471" kindref="compound">GraphQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="102" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="102" bodyend="102"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1aaa0b3a67ada1b58bd4059ac320f15eab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedIncludedBy</definition>
-        <argsstring>(const IncQuery &amp;query)</argsstring>
-        <name>visitedIncludedBy</name>
-        <reimplementedby refid="a01007_1aef006e533167b0b56e3fbb9b0c141ae1">visitedIncludedBy</reimplementedby>
-        <reimplementedby refid="a01015_1a2bf7cf6203a9569f3d38214cc38041d0">visitedIncludedBy</reimplementedby>
-        <reimplementedby refid="a01099_1adc34017362c378fe1c3c3c0e4fc3d6ea">visitedIncludedBy</reimplementedby>
-        <param>
-          <type>const <ref refid="a01499" kindref="compound">IncQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>includedby</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01499" kindref="compound">IncQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="62" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="62" bodyend="62"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1ad2da872ba085491d223264276737a8e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedIncludes</definition>
-        <argsstring>(const IncQuery &amp;query)</argsstring>
-        <name>visitedIncludes</name>
-        <reimplementedby refid="a01007_1afc0097c6bfabd17613398f52bf810d7c">visitedIncludes</reimplementedby>
-        <reimplementedby refid="a01015_1a20cd73fd80237e6867ef27f8dc3d797c">visitedIncludes</reimplementedby>
-        <reimplementedby refid="a01099_1a037b2653fb10fbb44a597af6e01c2260">visitedIncludes</reimplementedby>
-        <param>
-          <type>const <ref refid="a01499" kindref="compound">IncQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>includes</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01499" kindref="compound">IncQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="57" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="57" bodyend="57"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a60616523a9a6cd3aff6897862cb5c14b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInheritanceGraph</definition>
-        <argsstring>(const GraphQuery &amp;query)</argsstring>
-        <name>visitedInheritanceGraph</name>
-        <reimplementedby refid="a01007_1ac7811400097404d8d21063422b48dd8b">visitedInheritanceGraph</reimplementedby>
-        <reimplementedby refid="a01099_1ad47c8fff43abb341d839177976b58cf8">visitedInheritanceGraph</reimplementedby>
-        <reimplementedby refid="a01015_1a94cab53da455ccc7afd5c9f6ea13c249">visitedInheritanceGraph</reimplementedby>
-        <param>
-          <type>const <ref refid="a01471" kindref="compound">GraphQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>inheritancegraph</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01471" kindref="compound">GraphQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="127" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="127" bodyend="127"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a2b27eae2f46b53f204c8174a54207175" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInnerClass</definition>
-        <argsstring>(const RefQuery &amp;query)</argsstring>
-        <name>visitedInnerClass</name>
-        <reimplementedby refid="a01099_1af7be3a06639ece142068793a4ed69d11">visitedInnerClass</reimplementedby>
-        <reimplementedby refid="a01007_1ae844ae18453b21220e8b1d7d9bdedcde">visitedInnerClass</reimplementedby>
-        <reimplementedby refid="a01015_1a04626701c50b820ff19b53fa5a94c21d">visitedInnerClass</reimplementedby>
-        <reimplementedby refid="a01095_1ab8313f9d8b0905400019684d82d99d56">visitedInnerClass</reimplementedby>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innerclass</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01703" kindref="compound">RefQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="77" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="77" bodyend="77"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a5072b0b483becf3b84daf42925b80853" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInnerDir</definition>
-        <argsstring>(const RefQuery &amp;query)</argsstring>
-        <name>visitedInnerDir</name>
-        <reimplementedby refid="a01007_1a4aa91fc8cbe34bb5eaa9de700b6d3900">visitedInnerDir</reimplementedby>
-        <reimplementedby refid="a01015_1a21e34ccd9f2b072d3f2bbd67caa8a136">visitedInnerDir</reimplementedby>
-        <reimplementedby refid="a01099_1aa15832a7257a7b100e3c0634a5ec9467">visitedInnerDir</reimplementedby>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innerdir</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01703" kindref="compound">RefQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="67" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="67" bodyend="67"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1ad2e10284bb8208420841a0849375db05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInnerFile</definition>
-        <argsstring>(const RefQuery &amp;query)</argsstring>
-        <name>visitedInnerFile</name>
-        <reimplementedby refid="a01007_1a01b6644a8c73ff5901fe8aa921be378c">visitedInnerFile</reimplementedby>
-        <reimplementedby refid="a01015_1a0b92b77f001facc133e8fef3a90f648e">visitedInnerFile</reimplementedby>
-        <reimplementedby refid="a01099_1ab0938061ccc77a4dc97150c52d4b80a6">visitedInnerFile</reimplementedby>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innerfile</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01703" kindref="compound">RefQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="72" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="72" bodyend="72"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a74899cd76eb6db5a8ee59146c77b07b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInnerGroup</definition>
-        <argsstring>(const RefQuery &amp;query)</argsstring>
-        <name>visitedInnerGroup</name>
-        <reimplementedby refid="a01007_1adaaae97bcba75233e4c2d302926d76b1">visitedInnerGroup</reimplementedby>
-        <reimplementedby refid="a01099_1aaaa0e4826183bce9161e55db8bb2281d">visitedInnerGroup</reimplementedby>
-        <reimplementedby refid="a01015_1ac5f21092b2d8ee855b8a44e8b100d157">visitedInnerGroup</reimplementedby>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innergroup</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01703" kindref="compound">RefQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="92" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="92" bodyend="92"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a97bac53ff2623f83712993ab2f5ae852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInnerNamespace</definition>
-        <argsstring>(const RefQuery &amp;query)</argsstring>
-        <name>visitedInnerNamespace</name>
-        <reimplementedby refid="a01099_1aac53bf612644c647dbb343b498362895">visitedInnerNamespace</reimplementedby>
-        <reimplementedby refid="a01007_1ab09afee50cf5ad20c82d110593ec19f8">visitedInnerNamespace</reimplementedby>
-        <reimplementedby refid="a01095_1a1282b684b650ef263481e8043b414688">visitedInnerNamespace</reimplementedby>
-        <reimplementedby refid="a01015_1ab4dc626fe533436fcb9a8556b0881fbc">visitedInnerNamespace</reimplementedby>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innernamespace</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01703" kindref="compound">RefQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="82" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="82" bodyend="82"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1ab79909c80676fc9bccbb6e431ba412c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInnerPage</definition>
-        <argsstring>(const RefQuery &amp;query)</argsstring>
-        <name>visitedInnerPage</name>
-        <reimplementedby refid="a01007_1addd339c6b74e27b2ee537474a3d3e7b1">visitedInnerPage</reimplementedby>
-        <reimplementedby refid="a01099_1aeb118d47ff48eacd451b2f4e7a918887">visitedInnerPage</reimplementedby>
-        <reimplementedby refid="a01015_1ae4283d4f1efbc53b3e040f6e5109ca99">visitedInnerPage</reimplementedby>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innerpage</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01703" kindref="compound">RefQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="87" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="87" bodyend="87"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a728a5f23cbb39f768d46e4c9e7314ecb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedInvIncDepGraph</definition>
-        <argsstring>(const GraphQuery &amp;query)</argsstring>
-        <name>visitedInvIncDepGraph</name>
-        <reimplementedby refid="a01007_1a36651f0a2dd4f8a6abaf38ef277bc7e8">visitedInvIncDepGraph</reimplementedby>
-        <reimplementedby refid="a01099_1a86cb60f56ceaebca80bfca23ca50bc0c">visitedInvIncDepGraph</reimplementedby>
-        <reimplementedby refid="a01015_1a6ed38d2fb32ff5428e07d3ca6ba85bfc">visitedInvIncDepGraph</reimplementedby>
-        <param>
-          <type>const <ref refid="a01471" kindref="compound">GraphQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>invincdepgraph</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01471" kindref="compound">GraphQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="107" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="107" bodyend="107"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a13689b56851840c15903ed8320968695" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedListOfAllMembers</definition>
-        <argsstring>(const ListOfAllMembersQuery &amp;query)</argsstring>
-        <name>visitedListOfAllMembers</name>
-        <reimplementedby refid="a01099_1a6b299ae6d4e95b28280b2022b0e84423">visitedListOfAllMembers</reimplementedby>
-        <reimplementedby refid="a01015_1a8ec8fa000e7a3dbd248545d6af57f746">visitedListOfAllMembers</reimplementedby>
-        <param>
-          <type>const <ref refid="a01587" kindref="compound">ListOfAllMembersQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>listofallmembers</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01587" kindref="compound">ListOfAllMembersQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="147" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="147" bodyend="147"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1ab432daf1eec44809f0140f9140509532" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedLocation</definition>
-        <argsstring>(const LocationQuery &amp;query)</argsstring>
-        <name>visitedLocation</name>
-        <reimplementedby refid="a01015_1a1cbe3eeef65bbf3b4f170629f27c794c">visitedLocation</reimplementedby>
-        <reimplementedby refid="a01007_1a5d3fc55feded32356046c2fdfe6711de">visitedLocation</reimplementedby>
-        <reimplementedby refid="a01099_1af234628f079075f8b6d3d7a3cdb89084">visitedLocation</reimplementedby>
-        <param>
-          <type>const <ref refid="a01599" kindref="compound">LocationQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>location</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01599" kindref="compound">LocationQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="142" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="142" bodyend="142"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1af838f90479d190c3d25be240f05a9c6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedProgramListing</definition>
-        <argsstring>(const ListingQuery &amp;query)</argsstring>
-        <name>visitedProgramListing</name>
-        <reimplementedby refid="a01007_1a0dd7ffa920914e52007d3216a3b65cf2">visitedProgramListing</reimplementedby>
-        <reimplementedby refid="a01099_1ac63fedebca9aa1748bc1914111ae0920">visitedProgramListing</reimplementedby>
-        <reimplementedby refid="a01015_1a8943444f0ff9fe29ad6df4c327ebccd3">visitedProgramListing</reimplementedby>
-        <param>
-          <type>const <ref refid="a01571" kindref="compound">ListingQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>programlisting</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01571" kindref="compound">ListingQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="137" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="137" bodyend="137"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1ae5a14b2fbf4ef46396cc42b03df57009" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedSectionDef</definition>
-        <argsstring>(const SectionDefQuery &amp;query)</argsstring>
-        <name>visitedSectionDef</name>
-        <reimplementedby refid="a01103_1a1797bd939c1c708fe68fc62caf3f208f">visitedSectionDef</reimplementedby>
-        <reimplementedby refid="a01095_1af5add9546e7ebd10114373b255b8848e">visitedSectionDef</reimplementedby>
-        <param>
-          <type>const <ref refid="a01759" kindref="compound">SectionDefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>sectiondef</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01759" kindref="compound">SectionDefQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="97" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="97" bodyend="97"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a2008b336a42ef282667002b5fb39eae5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedTableOfContents</definition>
-        <argsstring>(const String &amp;text)</argsstring>
-        <name>visitedTableOfContents</name>
-        <reimplementedby refid="a01007_1a8d7c06dcdc567be33ac5fd941b361753">visitedTableOfContents</reimplementedby>
-        <reimplementedby refid="a01099_1abc29545b7ed06962e5b73bbeef4d3444">visitedTableOfContents</reimplementedby>
-        <reimplementedby refid="a01015_1a870033ff35fe2dec4e241a41af530a57">visitedTableOfContents</reimplementedby>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>tableofcontents</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="162" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="162" bodyend="162"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a5d0ceb3437dac0e5f9da19bf6762b3ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedTemplateParamList</definition>
-        <argsstring>(const TemplateParamListQuery &amp;query)</argsstring>
-        <name>visitedTemplateParamList</name>
-        <reimplementedby refid="a01007_1a113b00d9671b56d5f239d7b9b5726683">visitedTemplateParamList</reimplementedby>
-        <reimplementedby refid="a01099_1abbb1919ed57bbfae8afb8217cf94a6fd">visitedTemplateParamList</reimplementedby>
-        <reimplementedby refid="a01015_1aed1af1c5d618401e0af40578b1f07e09">visitedTemplateParamList</reimplementedby>
-        <param>
-          <type>const <ref refid="a01787" kindref="compound">TemplateParamListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>templateparamlist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01787" kindref="compound">TemplateParamListQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="112" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="112" bodyend="112"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1aae60bad7f1b3cf035e71eedba8e55ba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="42" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="42" bodyend="42"/>
-      </memberdef>
-      <memberdef kind="function" id="a01307_1a4f31cf429855fdbc0a9b38a16f18e68b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::CompoundDefQueryVisitor::visitedTitle</definition>
-        <argsstring>(const String &amp;text)</argsstring>
-        <name>visitedTitle</name>
-        <reimplementedby refid="a01007_1ae70d5a14e9f16b0c1d471a6058cff704">visitedTitle</reimplementedby>
-        <reimplementedby refid="a01099_1abed5229c3f96fcb96a7891f4b3d38998">visitedTitle</reimplementedby>
-        <reimplementedby refid="a01015_1afdf1634b69331c8949dd9a5e61bfc886">visitedTitle</reimplementedby>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/CompoundDefQuery.h" line="157" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="157" bodyend="157"/>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a01307" kind="file" language="C++">
+    <compoundname>CopyQuery.cpp</compoundname>
+    <includes refid="a01310" local="yes">CopyQuery.h</includes>
+    <includes refid="a01145" local="yes">TypeFilter/DoxygenFilter.h</includes>
+    <includes refid="a01655" local="yes">ParaQuery.h</includes>
+    <includes refid="a01697" local="yes">Sect1Query.h</includes>
+    <includes refid="a01511" local="yes">InternalQuery.h</includes>
+    <incdepgraph>
+      <node id="4986">
+        <label>Utils/Console.h</label>
+        <childnode refid="4974" relation="include">
+        </childnode>
+      </node>
+      <node id="4980">
+        <label>iomanip</label>
+      </node>
+      <node id="4972">
+        <label>functional</label>
+      </node>
+      <node id="4989">
+        <label>cstdint</label>
+      </node>
+      <node id="4969">
+        <label>Tools/Doxygen/CopyQuery.cpp</label>
+        <link refid="a01307"/>
+        <childnode refid="4970" relation="include">
+        </childnode>
+        <childnode refid="4987" relation="include">
+        </childnode>
+        <childnode refid="4990" relation="include">
+        </childnode>
+        <childnode refid="4991" relation="include">
+        </childnode>
+        <childnode refid="4992" relation="include">
+        </childnode>
+      </node>
+      <node id="4982">
+        <label>Utils/Exception.h</label>
+        <childnode refid="4983" relation="include">
+        </childnode>
+        <childnode refid="4984" relation="include">
+        </childnode>
+        <childnode refid="4985" relation="include">
+        </childnode>
+        <childnode refid="4986" relation="include">
+        </childnode>
+        <childnode refid="4974" relation="include">
+        </childnode>
+      </node>
+      <node id="4984">
+        <label>stdexcept</label>
+      </node>
+      <node id="4978">
+        <label>string</label>
+      </node>
+      <node id="4971">
+        <label>Doxygen.h</label>
+        <childnode refid="4972" relation="include">
+        </childnode>
+        <childnode refid="4973" relation="include">
+        </childnode>
+        <childnode refid="4974" relation="include">
+        </childnode>
+        <childnode refid="4981" relation="include">
+        </childnode>
+        <childnode refid="4982" relation="include">
+        </childnode>
+      </node>
+      <node id="4983">
+        <label>exception</label>
+      </node>
+      <node id="4992">
+        <label>InternalQuery.h</label>
+        <childnode refid="4971" relation="include">
+        </childnode>
+      </node>
+      <node id="4976">
+        <label>fstream</label>
+      </node>
+      <node id="4981">
+        <label>Xml/Node.h</label>
+        <childnode refid="4972" relation="include">
+        </childnode>
+        <childnode refid="4973" relation="include">
+        </childnode>
+        <childnode refid="4974" relation="include">
+        </childnode>
+      </node>
+      <node id="4970">
+        <label>CopyQuery.h</label>
+        <childnode refid="4971" relation="include">
+        </childnode>
+      </node>
+      <node id="4991">
+        <label>Sect1Query.h</label>
+        <childnode refid="4971" relation="include">
+        </childnode>
+      </node>
+      <node id="4990">
+        <label>ParaQuery.h</label>
+        <childnode refid="4971" relation="include">
+        </childnode>
+      </node>
+      <node id="4974">
+        <label>Utils/String.h</label>
+        <childnode refid="4975" relation="include">
+        </childnode>
+        <childnode refid="4976" relation="include">
+        </childnode>
+        <childnode refid="4977" relation="include">
+        </childnode>
+        <childnode refid="4978" relation="include">
+        </childnode>
+        <childnode refid="4973" relation="include">
+        </childnode>
+        <childnode refid="4979" relation="include">
+        </childnode>
+        <childnode refid="4980" relation="include">
+        </childnode>
+      </node>
+      <node id="4979">
+        <label>vector</label>
+      </node>
+      <node id="4985">
+        <label>utility</label>
+      </node>
+      <node id="4977">
+        <label>sstream</label>
+      </node>
+      <node id="4987">
+        <label>TypeFilter/DoxygenFilter.h</label>
+        <childnode refid="4988" relation="include">
+        </childnode>
+      </node>
+      <node id="4975">
+        <label>deque</label>
+      </node>
+      <node id="4973">
+        <label>unordered_map</label>
+      </node>
+      <node id="4988">
+        <label>Utils/TypeFilter.h</label>
+        <childnode refid="4989" relation="include">
+        </childnode>
+        <childnode refid="4974" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <inheritancegraph>
-      <node id="598">
-        <label>MdDox::DirectoryPageWriter</label>
-        <link refid="a01015"/>
-        <childnode refid="596" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="596">
-        <label>MdDox::PageWriter</label>
-        <link refid="a01103"/>
-        <childnode refid="595" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="601">
-        <label>MdDox::TableOfContents</label>
-        <link refid="a01095"/>
-        <childnode refid="595" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="599">
-        <label>MdDox::GenericPageWriter</label>
-        <link refid="a01039"/>
-        <childnode refid="596" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="600">
-        <label>MdDox::NamespacePageWriter</label>
-        <link refid="a01099"/>
-        <childnode refid="596" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="595">
-        <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
-        <link refid="a01307"/>
-      </node>
-      <node id="597">
-        <label>MdDox::ClassPageWriter</label>
-        <link refid="a01007"/>
-        <childnode refid="596" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <location file="Tools/Doxygen/CompoundDefQuery.h" line="35" column="1" bodyfile="Tools/Doxygen/CompoundDefQuery.h" bodystart="34" bodyend="164"/>
-    <listofallmembers>
-      <member refid="a01307_1a61b8487366558ce7cd7749ad7baee3ac" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedBaseCompoundRef</name></member>
-      <member refid="a01307_1aa1edbb7417781126ad7ede3e4731bf2b" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedBriefDescription</name></member>
-      <member refid="a01307_1a07b21a15f65d8614859140fc71579e39" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedCollaborationGraph</name></member>
-      <member refid="a01307_1ab9b0bbbcc61d79676ab6ca42ee73cef2" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedCompoundName</name></member>
-      <member refid="a01307_1a75a893e5819d6bd49e5e0005d8c8dadc" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedDerivedCompoundRef</name></member>
-      <member refid="a01307_1ac31b04c04ba016cec20e5805ccef0d1d" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedDetailedDescription</name></member>
-      <member refid="a01307_1af52e424ab412bc68bfb5f973b7b5b27c" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedIncDepGraph</name></member>
-      <member refid="a01307_1aaa0b3a67ada1b58bd4059ac320f15eab" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedIncludedBy</name></member>
-      <member refid="a01307_1ad2da872ba085491d223264276737a8e7" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedIncludes</name></member>
-      <member refid="a01307_1a60616523a9a6cd3aff6897862cb5c14b" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedInheritanceGraph</name></member>
-      <member refid="a01307_1a2b27eae2f46b53f204c8174a54207175" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedInnerClass</name></member>
-      <member refid="a01307_1a5072b0b483becf3b84daf42925b80853" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedInnerDir</name></member>
-      <member refid="a01307_1ad2e10284bb8208420841a0849375db05" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedInnerFile</name></member>
-      <member refid="a01307_1a74899cd76eb6db5a8ee59146c77b07b3" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedInnerGroup</name></member>
-      <member refid="a01307_1a97bac53ff2623f83712993ab2f5ae852" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedInnerNamespace</name></member>
-      <member refid="a01307_1ab79909c80676fc9bccbb6e431ba412c2" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedInnerPage</name></member>
-      <member refid="a01307_1a728a5f23cbb39f768d46e4c9e7314ecb" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedInvIncDepGraph</name></member>
-      <member refid="a01307_1a13689b56851840c15903ed8320968695" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedListOfAllMembers</name></member>
-      <member refid="a01307_1ab432daf1eec44809f0140f9140509532" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedLocation</name></member>
-      <member refid="a01307_1af838f90479d190c3d25be240f05a9c6c" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedProgramListing</name></member>
-      <member refid="a01307_1ae5a14b2fbf4ef46396cc42b03df57009" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedSectionDef</name></member>
-      <member refid="a01307_1a2008b336a42ef282667002b5fb39eae5" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedTableOfContents</name></member>
-      <member refid="a01307_1a5d0ceb3437dac0e5f9da19bf6762b3ba" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedTemplateParamList</name></member>
-      <member refid="a01307_1aae60bad7f1b3cf035e71eedba8e55ba3" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedText</name></member>
-      <member refid="a01307_1a4f31cf429855fdbc0a9b38a16f18e68b" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>visitedTitle</name></member>
-      <member refid="a01307_1a128fb87d0a9bae23d3be69e2904330a9" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</scope><name>~CompoundDefQueryVisitor</name></member>
-    </listofallmembers>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CopyQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TypeFilter/DoxygenFilter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ParaQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Sect1Query.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;InternalQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31" refid="a02183_1acb85379a1303fed5213111fa7b63b227" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02183_1acb85379a1303fed5213111fa7b63b227" kindref="member">CopyQuery::visit</ref>(<ref refid="a02179" kindref="compound">Visitors::CopyQueryVisitor</ref><sp/>*visitor)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="32"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref><sp/>||<sp/>!visitor)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01846_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member" tooltip="Defines the child node storage array container. ">Xml::NodeArray</ref>&amp;<sp/>objects<sp/>=<sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>-&gt;<ref refid="a02111_1aca46484307f43cd0fb3c7263827ffa36" kindref="member" tooltip="Provides access to the array of child nodes attached to this node. ">children</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/>obj<sp/>:<sp/>objects)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(obj-&gt;getTypeCode())<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" kindref="member">DoxTextNode</ref>:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(obj-&gt;hasText())</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="a02179_1a02b4145a2f8e85a807f8c8638aba3886" kindref="member" tooltip="Callback for every _text_node. ">visitedText</ref>(obj-&gt;text());</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>68:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="a02179_1a951faf681d5f2ac08fb153efb356687f" kindref="member" tooltip="Called when the element para is found. ">visitedParagraph</ref>(<ref refid="a02539" kindref="compound" tooltip="Implements the docParaType scaffolding. ">ParaQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>90:</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="a02179_1a9beac6d6249da99ee47a4cdf7bdc8709" kindref="member" tooltip="Called when the element sect1 is found. ">visitedSect1</ref>(<ref refid="a02579" kindref="compound" tooltip="Implements the docSect1Type scaffolding. ">Sect1Query</ref>(obj));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>52:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="a02179_1a702b16c902071c6db83d0ffba37ba502" kindref="member" tooltip="Called when the element internal is found. ">visitedInternal</ref>(<ref refid="a02363" kindref="compound" tooltip="Implements the docInternalType scaffolding. ">InternalQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57" refid="a02183_1aa2747757e19fea114a13db2e9bc86d61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02183_1aa2747757e19fea114a13db2e9bc86d61" kindref="member" tooltip="Provides access to the link attribute. ">CopyQuery::getLink</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="58"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>-&gt;<ref refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" kindref="member" tooltip="Looks up the supplied name in the attribute map. ">attribute</ref>(</highlight><highlight class="stringliteral">&quot;link&quot;</highlight><highlight class="normal">,<sp/>notFound);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>notFound;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="a02183_1a24a27fddd9e7031c609ee0e6ad5b80b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02183_1a1f999b7b1416b011617d84d228f86af7" kindref="member" tooltip="Provides access to the internal attribute. ">CopyQuery::getInternal</ref>(<ref refid="a02363" kindref="compound" tooltip="Implements the docInternalType scaffolding. ">InternalQuery</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="65"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref><sp/>*<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>-&gt;<ref refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(52);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="a02363" kindref="compound" tooltip="Implements the docInternalType scaffolding. ">InternalQuery</ref>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="a02183_1a1f999b7b1416b011617d84d228f86af7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02363" kindref="compound" tooltip="Implements the docInternalType scaffolding. ">InternalQuery</ref><sp/><ref refid="a02183_1a1f999b7b1416b011617d84d228f86af7" kindref="member" tooltip="Provides access to the internal attribute. ">CopyQuery::getInternal</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="76"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02363" kindref="compound" tooltip="Implements the docInternalType scaffolding. ">InternalQuery</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02183_1a1f999b7b1416b011617d84d228f86af7" kindref="member" tooltip="Provides access to the internal attribute. ">getInternal</ref>(dest);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="a02183_1a550b4f87b6c4464366be070647b593b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02183_1a550b4f87b6c4464366be070647b593b2" kindref="member" tooltip="Invokes the supplied callback on para elements. ">CopyQuery::foreachParagraph</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref>&amp;<sp/>invoke)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="83"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QueryForEach&lt;ParaQuery,<sp/>68&gt;(invoke,<sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="a02183_1aa0ffdcf1b52c20cc53b5a0b94586bc20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02183_1aa0ffdcf1b52c20cc53b5a0b94586bc20" kindref="member" tooltip="Invokes the supplied callback on sect1 elements. ">CopyQuery::foreachSect1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1a6438087de1dd68238d70bafc49bee2a0" kindref="member">Sect1QueryFunction</ref>&amp;<sp/>invoke)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="88"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QueryForEach&lt;Sect1Query,<sp/>90&gt;(invoke,<sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/CopyQuery.cpp"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01682" kind="file" language="C++">
+    <compoundname>ReimplementQuery.cpp</compoundname>
+    <includes refid="a01685" local="yes">ReimplementQuery.h</includes>
+    <includes refid="a01145" local="yes">TypeFilter/DoxygenFilter.h</includes>
+    <incdepgraph>
+      <node id="8366">
+        <label>Utils/Console.h</label>
+        <childnode refid="8354" relation="include">
+        </childnode>
+      </node>
+      <node id="8360">
+        <label>iomanip</label>
+      </node>
+      <node id="8352">
+        <label>functional</label>
+      </node>
+      <node id="8369">
+        <label>cstdint</label>
+      </node>
+      <node id="8362">
+        <label>Utils/Exception.h</label>
+        <childnode refid="8363" relation="include">
+        </childnode>
+        <childnode refid="8364" relation="include">
+        </childnode>
+        <childnode refid="8365" relation="include">
+        </childnode>
+        <childnode refid="8366" relation="include">
+        </childnode>
+        <childnode refid="8354" relation="include">
+        </childnode>
+      </node>
+      <node id="8364">
+        <label>stdexcept</label>
+      </node>
+      <node id="8358">
+        <label>string</label>
+      </node>
+      <node id="8351">
+        <label>Doxygen.h</label>
+        <childnode refid="8352" relation="include">
+        </childnode>
+        <childnode refid="8353" relation="include">
+        </childnode>
+        <childnode refid="8354" relation="include">
+        </childnode>
+        <childnode refid="8361" relation="include">
+        </childnode>
+        <childnode refid="8362" relation="include">
+        </childnode>
+      </node>
+      <node id="8363">
+        <label>exception</label>
+      </node>
+      <node id="8356">
+        <label>fstream</label>
+      </node>
+      <node id="8361">
+        <label>Xml/Node.h</label>
+        <childnode refid="8352" relation="include">
+        </childnode>
+        <childnode refid="8353" relation="include">
+        </childnode>
+        <childnode refid="8354" relation="include">
+        </childnode>
+      </node>
+      <node id="8354">
+        <label>Utils/String.h</label>
+        <childnode refid="8355" relation="include">
+        </childnode>
+        <childnode refid="8356" relation="include">
+        </childnode>
+        <childnode refid="8357" relation="include">
+        </childnode>
+        <childnode refid="8358" relation="include">
+        </childnode>
+        <childnode refid="8353" relation="include">
+        </childnode>
+        <childnode refid="8359" relation="include">
+        </childnode>
+        <childnode refid="8360" relation="include">
+        </childnode>
+      </node>
+      <node id="8359">
+        <label>vector</label>
+      </node>
+      <node id="8365">
+        <label>utility</label>
+      </node>
+      <node id="8357">
+        <label>sstream</label>
+      </node>
+      <node id="8349">
+        <label>Tools/Doxygen/ReimplementQuery.cpp</label>
+        <link refid="a01682"/>
+        <childnode refid="8350" relation="include">
+        </childnode>
+        <childnode refid="8367" relation="include">
+        </childnode>
+      </node>
+      <node id="8350">
+        <label>ReimplementQuery.h</label>
+        <childnode refid="8351" relation="include">
+        </childnode>
+      </node>
+      <node id="8367">
+        <label>TypeFilter/DoxygenFilter.h</label>
+        <childnode refid="8368" relation="include">
+        </childnode>
+      </node>
+      <node id="8355">
+        <label>deque</label>
+      </node>
+      <node id="8353">
+        <label>unordered_map</label>
+      </node>
+      <node id="8368">
+        <label>Utils/TypeFilter.h</label>
+        <childnode refid="8369" relation="include">
+        </childnode>
+        <childnode refid="8354" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ReimplementQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TypeFilter/DoxygenFilter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28" refid="a02563_1a52e12cdeaad87124a17b111cef242158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02563_1a52e12cdeaad87124a17b111cef242158" kindref="member" tooltip="Provides access to the refid attribute. ">ReimplementQuery::getRefId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="29"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>-&gt;<ref refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" kindref="member" tooltip="Looks up the supplied name in the attribute map. ">attribute</ref>(</highlight><highlight class="stringliteral">&quot;refid&quot;</highlight><highlight class="normal">,<sp/>notFound);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>notFound;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/ReimplementQuery.cpp"/>
+  </compounddef>
+</doxygen>

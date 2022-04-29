@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02223" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::DoxLanguage</compoundname>
+    <includes local="no">Tools/Doxygen/DoxLanguage.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="a02223_1a5a7555d8953d470bbe9f70f7ff39ff71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a778793e67765b66ac62d62a3af2dccf1" kindref="member">DoxLanguageEnum</ref></type>
+        <definition>DoxLanguageEnum MdDox::Doxygen::DoxLanguage::get</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <defname>look</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxLanguage.h" line="129" column="1" bodyfile="Tools/Doxygen/DoxLanguage.cpp" bodystart="30" bodyend="65"/>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1ac79688c8b6052f2a0d5cd3e207faa63a" compoundref="a01364" startline="62">MdDox::Doxygen::DL_UNKNOWN</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1ad3bd59b01565a893c9a5ed87e965c19d" compoundref="a01364" startline="66">MdDox::Doxygen::DL_TCL</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1aadc5af89a10b5ca26f8fc72c9a75af2e" compoundref="a01364" startline="70">MdDox::Doxygen::DL_IDL</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1a09dde7da3e565d3b05221a4831bbc621" compoundref="a01364" startline="74">MdDox::Doxygen::DL_OBJECTIVE_C</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1acc3eafd7ec6375c784840e58d198dea1" compoundref="a01364" startline="78">MdDox::Doxygen::DL_JAVA</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1a7de376293f9328c53c8cf95ce51748b2" compoundref="a01364" startline="82">MdDox::Doxygen::DL_D</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1a6e46c8b5e5f52f3b27dc2a464760817d" compoundref="a01364" startline="86">MdDox::Doxygen::DL_CSHARP</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1a2f48a8e7dc726f4e1f81cf77aca26452" compoundref="a01364" startline="90">MdDox::Doxygen::DL_PHP</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1ac3bb35bbc1168c27a7875aea5e7d9083" compoundref="a01364" startline="94">MdDox::Doxygen::DL_CPLUSPLUS</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1a2bf89b35a3a318b584229914e4bb1793" compoundref="a01364" startline="98">MdDox::Doxygen::DL_JAVASCRIPT</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1a6324e49091d6d7a05adc076a3d03034a" compoundref="a01364" startline="102">MdDox::Doxygen::DL_PYTHON</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1aa84043ae9d67cd3015e16620c31683ac" compoundref="a01364" startline="106">MdDox::Doxygen::DL_FORTRAN</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1aafb3580476584087f2957254cd74fa24" compoundref="a01364" startline="110">MdDox::Doxygen::DL_VHDL</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1ae008cd3cd5a8168707679e9bd524f5dc" compoundref="a01364" startline="114">MdDox::Doxygen::DL_XML</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1adadd1638cfdd1d05f148bb100c308737" compoundref="a01364" startline="118">MdDox::Doxygen::DL_SQL</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1a5088f5f5bc8dfe8f5588e75eaf049cc2" compoundref="a01364" startline="122">MdDox::Doxygen::DL_MARKDOWN</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1a631f64a08c25078645667429ec76bf3b" compoundref="a01364" startline="58">MdDox::Doxygen::DL_INVALID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/DoxLanguage.h" line="127" column="1" bodyfile="Tools/Doxygen/DoxLanguage.h" bodystart="126" bodyend="130"/>
+    <listofallmembers>
+      <member refid="a02223_1a5a7555d8953d470bbe9f70f7ff39ff71" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxLanguage</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

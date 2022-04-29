@@ -11,7 +11,7 @@
  Its primary goal is to embed its output files into the GitHub markdown browser. The embedded content serves the same purpose as a static site. Except that it is more integrated with the GitHub site.</para><sect1 id="index_1Md001">
 <title>Pages</title>
 <para><itemizedlist>
-<listitem><para><ref refid="a02120" kindref="compound">Project Structure</ref> Illustrates the project&apos;s library and executable dependency structure.</para></listitem><listitem><para><ref refid="a02121" kindref="compound">Site Layout</ref> Illustrates the structure of the generated site.</para></listitem><listitem><para><ref refid="a02122" kindref="compound">Image handling</ref> Describes the way internal icons are accessed.</para></listitem></itemizedlist>
+<listitem><para><ref refid="a02972" kindref="compound">Project Structure</ref> Illustrates the project&apos;s library and executable dependency structure.</para></listitem><listitem><para><ref refid="a02973" kindref="compound">Site Layout</ref> Illustrates the structure of the generated site.</para></listitem><listitem><para><ref refid="a02974" kindref="compound">Image handling</ref> Describes the way internal icons are accessed.</para></listitem></itemizedlist>
 </para></sect1>
 <sect1 id="index_1Md002">
 <title>Source Contents</title>

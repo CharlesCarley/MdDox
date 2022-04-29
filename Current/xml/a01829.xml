@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01829" kind="file" language="C++">
+    <compoundname>Simple.cpp</compoundname>
+    <includes refid="a01832" local="yes">Simple.h</includes>
+    <includes refid="a01817" local="yes">Group.h</includes>
+    <includes refid="a01184" local="yes">Utils/Exception.h</includes>
+    <includes refid="a01220" local="yes">Utils/Path.h</includes>
+    <includes refid="a01226" local="yes">Utils/String.h</includes>
+    <includes refid="a03015" local="yes">Xml/Writer.h</includes>
+    <incdepgraph>
+      <node id="9440">
+        <label>Utils/Console.h</label>
+        <childnode refid="9423" relation="include">
+        </childnode>
+      </node>
+      <node id="9433">
+        <label>functional</label>
+      </node>
+      <node id="9430">
+        <label>iomanip</label>
+      </node>
+      <node id="9441">
+        <label>Utils/Path.h</label>
+        <childnode refid="9423" relation="include">
+        </childnode>
+      </node>
+      <node id="9435">
+        <label>cstdint</label>
+      </node>
+      <node id="9436">
+        <label>Utils/Exception.h</label>
+        <childnode refid="9437" relation="include">
+        </childnode>
+        <childnode refid="9438" relation="include">
+        </childnode>
+        <childnode refid="9439" relation="include">
+        </childnode>
+        <childnode refid="9440" relation="include">
+        </childnode>
+        <childnode refid="9423" relation="include">
+        </childnode>
+      </node>
+      <node id="9422">
+        <label>Object.h</label>
+        <childnode refid="9423" relation="include">
+        </childnode>
+        <childnode refid="9431" relation="include">
+        </childnode>
+        <childnode refid="9432" relation="include">
+        </childnode>
+      </node>
+      <node id="9438">
+        <label>stdexcept</label>
+      </node>
+      <node id="9427">
+        <label>string</label>
+      </node>
+      <node id="9437">
+        <label>exception</label>
+      </node>
+      <node id="9425">
+        <label>fstream</label>
+      </node>
+      <node id="9434">
+        <label>Types.h</label>
+        <childnode refid="9435" relation="include">
+        </childnode>
+        <childnode refid="9423" relation="include">
+        </childnode>
+      </node>
+      <node id="9432">
+        <label>Xml/Node.h</label>
+        <childnode refid="9433" relation="include">
+        </childnode>
+        <childnode refid="9428" relation="include">
+        </childnode>
+        <childnode refid="9423" relation="include">
+        </childnode>
+      </node>
+      <node id="9431">
+        <label>Writer.h</label>
+        <childnode refid="9423" relation="include">
+        </childnode>
+        <childnode refid="9432" relation="include">
+        </childnode>
+      </node>
+      <node id="9442">
+        <label>Xml/Writer.h</label>
+        <childnode refid="9423" relation="include">
+        </childnode>
+      </node>
+      <node id="9420">
+        <label>Simple.h</label>
+        <childnode refid="9421" relation="include">
+        </childnode>
+        <childnode refid="9423" relation="include">
+        </childnode>
+      </node>
+      <node id="9423">
+        <label>Utils/String.h</label>
+        <childnode refid="9424" relation="include">
+        </childnode>
+        <childnode refid="9425" relation="include">
+        </childnode>
+        <childnode refid="9426" relation="include">
+        </childnode>
+        <childnode refid="9427" relation="include">
+        </childnode>
+        <childnode refid="9428" relation="include">
+        </childnode>
+        <childnode refid="9429" relation="include">
+        </childnode>
+        <childnode refid="9430" relation="include">
+        </childnode>
+      </node>
+      <node id="9429">
+        <label>vector</label>
+      </node>
+      <node id="9419">
+        <label>Tools/GenApi/Simple.cpp</label>
+        <link refid="a01829"/>
+        <childnode refid="9420" relation="include">
+        </childnode>
+        <childnode refid="9421" relation="include">
+        </childnode>
+        <childnode refid="9436" relation="include">
+        </childnode>
+        <childnode refid="9441" relation="include">
+        </childnode>
+        <childnode refid="9423" relation="include">
+        </childnode>
+        <childnode refid="9442" relation="include">
+        </childnode>
+      </node>
+      <node id="9439">
+        <label>utility</label>
+      </node>
+      <node id="9426">
+        <label>sstream</label>
+      </node>
+      <node id="9424">
+        <label>deque</label>
+      </node>
+      <node id="9428">
+        <label>unordered_map</label>
+      </node>
+      <node id="9421">
+        <label>Group.h</label>
+        <childnode refid="9422" relation="include">
+        </childnode>
+        <childnode refid="9434" relation="include">
+        </childnode>
+        <childnode refid="9423" relation="include">
+        </childnode>
+        <childnode refid="9432" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="a01838">MdDox</innernamespace>
+    <innernamespace refid="a01848">MdDox::GenApi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Simple.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Group.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Exception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Path.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Xml/Writer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">PathUtil;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01848" kindref="compound" tooltip="GenApi is used to generate a static scaffolding library. ">MdDox::GenApi</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36" refid="a02723_1ae42f3562cb13785a5f07f695a32fa2b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02723_1ae42f3562cb13785a5f07f695a32fa2b6" kindref="member">Simple::Simple</ref>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/>node,<sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>name,<sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>type,<sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>header)<sp/>:</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02715" kindref="compound">Object</ref>(<ref refid="a01851" kindref="compound">std</ref>::move(name)),</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_node(node),</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_tagType(<ref refid="a01851" kindref="compound">std</ref><sp/>::move(type)),</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_header(<ref refid="a01851" kindref="compound">std</ref>::move(header))</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ch<sp/>:<sp/><ref refid="a02715_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ch<sp/>&gt;=<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>ch<sp/>&lt;=<sp/></highlight><highlight class="charliteral">&apos;Z&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_prefix.push_back(ch);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02723_1a371a012e7eb3511e17591dd97c4aa490" kindref="member">Simple::~Simple</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="a02723_1a3f93f35cae7b04e89dff905f76780518" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02723_1a3f93f35cae7b04e89dff905f76780518" kindref="member">Simple::writeHeader</ref>(<ref refid="a01838_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref>&amp;<sp/>out)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>&lt;&lt;<sp/>_header;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;#pragma<sp/>once&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;#include<sp/>\&quot;Doxygen.h\&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newLine(out,<sp/>2);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;namespace<sp/>MdDox::Doxygen&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="charliteral">&apos;{&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;/**&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*<sp/>The<sp/>following<sp/>xml<sp/>provides<sp/>the<sp/>&lt;b&gt;&quot;</highlight><highlight class="normal">,<sp/>_tagType,<sp/></highlight><highlight class="stringliteral">&quot;&lt;/b&gt;<sp/>declaration.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*<sp/>\\code{.xml}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>oss;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02123" kindref="compound" tooltip="Is a utility class that is used to write the xml text structure to the supplied stream from the suppl...">Xml::Writer</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w(_node);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w.<ref refid="a02123_1a7d48f1a4ee7a1bbefb8ca05a0ded4536" kindref="member" tooltip="Sets the indentation level per depth.   ">setIndent</ref>(0x02);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w.<ref refid="a02123_1a386ffcf7d74ba57836183ad2be6214a5" kindref="member" tooltip="Enables the xml header. ">setWriteXml</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w.<ref refid="a02123_1a3de47d9176cd5216f12c3e71d7c6e828" kindref="member" tooltip="Writes the contents of the node to the supplied output stream. ">write</ref>(oss);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref><sp/>lines;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">StringUtils::split</ref>(lines,<sp/>oss.str(),<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>line<sp/>:<sp/>lines)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*<sp/>&quot;</highlight><highlight class="normal">,<sp/>line);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*<sp/>\\endcode&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;<sp/>*/&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;enum<sp/>&quot;</highlight><highlight class="normal">,<sp/><ref refid="a02715_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Enum&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="charliteral">&apos;{&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/>_prefix,<sp/></highlight><highlight class="stringliteral">&quot;_INVALID=&quot;</highlight><highlight class="normal">,<sp/>-1,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>[key,<sp/>val]<sp/>:<sp/>_enums)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/></highlight><highlight class="stringliteral">&quot;/**&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x09,<sp/></highlight><highlight class="stringliteral">&quot;*<sp/>\\brief<sp/>Definition<sp/>for<sp/>the<sp/>&lt;tt&gt;&quot;</highlight><highlight class="normal">,<sp/>_tagType,<sp/></highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">,<sp/>key,<sp/></highlight><highlight class="stringliteral">&quot;&lt;/tt&gt;<sp/>value.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x09,<sp/></highlight><highlight class="stringliteral">&quot;*/&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/>_prefix,<sp/></highlight><highlight class="stringliteral">&quot;_&quot;</highlight><highlight class="normal">,<sp/>val,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/>_prefix,<sp/></highlight><highlight class="stringliteral">&quot;_MAX&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;};&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newLine(out,<sp/>1);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;class<sp/>&quot;</highlight><highlight class="normal">,<sp/><ref refid="a02715_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="charliteral">&apos;{&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;public:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/></highlight><highlight class="stringliteral">&quot;static<sp/>&quot;</highlight><highlight class="normal">,<sp/><ref refid="a02715_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Enum<sp/>get(const<sp/>String<sp/>&amp;);&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;};&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;}<sp/>//<sp/>namespace<sp/>MdDox::Doxygen&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="a02723_1a7866e4471bb71712f2f3f86886c4e046" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02723_1a7866e4471bb71712f2f3f86886c4e046" kindref="member">Simple::writeSource</ref>(<ref refid="a01838_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref>&amp;<sp/>out)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>&lt;&lt;<sp/>_header;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;#include<sp/>\&quot;&quot;</highlight><highlight class="normal">,<sp/><ref refid="a02715_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;.h\&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;#include<sp/>\&quot;Utils/Exception.h\&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;#include<sp/>\&quot;Utils/Console.h\&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newLine(out,<sp/>2);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;namespace<sp/>MdDox::Doxygen&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;{&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/><ref refid="a02715_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Enum<sp/>&quot;</highlight><highlight class="normal">,<sp/><ref refid="a02715_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;::get(const<sp/>String<sp/>&amp;look)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="charliteral">&apos;{&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>[old,<sp/>val]<sp/>:<sp/>_enums)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/></highlight><highlight class="stringliteral">&quot;if<sp/>(look<sp/>==<sp/>\&quot;&quot;</highlight><highlight class="normal">,<sp/>old,<sp/></highlight><highlight class="stringliteral">&quot;\&quot;)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x0C,<sp/></highlight><highlight class="stringliteral">&quot;return<sp/>&quot;</highlight><highlight class="normal">,<sp/>_prefix,<sp/></highlight><highlight class="stringliteral">&quot;_&quot;</highlight><highlight class="normal">,<sp/>val,<sp/></highlight><highlight class="charliteral">&apos;;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/></highlight><highlight class="stringliteral">&quot;return<sp/>&quot;</highlight><highlight class="normal">,<sp/>_prefix,<sp/></highlight><highlight class="stringliteral">&quot;_INVALID;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="charliteral">&apos;}&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;}<sp/>//<sp/>namespace<sp/>MdDox::Doxygen&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="a02723_1a16c28db586098493f7076662db0fb457" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02723_1a16c28db586098493f7076662db0fb457" kindref="member">Simple::write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02091" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref><sp/>obj(output);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>hdr<sp/>=<sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(obj.<ref refid="a02091_1aa1452c3fe344917e66dca2fb53168fb0" kindref="member">rootedDir</ref>(),<sp/>obj.<ref refid="a02091_1a982c0e9ff01aa862f2d6e42d9425f75a" kindref="member" tooltip="Provides access to the name portion of the file. ">stem</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;.h&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>src<sp/>=<sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(obj.<ref refid="a02091_1aa1452c3fe344917e66dca2fb53168fb0" kindref="member">rootedDir</ref>(),<sp/>obj.<ref refid="a02091_1a982c0e9ff01aa862f2d6e42d9425f75a" kindref="member" tooltip="Provides access to the name portion of the file. ">stem</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;.cpp&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref><sp/>header(hdr);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!header.is_open())</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/><ref refid="a02055" kindref="compound" tooltip="Primary class for exception handling   ">Exception</ref>(</highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>open<sp/>the<sp/>output<sp/>file:<sp/>&quot;</highlight><highlight class="normal">,<sp/>hdr);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02723_1a3f93f35cae7b04e89dff905f76780518" kindref="member">writeHeader</ref>(header);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>header.close();</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref><sp/>source(src);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!source.is_open())</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/><ref refid="a02055" kindref="compound" tooltip="Primary class for exception handling   ">Exception</ref>(</highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>open<sp/>the<sp/>output<sp/>file:<sp/>&quot;</highlight><highlight class="normal">,<sp/>src);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02723_1a7866e4471bb71712f2f3f86886c4e046" kindref="member">writeSource</ref>(source);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.close();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="a02723_1aa72e1f0b2cac1a416f2f7a9d9fd9e076" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02723_1aa72e1f0b2cac1a416f2f7a9d9fd9e076" kindref="member">Simple::addEnumValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>searchTerm,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>value)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_enums.find(searchTerm)<sp/>==<sp/>_enums.end())</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_enums[searchTerm]<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::GenApi</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/GenApi/Simple.cpp"/>
+  </compounddef>
+</doxygen>

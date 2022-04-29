@@ -1,868 +1,205 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="a01855" kind="class" language="C++" prot="public">
-    <compoundname>MdDox::GenApi::Group</compoundname>
-    <basecompoundref refid="a01863" prot="public" virt="non-virtual">MdDox::GenApi::Object</basecompoundref>
-    <derivedcompoundref refid="a01839" prot="public" virt="non-virtual">MdDox::GenApi::Complex</derivedcompoundref>
-    <includes local="no">Tools/GenApi/Group.h</includes>
-      <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="a01855_1ab691fb2100aa94a659dcda88a5884b7a" prot="protected" static="no" mutable="no">
-        <type><ref refid="a00986_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member">StringMap</ref></type>
-        <definition>StringMap MdDox::GenApi::Group::_dependentHeaderTypes</definition>
+    <compoundname>MdDox::Application</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a01855_1ad91e8fbf7ab789a2799ac159ac14f702" prot="private" static="no" mutable="no">
+        <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::Application::_config</definition>
         <argsstring></argsstring>
-        <name>_dependentHeaderTypes</name>
+        <name>_config</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="52" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="52" bodyend="-1"/>
+        <location file="Source/MdDox/Main.cpp" line="129" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="129" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="a01855_1a97b2a5261119b03d3970655b60707f76" prot="protected" static="no" mutable="no">
-        <type><ref refid="a00986_1ab2f3c2c82f1a5b6e56b35fc78399c078" kindref="member">StringMap</ref></type>
-        <definition>StringMap MdDox::GenApi::Group::_dependentTypes</definition>
+      <memberdef kind="variable" id="a01855_1a7886a3f357cea319bf05b97330390c48" prot="private" static="no" mutable="no">
+        <type><ref refid="a02091" kindref="compound">PathUtil</ref></type>
+        <definition>PathUtil MdDox::Application::_indexFile</definition>
         <argsstring></argsstring>
-        <name>_dependentTypes</name>
+        <name>_indexFile</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="51" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="51" bodyend="-1"/>
+        <location file="Source/MdDox/Main.cpp" line="127" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="127" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="a01855_1a45b775e686164e197337cff2e324321e" prot="protected" static="no" mutable="no">
-        <type><ref refid="a00996_1a8506c438f76b4e422a526477806e60da" kindref="member">ElementArray</ref></type>
-        <definition>ElementArray MdDox::GenApi::Group::_elements</definition>
+      <memberdef kind="variable" id="a01855_1a72f5d19b9a07de16d8e1590dc5ed5d82" prot="private" static="no" mutable="no">
+        <type><ref refid="a02091" kindref="compound">PathUtil</ref></type>
+        <definition>PathUtil MdDox::Application::_outDir</definition>
         <argsstring></argsstring>
-        <name>_elements</name>
+        <name>_outDir</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="56" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="56" bodyend="-1"/>
+        <location file="Source/MdDox/Main.cpp" line="128" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="128" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="a01855_1a6a50c87e762c3dc61ff76a21322f1066" prot="protected" static="no" mutable="no">
-        <type><ref refid="a00994_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member">AttributeMap</ref></type>
-        <definition>AttributeMap MdDox::GenApi::Group::_enumAttributes</definition>
+      <memberdef kind="variable" id="a01855_1ab7c709c2577f1bc90eb5c4630792d067" prot="private" static="no" mutable="no">
+        <type><ref refid="a01871" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::Application::_writer</definition>
         <argsstring></argsstring>
-        <name>_enumAttributes</name>
+        <name>_writer</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="50" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01855_1a170ee7fc3edb34e81da2028023d5a88f" prot="protected" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::GenApi::Group::_first</definition>
-        <argsstring></argsstring>
-        <name>_first</name>
-        <initializer>{true}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="59" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="59" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01855_1a040f01434f53b98917564a2ae66fd60d" prot="protected" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::GenApi::Group::_foreach</definition>
-        <argsstring></argsstring>
-        <name>_foreach</name>
-        <initializer>{true}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="60" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="60" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01855_1a3ab183df23ba0b8e08480b4a13216992" prot="protected" static="no" mutable="no">
-        <type><ref refid="a00996_1aa966ac5451d8ded569e90d4d2dcffbb2" kindref="member">GroupArray</ref></type>
-        <definition>GroupArray MdDox::GenApi::Group::_groups</definition>
-        <argsstring></argsstring>
-        <name>_groups</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="57" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="57" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01855_1ac0ad6accc04e5671ca135fe95625a3b1" prot="protected" static="no" mutable="no">
-        <type><ref refid="a00994_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member">AttributeMap</ref></type>
-        <definition>AttributeMap MdDox::GenApi::Group::_integerAttributes</definition>
-        <argsstring></argsstring>
-        <name>_integerAttributes</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="49" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="49" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01855_1a3e6d87b5fadced46e6decede161443a8" prot="protected" static="no" mutable="no">
-        <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-        <definition>Xml::Node* MdDox::GenApi::Group::_node</definition>
-        <argsstring></argsstring>
-        <name>_node</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="45" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="45" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01855_1a84facfa06d2fe6a525a53789969f3b1d" prot="protected" static="no" mutable="no">
-        <type><ref refid="a00996_1a8506c438f76b4e422a526477806e60da" kindref="member">ElementArray</ref></type>
-        <definition>ElementArray MdDox::GenApi::Group::_singleReturns</definition>
-        <argsstring></argsstring>
-        <name>_singleReturns</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="55" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="55" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01855_1a70c29435b823d9e9fb05f6e77101a228" prot="protected" static="no" mutable="no">
-        <type><ref refid="a00994_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member">AttributeMap</ref></type>
-        <definition>AttributeMap MdDox::GenApi::Group::_stringAttributes</definition>
-        <argsstring></argsstring>
-        <name>_stringAttributes</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="48" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01855_1a3f2b6d71aaefa528f3950197904307e4" prot="protected" static="no" mutable="no">
-        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::GenApi::Group::_tagType</definition>
-        <argsstring></argsstring>
-        <name>_tagType</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="46" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="46" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01855_1a58d8eb4faf1136b2574bec8e5dcebf65" prot="protected" static="no" mutable="no">
-        <type><ref refid="a00996_1a8506c438f76b4e422a526477806e60da" kindref="member">ElementArray</ref></type>
-        <definition>ElementArray MdDox::GenApi::Group::_textReturns</definition>
-        <argsstring></argsstring>
-        <name>_textReturns</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="54" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="54" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="protected-func">
-      <memberdef kind="function" id="a01855_1a8d616c9df8cf6fa56e4bbbde7be635b5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::GenApi::Group::canHaveVisitors</definition>
-        <argsstring>()</argsstring>
-        <name>canHaveVisitors</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="62" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="307" bodyend="323"/>
-        <references refid="a01855_1a45b775e686164e197337cff2e324321e" compoundref="a00965" startline="56">_elements</references>
-        <references refid="a01855_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="a00965" startline="55">_singleReturns</references>
-        <references refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" compoundref="a00965" startline="57">_groups</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1afb0e32c688e5b3b0d497916c9dba829c" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="a01855" kindref="compound">Group</ref> *</type>
-        <definition>Group * MdDox::GenApi::Group::replicate</definition>
-        <argsstring>(const String &amp;newName) const</argsstring>
-        <name>replicate</name>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>newName</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="86" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="302" bodyend="305"/>
-        <references refid="a01855_1afbb9dc3336478795a577993abc87cbdc" compoundref="a00962" startline="31" endline="36">Group</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1ac71d0fdad5e9b5e0f7384da2b9dfbbfa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::writeForeachHeader</definition>
-        <argsstring>(OStream &amp;out)</argsstring>
-        <name>writeForeachHeader</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="82" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="256" bodyend="276"/>
-        <references refid="a01855_1a040f01434f53b98917564a2ae66fd60d" compoundref="a00965" startline="60">_foreach</references>
-        <references refid="a01855_1a45b775e686164e197337cff2e324321e" compoundref="a00965" startline="56">_elements</references>
-        <references refid="a01867_1a1feb3bedb869d91708ff5d2e1a4bd481" compoundref="a00971" startline="465" endline="470">MdDox::GenApi::Resources::Resource::getForeachElementHeader</references>
-        <references refid="a01247_1a7c366ea2942779a96722181c617fbe35" compoundref="a00371" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
-        <references refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" compoundref="a00965" startline="57">_groups</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a912a199b7b7d52badc355c7d89734263" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::writeForeachSource</definition>
-        <argsstring>(OStream &amp;out)</argsstring>
-        <name>writeForeachSource</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="84" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="278" bodyend="300"/>
-        <references refid="a01855_1a040f01434f53b98917564a2ae66fd60d" compoundref="a00965" startline="60">_foreach</references>
-        <references refid="a01855_1a45b775e686164e197337cff2e324321e" compoundref="a00965" startline="56">_elements</references>
-        <references refid="a01867_1a42c4a95c6f5c6fedb66b5489351606ab" compoundref="a00971" startline="494" endline="499">MdDox::GenApi::Resources::Resource::getForeachElementSource</references>
-        <references refid="a01247_1a7c366ea2942779a96722181c617fbe35" compoundref="a00371" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
-        <references refid="a01171_1a7549ee9c43ba6b7244dce1df25366637" compoundref="a00296" startline="212" endline="217">MdDox::Char::toString</references>
-        <references refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="a00968" startline="32">MdDox::GenApi::Object::_name</references>
-        <references refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" compoundref="a00965" startline="57">_groups</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1ae779a1556e2e68ee172437716dc02206" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::writeHeader</definition>
-        <argsstring>(OStream &amp;out)</argsstring>
-        <name>writeHeader</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="66" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="405" bodyend="454"/>
-        <references refid="a01855_1ab691fb2100aa94a659dcda88a5884b7a" compoundref="a00965" startline="52">_dependentHeaderTypes</references>
-        <references refid="a01855_1a8d616c9df8cf6fa56e4bbbde7be635b5" compoundref="a00962" startline="307" endline="323">canHaveVisitors</references>
-        <references refid="a01867_1af659c5870eb578ce5d6d8a5682e1a254" compoundref="a00971" startline="1056" endline="1061">MdDox::GenApi::Resources::Resource::getVisitHeader</references>
-        <references refid="a01855_1a54a45dd15eb51ff0b22923127e3f2dc5" compoundref="a00962" startline="325" endline="363">writeVisitElement</references>
-        <references refid="a01247_1a7c366ea2942779a96722181c617fbe35" compoundref="a00371" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
-        <references refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="a00968" startline="32">MdDox::GenApi::Object::_name</references>
-        <references refid="a01855_1a3e6d87b5fadced46e6decede161443a8" compoundref="a00965" startline="45">_node</references>
-        <references refid="a01271_1a7d48f1a4ee7a1bbefb8ca05a0ded4536" compoundref="a00401" startline="36" endline="39">MdDox::Xml::Writer::setIndent</references>
-        <references refid="a01271_1a386ffcf7d74ba57836183ad2be6214a5" compoundref="a00401" startline="41" endline="44">MdDox::Xml::Writer::setWriteXml</references>
-        <references refid="a01271_1a3de47d9176cd5216f12c3e71d7c6e828" compoundref="a00401" startline="115" endline="124">MdDox::Xml::Writer::write</references>
-        <references refid="a01247_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="a00371" startline="125" endline="132">MdDox::StringUtils::split</references>
-        <references refid="a01855_1a888bd481755c42946dfdf6f28f33a587" compoundref="a00962" startline="133" endline="189">writeStringGettersHeader</references>
-        <references refid="a01855_1ac71d0fdad5e9b5e0f7384da2b9dfbbfa" compoundref="a00962" startline="256" endline="276">writeForeachHeader</references>
-        <references refid="a01867_1a738f43faab3ae80bfbcf91650c4b36eb" compoundref="a00971" startline="521" endline="526">MdDox::GenApi::Resources::Resource::getHeader</references>
-        <references refid="a01855_1a3f2b6d71aaefa528f3950197904307e4" compoundref="a00965" startline="46">_tagType</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1af9680b0901481956bf51c025c9d6a79d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::writeSource</definition>
-        <argsstring>(OStream &amp;out)</argsstring>
-        <name>writeSource</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="76" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="456" bodyend="475"/>
-        <references refid="a01855_1a97b2a5261119b03d3970655b60707f76" compoundref="a00965" startline="51">_dependentTypes</references>
-        <references refid="a01855_1a8d616c9df8cf6fa56e4bbbde7be635b5" compoundref="a00962" startline="307" endline="323">canHaveVisitors</references>
-        <references refid="a01855_1a45beb0e96c63403bbc99b7e7dadcaba0" compoundref="a00962" startline="365" endline="376">writeVisitElementSource</references>
-        <references refid="a01855_1a6283208a31ea3adfa8626e7713fe425a" compoundref="a00962" startline="191" endline="254">writeStringGettersSource</references>
-        <references refid="a01855_1a912a199b7b7d52badc355c7d89734263" compoundref="a00962" startline="278" endline="300">writeForeachSource</references>
-        <references refid="a01867_1ac82634770606b797ea997222df60435d" compoundref="a00971" startline="792" endline="797">MdDox::GenApi::Resources::Resource::getSource</references>
-        <references refid="a01247_1a7c366ea2942779a96722181c617fbe35" compoundref="a00371" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
-        <references refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="a00968" startline="32">MdDox::GenApi::Object::_name</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a888bd481755c42946dfdf6f28f33a587" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::writeStringGettersHeader</definition>
-        <argsstring>(OStream &amp;out)</argsstring>
-        <name>writeStringGettersHeader</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="78" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="133" bodyend="189"/>
-        <references refid="a01855_1a6a50c87e762c3dc61ff76a21322f1066" compoundref="a00965" startline="50">_enumAttributes</references>
-        <references refid="a01867_1a99062292f50d60105c0cee18892b407d" compoundref="a00971" startline="394" endline="399">MdDox::GenApi::Resources::Resource::getEnumAttributeHeader</references>
-        <references refid="a01247_1a7c366ea2942779a96722181c617fbe35" compoundref="a00371" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
-        <references refid="a01855_1a70c29435b823d9e9fb05f6e77101a228" compoundref="a00965" startline="48">_stringAttributes</references>
-        <references refid="a01867_1a2f0a2000d4a01f4806b07a659d40641b" compoundref="a00971" startline="899" endline="904">MdDox::GenApi::Resources::Resource::getStringAttributeHeader</references>
-        <references refid="a01855_1a58d8eb4faf1136b2574bec8e5dcebf65" compoundref="a00965" startline="54">_textReturns</references>
-        <references refid="a01867_1aebfb07774f19c2e362f4df8abc7b5655" compoundref="a00971" startline="428" endline="433">MdDox::GenApi::Resources::Resource::getElementTextHeader</references>
-        <references refid="a01855_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="a00965" startline="55">_singleReturns</references>
-        <references refid="a01867_1a80fcd3d1a734fdbd657895b8e4088d54" compoundref="a00971" startline="717" endline="722">MdDox::GenApi::Resources::Resource::getSingleElementHeader</references>
-        <references refid="a01855_1ac0ad6accc04e5671ca135fe95625a3b1" compoundref="a00965" startline="49">_integerAttributes</references>
-        <references refid="a01867_1a982b4d9d6febca6c11a757361492ada5" compoundref="a00971" startline="664" endline="669">MdDox::GenApi::Resources::Resource::getIntegerAttributeHeader</references>
-        <references refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" compoundref="a00965" startline="57">_groups</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a6283208a31ea3adfa8626e7713fe425a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::writeStringGettersSource</definition>
-        <argsstring>(OStream &amp;out)</argsstring>
-        <name>writeStringGettersSource</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="80" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="191" bodyend="254"/>
-        <references refid="a01855_1a70c29435b823d9e9fb05f6e77101a228" compoundref="a00965" startline="48">_stringAttributes</references>
-        <references refid="a01867_1a089755e46a1dc86445c8e56abf8367bd" compoundref="a00971" startline="937" endline="942">MdDox::GenApi::Resources::Resource::getStringAttributeSource</references>
-        <references refid="a01247_1a7c366ea2942779a96722181c617fbe35" compoundref="a00371" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
-        <references refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="a00968" startline="32">MdDox::GenApi::Object::_name</references>
-        <references refid="a01855_1ac0ad6accc04e5671ca135fe95625a3b1" compoundref="a00965" startline="49">_integerAttributes</references>
-        <references refid="a01867_1a7bfb857bcb54200fe6c91b26c737cd50" compoundref="a00971" startline="691" endline="696">MdDox::GenApi::Resources::Resource::getIntegerAttributeSource</references>
-        <references refid="a01855_1a6a50c87e762c3dc61ff76a21322f1066" compoundref="a00965" startline="50">_enumAttributes</references>
-        <references refid="a01867_1a4645b450e3dab3e2bf8872be4c3f79b2" compoundref="a00971" startline="331" endline="336">MdDox::GenApi::Resources::Resource::getEnumAttributeSource</references>
-        <references refid="a01855_1a58d8eb4faf1136b2574bec8e5dcebf65" compoundref="a00965" startline="54">_textReturns</references>
-        <references refid="a01867_1aebfdd977a5cb98946491f619fa2292cc" compoundref="a00971" startline="359" endline="364">MdDox::GenApi::Resources::Resource::getElementTextSource</references>
-        <references refid="a01171_1a7549ee9c43ba6b7244dce1df25366637" compoundref="a00296" startline="212" endline="217">MdDox::Char::toString</references>
-        <references refid="a01855_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="a00965" startline="55">_singleReturns</references>
-        <references refid="a01867_1a929acab4dfa9a419087f20cabc855a2a" compoundref="a00971" startline="754" endline="759">MdDox::GenApi::Resources::Resource::getSingleElementSource</references>
-        <references refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" compoundref="a00965" startline="57">_groups</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a54a45dd15eb51ff0b22923127e3f2dc5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::writeVisitElement</definition>
-        <argsstring>(OStream &amp;out)</argsstring>
-        <name>writeVisitElement</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="64" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="325" bodyend="363"/>
-        <references refid="a01855_1a45b775e686164e197337cff2e324321e" compoundref="a00965" startline="56">_elements</references>
-        <references refid="a01867_1a11b6143d99f855b2a71893787a34df84" compoundref="a00971" startline="967" endline="972">MdDox::GenApi::Resources::Resource::getVisitElementDecl</references>
-        <references refid="a01247_1a7c366ea2942779a96722181c617fbe35" compoundref="a00371" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
-        <references refid="a01855_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="a00965" startline="55">_singleReturns</references>
-        <references refid="a01855_1a58d8eb4faf1136b2574bec8e5dcebf65" compoundref="a00965" startline="54">_textReturns</references>
-        <references refid="a01867_1a8fa1f87c8d7cad40db0e8840fc19b184" compoundref="a00971" startline="1096" endline="1101">MdDox::GenApi::Resources::Resource::getVisitTextDecl</references>
-        <references refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" compoundref="a00965" startline="57">_groups</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a2f1e34a46c2afbc1f61057b31028db75" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::writeVisitElementItem</definition>
-        <argsstring>(OStream &amp;out, Element &amp;el)</argsstring>
-        <name>writeVisitElementItem</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="a01875" kindref="compound">Element</ref> &amp;</type>
-          <declname>el</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="70" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="378" bodyend="383"/>
-        <references refid="a01875_1a3897087540c5626164ef8f16da74018f" compoundref="a00983" startline="45">MdDox::GenApi::Element::typeCode</references>
-        <references refid="a01875_1ac9f82d3050795fbd72514a8b42696874" compoundref="a00983" startline="44">MdDox::GenApi::Element::genName</references>
-        <references refid="a01875_1a8150789bc417d7f707902a76584a7170" compoundref="a00983" startline="43">MdDox::GenApi::Element::genType</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a852f0637694bf248fd2f007db3eafeba" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::writeVisitElementItems</definition>
-        <argsstring>(OStream &amp;out)</argsstring>
-        <name>writeVisitElementItems</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="74" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="392" bodyend="403"/>
-        <references refid="a01855_1a45b775e686164e197337cff2e324321e" compoundref="a00965" startline="56">_elements</references>
-        <references refid="a01855_1a2f1e34a46c2afbc1f61057b31028db75" compoundref="a00962" startline="378" endline="383">writeVisitElementItem</references>
-        <references refid="a01855_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="a00965" startline="55">_singleReturns</references>
-        <references refid="a01855_1a58d8eb4faf1136b2574bec8e5dcebf65" compoundref="a00965" startline="54">_textReturns</references>
-        <references refid="a01855_1ab9127617000e31463c5a23614d750b28" compoundref="a00962" startline="385" endline="390">writeVisitElementItemText</references>
-        <references refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" compoundref="a00965" startline="57">_groups</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1ab9127617000e31463c5a23614d750b28" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::writeVisitElementItemText</definition>
-        <argsstring>(OStream &amp;out, Element &amp;el)</argsstring>
-        <name>writeVisitElementItemText</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="a01875" kindref="compound">Element</ref> &amp;</type>
-          <declname>el</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="72" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="385" bodyend="390"/>
-        <references refid="a01875_1a3897087540c5626164ef8f16da74018f" compoundref="a00983" startline="45">MdDox::GenApi::Element::typeCode</references>
-        <references refid="a01875_1ac9f82d3050795fbd72514a8b42696874" compoundref="a00983" startline="44">MdDox::GenApi::Element::genName</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a45beb0e96c63403bbc99b7e7dadcaba0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::writeVisitElementSource</definition>
-        <argsstring>(OStream &amp;out)</argsstring>
-        <name>writeVisitElementSource</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="68" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="365" bodyend="376"/>
-        <references refid="a01855_1a852f0637694bf248fd2f007db3eafeba" compoundref="a00962" startline="392" endline="403">writeVisitElementItems</references>
-        <references refid="a01867_1adacbea03e116e2dad7cf6468b5617c65" compoundref="a00971" startline="1001" endline="1006">MdDox::GenApi::Resources::Resource::getVisitElementSource</references>
-        <references refid="a01247_1a7c366ea2942779a96722181c617fbe35" compoundref="a00371" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
-        <references refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="a00968" startline="32">MdDox::GenApi::Object::_name</references>
+        <location file="Source/MdDox/Main.cpp" line="126" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="126" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01855_1afbb9dc3336478795a577993abc87cbdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="a01855_1a580e1b1886d5514923557a3da827c04e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
-        <definition>MdDox::GenApi::Group::Group</definition>
-        <argsstring>(Xml::Node *node, String name, String type)</argsstring>
-        <name>Group</name>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-          <declname>type</declname>
-        </param>
+        <definition>MdDox::Application::Application</definition>
+        <argsstring>()</argsstring>
+        <name>Application</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="89" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="31" bodyend="36"/>
+        <location file="Source/MdDox/Main.cpp" line="132" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="132" bodyend="135"/>
       </memberdef>
-      <memberdef kind="function" id="a01855_1a44246225a27853a77ab1550b245609d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="a01855_1adb48bbeb26bb380844dafb81e4e9ba79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
-        <definition>MdDox::GenApi::Group::Group</definition>
-        <argsstring>(const Group &amp;group, String name)</argsstring>
-        <name>Group</name>
-        <param>
-          <type>const <ref refid="a01855" kindref="compound">Group</ref> &amp;</type>
-          <declname>group</declname>
-        </param>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-          <declname>name</declname>
-        </param>
+        <definition>MdDox::Application::~Application</definition>
+        <argsstring>()</argsstring>
+        <name>~Application</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="90" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="38" bodyend="52"/>
-        <references refid="a01855_1a45b775e686164e197337cff2e324321e" compoundref="a00965" startline="56">_elements</references>
-        <references refid="a01855_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="a00965" startline="55">_singleReturns</references>
-        <references refid="a01855_1a58d8eb4faf1136b2574bec8e5dcebf65" compoundref="a00965" startline="54">_textReturns</references>
-        <references refid="a01855_1a70c29435b823d9e9fb05f6e77101a228" compoundref="a00965" startline="48">_stringAttributes</references>
-        <references refid="a01855_1ac0ad6accc04e5671ca135fe95625a3b1" compoundref="a00965" startline="49">_integerAttributes</references>
-        <references refid="a01855_1a97b2a5261119b03d3970655b60707f76" compoundref="a00965" startline="51">_dependentTypes</references>
-        <references refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" compoundref="a00965" startline="57">_groups</references>
-        <references refid="a01855_1afbb9dc3336478795a577993abc87cbdc" compoundref="a00962" startline="31" endline="36">Group</references>
-        <references refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="a00968" startline="32">MdDox::GenApi::Object::_name</references>
+        <location file="Source/MdDox/Main.cpp" line="137" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="137" bodyend="140"/>
       </memberdef>
-      <memberdef kind="function" id="a01855_1ae3284ae5ed3a5e0484c721ab11be6045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::GenApi::Group::~Group</definition>
-        <argsstring>() override</argsstring>
-        <name>~Group</name>
+      <memberdef kind="function" id="a01855_1a5e26f2c61df5344be166f4030d232734" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MdDox::Application::go</definition>
+        <argsstring>()</argsstring>
+        <name>go</name>
         <briefdescription>
-        </briefdescription>
+<para>Is the primary application routine. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para>Zero on success or not at all if an internal exception is raised. </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="91" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="54" bodyend="58"/>
-        <references refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" compoundref="a00965" startline="57">_groups</references>
+        <location file="Source/MdDox/Main.cpp" line="170" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="170" bodyend="189"/>
+        <references refid="a02019_1a1cf92964093f95d7a65fbf17355c387a" compoundref="a01124" startline="136" endline="200">MdDox::SiteBuilder::loadConfig</references>
+        <references refid="a02019_1a4c999e025cc414b6a323d0328527ee1f" compoundref="a01127" startline="277">MdDox::SiteBuilder::backendType</references>
+        <references refid="a01838_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" compoundref="a01127" startline="45">MdDox::BackendMarkdown</references>
+        <references refid="a01838_1a64e89506cd6e8d71ef2d84c3f0521bffaf0a84bc4cba0f83c21a94c6e7f5a21ae" compoundref="a01127" startline="41">MdDox::BackendHtml</references>
+        <references refid="a02019_1a791dee508bba850fa164d1f9a81e26da" compoundref="a01124" startline="59" endline="85">MdDox::SiteBuilder::buildFromXml</references>
+        <references refid="a02091_1affcdc94254d5be39dd6e195cfff55092" compoundref="a01217" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
       </memberdef>
-      <memberdef kind="function" id="a01855_1af1f857fb9ca4e94790b29de7ed0c3bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::addElement</definition>
-        <argsstring>(const Element &amp;element)</argsstring>
-        <name>addElement</name>
+      <memberdef kind="function" id="a01855_1a7464ef04382b7dd0c71069b178b9c42b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::Application::parse</definition>
+        <argsstring>(const int argc, char **argv)</argsstring>
+        <name>parse</name>
         <param>
-          <type>const <ref refid="a01875" kindref="compound">Element</ref> &amp;</type>
-          <declname>element</declname>
+          <type>const int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Interprets the supplied command line variables. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para>True on success, otherwise, false if the parser fails to parse the arguments. </para></simplesect>
+<simplesect kind="see"><para><ref refid="a01844" kindref="compound">MdDox::CommandLine</ref> </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="99" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="86" bodyend="97"/>
-        <references refid="a01855_1a97b2a5261119b03d3970655b60707f76" compoundref="a00965" startline="51">_dependentTypes</references>
-        <references refid="a01875_1a8150789bc417d7f707902a76584a7170" compoundref="a00983" startline="43">MdDox::GenApi::Element::genType</references>
-        <references refid="a01855_1a45b775e686164e197337cff2e324321e" compoundref="a00965" startline="56">_elements</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a58debcbe89901b51283db9008bcf40aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::addEnumAttribute</definition>
-        <argsstring>(const Attribute &amp;attr)</argsstring>
-        <name>addEnumAttribute</name>
-        <param>
-          <type>const <ref refid="a01255" kindref="compound">Attribute</ref> &amp;</type>
-          <declname>attr</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="107" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="77" bodyend="84"/>
-        <references refid="a01855_1ab691fb2100aa94a659dcda88a5884b7a" compoundref="a00965" startline="52">_dependentHeaderTypes</references>
-        <references refid="a01855_1a6a50c87e762c3dc61ff76a21322f1066" compoundref="a00965" startline="50">_enumAttributes</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1ab7373a29323cc8420720462ae2f55e2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::addGroup</definition>
-        <argsstring>(Group *group)</argsstring>
-        <name>addGroup</name>
-        <param>
-          <type><ref refid="a01855" kindref="compound">Group</ref> *</type>
-          <declname>group</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="105" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="117" bodyend="131"/>
-        <references refid="a01855_1afb0e32c688e5b3b0d497916c9dba829c" compoundref="a00962" startline="302" endline="305">replicate</references>
-        <references refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" compoundref="a00968" startline="32">MdDox::GenApi::Object::_name</references>
-        <references refid="a01855_1a97b2a5261119b03d3970655b60707f76" compoundref="a00965" startline="51">_dependentTypes</references>
-        <references refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" compoundref="a00965" startline="57">_groups</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a0ec10f2269dc9705c80d53d9124e3b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::addIntegerAttribute</definition>
-        <argsstring>(const Attribute &amp;attr)</argsstring>
-        <name>addIntegerAttribute</name>
-        <param>
-          <type>const <ref refid="a01255" kindref="compound">Attribute</ref> &amp;</type>
-          <declname>attr</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="97" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="71" bodyend="75"/>
-        <references refid="a01855_1ac0ad6accc04e5671ca135fe95625a3b1" compoundref="a00965" startline="49">_integerAttributes</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a7a69ae96c946a0074e2a2e09f4cd5173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::addSingleElement</definition>
-        <argsstring>(const Element &amp;element)</argsstring>
-        <name>addSingleElement</name>
-        <param>
-          <type>const <ref refid="a01875" kindref="compound">Element</ref> &amp;</type>
-          <declname>element</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="103" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="104" bodyend="115"/>
-        <references refid="a01855_1a97b2a5261119b03d3970655b60707f76" compoundref="a00965" startline="51">_dependentTypes</references>
-        <references refid="a01875_1a8150789bc417d7f707902a76584a7170" compoundref="a00983" startline="43">MdDox::GenApi::Element::genType</references>
-        <references refid="a01855_1a84facfa06d2fe6a525a53789969f3b1d" compoundref="a00965" startline="55">_singleReturns</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1ab1a610ffab87fc4c30b58fbc6b81f778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::addStringAttribute</definition>
-        <argsstring>(const Attribute &amp;attr)</argsstring>
-        <name>addStringAttribute</name>
-        <param>
-          <type>const <ref refid="a01255" kindref="compound">Attribute</ref> &amp;</type>
-          <declname>attr</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="95" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="65" bodyend="69"/>
-        <references refid="a01855_1a70c29435b823d9e9fb05f6e77101a228" compoundref="a00965" startline="48">_stringAttributes</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a9d1801a39a637e20ecdcae46ed7a6f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::addStringTextElement</definition>
-        <argsstring>(const Element &amp;name)</argsstring>
-        <name>addStringTextElement</name>
-        <param>
-          <type>const <ref refid="a01875" kindref="compound">Element</ref> &amp;</type>
-          <declname>name</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="101" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="99" bodyend="102"/>
-        <references refid="a01855_1a58d8eb4faf1136b2574bec8e5dcebf65" compoundref="a00965" startline="54">_textReturns</references>
-      </memberdef>
-      <memberdef kind="function" id="a01855_1a4e8dd1f4e16317ca926da1ec5e3a6592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Group::setForeach</definition>
-        <argsstring>(bool v)</argsstring>
-        <name>setForeach</name>
-        <param>
-          <type>bool</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Group.h" line="93" column="1" bodyfile="Tools/GenApi/Group.cpp" bodystart="60" bodyend="63"/>
-        <references refid="a01855_1a040f01434f53b98917564a2ae66fd60d" compoundref="a00965" startline="60">_foreach</references>
+        <location file="Source/MdDox/Main.cpp" line="147" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="147" bodyend="164"/>
+        <references refid="a02035_1a07ef47203678799f14aff45bd593f962" compoundref="a02985" startline="53" endline="177">MdDox::CommandLine::Parser::parse</references>
+        <references refid="a01838_1a05eb5502d200714d8a3f429bb891db0c" compoundref="a02976" startline="85">MdDox::Switches</references>
+        <references refid="a01838_1a2a045741e91ac06db43c953eae95c43eae01cfe25875523e198a57725e58d7e0a" compoundref="a02976" startline="82">MdDox::OpMax</references>
+        <references refid="a02035_1ae19e2d4dac9f9bcdf9af321798b91bf5" compoundref="a02985" startline="241" endline="256">MdDox::CommandLine::Parser::string</references>
+        <references refid="a01838_1a2a045741e91ac06db43c953eae95c43ea39b558e96c16007cf1aa78e3c082395c" compoundref="a02976" startline="65">MdDox::OptOutputDirectory</references>
+        <references refid="a01838_1a2a045741e91ac06db43c953eae95c43ea0a4e9b2b31a3270c55bdcfbd656dad67" compoundref="a02976" startline="73">MdDox::OptIndexFile</references>
+        <references refid="a01838_1a2a045741e91ac06db43c953eae95c43eaaf9ae2599ecf4ca56b203b90daa51595" compoundref="a02976" startline="81">MdDox::OptConfigFile</references>
+        <references refid="a02091_1a38c8b6c0791f16a60e2b9f542a7ef561" compoundref="a01220" startline="112" endline="115">MdDox::PathUtil::empty</references>
+        <references refid="a02035_1ada221ca664083f9a06a12f55e385a9f6" compoundref="a02985" startline="258" endline="263">MdDox::CommandLine::Parser::usage</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para><ref refid="a01855" kindref="compound">Application</ref> is the entry point of this project. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
-    <inheritancegraph>
-      <node id="784">
-        <label>MdDox::Xml::Writer</label>
-        <link refid="a01271"/>
-      </node>
-      <node id="783">
-        <label>MdDox::GenApi::Object</label>
-        <link refid="a01863"/>
-        <childnode refid="784" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="785">
-        <label>MdDox::GenApi::Complex</label>
-        <link refid="a01839"/>
-        <childnode refid="782" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="782">
-        <label>MdDox::GenApi::Group</label>
-        <link refid="a01855"/>
-        <childnode refid="783" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="788">
-        <label>MdDox::Xml::Writer</label>
-        <link refid="a01271"/>
-      </node>
-      <node id="795">
-        <label>vector&lt; Group *&gt;</label>
-      </node>
-      <node id="787">
-        <label>MdDox::GenApi::Object</label>
-        <link refid="a01863"/>
-        <childnode refid="788" relation="public-inheritance">
-        </childnode>
-        <childnode refid="789" relation="usage">
-          <edgelabel>_name</edgelabel>
-        </childnode>
-      </node>
-      <node id="792">
-        <label>MdDox::Xml::Node</label>
-        <link refid="a01259"/>
-        <childnode refid="793" relation="usage">
-          <edgelabel>_autoDelete</edgelabel>
-        </childnode>
-      </node>
-      <node id="790">
-        <label>unordered_map&lt; String, String &gt;</label>
-      </node>
-      <node id="789">
-        <label>string</label>
-      </node>
-      <node id="794">
-        <label>unordered_map&lt; std::string, std::string &gt;</label>
-      </node>
-      <node id="786">
-        <label>MdDox::GenApi::Group</label>
-        <link refid="a01855"/>
-        <childnode refid="787" relation="public-inheritance">
-        </childnode>
-        <childnode refid="790" relation="usage">
-          <edgelabel>_stringAttributes</edgelabel>
-          <edgelabel>_enumAttributes</edgelabel>
-          <edgelabel>_integerAttributes</edgelabel>
-        </childnode>
-        <childnode refid="791" relation="usage">
-          <edgelabel>_textReturns</edgelabel>
-          <edgelabel>_elements</edgelabel>
-          <edgelabel>_singleReturns</edgelabel>
-        </childnode>
-        <childnode refid="792" relation="usage">
-          <edgelabel>_node</edgelabel>
-        </childnode>
-        <childnode refid="794" relation="usage">
-          <edgelabel>_dependentHeaderTypes</edgelabel>
-          <edgelabel>_dependentTypes</edgelabel>
-        </childnode>
-        <childnode refid="793" relation="usage">
-          <edgelabel>_first</edgelabel>
-          <edgelabel>_foreach</edgelabel>
-        </childnode>
-        <childnode refid="789" relation="usage">
-          <edgelabel>_tagType</edgelabel>
-        </childnode>
-        <childnode refid="795" relation="usage">
-          <edgelabel>_groups</edgelabel>
-        </childnode>
-      </node>
-      <node id="791">
-        <label>vector&lt; Element &gt;</label>
-      </node>
-      <node id="793">
-        <label>bool</label>
-      </node>
-    </collaborationgraph>
-    <location file="Tools/GenApi/Group.h" line="43" column="1" bodyfile="Tools/GenApi/Group.h" bodystart="42" bodyend="108"/>
+<para>Its primary responsibility is to collect just enough information to instantiate a <ref refid="a02019" kindref="compound">MdDox::SiteBuilder</ref>. <linebreak/>
+<linebreak/>
+<bold>The site builder</bold> handles setting up and running the main loop. It stores references to other pages and general configuration properties to control the final output. <linebreak/>
+<linebreak/>
+ The following diagram outlines its main routine. <linebreak/>
+<linebreak/>
+ <dot>
+digraph {
+
+  layout  = dot;
+  bgcolor = &quot;${graph-bg}&quot;;
+  rankdir = &quot;LR&quot;;
+  labelloc= &quot;t&quot;
+  label   = &quot;Build Routine&quot;
+  fontname= &quot;${font-family}&quot;
+  fontsize= &quot;${font-size}&quot;
+  margin  = &quot;${node-primary-margin}&quot;
+
+  node [
+    shape     = none
+    style     = none
+    fontname  = &quot;${font-family}&quot;
+    fontsize  = &quot;${font-size}&quot;
+    fontcolor = &quot;${node-primary-text}&quot;
+    color     = &quot;${node-primary-border}&quot;
+    fillcolor = &quot;${node-primary-exe}&quot;
+    margin    = &quot;0.01&quot;
+  ]
+  edge [
+    arrowsize = &quot;${arrow-size}&quot;
+    fontname  = &quot;${font-family}&quot;
+    fontsize  = &quot;${font-size}&quot;
+    color     = &quot;${node-primary-edge}&quot;
+    fontcolor = &quot;${node-primary-text}&quot;
+  ]
+  SiteBuilder-&gt;Config[dir=back]
+
+  {rank=same Config SiteBuilder}
+
+  SiteBuilder-&gt;buildFromXml
+  buildFromXml-&gt;Build
+  buildFromXml-&gt;WriteIndex
+  buildFromXml-&gt;Dispatch
+  buildFromXml-&gt;ConvertGraphs
+  Dispatch-&gt;BuildItem
+  Dispatch-&gt;WriteItem
+}
+</dot>
+ <linebreak/>
+<linebreak/>
+ It needs to have all configuration parameters set before running. From there, it needs to load Doxygen&apos;s index file. With the input, it writes a primary index, class index, page index, namespace index, and directory index.</para><para>The application will then branch off and iterate over all individual elements which will invoke writers for each element. </para>    </detaileddescription>
+    <location file="Source/MdDox/Main.cpp" line="124" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="123" bodyend="190"/>
     <listofallmembers>
-      <member refid="a01855_1ab691fb2100aa94a659dcda88a5884b7a" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_dependentHeaderTypes</name></member>
-      <member refid="a01855_1a97b2a5261119b03d3970655b60707f76" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_dependentTypes</name></member>
-      <member refid="a01855_1a45b775e686164e197337cff2e324321e" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_elements</name></member>
-      <member refid="a01855_1a6a50c87e762c3dc61ff76a21322f1066" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_enumAttributes</name></member>
-      <member refid="a01855_1a170ee7fc3edb34e81da2028023d5a88f" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_first</name></member>
-      <member refid="a01855_1a040f01434f53b98917564a2ae66fd60d" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_foreach</name></member>
-      <member refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_groups</name></member>
-      <member refid="a01855_1ac0ad6accc04e5671ca135fe95625a3b1" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_integerAttributes</name></member>
-      <member refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_name</name></member>
-      <member refid="a01855_1a3e6d87b5fadced46e6decede161443a8" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_node</name></member>
-      <member refid="a01855_1a84facfa06d2fe6a525a53789969f3b1d" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_singleReturns</name></member>
-      <member refid="a01855_1a70c29435b823d9e9fb05f6e77101a228" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_stringAttributes</name></member>
-      <member refid="a01855_1a3f2b6d71aaefa528f3950197904307e4" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_tagType</name></member>
-      <member refid="a01855_1a58d8eb4faf1136b2574bec8e5dcebf65" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>_textReturns</name></member>
-      <member refid="a01855_1af1f857fb9ca4e94790b29de7ed0c3bde" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>addElement</name></member>
-      <member refid="a01855_1a58debcbe89901b51283db9008bcf40aa" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>addEnumAttribute</name></member>
-      <member refid="a01855_1ab7373a29323cc8420720462ae2f55e2e" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>addGroup</name></member>
-      <member refid="a01855_1a0ec10f2269dc9705c80d53d9124e3b8f" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>addIntegerAttribute</name></member>
-      <member refid="a01855_1a7a69ae96c946a0074e2a2e09f4cd5173" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>addSingleElement</name></member>
-      <member refid="a01855_1ab1a610ffab87fc4c30b58fbc6b81f778" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>addStringAttribute</name></member>
-      <member refid="a01855_1a9d1801a39a637e20ecdcae46ed7a6f16" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>addStringTextElement</name></member>
-      <member refid="a01855_1a8d616c9df8cf6fa56e4bbbde7be635b5" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>canHaveVisitors</name></member>
-      <member refid="a01855_1afbb9dc3336478795a577993abc87cbdc" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>Group</name></member>
-      <member refid="a01855_1a44246225a27853a77ab1550b245609d7" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>Group</name></member>
-      <member refid="a01863_1a6be862a818c5b97b96fa69e6e29f4ba9" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>Object</name></member>
-      <member refid="a01855_1afb0e32c688e5b3b0d497916c9dba829c" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>replicate</name></member>
-      <member refid="a01855_1a4e8dd1f4e16317ca926da1ec5e3a6592" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>setForeach</name></member>
-      <member refid="a01271_1a7d48f1a4ee7a1bbefb8ca05a0ded4536" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>setIndent</name></member>
-      <member refid="a01271_1a386ffcf7d74ba57836183ad2be6214a5" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>setWriteXml</name></member>
-      <member refid="a01271_1a3de47d9176cd5216f12c3e71d7c6e828" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>write</name></member>
-      <member refid="a01855_1ac71d0fdad5e9b5e0f7384da2b9dfbbfa" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>writeForeachHeader</name></member>
-      <member refid="a01855_1a912a199b7b7d52badc355c7d89734263" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>writeForeachSource</name></member>
-      <member refid="a01855_1ae779a1556e2e68ee172437716dc02206" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>writeHeader</name></member>
-      <member refid="a01271_1ab057bff69eed3c14bd6fc1c7558af3c1" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>Writer</name></member>
-      <member refid="a01855_1af9680b0901481956bf51c025c9d6a79d" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>writeSource</name></member>
-      <member refid="a01855_1a888bd481755c42946dfdf6f28f33a587" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>writeStringGettersHeader</name></member>
-      <member refid="a01855_1a6283208a31ea3adfa8626e7713fe425a" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>writeStringGettersSource</name></member>
-      <member refid="a01855_1a54a45dd15eb51ff0b22923127e3f2dc5" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>writeVisitElement</name></member>
-      <member refid="a01855_1a2f1e34a46c2afbc1f61057b31028db75" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>writeVisitElementItem</name></member>
-      <member refid="a01855_1a852f0637694bf248fd2f007db3eafeba" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>writeVisitElementItems</name></member>
-      <member refid="a01855_1ab9127617000e31463c5a23614d750b28" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>writeVisitElementItemText</name></member>
-      <member refid="a01855_1a45beb0e96c63403bbc99b7e7dadcaba0" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>writeVisitElementSource</name></member>
-      <member refid="a01855_1ae3284ae5ed3a5e0484c721ab11be6045" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>~Group</name></member>
-      <member refid="a01863_1a4386695048c025b9141bc42bd45c1bf4" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>~Object</name></member>
-      <member refid="a01271_1aa7759dd2e58c15311613673da60ecb38" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Group</scope><name>~Writer</name></member>
+      <member refid="a01855_1ad91e8fbf7ab789a2799ac159ac14f702" prot="private" virt="non-virtual"><scope>MdDox::Application</scope><name>_config</name></member>
+      <member refid="a01855_1a7886a3f357cea319bf05b97330390c48" prot="private" virt="non-virtual"><scope>MdDox::Application</scope><name>_indexFile</name></member>
+      <member refid="a01855_1a72f5d19b9a07de16d8e1590dc5ed5d82" prot="private" virt="non-virtual"><scope>MdDox::Application</scope><name>_outDir</name></member>
+      <member refid="a01855_1ab7c709c2577f1bc90eb5c4630792d067" prot="private" virt="non-virtual"><scope>MdDox::Application</scope><name>_writer</name></member>
+      <member refid="a01855_1a580e1b1886d5514923557a3da827c04e" prot="public" virt="non-virtual"><scope>MdDox::Application</scope><name>Application</name></member>
+      <member refid="a01855_1a5e26f2c61df5344be166f4030d232734" prot="public" virt="non-virtual"><scope>MdDox::Application</scope><name>go</name></member>
+      <member refid="a01855_1a7464ef04382b7dd0c71069b178b9c42b" prot="public" virt="non-virtual"><scope>MdDox::Application</scope><name>parse</name></member>
+      <member refid="a01855_1adb48bbeb26bb380844dafb81e4e9ba79" prot="public" virt="non-virtual"><scope>MdDox::Application</scope><name>~Application</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

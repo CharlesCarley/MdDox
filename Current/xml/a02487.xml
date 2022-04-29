@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02487" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</compoundname>
+    <derivedcompoundref refid="a01967" prot="public" virt="non-virtual">MdDox::ListItemVisitor</derivedcompoundref>
+    <includes local="no">Tools/Doxygen/ParamListItemQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02487_1ae9e6bf9b5bab0102e9e0eb7cffa9f9a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::ParamListItemQueryVisitor::~ParamListItemQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ParamListItemQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamListItemQuery.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02487_1abb167851f92aa42f3bbe217c018c2c77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ParamListItemQueryVisitor::visitedParameterDescription</definition>
+        <argsstring>(const DescriptionQuery &amp;query)</argsstring>
+        <name>visitedParameterDescription</name>
+        <reimplementedby refid="a01967_1aef796bb55636bb4586b0f18c0320e37e">visitedParameterDescription</reimplementedby>
+        <param>
+          <type>const <ref refid="a02191" kindref="compound">DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>parameterdescription</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02191" kindref="compound">DescriptionQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamListItemQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/ParamListItemQuery.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="a02487_1aba0722de677dc1d813b33da4c7c525aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ParamListItemQueryVisitor::visitedParameterNameList</definition>
+        <argsstring>(const ParamNameListQuery &amp;query)</argsstring>
+        <name>visitedParameterNameList</name>
+        <reimplementedby refid="a01967_1a29071bddce7e5ea72f3438a4c6c455f1">visitedParameterNameList</reimplementedby>
+        <param>
+          <type>const <ref refid="a02507" kindref="compound">ParamNameListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>parameternamelist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02507" kindref="compound">ParamNameListQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamListItemQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/ParamListItemQuery.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="a02487_1ae70ad29573dafb0e4939ffeb1485348f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::ParamListItemQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamListItemQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/ParamListItemQuery.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="665">
+        <label>MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</label>
+        <link refid="a02487"/>
+      </node>
+      <node id="666">
+        <label>MdDox::ListItemVisitor</label>
+        <link refid="a01967"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Tools/Doxygen/ParamListItemQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/ParamListItemQuery.h" bodystart="30" bodyend="50"/>
+    <listofallmembers>
+      <member refid="a02487_1abb167851f92aa42f3bbe217c018c2c77" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</scope><name>visitedParameterDescription</name></member>
+      <member refid="a02487_1aba0722de677dc1d813b33da4c7c525aa" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</scope><name>visitedParameterNameList</name></member>
+      <member refid="a02487_1ae70ad29573dafb0e4939ffeb1485348f" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="a02487_1ae9e6bf9b5bab0102e9e0eb7cffa9f9a2" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</scope><name>~ParamListItemQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,555 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02079" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MdDox::ParserBase</compoundname>
+    <derivedcompoundref refid="a02115" prot="public" virt="non-virtual">MdDox::Xml::Parser</derivedcompoundref>
+    <includes local="no">Source/Utils/ParserBase/ParserBase.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="a02079_1a94883c47ca05b4a4e7cce0ca6a3113aa" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="a02087" kindref="compound">TokenBase</ref> &gt;</type>
+        <definition>typedef std::vector&lt;TokenBase&gt; MdDox::ParserBase::Tokens</definition>
+        <argsstring></argsstring>
+        <name>Tokens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="37" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="a02079_1abb5519919fc923246a9f1920fb2ba9c7" prot="protected" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t MdDox::ParserBase::_cursor</definition>
+        <argsstring></argsstring>
+        <name>_cursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="41" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a02079_1a8edb2d7d287e88090eb430341f67828a" prot="protected" static="no" mutable="no">
+        <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::ParserBase::_file</definition>
+        <argsstring></argsstring>
+        <name>_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="43" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a02079_1a107eaa72f369cbc2c57f443a800f1217" prot="protected" static="no" mutable="no">
+        <type><ref refid="a02091" kindref="compound">PathUtil</ref></type>
+        <definition>PathUtil MdDox::ParserBase::_filePath</definition>
+        <argsstring></argsstring>
+        <name>_filePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="44" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a02079_1a6ce8311252230db7c324e5ce7b398925" prot="protected" static="no" mutable="no">
+        <type><ref refid="a02083" kindref="compound">ScannerBase</ref> *</type>
+        <definition>ScannerBase* MdDox::ParserBase::_scanner</definition>
+        <argsstring></argsstring>
+        <name>_scanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="42" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a02079_1a42fbee3a9242a5258e95e9ab385e9e5a" prot="protected" static="no" mutable="no">
+        <type><ref refid="a02079_1a94883c47ca05b4a4e7cce0ca6a3113aa" kindref="member">Tokens</ref></type>
+        <definition>Tokens MdDox::ParserBase::_tokens</definition>
+        <argsstring></argsstring>
+        <name>_tokens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="40" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="a02079_1a6956fda4c66dbc07218db8042445e179" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::ParserBase::advanceCursor</definition>
+        <argsstring>(int32_t n=1)</argsstring>
+        <name>advanceCursor</name>
+        <param>
+          <type>int32_t</type>
+          <declname>n</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="52" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="66" bodyend="69"/>
+        <references refid="a02079_1abb5519919fc923246a9f1920fb2ba9c7" compoundref="a01205" startline="41">_cursor</references>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1a5f2b7f9f1caaf55cd7e44e0e3dd6b0a8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a02087" kindref="compound">TokenBase</ref></type>
+        <definition>TokenBase MdDox::ParserBase::getToken</definition>
+        <argsstring>(int32_t offs)</argsstring>
+        <name>getToken</name>
+        <param>
+          <type>int32_t</type>
+          <declname>offs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="50" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="53" bodyend="64"/>
+        <references refid="a01845_1aa4724d0a4f84fe5e28e47563b2f573fb" compoundref="a01229" startline="43" endline="47">MdDox::WriteUtils::next</references>
+        <references refid="a02079_1abb5519919fc923246a9f1920fb2ba9c7" compoundref="a01205" startline="41">_cursor</references>
+        <references refid="a02079_1a42fbee3a9242a5258e95e9ab385e9e5a" compoundref="a01205" startline="40">_tokens</references>
+        <references refid="a02079_1a615ff06f3d6d887d2848a4760124909a" compoundref="a01202" startline="41" endline="51">readToken</references>
+        <references refid="a02079_1a13e425882d79abc83dba96ab48d1dce1" compoundref="a01205" startline="98" endline="104">parseError</references>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1a13e425882d79abc83dba96ab48d1dce1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MdDox::ParserBase::parseError</definition>
+        <argsstring>(const String &amp;what, Args &amp;&amp;... args)</argsstring>
+        <name>parseError</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>what</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="57" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="98" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1a02bc2a2a593910851baa7ceabd40a2d7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::ParserBase::parseErrorMessageImpl</definition>
+        <argsstring>(String &amp;dest, const String &amp;message)</argsstring>
+        <name>parseErrorMessageImpl</name>
+        <reimplementedby refid="a02115_1a98dee9f1e397676429379b4f37f4a102">parseErrorMessageImpl</reimplementedby>
+        <param>
+          <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="65" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1a5404ff42a2123418470cb05d4dfed7ef" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::ParserBase::parseImpl</definition>
+        <argsstring>(IStream &amp;is)=0</argsstring>
+        <name>parseImpl</name>
+        <reimplementedby refid="a02115_1a30e57acd6ad20a321818d83d3b52a465">parseImpl</reimplementedby>
+        <param>
+          <type><ref refid="a01838_1a9601d0e9c9bcb992817361caf37a8518" kindref="member">IStream</ref> &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1a615ff06f3d6d887d2848a4760124909a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::ParserBase::readToken</definition>
+        <argsstring>(int32_t n=1)</argsstring>
+        <name>readToken</name>
+        <param>
+          <type>int32_t</type>
+          <declname>n</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="54" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="41" bodyend="51"/>
+        <references refid="a02079_1a6ce8311252230db7c324e5ce7b398925" compoundref="a01205" startline="42">_scanner</references>
+        <references refid="a02083_1af35e6bac3429139d85df8cf603851613" compoundref="a01208" startline="34" endline="36">MdDox::ScannerBase::scan</references>
+        <references refid="a02079_1a42fbee3a9242a5258e95e9ab385e9e5a" compoundref="a01205" startline="40">_tokens</references>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1a1314b474cbdbc362d47dcf241a517222" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::ParserBase::writeImpl</definition>
+        <argsstring>(OStream &amp;is, int format=0)=0</argsstring>
+        <name>writeImpl</name>
+        <reimplementedby refid="a02115_1adbc7b2e81049dbc50d276a24f0c6b55e">writeImpl</reimplementedby>
+        <param>
+          <type><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>format</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="a02079_1a36b7a2b51b2104a3cec8eae2132c616e" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MdDox::ParserBase::line</definition>
+        <argsstring>() const</argsstring>
+        <name>line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="62" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="111" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1a72100d55bcca3b188c4d91e40b145283" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::ParserBase::parseErrorThrow</definition>
+        <argsstring>(const String &amp;message)</argsstring>
+        <name>parseErrorThrow</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="60" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="71" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02079_1aebb2025156d05505a546823d7ba001b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::ParserBase::ParserBase</definition>
+        <argsstring>()</argsstring>
+        <name>ParserBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="68" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1a249b185c5ebf2037d80b9945761f4cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>MdDox::ParserBase::~ParserBase</definition>
+        <argsstring>()</argsstring>
+        <name>~ParserBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1ad734d784406cf4f771ea2a49e812c653" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::ParserBase::filename</definition>
+        <argsstring>() const</argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The file name or memory stream name associated with this parser. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="94" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="106" bodyend="109"/>
+        <references refid="a02079_1a107eaa72f369cbc2c57f443a800f1217" compoundref="a01205" startline="44">_filePath</references>
+        <references refid="a02091_1affcdc94254d5be39dd6e195cfff55092" compoundref="a01217" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1ac0f4754066eb37834a6e6bed93993b50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::ParserBase::parse</definition>
+        <argsstring>(const String &amp;file)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Attempts to load the supplied file. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The file system path to the file.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="a02055" kindref="compound">MdDox::Exception</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if the supplied path does not exist on disk. or cannot be opened. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="78" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="83" bodyend="99"/>
+        <references refid="a02091_1a76a0e63f574b4c06d4945dc764df1243" compoundref="a01217" startline="176" endline="179">MdDox::PathUtil::exists</references>
+        <references refid="a02079_1a8edb2d7d287e88090eb430341f67828a" compoundref="a01205" startline="43">_file</references>
+        <references refid="a02091_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="a01217" startline="126" endline="129">MdDox::PathUtil::stem</references>
+        <references refid="a02079_1a107eaa72f369cbc2c57f443a800f1217" compoundref="a01205" startline="44">_filePath</references>
+        <references refid="a02079_1a5404ff42a2123418470cb05d4dfed7ef">parseImpl</references>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1a884796f223c9d1b9057608f92a9af001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::ParserBase::parse</definition>
+        <argsstring>(IStream &amp;is, const String &amp;file=&quot;&quot;)</argsstring>
+        <name>parse</name>
+        <param>
+          <type><ref refid="a01838_1a9601d0e9c9bcb992817361caf37a8518" kindref="member">IStream</ref> &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>file</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attempts to load the supplied file. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>is</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="85" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="101" bodyend="115"/>
+        <references refid="a02099_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" compoundref="a01223" startline="204" endline="227">MdDox::StringUtils::scramble</references>
+        <references refid="a02079_1a8edb2d7d287e88090eb430341f67828a" compoundref="a01205" startline="43">_file</references>
+        <references refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a01226" startline="223" endline="228">MdDox::StringCombine</references>
+        <references refid="a02079_1a107eaa72f369cbc2c57f443a800f1217" compoundref="a01205" startline="44">_filePath</references>
+        <references refid="a02079_1a5404ff42a2123418470cb05d4dfed7ef">parseImpl</references>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1a6d6c1f0ad6c720d3ef28e1cc5a5fb0fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::ParserBase::write</definition>
+        <argsstring>(const String &amp;file, int format=0)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>format</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="87" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="117" bodyend="124"/>
+        <references refid="a02079_1a1314b474cbdbc362d47dcf241a517222">writeImpl</references>
+      </memberdef>
+      <memberdef kind="function" id="a02079_1abbe1d457527272c0cf2c4ab4376b9b11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::ParserBase::write</definition>
+        <argsstring>(OStream &amp;os, int format=0)</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>format</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ParserBase.h" line="89" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.cpp" bodystart="126" bodyend="129"/>
+        <references refid="a02079_1a1314b474cbdbc362d47dcf241a517222">writeImpl</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base that handles common parse functionality. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="947">
+        <label>MdDox::Xml::Parser</label>
+        <link refid="a02115"/>
+        <childnode refid="946" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="946">
+        <label>MdDox::ParserBase</label>
+        <link refid="a02079"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="953">
+        <label>MdDox::ScannerBase</label>
+        <link refid="a02083"/>
+        <childnode refid="954" relation="usage">
+          <edgelabel>_stringTable</edgelabel>
+        </childnode>
+        <childnode refid="955" relation="usage">
+          <edgelabel>_intTable</edgelabel>
+        </childnode>
+        <childnode refid="956" relation="usage">
+          <edgelabel>_line</edgelabel>
+        </childnode>
+        <childnode refid="951" relation="usage">
+          <edgelabel>_file</edgelabel>
+        </childnode>
+        <childnode refid="957" relation="usage">
+          <edgelabel>_stream</edgelabel>
+        </childnode>
+      </node>
+      <node id="956">
+        <label>size_t</label>
+      </node>
+      <node id="957">
+        <label>IStream *</label>
+      </node>
+      <node id="950">
+        <label>int32_t</label>
+      </node>
+      <node id="952">
+        <label>string</label>
+      </node>
+      <node id="949">
+        <label>vector&lt; TokenBase &gt;</label>
+      </node>
+      <node id="955">
+        <label>MdDox::IndexCache&lt; int &gt;</label>
+        <link refid="a02063"/>
+      </node>
+      <node id="954">
+        <label>MdDox::IndexCache&lt; String &gt;</label>
+        <link refid="a02063"/>
+      </node>
+      <node id="948">
+        <label>MdDox::ParserBase</label>
+        <link refid="a02079"/>
+        <childnode refid="949" relation="usage">
+          <edgelabel>_tokens</edgelabel>
+        </childnode>
+        <childnode refid="950" relation="usage">
+          <edgelabel>_cursor</edgelabel>
+        </childnode>
+        <childnode refid="951" relation="usage">
+          <edgelabel>_filePath</edgelabel>
+        </childnode>
+        <childnode refid="952" relation="usage">
+          <edgelabel>_file</edgelabel>
+        </childnode>
+        <childnode refid="953" relation="usage">
+          <edgelabel>_scanner</edgelabel>
+        </childnode>
+      </node>
+      <node id="951">
+        <label>MdDox::PathUtil</label>
+        <link refid="a02091"/>
+      </node>
+    </collaborationgraph>
+    <location file="Source/Utils/ParserBase/ParserBase.h" line="35" column="1" bodyfile="Source/Utils/ParserBase/ParserBase.h" bodystart="34" bodyend="95"/>
+    <listofallmembers>
+      <member refid="a02079_1abb5519919fc923246a9f1920fb2ba9c7" prot="protected" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>_cursor</name></member>
+      <member refid="a02079_1a8edb2d7d287e88090eb430341f67828a" prot="protected" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>_file</name></member>
+      <member refid="a02079_1a107eaa72f369cbc2c57f443a800f1217" prot="protected" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>_filePath</name></member>
+      <member refid="a02079_1a6ce8311252230db7c324e5ce7b398925" prot="protected" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>_scanner</name></member>
+      <member refid="a02079_1a42fbee3a9242a5258e95e9ab385e9e5a" prot="protected" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>_tokens</name></member>
+      <member refid="a02079_1a6956fda4c66dbc07218db8042445e179" prot="protected" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>advanceCursor</name></member>
+      <member refid="a02079_1ad734d784406cf4f771ea2a49e812c653" prot="public" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>filename</name></member>
+      <member refid="a02079_1a5f2b7f9f1caaf55cd7e44e0e3dd6b0a8" prot="protected" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>getToken</name></member>
+      <member refid="a02079_1a36b7a2b51b2104a3cec8eae2132c616e" prot="private" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>line</name></member>
+      <member refid="a02079_1ac0f4754066eb37834a6e6bed93993b50" prot="public" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>parse</name></member>
+      <member refid="a02079_1a884796f223c9d1b9057608f92a9af001" prot="public" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>parse</name></member>
+      <member refid="a02079_1a13e425882d79abc83dba96ab48d1dce1" prot="protected" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>parseError</name></member>
+      <member refid="a02079_1a02bc2a2a593910851baa7ceabd40a2d7" prot="protected" virt="virtual"><scope>MdDox::ParserBase</scope><name>parseErrorMessageImpl</name></member>
+      <member refid="a02079_1a72100d55bcca3b188c4d91e40b145283" prot="private" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>parseErrorThrow</name></member>
+      <member refid="a02079_1a5404ff42a2123418470cb05d4dfed7ef" prot="protected" virt="pure-virtual"><scope>MdDox::ParserBase</scope><name>parseImpl</name></member>
+      <member refid="a02079_1aebb2025156d05505a546823d7ba001b7" prot="public" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>ParserBase</name></member>
+      <member refid="a02079_1a615ff06f3d6d887d2848a4760124909a" prot="protected" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>readToken</name></member>
+      <member refid="a02079_1a94883c47ca05b4a4e7cce0ca6a3113aa" prot="public" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>Tokens</name></member>
+      <member refid="a02079_1a6d6c1f0ad6c720d3ef28e1cc5a5fb0fd" prot="public" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>write</name></member>
+      <member refid="a02079_1abbe1d457527272c0cf2c4ab4376b9b11" prot="public" virt="non-virtual"><scope>MdDox::ParserBase</scope><name>write</name></member>
+      <member refid="a02079_1a1314b474cbdbc362d47dcf241a517222" prot="protected" virt="pure-virtual"><scope>MdDox::ParserBase</scope><name>writeImpl</name></member>
+      <member refid="a02079_1a249b185c5ebf2037d80b9945761f4cbf" prot="public" virt="virtual"><scope>MdDox::ParserBase</scope><name>~ParserBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

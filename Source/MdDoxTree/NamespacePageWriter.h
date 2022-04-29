@@ -82,7 +82,8 @@ namespace MdDox
         void preSortQuery(const Doxygen::CompoundDefQuery& query) override;
 
         void notifyBriefDescription(const Doxygen::DescriptionQuery& query) override;
-        void notifyDetailDescriptionHeading(const Doxygen::DescriptionQuery& query) override;
+        //void notifyDetailDescriptionHeading(const Doxygen::DescriptionQuery& query) override;
+        void notifyDetailDescription(const Doxygen::DescriptionQuery& query) override;
 
     public:
         NamespacePageWriter(DocumentWriter* writer, const Reference& ref, const PathUtil& out);

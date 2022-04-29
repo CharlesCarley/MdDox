@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01433" kind="file" language="C++">
+    <compoundname>DoxygenIndexQuery.h</compoundname>
+    <includes refid="a01427" local="yes">Doxygen.h</includes>
+    <includedby refid="a00998" local="yes">Source/MdDoxTree/IndexPageWriter.h</includedby>
+    <includedby refid="a01124" local="yes">Source/MdDoxTree/SiteBuilder.cpp</includedby>
+    <includedby refid="a01430" local="yes">Tools/Doxygen/DoxygenIndexQuery.cpp</includedby>
+    <incdepgraph>
+      <node id="6319">
+        <label>Utils/Console.h</label>
+        <childnode refid="6307" relation="include">
+        </childnode>
+      </node>
+      <node id="6313">
+        <label>iomanip</label>
+      </node>
+      <node id="6305">
+        <label>functional</label>
+      </node>
+      <node id="6315">
+        <label>Utils/Exception.h</label>
+        <childnode refid="6316" relation="include">
+        </childnode>
+        <childnode refid="6317" relation="include">
+        </childnode>
+        <childnode refid="6318" relation="include">
+        </childnode>
+        <childnode refid="6319" relation="include">
+        </childnode>
+        <childnode refid="6307" relation="include">
+        </childnode>
+      </node>
+      <node id="6317">
+        <label>stdexcept</label>
+      </node>
+      <node id="6311">
+        <label>string</label>
+      </node>
+      <node id="6304">
+        <label>Doxygen.h</label>
+        <childnode refid="6305" relation="include">
+        </childnode>
+        <childnode refid="6306" relation="include">
+        </childnode>
+        <childnode refid="6307" relation="include">
+        </childnode>
+        <childnode refid="6314" relation="include">
+        </childnode>
+        <childnode refid="6315" relation="include">
+        </childnode>
+      </node>
+      <node id="6303">
+        <label>Tools/Doxygen/DoxygenIndexQuery.h</label>
+        <link refid="a01433"/>
+        <childnode refid="6304" relation="include">
+        </childnode>
+      </node>
+      <node id="6316">
+        <label>exception</label>
+      </node>
+      <node id="6309">
+        <label>fstream</label>
+      </node>
+      <node id="6314">
+        <label>Xml/Node.h</label>
+        <childnode refid="6305" relation="include">
+        </childnode>
+        <childnode refid="6306" relation="include">
+        </childnode>
+        <childnode refid="6307" relation="include">
+        </childnode>
+      </node>
+      <node id="6307">
+        <label>Utils/String.h</label>
+        <childnode refid="6308" relation="include">
+        </childnode>
+        <childnode refid="6309" relation="include">
+        </childnode>
+        <childnode refid="6310" relation="include">
+        </childnode>
+        <childnode refid="6311" relation="include">
+        </childnode>
+        <childnode refid="6306" relation="include">
+        </childnode>
+        <childnode refid="6312" relation="include">
+        </childnode>
+        <childnode refid="6313" relation="include">
+        </childnode>
+      </node>
+      <node id="6312">
+        <label>vector</label>
+      </node>
+      <node id="6318">
+        <label>utility</label>
+      </node>
+      <node id="6310">
+        <label>sstream</label>
+      </node>
+      <node id="6308">
+        <label>deque</label>
+      </node>
+      <node id="6306">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6320">
+        <label>Tools/Doxygen/DoxygenIndexQuery.h</label>
+        <link refid="a01433"/>
+        <childnode refid="6321" relation="include">
+        </childnode>
+        <childnode refid="6323" relation="include">
+        </childnode>
+        <childnode refid="6324" relation="include">
+        </childnode>
+      </node>
+      <node id="6324">
+        <label>Tools/Doxygen/DoxygenIndexQuery.cpp</label>
+      </node>
+      <node id="6323">
+        <label>Source/MdDoxTree/SiteBuilder.cpp</label>
+      </node>
+      <node id="6321">
+        <label>Source/MdDoxTree/IndexPageWriter.h</label>
+        <childnode refid="6322" relation="include">
+        </childnode>
+        <childnode refid="6323" relation="include">
+        </childnode>
+      </node>
+      <node id="6322">
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a02275" prot="public">MdDox::Doxygen::DoxygenIndexQuery</innerclass>
+    <innerclass refid="a02271" prot="public">MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</innerclass>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
+    <innernamespace refid="a01847">MdDox::Doxygen::Visitors</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Visitors</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30" refid="a02271" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02271" kindref="compound">DoxygenIndexQueryVisitor</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="a02271_1a881d221a3666470719a896e8e6da056a" kindref="member">~DoxygenIndexQueryVisitor</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="a02271_1aee3b9d953712e03e879fd89455634d92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02271_1aee3b9d953712e03e879fd89455634d92" kindref="member" tooltip="Callback for every _text_node. ">visitedText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="43" refid="a02271_1af842c6cf37aa95f753ba014eda4832f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02271_1af842c6cf37aa95f753ba014eda4832f2" kindref="member" tooltip="Called when the element compound is found. ">visitedCompound</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02171" kindref="compound" tooltip="Implements the CompoundIndexType scaffolding. ">CompoundIndexQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62" refid="a02275" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02275" kindref="compound" tooltip="Implements the DoxygenIndexType scaffolding. ">DoxygenIndexQuery</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02267" kindref="compound">Query</ref></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02275_1a01611237cc2ac6672a84f25078342e26" kindref="member">DoxygenIndexQuery</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02275_1a01611237cc2ac6672a84f25078342e26" kindref="member">DoxygenIndexQuery</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02275" kindref="compound" tooltip="Implements the DoxygenIndexType scaffolding. ">DoxygenIndexQuery</ref>&amp;<sp/>other)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="a02275_1a37e7b788a0fdae0fef94c5e8f06854a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="a02275_1a37e7b788a0fdae0fef94c5e8f06854a3" kindref="member">DoxygenIndexQuery</ref>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/><ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02267" kindref="compound">Query</ref>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02275_1a6130311bce2c4a7e332bfb57211946b2" kindref="member">visit</ref>(<ref refid="a02271" kindref="compound">Visitors::DoxygenIndexQueryVisitor</ref><sp/>*)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02275_1af3abfd66323f5c0c60319f9149cd05fc" kindref="member" tooltip="Provides access to the version attribute. ">getVersion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02275_1a96b49a370dc98867be9a604dd6d67082" kindref="member" tooltip="Invokes the supplied callback on compound elements. ">foreachCompound</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1a4fc3a64f77aa6faca62530a9c3a7cc6c" kindref="member">CompoundIndexQueryFunction</ref>&amp;<sp/>invoke)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/DoxygenIndexQuery.h"/>
+  </compounddef>
+</doxygen>

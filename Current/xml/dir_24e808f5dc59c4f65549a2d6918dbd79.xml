@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_24e808f5dc59c4f65549a2d6918dbd79" kind="dir">
     <compoundname>Source/TypeFilter</compoundname>
-    <innerfile refid="a00290">DoxygenFilter.cpp</innerfile>
-    <innerfile refid="a00293">DoxygenFilter.h</innerfile>
+    <innerfile refid="a01142">DoxygenFilter.cpp</innerfile>
+    <innerfile refid="a01145">DoxygenFilter.h</innerfile>
     <briefdescription>
 <para>Contains a constant static mapping of element names to enumerated types. </para>    </briefdescription>
     <detaileddescription>

@@ -2,12 +2,12 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_7d925da7aa4fec7d143339dda86741c5" kind="dir">
     <compoundname>Source/Utils/CommandLine</compoundname>
-    <innerfile refid="a00302">Option.h</innerfile>
-    <innerfile refid="a02133">Parser.cpp</innerfile>
-    <innerfile refid="a02139">Parser.h</innerfile>
-    <innerfile refid="a02145">Scanner.cpp</innerfile>
-    <innerfile refid="a02151">Scanner.h</innerfile>
-    <innerfile refid="a02157">Token.h</innerfile>
+    <innerfile refid="a01154">Option.h</innerfile>
+    <innerfile refid="a02985">Parser.cpp</innerfile>
+    <innerfile refid="a02991">Parser.h</innerfile>
+    <innerfile refid="a02997">Scanner.cpp</innerfile>
+    <innerfile refid="a03003">Scanner.h</innerfile>
+    <innerfile refid="a03009">Token.h</innerfile>
     <briefdescription>
 <para>Contains a basic command line argument parser. </para>    </briefdescription>
     <detaileddescription>

@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01939" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::MemberDefListingWriter</compoundname>
+    <basecompoundref refid="a02463" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::MemberDefQueryVisitor</basecompoundref>
+    <includes local="no">Source/MdDoxTree/MemberDefListingWriter.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a01939_1a31e945bfe890ee3662b6fea52a64d194" prot="private" static="no" mutable="no">
+        <type><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::MemberDefListingWriter::_out</definition>
+        <argsstring></argsstring>
+        <name>_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01939_1aac6450f3adc149ce3bb8002bdcdab7b1" prot="private" static="no" mutable="no">
+        <type><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+        <definition>OStream* MdDox::MemberDefListingWriter::_stream</definition>
+        <argsstring></argsstring>
+        <name>_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01939_1ae332c1e89c43033b4e961edf9f5b98f4" prot="private" static="no" mutable="no">
+        <type><ref refid="a01871" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::MemberDefListingWriter::_writer</definition>
+        <argsstring></argsstring>
+        <name>_writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="a01939_1a78b4c48515eb5affba2bbaafbfec3d33" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefListingWriter::visitedName</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedName</name>
+        <reimplements refid="a02463_1a31129dca7adde74aa4c7a148d2894c22">visitedName</reimplements>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>name</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.cpp" bodystart="34" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01939_1ac6c449d6abf250e07fb52e50081c5705" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::MemberDefListingWriter::MemberDefListingWriter</definition>
+        <argsstring>(DocumentWriter *writer, OStream *out)</argsstring>
+        <name>MemberDefListingWriter</name>
+        <param>
+          <type><ref refid="a01871" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.cpp" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="a01939_1ae019bd0201a6f1be00f0fa74a37db33a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::MemberDefListingWriter::write</definition>
+        <argsstring>(const Doxygen::MemberDefQuery &amp;mdq)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="a02467" kindref="compound">Doxygen::MemberDefQuery</ref> &amp;</type>
+          <declname>mdq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.cpp" bodystart="42" bodyend="50"/>
+        <references refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="a01427" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
+        <references refid="a02467_1a5f35691bd798dd06bb3344544bd83a69" compoundref="a01592" startline="36" endline="106">MdDox::Doxygen::MemberDefQuery::visit</references>
+        <references refid="a01838_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="a01136" startline="176" endline="187">MdDox::syncStream</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="882">
+        <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
+        <link refid="a02463"/>
+      </node>
+      <node id="881">
+        <label>MdDox::MemberDefListingWriter</label>
+        <link refid="a01939"/>
+        <childnode refid="882" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="884">
+        <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
+        <link refid="a02463"/>
+      </node>
+      <node id="883">
+        <label>MdDox::MemberDefListingWriter</label>
+        <link refid="a01939"/>
+        <childnode refid="884" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/MdDoxTree/MemberDefListingWriter.h" line="31" column="1" bodyfile="Source/MdDoxTree/MemberDefListingWriter.h" bodystart="30" bodyend="43"/>
+    <listofallmembers>
+      <member refid="a01939_1a31e945bfe890ee3662b6fea52a64d194" prot="private" virt="non-virtual"><scope>MdDox::MemberDefListingWriter</scope><name>_out</name></member>
+      <member refid="a01939_1aac6450f3adc149ce3bb8002bdcdab7b1" prot="private" virt="non-virtual"><scope>MdDox::MemberDefListingWriter</scope><name>_stream</name></member>
+      <member refid="a01939_1ae332c1e89c43033b4e961edf9f5b98f4" prot="private" virt="non-virtual"><scope>MdDox::MemberDefListingWriter</scope><name>_writer</name></member>
+      <member refid="a01939_1ac6c449d6abf250e07fb52e50081c5705" prot="public" virt="non-virtual"><scope>MdDox::MemberDefListingWriter</scope><name>MemberDefListingWriter</name></member>
+      <member refid="a02463_1a006132878ac6bd8e7068b9f22c32213c" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedArgsString</name></member>
+      <member refid="a02463_1a8d74a0a375c2a1e1b6adc13d4d535c84" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedBriefDescription</name></member>
+      <member refid="a02463_1af6f5e3e2685e7770fe1d2020d6078088" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedDefinition</name></member>
+      <member refid="a02463_1a3908192abe6af7c2dd845d0e1eadb28e" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedDetailedDescription</name></member>
+      <member refid="a02463_1a1645689701abd5f6e6f253bd19174117" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedEnumValue</name></member>
+      <member refid="a02463_1a39a2568b896da4f5e6c8a23f5beffc6f" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedExceptions</name></member>
+      <member refid="a02463_1a9b91ad481178b68369d47dafa0c9f7b5" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedInBodyDescription</name></member>
+      <member refid="a02463_1aa83c5a26f31c38a7702473d9d5280045" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedInitializer</name></member>
+      <member refid="a02463_1a310fd141c0e63196edd178b531c5ff91" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedLocation</name></member>
+      <member refid="a01939_1a78b4c48515eb5affba2bbaafbfec3d33" prot="private" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedName</name></member>
+      <member refid="a02463_1a10d681be509de10feeed51f5679f9bd1" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedParameter</name></member>
+      <member refid="a02463_1aef4eb183f509d685b9a7b4958603fce3" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedReferencedBy</name></member>
+      <member refid="a02463_1a8fa5a0682abee9c29053fdd5578a9559" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedReferences</name></member>
+      <member refid="a02463_1ad2c08e03b561365b25155545137c506d" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedReImplementedBy</name></member>
+      <member refid="a02463_1a2dc11969cc7b3596edb064093a472c23" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedReImplements</name></member>
+      <member refid="a02463_1acac770d1f242c13069d46ded92d8599b" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedTemplateParamList</name></member>
+      <member refid="a02463_1a517e31a3b398865139ac319704fc1636" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedText</name></member>
+      <member refid="a02463_1a5b18881ca1b21e683c9918d8939efda1" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedType</name></member>
+      <member refid="a02463_1a2d2296a52a26af00d2b5947f001baefa" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>visitedWrite</name></member>
+      <member refid="a01939_1ae019bd0201a6f1be00f0fa74a37db33a" prot="public" virt="non-virtual"><scope>MdDox::MemberDefListingWriter</scope><name>write</name></member>
+      <member refid="a02463_1a59ff64c01154536ffb1f4cd7e0635434" prot="public" virt="virtual"><scope>MdDox::MemberDefListingWriter</scope><name>~MemberDefQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -48,27 +48,22 @@ namespace MdDox::Xml
     typedef std::unordered_map<String, Node*> NodeMap;
 
     /**
-     * \brief Provides a tree structure to contain an XML document.
+     * \brief Provides an unbounded N-ary tree structure to store an XML document.
      *
-     * A Node represents a single XML tag.
+     * A node represents a single XML tag. As such, a node in a tree can have
+     * only one parent and (N) number of descendant nodes. Each node in the
+     * tree is allowed to have any number of attributes attached to it.\br
      *
-     * A single node in the tree can have one parent and (N) number of children.
-     * 
-     * Each node may contain any number of attributes attached to it.
-     * 
-     * Any node can optionally have plain-text data associated with it.
-     * In order to keep the internal text inline with tag based nodes,
-     * the parser creates a specialty node with the name <b>_text_node</b> to
-     * store blocks of text in between tags. The text node is pushed as a
-     * child node to the node on the top of the parse stack.
+     * In order to keep the internal text inlined with tag based nodes,
+     * the parser creates a specialty node with the name <tt>_text_node</tt>.
+     * The text node is pushed as an extra child node to the current node on
+     * the top of the parse stack.\br
      *
-     * All attributes are defined in the form of a string. Any extra type
-     * of serialization is beyond the scope of this class and must be handled
-     * elsewhere. There is, however, one exception to this if a type filter
-     * has been applied before parsing the file, an optional type code can
-     * be assigned to the node itself so that nodes can be type-checked
-     * with integers VS strings.
-     *
+     * To keep this library generic, all attributes are defined as a string,
+     * and any extra type of serialization is undefined. With one exception,
+     * an optional type filter can be applied before parsing the file. The
+     * filter allows integer type info to be associated with node, which allows
+     * nodes be type-checked with integers instead of strings.
      */
     class Node
     {

@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01694" kind="file" language="C++">
+    <compoundname>Sect1Query.cpp</compoundname>
+    <includes refid="a01697" local="yes">Sect1Query.h</includes>
+    <includes refid="a01145" local="yes">TypeFilter/DoxygenFilter.h</includes>
+    <includes refid="a01655" local="yes">ParaQuery.h</includes>
+    <includes refid="a01517" local="yes">InternalS1Query.h</includes>
+    <includes refid="a01703" local="yes">Sect2Query.h</includes>
+    <incdepgraph>
+      <node id="8451">
+        <label>Utils/Console.h</label>
+        <childnode refid="8439" relation="include">
+        </childnode>
+      </node>
+      <node id="8445">
+        <label>iomanip</label>
+      </node>
+      <node id="8437">
+        <label>functional</label>
+      </node>
+      <node id="8434">
+        <label>Tools/Doxygen/Sect1Query.cpp</label>
+        <link refid="a01694"/>
+        <childnode refid="8435" relation="include">
+        </childnode>
+        <childnode refid="8452" relation="include">
+        </childnode>
+        <childnode refid="8455" relation="include">
+        </childnode>
+        <childnode refid="8456" relation="include">
+        </childnode>
+        <childnode refid="8457" relation="include">
+        </childnode>
+      </node>
+      <node id="8454">
+        <label>cstdint</label>
+      </node>
+      <node id="8447">
+        <label>Utils/Exception.h</label>
+        <childnode refid="8448" relation="include">
+        </childnode>
+        <childnode refid="8449" relation="include">
+        </childnode>
+        <childnode refid="8450" relation="include">
+        </childnode>
+        <childnode refid="8451" relation="include">
+        </childnode>
+        <childnode refid="8439" relation="include">
+        </childnode>
+      </node>
+      <node id="8449">
+        <label>stdexcept</label>
+      </node>
+      <node id="8443">
+        <label>string</label>
+      </node>
+      <node id="8436">
+        <label>Doxygen.h</label>
+        <childnode refid="8437" relation="include">
+        </childnode>
+        <childnode refid="8438" relation="include">
+        </childnode>
+        <childnode refid="8439" relation="include">
+        </childnode>
+        <childnode refid="8446" relation="include">
+        </childnode>
+        <childnode refid="8447" relation="include">
+        </childnode>
+      </node>
+      <node id="8448">
+        <label>exception</label>
+      </node>
+      <node id="8441">
+        <label>fstream</label>
+      </node>
+      <node id="8446">
+        <label>Xml/Node.h</label>
+        <childnode refid="8437" relation="include">
+        </childnode>
+        <childnode refid="8438" relation="include">
+        </childnode>
+        <childnode refid="8439" relation="include">
+        </childnode>
+      </node>
+      <node id="8457">
+        <label>Sect2Query.h</label>
+        <childnode refid="8436" relation="include">
+        </childnode>
+      </node>
+      <node id="8435">
+        <label>Sect1Query.h</label>
+        <childnode refid="8436" relation="include">
+        </childnode>
+      </node>
+      <node id="8455">
+        <label>ParaQuery.h</label>
+        <childnode refid="8436" relation="include">
+        </childnode>
+      </node>
+      <node id="8439">
+        <label>Utils/String.h</label>
+        <childnode refid="8440" relation="include">
+        </childnode>
+        <childnode refid="8441" relation="include">
+        </childnode>
+        <childnode refid="8442" relation="include">
+        </childnode>
+        <childnode refid="8443" relation="include">
+        </childnode>
+        <childnode refid="8438" relation="include">
+        </childnode>
+        <childnode refid="8444" relation="include">
+        </childnode>
+        <childnode refid="8445" relation="include">
+        </childnode>
+      </node>
+      <node id="8444">
+        <label>vector</label>
+      </node>
+      <node id="8450">
+        <label>utility</label>
+      </node>
+      <node id="8442">
+        <label>sstream</label>
+      </node>
+      <node id="8452">
+        <label>TypeFilter/DoxygenFilter.h</label>
+        <childnode refid="8453" relation="include">
+        </childnode>
+      </node>
+      <node id="8456">
+        <label>InternalS1Query.h</label>
+        <childnode refid="8436" relation="include">
+        </childnode>
+      </node>
+      <node id="8440">
+        <label>deque</label>
+      </node>
+      <node id="8438">
+        <label>unordered_map</label>
+      </node>
+      <node id="8453">
+        <label>Utils/TypeFilter.h</label>
+        <childnode refid="8454" relation="include">
+        </childnode>
+        <childnode refid="8439" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Sect1Query.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TypeFilter/DoxygenFilter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ParaQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;InternalS1Query.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Sect2Query.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31" refid="a02579_1a8f92497c26e4e5987a32bee782dd1207" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02579_1a8f92497c26e4e5987a32bee782dd1207" kindref="member">Sect1Query::visit</ref>(<ref refid="a02575" kindref="compound">Visitors::Sect1QueryVisitor</ref><sp/>*visitor)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="32"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref><sp/>||<sp/>!visitor)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01846_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member" tooltip="Defines the child node storage array container. ">Xml::NodeArray</ref>&amp;<sp/>objects<sp/>=<sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>-&gt;<ref refid="a02111_1aca46484307f43cd0fb3c7263827ffa36" kindref="member" tooltip="Provides access to the array of child nodes attached to this node. ">children</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/>obj<sp/>:<sp/>objects)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(obj-&gt;getTypeCode())<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" kindref="member">DoxTextNode</ref>:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(obj-&gt;hasText())</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="a02575_1a9a9aaaf6a9383fa25f3c85f5c1e3536e" kindref="member" tooltip="Callback for every _text_node. ">visitedText</ref>(obj-&gt;text());</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>68:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="a02575_1acab4de3026eb6f1df12dab1c488e29e1" kindref="member" tooltip="Called when the element para is found. ">visitedParagraph</ref>(<ref refid="a02539" kindref="compound" tooltip="Implements the docParaType scaffolding. ">ParaQuery</ref>(obj));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>91:</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="a02575_1a6d7a617bd57390b52910ac64374f8e46" kindref="member" tooltip="Called when the element sect2 is found. ">visitedSect2</ref>(<ref refid="a02587" kindref="compound" tooltip="Implements the docSect2Type scaffolding. ">Sect2Query</ref>(obj));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>52:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="a02575_1a510ea6e0aa12b79460b5befbd19bffef" kindref="member" tooltip="Called when the element internal is found. ">visitedInternal</ref>(<ref refid="a02371" kindref="compound" tooltip="Implements the docInternalS1Type scaffolding. ">InternalS1Query</ref>(obj));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>103:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visitor-&gt;<ref refid="a02575_1a23cac4531ff03cdc2c5eec63548b1ba0" kindref="member" tooltip="Called when the element title is found. ">visitedTitle</ref>(obj-&gt;text());</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60" refid="a02579_1a86fcb50755a4d92b98beb25ba58b00d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02579_1a86fcb50755a4d92b98beb25ba58b00d3" kindref="member" tooltip="Provides access to the id attribute. ">Sect1Query::getId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="61"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>-&gt;<ref refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" kindref="member" tooltip="Looks up the supplied name in the attribute map. ">attribute</ref>(</highlight><highlight class="stringliteral">&quot;id&quot;</highlight><highlight class="normal">,<sp/>notFound);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>notFound;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="a02579_1a534482eb30f4d66039311f9f75e71a07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02579_1a534482eb30f4d66039311f9f75e71a07" kindref="member" tooltip="Provides access to the title tag&amp;#39;s inner text. ">Sect1Query::getTitle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="68"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref><sp/>*<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>-&gt;<ref refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(103);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>-&gt;<ref refid="a02111_1ab85578367da69da2df67971b9420726a" kindref="member" tooltip="Provides access to plan text content associated with this node. ">text</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>notFound;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="a02579_1ac7a22fc36bfb1130929ec86c077b1a1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02579_1a4081e180bf695675ea0817097c04a758" kindref="member" tooltip="Provides access to the internal attribute. ">Sect1Query::getInternal</ref>(<ref refid="a02371" kindref="compound" tooltip="Implements the docInternalS1Type scaffolding. ">InternalS1Query</ref><sp/>&amp;dest)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="77"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref><sp/>*<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref><sp/>=<sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>-&gt;<ref refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">firstChildOf</ref>(52);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest<sp/>=<sp/><ref refid="a02371" kindref="compound" tooltip="Implements the docInternalS1Type scaffolding. ">InternalS1Query</ref>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.<ref refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" kindref="member" tooltip="Resets the internal node pointer to null. ">reset</ref>();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="a02579_1a4081e180bf695675ea0817097c04a758" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02371" kindref="compound" tooltip="Implements the docInternalS1Type scaffolding. ">InternalS1Query</ref><sp/><ref refid="a02579_1a4081e180bf695675ea0817097c04a758" kindref="member" tooltip="Provides access to the internal attribute. ">Sect1Query::getInternal</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="88"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02371" kindref="compound" tooltip="Implements the docInternalS1Type scaffolding. ">InternalS1Query</ref><sp/>dest;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02579_1a4081e180bf695675ea0817097c04a758" kindref="member" tooltip="Provides access to the internal attribute. ">getInternal</ref>(dest);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dest;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="a02579_1ad9c3ded613709ceffcaa47b8432a073d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02579_1ad9c3ded613709ceffcaa47b8432a073d" kindref="member" tooltip="Invokes the supplied callback on para elements. ">Sect1Query::foreachParagraph</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref>&amp;<sp/>invoke)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="95"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QueryForEach&lt;ParaQuery,<sp/>68&gt;(invoke,<sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="a02579_1a5a638ee17b3a82e8b89abd73f3827f84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02579_1a5a638ee17b3a82e8b89abd73f3827f84" kindref="member" tooltip="Invokes the supplied callback on sect2 elements. ">Sect1Query::foreachSect2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1ac07adaa4ad5c10ee7087f9aeb139a12e" kindref="member">Sect2QueryFunction</ref>&amp;<sp/>invoke)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="100"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QueryForEach&lt;Sect2Query,<sp/>91&gt;(invoke,<sp/><ref refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" kindref="member">_node</ref>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/Sect1Query.cpp"/>
+  </compounddef>
+</doxygen>

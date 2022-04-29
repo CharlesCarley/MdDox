@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02063" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::IndexCache</compoundname>
+    <includes local="no">Source/Utils/IndexCache.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="a02063_1a1ee6b3a8f1cb1c3d3f917547c1f70549" prot="public" static="no">
+        <type>std::vector&lt; T &gt;</type>
+        <definition>typedef std::vector&lt;T&gt; MdDox::IndexCache&lt; T &gt;::Array</definition>
+        <argsstring></argsstring>
+        <name>Array</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="38" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="a02063_1a032b357cedafc7977c4536736df5b8c8" prot="public" static="no">
+        <type>std::unordered_map&lt; T, size_t &gt;</type>
+        <definition>typedef std::unordered_map&lt;T, size_t&gt; MdDox::IndexCache&lt; T &gt;::Table</definition>
+        <argsstring></argsstring>
+        <name>Table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="37" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a02063_1a97ecf7c887906b3d813b90697f6294ad" prot="private" static="no" mutable="no">
+        <type><ref refid="a02063_1a032b357cedafc7977c4536736df5b8c8" kindref="member">Table</ref></type>
+        <definition>Table MdDox::IndexCache&lt; T &gt;::_elements</definition>
+        <argsstring></argsstring>
+        <name>_elements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="41" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a02063_1a280a1f64da6d3e4c5099f927a731b6f9" prot="private" static="no" mutable="no">
+        <type><ref refid="a02063_1a1ee6b3a8f1cb1c3d3f917547c1f70549" kindref="member">Array</ref></type>
+        <definition>Array MdDox::IndexCache&lt; T &gt;::_list</definition>
+        <argsstring></argsstring>
+        <name>_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="42" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02063_1a9cc03caa1677d69c0406f748134869ad" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::IndexCache&lt; T &gt;::at</definition>
+        <argsstring>(T &amp;destination, const size_t &amp;index) const</argsstring>
+        <name>at</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Copies the cache value at the supplied index into the destination variable. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destination</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The destination variable</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index into the cache.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>Throws an out of bounds exception if the supplied index is invalid.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="74" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="74" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="a02063_1a6807c127098b7dbe94c9d6b88782148c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T&amp; MdDox::IndexCache&lt; T &gt;::at</definition>
+        <argsstring>(const size_t &amp;index) const</argsstring>
+        <name>at</name>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Returns the cache value at the supplied index into the destination variable. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index into the cache.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>Throws an out of bounds exception if the supplied index is invalid.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="87" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="87" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="a02063_1ac52ae541ddbb8a67b585ce5db8299752" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Array::const_iterator</type>
+        <definition>Array::const_iterator MdDox::IndexCache&lt; T &gt;::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="126" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="a02063_1a4f82e4ea29d5bc43ccfeab15f164b44c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::IndexCache&lt; T &gt;::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="120" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="120" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="a02063_1ae2ef815c6fd291abdc6bce95ab386040" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::IndexCache&lt; T &gt;::contains</definition>
+        <argsstring>(const size_t &amp;index) const</argsstring>
+        <name>contains</name>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="95" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="a02063_1a6a592efc8a5eaa0e5cb7020055ae2dd5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::IndexCache&lt; T &gt;::contains</definition>
+        <argsstring>(const T &amp;value) const</argsstring>
+        <name>contains</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="100" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="100" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="a02063_1af8e6e2cd42d14670751a13700f282e6a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Array::const_iterator</type>
+        <definition>Array::const_iterator MdDox::IndexCache&lt; T &gt;::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="131" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="a02063_1ad01dc805ee37c582403524d759879bf4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MdDox::IndexCache&lt; T &gt;::get</definition>
+        <argsstring>(const T &amp;value) const</argsstring>
+        <name>get</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="106" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="106" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="a02063_1a507b07ead5102ff30dacc3ba043df044" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MdDox::IndexCache&lt; T &gt;::insert</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Inserts a new value into the map if it does not already exist. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to insert</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The value&apos;s index into the container</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="50" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="50" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="a02063_1a2983b86a3f553e11f22029ee49fb1ad6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MdDox::IndexCache&lt; T &gt;::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/IndexCache.h" line="115" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="115" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class to map a hash table along side an index-able array. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="Source/Utils/IndexCache.h" line="35" column="1" bodyfile="Source/Utils/IndexCache.h" bodystart="34" bodyend="135"/>
+    <listofallmembers>
+      <member refid="a02063_1a97ecf7c887906b3d813b90697f6294ad" prot="private" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>_elements</name></member>
+      <member refid="a02063_1a280a1f64da6d3e4c5099f927a731b6f9" prot="private" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>_list</name></member>
+      <member refid="a02063_1a1ee6b3a8f1cb1c3d3f917547c1f70549" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>Array</name></member>
+      <member refid="a02063_1a9cc03caa1677d69c0406f748134869ad" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>at</name></member>
+      <member refid="a02063_1a6807c127098b7dbe94c9d6b88782148c" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>at</name></member>
+      <member refid="a02063_1ac52ae541ddbb8a67b585ce5db8299752" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>begin</name></member>
+      <member refid="a02063_1a4f82e4ea29d5bc43ccfeab15f164b44c" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>clear</name></member>
+      <member refid="a02063_1ae2ef815c6fd291abdc6bce95ab386040" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>contains</name></member>
+      <member refid="a02063_1a6a592efc8a5eaa0e5cb7020055ae2dd5" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>contains</name></member>
+      <member refid="a02063_1af8e6e2cd42d14670751a13700f282e6a" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>end</name></member>
+      <member refid="a02063_1ad01dc805ee37c582403524d759879bf4" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>get</name></member>
+      <member refid="a02063_1a507b07ead5102ff30dacc3ba043df044" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>insert</name></member>
+      <member refid="a02063_1a2983b86a3f553e11f22029ee49fb1ad6" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>size</name></member>
+      <member refid="a02063_1a032b357cedafc7977c4536736df5b8c8" prot="public" virt="non-virtual"><scope>MdDox::IndexCache</scope><name>Table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

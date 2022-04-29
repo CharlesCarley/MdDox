@@ -1,92 +1,115 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01879" kind="struct" language="C++" prot="public">
-    <compoundname>MdDox::GenApi::Attribute</compoundname>
-    <includes local="no">Tools/GenApi/Types.h</includes>
-      <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="a01879_1ad574d36f4222db87ee9bcc8c42bea2e4" prot="public" static="no" mutable="no">
-        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::GenApi::Attribute::genName</definition>
+  <compounddef id="a01879" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::DotWriter</compoundname>
+    <includes local="no">Source/MdDoxTree/DotWriter.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a01879_1a585c3990952f96aa81a05b6771b26f29" prot="private" static="no" mutable="no">
+        <type><ref refid="a01846_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member">Xml::NodeArray</ref> *</type>
+        <definition>Xml::NodeArray* MdDox::DotWriter::_list</definition>
         <argsstring></argsstring>
-        <name>genName</name>
+        <name>_list</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Types.h" line="61" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="61" bodyend="-1"/>
+        <location file="Source/MdDoxTree/DotWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="33" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="a01879_1a9d2605079d65d800705c0f17e27b3474" prot="public" static="no" mutable="no">
-        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::GenApi::Attribute::genType</definition>
+      <memberdef kind="variable" id="a01879_1acc7fe83d9199f768fcd3639a8f1626bf" prot="private" static="no" mutable="no">
+        <type><ref refid="a02111" kindref="compound">Xml::Node</ref> *</type>
+        <definition>Xml::Node* MdDox::DotWriter::_root</definition>
         <argsstring></argsstring>
-        <name>genType</name>
+        <name>_root</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Types.h" line="60" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="60" bodyend="-1"/>
+        <location file="Source/MdDoxTree/DotWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="32" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="a01879_1aa50e6b42239a8911cfc926fa759e8b5d" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::GenApi::Attribute::isRequired</definition>
-        <argsstring></argsstring>
-        <name>isRequired</name>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01879_1a0449cd41bad31126d26057685a6f3b08" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::DotWriter::DotWriter</definition>
+        <argsstring>(Xml::Node *root)</argsstring>
+        <name>DotWriter</name>
+        <param>
+          <type><ref refid="a02111" kindref="compound">Xml::Node</ref> *</type>
+          <declname>root</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Types.h" line="63" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="63" bodyend="-1"/>
+        <location file="Source/MdDoxTree/DotWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="144" bodyend="148"/>
       </memberdef>
-      <memberdef kind="variable" id="a01879_1a431a9a458518616849b8bd0872f251ba" prot="public" static="no" mutable="no">
-        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::GenApi::Attribute::searchTerm</definition>
-        <argsstring></argsstring>
-        <name>searchTerm</name>
+      <memberdef kind="function" id="a01879_1ab343ccbd8ae84c7fe5b7ec021cc22fcc" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::DotWriter::DotWriter</definition>
+        <argsstring>(Xml::NodeArray *list)</argsstring>
+        <name>DotWriter</name>
+        <param>
+          <type><ref refid="a01846_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member">Xml::NodeArray</ref> *</type>
+          <declname>list</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Types.h" line="62" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="62" bodyend="-1"/>
+        <location file="Source/MdDoxTree/DotWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="150" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="a01879_1ae075cf72d8e3afb168f177d8a85a0d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::DotWriter::~DotWriter</definition>
+        <argsstring>()=default</argsstring>
+        <name>~DotWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DotWriter.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01879_1a6500f224a09bf037c361a9e470784343" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::DotWriter::write</definition>
+        <argsstring>(OStream &amp;out) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/DotWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="156" bodyend="160"/>
+        <references refid="a01875_1ad9c81a07d2455d8b98f74338f002e2c4" compoundref="a00941" startline="127" endline="141">MdDox::DotWriterImpl::writeContent</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="744">
-        <label>string</label>
-      </node>
-      <node id="743">
-        <label>bool</label>
-      </node>
-      <node id="742">
-        <label>MdDox::GenApi::Attribute</label>
-        <link refid="a01879"/>
-        <childnode refid="743" relation="usage">
-          <edgelabel>isRequired</edgelabel>
-        </childnode>
-        <childnode refid="744" relation="usage">
-          <edgelabel>genName</edgelabel>
-          <edgelabel>searchTerm</edgelabel>
-          <edgelabel>genType</edgelabel>
-        </childnode>
-      </node>
-    </collaborationgraph>
-    <location file="Tools/GenApi/Types.h" line="59" column="1" bodyfile="Tools/GenApi/Types.h" bodystart="58" bodyend="64"/>
+    <location file="Source/MdDoxTree/DotWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/DotWriter.h" bodystart="29" bodyend="42"/>
     <listofallmembers>
-      <member refid="a01879_1ad574d36f4222db87ee9bcc8c42bea2e4" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Attribute</scope><name>genName</name></member>
-      <member refid="a01879_1a9d2605079d65d800705c0f17e27b3474" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Attribute</scope><name>genType</name></member>
-      <member refid="a01879_1aa50e6b42239a8911cfc926fa759e8b5d" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Attribute</scope><name>isRequired</name></member>
-      <member refid="a01879_1a431a9a458518616849b8bd0872f251ba" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Attribute</scope><name>searchTerm</name></member>
+      <member refid="a01879_1a585c3990952f96aa81a05b6771b26f29" prot="private" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>_list</name></member>
+      <member refid="a01879_1acc7fe83d9199f768fcd3639a8f1626bf" prot="private" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>_root</name></member>
+      <member refid="a01879_1a0449cd41bad31126d26057685a6f3b08" prot="public" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>DotWriter</name></member>
+      <member refid="a01879_1ab343ccbd8ae84c7fe5b7ec021cc22fcc" prot="public" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>DotWriter</name></member>
+      <member refid="a01879_1a6500f224a09bf037c361a9e470784343" prot="public" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>write</name></member>
+      <member refid="a01879_1ae075cf72d8e3afb168f177d8a85a0d43" prot="public" virt="non-virtual"><scope>MdDox::DotWriter</scope><name>~DotWriter</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

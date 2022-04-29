@@ -33,15 +33,13 @@ namespace MdDox {
 /**
  * \brief Provides a grouping of classes that handle parsing XML files.
  *
- * <b>Typical Usage:</b><br/>
- *
+ * <b>Typical Usage:</b>
  * The Parser is easy to use, just create an instance of the parser then invoke it's parse method.
- *
- * Internally, parse and syntax errors will throw an exception so it needs to be wrapped
+ * \br
+ * Internally, any parse and syntax errors will throw an exception so it needs to be wrapped
  * in a try catch block. On a successful parse, the root method will return the root node of the tree.
- *
- * The following example shows how to use it.
- *
+ * \br
+ * The following shows example usage.
  * \code{.cpp}
  * using namespace MdDox;
  * try

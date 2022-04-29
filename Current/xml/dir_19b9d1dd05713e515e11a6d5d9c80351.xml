@@ -2,36 +2,39 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_19b9d1dd05713e515e11a6d5d9c80351" kind="dir">
     <compoundname>Source/Xml</compoundname>
-    <innerfile refid="a00392">Attribute.h</innerfile>
-    <innerfile refid="a00395">Node.cpp</innerfile>
-    <innerfile refid="a00398">Node.h</innerfile>
-    <innerfile refid="a02136">Parser.cpp</innerfile>
-    <innerfile refid="a02142">Parser.h</innerfile>
-    <innerfile refid="a02148">Scanner.cpp</innerfile>
-    <innerfile refid="a02154">Scanner.h</innerfile>
-    <innerfile refid="a02160">Token.h</innerfile>
-    <innerfile refid="a00401">Writer.cpp</innerfile>
-    <innerfile refid="a02163">Writer.h</innerfile>
+    <innerfile refid="a01244">Attribute.h</innerfile>
+    <innerfile refid="a01247">Node.cpp</innerfile>
+    <innerfile refid="a01250">Node.h</innerfile>
+    <innerfile refid="a02988">Parser.cpp</innerfile>
+    <innerfile refid="a02994">Parser.h</innerfile>
+    <innerfile refid="a03000">Scanner.cpp</innerfile>
+    <innerfile refid="a03006">Scanner.h</innerfile>
+    <innerfile refid="a03012">Token.h</innerfile>
+    <innerfile refid="a01253">Writer.cpp</innerfile>
+    <innerfile refid="a03015">Writer.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Contains a custom XML parser. <linebreak/>
 <linebreak/>
- <bold>Typical Usage:</bold><linebreak/>
-</para><para>The Parser is easy to use, just create an instance of the parser then invoke it&apos;s parse method.</para><para>Internally, parse and syntax errors will throw an exception so it needs to be wrapped in a try catch block. On a successful parse, the root method will return the root node of the tree.</para><para>The following example shows how to use it.</para><para><programlisting filename=".cpp"><codeline><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="a00986" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref>;</highlight></codeline>
+ <bold>Typical Usage:</bold> The Parser is easy to use, just create an instance of the parser then invoke it&apos;s parse method. <linebreak/>
+<linebreak/>
+Internally, any parse and syntax errors will throw an exception so it needs to be wrapped in a try catch block. On a successful parse, the root method will return the root node of the tree. <linebreak/>
+<linebreak/>
+The following shows example usage. <programlisting filename=".cpp"><codeline><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref>;</highlight></codeline>
 <codeline><highlight class="normal"></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
 <codeline><highlight class="normal">{</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a01263" kindref="compound" tooltip="Parser is the XML based implementation of the ParseBase base class. ">Xml::Parser</ref><sp/>parser;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>parser.<ref refid="a01227_1ac0f4754066eb37834a6e6bed93993b50" kindref="member" tooltip="Attempts to load the supplied file. ">parse</ref>(</highlight><highlight class="stringliteral">&quot;file.xml&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a02115" kindref="compound" tooltip="Parser is the XML based implementation of the ParseBase base class. ">Xml::Parser</ref><sp/>parser;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>parser.<ref refid="a02079_1ac0f4754066eb37834a6e6bed93993b50" kindref="member" tooltip="Attempts to load the supplied file. ">parse</ref>(</highlight><highlight class="stringliteral">&quot;file.xml&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline><highlight class="normal"></highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a01259" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref><sp/>*root<sp/>=<sp/>parser.<ref refid="a01263_1ad981d8abab00654645b673875dde2b9a" kindref="member" tooltip="Provides access to the root of the node tree. ">root</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref><sp/>*root<sp/>=<sp/>parser.<ref refid="a02115_1ad981d8abab00654645b673875dde2b9a" kindref="member" tooltip="Provides access to the root of the node tree. ">root</ref>();</highlight></codeline>
 <codeline><highlight class="normal"></highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a01271" kindref="compound" tooltip="Is a utility class that is used to write the xml text structure to the supplied stream from the suppl...">Xml::Writer</ref><sp/>writer(root);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a02123" kindref="compound" tooltip="Is a utility class that is used to write the xml text structure to the supplied stream from the suppl...">Xml::Writer</ref><sp/>writer(root);</highlight></codeline>
 <codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>writer.write(std::cout);</highlight></codeline>
 <codeline><highlight class="normal">}</highlight></codeline>
-<codeline><highlight class="normal"></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="a01203" kindref="compound" tooltip="Primary class for exception handling   ">Exception</ref><sp/>&amp;ex)</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(<ref refid="a02055" kindref="compound" tooltip="Primary class for exception handling   ">Exception</ref><sp/>&amp;ex)</highlight></codeline>
 <codeline><highlight class="normal">{</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a01199_1aaf1391b3bcf6cfd461fa04ac9c7003a5" kindref="member">Console::writeLine</ref>(ex.<ref refid="a01203_1a82ae019fbc61a2278347945daeb69187" kindref="member">what</ref>());</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="a02051_1aaf1391b3bcf6cfd461fa04ac9c7003a5" kindref="member">Console::writeLine</ref>(ex.<ref refid="a02055_1a82ae019fbc61a2278347945daeb69187" kindref="member">what</ref>());</highlight></codeline>
 <codeline><highlight class="normal">}</highlight></codeline>
 </programlisting></para><sect1 id="F:/Emulation/MdDox/Current/pages/Directories.h_1SX001">
 <title>Contents</title>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="a00005" kind="file" language="C++">
     <compoundname>MD000_Index.h</compoundname>
-    <innernamespace refid="a00986">MdDox</innernamespace>
+    <innernamespace refid="a01838">MdDox</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -10,7 +10,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="a00986" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00986" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="26" refid="a01838" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">}</highlight></codeline>
     </programlisting>

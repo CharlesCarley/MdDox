@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_ad64d74126afa4ea39d3914a0c472a63" kind="dir">
     <compoundname>Tools/ResourceCompiler</compoundname>
-    <innerfile refid="a02130">Main.cpp</innerfile>
+    <innerfile refid="a02982">Main.cpp</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

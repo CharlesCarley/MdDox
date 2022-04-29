@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02119" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::Xml::Scanner</compoundname>
+    <basecompoundref refid="a02083" prot="public" virt="non-virtual">MdDox::ScannerBase</basecompoundref>
+    <includes local="no">Source/Xml/Scanner.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a02119_1a69d1f2b6fb0e4f09c3ac32401c4489a1" prot="private" static="no" mutable="no">
+        <type><ref refid="a01846_1a385d6562ae57490103bc9f6c24179be3" kindref="member">CodeCache</ref></type>
+        <definition>CodeCache MdDox::Xml::Scanner::_code</definition>
+        <argsstring></argsstring>
+        <name>_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.h" line="33" column="1" bodyfile="Source/Xml/Scanner.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a02119_1aff166fad679d3dff718d2aef919bfc96" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::Xml::Scanner::_defaultState</definition>
+        <argsstring></argsstring>
+        <name>_defaultState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.h" line="35" column="1" bodyfile="Source/Xml/Scanner.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="a02119_1a387eae114a2f35a3d5fd2e825e8acff2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Scanner::scanString</definition>
+        <argsstring>(Token &amp;tok)</argsstring>
+        <name>scanString</name>
+        <param>
+          <type><ref refid="a01846_1a63e69d53462a482c47cb25ec51c6d6d3" kindref="member">Token</ref> &amp;</type>
+          <declname>tok</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.h" line="39" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="60" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="a02119_1a943cfc8e17980912eb04489230f18d1b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Scanner::scanSymbol</definition>
+        <argsstring>(Token &amp;tok)</argsstring>
+        <name>scanSymbol</name>
+        <param>
+          <type><ref refid="a01846_1a63e69d53462a482c47cb25ec51c6d6d3" kindref="member">Token</ref> &amp;</type>
+          <declname>tok</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.h" line="37" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="81" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02119_1a91997787c4161d02429bc864d417aebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Xml::Scanner::Scanner</definition>
+        <argsstring>()</argsstring>
+        <name>Scanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.h" line="42" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="a02119_1a5f7bb6c4da2248ba409b9ec5315cb2e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Scanner::getCode</definition>
+        <argsstring>(String &amp;dest, const size_t &amp;idx)</argsstring>
+        <name>getCode</name>
+        <param>
+          <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>const size_t &amp;</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.h" line="46" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="52" bodyend="58"/>
+        <references refid="a02083_1a5fae1e009f8d9d6a7977c129e71c9137" compoundref="a01211" startline="56" endline="62">MdDox::ScannerBase::syntaxError</references>
+      </memberdef>
+      <memberdef kind="function" id="a02119_1a4689c87e60bf43fc47f5eba0b9d875ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::Xml::Scanner::scan</definition>
+        <argsstring>(Token &amp;tok) override</argsstring>
+        <name>scan</name>
+        <reimplements refid="a02083_1af35e6bac3429139d85df8cf603851613">scan</reimplements>
+        <param>
+          <type><ref refid="a01846_1a63e69d53462a482c47cb25ec51c6d6d3" kindref="member">Token</ref> &amp;</type>
+          <declname>tok</declname>
+        </param>
+        <briefdescription>
+<para>Abstract method, derived scanners should implement their own scan loop. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tok</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A reference to a temporary storage token. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Xml/Scanner.h" line="44" column="1" bodyfile="Source/Xml/Scanner.cpp" bodystart="109" bodyend="207"/>
+        <references refid="a02083_1a7341428741f7072bf12be18e56b42561" compoundref="a01211" startline="39">MdDox::ScannerBase::_stream</references>
+        <references refid="a02083_1a5fae1e009f8d9d6a7977c129e71c9137" compoundref="a01211" startline="56" endline="62">MdDox::ScannerBase::syntaxError</references>
+        <references refid="a02087_1a742e79bee2108b58e45d55eea6e1baf6" compoundref="a01214" startline="50" endline="62">MdDox::TokenBase::clear</references>
+        <references refid="a02087_1a212ceb5ff3c7a7347cf212f509bb0bb0" compoundref="a01214" startline="102" endline="105">MdDox::TokenBase::setLine</references>
+        <references refid="a02083_1a8a05d9ab5f3e5d8336f48cd24efd91bd" compoundref="a01211" startline="43">MdDox::ScannerBase::_line</references>
+        <references refid="a02083_1a0d73b6dd10560d18c56e8fdbbb1d6a30" compoundref="a01208" startline="82" endline="101">MdDox::ScannerBase::scanMultiLineComment</references>
+        <references refid="a02087_1af59236d9036abb5ddaebf2a238e2973f" compoundref="a01214" startline="92" endline="95">MdDox::TokenBase::setType</references>
+        <references refid="a01846_1ae2e43e460900094e7671de1651f5bc2aac378eb636edcdd9a777bb90fa92c1468" compoundref="a03012" startline="36">MdDox::Xml::TOK_ST_TAG</references>
+        <references refid="a01846_1ae2e43e460900094e7671de1651f5bc2aae181099e091f3afa4118a6265d5c3281" compoundref="a03012" startline="35">MdDox::Xml::TOK_EQUALS</references>
+        <references refid="a01846_1ae2e43e460900094e7671de1651f5bc2aa0b6a99b8e69f2385f73275ff05bbff66" compoundref="a03012" startline="37">MdDox::Xml::TOK_EN_TAG</references>
+        <references refid="a01846_1ae2e43e460900094e7671de1651f5bc2aaeb86fb8fb5d3a55e9b74fa1817198cdb" compoundref="a03012" startline="38">MdDox::Xml::TOK_SLASH</references>
+        <references refid="a01846_1ae2e43e460900094e7671de1651f5bc2aa7ae9c0d88899839609a11bf1d37fb575" compoundref="a03012" startline="39">MdDox::Xml::TOK_QUESTION</references>
+        <references refid="a02083_1a6acd939ece7a51328beff1ca96c3779d" compoundref="a01208" startline="170" endline="180">MdDox::ScannerBase::scanWhiteSpace</references>
+        <references refid="a02023_1a9efdd6810673171705403058eaf9b92c" compoundref="a01148" startline="341" endline="348">MdDox::Char::toHexString</references>
+        <references refid="a01838_1ab988273a03d78c09f4ed6f85c3e2eb13" compoundref="a01151" startline="193" endline="196">MdDox::isWhiteSpace</references>
+        <references refid="a02087_1ab39456717fb3f31380abf81f8c66c0a1" compoundref="a01214" startline="97" endline="100">MdDox::TokenBase::setIndex</references>
+        <references refid="a01846_1ae2e43e460900094e7671de1651f5bc2aa11a274785c604d701aaab79a74ba7c6b" compoundref="a03012" startline="34">MdDox::Xml::TOK_TEXT</references>
+        <references refid="a01846_1ae2e43e460900094e7671de1651f5bc2aa391ba2b15a8c85672ff1afb40b343a82" compoundref="a03012" startline="30">MdDox::Xml::TOK_EOF</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1044">
+        <label>MdDox::ScannerBase</label>
+        <link refid="a02083"/>
+      </node>
+      <node id="1043">
+        <label>MdDox::Xml::Scanner</label>
+        <link refid="a02119"/>
+        <childnode refid="1044" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1046">
+        <label>MdDox::ScannerBase</label>
+        <link refid="a02083"/>
+        <childnode refid="1047" relation="usage">
+          <edgelabel>_stringTable</edgelabel>
+        </childnode>
+        <childnode refid="1048" relation="usage">
+          <edgelabel>_intTable</edgelabel>
+        </childnode>
+        <childnode refid="1049" relation="usage">
+          <edgelabel>_line</edgelabel>
+        </childnode>
+        <childnode refid="1050" relation="usage">
+          <edgelabel>_file</edgelabel>
+        </childnode>
+        <childnode refid="1051" relation="usage">
+          <edgelabel>_stream</edgelabel>
+        </childnode>
+      </node>
+      <node id="1049">
+        <label>size_t</label>
+      </node>
+      <node id="1051">
+        <label>IStream *</label>
+      </node>
+      <node id="1048">
+        <label>MdDox::IndexCache&lt; int &gt;</label>
+        <link refid="a02063"/>
+      </node>
+      <node id="1047">
+        <label>MdDox::IndexCache&lt; String &gt;</label>
+        <link refid="a02063"/>
+      </node>
+      <node id="1045">
+        <label>MdDox::Xml::Scanner</label>
+        <link refid="a02119"/>
+        <childnode refid="1046" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1050">
+        <label>MdDox::PathUtil</label>
+        <link refid="a02091"/>
+      </node>
+    </collaborationgraph>
+    <location file="Source/Xml/Scanner.h" line="31" column="1" bodyfile="Source/Xml/Scanner.h" bodystart="30" bodyend="47"/>
+    <listofallmembers>
+      <member refid="a02119_1a69d1f2b6fb0e4f09c3ac32401c4489a1" prot="private" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>_code</name></member>
+      <member refid="a02119_1aff166fad679d3dff718d2aef919bfc96" prot="private" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>_defaultState</name></member>
+      <member refid="a02083_1a934a6e0d12dd5938dbc3008251b4c9de" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>_file</name></member>
+      <member refid="a02083_1a8f12ed3e560e95ff1c44c4ea06301bfc" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>_intTable</name></member>
+      <member refid="a02083_1a8a05d9ab5f3e5d8336f48cd24efd91bd" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>_line</name></member>
+      <member refid="a02083_1a7341428741f7072bf12be18e56b42561" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>_stream</name></member>
+      <member refid="a02083_1af0b17865c1d6628c714046868516eddd" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>_stringTable</name></member>
+      <member refid="a02083_1a92c079cf84c73c6b16e739dae863c273" prot="public" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>attach</name></member>
+      <member refid="a02083_1ac41a3035df9fa7c37651752b6299589d" prot="public" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>containsString</name></member>
+      <member refid="a02083_1ad5f97041fa02c6896be9bb6126964678" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>extractCode</name></member>
+      <member refid="a02119_1a5f7bb6c4da2248ba409b9ec5315cb2e2" prot="public" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>getCode</name></member>
+      <member refid="a02083_1a0cec0b6ae81275f097ed33cc113ac259" prot="public" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>integer</name></member>
+      <member refid="a02083_1a2fc7c34a950c607523f811904009b1a6" prot="public" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>line</name></member>
+      <member refid="a02083_1a326af694d60f35c9c3ef666b9093f90d" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>save</name></member>
+      <member refid="a02083_1acf3c9bec82d0de447677bc4c14c5cf13" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>save</name></member>
+      <member refid="a02119_1a4689c87e60bf43fc47f5eba0b9d875ff" prot="public" virt="virtual"><scope>MdDox::Xml::Scanner</scope><name>scan</name></member>
+      <member refid="a02083_1ae36492794cc7ecc9de9eefac35b82cfa" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>scanAny</name></member>
+      <member refid="a02083_1abd49d4440537f369a0cf45e502e58ab2" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>scanLineComment</name></member>
+      <member refid="a02083_1a0d73b6dd10560d18c56e8fdbbb1d6a30" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>scanMultiLineComment</name></member>
+      <member refid="a02119_1a91997787c4161d02429bc864d417aebc" prot="public" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>Scanner</name></member>
+      <member refid="a02083_1ad033c4d87d156cd3f07263d93ee29a5a" prot="public" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>ScannerBase</name></member>
+      <member refid="a02119_1a387eae114a2f35a3d5fd2e825e8acff2" prot="private" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>scanString</name></member>
+      <member refid="a02119_1a943cfc8e17980912eb04489230f18d1b" prot="private" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>scanSymbol</name></member>
+      <member refid="a02083_1a6acd939ece7a51328beff1ca96c3779d" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>scanWhiteSpace</name></member>
+      <member refid="a02083_1a9b38ff930bd6a8b0155e0afd68d216d3" prot="public" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>string</name></member>
+      <member refid="a02083_1af40c5440759c4f4671112c675a029094" prot="public" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>string</name></member>
+      <member refid="a02083_1a5fae1e009f8d9d6a7977c129e71c9137" prot="protected" virt="non-virtual"><scope>MdDox::Xml::Scanner</scope><name>syntaxError</name></member>
+      <member refid="a02083_1a3d48b4bf8b41f4edac6b084f2f38b547" prot="public" virt="virtual"><scope>MdDox::Xml::Scanner</scope><name>~ScannerBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

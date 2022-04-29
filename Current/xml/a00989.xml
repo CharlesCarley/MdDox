@@ -1,740 +1,131 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a00989" kind="namespace" language="C++">
-    <compoundname>MdDox::Md</compoundname>
-      <sectiondef kind="func">
-      <memberdef kind="function" id="a00989_1aabb7b82b8902d06f9674962517957b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::addHash</definition>
-        <argsstring>(OStream &amp;output, int i)</argsstring>
-        <name>addHash</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="50" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="50" bodyend="56"/>
-        <references refid="a00989_1aa41ba467f4e9f2b5556ca3e45de79032" compoundref="a00161" startline="58" endline="62">space</references>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a258dd6e1733bcc65d00c51524ea7db83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::beginBlockQuote</definition>
-        <argsstring>(OStream &amp;output)</argsstring>
-        <name>beginBlockQuote</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Begins a block quote block. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="78" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="78" bodyend="81"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1ac9fe7e754a6a825bedbd8a54ab210906" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::beginList</definition>
-        <argsstring>(OStream &amp;output)</argsstring>
-        <name>beginList</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="98" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="98" bodyend="101"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a971bd77df5dda67d8e511774518130d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::beginListItem</definition>
-        <argsstring>(OStream &amp;output)</argsstring>
-        <name>beginListItem</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Starts a list block. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="108" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="108" bodyend="111"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1aa2c400b4ee238fc0e7baa6bbef1ac039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::beginParagraph</definition>
-        <argsstring>(OStream &amp;output)</argsstring>
-        <name>beginParagraph</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Begins a paragraph block. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="88" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="88" bodyend="91"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a32a576acc0eeb6376191c044ed0b3af1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::blockQuote</definition>
-        <argsstring>(OStream &amp;output, int n)</argsstring>
-        <name>blockQuote</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>n</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="71" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="71" bodyend="76"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a47dca2edf63dad855a4604e4925cda44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::boldText</definition>
-        <argsstring>(OStream &amp;output, const String &amp;str)</argsstring>
-        <name>boldText</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>str</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="171" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="171" bodyend="179"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1af932eecfb3d9926023e7f2e39ddfc72f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::bullet</definition>
-        <argsstring>(OStream &amp;output, int n)</argsstring>
-        <name>bullet</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>n</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="64" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="64" bodyend="69"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a6ea1760a2a939239b664a1f812fa5295" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::code</definition>
-        <argsstring>(OStream &amp;output, const String &amp;code, const String &amp;type=&quot;txt&quot;)</argsstring>
-        <name>code</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>code</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>type</declname>
-          <defval>&quot;txt&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Writes a code block. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>code</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The block of text that contains the code. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>type</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The type of the code in the code parameter. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="118" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="118" bodyend="125"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1aba570ffee1aef0a5d0ffcdd9c0e00276" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::embedContent</definition>
-        <argsstring>(OStream &amp;output, const String &amp;content, bool addNewLine)</argsstring>
-        <name>embedContent</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>content</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>addNewLine</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="210" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="210" bodyend="213"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1aec045ae8beeb9efd4770617651b44c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::embedContentLink</definition>
-        <argsstring>(OStream &amp;output, const String &amp;content, const String &amp;reference, bool addNewLine)</argsstring>
-        <name>embedContentLink</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>content</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>reference</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>addNewLine</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="215" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="215" bodyend="224"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a1589c72af048cf851d49292e4de7c777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::embedImage</definition>
-        <argsstring>(OStream &amp;output, const String &amp;reference, const String &amp;)</argsstring>
-        <name>embedImage</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>reference</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <defname>comment</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="200" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="200" bodyend="208"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a69fb615cc34aa2dc1580438fd812f129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::embedLinkContentPoint</definition>
-        <argsstring>(OStream &amp;output, const String &amp;content, const String &amp;reference, const String &amp;point, bool addNewLine)</argsstring>
-        <name>embedLinkContentPoint</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>content</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>reference</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>point</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>addNewLine</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="226" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="226" bodyend="235"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1ab243fd0ee25dc2bb1c86e8d775957d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::endBlockQuote</definition>
-        <argsstring>(OStream &amp;output)</argsstring>
-        <name>endBlockQuote</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Ends a block quote block. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="83" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="83" bodyend="86"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1aaa61a276d522d32dac5862879b34c515" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::endList</definition>
-        <argsstring>(OStream &amp;output)</argsstring>
-        <name>endList</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="103" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="103" bodyend="106"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1aac5f57c597d908d45c6febe5820fd6aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::endListItem</definition>
-        <argsstring>(OStream &amp;output)</argsstring>
-        <name>endListItem</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Ends a list block. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="113" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="113" bodyend="116"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a66cd199e9c617f0be33708aac0f90227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::endParagraph</definition>
-        <argsstring>(OStream &amp;output)</argsstring>
-        <name>endParagraph</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Ends a paragraph block. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="93" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="93" bodyend="96"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1ac56667f85a5027c17551d31279949a33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::heading</definition>
-        <argsstring>(OStream &amp;output, const String &amp;title, int depth)</argsstring>
-        <name>heading</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>title</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>depth</declname>
-        </param>
-        <briefdescription>
-<para>Writes a section heading. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>title</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The heading title. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>depth</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The heading depth. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="43" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="43" bodyend="48"/>
-        <references refid="a00989_1aabb7b82b8902d06f9674962517957b89" compoundref="a00161" startline="50" endline="56">addHash</references>
-        <references refid="a00989_1a8c6ce069a7657e1e44e33755b0034e7b" compoundref="a00161" startline="37" endline="41">newLine</references>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a391bd2ebc8dede3771c5fda158496040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::horizontalRule</definition>
-        <argsstring>(OStream &amp;output)</argsstring>
-        <name>horizontalRule</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Writes a horizontal rule. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="132" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="132" bodyend="135"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1ac0a76b857e91a0965d2eaddace8b324c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::inlineText</definition>
-        <argsstring>(OStream &amp;output, const String &amp;str)</argsstring>
-        <name>inlineText</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>str</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="137" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="137" bodyend="159"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1af813993f9fb190c9e1fd8b561851b7ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::italicText</definition>
-        <argsstring>(OStream &amp;output, const String &amp;str)</argsstring>
-        <name>italicText</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>str</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="181" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="181" bodyend="189"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a1bbfa5a6f176d8d5affe9032cf462352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::lineBreak</definition>
-        <argsstring>(OStream &amp;output)</argsstring>
-        <name>lineBreak</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>Writes a <ref refid="a00988" kindref="compound">Html</ref> break tag. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="30" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="30" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a3f83d4b402ebc91a292977ee95bd4eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::linkImage</definition>
-        <argsstring>(OStream &amp;output, const String &amp;image, const String &amp;reference, const String &amp;comment)</argsstring>
-        <name>linkImage</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>image</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>reference</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>comment</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="191" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="191" bodyend="198"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a8d36a6d81c85553d03aeda9402771751" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::linkRef</definition>
-        <argsstring>(OStream &amp;output, const String &amp;title, const String &amp;reference, const String &amp;comment)</argsstring>
-        <name>linkRef</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>title</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>reference</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>comment</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="237" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="237" bodyend="250"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a8c6ce069a7657e1e44e33755b0034e7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::newLine</definition>
-        <argsstring>(OStream &amp;output, int number)</argsstring>
-        <name>newLine</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>number</declname>
-        </param>
-        <briefdescription>
-<para>Writes a newline character to the output stream. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>number</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The number of newline characters to write </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="37" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="37" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1a3acd21f86d8d71ec6377b3b29336ad11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::paragraph</definition>
-        <argsstring>(OStream &amp;output, const String &amp;str)</argsstring>
-        <name>paragraph</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>str</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="127" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="127" bodyend="130"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1aa41ba467f4e9f2b5556ca3e45de79032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::space</definition>
-        <argsstring>(OStream &amp;output, int i)</argsstring>
-        <name>space</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="58" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="58" bodyend="62"/>
-      </memberdef>
-      <memberdef kind="function" id="a00989_1ac167ccf210f3f74d7607a872e4c12028" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Md::typewriterText</definition>
-        <argsstring>(OStream &amp;output, const String &amp;str)</argsstring>
-        <name>typewriterText</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>str</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="161" column="1" bodyfile="Source/MdDoxTree/MarkdownCommandWriter.cpp" bodystart="161" bodyend="169"/>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a00989" kind="file" language="C++">
+    <compoundname>IconSet.cpp</compoundname>
+    <includes refid="a00992" local="yes">IconSet.h</includes>
+    <incdepgraph>
+      <node id="836">
+        <label>iomanip</label>
+      </node>
+      <node id="833">
+        <label>string</label>
+      </node>
+      <node id="831">
+        <label>fstream</label>
+      </node>
+      <node id="828">
+        <label>IconSet.h</label>
+        <childnode refid="829" relation="include">
+        </childnode>
+      </node>
+      <node id="827">
+        <label>Source/MdDoxTree/IconSet.cpp</label>
+        <link refid="a00989"/>
+        <childnode refid="828" relation="include">
+        </childnode>
+      </node>
+      <node id="829">
+        <label>Utils/String.h</label>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="831" relation="include">
+        </childnode>
+        <childnode refid="832" relation="include">
+        </childnode>
+        <childnode refid="833" relation="include">
+        </childnode>
+        <childnode refid="834" relation="include">
+        </childnode>
+        <childnode refid="835" relation="include">
+        </childnode>
+        <childnode refid="836" relation="include">
+        </childnode>
+      </node>
+      <node id="835">
+        <label>vector</label>
+      </node>
+      <node id="832">
+        <label>sstream</label>
+      </node>
+      <node id="830">
+        <label>deque</label>
+      </node>
+      <node id="834">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="a01838">MdDox</innernamespace>
     <briefdescription>
-<para>Provides markdown utility write functions. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/MdDoxTree/MarkdownCommandWriter.cpp" line="29" column="1"/>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IconSet.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27" refid="a01911_1a827443ad25f19890725b2ec9f2a82bdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="a01911_1a827443ad25f19890725b2ec9f2a82bdd" kindref="member" tooltip="Provides access to the icon associated with the supplied id. ">IconSet::fileName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a493c8fb5f3da723f76336e02a4a6463f" kindref="member">ICO_BACK</ref>:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;back.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a3076bf86bac52b5d81fc8f87cbefd178" kindref="member">ICO_DEBUG</ref>:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;debug.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" kindref="member">ICO_FILE</ref>:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;file.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a808fd339a1a965f49191f19503b020f0" kindref="member">ICO_FOLDER</ref>:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;folder.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9ac01081934d9c799c0cb8ccc2656b478a" kindref="member">ICO_HOME</ref>:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;home.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a28936c90ab2d553e6d8034ad0cb0d8df" kindref="member">ICO_H_SPACE_12</ref>:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;horSpace12px.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a57be8eec4a568de822f91ed9aab272a4" kindref="member">ICO_H_SPACE_24</ref>:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;horSpace24px.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a326ed5ffe4f436e2dbf69e7c6311065b" kindref="member">ICO_JUMP_TO_TOP</ref>:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;jumpToTop.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a9e6002e4b1f7d26d82368d96a829c628" kindref="member">ICO_LINK</ref>:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;link.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9ab398f8efe94633a601de81f999994ec2" kindref="member">ICO_CODE_BEHIND</ref>:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;lookInside.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9af29aff868135f9b52029429e9e8de86d" kindref="member">ICO_ENUM</ref>:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;enum.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9ada8d11ea29ff98f15c600f05b9797e3c" kindref="member">ICO_CLASS</ref>:</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;class.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a38c13f3a89c2ba03549c455812fc46ab" kindref="member">ICO_VAR_PRIVATE</ref>:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;var.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a12bca8c5f8464a950cb54ac5b59f133d" kindref="member">ICO_NAMESPACE</ref>:</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;namespace.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a5661e76de80ef739bc15a619c2ad3d01" kindref="member">ICO_NONE</ref>:</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;error.svg&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/MdDoxTree/IconSet.cpp"/>
   </compounddef>
 </doxygen>

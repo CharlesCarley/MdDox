@@ -1,60 +1,181 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="a00950" kind="file" language="C++">
-    <compoundname>Database.cpp</compoundname>
-    <includes refid="a00953" local="yes">Database.h</includes>
+    <compoundname>EnumDefWriter.h</compoundname>
+    <includes refid="a01595" local="yes">Doxygen/MemberDefQuery.h</includes>
+    <includes refid="a01220" local="yes">Utils/Path.h</includes>
+    <includedby refid="a00947" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
+    <includedby refid="a01037" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
     <incdepgraph>
-      <node id="9280">
+      <node id="483">
+        <label>DoxAccessor.h</label>
+        <childnode refid="462" relation="include">
+        </childnode>
+      </node>
+      <node id="477">
+        <label>Utils/Console.h</label>
+        <childnode refid="465" relation="include">
+        </childnode>
+      </node>
+      <node id="471">
         <label>iomanip</label>
       </node>
-      <node id="9271">
-        <label>Tools/GenApi/Database.cpp</label>
-        <link refid="a00950"/>
-        <childnode refid="9272" relation="include">
+      <node id="463">
+        <label>functional</label>
+      </node>
+      <node id="482">
+        <label>DoxRefQualifierKind.h</label>
+        <childnode refid="462" relation="include">
         </childnode>
       </node>
-      <node id="9277">
+      <node id="484">
+        <label>Utils/Path.h</label>
+        <childnode refid="465" relation="include">
+        </childnode>
+      </node>
+      <node id="473">
+        <label>Utils/Exception.h</label>
+        <childnode refid="474" relation="include">
+        </childnode>
+        <childnode refid="475" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="465" relation="include">
+        </childnode>
+      </node>
+      <node id="475">
+        <label>stdexcept</label>
+      </node>
+      <node id="469">
         <label>string</label>
       </node>
-      <node id="9272">
-        <label>Database.h</label>
-        <childnode refid="9273" relation="include">
+      <node id="462">
+        <label>Doxygen.h</label>
+        <childnode refid="463" relation="include">
+        </childnode>
+        <childnode refid="464" relation="include">
+        </childnode>
+        <childnode refid="465" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+        <childnode refid="473" relation="include">
         </childnode>
       </node>
-      <node id="9275">
+      <node id="474">
+        <label>exception</label>
+      </node>
+      <node id="467">
         <label>fstream</label>
       </node>
-      <node id="9273">
-        <label>Utils/String.h</label>
-        <childnode refid="9274" relation="include">
+      <node id="472">
+        <label>Xml/Node.h</label>
+        <childnode refid="463" relation="include">
         </childnode>
-        <childnode refid="9275" relation="include">
+        <childnode refid="464" relation="include">
         </childnode>
-        <childnode refid="9276" relation="include">
-        </childnode>
-        <childnode refid="9277" relation="include">
-        </childnode>
-        <childnode refid="9278" relation="include">
-        </childnode>
-        <childnode refid="9279" relation="include">
-        </childnode>
-        <childnode refid="9280" relation="include">
+        <childnode refid="465" relation="include">
         </childnode>
       </node>
-      <node id="9279">
+      <node id="480">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="462" relation="include">
+        </childnode>
+      </node>
+      <node id="478">
+        <label>DoxMemberKind.h</label>
+        <childnode refid="462" relation="include">
+        </childnode>
+      </node>
+      <node id="465">
+        <label>Utils/String.h</label>
+        <childnode refid="466" relation="include">
+        </childnode>
+        <childnode refid="467" relation="include">
+        </childnode>
+        <childnode refid="468" relation="include">
+        </childnode>
+        <childnode refid="469" relation="include">
+        </childnode>
+        <childnode refid="464" relation="include">
+        </childnode>
+        <childnode refid="470" relation="include">
+        </childnode>
+        <childnode refid="471" relation="include">
+        </childnode>
+      </node>
+      <node id="470">
         <label>vector</label>
       </node>
-      <node id="9276">
+      <node id="476">
+        <label>utility</label>
+      </node>
+      <node id="468">
         <label>sstream</label>
       </node>
-      <node id="9274">
+      <node id="479">
+        <label>DoxVirtualKind.h</label>
+        <childnode refid="462" relation="include">
+        </childnode>
+      </node>
+      <node id="466">
         <label>deque</label>
       </node>
-      <node id="9278">
+      <node id="464">
         <label>unordered_map</label>
       </node>
+      <node id="460">
+        <label>Source/MdDoxTree/EnumDefWriter.h</label>
+        <link refid="a00950"/>
+        <childnode refid="461" relation="include">
+        </childnode>
+        <childnode refid="484" relation="include">
+        </childnode>
+      </node>
+      <node id="481">
+        <label>DoxBool.h</label>
+        <childnode refid="462" relation="include">
+        </childnode>
+      </node>
+      <node id="461">
+        <label>Doxygen/MemberDefQuery.h</label>
+        <childnode refid="462" relation="include">
+        </childnode>
+        <childnode refid="478" relation="include">
+        </childnode>
+        <childnode refid="479" relation="include">
+        </childnode>
+        <childnode refid="480" relation="include">
+        </childnode>
+        <childnode refid="481" relation="include">
+        </childnode>
+        <childnode refid="482" relation="include">
+        </childnode>
+        <childnode refid="483" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
-    <innernamespace refid="a00996">MdDox::GenApi</innernamespace>
+    <invincdepgraph>
+      <node id="487">
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
+      </node>
+      <node id="486">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+      </node>
+      <node id="485">
+        <label>Source/MdDoxTree/EnumDefWriter.h</label>
+        <link refid="a00950"/>
+        <childnode refid="486" relation="include">
+        </childnode>
+        <childnode refid="487" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a01883" prot="public">MdDox::EnumDefWriter</innerclass>
+    <innernamespace refid="a01838">MdDox</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -81,75 +202,60 @@
 <codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
 <codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
 <codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Database.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00996" kindref="compound" tooltip="GenApi is used to generate a static scaffolding library. ">MdDox::GenApi</ref></highlight></codeline>
-<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01843_1ae08f20af19ef513de07ebb821f4d4983" kindref="member">Database::Database</ref>()<sp/><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01843_1a7d77b93ac82d530d930d7743fbca3216" kindref="member">Database::~Database</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="a01843_1ad6a1847e7d3a2894bce36990ac0c71cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01843_1ad6a1847e7d3a2894bce36990ac0c71cb" kindref="member">Database::hasKey</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>key)</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1a333d113ffec08bb0fdee4f102e68fbce" kindref="member">_data</ref>.find(key)<sp/>!=<sp/><ref refid="a01843_1a333d113ffec08bb0fdee4f102e68fbce" kindref="member">_data</ref>.end();</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="a01843_1ac0802fd155b2470a15b89208b7087275" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a01843_1ac0802fd155b2470a15b89208b7087275" kindref="member">Database::value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>def)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="35"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>StringMap::const_iterator<sp/>it<sp/>=<sp/><ref refid="a01843_1a333d113ffec08bb0fdee4f102e68fbce" kindref="member">_data</ref>.find(key);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it<sp/>!=<sp/><ref refid="a01843_1a333d113ffec08bb0fdee4f102e68fbce" kindref="member">_data</ref>.end())</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>it-&gt;second;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>def;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/MemberDefQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Path.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DocumentWriter;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="a01883" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a01883" kindref="compound">EnumDefWriter</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02463" kindref="compound">Doxygen::Visitors::MemberDefQueryVisitor</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/><sp/><sp/><sp/>_writer;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_stream;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>_out;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_list;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedReImplements(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02563" kindref="compound" tooltip="Implements the reimplementType scaffolding. ">Doxygen::ReimplementQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedReImplementedBy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02563" kindref="compound" tooltip="Implements the reimplementType scaffolding. ">Doxygen::ReimplementQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="a01843_1a267e27ac456f08ff7f934778800962b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01863" kindref="compound">Object</ref>*<sp/><ref refid="a01843_1a267e27ac456f08ff7f934778800962b8" kindref="member">Database::object</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>key)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="43"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectMap::const_iterator<sp/>it<sp/>=<sp/><ref refid="a01843_1aa3c3f15fcc134a62d29f42472c6abc16" kindref="member">_objects</ref>.find(key);</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it<sp/>!=<sp/><ref refid="a01843_1aa3c3f15fcc134a62d29f42472c6abc16" kindref="member">_objects</ref>.end())</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>it-&gt;second;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedEnumValue(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02303" kindref="compound" tooltip="Implements the enumvalueType scaffolding. ">Doxygen::EnumValueQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedReferences(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02551" kindref="compound" tooltip="Implements the referenceType scaffolding. ">Doxygen::ReferenceQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedReferencedBy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02551" kindref="compound" tooltip="Implements the referenceType scaffolding. ">Doxygen::ReferenceQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedTemplateParamList(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02639" kindref="compound" tooltip="Implements the templateparamlistType scaffolding. ">Doxygen::TemplateParamListQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="a01843_1a85b93f8db61500ba827db235c6cf647b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01843_1a85b93f8db61500ba827db235c6cf647b" kindref="member">Database::insert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>key,<sp/><ref refid="a01259" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref>*<sp/>value)</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>NodeMap::iterator<sp/>it<sp/>=<sp/><ref refid="a01843_1a4a19e4b52ac28b38c7ba05c87711d9b2" kindref="member">_nodes</ref>.find(key);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it<sp/>==<sp/><ref refid="a01843_1a4a19e4b52ac28b38c7ba05c87711d9b2" kindref="member">_nodes</ref>.end())</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a4a19e4b52ac28b38c7ba05c87711d9b2" kindref="member">_nodes</ref>[key]<sp/>=<sp/><ref refid="a01843_1ac0802fd155b2470a15b89208b7087275" kindref="member">value</ref>;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="a01843_1ab526be83a187dd67076a51ae6318fac6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01843_1a85b93f8db61500ba827db235c6cf647b" kindref="member">Database::insert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>key,<sp/><ref refid="a01863" kindref="compound">Object</ref>*<sp/>value)</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ObjectMap::iterator<sp/>it<sp/>=<sp/><ref refid="a01843_1aa3c3f15fcc134a62d29f42472c6abc16" kindref="member">_objects</ref>.find(key);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it<sp/>==<sp/><ref refid="a01843_1aa3c3f15fcc134a62d29f42472c6abc16" kindref="member">_objects</ref>.end())</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1aa3c3f15fcc134a62d29f42472c6abc16" kindref="member">_objects</ref>[key]<sp/>=<sp/><ref refid="a01843_1ac0802fd155b2470a15b89208b7087275" kindref="member">value</ref>;</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedInitializer(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">Doxygen::LinkedTextQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedExceptions(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">Doxygen::LinkedTextQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedBriefDescription(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">Doxygen::DescriptionQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedType(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">Doxygen::LinkedTextQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedName(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedParameter(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02523" kindref="compound" tooltip="Implements the paramType scaffolding. ">Doxygen::ParamQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedDetailedDescription(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">Doxygen::DescriptionQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="a01843_1aa76b00920ea8d6a9c10954c2c080ac99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01843_1aa76b00920ea8d6a9c10954c2c080ac99" kindref="member">Database::read</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>file)</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a568c80ba180b98c6bb783385a6c8649b" kindref="member" tooltip="Declaration of the input file stream class. ">InputFileStream</ref><sp/>data(file);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!data.is_open())</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(!data.eof())</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>oldName,<sp/>newName;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedLocation(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02451" kindref="compound" tooltip="Implements the locationType scaffolding. ">Doxygen::LocationQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedWrite(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01883_1a2a5465dafe8244c00a3cd81a926af36a" kindref="member">EnumDefWriter</ref>(<ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/>out);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01883_1a5079e5da919c5dcb333bc9e1ea603918" kindref="member">write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02467" kindref="compound" tooltip="Implements the memberdefType scaffolding. ">Doxygen::MemberDefQuery</ref>&amp;<sp/>mdq);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>&gt;&gt;<sp/>oldName;</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>&gt;&gt;<sp/>newName;</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!oldName.empty()<sp/>&amp;&amp;<sp/>oldName[0]<sp/>!=<sp/></highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a01843_1a333d113ffec08bb0fdee4f102e68fbce" kindref="member">_data</ref>.find(oldName)<sp/>==<sp/><ref refid="a01843_1a333d113ffec08bb0fdee4f102e68fbce" kindref="member">_data</ref>.end())</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a333d113ffec08bb0fdee4f102e68fbce" kindref="member">_data</ref>.insert(std::make_pair(oldName,<sp/>newName));</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="a01843_1a42fa5011abd177fcc61f1c3878f98d97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01843_1a42fa5011abd177fcc61f1c3878f98d97" kindref="member">Database::contains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>str)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="86"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1a333d113ffec08bb0fdee4f102e68fbce" kindref="member">_data</ref>.find(str)<sp/>!=<sp/><ref refid="a01843_1a333d113ffec08bb0fdee4f102e68fbce" kindref="member">_data</ref>.end();</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="89"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::GenApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/GenApi/Database.cpp"/>
+    <location file="Source/MdDoxTree/EnumDefWriter.h"/>
   </compounddef>
 </doxygen>

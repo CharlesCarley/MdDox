@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02295" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::EntryQuery</compoundname>
+    <basecompoundref refid="a02267" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/EntryQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02295_1a050d85b552ad575cba310722b1c61e4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::EntryQuery::EntryQuery</definition>
+        <argsstring>()=default</argsstring>
+        <name>EntryQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02295_1a584ec830d38d1f101f0d77edc57eaa61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::EntryQuery::EntryQuery</definition>
+        <argsstring>(const EntryQuery &amp;other)=default</argsstring>
+        <name>EntryQuery</name>
+        <param>
+          <type>const <ref refid="a02295" kindref="compound">EntryQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02295_1a976effcc35e6ed8a6a2b95a4c5579ce3" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::EntryQuery::EntryQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>EntryQuery</name>
+        <param>
+          <type><ref refid="a02111" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="69" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="a02295_1aba3c7498e877a51deed1a7489b85f608" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::EntryQuery::foreachParagraph</definition>
+        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachParagraph</name>
+        <param>
+          <type>const <ref refid="a01843_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="85" column="1" bodyfile="Tools/Doxygen/EntryQuery.cpp" bodystart="56" bodyend="59"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+      </memberdef>
+      <memberdef kind="function" id="a02295_1a11d0d5f1b87d77dccdd4bd0149fdd1b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::EntryQuery::getThead</definition>
+        <argsstring>() const</argsstring>
+        <name>getThead</name>
+        <briefdescription>
+<para>Provides access to the <bold>thead</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>thead</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="80" column="1" bodyfile="Tools/Doxygen/EntryQuery.cpp" bodystart="49" bodyend="54"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02295_1a10eb80c3c095eb7b596bccc95b988305" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::EntryQuery::visit</definition>
+        <argsstring>(Visitors::EntryQueryVisitor *) const</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="a02291" kindref="compound">Visitors::EntryQueryVisitor</ref> *</type>
+          <defname>visitor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/EntryQuery.h" line="74" column="1" bodyfile="Tools/Doxygen/EntryQuery.cpp" bodystart="29" bodyend="48"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a01250" startline="270" endline="273">MdDox::Xml::Node::children</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="a01145" startline="31">MdDox::Doxygen::DoxTextNode</references>
+        <references refid="a02291_1ad3807f66c0f91833e6a5ed29451a1835" compoundref="a01451" startline="39" endline="39">MdDox::Doxygen::Visitors::EntryQueryVisitor::visitedText</references>
+        <references refid="a02291_1a5cd41667d9414b86cefd500e40d51398" compoundref="a01451" startline="44" endline="44">MdDox::Doxygen::Visitors::EntryQueryVisitor::visitedParagraph</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>docEntryType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>docEntryType</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docEntryType&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;para&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docParaType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;thead&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="179">
+        <label>MdDox::Doxygen::EntryQuery</label>
+        <link refid="a02295"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="181">
+        <label>MdDox::Doxygen::EntryQuery</label>
+        <link refid="a02295"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a02111"/>
+        <childnode refid="184" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="182">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+        <childnode refid="183" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="184">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/EntryQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/EntryQuery.h" bodystart="63" bodyend="88"/>
+    <listofallmembers>
+      <member refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>_node</name></member>
+      <member refid="a02267_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>empty</name></member>
+      <member refid="a02295_1a050d85b552ad575cba310722b1c61e4d" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>EntryQuery</name></member>
+      <member refid="a02295_1a584ec830d38d1f101f0d77edc57eaa61" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>EntryQuery</name></member>
+      <member refid="a02295_1a976effcc35e6ed8a6a2b95a4c5579ce3" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>EntryQuery</name></member>
+      <member refid="a02295_1aba3c7498e877a51deed1a7489b85f608" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>foreachParagraph</name></member>
+      <member refid="a02295_1a11d0d5f1b87d77dccdd4bd0149fdd1b6" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>getThead</name></member>
+      <member refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>isValid</name></member>
+      <member refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>node</name></member>
+      <member refid="a02267_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>reset</name></member>
+      <member refid="a02267_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>sort</name></member>
+      <member refid="a02267_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>text</name></member>
+      <member refid="a02295_1a10eb80c3c095eb7b596bccc95b988305" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::EntryQuery</scope><name>visit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

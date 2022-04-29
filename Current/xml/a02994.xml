@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02994" kind="file" language="C++">
+    <compoundname>Parser.h</compoundname>
+    <includes local="no">stack</includes>
+    <includes refid="a01205" local="yes">Utils/ParserBase/ParserBase.h</includes>
+    <includes refid="a01226" local="yes">Utils/String.h</includes>
+    <includes refid="a01235" local="yes">Utils/TypeFilter.h</includes>
+    <includes refid="a01250" local="yes">Xml/Node.h</includes>
+    <includedby refid="a02976" local="yes">Source/MdDox/Main.cpp</includedby>
+    <includedby refid="a00995" local="yes">Source/MdDoxTree/IndexPageWriter.cpp</includedby>
+    <includedby refid="a01124" local="yes">Source/MdDoxTree/SiteBuilder.cpp</includedby>
+    <includedby refid="a02988" local="yes">Source/Xml/Parser.cpp</includedby>
+    <includedby refid="a02979" local="yes">Tools/GenApi/Main.cpp</includedby>
+    <incdepgraph>
+      <node id="2637">
+        <label>Utils/Console.h</label>
+        <childnode refid="2624" relation="include">
+        </childnode>
+      </node>
+      <node id="2643">
+        <label>functional</label>
+      </node>
+      <node id="2630">
+        <label>iomanip</label>
+      </node>
+      <node id="2639">
+        <label>Utils/ParserBase/TokenBase.h</label>
+      </node>
+      <node id="2621">
+        <label>Utils/ParserBase/ScannerBase.h</label>
+        <childnode refid="2622" relation="include">
+        </childnode>
+        <childnode refid="2631" relation="include">
+        </childnode>
+        <childnode refid="2638" relation="include">
+        </childnode>
+        <childnode refid="2639" relation="include">
+        </childnode>
+      </node>
+      <node id="2619">
+        <label>Utils/ParserBase/ParserBase.h</label>
+        <childnode refid="2620" relation="include">
+        </childnode>
+        <childnode refid="2621" relation="include">
+        </childnode>
+        <childnode refid="2639" relation="include">
+        </childnode>
+      </node>
+      <node id="2638">
+        <label>Utils/Path.h</label>
+        <childnode refid="2624" relation="include">
+        </childnode>
+      </node>
+      <node id="2641">
+        <label>cstdint</label>
+      </node>
+      <node id="2633">
+        <label>Utils/Exception.h</label>
+        <childnode refid="2634" relation="include">
+        </childnode>
+        <childnode refid="2635" relation="include">
+        </childnode>
+        <childnode refid="2636" relation="include">
+        </childnode>
+        <childnode refid="2637" relation="include">
+        </childnode>
+        <childnode refid="2624" relation="include">
+        </childnode>
+      </node>
+      <node id="2635">
+        <label>stdexcept</label>
+      </node>
+      <node id="2628">
+        <label>string</label>
+      </node>
+      <node id="2632">
+        <label>unordered_set</label>
+      </node>
+      <node id="2634">
+        <label>exception</label>
+      </node>
+      <node id="2626">
+        <label>fstream</label>
+      </node>
+      <node id="2642">
+        <label>Xml/Node.h</label>
+        <childnode refid="2643" relation="include">
+        </childnode>
+        <childnode refid="2629" relation="include">
+        </childnode>
+        <childnode refid="2624" relation="include">
+        </childnode>
+      </node>
+      <node id="2617">
+        <label>Source/Xml/Parser.h</label>
+        <link refid="a02994"/>
+        <childnode refid="2618" relation="include">
+        </childnode>
+        <childnode refid="2619" relation="include">
+        </childnode>
+        <childnode refid="2624" relation="include">
+        </childnode>
+        <childnode refid="2640" relation="include">
+        </childnode>
+        <childnode refid="2642" relation="include">
+        </childnode>
+      </node>
+      <node id="2624">
+        <label>Utils/String.h</label>
+        <childnode refid="2625" relation="include">
+        </childnode>
+        <childnode refid="2626" relation="include">
+        </childnode>
+        <childnode refid="2627" relation="include">
+        </childnode>
+        <childnode refid="2628" relation="include">
+        </childnode>
+        <childnode refid="2629" relation="include">
+        </childnode>
+        <childnode refid="2620" relation="include">
+        </childnode>
+        <childnode refid="2630" relation="include">
+        </childnode>
+      </node>
+      <node id="2620">
+        <label>vector</label>
+      </node>
+      <node id="2618">
+        <label>stack</label>
+      </node>
+      <node id="2636">
+        <label>utility</label>
+      </node>
+      <node id="2627">
+        <label>sstream</label>
+      </node>
+      <node id="2622">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="2623" relation="include">
+        </childnode>
+        <childnode refid="2624" relation="include">
+        </childnode>
+      </node>
+      <node id="2625">
+        <label>deque</label>
+      </node>
+      <node id="2629">
+        <label>unordered_map</label>
+      </node>
+      <node id="2640">
+        <label>Utils/TypeFilter.h</label>
+        <childnode refid="2641" relation="include">
+        </childnode>
+        <childnode refid="2624" relation="include">
+        </childnode>
+      </node>
+      <node id="2631">
+        <label>Utils/IndexCache.h</label>
+        <childnode refid="2629" relation="include">
+        </childnode>
+        <childnode refid="2632" relation="include">
+        </childnode>
+        <childnode refid="2633" relation="include">
+        </childnode>
+      </node>
+      <node id="2623">
+        <label>experimental/filesystem</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2648">
+        <label>Source/Xml/Parser.cpp</label>
+      </node>
+      <node id="2649">
+        <label>Tools/GenApi/Main.cpp</label>
+      </node>
+      <node id="2644">
+        <label>Source/Xml/Parser.h</label>
+        <link refid="a02994"/>
+        <childnode refid="2645" relation="include">
+        </childnode>
+        <childnode refid="2646" relation="include">
+        </childnode>
+        <childnode refid="2647" relation="include">
+        </childnode>
+        <childnode refid="2648" relation="include">
+        </childnode>
+        <childnode refid="2649" relation="include">
+        </childnode>
+      </node>
+      <node id="2647">
+        <label>Source/MdDoxTree/SiteBuilder.cpp</label>
+      </node>
+      <node id="2645">
+        <label>Source/MdDox/Main.cpp</label>
+      </node>
+      <node id="2646">
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a02115" prot="public">MdDox::Xml::Parser</innerclass>
+    <innernamespace refid="a01838">MdDox</innernamespace>
+    <innernamespace refid="a01846">MdDox::Xml</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stack&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/ParserBase/ParserBase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/TypeFilter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Xml/Node.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">TypeFilter;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01846" kindref="compound" tooltip="Provides a grouping of classes that handle parsing XML files. ">MdDox::Xml</ref></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Scanner;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69" refid="a01846_1a253bb379db365511c76461630042cfdf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a02067" kindref="compound">StringCache</ref><sp/>=<sp/><ref refid="a02067" kindref="compound">Cache&lt;String&gt;</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="a01846_1a642d5079d25ebeb0618bf168bea03f17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01846_1a642d5079d25ebeb0618bf168bea03f17" kindref="member" tooltip="Provides a stack structure to build the node tree. ">NodeStack</ref><sp/>=<sp/>std::stack&lt;Node*&gt;;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="a02115" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02115" kindref="compound" tooltip="Parser is the XML based implementation of the ParseBase base class. ">Parser</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02079" kindref="compound" tooltip="Base that handles common parse functionality. ">ParserBase</ref></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02067" kindref="compound">StringCache</ref><sp/><sp/><sp/>_labels;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_root;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01846_1a642d5079d25ebeb0618bf168bea03f17" kindref="member" tooltip="Provides a stack structure to build the node tree. ">NodeStack</ref><sp/><sp/><sp/><sp/><sp/>_stack;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref><sp/>_filter;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>parseImpl(<ref refid="a01838_1a9601d0e9c9bcb992817361caf37a8518" kindref="member" tooltip="Declaration of the input stream base class. ">IStream</ref>&amp;<sp/>input)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeImpl(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>format<sp/>=<sp/>0)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ruleAttributeList();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ruleAttribute();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ruleObject();</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ruleStartTag();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ruleContent();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ruleEndTag();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ruleXmlRoot();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ruleObjectList();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>createTag(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>reduceRule();</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dropRule();</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>&amp;<sp/>top();</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>parseErrorMessageImpl(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>message)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02115_1a9daa7a3adeb058debf469223be26bb43" kindref="member">Parser</ref>();</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02115_1aba334ae34e18febdf133855df6b357c8" kindref="member">~Parser</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02115_1afb32e2e1f5cc5df668783653f13f81a7" kindref="member">applyFilter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02103" kindref="compound">TypeFilter</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>filterSize);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><ref refid="a02115_1ad981d8abab00654645b673875dde2b9a" kindref="member" tooltip="Provides access to the root of the node tree. ">root</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Xml</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/Xml/Parser.h"/>
+  </compounddef>
+</doxygen>

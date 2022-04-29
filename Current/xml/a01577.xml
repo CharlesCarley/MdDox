@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01577" kind="file" language="C++">
+    <compoundname>ListQuery.h</compoundname>
+    <includes refid="a01427" local="yes">Doxygen.h</includes>
+    <includedby refid="a01055" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="a01574" local="yes">Tools/Doxygen/ListQuery.cpp</includedby>
+    <includedby refid="a01586" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="a01652" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
+    <incdepgraph>
+      <node id="7436">
+        <label>Utils/Console.h</label>
+        <childnode refid="7424" relation="include">
+        </childnode>
+      </node>
+      <node id="7430">
+        <label>iomanip</label>
+      </node>
+      <node id="7422">
+        <label>functional</label>
+      </node>
+      <node id="7432">
+        <label>Utils/Exception.h</label>
+        <childnode refid="7433" relation="include">
+        </childnode>
+        <childnode refid="7434" relation="include">
+        </childnode>
+        <childnode refid="7435" relation="include">
+        </childnode>
+        <childnode refid="7436" relation="include">
+        </childnode>
+        <childnode refid="7424" relation="include">
+        </childnode>
+      </node>
+      <node id="7434">
+        <label>stdexcept</label>
+      </node>
+      <node id="7428">
+        <label>string</label>
+      </node>
+      <node id="7421">
+        <label>Doxygen.h</label>
+        <childnode refid="7422" relation="include">
+        </childnode>
+        <childnode refid="7423" relation="include">
+        </childnode>
+        <childnode refid="7424" relation="include">
+        </childnode>
+        <childnode refid="7431" relation="include">
+        </childnode>
+        <childnode refid="7432" relation="include">
+        </childnode>
+      </node>
+      <node id="7420">
+        <label>Tools/Doxygen/ListQuery.h</label>
+        <link refid="a01577"/>
+        <childnode refid="7421" relation="include">
+        </childnode>
+      </node>
+      <node id="7433">
+        <label>exception</label>
+      </node>
+      <node id="7426">
+        <label>fstream</label>
+      </node>
+      <node id="7431">
+        <label>Xml/Node.h</label>
+        <childnode refid="7422" relation="include">
+        </childnode>
+        <childnode refid="7423" relation="include">
+        </childnode>
+        <childnode refid="7424" relation="include">
+        </childnode>
+      </node>
+      <node id="7424">
+        <label>Utils/String.h</label>
+        <childnode refid="7425" relation="include">
+        </childnode>
+        <childnode refid="7426" relation="include">
+        </childnode>
+        <childnode refid="7427" relation="include">
+        </childnode>
+        <childnode refid="7428" relation="include">
+        </childnode>
+        <childnode refid="7423" relation="include">
+        </childnode>
+        <childnode refid="7429" relation="include">
+        </childnode>
+        <childnode refid="7430" relation="include">
+        </childnode>
+      </node>
+      <node id="7429">
+        <label>vector</label>
+      </node>
+      <node id="7435">
+        <label>utility</label>
+      </node>
+      <node id="7427">
+        <label>sstream</label>
+      </node>
+      <node id="7425">
+        <label>deque</label>
+      </node>
+      <node id="7423">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7439">
+        <label>Tools/Doxygen/ListQuery.cpp</label>
+      </node>
+      <node id="7441">
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
+      </node>
+      <node id="7437">
+        <label>Tools/Doxygen/ListQuery.h</label>
+        <link refid="a01577"/>
+        <childnode refid="7438" relation="include">
+        </childnode>
+        <childnode refid="7439" relation="include">
+        </childnode>
+        <childnode refid="7440" relation="include">
+        </childnode>
+        <childnode refid="7441" relation="include">
+        </childnode>
+      </node>
+      <node id="7440">
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
+      </node>
+      <node id="7438">
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a02447" prot="public">MdDox::Doxygen::ListQuery</innerclass>
+    <innerclass refid="a02443" prot="public">MdDox::Doxygen::Visitors::ListQueryVisitor</innerclass>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
+    <innernamespace refid="a01847">MdDox::Doxygen::Visitors</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Visitors</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30" refid="a02443" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02443" kindref="compound">ListQueryVisitor</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="a02443_1ad6a788f2b8457c2d2d92781e38b5f1a2" kindref="member">~ListQueryVisitor</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="a02443_1a7df86e7e1af2d14a355f04c4a377a6fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02443_1a7df86e7e1af2d14a355f04c4a377a6fd" kindref="member" tooltip="Callback for every _text_node. ">visitedText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="43" refid="a02443_1a185d81219cc7183b8d77b7a6e0daaf63" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02443_1a185d81219cc7183b8d77b7a6e0daaf63" kindref="member" tooltip="Called when the element listitem is found. ">visitedListItem</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02431" kindref="compound" tooltip="Implements the docListItemType scaffolding. ">ListItemQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61" refid="a02447" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02447" kindref="compound" tooltip="Implements the docListType scaffolding. ">ListQuery</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02267" kindref="compound">Query</ref></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02447_1a5ebc3b1f15a432dad5a0b06cbc504a81" kindref="member">ListQuery</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02447_1a5ebc3b1f15a432dad5a0b06cbc504a81" kindref="member">ListQuery</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02447" kindref="compound" tooltip="Implements the docListType scaffolding. ">ListQuery</ref>&amp;<sp/>other)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="a02447_1acb876cd470200a9bd33c51e540d913be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="a02447_1acb876cd470200a9bd33c51e540d913be" kindref="member">ListQuery</ref>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/><ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02267" kindref="compound">Query</ref>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02447_1ac46bf25f821f5e934a5d7435ed39e9f6" kindref="member">visit</ref>(<ref refid="a02443" kindref="compound">Visitors::ListQueryVisitor</ref><sp/>*)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02447_1abb29e9ce975d8ea0d2257f5bd60418fe" kindref="member" tooltip="Invokes the supplied callback on listitem elements. ">foreachListItem</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1aca424a13e91d2ba0862eb67c3785bc08" kindref="member">ListItemQueryFunction</ref>&amp;<sp/>invoke)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/ListQuery.h"/>
+  </compounddef>
+</doxygen>

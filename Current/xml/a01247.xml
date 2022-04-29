@@ -1,669 +1,493 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01247" kind="class" language="C++" prot="public">
-    <compoundname>MdDox::StringUtils</compoundname>
-    <includes local="no">Source/Utils/String.h</includes>
-      <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="a01247_1a25d7c52c64b0071b83d11feee43ea0cb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::generate</definition>
-        <argsstring>(String &amp;destination, int &amp;counter, void *seed)</argsstring>
-        <name>generate</name>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>destination</declname>
-        </param>
-        <param>
-          <type>int &amp;</type>
-          <declname>counter</declname>
-        </param>
-        <param>
-          <type>void *</type>
-          <declname>seed</declname>
-        </param>
-        <briefdescription>
-<para>Scrambles and combines a contextually unique counter, time stamp, and a memory address. </para>        </briefdescription>
-        <detaileddescription>
-<para>Used to generate a unique string without using a GUID.</para><para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>destination</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The string that will hold the generated value </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>counter</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>A reference to an external counter variable. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>seed</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The memory address to mix into the generated value. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="164" column="1" bodyfile="Source/Utils/String.cpp" bodystart="257" bodyend="266"/>
-        <references refid="a01247_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" compoundref="a00371" startline="204" endline="227">scramble</references>
-        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">MdDox::StringCombine</references>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a7c366ea2942779a96722181c617fbe35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::replaceAll</definition>
-        <argsstring>(String &amp;dest, const String &amp;input, const String &amp;a, const String &amp;b)</argsstring>
-        <name>replaceAll</name>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="202" column="1" bodyfile="Source/Utils/String.cpp" bodystart="31" bodyend="74"/>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::scramble</definition>
-        <argsstring>(String &amp;destination, size_t value, bool randomize=true)</argsstring>
-        <name>scramble</name>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>destination</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>value</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>randomize</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-<para>Converts the supplied integer to base 64 and uses a nonsensical symbol alphabet to produce a randomized string. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>destination</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The string that will hold the scrambled value. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>value</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The value to scramble. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>randomize</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>If true, the result will randomly be shifted.</para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<programlisting filename=".txt"><codeline><highlight class="normal">Randomized:</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>1ILtZEF</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>h804iWy</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>DpZzzmg</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>I0BBSCd</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/></highlight></codeline>
-<codeline><highlight class="normal">Not-Randomized:</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>n1mLZd3</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>n1mLZd3</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>n1mLZd3</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>n1mLZd3</highlight></codeline>
-</programlisting> </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="149" column="1" bodyfile="Source/Utils/String.cpp" bodystart="204" bodyend="227"/>
-        <references refid="a00986_1ac1e40b26a321318c518279d7a346142e" compoundref="a00371" startline="202">MdDox::BaseCharsSize</references>
-        <references refid="a00986_1a42fb98e42434407c66cfe313080ee049" compoundref="a00371" startline="190">MdDox::BaseChars</references>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1ae11e608ead047e4c71e71de7ae6e0536" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::StringUtils::scramble</definition>
-        <argsstring>(const String &amp;value, bool randomize=true)</argsstring>
-        <name>scramble</name>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>value</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>randomize</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="152" column="1" bodyfile="Source/Utils/String.cpp" bodystart="240" bodyend="255"/>
-        <references refid="a01243_1a9b71915964768f4d254bad795d80dbd5" compoundref="a00371" startline="232">MdDox::Merge::b</references>
-        <references refid="a01247_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" compoundref="a00371" startline="204" endline="227">scramble</references>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1aca409c0c7ed03c4e60564c4955b736d2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::split</definition>
-        <argsstring>(StringArray &amp;destination, const String &amp;input, char separator)</argsstring>
-        <name>split</name>
-        <param>
-          <type><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref> &amp;</type>
-          <declname>destination</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <param>
-          <type>char</type>
-          <declname>separator</declname>
-        </param>
-        <briefdescription>
-<para>Splits the supplied string into a list of sub-strings. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>destination</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The structure that will hold the sub-strings. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>input</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The input string to split. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>separator</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The value that determines a split. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="100" column="1" bodyfile="Source/Utils/String.cpp" bodystart="125" bodyend="132"/>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a6837f6baff05561c25008bab6dfba745" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::split</definition>
-        <argsstring>(StringArray &amp;destination, const String &amp;input, const String &amp;separator)</argsstring>
-        <name>split</name>
-        <param>
-          <type><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref> &amp;</type>
-          <declname>destination</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>separator</declname>
-        </param>
-        <briefdescription>
-<para>Splits the supplied string into a list of sub-strings. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>destination</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The structure that will hold the sub-strings. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>input</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The input string to split. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>separator</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The value that determines a split. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="116" column="1" bodyfile="Source/Utils/String.cpp" bodystart="156" bodyend="171"/>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a46aa4499cbbb3a4566d073ebd1a064c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::split</definition>
-        <argsstring>(StringDeque &amp;destination, const String &amp;input, const String &amp;separator)</argsstring>
-        <name>split</name>
-        <param>
-          <type><ref refid="a00986_1ab821d2f5c5e2cba37c52746683cd8f0b" kindref="member">StringDeque</ref> &amp;</type>
-          <declname>destination</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>separator</declname>
-        </param>
-        <briefdescription>
-<para>Splits the supplied string into a list of sub-strings. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>destination</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The structure that will hold the sub-strings. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>input</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The input string to split. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>separator</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The value that determines a split. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="123" column="1" bodyfile="Source/Utils/String.cpp" bodystart="173" bodyend="187"/>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a182fe1efd809e486f6d93d53f573b92d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::splitLine</definition>
-        <argsstring>(StringArray &amp;dest, const String &amp;input, char swap=&apos;$&apos;)</argsstring>
-        <name>splitLine</name>
-        <param>
-          <type><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <param>
-          <type>char</type>
-          <declname>swap</declname>
-          <defval>&apos;$&apos;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="200" column="1" bodyfile="Source/Utils/String.cpp" bodystart="108" bodyend="123"/>
-        <references refid="a01247_1a7c366ea2942779a96722181c617fbe35" compoundref="a00371" startline="31" endline="74">replaceAll</references>
-        <references refid="a01247_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="a00371" startline="125" endline="132">split</references>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a4e2a0d38a0435a6f041509d70b4c0cd7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::splitRejectEmpty</definition>
-        <argsstring>(StringArray &amp;destination, const String &amp;input, char separator)</argsstring>
-        <name>splitRejectEmpty</name>
-        <param>
-          <type><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref> &amp;</type>
-          <declname>destination</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <param>
-          <type>char</type>
-          <declname>separator</declname>
-        </param>
-        <briefdescription>
-<para>Splits the supplied string into a list of sub-strings. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>destination</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The structure that will hold the sub-strings. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>input</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The input string to split. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>separator</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The value that determines a split.</para></parameterdescription>
-</parameteritem>
-</parameterlist>
-Removes any empty strings from the result. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="109" column="1" bodyfile="Source/Utils/String.cpp" bodystart="134" bodyend="154"/>
-        <references refid="a01247_1a129eedfc9277ca8acab4fe29cf3dcdea" compoundref="a00371" startline="274" endline="302">trimWhiteSpace</references>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a0c6460ffd00b82ae4cd21ce37ea22a4e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::toLower</definition>
-        <argsstring>(String &amp;dest, const String &amp;in)</argsstring>
-        <name>toLower</name>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>in</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="204" column="1" bodyfile="Source/Utils/String.cpp" bodystart="76" bodyend="82"/>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a25b8d33edc11ae70f016f217cb7ae330" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::StringUtils::toLowerFirst</definition>
-        <argsstring>(const String &amp;in)</argsstring>
-        <name>toLowerFirst</name>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>in</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="208" column="1" bodyfile="Source/Utils/String.cpp" bodystart="92" bodyend="98"/>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1ab56d6cf09aedb16bd222016a02709fc8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::toUpper</definition>
-        <argsstring>(String &amp;dest, const String &amp;in)</argsstring>
-        <name>toUpper</name>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>in</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="206" column="1" bodyfile="Source/Utils/String.cpp" bodystart="84" bodyend="90"/>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a10a2d9d4209047792b39cc2330cf646a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::StringUtils::toUpperFirst</definition>
-        <argsstring>(const String &amp;in)</argsstring>
-        <name>toUpperFirst</name>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>in</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="210" column="1" bodyfile="Source/Utils/String.cpp" bodystart="100" bodyend="106"/>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a7dd724d8a259c73e7f952d01b4f42548" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::trim</definition>
-        <argsstring>(String &amp;destination, const String &amp;input, char character)</argsstring>
-        <name>trim</name>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>destination</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <param>
-          <type>char</type>
-          <declname>character</declname>
-        </param>
-        <briefdescription>
-<para>A combination of trimL and trimR. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>destination</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The destination storage. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>input</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The input string that needs to be trimmed. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>character</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>the character to trim. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="198" column="1" bodyfile="Source/Utils/String.cpp" bodystart="268" bodyend="272"/>
-        <references refid="a01247_1a87fc763d8ed23042621827d65de690aa" compoundref="a00371" startline="304" endline="317">trimL</references>
-        <references refid="a01247_1a84fd2c771eb5953236d6fee9acc6d8d6" compoundref="a00371" startline="319" endline="335">trimR</references>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a87fc763d8ed23042621827d65de690aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::trimL</definition>
-        <argsstring>(String &amp;destination, const String &amp;input, char character)</argsstring>
-        <name>trimL</name>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>destination</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <param>
-          <type>char</type>
-          <declname>character</declname>
-        </param>
-        <briefdescription>
-<para>Removes all occurrences of the supplied character from the left hand side of the string. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>destination</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The destination storage. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>input</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The input string that needs to be trimmed. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>character</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>the character to trim. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="180" column="1" bodyfile="Source/Utils/String.cpp" bodystart="304" bodyend="317"/>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a84fd2c771eb5953236d6fee9acc6d8d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::trimR</definition>
-        <argsstring>(String &amp;destination, const String &amp;input, char character)</argsstring>
-        <name>trimR</name>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>destination</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <param>
-          <type>char</type>
-          <declname>character</declname>
-        </param>
-        <briefdescription>
-<para>Removes all occurrences of the supplied character from the right hand side of the string. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>destination</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The destination storage. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>input</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The input string that needs to be trimmed. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>character</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>the character to trim. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="189" column="1" bodyfile="Source/Utils/String.cpp" bodystart="319" bodyend="335"/>
-      </memberdef>
-      <memberdef kind="function" id="a01247_1a129eedfc9277ca8acab4fe29cf3dcdea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::StringUtils::trimWhiteSpace</definition>
-        <argsstring>(String &amp;destination, const String &amp;input)</argsstring>
-        <name>trimWhiteSpace</name>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>destination</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <briefdescription>
-<para>Removes any white space characters from the start and end of the string. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>destination</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The destination storage. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>input</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The input string that needs to be trimmed. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="171" column="1" bodyfile="Source/Utils/String.cpp" bodystart="274" bodyend="302"/>
-        <references refid="a00986_1ab988273a03d78c09f4ed6f85c3e2eb13" compoundref="a00299" startline="193" endline="196">MdDox::isWhiteSpace</references>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a01247" kind="file" language="C++">
+    <compoundname>Node.cpp</compoundname>
+    <includes refid="a01250" local="yes">Xml/Node.h</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">utility</includes>
+    <includes refid="a01244" local="yes">Attribute.h</includes>
+    <includes refid="a01151" local="yes">Utils/Char.h</includes>
+    <includes refid="a01184" local="yes">Utils/Exception.h</includes>
+    <includes refid="a01205" local="yes">Utils/ParserBase/ParserBase.h</includes>
+    <incdepgraph>
+      <node id="4223">
+        <label>Utils/Console.h</label>
+        <childnode refid="4208" relation="include">
+        </childnode>
+      </node>
+      <node id="4214">
+        <label>iomanip</label>
+      </node>
+      <node id="4206">
+        <label>functional</label>
+      </node>
+      <node id="4231">
+        <label>Utils/ParserBase/TokenBase.h</label>
+      </node>
+      <node id="4225">
+        <label>Utils/ParserBase/ScannerBase.h</label>
+        <childnode refid="4226" relation="include">
+        </childnode>
+        <childnode refid="4228" relation="include">
+        </childnode>
+        <childnode refid="4230" relation="include">
+        </childnode>
+        <childnode refid="4231" relation="include">
+        </childnode>
+      </node>
+      <node id="4224">
+        <label>Utils/ParserBase/ParserBase.h</label>
+        <childnode refid="4213" relation="include">
+        </childnode>
+        <childnode refid="4225" relation="include">
+        </childnode>
+        <childnode refid="4231" relation="include">
+        </childnode>
+      </node>
+      <node id="4230">
+        <label>Utils/Path.h</label>
+        <childnode refid="4208" relation="include">
+        </childnode>
+      </node>
+      <node id="4219">
+        <label>cstdint</label>
+      </node>
+      <node id="4220">
+        <label>Utils/Exception.h</label>
+        <childnode refid="4221" relation="include">
+        </childnode>
+        <childnode refid="4222" relation="include">
+        </childnode>
+        <childnode refid="4216" relation="include">
+        </childnode>
+        <childnode refid="4223" relation="include">
+        </childnode>
+        <childnode refid="4208" relation="include">
+        </childnode>
+      </node>
+      <node id="4222">
+        <label>stdexcept</label>
+      </node>
+      <node id="4212">
+        <label>string</label>
+      </node>
+      <node id="4217">
+        <label>Attribute.h</label>
+        <childnode refid="4216" relation="include">
+        </childnode>
+        <childnode refid="4208" relation="include">
+        </childnode>
+      </node>
+      <node id="4229">
+        <label>unordered_set</label>
+      </node>
+      <node id="4221">
+        <label>exception</label>
+      </node>
+      <node id="4210">
+        <label>fstream</label>
+      </node>
+      <node id="4205">
+        <label>Xml/Node.h</label>
+        <childnode refid="4206" relation="include">
+        </childnode>
+        <childnode refid="4207" relation="include">
+        </childnode>
+        <childnode refid="4208" relation="include">
+        </childnode>
+      </node>
+      <node id="4208">
+        <label>Utils/String.h</label>
+        <childnode refid="4209" relation="include">
+        </childnode>
+        <childnode refid="4210" relation="include">
+        </childnode>
+        <childnode refid="4211" relation="include">
+        </childnode>
+        <childnode refid="4212" relation="include">
+        </childnode>
+        <childnode refid="4207" relation="include">
+        </childnode>
+        <childnode refid="4213" relation="include">
+        </childnode>
+        <childnode refid="4214" relation="include">
+        </childnode>
+      </node>
+      <node id="4213">
+        <label>vector</label>
+      </node>
+      <node id="4216">
+        <label>utility</label>
+      </node>
+      <node id="4211">
+        <label>sstream</label>
+      </node>
+      <node id="4218">
+        <label>Utils/Char.h</label>
+        <childnode refid="4219" relation="include">
+        </childnode>
+        <childnode refid="4208" relation="include">
+        </childnode>
+      </node>
+      <node id="4226">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="4227" relation="include">
+        </childnode>
+        <childnode refid="4208" relation="include">
+        </childnode>
+      </node>
+      <node id="4209">
+        <label>deque</label>
+      </node>
+      <node id="4207">
+        <label>unordered_map</label>
+      </node>
+      <node id="4215">
+        <label>algorithm</label>
+      </node>
+      <node id="4228">
+        <label>Utils/IndexCache.h</label>
+        <childnode refid="4207" relation="include">
+        </childnode>
+        <childnode refid="4229" relation="include">
+        </childnode>
+        <childnode refid="4220" relation="include">
+        </childnode>
+      </node>
+      <node id="4204">
+        <label>Source/Xml/Node.cpp</label>
+        <link refid="a01247"/>
+        <childnode refid="4205" relation="include">
+        </childnode>
+        <childnode refid="4215" relation="include">
+        </childnode>
+        <childnode refid="4216" relation="include">
+        </childnode>
+        <childnode refid="4217" relation="include">
+        </childnode>
+        <childnode refid="4218" relation="include">
+        </childnode>
+        <childnode refid="4220" relation="include">
+        </childnode>
+        <childnode refid="4224" relation="include">
+        </childnode>
+      </node>
+      <node id="4227">
+        <label>experimental/filesystem</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="a01846">MdDox::Xml</innernamespace>
     <briefdescription>
-<para>Provides general string conversion utility routines. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/Utils/String.h" line="92" column="1" bodyfile="Source/Utils/String.h" bodystart="91" bodyend="212"/>
-    <listofallmembers>
-      <member refid="a01247_1a25d7c52c64b0071b83d11feee43ea0cb" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>generate</name></member>
-      <member refid="a01247_1a7c366ea2942779a96722181c617fbe35" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>replaceAll</name></member>
-      <member refid="a01247_1a8c5c26fa7f5bb8c0e3fa0b3bfd50d41a" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>scramble</name></member>
-      <member refid="a01247_1ae11e608ead047e4c71e71de7ae6e0536" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>scramble</name></member>
-      <member refid="a01247_1aca409c0c7ed03c4e60564c4955b736d2" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>split</name></member>
-      <member refid="a01247_1a6837f6baff05561c25008bab6dfba745" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>split</name></member>
-      <member refid="a01247_1a46aa4499cbbb3a4566d073ebd1a064c9" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>split</name></member>
-      <member refid="a01247_1a182fe1efd809e486f6d93d53f573b92d" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>splitLine</name></member>
-      <member refid="a01247_1a4e2a0d38a0435a6f041509d70b4c0cd7" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>splitRejectEmpty</name></member>
-      <member refid="a01247_1a0c6460ffd00b82ae4cd21ce37ea22a4e" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>toLower</name></member>
-      <member refid="a01247_1a25b8d33edc11ae70f016f217cb7ae330" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>toLowerFirst</name></member>
-      <member refid="a01247_1ab56d6cf09aedb16bd222016a02709fc8" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>toUpper</name></member>
-      <member refid="a01247_1a10a2d9d4209047792b39cc2330cf646a" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>toUpperFirst</name></member>
-      <member refid="a01247_1a7dd724d8a259c73e7f952d01b4f42548" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>trim</name></member>
-      <member refid="a01247_1a87fc763d8ed23042621827d65de690aa" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>trimL</name></member>
-      <member refid="a01247_1a84fd2c771eb5953236d6fee9acc6d8d6" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>trimR</name></member>
-      <member refid="a01247_1a129eedfc9277ca8acab4fe29cf3dcdea" prot="public" virt="non-virtual"><scope>MdDox::StringUtils</scope><name>trimWhiteSpace</name></member>
-    </listofallmembers>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Xml/Node.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Attribute.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Char.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Exception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/ParserBase/ParserBase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01846" kindref="compound" tooltip="Provides a grouping of classes that handle parsing XML files. ">MdDox::Xml</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32" refid="a02111_1aca71abf00d43782a922933bc7d4aec2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111_1aca71abf00d43782a922933bc7d4aec2e" kindref="member" tooltip="Default constructor. ">Node::Node</ref>()<sp/>:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_typeCode(-1),</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_parent(nullptr),</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_next(nullptr),</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_autoDelete(true)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="a02111_1a80fdda29892a61ea96f1855312830504" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111_1aca71abf00d43782a922933bc7d4aec2e" kindref="member" tooltip="Default constructor. ">Node::Node</ref>(<ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>name)<sp/>:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_name(<ref refid="a01851" kindref="compound">std</ref>::move(name)),</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_typeCode(-1),</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_parent(nullptr),</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_next(nullptr),</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_autoDelete(true)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="a02111_1aa4305357352d028f2ff0e31685f3ee53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111_1aa4305357352d028f2ff0e31685f3ee53" kindref="member" tooltip="Default destructor. ">Node::~Node</ref>()</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a02111_1a4df38fbccf3c5aaea8bb43cfcb58aa9b" kindref="member">_autoDelete</ref>)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>child<sp/>:<sp/>_children)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>child;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="a02111_1a208a5c60b47b7fa3c13de7c997351972" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02111_1a208a5c60b47b7fa3c13de7c997351972" kindref="member" tooltip="Appends a child node to the current list of children, and sets the child node&amp;#39;s parent to the current...">Node::addChild</ref>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>child)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!child)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>MessageException(</highlight><highlight class="stringliteral">&quot;invalid<sp/>node<sp/>supplied<sp/>to<sp/>node.addChild&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>child-&gt;_parent<sp/>=<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>child-&gt;_next<sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!_children.empty())</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_children.back()-&gt;_next<sp/>=<sp/>child;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_children.push_back(child);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="a02111_1ab412278d4e2bdfade1e9fa45fd6768c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><ref refid="a02111_1ab412278d4e2bdfade1e9fa45fd6768c2" kindref="member" tooltip="Provides access to the child node at the supplied index. ">Node::at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/>idx)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(idx<sp/>&gt;=<sp/>_children.size())</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_children.at(idx);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="a02111_1ac65bb68aafa6e0889052adad248c6481" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><ref refid="a02111_1ab412278d4e2bdfade1e9fa45fd6768c2" kindref="member" tooltip="Provides access to the child node at the supplied index. ">Node::at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/>idx)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="80"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(idx<sp/>&gt;=<sp/>_children.size())</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_children.at(idx);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="a02111_1a4416339f625f6f3057a265e8a355a458" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a02111_1a4416339f625f6f3057a265e8a355a458" kindref="member">Node::contains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>attribute)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AttributeMap::iterator<sp/>it<sp/>=<sp/>_attributes.find(<ref refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" kindref="member" tooltip="Looks up the supplied name in the attribute map. ">attribute</ref>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>it<sp/>!=<sp/>_attributes.end();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="a02111_1a6171d66e4ccac877114a9dcea2950a53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02111_1a6171d66e4ccac877114a9dcea2950a53" kindref="member">Node::insert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>attribute,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>value)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AttributeMap::iterator<sp/>it<sp/>=<sp/>_attributes.find(<ref refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" kindref="member" tooltip="Looks up the supplied name in the attribute map. ">attribute</ref>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it<sp/>==<sp/>_attributes.end())</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_attributes.insert(std::make_pair(<ref refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" kindref="member" tooltip="Looks up the supplied name in the attribute map. ">attribute</ref>,<sp/>value));</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="a02111_1ab38a9a4aaa25a138918401ea97a1180e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02111_1ab38a9a4aaa25a138918401ea97a1180e" kindref="member">Node::get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>attribute)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AttributeMap::iterator<sp/>it<sp/>=<sp/>_attributes.find(<ref refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" kindref="member" tooltip="Looks up the supplied name in the attribute map. ">attribute</ref>);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it<sp/>!=<sp/>_attributes.end())</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>it-&gt;second;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>NotFound();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" kindref="member" tooltip="Looks up the supplied name in the attribute map. ">Node::attribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>def)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="110"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AttributeMap::const_iterator<sp/>it<sp/>=<sp/>_attributes.find(<ref refid="a02111_1af0c11e088103f304dc0e28fccccf105e" kindref="member">name</ref>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it<sp/>!=<sp/>_attributes.end())</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>it-&gt;second;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>def;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="a02111_1af5396b174492eaed6d8566442df57554" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int64_t<sp/><ref refid="a02111_1af5396b174492eaed6d8566442df57554" kindref="member" tooltip="Looks up the supplied name in the attribute map. ">Node::integer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/>int64_t<sp/>def)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="118"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>val<sp/>=<sp/><ref refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" kindref="member" tooltip="Looks up the supplied name in the attribute map. ">attribute</ref>(<ref refid="a02111_1af0c11e088103f304dc0e28fccccf105e" kindref="member">name</ref>);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!val.empty())</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a02023_1a313ba0faa8c51cf6015437248d9e9016" kindref="member">Char::toInt64</ref>(val,<sp/>def);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>def;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="a02111_1a9d5753492b09c134f7c9401729cff881" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a02111_1a9d5753492b09c134f7c9401729cff881" kindref="member" tooltip="Compares the supplied string with the internal tag name. ">Node::isTypeOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>tagName)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="126"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!tagName)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>MessageException(</highlight><highlight class="stringliteral">&quot;invalid<sp/>string<sp/>supplied&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a02023_1adbfa0ed00df7a3807ed71f4e3f4fee7f" kindref="member" tooltip="Tests the strings for equality ">Char::equals</ref>(_name.c_str(),</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tagName,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::max(_name.size(),<sp/><ref refid="a02023_1a5b40b89b3198fcfa306a09047d3803e0" kindref="member" tooltip="Counts the number of characters up to the first occurrence of a null character &amp;#39;\0&amp;#39; ...">Char::length</ref>(tagName)));</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="a02111_1af3856f265f659975722e3dc2d0ba902d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a02111_1a9d5753492b09c134f7c9401729cff881" kindref="member" tooltip="Compares the supplied string with the internal tag name. ">Node::isTypeOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t<sp/>type)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="136"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_typeCode<sp/>==<sp/>type;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="a02111_1aa349bddf51e8b625d2404778f57873ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a02111_1aa349bddf51e8b625d2404778f57873ef" kindref="member">Node::hasChildren</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="141"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!_children.empty();</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="a02111_1a756a2b737aa4083208589a7ee6d35d6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a02111_1a756a2b737aa4083208589a7ee6d35d6c" kindref="member" tooltip="Preforms a linear search over of all child nodes and matches the node&amp;#39;s name with the supplied string...">Node::hasChild</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!str)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>InvalidPointer();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>child<sp/>:<sp/>_children)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(child-&gt;isTypeOf(str))</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="a02111_1aa85495a564a50bb46cd0df3489a1dd54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02111_1aa85495a564a50bb46cd0df3489a1dd54" kindref="member">Node::sort</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01846_1a010a26f3b7d0ee89ab19eab357474ca9" kindref="member">NodeSortFunc</ref>&amp;<sp/>fnc)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Use<sp/>stable_sort<sp/>to<sp/>preserve<sp/>any</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>order<sp/>that<sp/>is<sp/>already<sp/>there.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::stable_sort(_children.begin(),<sp/>_children.end(),<sp/>fnc);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="a02111_1a155387e434a57ea107317a8a41ed5a98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02111_1a155387e434a57ea107317a8a41ed5a98" kindref="member">Node::siblingsOf</ref>(<ref refid="a01846_1aacf07cb68e25a8fa469b0b5063a38e0c" kindref="member" tooltip="Defines the child node storage array container. ">NodeArray</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>tag)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tag.empty())</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>MessageException(</highlight><highlight class="stringliteral">&quot;the<sp/>supplied<sp/>tag<sp/>can<sp/>not<sp/>be<sp/>empty&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>child<sp/>:<sp/>_children)</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(child-&gt;isTypeOf(tag.c_str()))</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dest.push_back(child);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="a02111_1a80fc8e1401910987742533404ff32638" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>&amp;<sp/><ref refid="a02111_1a80fc8e1401910987742533404ff32638" kindref="member">Node::firstChild</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="178"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_children.empty())</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>IndexOutOfBounds();</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*_children.at(0);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="a02111_1a40236f07810dc8800e95fada2cc09ef5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><ref refid="a02111_1a40236f07810dc8800e95fada2cc09ef5" kindref="member">Node::getFirstChild</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>requireType)</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_children.empty())</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>InputException(</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;The<sp/>supplied<sp/>node<sp/>has<sp/>no<sp/>children,<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;therefore<sp/>the<sp/>first<sp/>child<sp/>&apos;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>requireType,</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&apos;<sp/>of<sp/>it<sp/>is<sp/>undefined&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>chi<sp/>=<sp/>_children.at(0);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!requireType.empty()<sp/>&amp;&amp;<sp/>chi-&gt;<ref refid="a02111_1af0c11e088103f304dc0e28fccccf105e" kindref="member">name</ref>()<sp/>!=<sp/>requireType)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>InputException(</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;the<sp/>top<sp/>level<sp/>node<sp/>is<sp/>not<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;a<sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>requireType,</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;node&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>chi;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="a02111_1ab9c5ef38f588a8ae17d1b45ea1797fa3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><ref refid="a02111_1a40236f07810dc8800e95fada2cc09ef5" kindref="member">Node::getFirstChild</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t&amp;<sp/>requireType)</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_children.empty())</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>InputException(</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;The<sp/>supplied<sp/>node<sp/>has<sp/>no<sp/>children,<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;therefore<sp/>the<sp/>first<sp/>child<sp/>&apos;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>requireType,</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&apos;<sp/>of<sp/>it<sp/>is<sp/>undefined&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>chi<sp/>=<sp/>_children.at(0);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(chi-&gt;<ref refid="a02111_1a321280cbd46dac12918a0de34c009720" kindref="member" tooltip="Provides access to any type code associated with the node. ">getTypeCode</ref>()<sp/>!=<sp/>requireType)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>InputException(</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;the<sp/>top<sp/>level<sp/>node<sp/>is<sp/>not<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;a<sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>requireType,</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;node&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>chi;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><ref refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">Node::firstChildOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>tag)</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tag.empty())</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>MessageException(</highlight><highlight class="stringliteral">&quot;the<sp/>supplied<sp/>tag<sp/>can<sp/>not<sp/>be<sp/>empty&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>child<sp/>:<sp/>_children)</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(child-&gt;isTypeOf(tag.c_str()))</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>child;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="a02111_1a351e5efc578e2af82cec5e6edbfff72d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><ref refid="a02111_1a351e5efc578e2af82cec5e6edbfff72d" kindref="member">Node::firstParentOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>tag)</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>cur<sp/>=<sp/>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*)</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(cur)</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cur-&gt;<ref refid="a02111_1a9d5753492b09c134f7c9401729cff881" kindref="member" tooltip="Compares the supplied string with the internal tag name. ">isTypeOf</ref>(tag.c_str()))</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cur<sp/>=<sp/>cur-&gt;_parent;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cur;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="a02111_1a1c496e70eb43a65c61ee1c5d58bd392f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><ref refid="a02111_1a351e5efc578e2af82cec5e6edbfff72d" kindref="member">Node::firstParentOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t&amp;<sp/>tag)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>cur<sp/>=<sp/>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*)</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(cur)</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cur-&gt;<ref refid="a02111_1a9d5753492b09c134f7c9401729cff881" kindref="member" tooltip="Compares the supplied string with the internal tag name. ">isTypeOf</ref>(tag))</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cur<sp/>=<sp/>cur-&gt;_parent;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cur;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="a02111_1add1af0fb2e1a5e62d0ca9871eccac544" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><ref refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" kindref="member">Node::firstChildOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t&amp;<sp/>tag)</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>child<sp/>:<sp/>_children)</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(child-&gt;isTypeOf(tag))</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>child;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="a02111_1a770676dddec389533501d27e6aa8fe7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><ref refid="a02111_1a770676dddec389533501d27e6aa8fe7e" kindref="member">Node::nextSiblingOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>tag)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="279"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tag.empty())</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>MessageException(</highlight><highlight class="stringliteral">&quot;the<sp/>supplied<sp/>tag<sp/>can<sp/>not<sp/>be<sp/>empty&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>nd<sp/>=<sp/>_next;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(nd<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(nd-&gt;<ref refid="a02111_1a9d5753492b09c134f7c9401729cff881" kindref="member" tooltip="Compares the supplied string with the internal tag name. ">isTypeOf</ref>(tag.c_str()))</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nd;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nd<sp/>=<sp/>nd-&gt;_next;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="a02111_1ab4f10f3a1137837fb067493ef1f8c7da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/><ref refid="a02111_1a770676dddec389533501d27e6aa8fe7e" kindref="member">Node::nextSiblingOf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t&amp;<sp/>tag)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="294"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Node</ref>*<sp/>nd<sp/>=<sp/>_next;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(nd<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(nd-&gt;<ref refid="a02111_1a9d5753492b09c134f7c9401729cff881" kindref="member" tooltip="Compares the supplied string with the internal tag name. ">isTypeOf</ref>(tag))</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nd;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nd<sp/>=<sp/>nd-&gt;_next;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="305"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Xml</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/Xml/Node.cpp"/>
   </compounddef>
 </doxygen>

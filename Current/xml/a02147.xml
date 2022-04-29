@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02147" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::ChildNodeQuery</compoundname>
+    <basecompoundref refid="a02267" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/ChildNodeQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02147_1a356b0d11b69b8a68943a25825cfdf76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ChildNodeQuery::ChildNodeQuery</definition>
+        <argsstring>()=default</argsstring>
+        <name>ChildNodeQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ChildNodeQuery.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02147_1ad9ec3f7d241e207ee9eb0e3f2c4dda23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ChildNodeQuery::ChildNodeQuery</definition>
+        <argsstring>(const ChildNodeQuery &amp;other)=default</argsstring>
+        <name>ChildNodeQuery</name>
+        <param>
+          <type>const <ref refid="a02147" kindref="compound">ChildNodeQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ChildNodeQuery.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02147_1aaae5ab28b05a77037ac2235bbb7047aa" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ChildNodeQuery::ChildNodeQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>ChildNodeQuery</name>
+        <param>
+          <type><ref refid="a02111" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ChildNodeQuery.h" line="52" column="1" bodyfile="Tools/Doxygen/ChildNodeQuery.h" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="a02147_1ac98293f86898528dc9cc485b56b28bde" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::ChildNodeQuery::getEdgeLabel</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getEdgeLabel</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>edgelabel</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>edgelabel&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ChildNodeQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/ChildNodeQuery.cpp" bodystart="42" bodyend="49"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02111_1ab85578367da69da2df67971b9420726a" compoundref="a01250" startline="285" endline="288">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="a02147_1a3bea65770b170d95abd6a7fffe0ff3b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::ChildNodeQuery::getRefId</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getRefId</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>refid</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>refid</bold> enumerated value or an empty string the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ChildNodeQuery.h" line="69" column="1" bodyfile="Tools/Doxygen/ChildNodeQuery.cpp" bodystart="28" bodyend="33"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02147_1a0af3aba9197e46e74a7c7f1af858ccf6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a92fda3af13e99912951bee1607752d61" kindref="member">DoxGraphRelationEnum</ref></type>
+        <definition>DoxGraphRelationEnum MdDox::Doxygen::ChildNodeQuery::getRelation</definition>
+        <argsstring>() const</argsstring>
+        <name>getRelation</name>
+        <briefdescription>
+<para>Provides access to the <bold>relation</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>relation</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ChildNodeQuery.h" line="61" column="1" bodyfile="Tools/Doxygen/ChildNodeQuery.cpp" bodystart="35" bodyend="40"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02211_1ab48bbb3f6bc6e8cf65b7cf62c32e9dbf" compoundref="a01343" startline="30" endline="47">MdDox::Doxygen::DoxGraphRelation::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>childnodeType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>childnodeType</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;childnodeType&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;edgelabel&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refid&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;relation&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxGraphRelation&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="83">
+        <label>MdDox::Doxygen::ChildNodeQuery</label>
+        <link refid="a02147"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="85">
+        <label>MdDox::Doxygen::ChildNodeQuery</label>
+        <link refid="a02147"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a02111"/>
+        <childnode refid="88" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="86">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+        <childnode refid="87" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="88">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/ChildNodeQuery.h" line="47" column="1" bodyfile="Tools/Doxygen/ChildNodeQuery.h" bodystart="46" bodyend="79"/>
+    <listofallmembers>
+      <member refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>_node</name></member>
+      <member refid="a02147_1a356b0d11b69b8a68943a25825cfdf76d" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>ChildNodeQuery</name></member>
+      <member refid="a02147_1ad9ec3f7d241e207ee9eb0e3f2c4dda23" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>ChildNodeQuery</name></member>
+      <member refid="a02147_1aaae5ab28b05a77037ac2235bbb7047aa" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>ChildNodeQuery</name></member>
+      <member refid="a02267_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>empty</name></member>
+      <member refid="a02147_1ac98293f86898528dc9cc485b56b28bde" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>getEdgeLabel</name></member>
+      <member refid="a02147_1a3bea65770b170d95abd6a7fffe0ff3b0" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>getRefId</name></member>
+      <member refid="a02147_1a0af3aba9197e46e74a7c7f1af858ccf6" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>getRelation</name></member>
+      <member refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>isValid</name></member>
+      <member refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>node</name></member>
+      <member refid="a02267_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>reset</name></member>
+      <member refid="a02267_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>sort</name></member>
+      <member refid="a02267_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ChildNodeQuery</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

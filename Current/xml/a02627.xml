@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02627" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::TableQueryVisitor</compoundname>
+    <includes local="no">Tools/Doxygen/TableQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02627_1ab03110c43ae771649c93ee6592b18139" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::TableQueryVisitor::~TableQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~TableQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TableQuery.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02627_1ae065dded410d21602245fac8315efe69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::TableQueryVisitor::visitedCaption</definition>
+        <argsstring>(const CaptionQuery &amp;query)</argsstring>
+        <name>visitedCaption</name>
+        <param>
+          <type>const <ref refid="a02143" kindref="compound">CaptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>caption</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02143" kindref="compound">CaptionQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TableQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/TableQuery.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="a02627_1a881ff6f296e874c607e680404cb10432" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::TableQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TableQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/TableQuery.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/TableQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/TableQuery.h" bodystart="30" bodyend="45"/>
+    <listofallmembers>
+      <member refid="a02627_1ae065dded410d21602245fac8315efe69" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TableQueryVisitor</scope><name>visitedCaption</name></member>
+      <member refid="a02627_1a881ff6f296e874c607e680404cb10432" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TableQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="a02627_1ab03110c43ae771649c93ee6592b18139" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TableQueryVisitor</scope><name>~TableQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

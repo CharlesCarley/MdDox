@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02059" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::FileSystem</compoundname>
+    <includes local="no">Source/Utils/FileSystem.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="a02059_1acd056047688e7ad2071815e9919c98a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01838_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref></type>
+        <definition>Path MdDox::FileSystem::absolute</definition>
+        <argsstring>(const String &amp;input)</argsstring>
+        <name>absolute</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/FileSystem.h" line="50" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="50" bodyend="59"/>
+        <references refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a01226" startline="223" endline="228">MdDox::StringCombine</references>
+        <references refid="a02059_1accff5a111e02146f88b39a013841cffd" compoundref="a01187" startline="61" endline="64">currentPath</references>
+        <references refid="a02059_1a310f37987814264b28d382a93fdb7cbc" compoundref="a01187" startline="28" endline="43">normalize</references>
+      </memberdef>
+      <memberdef kind="function" id="a02059_1accff5a111e02146f88b39a013841cffd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::FileSystem::currentPath</definition>
+        <argsstring>()</argsstring>
+        <name>currentPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/FileSystem.h" line="52" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="a02059_1a310f37987814264b28d382a93fdb7cbc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::FileSystem::normalize</definition>
+        <argsstring>(const String &amp;path)</argsstring>
+        <name>normalize</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/FileSystem.h" line="46" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="28" bodyend="43"/>
+        <references refid="a02099_1a129eedfc9277ca8acab4fe29cf3dcdea" compoundref="a01223" startline="274" endline="302">MdDox::StringUtils::trimWhiteSpace</references>
+        <references refid="a02099_1a7c366ea2942779a96722181c617fbe35" compoundref="a01223" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
+      </memberdef>
+      <memberdef kind="function" id="a02059_1aa233e70eca4df4ab76d586f54f552180" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01838_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref></type>
+        <definition>Path MdDox::FileSystem::normalize</definition>
+        <argsstring>(const Path &amp;path)</argsstring>
+        <name>normalize</name>
+        <param>
+          <type>const <ref refid="a01838_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref> &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/FileSystem.h" line="48" column="1" bodyfile="Source/Utils/FileSystem.cpp" bodystart="45" bodyend="48"/>
+        <references refid="a02059_1a310f37987814264b28d382a93fdb7cbc" compoundref="a01187" startline="28" endline="43">normalize</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Static utility class for handling files. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/Utils/FileSystem.h" line="44" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="43" bodyend="53"/>
+    <listofallmembers>
+      <member refid="a02059_1acd056047688e7ad2071815e9919c98a5" prot="public" virt="non-virtual"><scope>MdDox::FileSystem</scope><name>absolute</name></member>
+      <member refid="a02059_1accff5a111e02146f88b39a013841cffd" prot="public" virt="non-virtual"><scope>MdDox::FileSystem</scope><name>currentPath</name></member>
+      <member refid="a02059_1a310f37987814264b28d382a93fdb7cbc" prot="public" virt="non-virtual"><scope>MdDox::FileSystem</scope><name>normalize</name></member>
+      <member refid="a02059_1aa233e70eca4df4ab76d586f54f552180" prot="public" virt="non-virtual"><scope>MdDox::FileSystem</scope><name>normalize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

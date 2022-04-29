@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02271" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</compoundname>
+    <derivedcompoundref refid="a01915" prot="public" virt="non-virtual">MdDox::IndexPageFilter</derivedcompoundref>
+    <derivedcompoundref refid="a01919" prot="public" virt="non-virtual">MdDox::IndexPageWriter</derivedcompoundref>
+    <includes local="no">Tools/Doxygen/DoxygenIndexQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02271_1a881d221a3666470719a896e8e6da056a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor::~DoxygenIndexQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~DoxygenIndexQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02271_1af842c6cf37aa95f753ba014eda4832f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor::visitedCompound</definition>
+        <argsstring>(const CompoundIndexQuery &amp;query)</argsstring>
+        <name>visitedCompound</name>
+        <reimplementedby refid="a01915_1a0272d01ca025bd91ac7dd9b6656569c5">visitedCompound</reimplementedby>
+        <param>
+          <type>const <ref refid="a02171" kindref="compound">CompoundIndexQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>compound</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02171" kindref="compound">CompoundIndexQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="a02271_1aee3b9d953712e03e879fd89455634d92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="610">
+        <label>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</label>
+        <link refid="a02271"/>
+      </node>
+      <node id="611">
+        <label>MdDox::IndexPageFilter</label>
+        <link refid="a01915"/>
+        <childnode refid="610" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="612">
+        <label>MdDox::IndexPageWriter</label>
+        <link refid="a01919"/>
+        <childnode refid="610" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Tools/Doxygen/DoxygenIndexQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/DoxygenIndexQuery.h" bodystart="30" bodyend="45"/>
+    <listofallmembers>
+      <member refid="a02271_1af842c6cf37aa95f753ba014eda4832f2" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</scope><name>visitedCompound</name></member>
+      <member refid="a02271_1aee3b9d953712e03e879fd89455634d92" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="a02271_1a881d221a3666470719a896e8e6da056a" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::DoxygenIndexQueryVisitor</scope><name>~DoxygenIndexQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

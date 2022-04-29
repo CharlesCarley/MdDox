@@ -1,0 +1,1365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02467" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::MemberDefQuery</compoundname>
+    <basecompoundref refid="a02267" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/MemberDefQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02467_1ac302b2c89ef52bd771527d01b4f3bcf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::MemberDefQuery::MemberDefQuery</definition>
+        <argsstring>()=default</argsstring>
+        <name>MemberDefQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="210" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a2c8571785894db54fbb9ce14c744e4ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::MemberDefQuery::MemberDefQuery</definition>
+        <argsstring>(const MemberDefQuery &amp;other)=default</argsstring>
+        <name>MemberDefQuery</name>
+        <param>
+          <type>const <ref refid="a02467" kindref="compound">MemberDefQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="211" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ac0b41e28049aa762cce0ede5a8fa6433" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::MemberDefQuery::MemberDefQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>MemberDefQuery</name>
+        <param>
+          <type><ref refid="a02111" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="213" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="213" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1aea4360a466d342573e4bfde836a0fd5e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::foreachEnumValue</definition>
+        <argsstring>(const EnumValueQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachEnumValue</name>
+        <param>
+          <type>const <ref refid="a01843_1abdf791cd6e3263c121019567116609b6" kindref="member">EnumValueQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>enumvalue</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="598" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="554" bodyend="557"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a25f270b30ad949e864d2d16209f63281" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::foreachParameter</definition>
+        <argsstring>(const ParamQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachParameter</name>
+        <param>
+          <type>const <ref refid="a01843_1ae7dcf069d0dac0e3a20af5c13a924cac" kindref="member">ParamQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>param</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="593" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="549" bodyend="552"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a4bbb4dd7b031b95e90a0032ee04fcf92" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::foreachReferencedBy</definition>
+        <argsstring>(const ReferenceQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachReferencedBy</name>
+        <param>
+          <type>const <ref refid="a01843_1af3f8e0145ba622fad98cdf86534bc255" kindref="member">ReferenceQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>referencedby</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="608" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="564" bodyend="567"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a3eecf50028c8f30f75e9afc80947745c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::foreachReferences</definition>
+        <argsstring>(const ReferenceQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachReferences</name>
+        <param>
+          <type>const <ref refid="a01843_1af3f8e0145ba622fad98cdf86534bc255" kindref="member">ReferenceQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>references</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="603" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="559" bodyend="562"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a9095dd82d1cb8f1c43f6da91b746e9c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::foreachReImplementedBy</definition>
+        <argsstring>(const ReimplementQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachReImplementedBy</name>
+        <param>
+          <type>const <ref refid="a01843_1a023abc93b94116f6140c122c5df97f62" kindref="member">ReimplementQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>reimplementedby</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="588" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="544" bodyend="547"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a356308aa94646ff869874bc9a96b8f1a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::foreachReImplements</definition>
+        <argsstring>(const ReimplementQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachReImplements</name>
+        <param>
+          <type>const <ref refid="a01843_1a023abc93b94116f6140c122c5df97f62" kindref="member">ReimplementQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>reimplements</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="583" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="539" bodyend="542"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ab9e06a723b1a48957d10c2ed9cc5b34b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a2d0defe73aa325f7cb3ac7666f0d29a8" kindref="member">DoxAccessorEnum</ref></type>
+        <definition>DoxAccessorEnum MdDox::Doxygen::MemberDefQuery::getAccessor</definition>
+        <argsstring>() const</argsstring>
+        <name>getAccessor</name>
+        <briefdescription>
+<para>Provides access to the <bold>accessor</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>accessor</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="273" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="163" bodyend="168"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02195_1a31dd146fe72ae37909b1b6f811bb8919" compoundref="a01319" startline="30" endline="45">MdDox::Doxygen::DoxAccessor::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1afdf3d79363dfc1a234dca71369be1134" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getAdd</definition>
+        <argsstring>() const</argsstring>
+        <name>getAdd</name>
+        <briefdescription>
+<para>Provides access to the <bold>add</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>add</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="238" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="128" bodyend="133"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a86789de1f95aca0415e5ea1fe8078f80" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::MemberDefQuery::getArgsString</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getArgsString</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>argsstring</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>argsstring&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="484" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="368" bodyend="375"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02111_1ab85578367da69da2df67971b9420726a" compoundref="a01250" startline="285" endline="288">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1aa512a80354d614085090e082d5f1b950" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getAttribute</definition>
+        <argsstring>() const</argsstring>
+        <name>getAttribute</name>
+        <briefdescription>
+<para>Provides access to the <bold>attribute</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>attribute</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="420" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="310" bodyend="315"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a5eb34cb488c9a3d8f5a640eb80f83f26" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getBound</definition>
+        <argsstring>() const</argsstring>
+        <name>getBound</name>
+        <briefdescription>
+<para>Provides access to the <bold>bound</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>bound</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="441" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="331" bodyend="336"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a9532fe5f2944bce350bffc0293b8ffbd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::getBriefDescription</definition>
+        <argsstring>(DescriptionQuery &amp;dest) const</argsstring>
+        <name>getBriefDescription</name>
+        <param>
+          <type><ref refid="a02191" kindref="compound">DescriptionQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>briefdescription</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="543" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="467" bodyend="476"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a01427" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1aa32005f70f074c0b81e31d3d252272bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a02191" kindref="compound">DescriptionQuery</ref></type>
+        <definition>DescriptionQuery MdDox::Doxygen::MemberDefQuery::getBriefDescription</definition>
+        <argsstring>() const</argsstring>
+        <name>getBriefDescription</name>
+        <briefdescription>
+<para>Provides access to the <bold>briefdescription</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="548" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="478" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1aa9c8edf5326401b9258bdf663bdd6bbe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getConst</definition>
+        <argsstring>() const</argsstring>
+        <name>getConst</name>
+        <briefdescription>
+<para>Provides access to the <bold>const</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>const</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="252" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="142" bodyend="147"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a872820a95ac0719c7f0ecd4f94169cc6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getContrained</definition>
+        <argsstring>() const</argsstring>
+        <name>getContrained</name>
+        <briefdescription>
+<para>Provides access to the <bold>contrained</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>contrained</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="266" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="156" bodyend="161"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ae1a4925e507ac7b00f3855d757091a9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::MemberDefQuery::getDefinition</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getDefinition</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>definition</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>definition&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="477" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="359" bodyend="366"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02111_1ab85578367da69da2df67971b9420726a" compoundref="a01250" startline="285" endline="288">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ac47290678674f5ff8226b042072d5bb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::getDetailedDescription</definition>
+        <argsstring>(DescriptionQuery &amp;dest) const</argsstring>
+        <name>getDetailedDescription</name>
+        <param>
+          <type><ref refid="a02191" kindref="compound">DescriptionQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>detaileddescription</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="553" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="485" bodyend="494"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a01427" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ab0e058b6b5725db719a2c46fd6ac9348" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a02191" kindref="compound">DescriptionQuery</ref></type>
+        <definition>DescriptionQuery MdDox::Doxygen::MemberDefQuery::getDetailedDescription</definition>
+        <argsstring>() const</argsstring>
+        <name>getDetailedDescription</name>
+        <briefdescription>
+<para>Provides access to the <bold>detaileddescription</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="558" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="496" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a6d69ffd5601c6f9ede67ac97f3dcbda8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::getExceptions</definition>
+        <argsstring>(LinkedTextQuery &amp;dest) const</argsstring>
+        <name>getExceptions</name>
+        <param>
+          <type><ref refid="a02411" kindref="compound">LinkedTextQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>exceptions</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="533" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="449" bodyend="458"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a01427" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a9683d3ff1a714a1970fca30d86ab4bd4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a02411" kindref="compound">LinkedTextQuery</ref></type>
+        <definition>LinkedTextQuery MdDox::Doxygen::MemberDefQuery::getExceptions</definition>
+        <argsstring>() const</argsstring>
+        <name>getExceptions</name>
+        <briefdescription>
+<para>Provides access to the <bold>exceptions</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="538" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="460" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a82a46d887ad13a489346a02dfd64bd57" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getExplicit</definition>
+        <argsstring>() const</argsstring>
+        <name>getExplicit</name>
+        <briefdescription>
+<para>Provides access to the <bold>explicit</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>explicit</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="308" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="198" bodyend="203"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1af7e49bdd18e2dad023b80728856d556e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getFinal</definition>
+        <argsstring>() const</argsstring>
+        <name>getFinal</name>
+        <briefdescription>
+<para>Provides access to the <bold>final</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>final</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="378" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="268" bodyend="273"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ab4e1aa07a3b06cc73ef1d56fa7908733" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getGetTable</definition>
+        <argsstring>() const</argsstring>
+        <name>getGetTable</name>
+        <briefdescription>
+<para>Provides access to the <bold>gettable</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>gettable</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="329" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="219" bodyend="224"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a5ea29c981968fa624fe6a04534084ba3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::MemberDefQuery::getId</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getId</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>id</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>id</bold> enumerated value or an empty string the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="470" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="107" bodyend="112"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a159010882fc9c3e4bfd6d52516aaf9cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::getInBodyDescription</definition>
+        <argsstring>(DescriptionQuery &amp;dest) const</argsstring>
+        <name>getInBodyDescription</name>
+        <param>
+          <type><ref refid="a02191" kindref="compound">DescriptionQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>inbodydescription</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="563" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="503" bodyend="512"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a01427" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ace81e9fb2df4e02fabe14142560a0cfe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a02191" kindref="compound">DescriptionQuery</ref></type>
+        <definition>DescriptionQuery MdDox::Doxygen::MemberDefQuery::getInBodyDescription</definition>
+        <argsstring>() const</argsstring>
+        <name>getInBodyDescription</name>
+        <briefdescription>
+<para>Provides access to the <bold>inbodydescription</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="568" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="514" bodyend="519"/>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1af33ad6ffbbed9fb46bc0cfe5ee43c33e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::getInitializer</definition>
+        <argsstring>(LinkedTextQuery &amp;dest) const</argsstring>
+        <name>getInitializer</name>
+        <param>
+          <type><ref refid="a02411" kindref="compound">LinkedTextQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>initializer</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="523" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="431" bodyend="440"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a01427" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ab913e0540334b966f660a41ad6aabc94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a02411" kindref="compound">LinkedTextQuery</ref></type>
+        <definition>LinkedTextQuery MdDox::Doxygen::MemberDefQuery::getInitializer</definition>
+        <argsstring>() const</argsstring>
+        <name>getInitializer</name>
+        <briefdescription>
+<para>Provides access to the <bold>initializer</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="528" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="442" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a173776ef112d810e738cb50b97101f22" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getInitOnly</definition>
+        <argsstring>() const</argsstring>
+        <name>getInitOnly</name>
+        <briefdescription>
+<para>Provides access to the <bold>initonly</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>initonly</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="357" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="247" bodyend="252"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1abc9f6ddce57d11e7c30831058b9ca5d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getInline</definition>
+        <argsstring>() const</argsstring>
+        <name>getInline</name>
+        <briefdescription>
+<para>Provides access to the <bold>inline</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>inline</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="245" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="135" bodyend="140"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ac68cf32ca18b91aa10c6cd998eff35c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">DoxMemberKindEnum</ref></type>
+        <definition>DoxMemberKindEnum MdDox::Doxygen::MemberDefQuery::getKind</definition>
+        <argsstring>() const</argsstring>
+        <name>getKind</name>
+        <briefdescription>
+<para>Provides access to the <bold>kind</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>kind</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="231" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="121" bodyend="126"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02227_1a6aba6ff41752f6ada40f7855784cd518" compoundref="a01367" startline="30" endline="61">MdDox::Doxygen::DoxMemberKind::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ac574808ed4974e885ffc22a69fb566ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::getLocation</definition>
+        <argsstring>(LocationQuery &amp;dest) const</argsstring>
+        <name>getLocation</name>
+        <param>
+          <type><ref refid="a02451" kindref="compound">LocationQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>location</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="573" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="521" bodyend="530"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a01427" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a4de2bddb5239a71f579f6a991ab6a460" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a02451" kindref="compound">LocationQuery</ref></type>
+        <definition>LocationQuery MdDox::Doxygen::MemberDefQuery::getLocation</definition>
+        <argsstring>() const</argsstring>
+        <name>getLocation</name>
+        <briefdescription>
+<para>Provides access to the <bold>location</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="578" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="532" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a873d441075d1f897724c12bac2d432da" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getMayBeAmbiguous</definition>
+        <argsstring>() const</argsstring>
+        <name>getMayBeAmbiguous</name>
+        <briefdescription>
+<para>Provides access to the <bold>maybeambiguous</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>maybeambiguous</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="301" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="191" bodyend="196"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a2ba1e6f030398c82d4364fe0fa8ecaf8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getMayBeDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>getMayBeDefault</name>
+        <briefdescription>
+<para>Provides access to the <bold>maybedefault</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>maybedefault</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="462" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="352" bodyend="357"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1aa4a790c6c914a4c3e4226ab036db044d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getMaybeVoid</definition>
+        <argsstring>() const</argsstring>
+        <name>getMaybeVoid</name>
+        <briefdescription>
+<para>Provides access to the <bold>maybevoid</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>maybevoid</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="364" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="254" bodyend="259"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ae6f447f0d3efd646036df6e8d1792477" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getMutable</definition>
+        <argsstring>() const</argsstring>
+        <name>getMutable</name>
+        <briefdescription>
+<para>Provides access to the <bold>mutable</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>mutable</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="336" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="226" bodyend="231"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ab714a02390a2d9c9896c78f931800569" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::MemberDefQuery::getName</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getName</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>name</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>name&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="491" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="377" bodyend="384"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02111_1ab85578367da69da2df67971b9420726a" compoundref="a01250" startline="285" endline="288">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1abcad5a811c68b9ab0b2880a83362fbf6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getNew</definition>
+        <argsstring>() const</argsstring>
+        <name>getNew</name>
+        <briefdescription>
+<para>Provides access to the <bold>new</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>new</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="392" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="282" bodyend="287"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a8ad7c5d9f108a0c4beec1a0df2906a70" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getOptional</definition>
+        <argsstring>() const</argsstring>
+        <name>getOptional</name>
+        <briefdescription>
+<para>Provides access to the <bold>optional</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>optional</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="287" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="177" bodyend="182"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a26802b1297d29f9c75db8fae83e83874" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getProperty</definition>
+        <argsstring>() const</argsstring>
+        <name>getProperty</name>
+        <briefdescription>
+<para>Provides access to the <bold>property</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>property</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="427" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="317" bodyend="322"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a75f1fac0102b576635dd2e9168cd4ea3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1adadfcc04a080e0c820d68d73c2e51714" kindref="member">DoxProtectionKindEnum</ref></type>
+        <definition>DoxProtectionKindEnum MdDox::Doxygen::MemberDefQuery::getProt</definition>
+        <argsstring>() const</argsstring>
+        <name>getProt</name>
+        <briefdescription>
+<para>Provides access to the <bold>prot</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>prot</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="259" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="149" bodyend="154"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02239_1afebd04e883867f4c63546f2b26b466af" compoundref="a01385" startline="30" endline="41">MdDox::Doxygen::DoxProtectionKind::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1aec1d6b4a3e902ff3a73b131ae811b5f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getRaise</definition>
+        <argsstring>() const</argsstring>
+        <name>getRaise</name>
+        <briefdescription>
+<para>Provides access to the <bold>raise</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>raise</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="406" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="296" bodyend="301"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1aef6c32a20ff8683b1bf898badea5eea4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getReadable</definition>
+        <argsstring>() const</argsstring>
+        <name>getReadable</name>
+        <briefdescription>
+<para>Provides access to the <bold>readable</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>readable</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="343" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="233" bodyend="238"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a6d2b56d2134b1eb7f675f79940908d17" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getReadonly</definition>
+        <argsstring>() const</argsstring>
+        <name>getReadonly</name>
+        <briefdescription>
+<para>Provides access to the <bold>readonly</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>readonly</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="434" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="324" bodyend="329"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1af100088b8f1867617336eff263e2da42" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1ae486e1831f804fc195d86549036f504d" kindref="member">DoxRefQualifierKindEnum</ref></type>
+        <definition>DoxRefQualifierKindEnum MdDox::Doxygen::MemberDefQuery::getRefQual</definition>
+        <argsstring>() const</argsstring>
+        <name>getRefQual</name>
+        <briefdescription>
+<para>Provides access to the <bold>refqual</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>refqual</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="294" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="184" bodyend="189"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02247_1a42b121dfb560f7f100d59da6b346514d" compoundref="a01397" startline="30" endline="37">MdDox::Doxygen::DoxRefQualifierKind::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a2ae578a8311803345c805f07b7b5aa4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getRemovable</definition>
+        <argsstring>() const</argsstring>
+        <name>getRemovable</name>
+        <briefdescription>
+<para>Provides access to the <bold>removable</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>removable</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="448" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="338" bodyend="343"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a03ad8f9448ddf4b04425293fa37e5fb9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getRemove</definition>
+        <argsstring>() const</argsstring>
+        <name>getRemove</name>
+        <briefdescription>
+<para>Provides access to the <bold>remove</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>remove</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="399" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="289" bodyend="294"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a12c28b4c55b0c19c19aca90533ee1b23" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getRequired</definition>
+        <argsstring>() const</argsstring>
+        <name>getRequired</name>
+        <briefdescription>
+<para>Provides access to the <bold>required</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>required</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="413" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="303" bodyend="308"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a20f0098891aa413505b8b9c571d3ac34" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getSealed</definition>
+        <argsstring>() const</argsstring>
+        <name>getSealed</name>
+        <briefdescription>
+<para>Provides access to the <bold>sealed</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>sealed</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="385" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="275" bodyend="280"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a7c7ce0c6bebf1fc268b3ec33c2f7c123" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getSetTable</definition>
+        <argsstring>() const</argsstring>
+        <name>getSetTable</name>
+        <briefdescription>
+<para>Provides access to the <bold>settable</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>settable</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="371" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="261" bodyend="266"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1aedc96eda42c642fe82886908216d10db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getStatic</definition>
+        <argsstring>() const</argsstring>
+        <name>getStatic</name>
+        <briefdescription>
+<para>Provides access to the <bold>static</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>static</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="224" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="114" bodyend="119"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1ab4707557f8e1755a6d1db91ec3250c47" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getStrong</definition>
+        <argsstring>() const</argsstring>
+        <name>getStrong</name>
+        <briefdescription>
+<para>Provides access to the <bold>strong</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>strong</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="280" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="170" bodyend="175"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a72ac94ac6f4c11234452fc5a25e24980" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::getTemplateParamList</definition>
+        <argsstring>(TemplateParamListQuery &amp;dest) const</argsstring>
+        <name>getTemplateParamList</name>
+        <param>
+          <type><ref refid="a02639" kindref="compound">TemplateParamListQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>templateparamlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="503" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="395" bodyend="404"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a01427" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a4fdf8d52a83eb3794f8f9b0a0a0fd4f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a02639" kindref="compound">TemplateParamListQuery</ref></type>
+        <definition>TemplateParamListQuery MdDox::Doxygen::MemberDefQuery::getTemplateParamList</definition>
+        <argsstring>() const</argsstring>
+        <name>getTemplateParamList</name>
+        <briefdescription>
+<para>Provides access to the <bold>templateparamlist</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="508" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="406" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a6d4055ef46c6cb5dfc23a69e9802697c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getTransient</definition>
+        <argsstring>() const</argsstring>
+        <name>getTransient</name>
+        <briefdescription>
+<para>Provides access to the <bold>transient</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>transient</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="455" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="345" bodyend="350"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a574919061847f19b453f405d26c8f8c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::getType</definition>
+        <argsstring>(LinkedTextQuery &amp;dest) const</argsstring>
+        <name>getType</name>
+        <param>
+          <type><ref refid="a02411" kindref="compound">LinkedTextQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>type</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="513" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="413" bodyend="422"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a01427" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1af2003656982e3c23f8cb413d97190650" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a02411" kindref="compound">LinkedTextQuery</ref></type>
+        <definition>LinkedTextQuery MdDox::Doxygen::MemberDefQuery::getType</definition>
+        <argsstring>() const</argsstring>
+        <name>getType</name>
+        <briefdescription>
+<para>Provides access to the <bold>type</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="518" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="424" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a92102b32b9a2b92eb52100805e2062dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a7802d9f578bf7a12515d6bbf87b807ba" kindref="member">DoxVirtualKindEnum</ref></type>
+        <definition>DoxVirtualKindEnum MdDox::Doxygen::MemberDefQuery::getVirt</definition>
+        <argsstring>() const</argsstring>
+        <name>getVirt</name>
+        <briefdescription>
+<para>Provides access to the <bold>virt</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>virt</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="315" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="205" bodyend="210"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02263_1afbb3d4bbe0cb4ecb72ba8e9fea0fbf13" compoundref="a01421" startline="30" endline="39">MdDox::Doxygen::DoxVirtualKind::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a69f292b5ae68f7528d7cee0315a0e4c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getVolatile</definition>
+        <argsstring>() const</argsstring>
+        <name>getVolatile</name>
+        <briefdescription>
+<para>Provides access to the <bold>volatile</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>volatile</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="322" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="212" bodyend="217"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a77040d9d161ed009287a3d273e09dbcc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref></type>
+        <definition>DoxBoolEnum MdDox::Doxygen::MemberDefQuery::getWritable</definition>
+        <argsstring>() const</argsstring>
+        <name>getWritable</name>
+        <briefdescription>
+<para>Provides access to the <bold>writable</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>writable</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="350" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="240" bodyend="245"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02199_1a3343c05b5fb43754e8965adbe130a73e" compoundref="a01325" startline="30" endline="37">MdDox::Doxygen::DoxBool::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a94743d50b42047f1e9d1a3c3131eb7a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::MemberDefQuery::getWrite</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getWrite</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>write</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>write&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="498" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="386" bodyend="393"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02111_1ab85578367da69da2df67971b9420726a" compoundref="a01250" startline="285" endline="288">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="a02467_1a5f35691bd798dd06bb3344544bd83a69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::MemberDefQuery::visit</definition>
+        <argsstring>(Visitors::MemberDefQueryVisitor *) const</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="a02463" kindref="compound">Visitors::MemberDefQueryVisitor</ref> *</type>
+          <defname>visitor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/MemberDefQuery.h" line="218" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.cpp" bodystart="36" bodyend="106"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a01250" startline="270" endline="273">MdDox::Xml::Node::children</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="a01145" startline="31">MdDox::Doxygen::DoxTextNode</references>
+        <references refid="a02463_1a517e31a3b398865139ac319704fc1636" compoundref="a01595" startline="44" endline="44">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedText</references>
+        <references refid="a02463_1a2dc11969cc7b3596edb064093a472c23" compoundref="a01595" startline="49" endline="49">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedReImplements</references>
+        <references refid="a02463_1ad2c08e03b561365b25155545137c506d" compoundref="a01595" startline="54" endline="54">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedReImplementedBy</references>
+        <references refid="a02463_1a10d681be509de10feeed51f5679f9bd1" compoundref="a01595" startline="59" endline="59">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedParameter</references>
+        <references refid="a02463_1a1645689701abd5f6e6f253bd19174117" compoundref="a01595" startline="64" endline="64">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedEnumValue</references>
+        <references refid="a02463_1a8fa5a0682abee9c29053fdd5578a9559" compoundref="a01595" startline="69" endline="69">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedReferences</references>
+        <references refid="a02463_1aef4eb183f509d685b9a7b4958603fce3" compoundref="a01595" startline="74" endline="74">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedReferencedBy</references>
+        <references refid="a02463_1acac770d1f242c13069d46ded92d8599b" compoundref="a01595" startline="79" endline="79">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedTemplateParamList</references>
+        <references refid="a02463_1a5b18881ca1b21e683c9918d8939efda1" compoundref="a01595" startline="84" endline="84">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedType</references>
+        <references refid="a02463_1aa83c5a26f31c38a7702473d9d5280045" compoundref="a01595" startline="89" endline="89">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedInitializer</references>
+        <references refid="a02463_1a39a2568b896da4f5e6c8a23f5beffc6f" compoundref="a01595" startline="94" endline="94">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedExceptions</references>
+        <references refid="a02463_1a8d74a0a375c2a1e1b6adc13d4d535c84" compoundref="a01595" startline="99" endline="99">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedBriefDescription</references>
+        <references refid="a02463_1a3908192abe6af7c2dd845d0e1eadb28e" compoundref="a01595" startline="104" endline="104">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedDetailedDescription</references>
+        <references refid="a02463_1a9b91ad481178b68369d47dafa0c9f7b5" compoundref="a01595" startline="109" endline="109">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedInBodyDescription</references>
+        <references refid="a02463_1a310fd141c0e63196edd178b531c5ff91" compoundref="a01595" startline="114" endline="114">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedLocation</references>
+        <references refid="a02463_1af6f5e3e2685e7770fe1d2020d6078088" compoundref="a01595" startline="119" endline="119">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedDefinition</references>
+        <references refid="a02463_1a006132878ac6bd8e7068b9f22c32213c" compoundref="a01595" startline="124" endline="124">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedArgsString</references>
+        <references refid="a02463_1a31129dca7adde74aa4c7a148d2894c22" compoundref="a01595" startline="129" endline="129">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedName</references>
+        <references refid="a02463_1a2d2296a52a26af00d2b5947f001baefa" compoundref="a01595" startline="134" endline="134">MdDox::Doxygen::Visitors::MemberDefQueryVisitor::visitedWrite</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>memberdefType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>memberdefType</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;memberdefType&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;templateparamlist&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;templateparamlistType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;linkedTextType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;definition&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;argsstring&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;read&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;write&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;bitfield&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;reimplements&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;reimplementType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;reimplementedby&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;reimplementType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;param&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;paramType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;enumvalue&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;enumvalueType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;initializer&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;linkedTextType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;exceptions&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;linkedTextType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;briefdescription&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;descriptionType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;detaileddescription&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;descriptionType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;inbodydescription&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;descriptionType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;location&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;locationType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;references&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;referenceType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;referencedby&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;referenceType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;kind&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxMemberKind&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;id&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;prot&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxProtectionKind&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;static&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;strong&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;const&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;explicit&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;inline&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refqual&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxRefQualifierKind&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;virt&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxVirtualKind&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;volatile&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;mutable&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;readable&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;writable&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;initonly&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;settable&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;gettable&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;final&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;sealed&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;new&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;add&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;remove&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;raise&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;required&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;accessor&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxAccessor&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;attribute&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;property&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;readonly&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;bound&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;removable&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;contrained&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;transient&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;maybevoid&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;maybedefault&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;maybeambiguous&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxBool&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="323">
+        <label>MdDox::Doxygen::MemberDefQuery</label>
+        <link refid="a02467"/>
+        <childnode refid="324" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="324">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="327">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a02111"/>
+        <childnode refid="328" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="325">
+        <label>MdDox::Doxygen::MemberDefQuery</label>
+        <link refid="a02467"/>
+        <childnode refid="326" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="326">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+        <childnode refid="327" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="328">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/MemberDefQuery.h" line="208" column="1" bodyfile="Tools/Doxygen/MemberDefQuery.h" bodystart="207" bodyend="611"/>
+    <listofallmembers>
+      <member refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>_node</name></member>
+      <member refid="a02267_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>empty</name></member>
+      <member refid="a02467_1aea4360a466d342573e4bfde836a0fd5e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>foreachEnumValue</name></member>
+      <member refid="a02467_1a25f270b30ad949e864d2d16209f63281" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>foreachParameter</name></member>
+      <member refid="a02467_1a4bbb4dd7b031b95e90a0032ee04fcf92" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>foreachReferencedBy</name></member>
+      <member refid="a02467_1a3eecf50028c8f30f75e9afc80947745c" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>foreachReferences</name></member>
+      <member refid="a02467_1a9095dd82d1cb8f1c43f6da91b746e9c1" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>foreachReImplementedBy</name></member>
+      <member refid="a02467_1a356308aa94646ff869874bc9a96b8f1a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>foreachReImplements</name></member>
+      <member refid="a02467_1ab9e06a723b1a48957d10c2ed9cc5b34b" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getAccessor</name></member>
+      <member refid="a02467_1afdf3d79363dfc1a234dca71369be1134" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getAdd</name></member>
+      <member refid="a02467_1a86789de1f95aca0415e5ea1fe8078f80" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getArgsString</name></member>
+      <member refid="a02467_1aa512a80354d614085090e082d5f1b950" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getAttribute</name></member>
+      <member refid="a02467_1a5eb34cb488c9a3d8f5a640eb80f83f26" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getBound</name></member>
+      <member refid="a02467_1a9532fe5f2944bce350bffc0293b8ffbd" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getBriefDescription</name></member>
+      <member refid="a02467_1aa32005f70f074c0b81e31d3d252272bc" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getBriefDescription</name></member>
+      <member refid="a02467_1aa9c8edf5326401b9258bdf663bdd6bbe" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getConst</name></member>
+      <member refid="a02467_1a872820a95ac0719c7f0ecd4f94169cc6" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getContrained</name></member>
+      <member refid="a02467_1ae1a4925e507ac7b00f3855d757091a9f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getDefinition</name></member>
+      <member refid="a02467_1ac47290678674f5ff8226b042072d5bb1" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getDetailedDescription</name></member>
+      <member refid="a02467_1ab0e058b6b5725db719a2c46fd6ac9348" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getDetailedDescription</name></member>
+      <member refid="a02467_1a6d69ffd5601c6f9ede67ac97f3dcbda8" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getExceptions</name></member>
+      <member refid="a02467_1a9683d3ff1a714a1970fca30d86ab4bd4" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getExceptions</name></member>
+      <member refid="a02467_1a82a46d887ad13a489346a02dfd64bd57" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getExplicit</name></member>
+      <member refid="a02467_1af7e49bdd18e2dad023b80728856d556e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getFinal</name></member>
+      <member refid="a02467_1ab4e1aa07a3b06cc73ef1d56fa7908733" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getGetTable</name></member>
+      <member refid="a02467_1a5ea29c981968fa624fe6a04534084ba3" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getId</name></member>
+      <member refid="a02467_1a159010882fc9c3e4bfd6d52516aaf9cf" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getInBodyDescription</name></member>
+      <member refid="a02467_1ace81e9fb2df4e02fabe14142560a0cfe" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getInBodyDescription</name></member>
+      <member refid="a02467_1af33ad6ffbbed9fb46bc0cfe5ee43c33e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getInitializer</name></member>
+      <member refid="a02467_1ab913e0540334b966f660a41ad6aabc94" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getInitializer</name></member>
+      <member refid="a02467_1a173776ef112d810e738cb50b97101f22" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getInitOnly</name></member>
+      <member refid="a02467_1abc9f6ddce57d11e7c30831058b9ca5d0" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getInline</name></member>
+      <member refid="a02467_1ac68cf32ca18b91aa10c6cd998eff35c9" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getKind</name></member>
+      <member refid="a02467_1ac574808ed4974e885ffc22a69fb566ac" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getLocation</name></member>
+      <member refid="a02467_1a4de2bddb5239a71f579f6a991ab6a460" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getLocation</name></member>
+      <member refid="a02467_1a873d441075d1f897724c12bac2d432da" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getMayBeAmbiguous</name></member>
+      <member refid="a02467_1a2ba1e6f030398c82d4364fe0fa8ecaf8" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getMayBeDefault</name></member>
+      <member refid="a02467_1aa4a790c6c914a4c3e4226ab036db044d" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getMaybeVoid</name></member>
+      <member refid="a02467_1ae6f447f0d3efd646036df6e8d1792477" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getMutable</name></member>
+      <member refid="a02467_1ab714a02390a2d9c9896c78f931800569" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getName</name></member>
+      <member refid="a02467_1abcad5a811c68b9ab0b2880a83362fbf6" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getNew</name></member>
+      <member refid="a02467_1a8ad7c5d9f108a0c4beec1a0df2906a70" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getOptional</name></member>
+      <member refid="a02467_1a26802b1297d29f9c75db8fae83e83874" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getProperty</name></member>
+      <member refid="a02467_1a75f1fac0102b576635dd2e9168cd4ea3" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getProt</name></member>
+      <member refid="a02467_1aec1d6b4a3e902ff3a73b131ae811b5f8" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getRaise</name></member>
+      <member refid="a02467_1aef6c32a20ff8683b1bf898badea5eea4" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getReadable</name></member>
+      <member refid="a02467_1a6d2b56d2134b1eb7f675f79940908d17" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getReadonly</name></member>
+      <member refid="a02467_1af100088b8f1867617336eff263e2da42" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getRefQual</name></member>
+      <member refid="a02467_1a2ae578a8311803345c805f07b7b5aa4f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getRemovable</name></member>
+      <member refid="a02467_1a03ad8f9448ddf4b04425293fa37e5fb9" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getRemove</name></member>
+      <member refid="a02467_1a12c28b4c55b0c19c19aca90533ee1b23" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getRequired</name></member>
+      <member refid="a02467_1a20f0098891aa413505b8b9c571d3ac34" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getSealed</name></member>
+      <member refid="a02467_1a7c7ce0c6bebf1fc268b3ec33c2f7c123" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getSetTable</name></member>
+      <member refid="a02467_1aedc96eda42c642fe82886908216d10db" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getStatic</name></member>
+      <member refid="a02467_1ab4707557f8e1755a6d1db91ec3250c47" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getStrong</name></member>
+      <member refid="a02467_1a72ac94ac6f4c11234452fc5a25e24980" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getTemplateParamList</name></member>
+      <member refid="a02467_1a4fdf8d52a83eb3794f8f9b0a0a0fd4f5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getTemplateParamList</name></member>
+      <member refid="a02467_1a6d4055ef46c6cb5dfc23a69e9802697c" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getTransient</name></member>
+      <member refid="a02467_1a574919061847f19b453f405d26c8f8c6" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getType</name></member>
+      <member refid="a02467_1af2003656982e3c23f8cb413d97190650" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getType</name></member>
+      <member refid="a02467_1a92102b32b9a2b92eb52100805e2062dd" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getVirt</name></member>
+      <member refid="a02467_1a69f292b5ae68f7528d7cee0315a0e4c6" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getVolatile</name></member>
+      <member refid="a02467_1a77040d9d161ed009287a3d273e09dbcc" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getWritable</name></member>
+      <member refid="a02467_1a94743d50b42047f1e9d1a3c3131eb7a4" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>getWrite</name></member>
+      <member refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>isValid</name></member>
+      <member refid="a02467_1ac302b2c89ef52bd771527d01b4f3bcf9" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>MemberDefQuery</name></member>
+      <member refid="a02467_1a2c8571785894db54fbb9ce14c744e4ac" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>MemberDefQuery</name></member>
+      <member refid="a02467_1ac0b41e28049aa762cce0ede5a8fa6433" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>MemberDefQuery</name></member>
+      <member refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>node</name></member>
+      <member refid="a02267_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>reset</name></member>
+      <member refid="a02267_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>sort</name></member>
+      <member refid="a02267_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>text</name></member>
+      <member refid="a02467_1a5f35691bd798dd06bb3344544bd83a69" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::MemberDefQuery</scope><name>visit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,179 +1,280 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01679" kind="class" language="C++" prot="public">
-    <compoundname>MdDox::Doxygen::ParamTypeQuery</compoundname>
-    <basecompoundref refid="a01415" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/ParamTypeQuery.h</includes>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01679_1a3c8e9ec3fbaaa11040354bf62096ed51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::ParamTypeQuery::ParamTypeQuery</definition>
-        <argsstring>()=default</argsstring>
-        <name>ParamTypeQuery</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParamTypeQuery.h" line="64" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01679_1adf96880d286c7081ea6bc5b191904897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::ParamTypeQuery::ParamTypeQuery</definition>
-        <argsstring>(const ParamTypeQuery &amp;other)=default</argsstring>
-        <name>ParamTypeQuery</name>
-        <param>
-          <type>const <ref refid="a01679" kindref="compound">ParamTypeQuery</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParamTypeQuery.h" line="65" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01679_1accf968a6610c511d02ca4dc445100a54" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::ParamTypeQuery::ParamTypeQuery</definition>
-        <argsstring>(Xml::Node *node)</argsstring>
-        <name>ParamTypeQuery</name>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParamTypeQuery.h" line="67" column="1" bodyfile="Tools/Doxygen/ParamTypeQuery.h" bodystart="67" bodyend="70"/>
-      </memberdef>
-      <memberdef kind="function" id="a01679_1ae1296443619648b5ba8d724018819e5b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParamTypeQuery::getRef</definition>
-        <argsstring>(RefTextQuery &amp;dest) const</argsstring>
-        <name>getRef</name>
-        <param>
-          <type><ref refid="a01707" kindref="compound">RefTextQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParamTypeQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/ParamTypeQuery.cpp" bodystart="49" bodyend="58"/>
-        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
-        <references refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a00575" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="a01259_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a00395" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="a01415_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a00575" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="a01679_1a72871a768d6a6a7b9a2e04057bf577fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="a01707" kindref="compound">RefTextQuery</ref></type>
-        <definition>RefTextQuery MdDox::Doxygen::ParamTypeQuery::getRef</definition>
-        <argsstring>() const</argsstring>
-        <name>getRef</name>
-        <briefdescription>
-<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParamTypeQuery.h" line="81" column="1" bodyfile="Tools/Doxygen/ParamTypeQuery.cpp" bodystart="60" bodyend="65"/>
-      </memberdef>
-      <memberdef kind="function" id="a01679_1aa5fe7016195aa3d9490855a7b8eba663" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ParamTypeQuery::visit</definition>
-        <argsstring>(Visitors::ParamTypeQueryVisitor *) const</argsstring>
-        <name>visit</name>
-        <param>
-          <type><ref refid="a01675" kindref="compound">Visitors::ParamTypeQueryVisitor</ref> *</type>
-          <defname>visitor</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ParamTypeQuery.h" line="72" column="1" bodyfile="Tools/Doxygen/ParamTypeQuery.cpp" bodystart="29" bodyend="48"/>
-        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
-        <references refid="a01259_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a00398" startline="275" endline="278">MdDox::Xml::Node::children</references>
-        <references refid="a00991_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="a00293" startline="31">MdDox::Doxygen::DoxTextNode</references>
-        <references refid="a01675_1af4364e0f8b69f8692e918c0270018989" compoundref="a00797" startline="38" endline="38">MdDox::Doxygen::Visitors::ParamTypeQueryVisitor::visitedText</references>
-        <references refid="a01675_1a47de3c2c259181fee186c2bf88950142" compoundref="a00797" startline="43" endline="43">MdDox::Doxygen::Visitors::ParamTypeQueryVisitor::visitedRef</references>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a01679" kind="file" language="C++">
+    <compoundname>RefTextQuery.h</compoundname>
+    <includes refid="a01427" local="yes">Doxygen.h</includes>
+    <includes refid="a01394" local="yes">DoxRefKind.h</includes>
+    <includedby refid="a01001" local="yes">Source/MdDoxTree/LinkedTextWriter.cpp</includedby>
+    <includedby refid="a01025" local="yes">Source/MdDoxTree/MarkupQueryWriter.cpp</includedby>
+    <includedby refid="a01055" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="a01271" local="yes">Tools/Doxygen/CaptionQuery.cpp</includedby>
+    <includedby refid="a01460" local="yes">Tools/Doxygen/FileQuery.cpp</includedby>
+    <includedby refid="a01478" local="yes">Tools/Doxygen/HeadingQuery.cpp</includedby>
+    <includedby refid="a01484" local="yes">Tools/Doxygen/HighlightQuery.cpp</includedby>
+    <includedby refid="a01490" local="yes">Tools/Doxygen/ImageQuery.cpp</includedby>
+    <includedby refid="a01544" local="yes">Tools/Doxygen/LinkedTextQuery.cpp</includedby>
+    <includedby refid="a01586" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="a01634" local="yes">Tools/Doxygen/ParamNameQuery.cpp</includedby>
+    <includedby refid="a01646" local="yes">Tools/Doxygen/ParamTypeQuery.cpp</includedby>
+    <includedby refid="a01652" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="a01676" local="yes">Tools/Doxygen/RefTextQuery.cpp</includedby>
+    <includedby refid="a01748" local="yes">Tools/Doxygen/TitleQuery.cpp</includedby>
+    <includedby refid="a01754" local="yes">Tools/Doxygen/TocItemQuery.cpp</includedby>
+    <includedby refid="a01766" local="yes">Tools/Doxygen/UrlLinkQuery.cpp</includedby>
+    <incdepgraph>
+      <node id="8329">
+        <label>Utils/Console.h</label>
+        <childnode refid="8317" relation="include">
+        </childnode>
+      </node>
+      <node id="8323">
+        <label>iomanip</label>
+      </node>
+      <node id="8315">
+        <label>functional</label>
+      </node>
+      <node id="8325">
+        <label>Utils/Exception.h</label>
+        <childnode refid="8326" relation="include">
+        </childnode>
+        <childnode refid="8327" relation="include">
+        </childnode>
+        <childnode refid="8328" relation="include">
+        </childnode>
+        <childnode refid="8329" relation="include">
+        </childnode>
+        <childnode refid="8317" relation="include">
+        </childnode>
+      </node>
+      <node id="8327">
+        <label>stdexcept</label>
+      </node>
+      <node id="8321">
+        <label>string</label>
+      </node>
+      <node id="8314">
+        <label>Doxygen.h</label>
+        <childnode refid="8315" relation="include">
+        </childnode>
+        <childnode refid="8316" relation="include">
+        </childnode>
+        <childnode refid="8317" relation="include">
+        </childnode>
+        <childnode refid="8324" relation="include">
+        </childnode>
+        <childnode refid="8325" relation="include">
+        </childnode>
+      </node>
+      <node id="8326">
+        <label>exception</label>
+      </node>
+      <node id="8319">
+        <label>fstream</label>
+      </node>
+      <node id="8324">
+        <label>Xml/Node.h</label>
+        <childnode refid="8315" relation="include">
+        </childnode>
+        <childnode refid="8316" relation="include">
+        </childnode>
+        <childnode refid="8317" relation="include">
+        </childnode>
+      </node>
+      <node id="8330">
+        <label>DoxRefKind.h</label>
+        <childnode refid="8314" relation="include">
+        </childnode>
+      </node>
+      <node id="8317">
+        <label>Utils/String.h</label>
+        <childnode refid="8318" relation="include">
+        </childnode>
+        <childnode refid="8319" relation="include">
+        </childnode>
+        <childnode refid="8320" relation="include">
+        </childnode>
+        <childnode refid="8321" relation="include">
+        </childnode>
+        <childnode refid="8316" relation="include">
+        </childnode>
+        <childnode refid="8322" relation="include">
+        </childnode>
+        <childnode refid="8323" relation="include">
+        </childnode>
+      </node>
+      <node id="8322">
+        <label>vector</label>
+      </node>
+      <node id="8328">
+        <label>utility</label>
+      </node>
+      <node id="8320">
+        <label>sstream</label>
+      </node>
+      <node id="8318">
+        <label>deque</label>
+      </node>
+      <node id="8316">
+        <label>unordered_map</label>
+      </node>
+      <node id="8313">
+        <label>Tools/Doxygen/RefTextQuery.h</label>
+        <link refid="a01679"/>
+        <childnode refid="8314" relation="include">
+        </childnode>
+        <childnode refid="8330" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8345">
+        <label>Tools/Doxygen/RefTextQuery.cpp</label>
+      </node>
+      <node id="8338">
+        <label>Tools/Doxygen/HighlightQuery.cpp</label>
+      </node>
+      <node id="8344">
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
+      </node>
+      <node id="8339">
+        <label>Tools/Doxygen/ImageQuery.cpp</label>
+      </node>
+      <node id="8337">
+        <label>Tools/Doxygen/HeadingQuery.cpp</label>
+      </node>
+      <node id="8348">
+        <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
+      </node>
+      <node id="8347">
+        <label>Tools/Doxygen/TocItemQuery.cpp</label>
+      </node>
+      <node id="8341">
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
+      </node>
+      <node id="8342">
+        <label>Tools/Doxygen/ParamNameQuery.cpp</label>
+      </node>
+      <node id="8343">
+        <label>Tools/Doxygen/ParamTypeQuery.cpp</label>
+      </node>
+      <node id="8335">
+        <label>Tools/Doxygen/CaptionQuery.cpp</label>
+      </node>
+      <node id="8346">
+        <label>Tools/Doxygen/TitleQuery.cpp</label>
+      </node>
+      <node id="8340">
+        <label>Tools/Doxygen/LinkedTextQuery.cpp</label>
+      </node>
+      <node id="8334">
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
+      </node>
+      <node id="8332">
+        <label>Source/MdDoxTree/LinkedTextWriter.cpp</label>
+      </node>
+      <node id="8336">
+        <label>Tools/Doxygen/FileQuery.cpp</label>
+      </node>
+      <node id="8333">
+        <label>Source/MdDoxTree/MarkupQueryWriter.cpp</label>
+      </node>
+      <node id="8331">
+        <label>Tools/Doxygen/RefTextQuery.h</label>
+        <link refid="a01679"/>
+        <childnode refid="8332" relation="include">
+        </childnode>
+        <childnode refid="8333" relation="include">
+        </childnode>
+        <childnode refid="8334" relation="include">
+        </childnode>
+        <childnode refid="8335" relation="include">
+        </childnode>
+        <childnode refid="8336" relation="include">
+        </childnode>
+        <childnode refid="8337" relation="include">
+        </childnode>
+        <childnode refid="8338" relation="include">
+        </childnode>
+        <childnode refid="8339" relation="include">
+        </childnode>
+        <childnode refid="8340" relation="include">
+        </childnode>
+        <childnode refid="8341" relation="include">
+        </childnode>
+        <childnode refid="8342" relation="include">
+        </childnode>
+        <childnode refid="8343" relation="include">
+        </childnode>
+        <childnode refid="8344" relation="include">
+        </childnode>
+        <childnode refid="8345" relation="include">
+        </childnode>
+        <childnode refid="8346" relation="include">
+        </childnode>
+        <childnode refid="8347" relation="include">
+        </childnode>
+        <childnode refid="8348" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a02559" prot="public">MdDox::Doxygen::RefTextQuery</innerclass>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
     <briefdescription>
-<para>Implements the <computeroutput>docParamType</computeroutput> scaffolding. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>The following xml provides the source for the <bold>docParamType</bold> scaffolding. <linebreak/>
-<linebreak/>
-<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docParamType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">mixed</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;ref&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refTextType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;1&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
-</programlisting> </para>    </detaileddescription>
-    <inheritancegraph>
-      <node id="378">
-        <label>MdDox::Doxygen::Query</label>
-        <link refid="a01415"/>
-      </node>
-      <node id="377">
-        <label>MdDox::Doxygen::ParamTypeQuery</label>
-        <link refid="a01679"/>
-        <childnode refid="378" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="381">
-        <label>MdDox::Xml::Node</label>
-        <link refid="a01259"/>
-        <childnode refid="382" relation="usage">
-          <edgelabel>_autoDelete</edgelabel>
-        </childnode>
-      </node>
-      <node id="380">
-        <label>MdDox::Doxygen::Query</label>
-        <link refid="a01415"/>
-        <childnode refid="381" relation="usage">
-          <edgelabel>_node</edgelabel>
-        </childnode>
-      </node>
-      <node id="382">
-        <label>bool</label>
-      </node>
-      <node id="379">
-        <label>MdDox::Doxygen::ParamTypeQuery</label>
-        <link refid="a01679"/>
-        <childnode refid="380" relation="public-inheritance">
-        </childnode>
-      </node>
-    </collaborationgraph>
-    <location file="Tools/Doxygen/ParamTypeQuery.h" line="62" column="1" bodyfile="Tools/Doxygen/ParamTypeQuery.h" bodystart="61" bodyend="84"/>
-    <listofallmembers>
-      <member refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>_node</name></member>
-      <member refid="a01415_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>empty</name></member>
-      <member refid="a01679_1ae1296443619648b5ba8d724018819e5b" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>getRef</name></member>
-      <member refid="a01679_1a72871a768d6a6a7b9a2e04057bf577fa" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>getRef</name></member>
-      <member refid="a01415_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>isValid</name></member>
-      <member refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>node</name></member>
-      <member refid="a01679_1a3c8e9ec3fbaaa11040354bf62096ed51" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>ParamTypeQuery</name></member>
-      <member refid="a01679_1adf96880d286c7081ea6bc5b191904897" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>ParamTypeQuery</name></member>
-      <member refid="a01679_1accf968a6610c511d02ca4dc445100a54" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>ParamTypeQuery</name></member>
-      <member refid="a01415_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>Query</name></member>
-      <member refid="a01415_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>Query</name></member>
-      <member refid="a01415_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>reset</name></member>
-      <member refid="a01415_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>sort</name></member>
-      <member refid="a01415_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>text</name></member>
-      <member refid="a01679_1aa5fe7016195aa3d9490855a7b8eba663" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamTypeQuery</scope><name>visit</name></member>
-    </listofallmembers>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DoxRefKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="a02559" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02559" kindref="compound" tooltip="Implements the refTextType scaffolding. ">RefTextQuery</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02267" kindref="compound">Query</ref></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02559_1aef149d662b25905d3307bc4336e0f34f" kindref="member">RefTextQuery</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02559_1aef149d662b25905d3307bc4336e0f34f" kindref="member">RefTextQuery</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02559" kindref="compound" tooltip="Implements the refTextType scaffolding. ">RefTextQuery</ref>&amp;<sp/>other)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="a02559_1ab52a10b01c1f31e368ab994413b3e963" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="a02559_1ab52a10b01c1f31e368ab994413b3e963" kindref="member">RefTextQuery</ref>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/><ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02267" kindref="compound">Query</ref>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a018cc76cfa7374263fc4f05c27b15c9b" kindref="member">DoxRefKindEnum</ref><sp/><ref refid="a02559_1a59bf192d94ec60a79e2aa8a4abf30ddc" kindref="member" tooltip="Provides access to the kindref element. ">getKindRef</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02559_1a36c552982cb45721ae3577dd2f92829a" kindref="member" tooltip="Provides access to the refid attribute. ">getRefId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02559_1a5404279850d4e73c3e7d4a66e490c285" kindref="member" tooltip="Provides access to the external attribute. ">getExternal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02559_1a71b4db35212f7e70a0c51568b49964c4" kindref="member" tooltip="Provides access to the tooltip attribute. ">getTooltip</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/RefTextQuery.h"/>
   </compounddef>
 </doxygen>

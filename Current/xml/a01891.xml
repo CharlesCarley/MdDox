@@ -1,141 +1,71 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01891" kind="class" language="C++" prot="public">
-    <compoundname>MdDox::ResourceCompiler::Application</compoundname>
-      <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="a01891_1a44ce939a52aea6f5ce6fa8649ee57bd3" prot="private" static="no" mutable="no">
-        <type><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member">StringArray</ref></type>
-        <definition>StringArray MdDox::ResourceCompiler::Application::_input</definition>
-        <argsstring></argsstring>
-        <name>_input</name>
+  <compounddef id="a01891" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::GenericPageWriter</compoundname>
+    <basecompoundref refid="a01955" prot="public" virt="non-virtual">MdDox::PageWriter</basecompoundref>
+    <includes local="no">Source/MdDoxTree/GenericPageWriter.h</includes>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="a01891_1a9abad2c98b3a9ecf672d6b1a45c859da" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::GenericPageWriter::preSortQuery</definition>
+        <argsstring>(const Doxygen::CompoundDefQuery &amp;query) override</argsstring>
+        <name>preSortQuery</name>
+        <reimplements refid="a01955_1a85da1c3da15b04352ddaeb0fb877ce8c">preSortQuery</reimplements>
+        <param>
+          <type>const <ref refid="a02163" kindref="compound">Doxygen::CompoundDefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/ResourceCompiler/Main.cpp" line="101" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="101" bodyend="-1"/>
+        <location file="Source/MdDoxTree/GenericPageWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="55" bodyend="63"/>
       </memberdef>
-      <memberdef kind="variable" id="a01891_1ab5317d11475fc3428bc888bd8b1544e6" prot="private" static="no" mutable="no">
-        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::ResourceCompiler::Application::_namespace</definition>
-        <argsstring></argsstring>
-        <name>_namespace</name>
+      <memberdef kind="function" id="a01891_1a08e35031519e2ae87433da07e1793750" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::GenericPageWriter::visitedCompoundName</definition>
+        <argsstring>(const String &amp;) override</argsstring>
+        <name>visitedCompoundName</name>
+        <reimplements refid="a02159_1ab9b0bbbcc61d79676ab6ca42ee73cef2">visitedCompoundName</reimplements>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
         <briefdescription>
-        </briefdescription>
+<para>Called when the element <bold>compoundname</bold> is found. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/ResourceCompiler/Main.cpp" line="99" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="99" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01891_1a5be808815cd940ac31e428abdc969481" prot="private" static="no" mutable="no">
-        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::ResourceCompiler::Application::_output</definition>
-        <argsstring></argsstring>
-        <name>_output</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/ResourceCompiler/Main.cpp" line="100" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="100" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01891_1ad0fd5d0b309f8689edaee51092f48247" prot="private" static="no" mutable="no">
-        <type><ref refid="a00998_1a07848dc58b0b0b065d8227b4bd9c03ae" kindref="member">ResourceMap</ref></type>
-        <definition>ResourceMap MdDox::ResourceCompiler::Application::_resources</definition>
-        <argsstring></argsstring>
-        <name>_resources</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/ResourceCompiler/Main.cpp" line="102" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="102" bodyend="-1"/>
+        <location file="Source/MdDoxTree/GenericPageWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="50" bodyend="53"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01891_1a5dade6fcd6cd3d41cd28212ee14ce43d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="a01891_1a4c5b8b8eb4b0a06d6510ed94e42078fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
-        <definition>MdDox::ResourceCompiler::Application::Application</definition>
-        <argsstring>()=default</argsstring>
-        <name>Application</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/ResourceCompiler/Main.cpp" line="105" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01891_1a1011164b4a2035903ca3a07bcd560685" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>int</type>
-        <definition>int MdDox::ResourceCompiler::Application::go</definition>
-        <argsstring>()</argsstring>
-        <name>go</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/ResourceCompiler/Main.cpp" line="257" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="257" bodyend="276"/>
-        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">MdDox::StringCombine</references>
-      </memberdef>
-      <memberdef kind="function" id="a01891_1a5bfceacbc602c827abef315cd2914c8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::ResourceCompiler::Application::loadInput</definition>
-        <argsstring>(const String &amp;input)</argsstring>
-        <name>loadInput</name>
+        <definition>MdDox::GenericPageWriter::GenericPageWriter</definition>
+        <argsstring>(DocumentWriter *writer, const Reference &amp;ref, const PathUtil &amp;out)</argsstring>
+        <name>GenericPageWriter</name>
         <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>input</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/ResourceCompiler/Main.cpp" line="122" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="122" bodyend="164"/>
-        <references refid="a01239_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="a00365" startline="126" endline="129">MdDox::PathUtil::stem</references>
-      </memberdef>
-      <memberdef kind="function" id="a01891_1ae55c72720b3cc35bc13cd45408da6f6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::ResourceCompiler::Application::parse</definition>
-        <argsstring>(const int argc, char **argv)</argsstring>
-        <name>parse</name>
-        <param>
-          <type>const int</type>
-          <declname>argc</declname>
+          <type><ref refid="a01871" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
         </param>
         <param>
-          <type>char **</type>
-          <declname>argv</declname>
+          <type>const <ref refid="a01979" kindref="compound">Reference</ref> &amp;</type>
+          <declname>ref</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/ResourceCompiler/Main.cpp" line="107" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="107" bodyend="120"/>
-        <references refid="a01183_1a07ef47203678799f14aff45bd593f962" compoundref="a02133" startline="53" endline="177">MdDox::CommandLine::Parser::parse</references>
-        <references refid="a00986_1a05eb5502d200714d8a3f429bb891db0c" compoundref="a02124" startline="85">MdDox::Switches</references>
-        <references refid="a01183_1ae19e2d4dac9f9bcdf9af321798b91bf5" compoundref="a02133" startline="241" endline="256">MdDox::CommandLine::Parser::string</references>
-        <references refid="a00998_1ab60d339791bbbcc1c9265cf2f8588fd5a0d3f15ee9a8003dfe779dacebb39f777" compoundref="a02130" startline="48">MdDox::ResourceCompiler::OptOutputFileName</references>
-        <references refid="a00998_1ab60d339791bbbcc1c9265cf2f8588fd5a39c64723a942e5a9a7c878ad55ed630e" compoundref="a02130" startline="57">MdDox::ResourceCompiler::OptNameSpace</references>
-        <references refid="a01183_1adf2a9e1325ac03721a8aeb0a8393280d" compoundref="a02139" startline="80" endline="83">MdDox::CommandLine::Parser::arguments</references>
-      </memberdef>
-      <memberdef kind="function" id="a01891_1a30ea0e05f3dad705df3a7912eb96226e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::ResourceCompiler::Application::writeHeader</definition>
-        <argsstring>(OStream &amp;out)</argsstring>
-        <name>writeHeader</name>
         <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
+          <type>const <ref refid="a02091" kindref="compound">PathUtil</ref> &amp;</type>
           <declname>out</declname>
         </param>
         <briefdescription>
@@ -144,44 +74,204 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/ResourceCompiler/Main.cpp" line="166" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="166" bodyend="207"/>
-        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">MdDox::StringCombine</references>
+        <location file="Source/MdDoxTree/GenericPageWriter.h" line="41" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="32" bodyend="37"/>
       </memberdef>
-      <memberdef kind="function" id="a01891_1a8328a1756c2ecfca9af8cb8920bc3f44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::ResourceCompiler::Application::writeSource</definition>
-        <argsstring>(OStream &amp;out)</argsstring>
-        <name>writeSource</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
+      <memberdef kind="function" id="a01891_1a1e168962c12758c06bfab9dd750e0812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::GenericPageWriter::~GenericPageWriter</definition>
+        <argsstring>() override=default</argsstring>
+        <name>~GenericPageWriter</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/ResourceCompiler/Main.cpp" line="209" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="209" bodyend="255"/>
-        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">MdDox::StringCombine</references>
+        <location file="Source/MdDoxTree/GenericPageWriter.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="a01891_1a54b2383dbf72922f4c5fc38253682d6e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::GenericPageWriter::visitedBriefDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
+        <name>visitedBriefDescription</name>
+        <reimplements refid="a02159_1aa1edbb7417781126ad7ede3e4731bf2b">visitedBriefDescription</reimplements>
+        <param>
+          <type>const <ref refid="a02191" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>briefdescription</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the DescriptionQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/GenericPageWriter.h" line="45" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="39" bodyend="43"/>
+        <references refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" compoundref="a01124" startline="279" endline="284">MdDox::SiteBuilder::get</references>
+        <references refid="a01955_1a7160540760aa919d69427ad74df8ebc5" compoundref="a01049" startline="48" endline="52">MdDox::PageWriter::visitedBriefDescription</references>
+      </memberdef>
+      <memberdef kind="function" id="a01891_1a05d9790fd1b50f4515efdaa4133d98fa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::GenericPageWriter::visitedDetailedDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
+        <name>visitedDetailedDescription</name>
+        <reimplements refid="a02159_1ac31b04c04ba016cec20e5805ccef0d1d">visitedDetailedDescription</reimplements>
+        <param>
+          <type>const <ref refid="a02191" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>detaileddescription</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the DescriptionQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/GenericPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.cpp" bodystart="45" bodyend="48"/>
+        <references refid="a01955_1a59596c8bb00a0e5b7c8e57a23e4594df" compoundref="a01049" startline="54" endline="60">MdDox::PageWriter::visitedDetailedDescription</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Entry point for the <ref refid="a00998" kindref="compound">ResourceCompiler</ref>. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/ResourceCompiler/Main.cpp" line="97" column="1" bodyfile="Tools/ResourceCompiler/Main.cpp" bodystart="96" bodyend="277"/>
+    <inheritancegraph>
+      <node id="816">
+        <label>MdDox::PageWriter</label>
+        <link refid="a01955"/>
+        <childnode refid="817" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="815">
+        <label>MdDox::GenericPageWriter</label>
+        <link refid="a01891"/>
+        <childnode refid="816" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="817">
+        <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
+        <link refid="a02159"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="822">
+        <label>MdDox::DocumentWriter</label>
+        <link refid="a01871"/>
+      </node>
+      <node id="819">
+        <label>MdDox::PageWriter</label>
+        <link refid="a01955"/>
+        <childnode refid="820" relation="public-inheritance">
+        </childnode>
+        <childnode refid="821" relation="usage">
+          <edgelabel>_sections</edgelabel>
+        </childnode>
+        <childnode refid="822" relation="usage">
+          <edgelabel>_writer</edgelabel>
+        </childnode>
+        <childnode refid="823" relation="usage">
+          <edgelabel>_inDir</edgelabel>
+          <edgelabel>_outDir</edgelabel>
+        </childnode>
+        <childnode refid="824" relation="usage">
+          <edgelabel>_ref</edgelabel>
+        </childnode>
+        <childnode refid="826" relation="usage">
+          <edgelabel>_out</edgelabel>
+        </childnode>
+      </node>
+      <node id="825">
+        <label>string</label>
+      </node>
+      <node id="818">
+        <label>MdDox::GenericPageWriter</label>
+        <link refid="a01891"/>
+        <childnode refid="819" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="826">
+        <label>ofstream</label>
+      </node>
+      <node id="820">
+        <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
+        <link refid="a02159"/>
+      </node>
+      <node id="821">
+        <label>vector&lt; Node *&gt;</label>
+      </node>
+      <node id="823">
+        <label>MdDox::PathUtil</label>
+        <link refid="a02091"/>
+      </node>
+      <node id="824">
+        <label>MdDox::Reference</label>
+        <link refid="a01979"/>
+        <childnode refid="825" relation="usage">
+          <edgelabel>_ref</edgelabel>
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/MdDoxTree/GenericPageWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/GenericPageWriter.h" bodystart="33" bodyend="47"/>
     <listofallmembers>
-      <member refid="a01891_1a44ce939a52aea6f5ce6fa8649ee57bd3" prot="private" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>_input</name></member>
-      <member refid="a01891_1ab5317d11475fc3428bc888bd8b1544e6" prot="private" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>_namespace</name></member>
-      <member refid="a01891_1a5be808815cd940ac31e428abdc969481" prot="private" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>_output</name></member>
-      <member refid="a01891_1ad0fd5d0b309f8689edaee51092f48247" prot="private" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>_resources</name></member>
-      <member refid="a01891_1a5dade6fcd6cd3d41cd28212ee14ce43d" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>Application</name></member>
-      <member refid="a01891_1a1011164b4a2035903ca3a07bcd560685" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>go</name></member>
-      <member refid="a01891_1a5bfceacbc602c827abef315cd2914c8b" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>loadInput</name></member>
-      <member refid="a01891_1ae55c72720b3cc35bc13cd45408da6f6b" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>parse</name></member>
-      <member refid="a01891_1a30ea0e05f3dad705df3a7912eb96226e" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>writeHeader</name></member>
-      <member refid="a01891_1a8328a1756c2ecfca9af8cb8920bc3f44" prot="public" virt="non-virtual"><scope>MdDox::ResourceCompiler::Application</scope><name>writeSource</name></member>
+      <member refid="a01955_1ac012825bbcafe1452762c50cd2d35037" prot="protected" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>_inDir</name></member>
+      <member refid="a01955_1a1fd2e2d5dddec4f47bb5c229d79c6229" prot="protected" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>_out</name></member>
+      <member refid="a01955_1a3199dcb45dcad5468a8b8a1060bd25ec" prot="protected" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>_outDir</name></member>
+      <member refid="a01955_1acc94668f2fc82e437e3f7f79f3dda0ae" prot="protected" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>_ref</name></member>
+      <member refid="a01955_1a4c7ba3bc919a40013541f6c409781d01" prot="protected" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>_sections</name></member>
+      <member refid="a01955_1a95e0ecf4368ab7b570ab15f4e17fd9a5" prot="protected" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>_writer</name></member>
+      <member refid="a01955_1a51f4ed154feeb26e6a5ed4e940d53377" prot="public" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>exec</name></member>
+      <member refid="a01891_1a4c5b8b8eb4b0a06d6510ed94e42078fb" prot="public" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>GenericPageWriter</name></member>
+      <member refid="a01955_1a92b457f94cf847bb021dbacd0d292579" prot="protected" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>notifyBriefDescription</name></member>
+      <member refid="a01955_1a4af6fb6bc18922ccfe3df4688f0c625e" prot="protected" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>notifyDetailDescription</name></member>
+      <member refid="a01955_1a34a7cd04b8e56c0c65d11084e1951d34" prot="protected" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>notifyDetailDescriptionHeading</name></member>
+      <member refid="a01955_1a7b84542c57c02926a9930f35bc95fc47" prot="public" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>PageWriter</name></member>
+      <member refid="a01891_1a9abad2c98b3a9ecf672d6b1a45c859da" prot="private" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>preSortQuery</name></member>
+      <member refid="a02159_1a61b8487366558ce7cd7749ad7baee3ac" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedBaseCompoundRef</name></member>
+      <member refid="a01891_1a54b2383dbf72922f4c5fc38253682d6e" prot="protected" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedBriefDescription</name></member>
+      <member refid="a02159_1a07b21a15f65d8614859140fc71579e39" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedCollaborationGraph</name></member>
+      <member refid="a01891_1a08e35031519e2ae87433da07e1793750" prot="private" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedCompoundName</name></member>
+      <member refid="a02159_1a75a893e5819d6bd49e5e0005d8c8dadc" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedDerivedCompoundRef</name></member>
+      <member refid="a01891_1a05d9790fd1b50f4515efdaa4133d98fa" prot="protected" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedDetailedDescription</name></member>
+      <member refid="a02159_1af52e424ab412bc68bfb5f973b7b5b27c" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedIncDepGraph</name></member>
+      <member refid="a02159_1aaa0b3a67ada1b58bd4059ac320f15eab" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedIncludedBy</name></member>
+      <member refid="a02159_1ad2da872ba085491d223264276737a8e7" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedIncludes</name></member>
+      <member refid="a02159_1a60616523a9a6cd3aff6897862cb5c14b" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedInheritanceGraph</name></member>
+      <member refid="a02159_1a2b27eae2f46b53f204c8174a54207175" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedInnerClass</name></member>
+      <member refid="a02159_1a5072b0b483becf3b84daf42925b80853" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedInnerDir</name></member>
+      <member refid="a02159_1ad2e10284bb8208420841a0849375db05" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedInnerFile</name></member>
+      <member refid="a02159_1a74899cd76eb6db5a8ee59146c77b07b3" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedInnerGroup</name></member>
+      <member refid="a02159_1a97bac53ff2623f83712993ab2f5ae852" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedInnerNamespace</name></member>
+      <member refid="a02159_1ab79909c80676fc9bccbb6e431ba412c2" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedInnerPage</name></member>
+      <member refid="a02159_1a728a5f23cbb39f768d46e4c9e7314ecb" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedInvIncDepGraph</name></member>
+      <member refid="a02159_1a13689b56851840c15903ed8320968695" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedListOfAllMembers</name></member>
+      <member refid="a02159_1ab432daf1eec44809f0140f9140509532" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedLocation</name></member>
+      <member refid="a02159_1af838f90479d190c3d25be240f05a9c6c" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedProgramListing</name></member>
+      <member refid="a01955_1a1797bd939c1c708fe68fc62caf3f208f" prot="protected" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedSectionDef</name></member>
+      <member refid="a02159_1a2008b336a42ef282667002b5fb39eae5" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedTableOfContents</name></member>
+      <member refid="a02159_1a5d0ceb3437dac0e5f9da19bf6762b3ba" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedTemplateParamList</name></member>
+      <member refid="a02159_1aae60bad7f1b3cf035e71eedba8e55ba3" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedText</name></member>
+      <member refid="a02159_1a4f31cf429855fdbc0a9b38a16f18e68b" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>visitedTitle</name></member>
+      <member refid="a01955_1a09b77ba57a73bbc653a7ca5b04b35ecf" prot="protected" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>writeDetails</name></member>
+      <member refid="a02159_1a128fb87d0a9bae23d3be69e2904330a9" prot="public" virt="virtual"><scope>MdDox::GenericPageWriter</scope><name>~CompoundDefQueryVisitor</name></member>
+      <member refid="a01891_1a1e168962c12758c06bfab9dd750e0812" prot="public" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>~GenericPageWriter</name></member>
+      <member refid="a01955_1adcae154a36099ba1f1895758b128252e" prot="public" virt="non-virtual"><scope>MdDox::GenericPageWriter</scope><name>~PageWriter</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

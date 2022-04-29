@@ -1,1532 +1,255 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a00986" kind="namespace" language="C++">
-    <compoundname>MdDox</compoundname>
-    <innerclass refid="a01003" prot="public">MdDox::Application</innerclass>
-    <innerclass refid="a01215" prot="public">MdDox::Cache</innerclass>
-    <innerclass refid="a01171" prot="public">MdDox::Char</innerclass>
-    <innerclass refid="a01007" prot="public">MdDox::ClassPageWriter</innerclass>
-    <innerclass refid="a01131" prot="public">MdDox::CompoundReference</innerclass>
-    <innerclass refid="a01195" prot="public">MdDox::Config</innerclass>
-    <innerclass refid="a01199" prot="public">MdDox::Console</innerclass>
-    <innerclass refid="a01011" prot="public">MdDox::DescriptionWriter</innerclass>
-    <innerclass refid="a01015" prot="public">MdDox::DirectoryPageWriter</innerclass>
-    <innerclass refid="a01019" prot="public">MdDox::DocumentWriter</innerclass>
-    <innerclass refid="a01027" prot="public">MdDox::DotWriter</innerclass>
-    <innerclass refid="a01023" prot="public">MdDox::DotWriterImpl</innerclass>
-    <innerclass refid="a01031" prot="public">MdDox::EnumDefWriter</innerclass>
-    <innerclass refid="a01203" prot="public">MdDox::Exception</innerclass>
-    <innerclass refid="a01207" prot="public">MdDox::FileSystem</innerclass>
-    <innerclass refid="a01035" prot="public">MdDox::FunctionDefWriter</innerclass>
-    <innerclass refid="a01039" prot="public">MdDox::GenericPageWriter</innerclass>
-    <innerclass refid="a01043" prot="public">MdDox::GraphNode</innerclass>
-    <innerclass refid="a01047" prot="public">MdDox::GraphNodeDecl</innerclass>
-    <innerclass refid="a01051" prot="public">MdDox::GraphWriter</innerclass>
-    <innerclass refid="a01055" prot="public">MdDox::HtmlDocumentWriter</innerclass>
-    <innerclass refid="a01059" prot="public">MdDox::IconSet</innerclass>
-    <innerclass refid="a01211" prot="public">MdDox::IndexCache</innerclass>
-    <innerclass refid="a01063" prot="public">MdDox::IndexPageFilter</innerclass>
-    <innerclass refid="a01067" prot="public">MdDox::IndexPageWriter</innerclass>
-    <innerclass refid="a01219" prot="public">MdDox::KeyIndexCache</innerclass>
-    <innerclass refid="a01071" prot="public">MdDox::LinkedTextWriter</innerclass>
-    <innerclass refid="a01115" prot="public">MdDox::ListItemVisitor</innerclass>
-    <innerclass refid="a01075" prot="public">MdDox::LocationWriter</innerclass>
-    <innerclass refid="a01079" prot="public">MdDox::MarkdownDocumentWriter</innerclass>
-    <innerclass refid="a01083" prot="public">MdDox::MarkupQueryWriter</innerclass>
-    <innerclass refid="a01087" prot="public">MdDox::MemberDefListingWriter</innerclass>
-    <innerclass refid="a01091" prot="public">MdDox::MemberDefWriter</innerclass>
-    <innerclass refid="a01135" prot="public">MdDox::MemberReference</innerclass>
-    <innerclass refid="a01243" prot="public">MdDox::Merge</innerclass>
-    <innerclass refid="a01111" prot="public">MdDox::NameListVisitor</innerclass>
-    <innerclass refid="a01099" prot="public">MdDox::NamespacePageWriter</innerclass>
-    <innerclass refid="a01103" prot="public">MdDox::PageWriter</innerclass>
-    <innerclass refid="a01107" prot="public">MdDox::ParagraphWriter</innerclass>
-    <innerclass refid="a01119" prot="public">MdDox::ParameterListWriter</innerclass>
-    <innerclass refid="a01123" prot="public">MdDox::ParameterWriter</innerclass>
-    <innerclass refid="a01223" prot="public">MdDox::ParseError</innerclass>
-    <innerclass refid="a01227" prot="public">MdDox::ParserBase</innerclass>
-    <innerclass refid="a01239" prot="public">MdDox::PathUtil</innerclass>
-    <innerclass refid="a01127" prot="public">MdDox::Reference</innerclass>
-    <innerclass refid="a01139" prot="public">MdDox::ReferenceTable</innerclass>
-    <innerclass refid="a01231" prot="public">MdDox::ScannerBase</innerclass>
-    <innerclass refid="a01143" prot="public">MdDox::Section1Writer</innerclass>
-    <innerclass refid="a01147" prot="public">MdDox::Section2Writer</innerclass>
-    <innerclass refid="a01151" prot="public">MdDox::Section3Writer</innerclass>
-    <innerclass refid="a01155" prot="public">MdDox::Section4Writer</innerclass>
-    <innerclass refid="a01159" prot="public">MdDox::SectionDefListingWriter</innerclass>
-    <innerclass refid="a01163" prot="public">MdDox::SectionDefWriter</innerclass>
-    <innerclass refid="a01167" prot="public">MdDox::SiteBuilder</innerclass>
-    <innerclass refid="a01247" prot="public">MdDox::StringUtils</innerclass>
-    <innerclass refid="a01095" prot="public">MdDox::TableOfContents</innerclass>
-    <innerclass refid="a01235" prot="public">MdDox::TokenBase</innerclass>
-    <innerclass refid="a01251" prot="public">MdDox::TypeFilter</innerclass>
-    <innernamespace refid="a00992">MdDox::CommandLine</innernamespace>
-    <innernamespace refid="a00991">MdDox::Doxygen</innernamespace>
-    <innernamespace refid="a00996">MdDox::GenApi</innernamespace>
-    <innernamespace refid="a00987">MdDox::HashUtils</innernamespace>
-    <innernamespace refid="a00988">MdDox::Html</innernamespace>
-    <innernamespace refid="a00990">MdDox::LinkUtils</innernamespace>
-    <innernamespace refid="a00989">MdDox::Md</innernamespace>
-    <innernamespace refid="a00998">MdDox::ResourceCompiler</innernamespace>
-    <innernamespace refid="a00993">MdDox::WriteUtils</innernamespace>
-    <innernamespace refid="a00994">MdDox::Xml</innernamespace>
-      <sectiondef kind="enum">
-      <memberdef kind="enum" id="a00986_1a64e89506cd6e8d71ef2d84c3f0521bff" prot="public" static="no" strong="no">
-        <type></type>
-        <name>BackendWriter</name>
-        <enumvalue id="a00986_1a64e89506cd6e8d71ef2d84c3f0521bffaf0a84bc4cba0f83c21a94c6e7f5a21ae" prot="public">
-          <name>BackendHtml</name>
-          <briefdescription>
-<para>Use <ref refid="a01055" kindref="compound">MdDox::HtmlDocumentWriter</ref> to output documents. </para>          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1a64e89506cd6e8d71ef2d84c3f0521bffab80dba8956b1490ca2422d457b7f849a" prot="public">
-          <name>BackendMarkdown</name>
-          <briefdescription>
-<para>Use <ref refid="a01079" kindref="compound">MdDox::MarkdownDocumentWriter</ref> to output documents. </para>          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="37" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="36" bodyend="46"/>
-      </memberdef>
-      <memberdef kind="enum" id="a00986_1af4403143a02f2821c341c458997b87d0" prot="public" static="no" strong="no">
-        <type></type>
-        <name>ConsoleColor</name>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0af62be2d0115062f16965479a79b7d20a" prot="public">
-          <name>CS_BLACK</name>
-          <initializer>= 0</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0a77ac751d65708f142faccbe55fd27253" prot="public">
-          <name>CS_DARK_BLUE</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0a733f1014648e7eec256694f29071d9b6" prot="public">
-          <name>CS_DARK_GREEN</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0a6a7bcd7a2fb5639b36571a1ddfa41f2e" prot="public">
-          <name>CS_DARK_CYAN</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0aef497d518d9ef02d60cdfba77508c1a4" prot="public">
-          <name>CS_DARK_RED</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0ad397aa4f427eb0301710d0e8754ff22c" prot="public">
-          <name>CS_DARK_MAGENTA</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0af5cd3833abf8b79b529507833f934e37" prot="public">
-          <name>CS_DARK_YELLOW</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0a90a226ec6a7d4618a9887631d0c400f3" prot="public">
-          <name>CS_LIGHT_GREY</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0afea73bb0fb9f2c902b10a54f9d40055a" prot="public">
-          <name>CS_GREY</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0ae70a5a5ecd6f61c686747b985dce6bd8" prot="public">
-          <name>CS_BLUE</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0ace24727890ff11dadd56e713dd10b05c" prot="public">
-          <name>CS_GREEN</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0ad2a1f80bd29fc58ec7b139ba24c6494f" prot="public">
-          <name>CS_CYAN</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0a3a7fa658912b42911e47c56b374fb0e3" prot="public">
-          <name>CS_RED</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0a22592b526240b76bc9c65455fab2dfb1" prot="public">
-          <name>CS_MAGENTA</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0a9ae71afe0ae8a0d82f5d6b9d81c5e6c2" prot="public">
-          <name>CS_YELLOW</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1af4403143a02f2821c341c458997b87d0a9568d468ec8324cddf394a97dcbef01e" prot="public">
-          <name>CS_WHITE</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>Enum for adding specific background and foreground colors to the console. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Console.h" line="31" column="1" bodyfile="Source/Utils/Console.h" bodystart="30" bodyend="48"/>
-      </memberdef>
-      <memberdef kind="enum" id="a00986_1ae00359e24be5b111fdb21332d3a103d9" prot="public" static="no" strong="no">
-        <type></type>
-        <name>IconId</name>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9a5661e76de80ef739bc15a619c2ad3d01" prot="public">
-          <name>ICO_NONE</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9a493c8fb5f3da723f76336e02a4a6463f" prot="public">
-          <name>ICO_BACK</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9a3076bf86bac52b5d81fc8f87cbefd178" prot="public">
-          <name>ICO_DEBUG</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" prot="public">
-          <name>ICO_FILE</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9a808fd339a1a965f49191f19503b020f0" prot="public">
-          <name>ICO_FOLDER</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9ac01081934d9c799c0cb8ccc2656b478a" prot="public">
-          <name>ICO_HOME</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9a28936c90ab2d553e6d8034ad0cb0d8df" prot="public">
-          <name>ICO_H_SPACE_12</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9a57be8eec4a568de822f91ed9aab272a4" prot="public">
-          <name>ICO_H_SPACE_24</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9a326ed5ffe4f436e2dbf69e7c6311065b" prot="public">
-          <name>ICO_JUMP_TO_TOP</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9a9e6002e4b1f7d26d82368d96a829c628" prot="public">
-          <name>ICO_LINK</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9ab398f8efe94633a601de81f999994ec2" prot="public">
-          <name>ICO_CODE_BEHIND</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9ada8d11ea29ff98f15c600f05b9797e3c" prot="public">
-          <name>ICO_CLASS</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9af29aff868135f9b52029429e9e8de86d" prot="public">
-          <name>ICO_ENUM</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9a38c13f3a89c2ba03549c455812fc46ab" prot="public">
-          <name>ICO_VAR_PRIVATE</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1ae00359e24be5b111fdb21332d3a103d9a12bca8c5f8464a950cb54ac5b59f133d" prot="public">
-          <name>ICO_NAMESPACE</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>internal icons to this system </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/IconSet.h" line="31" column="1" bodyfile="Source/MdDoxTree/IconSet.h" bodystart="30" bodyend="47"/>
-      </memberdef>
-      <memberdef kind="enum" id="a00986_1a2a045741e91ac06db43c953eae95c43e" prot="public" static="no" strong="no">
-        <type></type>
-        <name>Options</name>
-        <enumvalue id="a00986_1a2a045741e91ac06db43c953eae95c43ea39b558e96c16007cf1aa78e3c082395c" prot="public">
-          <name>OptOutputDirectory</name>
-          <briefdescription>
-<para>Provides the option to specify an output directory. </para>          </briefdescription>
-          <detaileddescription>
-<para><itemizedlist>
-<listitem><para><computeroutput> -o &lt;file-path&gt;</computeroutput></para></listitem><listitem><para><computeroutput><ndash/>output &lt;file-path&gt;</computeroutput> <linebreak/>
- <simplesect kind="note"><para>if an output path is not specified then the current working directory will be used as the output directory. </para></simplesect>
-</para></listitem></itemizedlist>
-</para>          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1a2a045741e91ac06db43c953eae95c43ea0a4e9b2b31a3270c55bdcfbd656dad67" prot="public">
-          <name>OptIndexFile</name>
-          <briefdescription>
-<para>Provides the option to specify the index file. </para>          </briefdescription>
-          <detaileddescription>
-<para><itemizedlist>
-<listitem><para><computeroutput> -i [file-path]</computeroutput></para></listitem><listitem><para><computeroutput><ndash/>input [file-path]</computeroutput> <linebreak/>
- </para></listitem></itemizedlist>
-</para>          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1a2a045741e91ac06db43c953eae95c43eaaf9ae2599ecf4ca56b203b90daa51595" prot="public">
-          <name>OptConfigFile</name>
-          <briefdescription>
-<para>Provides the option to load a config file. </para>          </briefdescription>
-          <detaileddescription>
-<para><itemizedlist>
-<listitem><para><computeroutput> -c [file]</computeroutput></para></listitem><listitem><para><computeroutput><ndash/>config [file]</computeroutput> <linebreak/>
- </para></listitem></itemizedlist>
-</para>          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="a00986_1a2a045741e91ac06db43c953eae95c43eae01cfe25875523e198a57725e58d7e0a" prot="public">
-          <name>OpMax</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>Usage Options. </para>        </briefdescription>
-        <detaileddescription>
-<para><programlisting><codeline><highlight class="normal">Usage:<sp/>MdDox<sp/>&lt;options&gt;<sp/>&lt;arg[0]<sp/>..<sp/>arg[n]&gt;</highlight></codeline>
-<codeline></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-h,<sp/>--help<sp/><sp/><sp/><sp/>Display<sp/>this<sp/>help<sp/>message</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-o,<sp/>--output<sp/><sp/>Specify<sp/>an<sp/>output<sp/>directory</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/>one<sp/>is<sp/>not<sp/>specified<sp/>the<sp/>current<sp/>directory<sp/>will<sp/>be<sp/>used</highlight></codeline>
-<codeline></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-i,<sp/>--index<sp/><sp/><sp/>Specify<sp/>the<sp/>index.xml<sp/>file<sp/>to<sp/>use</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;path&gt;</highlight></codeline>
-<codeline></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-t,<sp/>--type<sp/><sp/><sp/><sp/>Specify<sp/>the<sp/>generator<sp/>backend<sp/>type</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;id&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>md<sp/><sp/><sp/>-<sp/>Generates<sp/>a<sp/>GFM<sp/>markdown<sp/>site.</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>html<sp/>-<sp/>Generates<sp/>a<sp/>HTML<sp/>site.</highlight></codeline>
-</programlisting> </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDox/Main.cpp" line="55" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="54" bodyend="83"/>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="a00986_1a2abc88b838d7562b62c44cada9ce9d5a" prot="public" static="no">
-        <type>std::map&lt; <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="a01131" kindref="compound">CompoundReference</ref> * &gt;</type>
-        <definition>using MdDox::CompoundNameMap = typedef std::map&lt;String, CompoundReference*&gt;</definition>
-        <argsstring></argsstring>
-        <name>CompoundNameMap</name>
-        <briefdescription>
-<para>Provides a name look up. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ReferenceTable.h" line="34" column="1" bodyfile="Source/MdDoxTree/ReferenceTable.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1af3cb33303f9d3f587026356b45addfea" prot="public" static="no">
-        <type>std::map&lt; <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="a01131" kindref="compound">CompoundReference</ref> * &gt;</type>
-        <definition>using MdDox::CompoundReferenceMap = typedef std::map&lt;String, CompoundReference*&gt;</definition>
-        <argsstring></argsstring>
-        <name>CompoundReferenceMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ReferenceTable.h" line="28" column="1" bodyfile="Source/MdDoxTree/ReferenceTable.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a884c8a93ed913456a1122242b8d94654" prot="public" static="no">
-        <type>local_filesystem::directory_entry</type>
-        <definition>using MdDox::Directory = typedef local_filesystem::directory_entry</definition>
-        <argsstring></argsstring>
-        <name>Directory</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Path.cpp" line="30" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a568c80ba180b98c6bb783385a6c8649b" prot="public" static="no">
-        <type>std::ifstream</type>
-        <definition>using MdDox::InputFileStream = typedef std::ifstream</definition>
-        <argsstring></argsstring>
-        <name>InputFileStream</name>
-        <briefdescription>
-<para>Declaration of the input file stream class. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="81" column="1" bodyfile="Source/Utils/String.h" bodystart="81" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a955ce196b4b41434c533c9ab65fd539b" prot="public" static="no">
-        <type>std::istringstream</type>
-        <definition>using MdDox::InputStringStream = typedef std::istringstream</definition>
-        <argsstring></argsstring>
-        <name>InputStringStream</name>
-        <briefdescription>
-<para>Declaration of an input only string stream. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="61" column="1" bodyfile="Source/Utils/String.h" bodystart="61" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a4c55f9803a876f4a62ca7b2200629ed0" prot="public" static="no">
-        <type><ref refid="a01211" kindref="compound">IndexCache</ref>&lt; int &gt;</type>
-        <definition>using MdDox::IntTable = typedef IndexCache&lt;int&gt;</definition>
-        <argsstring></argsstring>
-        <name>IntTable</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="31" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a9601d0e9c9bcb992817361caf37a8518" prot="public" static="no">
-        <type>std::istream</type>
-        <definition>using MdDox::IStream = typedef std::istream</definition>
-        <argsstring></argsstring>
-        <name>IStream</name>
-        <briefdescription>
-<para>Declaration of the input stream base class. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="71" column="1" bodyfile="Source/Utils/String.h" bodystart="71" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a59bebacf4593d2f44bdfbf9ecc9ebb1a" prot="public" static="no">
-        <type>std::map&lt; <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="a01135" kindref="compound">MemberReference</ref> * &gt;</type>
-        <definition>using MdDox::MemberReferenceMap = typedef std::map&lt;String, MemberReference*&gt;</definition>
-        <argsstring></argsstring>
-        <name>MemberReferenceMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ReferenceTable.h" line="29" column="1" bodyfile="Source/MdDoxTree/ReferenceTable.h" bodystart="29" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" prot="public" static="no">
-        <type>std::ostream</type>
-        <definition>using MdDox::OStream = typedef std::ostream</definition>
-        <argsstring></argsstring>
-        <name>OStream</name>
-        <briefdescription>
-<para>Declaration of the output stream base class. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="76" column="1" bodyfile="Source/Utils/String.h" bodystart="76" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1adc74d0adf91d7282eae3edd76765bf03" prot="public" static="no">
-        <type>std::ofstream</type>
-        <definition>using MdDox::OutputFileStream = typedef std::ofstream</definition>
-        <argsstring></argsstring>
-        <name>OutputFileStream</name>
-        <briefdescription>
-<para>Declaration of the output file stream class. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="86" column="1" bodyfile="Source/Utils/String.h" bodystart="86" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a67fc013655f72b4c048a1855ccfd58cb" prot="public" static="no">
-        <type>std::ostringstream</type>
-        <definition>using MdDox::OutputStringStream = typedef std::ostringstream</definition>
-        <argsstring></argsstring>
-        <name>OutputStringStream</name>
-        <briefdescription>
-<para>Declaration of an output only string stream. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="66" column="1" bodyfile="Source/Utils/String.h" bodystart="66" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a57a9d1e8d37c85055a42549d32508c68" prot="public" static="no">
-        <type>local_filesystem::path</type>
-        <definition>using MdDox::Path = typedef local_filesystem::path</definition>
-        <argsstring></argsstring>
-        <name>Path</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/FileSystem.h" line="36" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a6bdeed93d40111f1084dde6cde2bb7ea" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="a00986_1a57a9d1e8d37c85055a42549d32508c68" kindref="member">Path</ref> &gt;</type>
-        <definition>using MdDox::PathArray = typedef std::vector&lt;Path&gt;</definition>
-        <argsstring></argsstring>
-        <name>PathArray</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/FileSystem.h" line="38" column="1" bodyfile="Source/Utils/FileSystem.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a2eeb882248272ad9b7bc54d708532d2f" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="a01127" kindref="compound">Reference</ref> &gt;</type>
-        <definition>using MdDox::ReferenceList = typedef std::vector&lt;Reference&gt;</definition>
-        <argsstring></argsstring>
-        <name>ReferenceList</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/Reference.h" line="28" column="1" bodyfile="Source/MdDoxTree/Reference.h" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a833bdc4d82c3eaa6ab2f8d38bec033cb" prot="public" static="no">
-        <type>std::unordered_map&lt; <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
-        <definition>using MdDox::ReferenceMap = typedef std::unordered_map&lt;String, String&gt;</definition>
-        <argsstring></argsstring>
-        <name>ReferenceMap</name>
-        <briefdescription>
-<para>Container that is used to map a reference id attribute to a name. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.h" line="51" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a7639eaccaedfad528ef1dc0002de943e" prot="public" static="no">
-        <type>std::string</type>
-        <definition>using MdDox::String = typedef std::string</definition>
-        <argsstring></argsstring>
-        <name>String</name>
-        <briefdescription>
-<para>Declaration of a string. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="37" column="1" bodyfile="Source/Utils/String.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1af43ecb087272339550cd14a78f59b6a6" prot="public" static="no">
-        <type>std::vector&lt; std::string &gt;</type>
-        <definition>using MdDox::StringArray = typedef std::vector&lt;std::string&gt;</definition>
-        <argsstring></argsstring>
-        <name>StringArray</name>
-        <briefdescription>
-<para>Structure to hold a vector of strings. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="47" column="1" bodyfile="Source/Utils/String.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1ab821d2f5c5e2cba37c52746683cd8f0b" prot="public" static="no">
-        <type>std::deque&lt; std::string &gt;</type>
-        <definition>using MdDox::StringDeque = typedef std::deque&lt;std::string&gt;</definition>
-        <argsstring></argsstring>
-        <name>StringDeque</name>
-        <briefdescription>
-<para>Structure to hold a double ended queue of strings. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="42" column="1" bodyfile="Source/Utils/String.h" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1ab2f3c2c82f1a5b6e56b35fc78399c078" prot="public" static="no">
-        <type>std::unordered_map&lt; std::string, std::string &gt;</type>
-        <definition>using MdDox::StringMap = typedef std::unordered_map&lt;std::string, std::string&gt;</definition>
-        <argsstring></argsstring>
-        <name>StringMap</name>
-        <briefdescription>
-<para>Structure to hold a key value string. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="51" column="1" bodyfile="Source/Utils/String.h" bodystart="51" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a44797403486135f74c4a8bb2d3594b2b" prot="public" static="no">
-        <type>std::stringstream</type>
-        <definition>using MdDox::StringStream = typedef std::stringstream</definition>
-        <argsstring></argsstring>
-        <name>StringStream</name>
-        <briefdescription>
-<para>Declaration of an input/output string stream. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="56" column="1" bodyfile="Source/Utils/String.h" bodystart="56" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1ac3281bf161fc4483a362d7d0927b1625" prot="public" static="no">
-        <type><ref refid="a01211" kindref="compound">IndexCache</ref>&lt; <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &gt;</type>
-        <definition>using MdDox::StringTable = typedef IndexCache&lt;String&gt;</definition>
-        <argsstring></argsstring>
-        <name>StringTable</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="30" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1af1065749252a3e36b7e5252c36bfec37" prot="public" static="no">
-        <type>std::unordered_map&lt; <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, int &gt;</type>
-        <definition>using MdDox::StrIntMap = typedef std::unordered_map&lt;String, int&gt;</definition>
-        <argsstring></argsstring>
-        <name>StrIntMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/DotWriter.cpp" line="31" column="1" bodyfile="Source/MdDoxTree/DotWriter.cpp" bodystart="31" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="a00986_1a761190b448bd474e7a2b5267340a1c26" prot="public" static="no">
-        <type>std::unordered_map&lt; <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref>, int64_t &gt;</type>
-        <definition>using MdDox::TypeFilterMap = typedef std::unordered_map&lt;String, int64_t&gt;</definition>
-        <argsstring></argsstring>
-        <name>TypeFilterMap</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/TypeFilter.h" line="34" column="1" bodyfile="Source/Utils/TypeFilter.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="var">
-      <memberdef kind="variable" id="a00986_1a28f35335310a4d1aa09614c91dab0f3f" prot="public" static="yes" mutable="no">
-        <type><ref refid="a00986_1af4403143a02f2821c341c458997b87d0" kindref="member">ConsoleColor</ref></type>
-        <definition>ConsoleColor MdDox::__gBackground</definition>
-        <argsstring></argsstring>
-        <name>__gBackground</name>
-        <initializer>= <ref refid="a00986_1af4403143a02f2821c341c458997b87d0af62be2d0115062f16965479a79b7d20a" kindref="member">CS_BLACK</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Console.cpp" line="33" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="33" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a00986_1ac05449930d4a31a869805987c439e117" prot="public" static="yes" mutable="no">
-        <type><ref refid="a00986_1af4403143a02f2821c341c458997b87d0" kindref="member">ConsoleColor</ref></type>
-        <definition>ConsoleColor MdDox::__gForeground</definition>
-        <argsstring></argsstring>
-        <name>__gForeground</name>
-        <initializer>= <ref refid="a00986_1af4403143a02f2821c341c458997b87d0a9568d468ec8324cddf394a97dcbef01e" kindref="member">CS_WHITE</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Console.cpp" line="32" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="32" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a00986_1a42fb98e42434407c66cfe313080ee049" prot="public" static="no" mutable="no">
-        <type>constexpr char</type>
-        <definition>constexpr char MdDox::BaseChars[]</definition>
-        <argsstring>[]</argsstring>
-        <name>BaseChars</name>
-        <initializer>= {
-        &apos;D&apos;, &apos;c&apos;, &apos;U&apos;, &apos;y&apos;, &apos;3&apos;, &apos;b&apos;, &apos;C&apos;, &apos;g&apos;,
-        &apos;p&apos;, &apos;J&apos;, &apos;9&apos;, &apos;L&apos;, &apos;p&apos;, &apos;J&apos;, &apos;0&apos;, &apos;A&apos;,
-        &apos;W&apos;, &apos;o&apos;, &apos;x&apos;, &apos;O&apos;, &apos;a&apos;, &apos;N&apos;, &apos;u&apos;, &apos;8&apos;,
-        &apos;n&apos;, &apos;x&apos;, &apos;7&apos;, &apos;s&apos;, &apos;E&apos;, &apos;z&apos;, &apos;h&apos;, &apos;E&apos;,
-        &apos;q&apos;, &apos;Z&apos;, &apos;L&apos;, &apos;4&apos;, &apos;F&apos;, &apos;2&apos;, &apos;Q&apos;, &apos;i&apos;,
-        &apos;S&apos;, &apos;K&apos;, &apos;w&apos;, &apos;G&apos;, &apos;r&apos;, &apos;f&apos;, &apos;1&apos;, &apos;Z&apos;,
-        &apos;d&apos;, &apos;t&apos;, &apos;Y&apos;, &apos;5&apos;, &apos;I&apos;, &apos;3&apos;, &apos;K&apos;, &apos;t&apos;,
-        &apos;B&apos;, &apos;6&apos;, &apos;a&apos;, &apos;R&apos;, &apos;l&apos;, &apos;H&apos;, &apos;m&apos;, &apos;M&apos;,
-    }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.cpp" line="190" column="1" bodyfile="Source/Utils/String.cpp" bodystart="190" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a00986_1ac1e40b26a321318c518279d7a346142e" prot="public" static="no" mutable="no">
-        <type>constexpr size_t</type>
-        <definition>constexpr size_t MdDox::BaseCharsSize</definition>
-        <argsstring></argsstring>
-        <name>BaseCharsSize</name>
-        <initializer>= sizeof <ref refid="a00986_1a42fb98e42434407c66cfe313080ee049" kindref="member">BaseChars</ref></initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.cpp" line="202" column="1" bodyfile="Source/Utils/String.cpp" bodystart="202" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a00986_1a655a1549e9d59b70fafb5626fa3adbf5" prot="public" static="no" mutable="no">
-        <type>constexpr char</type>
-        <definition>constexpr char MdDox::MultiLineCommentStop0</definition>
-        <argsstring></argsstring>
-        <name>MultiLineCommentStop0</name>
-        <initializer>= &apos;-&apos;</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="33" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a00986_1aeba7b8e95ffe7a28fc022b2a1e874620" prot="public" static="no" mutable="no">
-        <type>constexpr char</type>
-        <definition>constexpr char MdDox::MultiLineCommentStop1</definition>
-        <argsstring></argsstring>
-        <name>MultiLineCommentStop1</name>
-        <initializer>= &apos;&gt;&apos;</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/ParserBase/ScannerBase.h" line="34" column="1" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a00986_1a725cb964f7d71eb46603b9b5a0ddc018" prot="public" static="no" mutable="no">
-        <type>constexpr size_t</type>
-        <definition>constexpr size_t MdDox::NLoc</definition>
-        <argsstring></argsstring>
-        <name>NLoc</name>
-        <initializer>= (size_t)-1</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Path.cpp" line="28" column="1" bodyfile="Source/Utils/Path.cpp" bodystart="28" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a00986_1a05eb5502d200714d8a3f429bb891db0c" prot="public" static="no" mutable="no">
-        <type>constexpr <ref refid="a01175" kindref="compound">CommandLine::Switch</ref></type>
-        <definition>constexpr CommandLine::Switch MdDox::Switches[OpMax]</definition>
-        <argsstring>[OpMax]</argsstring>
-        <name>Switches</name>
-        <initializer>= {
-        {
-            <ref refid="a00986_1a2a045741e91ac06db43c953eae95c43ea39b558e96c16007cf1aa78e3c082395c" kindref="member">OptOutputDirectory</ref>,
-            &apos;o&apos;,
-            &quot;output&quot;,
-            &quot;Specify an output directory\n&quot;
-            &quot; &lt;path&gt;\n&quot;
-            &quot;  If one is not specified the current directory will be used\n\n&quot;,
-            true,
-            1,
-        },
-        {
-            <ref refid="a00986_1a2a045741e91ac06db43c953eae95c43ea0a4e9b2b31a3270c55bdcfbd656dad67" kindref="member">OptIndexFile</ref>,
-            &apos;i&apos;,
-            &quot;index&quot;,
-            &quot;Specify the index.xml file to use\n&quot;
-            &quot; &lt;path&gt;\n\n&quot;,
-            false,
-            1,
-        },
-        {
-            <ref refid="a00986_1a2a045741e91ac06db43c953eae95c43eaaf9ae2599ecf4ca56b203b90daa51595" kindref="member">OptConfigFile</ref>,
-            &apos;c&apos;,
-            &quot;config&quot;,
-            &quot;Loads the supplied config file\n&quot;,
-            false,
-            1,
-        },
-    }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDox/Main.cpp" line="85" column="1" bodyfile="Source/MdDox/Main.cpp" bodystart="85" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="func">
-      <memberdef kind="function" id="a00986_1a882abed0385daed0f7c9d02ff800408f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::CrtDump</definition>
-        <argsstring>()</argsstring>
-        <name>CrtDump</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Win32/CrtUtils.cpp" line="55" column="1" bodyfile="Source/Utils/Win32/CrtUtils.cpp" bodystart="55" bodyend="64"/>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a657f139bc5f6e89a7bb95a7fe0879214" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::CrtTestMemory</definition>
-        <argsstring>()</argsstring>
-        <name>CrtTestMemory</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Win32/CrtUtils.cpp" line="40" column="1" bodyfile="Source/Utils/Win32/CrtUtils.cpp" bodystart="40" bodyend="53"/>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a10c86bf623d1e4477190dd7197e166dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename Page</type>
-          </param>
-        </templateparamlist>
-        <type>void</type>
-        <definition>void MdDox::dispatch</definition>
-        <argsstring>(DocumentWriter *writer, const Reference &amp;page, const String &amp;indexDir, const PathUtil &amp;outDir)</argsstring>
-        <name>dispatch</name>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a01127" kindref="compound">Reference</ref> &amp;</type>
-          <declname>page</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>indexDir</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a01239" kindref="compound">PathUtil</ref> &amp;</type>
-          <declname>outDir</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="142" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="142" bodyend="162"/>
-        <references refid="a01199_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="a00326" startline="199" endline="204">MdDox::Console::writeLine</references>
-        <references refid="a01127_1a9caaf6a7703029c6c819bf558c05960b" compoundref="a00221" startline="61" endline="64">MdDox::Reference::getId</references>
-        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">StringCombine</references>
-        <references refid="a01263_1afb32e2e1f5cc5df668783653f13f81a7" compoundref="a02136" startline="46" endline="49">MdDox::Xml::Parser::applyFilter</references>
-        <references refid="a00991_1aaa9a8bd32e738e8d494ce8edf9a183bc" compoundref="a00290" startline="142" endline="145">MdDox::Doxygen::getFilter</references>
-        <references refid="a00991_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" compoundref="a00290" startline="147" endline="150">MdDox::Doxygen::getFilterSize</references>
-        <references refid="a01227_1ac0f4754066eb37834a6e6bed93993b50" compoundref="a00350" startline="83" endline="99">MdDox::ParserBase::parse</references>
-        <references refid="a01263_1ad981d8abab00654645b673875dde2b9a" compoundref="a02136" startline="82" endline="87">MdDox::Xml::Parser::root</references>
-        <references refid="a01259_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a00395" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a4338aec09dbef3739444c62befccc06b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::isDecimal</definition>
-        <argsstring>(const int ch)</argsstring>
-        <name>isDecimal</name>
-        <param>
-          <type>const int</type>
-          <declname>ch</declname>
-        </param>
-        <briefdescription>
-<para><simplesect kind="return"><para>True if the character is in the range of [0-9]</para></simplesect>
-</para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Char.h" line="199" column="1" bodyfile="Source/Utils/Char.h" bodystart="199" bodyend="202"/>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1abe37af316ba8d5a613895a5f016233f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::isLetter</definition>
-        <argsstring>(const int ch)</argsstring>
-        <name>isLetter</name>
-        <param>
-          <type>const int</type>
-          <declname>ch</declname>
-        </param>
-        <briefdescription>
-<para><simplesect kind="return"><para>True if the character is in the range of [a-zA-Z]</para></simplesect>
-</para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Char.h" line="205" column="1" bodyfile="Source/Utils/Char.h" bodystart="205" bodyend="208"/>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1aace85994356ad90a0d76534a0bbccc9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::isNewLine</definition>
-        <argsstring>(const int constant)</argsstring>
-        <name>isNewLine</name>
-        <param>
-          <type>const int</type>
-          <declname>constant</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>True if the supplied constant is a line feed character or a carriage return character. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Char.h" line="184" column="1" bodyfile="Source/Utils/Char.h" bodystart="184" bodyend="187"/>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1ab988273a03d78c09f4ed6f85c3e2eb13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::isWhiteSpace</definition>
-        <argsstring>(const int ch)</argsstring>
-        <name>isWhiteSpace</name>
-        <param>
-          <type>const int</type>
-          <declname>ch</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>True if the character is a white space character, tab character or a newline character. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Char.h" line="193" column="1" bodyfile="Source/Utils/Char.h" bodystart="193" bodyend="196"/>
-        <references refid="a00986_1aace85994356ad90a0d76534a0bbccc9d" compoundref="a00299" startline="184" endline="187">isNewLine</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1ad4af4599ee7aef373625906db0123c97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::makeIndexList</definition>
-        <argsstring>(int *list, size_t max, const String &amp;value)</argsstring>
-        <name>makeIndexList</name>
-        <param>
-          <type>int *</type>
-          <declname>list</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>max</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.cpp" line="106" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="106" bodyend="134"/>
-        <references refid="a01247_1a4e2a0d38a0435a6f041509d70b4c0cd7" compoundref="a00371" startline="134" endline="154">MdDox::StringUtils::splitRejectEmpty</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a983745cc5e0a14fdc9e107ad995ab69f" compoundref="a00488" startline="95">MdDox::Doxygen::DCK_PAGE</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a62d9911613fef621427568c486495d4c" compoundref="a00488" startline="63">MdDox::Doxygen::DCK_CLASS</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759ad01b6adae675a6349479b37cc0f65366" compoundref="a00488" startline="71">MdDox::Doxygen::DCK_NAMESPACE</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759af5700e85d79c43fdcf2fbf0da2599d43" compoundref="a00488" startline="127">MdDox::Doxygen::DCK_DIR</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1af9ca83aee0455c653902504d5325f642" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::makeInternalPages</definition>
-        <argsstring>(ReferenceTable *table, Config *cfg)</argsstring>
-        <name>makeInternalPages</name>
-        <param>
-          <type><ref refid="a01139" kindref="compound">ReferenceTable</ref> *</type>
-          <declname>table</declname>
-        </param>
-        <param>
-          <type><ref refid="a01195" kindref="compound">Config</ref> *</type>
-          <declname>cfg</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/SiteBuilder.cpp" line="87" column="1" bodyfile="Source/MdDoxTree/SiteBuilder.cpp" bodystart="87" bodyend="104"/>
-        <references refid="a01195_1a12b336c2490b8d41d792580da21a48ff" compoundref="a00320" startline="223" endline="229">MdDox::Config::getValue</references>
-        <references refid="a01139_1a46d98dfece4e2b48623d9e965fdeef06" compoundref="a00230" startline="73" endline="92">MdDox::ReferenceTable::insertCompound</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a00489ee9bfcd1b66cb432e960c6dca45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::makeTypeFilter</definition>
-        <argsstring>(TypeFilterMap &amp;dest, const TypeFilter *filter, const size_t size)</argsstring>
-        <name>makeTypeFilter</name>
-        <param>
-          <type><ref refid="a00986_1a761190b448bd474e7a2b5267340a1c26" kindref="member">TypeFilterMap</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a01251" kindref="compound">TypeFilter</ref> *</type>
-          <declname>filter</declname>
-        </param>
-        <param>
-          <type>const size_t</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/TypeFilter.cpp" line="27" column="1" bodyfile="Source/Utils/TypeFilter.cpp" bodystart="27" bodyend="35"/>
-        <references refid="a01251_1ac8b8e2faa2382e8a3a390364ed86611b" compoundref="a00383" startline="30">MdDox::TypeFilter::typeName</references>
-        <references refid="a01251_1a4ec7ae1b280af8c7dc8aed21bfe92e10" compoundref="a00383" startline="31">MdDox::TypeFilter::typeCode</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a636a4ffa437f2a2e436f83e76e2004c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>uint8_t</type>
-        <definition>static uint8_t MdDox::MapColor</definition>
-        <argsstring>(const ConsoleColor &amp;col, bool bg)</argsstring>
-        <name>MapColor</name>
-        <param>
-          <type>const <ref refid="a00986_1af4403143a02f2821c341c458997b87d0" kindref="member">ConsoleColor</ref> &amp;</type>
-          <declname>col</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>bg</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Console.cpp" line="36" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="36" bodyend="93"/>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1abd122e03fa98dad235318e99077dd20c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>static void MdDox::SetColor</definition>
-        <argsstring>()</argsstring>
-        <name>SetColor</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/Console.cpp" line="97" column="1" bodyfile="Source/Utils/Console.cpp" bodystart="97" bodyend="113"/>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a0a58f178b85f56fe1d08c136ee981a23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
-          </param>
-        </templateparamlist>
-        <type>void</type>
-        <definition>void MdDox::StreamMerge</definition>
-        <argsstring>(OutputStringStream &amp;dest, Args &amp;&amp;... args)</argsstring>
-        <name>StreamMerge</name>
-        <param>
-          <type><ref refid="a00986_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <param>
-          <type>Args &amp;&amp;...</type>
-          <declname>args</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="215" column="1" bodyfile="Source/Utils/String.h" bodystart="215" bodyend="220"/>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a15dad607ed0da2e2586a76873d2e4620" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
-          </param>
-        </templateparamlist>
-        <type>void</type>
-        <definition>void MdDox::StringCombine</definition>
-        <argsstring>(String &amp;dest, Args &amp;&amp;... args)</argsstring>
-        <name>StringCombine</name>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <param>
-          <type>Args &amp;&amp;...</type>
-          <declname>args</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="223" column="1" bodyfile="Source/Utils/String.h" bodystart="223" bodyend="228"/>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a7d54a855d1dfafa2f06b225dd346553f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
-          </param>
-        </templateparamlist>
-        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-        <definition>String MdDox::StringCombine</definition>
-        <argsstring>(Args &amp;&amp;... args)</argsstring>
-        <name>StringCombine</name>
-        <param>
-          <type>Args &amp;&amp;...</type>
-          <declname>args</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/Utils/String.h" line="231" column="1" bodyfile="Source/Utils/String.h" bodystart="231" bodyend="236"/>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1abcedb5cde83c1d846f72a4e6c116924c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::syncStream</definition>
-        <argsstring>(OStream *stream, OutputStringStream &amp;out)</argsstring>
-        <name>syncStream</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
-          <declname>stream</declname>
-        </param>
-        <param>
-          <type><ref refid="a00986_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="176" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="176" bodyend="187"/>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1adf0b8415191058f900ec33f847904249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeCommonNav</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer)</argsstring>
-        <name>writeCommonNav</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="31" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="31" bodyend="38"/>
-        <references refid="a01167_1a69f198ab68458ee9fa64bd7538415af4" compoundref="a00272" startline="279" endline="284">MdDox::SiteBuilder::get</references>
-        <references refid="a01019_1a96bb9b4cca54c9085c90a9ce3b479e09">MdDox::DocumentWriter::linkUrl</references>
-        <references refid="a01167_1ac4ab5f42eb5e5594c45f9f13d450571d" compoundref="a00275" startline="236">MdDox::SiteBuilder::siteUrl</references>
-        <references refid="a01019_1affa3f8a87798296d0b0e81ffa624f001">MdDox::DocumentWriter::linkRef</references>
-        <references refid="a01167_1a558d8fe39601e29714b12c5af622d84a" compoundref="a00275" startline="201">MdDox::SiteBuilder::projectTitle</references>
-        <references refid="a01019_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a6a044efa0d8ab36f057906e935bdf520" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeDirectoryTitleBar</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;item)</argsstring>
-        <name>writeDirectoryTitleBar</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a01127" kindref="compound">Reference</ref> &amp;</type>
-          <declname>item</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="83" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="83" bodyend="119"/>
-        <references refid="a01247_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="a00371" startline="125" endline="132">MdDox::StringUtils::split</references>
-        <references refid="a01127_1a16a58266e43ad09778943db15e471f38" compoundref="a00221" startline="51" endline="54">MdDox::Reference::getName</references>
-        <references refid="a01167_1a69f198ab68458ee9fa64bd7538415af4" compoundref="a00272" startline="279" endline="284">MdDox::SiteBuilder::get</references>
-        <references refid="a00986_1adf0b8415191058f900ec33f847904249" compoundref="a00284" startline="31" endline="38">writeCommonNav</references>
-        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">StringCombine</references>
-        <references refid="a01167_1a6f1d0e35196991ee8b6e28eac813d917" compoundref="a00272" startline="232" endline="237">MdDox::SiteBuilder::findDirectory</references>
-        <references refid="a01019_1affa3f8a87798296d0b0e81ffa624f001">MdDox::DocumentWriter::linkRef</references>
-        <references refid="a01019_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
-        <references refid="a01019_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
-        <references refid="a01019_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1aa6abb0ee693aad2d8dc028f0668c9c42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeExternalIconLink</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
-        <name>writeExternalIconLink</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a01127" kindref="compound">Reference</ref> &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="157" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="157" bodyend="166"/>
-        <references refid="a01127_1a16a58266e43ad09778943db15e471f38" compoundref="a00221" startline="51" endline="54">MdDox::Reference::getName</references>
-        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">StringCombine</references>
-        <references refid="a01167_1a69f198ab68458ee9fa64bd7538415af4" compoundref="a00272" startline="279" endline="284">MdDox::SiteBuilder::get</references>
-        <references refid="a01127_1a9caaf6a7703029c6c819bf558c05960b" compoundref="a00221" startline="61" endline="64">MdDox::Reference::getId</references>
-        <references refid="a00987_1a4a9cd5a09c91b2558f86e17c2d447999" compoundref="a00119" startline="26" endline="29">MdDox::HashUtils::lineNumber</references>
-        <references refid="a01019_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
-        <references refid="a01019_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a5cf8aec3a43f96f556d9401bf72cb7dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeGenericTitleBar</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const String &amp;item)</argsstring>
-        <name>writeGenericTitleBar</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>item</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="40" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="40" bodyend="46"/>
-        <references refid="a00986_1adf0b8415191058f900ec33f847904249" compoundref="a00284" startline="31" endline="38">writeCommonNav</references>
-        <references refid="a01019_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
-        <references refid="a01019_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1aeb49b708dff49ea284839bbb7353f533" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeMainPageDescriptions</definition>
-        <argsstring>(DocumentWriter *writer, const String &amp;indexDir, OStream &amp;out)</argsstring>
-        <name>writeMainPageDescriptions</name>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>indexDir</declname>
-        </param>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="239" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="239" bodyend="276"/>
-        <references refid="a01199_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="a00326" startline="199" endline="204">MdDox::Console::writeLine</references>
-        <references refid="a01239_1a557163bcb8705610f1f58c45590d3f78" compoundref="a00365" startline="107" endline="110">MdDox::PathUtil::fileName</references>
-        <references refid="a01239_1a76a0e63f574b4c06d4945dc764df1243" compoundref="a00365" startline="176" endline="179">MdDox::PathUtil::exists</references>
-        <references refid="a01263_1afb32e2e1f5cc5df668783653f13f81a7" compoundref="a02136" startline="46" endline="49">MdDox::Xml::Parser::applyFilter</references>
-        <references refid="a00991_1aaa9a8bd32e738e8d494ce8edf9a183bc" compoundref="a00290" startline="142" endline="145">MdDox::Doxygen::getFilter</references>
-        <references refid="a00991_1a47dbbdf2a4b78745d0ce7fd42b9cfc34" compoundref="a00290" startline="147" endline="150">MdDox::Doxygen::getFilterSize</references>
-        <references refid="a01227_1ac0f4754066eb37834a6e6bed93993b50" compoundref="a00350" startline="83" endline="99">MdDox::ParserBase::parse</references>
-        <references refid="a01239_1affcdc94254d5be39dd6e195cfff55092" compoundref="a00365" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
-        <references refid="a01263_1ad981d8abab00654645b673875dde2b9a" compoundref="a02136" startline="82" endline="87">MdDox::Xml::Parser::root</references>
-        <references refid="a01259_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a00395" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="a01431_1a47f7b11440eaf023b3c3d6939b61b997" compoundref="a00584" startline="56" endline="59">MdDox::Doxygen::DoxygenQuery::foreachCompoundDef</references>
-        <references refid="a01311_1a6bdd1c22bc8a14a6299980ba065089d3" compoundref="a00437" startline="257" endline="266">MdDox::Doxygen::CompoundDefQuery::getBriefDescription</references>
-        <references refid="a01415_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="a00575" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
-        <references refid="a01011_1a0785268e8ef04fee7ac9f368664689ac" compoundref="a00074" startline="38" endline="42">MdDox::DescriptionWriter::write</references>
-        <references refid="a01311_1a4e4533dfebc2b045b6fda1545a62e507" compoundref="a00437" startline="275" endline="284">MdDox::Doxygen::CompoundDefQuery::getDetailedDescription</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1abd83695519b08c759c042dc95cb3a95e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeNamespaceTitleBar</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;item)</argsstring>
-        <name>writeNamespaceTitleBar</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a01127" kindref="compound">Reference</ref> &amp;</type>
-          <declname>item</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="48" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="48" bodyend="81"/>
-        <references refid="a01247_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="a00371" startline="125" endline="132">MdDox::StringUtils::split</references>
-        <references refid="a01127_1a16a58266e43ad09778943db15e471f38" compoundref="a00221" startline="51" endline="54">MdDox::Reference::getName</references>
-        <references refid="a01167_1a69f198ab68458ee9fa64bd7538415af4" compoundref="a00272" startline="279" endline="284">MdDox::SiteBuilder::get</references>
-        <references refid="a00986_1adf0b8415191058f900ec33f847904249" compoundref="a00284" startline="31" endline="38">writeCommonNav</references>
-        <references refid="a01167_1af6dbfd644fcf3daea5e94745c0f279e3" compoundref="a00272" startline="225" endline="230">MdDox::SiteBuilder::findNamespace</references>
-        <references refid="a01019_1affa3f8a87798296d0b0e81ffa624f001">MdDox::DocumentWriter::linkRef</references>
-        <references refid="a00990_1ae19f047fded439c619b471401585fa63" compoundref="a00284" startline="189" endline="196">MdDox::LinkUtils::LBR</references>
-        <references refid="a01019_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
-        <references refid="a01019_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
-        <references refid="a01019_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a85bc9b7c1598307fd67b28576b005c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeReferenceIconLink</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
-        <name>writeReferenceIconLink</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a01127" kindref="compound">Reference</ref> &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="121" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="121" bodyend="148"/>
-        <references refid="a01167_1a69f198ab68458ee9fa64bd7538415af4" compoundref="a00272" startline="279" endline="284">MdDox::SiteBuilder::get</references>
-        <references refid="a01167_1a0e191e2993aef67a4aac62a8f26dadc3" compoundref="a00272" startline="258" endline="263">MdDox::SiteBuilder::getMemberRef</references>
-        <references refid="a01127_1a9caaf6a7703029c6c819bf558c05960b" compoundref="a00221" startline="61" endline="64">MdDox::Reference::getId</references>
-        <references refid="a01019_1a9d24711328dc0ab43f35cb9ada183f94">MdDox::DocumentWriter::beginParagraph</references>
-        <references refid="a01019_1ae4bb1d21ea47485bd6b8ae345c6403ee">MdDox::DocumentWriter::embedContent</references>
-        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9ada8d11ea29ff98f15c600f05b9797e3c" compoundref="a00140" startline="43">ICO_CLASS</references>
-        <references refid="a00990_1ae19f047fded439c619b471401585fa63" compoundref="a00284" startline="189" endline="196">MdDox::LinkUtils::LBR</references>
-        <references refid="a01127_1a16a58266e43ad09778943db15e471f38" compoundref="a00221" startline="51" endline="54">MdDox::Reference::getName</references>
-        <references refid="a01135_1a2cc383744ae39efba753bb79d120f9f6" compoundref="a00224" startline="27" endline="40">MdDox::MemberReference::findParent</references>
-        <references refid="a01019_1a94828ae1539600cf1a2231fdf58ac8f3">MdDox::DocumentWriter::linkText</references>
-        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">StringCombine</references>
-        <references refid="a01167_1a918f3a77721cccaac92bd2e593880b99" compoundref="a00275" startline="215">MdDox::SiteBuilder::outputFileExt</references>
-        <references refid="a00987_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="a00119" startline="31" endline="34">MdDox::HashUtils::heading</references>
-        <references refid="a01019_1acd2adcce65db9b8191ecc0479ba41d56">MdDox::DocumentWriter::boldText</references>
-        <references refid="a01019_1aac387e99c32bac3258824c69eb39a71b">MdDox::DocumentWriter::endParagraph</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1ae82c265f6ad332a3719182607f446d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeReferenceIconLinkHeading</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
-        <name>writeReferenceIconLinkHeading</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a01127" kindref="compound">Reference</ref> &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="150" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="150" bodyend="155"/>
-        <references refid="a00990_1ae19f047fded439c619b471401585fa63" compoundref="a00284" startline="189" endline="196">MdDox::LinkUtils::LBR</references>
-        <references refid="a01127_1a16a58266e43ad09778943db15e471f38" compoundref="a00221" startline="51" endline="54">MdDox::Reference::getName</references>
-        <references refid="a01019_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
-        <references refid="a00987_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="a00119" startline="31" endline="34">MdDox::HashUtils::heading</references>
-        <references refid="a01019_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
-      </memberdef>
-      <memberdef kind="function" id="a00986_1a09d2ecc7d854ef15c1824ed170b37d21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::writeReferenceIconStub</definition>
-        <argsstring>(OStream &amp;out, DocumentWriter *writer, const Reference &amp;ref, const IconId id)</argsstring>
-        <name>writeReferenceIconStub</name>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a01127" kindref="compound">Reference</ref> &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
-          <declname>id</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/WriteUtils.cpp" line="168" column="1" bodyfile="Source/MdDoxTree/WriteUtils.cpp" bodystart="168" bodyend="174"/>
-        <references refid="a01019_1a9d24711328dc0ab43f35cb9ada183f94">MdDox::DocumentWriter::beginParagraph</references>
-        <references refid="a01019_1ae4bb1d21ea47485bd6b8ae345c6403ee">MdDox::DocumentWriter::embedContent</references>
-        <references refid="a01019_1a365a4214620abbb22cd9e7b021905393">MdDox::DocumentWriter::inlineText</references>
-        <references refid="a01127_1a16a58266e43ad09778943db15e471f38" compoundref="a00221" startline="51" endline="54">MdDox::Reference::getName</references>
-        <references refid="a01019_1aac387e99c32bac3258824c69eb39a71b">MdDox::DocumentWriter::endParagraph</references>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a00986" kind="file" language="C++">
+    <compoundname>HtmlDocumentWriter.h</compoundname>
+    <includes refid="a00938" local="yes">MdDoxTree/DocumentWriter.h</includes>
+    <includes refid="a01190" local="yes">Utils/FileSystem.h</includes>
+    <includes refid="a01226" local="yes">Utils/String.h</includes>
+    <includedby refid="a02976" local="yes">Source/MdDox/Main.cpp</includedby>
+    <includedby refid="a00977" local="yes">Source/MdDoxTree/HtmlCommandWriter.cpp</includedby>
+    <includedby refid="a00983" local="yes">Source/MdDoxTree/HtmlDocumentWriter.cpp</includedby>
+    <includedby refid="a01022" local="yes">Source/MdDoxTree/MarkdownDocumentWriter.h</includedby>
+    <incdepgraph>
+      <node id="817">
+        <label>iomanip</label>
+      </node>
+      <node id="807">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.h</label>
+        <link refid="a00986"/>
+        <childnode refid="808" relation="include">
+        </childnode>
+        <childnode refid="818" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+      </node>
+      <node id="814">
+        <label>string</label>
+      </node>
+      <node id="812">
+        <label>fstream</label>
+      </node>
+      <node id="809">
+        <label>IconSet.h</label>
+        <childnode refid="810" relation="include">
+        </childnode>
+      </node>
+      <node id="808">
+        <label>MdDoxTree/DocumentWriter.h</label>
+        <childnode refid="809" relation="include">
+        </childnode>
+        <childnode refid="818" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+      </node>
+      <node id="810">
+        <label>Utils/String.h</label>
+        <childnode refid="811" relation="include">
+        </childnode>
+        <childnode refid="812" relation="include">
+        </childnode>
+        <childnode refid="813" relation="include">
+        </childnode>
+        <childnode refid="814" relation="include">
+        </childnode>
+        <childnode refid="815" relation="include">
+        </childnode>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="817" relation="include">
+        </childnode>
+      </node>
+      <node id="816">
+        <label>vector</label>
+      </node>
+      <node id="813">
+        <label>sstream</label>
+      </node>
+      <node id="818">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="819" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+      </node>
+      <node id="811">
+        <label>deque</label>
+      </node>
+      <node id="815">
+        <label>unordered_map</label>
+      </node>
+      <node id="819">
+        <label>experimental/filesystem</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="820">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.h</label>
+        <link refid="a00986"/>
+        <childnode refid="821" relation="include">
+        </childnode>
+        <childnode refid="822" relation="include">
+        </childnode>
+        <childnode refid="823" relation="include">
+        </childnode>
+        <childnode refid="824" relation="include">
+        </childnode>
+      </node>
+      <node id="822">
+        <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
+      </node>
+      <node id="824">
+        <label>Source/MdDoxTree/MarkdownDocumentWriter.h</label>
+        <childnode refid="821" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="826" relation="include">
+        </childnode>
+      </node>
+      <node id="823">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="826">
+        <label>Source/MdDoxTree/MarkdownDocumentWriter.cpp</label>
+      </node>
+      <node id="825">
+        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="821">
+        <label>Source/MdDox/Main.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a01907" prot="public">MdDox::HtmlDocumentWriter</innerclass>
+    <innernamespace refid="a01838">MdDox</innernamespace>
     <briefdescription>
-<para>Provides a class grouping for all defined types in this project. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Current/pages/MD000_Index.h" line="27" column="1"/>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/DocumentWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/FileSystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29" refid="a01907" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a01907" kindref="compound">HtmlDocumentWriter</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_sectionDepth;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a328cad37df7b7649bd03f468857388be" kindref="member">writeSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01907_1a43d31bcaf97f0816559d3c7bccee0db9" kindref="member">HtmlDocumentWriter</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01907_1ae0dc86a7326691195ed5f55597eaf5b7" kindref="member">~HtmlDocumentWriter</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a5daf0d8d14c50ccca660c05968b993b3" kindref="member" tooltip="Implementations should write a common document header. ">beginDocument</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" kindref="member" tooltip="Implementations should write a common document header. ">endDocument</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>docSource<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a393170e139ed9b833f12f7aceb6b7e2b" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ac71887b572b72ef944e1789a5c6a91d6" kindref="member" tooltip="Implementations should start a subsection of the body. ">beginSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth<sp/>=<sp/>-1)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1abfccb6378e3f2b6e6ff47401e2db0e93" kindref="member" tooltip="Implementations should end a subsection. ">endSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1acd0a32131263bd726a8d4b544ccfa9be" kindref="member" tooltip="Implementations should start sub title bar of a section. ">beginSectionBar</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a44bbf3cf9b95c103353d7efb1c909830" kindref="member" tooltip="Implementations should end sub title bar of a section. ">endSectionBar</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a36c520c92eb493ab20ad76a541b84eb6" kindref="member" tooltip="Implementations should start a method block. ">beginMethod</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a43a804f8734dac76729b9f72b544482d" kindref="member" tooltip="Implementations should end a method block. ">endMethod</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ae6014a836ebe94925abf19f7474155f2" kindref="member" tooltip="Implementations should start a list block. ">beginList</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>header)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1af75a89e0658a7320a555c3a13828b2cd" kindref="member" tooltip="Implementations should end a list block. ">endList</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a2e8740d2526db06211f9958291bf0206" kindref="member" tooltip="Implementations should start a paragraph block. ">beginParagraph</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a59702d6a4aded0cac48500f45a1be0bc" kindref="member" tooltip="Implementations should end a paragraph block. ">endParagraph</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a7670b12958509c16853688989e990b78" kindref="member" tooltip="Implementations should start a block-quote block. ">beginBlockQuote</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1aace4d5d82afd9c97c8326a46e7fb7cef" kindref="member" tooltip="Implementations should end a block-quote block. ">endBlockQuote</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a836317c9151472a9e66508b664b3e49f" kindref="member" tooltip="Implementations should start a list item block. ">beginListItem</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a80c6372146b10c286b77a001d93967e4" kindref="member" tooltip="Implementations should start a list item block. ">endListItem</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ad9995cb31fc3e5a9ef4fe4983d93446f" kindref="member" tooltip="Implementations should write a paragraph. ">paragraph</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a398b1a19231cc08d405381e4424d2d86" kindref="member" tooltip="Implementations should write fragment of plain-text. ">inlineText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1aa539467d2a680bb2c304af1e6892d1d8" kindref="member" tooltip="Implementations should write a bold block of text. ">boldText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a05d9df064ebbf4524c3c3260bca61a2c" kindref="member" tooltip="Implementations should write an italic block of text. ">italicText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ac71eba6fffa8e88ac74a08d69c92d792" kindref="member" tooltip="Implementations should write a typewriter block of text. ">typewriterText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a5e927215716d8ec55d63e67c3cf1cd42" kindref="member" tooltip="Implementations should write a code block. ">code</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>type<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;.txt&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1aac4c21f67539c6e9bbdb5df04cc7a6ad" kindref="member" tooltip="Implementations should write an image block. ">image</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>src)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a68c79d1b42c171eabb11deee197d0788" kindref="member" tooltip="Implementations should write a list item block with a link to the title. ">listItem</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1adf6ad311b4df2e7455824ddb62a09836" kindref="member" tooltip="Implementations should write a list item block with an icon and link to the title. ">listIcon</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a01907_1aac4c21f67539c6e9bbdb5df04cc7a6ad" kindref="member" tooltip="Implementations should write an image block. ">image</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ab7afa93eee2cee8a13fdeae204abcbed" kindref="member" tooltip="Implementations write an anchor. ">anchor</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1afbd95a2ba1f88e5a4c5e64ba05876eb8" kindref="member" tooltip="Implementations write a horizontal rule. ">horizontalRule</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1aa025bf1524b7d5d5f5607ed01bf0fcac" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a531301c8b4583e19702e78d48b909c8c" kindref="member" tooltip="Implementations should write an external URL. ">linkUrl</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a6d5374eb819d40a3dc64c3c28eb5aa88" kindref="member" tooltip="Implementations write a text link. ">linkText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a62545b47950718fa095ab34c8a4c09f4" kindref="member" tooltip="Implementations write text link to a page. ">linkRef</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/>output,</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kind,</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a51609f3c7e7733d8366e0d3d72ec7120" kindref="member" tooltip="Implementations write text link to a page with an icon attached to it. ">linkRefIcon</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/>output,</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ico,</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kind,</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a503d460a5235e20307153903ec2e5423" kindref="member" tooltip="Implementations should embed the predefined content icon. ">embedContent</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>content)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a222ca48b75a73f539a83d10a3eb9f2dc" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL. ">embedContentLink</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>content,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ac9ef7a20c9ad41cd27866e98b344672c" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>content,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/MdDoxTree/HtmlDocumentWriter.h"/>
   </compounddef>
 </doxygen>

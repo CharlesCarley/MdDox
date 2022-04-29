@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02411" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::LinkedTextQuery</compoundname>
+    <basecompoundref refid="a02267" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/LinkedTextQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02411_1a187613cd5d36fb51fbc409bfbcf1deb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::LinkedTextQuery::LinkedTextQuery</definition>
+        <argsstring>()=default</argsstring>
+        <name>LinkedTextQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/LinkedTextQuery.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02411_1a025e6b854b1e6adc8326b34751f5ecdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::LinkedTextQuery::LinkedTextQuery</definition>
+        <argsstring>(const LinkedTextQuery &amp;other)=default</argsstring>
+        <name>LinkedTextQuery</name>
+        <param>
+          <type>const <ref refid="a02411" kindref="compound">LinkedTextQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/LinkedTextQuery.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02411_1a376c3c41aed50929625a4516aba276f7" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::LinkedTextQuery::LinkedTextQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>LinkedTextQuery</name>
+        <param>
+          <type><ref refid="a02111" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/LinkedTextQuery.h" line="67" column="1" bodyfile="Tools/Doxygen/LinkedTextQuery.h" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="a02411_1a5921a06108adf44f29940a96944a9004" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::LinkedTextQuery::foreachRef</definition>
+        <argsstring>(const RefTextQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachRef</name>
+        <param>
+          <type>const <ref refid="a01843_1a46268b958deb80651b37ca98be759388" kindref="member">RefTextQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>ref</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/LinkedTextQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/LinkedTextQuery.cpp" bodystart="49" bodyend="52"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+      </memberdef>
+      <memberdef kind="function" id="a02411_1a87fbbc8198d459fc80cafc7f3394f404" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::LinkedTextQuery::visit</definition>
+        <argsstring>(Visitors::LinkedTextQueryVisitor *) const</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="a02407" kindref="compound">Visitors::LinkedTextQueryVisitor</ref> *</type>
+          <defname>visitor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/LinkedTextQuery.h" line="72" column="1" bodyfile="Tools/Doxygen/LinkedTextQuery.cpp" bodystart="29" bodyend="48"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a01250" startline="270" endline="273">MdDox::Xml::Node::children</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="a01145" startline="31">MdDox::Doxygen::DoxTextNode</references>
+        <references refid="a02407_1ac26e6cc9872a77a4c59438793ca84bd4" compoundref="a01547" startline="38" endline="38">MdDox::Doxygen::Visitors::LinkedTextQueryVisitor::visitedText</references>
+        <references refid="a02407_1a5a8fd9eaf1867743454d5eb4e8f81359" compoundref="a01547" startline="43" endline="43">MdDox::Doxygen::Visitors::LinkedTextQueryVisitor::visitedRef</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>linkedTextType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>linkedTextType</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;linkedTextType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">mixed</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;ref&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refTextType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="275">
+        <label>MdDox::Doxygen::LinkedTextQuery</label>
+        <link refid="a02411"/>
+        <childnode refid="276" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="277">
+        <label>MdDox::Doxygen::LinkedTextQuery</label>
+        <link refid="a02411"/>
+        <childnode refid="278" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="279">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a02111"/>
+        <childnode refid="280" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="278">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+        <childnode refid="279" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="280">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/LinkedTextQuery.h" line="62" column="1" bodyfile="Tools/Doxygen/LinkedTextQuery.h" bodystart="61" bodyend="79"/>
+    <listofallmembers>
+      <member refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>_node</name></member>
+      <member refid="a02267_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>empty</name></member>
+      <member refid="a02411_1a5921a06108adf44f29940a96944a9004" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>foreachRef</name></member>
+      <member refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>isValid</name></member>
+      <member refid="a02411_1a187613cd5d36fb51fbc409bfbcf1deb6" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>LinkedTextQuery</name></member>
+      <member refid="a02411_1a025e6b854b1e6adc8326b34751f5ecdf" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>LinkedTextQuery</name></member>
+      <member refid="a02411_1a376c3c41aed50929625a4516aba276f7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>LinkedTextQuery</name></member>
+      <member refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>node</name></member>
+      <member refid="a02267_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>reset</name></member>
+      <member refid="a02267_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>sort</name></member>
+      <member refid="a02267_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>text</name></member>
+      <member refid="a02411_1a87fbbc8198d459fc80cafc7f3394f404" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::LinkedTextQuery</scope><name>visit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

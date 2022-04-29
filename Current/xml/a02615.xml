@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02615" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::SimpleSectQueryVisitor</compoundname>
+    <includes local="no">Tools/Doxygen/SimpleSectQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02615_1a37e58839342e06fe32b7ef39cce41d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::SimpleSectQueryVisitor::~SimpleSectQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~SimpleSectQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SimpleSectQuery.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02615_1ac1f9e7a8c397e3f03f149ec79ee4fdb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::SimpleSectQueryVisitor::visitedParagraph</definition>
+        <argsstring>(const ParaQuery &amp;query)</argsstring>
+        <name>visitedParagraph</name>
+        <param>
+          <type>const <ref refid="a02539" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02539" kindref="compound">ParaQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SimpleSectQuery.h" line="44" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="a02615_1a3d6667311037a3cef91e56a1b2131372" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::SimpleSectQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SimpleSectQuery.h" line="39" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="a02615_1a0b8380f630ffe7fe0f91bd47324d477a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::SimpleSectQueryVisitor::visitedTitle</definition>
+        <argsstring>(const TitleQuery &amp;query)</argsstring>
+        <name>visitedTitle</name>
+        <param>
+          <type>const <ref refid="a02647" kindref="compound">TitleQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02647" kindref="compound">TitleQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SimpleSectQuery.h" line="49" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/SimpleSectQuery.h" line="32" column="1" bodyfile="Tools/Doxygen/SimpleSectQuery.h" bodystart="31" bodyend="51"/>
+    <listofallmembers>
+      <member refid="a02615_1ac1f9e7a8c397e3f03f149ec79ee4fdb3" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::SimpleSectQueryVisitor</scope><name>visitedParagraph</name></member>
+      <member refid="a02615_1a3d6667311037a3cef91e56a1b2131372" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::SimpleSectQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="a02615_1a0b8380f630ffe7fe0f91bd47324d477a" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::SimpleSectQueryVisitor</scope><name>visitedTitle</name></member>
+      <member refid="a02615_1a37e58839342e06fe32b7ef39cce41d03" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::SimpleSectQueryVisitor</scope><name>~SimpleSectQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -109,7 +109,6 @@ namespace MdDox
         if (dw.write(query))
         {
             _writer->lineBreak(_out);
-            _writer->lineBreak(_out);
         }
     }
 
@@ -145,8 +144,7 @@ namespace MdDox
             openDetail();
 
         DescriptionWriter dw(_writer, &_out);
-        if (dw.write(query))
-            _writer->lineBreak(_out);
+        dw.write(query);
     }
 
     void FunctionDefWriter::visitedLocation(const Doxygen::LocationQuery& query)
@@ -168,7 +166,8 @@ namespace MdDox
         if (!_hasDetail)
         {
             _hasDetail = true;
-            _writer->addSection(_out, "Details", 4);
+            _writer->lineBreak(_out);
+            _writer->lineBreak(_out);
         }
     }
 

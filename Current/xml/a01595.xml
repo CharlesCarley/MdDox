@@ -1,162 +1,443 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01595" kind="class" language="C++" prot="public">
-    <compoundname>MdDox::Doxygen::ListQuery</compoundname>
-    <basecompoundref refid="a01415" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/ListQuery.h</includes>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01595_1a5ebc3b1f15a432dad5a0b06cbc504a81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::ListQuery::ListQuery</definition>
-        <argsstring>()=default</argsstring>
-        <name>ListQuery</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ListQuery.h" line="64" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01595_1a39c13e8a28ff2be830920df462408716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::ListQuery::ListQuery</definition>
-        <argsstring>(const ListQuery &amp;other)=default</argsstring>
-        <name>ListQuery</name>
-        <param>
-          <type>const <ref refid="a01595" kindref="compound">ListQuery</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ListQuery.h" line="65" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01595_1acb876cd470200a9bd33c51e540d913be" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::ListQuery::ListQuery</definition>
-        <argsstring>(Xml::Node *node)</argsstring>
-        <name>ListQuery</name>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ListQuery.h" line="67" column="1" bodyfile="Tools/Doxygen/ListQuery.h" bodystart="67" bodyend="70"/>
-      </memberdef>
-      <memberdef kind="function" id="a01595_1abb29e9ce975d8ea0d2257f5bd60418fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ListQuery::foreachListItem</definition>
-        <argsstring>(const ListItemQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachListItem</name>
-        <param>
-          <type>const <ref refid="a00991_1aca424a13e91d2ba0862eb67c3785bc08" kindref="member">ListItemQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>listitem</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ListQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/ListQuery.cpp" bodystart="49" bodyend="52"/>
-        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
-      </memberdef>
-      <memberdef kind="function" id="a01595_1ac46bf25f821f5e934a5d7435ed39e9f6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::ListQuery::visit</definition>
-        <argsstring>(Visitors::ListQueryVisitor *) const</argsstring>
-        <name>visit</name>
-        <param>
-          <type><ref refid="a01591" kindref="compound">Visitors::ListQueryVisitor</ref> *</type>
-          <defname>visitor</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/ListQuery.h" line="72" column="1" bodyfile="Tools/Doxygen/ListQuery.cpp" bodystart="29" bodyend="48"/>
-        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
-        <references refid="a01259_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a00398" startline="275" endline="278">MdDox::Xml::Node::children</references>
-        <references refid="a00991_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="a00293" startline="31">MdDox::Doxygen::DoxTextNode</references>
-        <references refid="a01591_1a7df86e7e1af2d14a355f04c4a377a6fd" compoundref="a00725" startline="38" endline="38">MdDox::Doxygen::Visitors::ListQueryVisitor::visitedText</references>
-        <references refid="a01591_1a185d81219cc7183b8d77b7a6e0daaf63" compoundref="a00725" startline="43" endline="43">MdDox::Doxygen::Visitors::ListQueryVisitor::visitedListItem</references>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a01595" kind="file" language="C++">
+    <compoundname>MemberDefQuery.h</compoundname>
+    <includes refid="a01427" local="yes">Doxygen.h</includes>
+    <includes refid="a01370" local="yes">DoxMemberKind.h</includes>
+    <includes refid="a01424" local="yes">DoxVirtualKind.h</includes>
+    <includes refid="a01388" local="yes">DoxProtectionKind.h</includes>
+    <includes refid="a01328" local="yes">DoxBool.h</includes>
+    <includes refid="a01400" local="yes">DoxRefQualifierKind.h</includes>
+    <includes refid="a01322" local="yes">DoxAccessor.h</includes>
+    <includedby refid="a00950" local="yes">Source/MdDoxTree/EnumDefWriter.h</includedby>
+    <includedby refid="a00956" local="yes">Source/MdDoxTree/FunctionDefWriter.h</includedby>
+    <includedby refid="a01034" local="yes">Source/MdDoxTree/MemberDefListingWriter.h</includedby>
+    <includedby refid="a01040" local="yes">Source/MdDoxTree/MemberDefWriter.h</includedby>
+    <includedby refid="a01592" local="yes">Tools/Doxygen/MemberDefQuery.cpp</includedby>
+    <includedby refid="a01718" local="yes">Tools/Doxygen/SectionDefQuery.cpp</includedby>
+    <incdepgraph>
+      <node id="7627">
+        <label>DoxAccessor.h</label>
+        <childnode refid="7606" relation="include">
+        </childnode>
+      </node>
+      <node id="7621">
+        <label>Utils/Console.h</label>
+        <childnode refid="7609" relation="include">
+        </childnode>
+      </node>
+      <node id="7615">
+        <label>iomanip</label>
+      </node>
+      <node id="7607">
+        <label>functional</label>
+      </node>
+      <node id="7626">
+        <label>DoxRefQualifierKind.h</label>
+        <childnode refid="7606" relation="include">
+        </childnode>
+      </node>
+      <node id="7617">
+        <label>Utils/Exception.h</label>
+        <childnode refid="7618" relation="include">
+        </childnode>
+        <childnode refid="7619" relation="include">
+        </childnode>
+        <childnode refid="7620" relation="include">
+        </childnode>
+        <childnode refid="7621" relation="include">
+        </childnode>
+        <childnode refid="7609" relation="include">
+        </childnode>
+      </node>
+      <node id="7619">
+        <label>stdexcept</label>
+      </node>
+      <node id="7613">
+        <label>string</label>
+      </node>
+      <node id="7606">
+        <label>Doxygen.h</label>
+        <childnode refid="7607" relation="include">
+        </childnode>
+        <childnode refid="7608" relation="include">
+        </childnode>
+        <childnode refid="7609" relation="include">
+        </childnode>
+        <childnode refid="7616" relation="include">
+        </childnode>
+        <childnode refid="7617" relation="include">
+        </childnode>
+      </node>
+      <node id="7618">
+        <label>exception</label>
+      </node>
+      <node id="7611">
+        <label>fstream</label>
+      </node>
+      <node id="7616">
+        <label>Xml/Node.h</label>
+        <childnode refid="7607" relation="include">
+        </childnode>
+        <childnode refid="7608" relation="include">
+        </childnode>
+        <childnode refid="7609" relation="include">
+        </childnode>
+      </node>
+      <node id="7624">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="7606" relation="include">
+        </childnode>
+      </node>
+      <node id="7622">
+        <label>DoxMemberKind.h</label>
+        <childnode refid="7606" relation="include">
+        </childnode>
+      </node>
+      <node id="7609">
+        <label>Utils/String.h</label>
+        <childnode refid="7610" relation="include">
+        </childnode>
+        <childnode refid="7611" relation="include">
+        </childnode>
+        <childnode refid="7612" relation="include">
+        </childnode>
+        <childnode refid="7613" relation="include">
+        </childnode>
+        <childnode refid="7608" relation="include">
+        </childnode>
+        <childnode refid="7614" relation="include">
+        </childnode>
+        <childnode refid="7615" relation="include">
+        </childnode>
+      </node>
+      <node id="7614">
+        <label>vector</label>
+      </node>
+      <node id="7620">
+        <label>utility</label>
+      </node>
+      <node id="7612">
+        <label>sstream</label>
+      </node>
+      <node id="7623">
+        <label>DoxVirtualKind.h</label>
+        <childnode refid="7606" relation="include">
+        </childnode>
+      </node>
+      <node id="7610">
+        <label>deque</label>
+      </node>
+      <node id="7608">
+        <label>unordered_map</label>
+      </node>
+      <node id="7625">
+        <label>DoxBool.h</label>
+        <childnode refid="7606" relation="include">
+        </childnode>
+      </node>
+      <node id="7605">
+        <label>Tools/Doxygen/MemberDefQuery.h</label>
+        <link refid="a01595"/>
+        <childnode refid="7606" relation="include">
+        </childnode>
+        <childnode refid="7622" relation="include">
+        </childnode>
+        <childnode refid="7623" relation="include">
+        </childnode>
+        <childnode refid="7624" relation="include">
+        </childnode>
+        <childnode refid="7625" relation="include">
+        </childnode>
+        <childnode refid="7626" relation="include">
+        </childnode>
+        <childnode refid="7627" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7632">
+        <label>Source/MdDoxTree/FunctionDefWriter.h</label>
+        <childnode refid="7630" relation="include">
+        </childnode>
+        <childnode refid="7633" relation="include">
+        </childnode>
+        <childnode refid="7631" relation="include">
+        </childnode>
+      </node>
+      <node id="7631">
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
+      </node>
+      <node id="7638">
+        <label>Source/MdDoxTree/SectionDefWriter.cpp</label>
+      </node>
+      <node id="7640">
+        <label>Tools/Doxygen/SectionDefQuery.cpp</label>
+      </node>
+      <node id="7630">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+      </node>
+      <node id="7633">
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+      </node>
+      <node id="7636">
+        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
+      </node>
+      <node id="7637">
+        <label>Source/MdDoxTree/MemberDefWriter.h</label>
+        <childnode refid="7631" relation="include">
+        </childnode>
+        <childnode refid="7638" relation="include">
+        </childnode>
+      </node>
+      <node id="7635">
+        <label>Source/MdDoxTree/MemberDefListingWriter.cpp</label>
+      </node>
+      <node id="7634">
+        <label>Source/MdDoxTree/MemberDefListingWriter.h</label>
+        <childnode refid="7635" relation="include">
+        </childnode>
+        <childnode refid="7636" relation="include">
+        </childnode>
+      </node>
+      <node id="7629">
+        <label>Source/MdDoxTree/EnumDefWriter.h</label>
+        <childnode refid="7630" relation="include">
+        </childnode>
+        <childnode refid="7631" relation="include">
+        </childnode>
+      </node>
+      <node id="7639">
+        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
+      </node>
+      <node id="7628">
+        <label>Tools/Doxygen/MemberDefQuery.h</label>
+        <link refid="a01595"/>
+        <childnode refid="7629" relation="include">
+        </childnode>
+        <childnode refid="7632" relation="include">
+        </childnode>
+        <childnode refid="7634" relation="include">
+        </childnode>
+        <childnode refid="7637" relation="include">
+        </childnode>
+        <childnode refid="7639" relation="include">
+        </childnode>
+        <childnode refid="7640" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a02467" prot="public">MdDox::Doxygen::MemberDefQuery</innerclass>
+    <innerclass refid="a02463" prot="public">MdDox::Doxygen::Visitors::MemberDefQueryVisitor</innerclass>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
+    <innernamespace refid="a01847">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>
-<para>Implements the <computeroutput>docListType</computeroutput> scaffolding. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>The following xml provides the source for the <bold>docListType</bold> scaffolding. <linebreak/>
-<linebreak/>
-<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docListType&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;listitem&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docListItemType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
-</programlisting> </para>    </detaileddescription>
-    <inheritancegraph>
-      <node id="306">
-        <label>MdDox::Doxygen::Query</label>
-        <link refid="a01415"/>
-      </node>
-      <node id="305">
-        <label>MdDox::Doxygen::ListQuery</label>
-        <link refid="a01595"/>
-        <childnode refid="306" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="309">
-        <label>MdDox::Xml::Node</label>
-        <link refid="a01259"/>
-        <childnode refid="310" relation="usage">
-          <edgelabel>_autoDelete</edgelabel>
-        </childnode>
-      </node>
-      <node id="308">
-        <label>MdDox::Doxygen::Query</label>
-        <link refid="a01415"/>
-        <childnode refid="309" relation="usage">
-          <edgelabel>_node</edgelabel>
-        </childnode>
-      </node>
-      <node id="307">
-        <label>MdDox::Doxygen::ListQuery</label>
-        <link refid="a01595"/>
-        <childnode refid="308" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="310">
-        <label>bool</label>
-      </node>
-    </collaborationgraph>
-    <location file="Tools/Doxygen/ListQuery.h" line="62" column="1" bodyfile="Tools/Doxygen/ListQuery.h" bodystart="61" bodyend="79"/>
-    <listofallmembers>
-      <member refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>_node</name></member>
-      <member refid="a01415_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>empty</name></member>
-      <member refid="a01595_1abb29e9ce975d8ea0d2257f5bd60418fe" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>foreachListItem</name></member>
-      <member refid="a01415_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>isValid</name></member>
-      <member refid="a01595_1a5ebc3b1f15a432dad5a0b06cbc504a81" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>ListQuery</name></member>
-      <member refid="a01595_1a39c13e8a28ff2be830920df462408716" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>ListQuery</name></member>
-      <member refid="a01595_1acb876cd470200a9bd33c51e540d913be" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>ListQuery</name></member>
-      <member refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>node</name></member>
-      <member refid="a01415_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>Query</name></member>
-      <member refid="a01415_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>Query</name></member>
-      <member refid="a01415_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>reset</name></member>
-      <member refid="a01415_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>sort</name></member>
-      <member refid="a01415_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>text</name></member>
-      <member refid="a01595_1ac46bf25f821f5e934a5d7435ed39e9f6" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ListQuery</scope><name>visit</name></member>
-    </listofallmembers>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DoxMemberKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DoxVirtualKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DoxProtectionKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DoxBool.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DoxRefQualifierKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DoxAccessor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Visitors</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36" refid="a02463" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02463" kindref="compound">MemberDefQueryVisitor</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="a02463_1a59ff64c01154536ffb1f4cd7e0635434" kindref="member">~MemberDefQueryVisitor</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="a02463_1a517e31a3b398865139ac319704fc1636" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a517e31a3b398865139ac319704fc1636" kindref="member" tooltip="Callback for every _text_node. ">visitedText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="49" refid="a02463_1a2dc11969cc7b3596edb064093a472c23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a2dc11969cc7b3596edb064093a472c23" kindref="member" tooltip="Called when the element reimplements is found. ">visitedReImplements</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02563" kindref="compound" tooltip="Implements the reimplementType scaffolding. ">ReimplementQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="54" refid="a02463_1ad2c08e03b561365b25155545137c506d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1ad2c08e03b561365b25155545137c506d" kindref="member" tooltip="Called when the element reimplementedby is found. ">visitedReImplementedBy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02563" kindref="compound" tooltip="Implements the reimplementType scaffolding. ">ReimplementQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="59" refid="a02463_1a10d681be509de10feeed51f5679f9bd1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a10d681be509de10feeed51f5679f9bd1" kindref="member" tooltip="Called when the element param is found. ">visitedParameter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02523" kindref="compound" tooltip="Implements the paramType scaffolding. ">ParamQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="64" refid="a02463_1a1645689701abd5f6e6f253bd19174117" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a1645689701abd5f6e6f253bd19174117" kindref="member" tooltip="Called when the element enumvalue is found. ">visitedEnumValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02303" kindref="compound" tooltip="Implements the enumvalueType scaffolding. ">EnumValueQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="69" refid="a02463_1a8fa5a0682abee9c29053fdd5578a9559" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a8fa5a0682abee9c29053fdd5578a9559" kindref="member" tooltip="Called when the element references is found. ">visitedReferences</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02551" kindref="compound" tooltip="Implements the referenceType scaffolding. ">ReferenceQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="74" refid="a02463_1aef4eb183f509d685b9a7b4958603fce3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1aef4eb183f509d685b9a7b4958603fce3" kindref="member" tooltip="Called when the element referencedby is found. ">visitedReferencedBy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02551" kindref="compound" tooltip="Implements the referenceType scaffolding. ">ReferenceQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="79" refid="a02463_1acac770d1f242c13069d46ded92d8599b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1acac770d1f242c13069d46ded92d8599b" kindref="member" tooltip="Called when the element templateparamlist is found. ">visitedTemplateParamList</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02639" kindref="compound" tooltip="Implements the templateparamlistType scaffolding. ">TemplateParamListQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="84" refid="a02463_1a5b18881ca1b21e683c9918d8939efda1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a5b18881ca1b21e683c9918d8939efda1" kindref="member" tooltip="Called when the element type is found. ">visitedType</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="89" refid="a02463_1aa83c5a26f31c38a7702473d9d5280045" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1aa83c5a26f31c38a7702473d9d5280045" kindref="member" tooltip="Called when the element initializer is found. ">visitedInitializer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="94" refid="a02463_1a39a2568b896da4f5e6c8a23f5beffc6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a39a2568b896da4f5e6c8a23f5beffc6f" kindref="member" tooltip="Called when the element exceptions is found. ">visitedExceptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="99" refid="a02463_1a8d74a0a375c2a1e1b6adc13d4d535c84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a8d74a0a375c2a1e1b6adc13d4d535c84" kindref="member" tooltip="Called when the element briefdescription is found. ">visitedBriefDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="104" refid="a02463_1a3908192abe6af7c2dd845d0e1eadb28e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a3908192abe6af7c2dd845d0e1eadb28e" kindref="member" tooltip="Called when the element detaileddescription is found. ">visitedDetailedDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="109" refid="a02463_1a9b91ad481178b68369d47dafa0c9f7b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a9b91ad481178b68369d47dafa0c9f7b5" kindref="member" tooltip="Called when the element inbodydescription is found. ">visitedInBodyDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="114" refid="a02463_1a310fd141c0e63196edd178b531c5ff91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a310fd141c0e63196edd178b531c5ff91" kindref="member" tooltip="Called when the element location is found. ">visitedLocation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02451" kindref="compound" tooltip="Implements the locationType scaffolding. ">LocationQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="119" refid="a02463_1af6f5e3e2685e7770fe1d2020d6078088" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1af6f5e3e2685e7770fe1d2020d6078088" kindref="member" tooltip="Called when the element definition is found. ">visitedDefinition</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/>{}</highlight></codeline>
+<codeline lineno="124" refid="a02463_1a006132878ac6bd8e7068b9f22c32213c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a006132878ac6bd8e7068b9f22c32213c" kindref="member" tooltip="Called when the element argsstring is found. ">visitedArgsString</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/>{}</highlight></codeline>
+<codeline lineno="129" refid="a02463_1a31129dca7adde74aa4c7a148d2894c22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a31129dca7adde74aa4c7a148d2894c22" kindref="member" tooltip="Called when the element name is found. ">visitedName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/>{}</highlight></codeline>
+<codeline lineno="134" refid="a02463_1a2d2296a52a26af00d2b5947f001baefa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02463_1a2d2296a52a26af00d2b5947f001baefa" kindref="member" tooltip="Called when the element write is found. ">visitedWrite</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/>{}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="207" refid="a02467" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02467" kindref="compound" tooltip="Implements the memberdefType scaffolding. ">MemberDefQuery</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02267" kindref="compound">Query</ref></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02467_1ac302b2c89ef52bd771527d01b4f3bcf9" kindref="member">MemberDefQuery</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02467_1ac302b2c89ef52bd771527d01b4f3bcf9" kindref="member">MemberDefQuery</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02467" kindref="compound" tooltip="Implements the memberdefType scaffolding. ">MemberDefQuery</ref>&amp;<sp/>other)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="a02467_1ac0b41e28049aa762cce0ede5a8fa6433" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="a02467_1ac0b41e28049aa762cce0ede5a8fa6433" kindref="member">MemberDefQuery</ref>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/><ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02267" kindref="compound">Query</ref>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1a5f35691bd798dd06bb3344544bd83a69" kindref="member">visit</ref>(<ref refid="a02463" kindref="compound">Visitors::MemberDefQueryVisitor</ref><sp/>*)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1aedc96eda42c642fe82886908216d10db" kindref="member" tooltip="Provides access to the static element. ">getStatic</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">DoxMemberKindEnum</ref><sp/><ref refid="a02467_1ac68cf32ca18b91aa10c6cd998eff35c9" kindref="member" tooltip="Provides access to the kind element. ">getKind</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1afdf3d79363dfc1a234dca71369be1134" kindref="member" tooltip="Provides access to the add element. ">getAdd</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1abc9f6ddce57d11e7c30831058b9ca5d0" kindref="member" tooltip="Provides access to the inline element. ">getInline</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1aa9c8edf5326401b9258bdf663bdd6bbe" kindref="member" tooltip="Provides access to the const element. ">getConst</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1adadfcc04a080e0c820d68d73c2e51714" kindref="member">DoxProtectionKindEnum</ref><sp/><ref refid="a02467_1a75f1fac0102b576635dd2e9168cd4ea3" kindref="member" tooltip="Provides access to the prot element. ">getProt</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a872820a95ac0719c7f0ecd4f94169cc6" kindref="member" tooltip="Provides access to the contrained element. ">getContrained</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a2d0defe73aa325f7cb3ac7666f0d29a8" kindref="member">DoxAccessorEnum</ref><sp/><ref refid="a02467_1ab9e06a723b1a48957d10c2ed9cc5b34b" kindref="member" tooltip="Provides access to the accessor element. ">getAccessor</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1ab4707557f8e1755a6d1db91ec3250c47" kindref="member" tooltip="Provides access to the strong element. ">getStrong</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a8ad7c5d9f108a0c4beec1a0df2906a70" kindref="member" tooltip="Provides access to the optional element. ">getOptional</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1ae486e1831f804fc195d86549036f504d" kindref="member">DoxRefQualifierKindEnum</ref><sp/><ref refid="a02467_1af100088b8f1867617336eff263e2da42" kindref="member" tooltip="Provides access to the refqual element. ">getRefQual</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a873d441075d1f897724c12bac2d432da" kindref="member" tooltip="Provides access to the maybeambiguous element. ">getMayBeAmbiguous</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a82a46d887ad13a489346a02dfd64bd57" kindref="member" tooltip="Provides access to the explicit element. ">getExplicit</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a7802d9f578bf7a12515d6bbf87b807ba" kindref="member">DoxVirtualKindEnum</ref><sp/><ref refid="a02467_1a92102b32b9a2b92eb52100805e2062dd" kindref="member" tooltip="Provides access to the virt element. ">getVirt</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a69f292b5ae68f7528d7cee0315a0e4c6" kindref="member" tooltip="Provides access to the volatile element. ">getVolatile</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1ab4e1aa07a3b06cc73ef1d56fa7908733" kindref="member" tooltip="Provides access to the gettable element. ">getGetTable</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1ae6f447f0d3efd646036df6e8d1792477" kindref="member" tooltip="Provides access to the mutable element. ">getMutable</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1aef6c32a20ff8683b1bf898badea5eea4" kindref="member" tooltip="Provides access to the readable element. ">getReadable</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a77040d9d161ed009287a3d273e09dbcc" kindref="member" tooltip="Provides access to the writable element. ">getWritable</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a173776ef112d810e738cb50b97101f22" kindref="member" tooltip="Provides access to the initonly element. ">getInitOnly</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1aa4a790c6c914a4c3e4226ab036db044d" kindref="member" tooltip="Provides access to the maybevoid element. ">getMaybeVoid</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a7c7ce0c6bebf1fc268b3ec33c2f7c123" kindref="member" tooltip="Provides access to the settable element. ">getSetTable</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1af7e49bdd18e2dad023b80728856d556e" kindref="member" tooltip="Provides access to the final element. ">getFinal</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a20f0098891aa413505b8b9c571d3ac34" kindref="member" tooltip="Provides access to the sealed element. ">getSealed</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1abcad5a811c68b9ab0b2880a83362fbf6" kindref="member" tooltip="Provides access to the new element. ">getNew</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a03ad8f9448ddf4b04425293fa37e5fb9" kindref="member" tooltip="Provides access to the remove element. ">getRemove</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1aec1d6b4a3e902ff3a73b131ae811b5f8" kindref="member" tooltip="Provides access to the raise element. ">getRaise</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a12c28b4c55b0c19c19aca90533ee1b23" kindref="member" tooltip="Provides access to the required element. ">getRequired</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1aa512a80354d614085090e082d5f1b950" kindref="member" tooltip="Provides access to the attribute element. ">getAttribute</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"></highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a26802b1297d29f9c75db8fae83e83874" kindref="member" tooltip="Provides access to the property element. ">getProperty</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"></highlight></codeline>
+<codeline lineno="434"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a6d2b56d2134b1eb7f675f79940908d17" kindref="member" tooltip="Provides access to the readonly element. ">getReadonly</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"></highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a5eb34cb488c9a3d8f5a640eb80f83f26" kindref="member" tooltip="Provides access to the bound element. ">getBound</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"></highlight></codeline>
+<codeline lineno="448"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a2ae578a8311803345c805f07b7b5aa4f" kindref="member" tooltip="Provides access to the removable element. ">getRemovable</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight></codeline>
+<codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a6d4055ef46c6cb5dfc23a69e9802697c" kindref="member" tooltip="Provides access to the transient element. ">getTransient</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"></highlight></codeline>
+<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1a319f78fc4e81027b9d4b414a38475273" kindref="member">DoxBoolEnum</ref><sp/><ref refid="a02467_1a2ba1e6f030398c82d4364fe0fa8ecaf8" kindref="member" tooltip="Provides access to the maybedefault element. ">getMayBeDefault</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"></highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02467_1a5ea29c981968fa624fe6a04534084ba3" kindref="member" tooltip="Provides access to the id attribute. ">getId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"></highlight></codeline>
+<codeline lineno="477"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02467_1ae1a4925e507ac7b00f3855d757091a9f" kindref="member" tooltip="Provides access to the definition tag&amp;#39;s inner text. ">getDefinition</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"></highlight></codeline>
+<codeline lineno="484"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02467_1a86789de1f95aca0415e5ea1fe8078f80" kindref="member" tooltip="Provides access to the argsstring tag&amp;#39;s inner text. ">getArgsString</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"></highlight></codeline>
+<codeline lineno="491"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02467_1ab714a02390a2d9c9896c78f931800569" kindref="member" tooltip="Provides access to the name tag&amp;#39;s inner text. ">getName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"></highlight></codeline>
+<codeline lineno="498"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02467_1a94743d50b42047f1e9d1a3c3131eb7a4" kindref="member" tooltip="Provides access to the write tag&amp;#39;s inner text. ">getWrite</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"></highlight></codeline>
+<codeline lineno="503"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1a4fdf8d52a83eb3794f8f9b0a0a0fd4f5" kindref="member" tooltip="Provides access to the templateparamlist attribute. ">getTemplateParamList</ref>(<ref refid="a02639" kindref="compound" tooltip="Implements the templateparamlistType scaffolding. ">TemplateParamListQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"></highlight></codeline>
+<codeline lineno="508"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02639" kindref="compound" tooltip="Implements the templateparamlistType scaffolding. ">TemplateParamListQuery</ref><sp/><ref refid="a02467_1a4fdf8d52a83eb3794f8f9b0a0a0fd4f5" kindref="member" tooltip="Provides access to the templateparamlist attribute. ">getTemplateParamList</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"></highlight></codeline>
+<codeline lineno="513"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1af2003656982e3c23f8cb413d97190650" kindref="member" tooltip="Provides access to the type attribute. ">getType</ref>(<ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="514"><highlight class="normal"></highlight></codeline>
+<codeline lineno="518"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref><sp/><ref refid="a02467_1af2003656982e3c23f8cb413d97190650" kindref="member" tooltip="Provides access to the type attribute. ">getType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"></highlight></codeline>
+<codeline lineno="523"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1ab913e0540334b966f660a41ad6aabc94" kindref="member" tooltip="Provides access to the initializer attribute. ">getInitializer</ref>(<ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="524"><highlight class="normal"></highlight></codeline>
+<codeline lineno="528"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref><sp/><ref refid="a02467_1ab913e0540334b966f660a41ad6aabc94" kindref="member" tooltip="Provides access to the initializer attribute. ">getInitializer</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="529"><highlight class="normal"></highlight></codeline>
+<codeline lineno="533"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1a9683d3ff1a714a1970fca30d86ab4bd4" kindref="member" tooltip="Provides access to the exceptions attribute. ">getExceptions</ref>(<ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"></highlight></codeline>
+<codeline lineno="538"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02411" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref><sp/><ref refid="a02467_1a9683d3ff1a714a1970fca30d86ab4bd4" kindref="member" tooltip="Provides access to the exceptions attribute. ">getExceptions</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="539"><highlight class="normal"></highlight></codeline>
+<codeline lineno="543"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1aa32005f70f074c0b81e31d3d252272bc" kindref="member" tooltip="Provides access to the briefdescription attribute. ">getBriefDescription</ref>(<ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="544"><highlight class="normal"></highlight></codeline>
+<codeline lineno="548"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref><sp/><ref refid="a02467_1aa32005f70f074c0b81e31d3d252272bc" kindref="member" tooltip="Provides access to the briefdescription attribute. ">getBriefDescription</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="549"><highlight class="normal"></highlight></codeline>
+<codeline lineno="553"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1ab0e058b6b5725db719a2c46fd6ac9348" kindref="member" tooltip="Provides access to the detaileddescription attribute. ">getDetailedDescription</ref>(<ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="554"><highlight class="normal"></highlight></codeline>
+<codeline lineno="558"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref><sp/><ref refid="a02467_1ab0e058b6b5725db719a2c46fd6ac9348" kindref="member" tooltip="Provides access to the detaileddescription attribute. ">getDetailedDescription</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="559"><highlight class="normal"></highlight></codeline>
+<codeline lineno="563"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1ace81e9fb2df4e02fabe14142560a0cfe" kindref="member" tooltip="Provides access to the inbodydescription attribute. ">getInBodyDescription</ref>(<ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="564"><highlight class="normal"></highlight></codeline>
+<codeline lineno="568"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref><sp/><ref refid="a02467_1ace81e9fb2df4e02fabe14142560a0cfe" kindref="member" tooltip="Provides access to the inbodydescription attribute. ">getInBodyDescription</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="569"><highlight class="normal"></highlight></codeline>
+<codeline lineno="573"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1a4de2bddb5239a71f579f6a991ab6a460" kindref="member" tooltip="Provides access to the location attribute. ">getLocation</ref>(<ref refid="a02451" kindref="compound" tooltip="Implements the locationType scaffolding. ">LocationQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="574"><highlight class="normal"></highlight></codeline>
+<codeline lineno="578"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02451" kindref="compound" tooltip="Implements the locationType scaffolding. ">LocationQuery</ref><sp/><ref refid="a02467_1a4de2bddb5239a71f579f6a991ab6a460" kindref="member" tooltip="Provides access to the location attribute. ">getLocation</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="579"><highlight class="normal"></highlight></codeline>
+<codeline lineno="583"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1a356308aa94646ff869874bc9a96b8f1a" kindref="member" tooltip="Invokes the supplied callback on reimplements elements. ">foreachReImplements</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1a023abc93b94116f6140c122c5df97f62" kindref="member">ReimplementQueryFunction</ref>&amp;<sp/>invoke)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="584"><highlight class="normal"></highlight></codeline>
+<codeline lineno="588"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1a9095dd82d1cb8f1c43f6da91b746e9c1" kindref="member" tooltip="Invokes the supplied callback on reimplementedby elements. ">foreachReImplementedBy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1a023abc93b94116f6140c122c5df97f62" kindref="member">ReimplementQueryFunction</ref>&amp;<sp/>invoke)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="589"><highlight class="normal"></highlight></codeline>
+<codeline lineno="593"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1a25f270b30ad949e864d2d16209f63281" kindref="member" tooltip="Invokes the supplied callback on param elements. ">foreachParameter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1ae7dcf069d0dac0e3a20af5c13a924cac" kindref="member">ParamQueryFunction</ref>&amp;<sp/>invoke)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="594"><highlight class="normal"></highlight></codeline>
+<codeline lineno="598"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1aea4360a466d342573e4bfde836a0fd5e" kindref="member" tooltip="Invokes the supplied callback on enumvalue elements. ">foreachEnumValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1abdf791cd6e3263c121019567116609b6" kindref="member">EnumValueQueryFunction</ref>&amp;<sp/>invoke)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="599"><highlight class="normal"></highlight></codeline>
+<codeline lineno="603"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1a3eecf50028c8f30f75e9afc80947745c" kindref="member" tooltip="Invokes the supplied callback on references elements. ">foreachReferences</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1af3f8e0145ba622fad98cdf86534bc255" kindref="member">ReferenceQueryFunction</ref>&amp;<sp/>invoke)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="604"><highlight class="normal"></highlight></codeline>
+<codeline lineno="608"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02467_1a4bbb4dd7b031b95e90a0032ee04fcf92" kindref="member" tooltip="Invokes the supplied callback on referencedby elements. ">foreachReferencedBy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1af3f8e0145ba622fad98cdf86534bc255" kindref="member">ReferenceQueryFunction</ref>&amp;<sp/>invoke)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="609"><highlight class="normal"></highlight></codeline>
+<codeline lineno="610"><highlight class="normal"></highlight></codeline>
+<codeline lineno="611"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="612"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/MemberDefQuery.h"/>
   </compounddef>
 </doxygen>

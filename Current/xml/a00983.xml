@@ -1,115 +1,230 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="a00983" kind="file" language="C++">
-    <compoundname>Types.h</compoundname>
-    <includes local="no">cstdint</includes>
-    <includes refid="a00374" local="yes">Utils/String.h</includes>
-    <includedby refid="a00965" local="yes">Tools/GenApi/Group.h</includedby>
-    <includedby refid="a00947" local="yes">Tools/GenApi/Complex.h</includedby>
-    <includedby refid="a00956" local="yes">Tools/GenApi/Generator.cpp</includedby>
+    <compoundname>HtmlDocumentWriter.cpp</compoundname>
+    <includes refid="a00986" local="yes">HtmlDocumentWriter.h</includes>
+    <includes refid="a00980" local="yes">HtmlCommandWriter.h</includes>
+    <includes refid="a00974" local="yes">MdDoxTree/HashUtils.h</includes>
+    <includes refid="a00992" local="yes">MdDoxTree/IconSet.h</includes>
+    <includes refid="a01058" local="yes">MdDoxTree/ParagraphWriter.h</includes>
+    <includes refid="a01127" local="yes">MdDoxTree/SiteBuilder.h</includes>
+    <includes refid="a01079" local="yes">ReferenceIdentifiers.h</includes>
     <incdepgraph>
-      <node id="9472">
+      <node id="798">
+        <label>Utils/Console.h</label>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="792">
+        <label>functional</label>
+      </node>
+      <node id="784">
         <label>iomanip</label>
       </node>
-      <node id="9464">
-        <label>cstdint</label>
+      <node id="799">
+        <label>Utils/Path.h</label>
+        <childnode refid="777" relation="include">
+        </childnode>
       </node>
-      <node id="9469">
+      <node id="794">
+        <label>Utils/Exception.h</label>
+        <childnode refid="795" relation="include">
+        </childnode>
+        <childnode refid="796" relation="include">
+        </childnode>
+        <childnode refid="797" relation="include">
+        </childnode>
+        <childnode refid="798" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="774">
+        <label>HtmlDocumentWriter.h</label>
+        <childnode refid="775" relation="include">
+        </childnode>
+        <childnode refid="785" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="796">
+        <label>stdexcept</label>
+      </node>
+      <node id="781">
         <label>string</label>
       </node>
-      <node id="9467">
+      <node id="791">
+        <label>Doxygen.h</label>
+        <childnode refid="792" relation="include">
+        </childnode>
+        <childnode refid="782" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
+        <childnode refid="793" relation="include">
+        </childnode>
+        <childnode refid="794" relation="include">
+        </childnode>
+      </node>
+      <node id="795">
+        <label>exception</label>
+      </node>
+      <node id="779">
         <label>fstream</label>
       </node>
-      <node id="9463">
-        <label>Tools/GenApi/Types.h</label>
+      <node id="800">
+        <label>MdDoxTree/SiteBuilder.h</label>
+        <childnode refid="782" relation="include">
+        </childnode>
+        <childnode refid="801" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
+        </childnode>
+        <childnode refid="805" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="776">
+        <label>IconSet.h</label>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="793">
+        <label>Xml/Node.h</label>
+        <childnode refid="792" relation="include">
+        </childnode>
+        <childnode refid="782" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="775">
+        <label>MdDoxTree/DocumentWriter.h</label>
+        <childnode refid="776" relation="include">
+        </childnode>
+        <childnode refid="785" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="788">
+        <label>MdDoxTree/HashUtils.h</label>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="790">
+        <label>Doxygen/ParaQuery.h</label>
+        <childnode refid="791" relation="include">
+        </childnode>
+      </node>
+      <node id="802">
+        <label>Doxygen/DoxMemberKind.h</label>
+        <childnode refid="791" relation="include">
+        </childnode>
+      </node>
+      <node id="803">
+        <label>ReferenceIdentifiers.h</label>
+        <childnode refid="801" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="804" relation="include">
+        </childnode>
+      </node>
+      <node id="773">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
         <link refid="a00983"/>
-        <childnode refid="9464" relation="include">
+        <childnode refid="774" relation="include">
         </childnode>
-        <childnode refid="9465" relation="include">
+        <childnode refid="787" relation="include">
+        </childnode>
+        <childnode refid="788" relation="include">
+        </childnode>
+        <childnode refid="776" relation="include">
+        </childnode>
+        <childnode refid="789" relation="include">
+        </childnode>
+        <childnode refid="800" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
         </childnode>
       </node>
-      <node id="9465">
+      <node id="777">
         <label>Utils/String.h</label>
-        <childnode refid="9466" relation="include">
+        <childnode refid="778" relation="include">
         </childnode>
-        <childnode refid="9467" relation="include">
+        <childnode refid="779" relation="include">
         </childnode>
-        <childnode refid="9468" relation="include">
+        <childnode refid="780" relation="include">
         </childnode>
-        <childnode refid="9469" relation="include">
+        <childnode refid="781" relation="include">
         </childnode>
-        <childnode refid="9470" relation="include">
+        <childnode refid="782" relation="include">
         </childnode>
-        <childnode refid="9471" relation="include">
+        <childnode refid="783" relation="include">
         </childnode>
-        <childnode refid="9472" relation="include">
+        <childnode refid="784" relation="include">
         </childnode>
       </node>
-      <node id="9471">
+      <node id="789">
+        <label>MdDoxTree/ParagraphWriter.h</label>
+        <childnode refid="790" relation="include">
+        </childnode>
+        <childnode refid="799" relation="include">
+        </childnode>
+      </node>
+      <node id="783">
         <label>vector</label>
       </node>
-      <node id="9468">
+      <node id="797">
+        <label>utility</label>
+      </node>
+      <node id="780">
         <label>sstream</label>
       </node>
-      <node id="9466">
+      <node id="785">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="786" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="778">
         <label>deque</label>
       </node>
-      <node id="9470">
+      <node id="805">
+        <label>Utils/Config.h</label>
+        <childnode refid="777" relation="include">
+        </childnode>
+        <childnode refid="793" relation="include">
+        </childnode>
+      </node>
+      <node id="782">
         <label>unordered_map</label>
       </node>
+      <node id="787">
+        <label>HtmlCommandWriter.h</label>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="801">
+        <label>Doxygen/DoxCompoundKind.h</label>
+        <childnode refid="791" relation="include">
+        </childnode>
+      </node>
+      <node id="804">
+        <label>Reference.h</label>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="786">
+        <label>experimental/filesystem</label>
+      </node>
     </incdepgraph>
-    <invincdepgraph>
-      <node id="9477">
-        <label>Tools/GenApi/Generator.cpp</label>
-      </node>
-      <node id="9476">
-        <label>Tools/GenApi/Complex.cpp</label>
-      </node>
-      <node id="9473">
-        <label>Tools/GenApi/Types.h</label>
-        <link refid="a00983"/>
-        <childnode refid="9474" relation="include">
-        </childnode>
-        <childnode refid="9475" relation="include">
-        </childnode>
-        <childnode refid="9477" relation="include">
-        </childnode>
-      </node>
-      <node id="9475">
-        <label>Tools/GenApi/Complex.h</label>
-        <childnode refid="9476" relation="include">
-        </childnode>
-        <childnode refid="9477" relation="include">
-        </childnode>
-      </node>
-      <node id="9478">
-        <label>Tools/GenApi/Simple.h</label>
-        <childnode refid="9477" relation="include">
-        </childnode>
-        <childnode refid="9479" relation="include">
-        </childnode>
-      </node>
-      <node id="9479">
-        <label>Tools/GenApi/Simple.cpp</label>
-      </node>
-      <node id="9480">
-        <label>Tools/GenApi/Group.cpp</label>
-      </node>
-      <node id="9474">
-        <label>Tools/GenApi/Group.h</label>
-        <childnode refid="9475" relation="include">
-        </childnode>
-        <childnode refid="9478" relation="include">
-        </childnode>
-        <childnode refid="9480" relation="include">
-        </childnode>
-        <childnode refid="9479" relation="include">
-        </childnode>
-      </node>
-    </invincdepgraph>
-    <innerclass refid="a01879" prot="public">MdDox::GenApi::Attribute</innerclass>
-    <innerclass refid="a01875" prot="public">MdDox::GenApi::Element</innerclass>
-    <innernamespace refid="a00996">MdDox::GenApi</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -136,52 +251,375 @@
 <codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
 <codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
 <codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00996" kindref="compound" tooltip="GenApi is used to generate a static scaffolding library. ">MdDox::GenApi</ref></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="29" refid="a00996_1a795d28254d9810ee27900468f5db4d1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="a00996_1a795d28254d9810ee27900468f5db4d1e" kindref="member">ElementType</ref></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="31" refid="a00996_1a795d28254d9810ee27900468f5db4d1eadb769fae5dda55cee9c50e78b597f26f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00996_1a795d28254d9810ee27900468f5db4d1eadb769fae5dda55cee9c50e78b597f26f" kindref="member">BASE_TYPE</ref><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,</highlight></codeline>
-<codeline lineno="32" refid="a00996_1a795d28254d9810ee27900468f5db4d1eae3ac557e11e00b7ecfb08c1219f08af2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00996_1a795d28254d9810ee27900468f5db4d1eae3ac557e11e00b7ecfb08c1219f08af2" kindref="member">SIMPLE_TYPE</ref><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
-<codeline lineno="33" refid="a00996_1a795d28254d9810ee27900468f5db4d1ead4dadc826e1db27d02e1966adf64ead6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00996_1a795d28254d9810ee27900468f5db4d1ead4dadc826e1db27d02e1966adf64ead6" kindref="member">COMPLEX_TYPE</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,</highlight></codeline>
-<codeline lineno="34" refid="a00996_1a795d28254d9810ee27900468f5db4d1ea631e151d8057cb2c04544ba67c9bdf59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00996_1a795d28254d9810ee27900468f5db4d1ea631e151d8057cb2c04544ba67c9bdf59" kindref="member">GROUP_TYPE</ref><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;HtmlDocumentWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;HtmlCommandWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/HashUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/IconSet.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/ParagraphWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/SiteBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ReferenceIdentifiers.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01907_1a43d31bcaf97f0816559d3c7bccee0db9" kindref="member">HtmlDocumentWriter::HtmlDocumentWriter</ref>()<sp/>:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_sectionDepth(1)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="a01875" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="a01875" kindref="compound">Element</ref></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="39" refid="a01875_1ab211980964d03c28db3b7fae00ddb51a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/><sp/><ref refid="a01875_1ab211980964d03c28db3b7fae00ddb51a" kindref="member">type</ref>;</highlight></codeline>
-<codeline lineno="40" refid="a01875_1a8df80b3a68a2bd42873c91e84b8cf808" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="a01875_1a8df80b3a68a2bd42873c91e84b8cf808" kindref="member">minOccurs</ref>;</highlight></codeline>
-<codeline lineno="41" refid="a01875_1a331e957e73e4a7f248305a565a44b300" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="a01875_1a331e957e73e4a7f248305a565a44b300" kindref="member">maxOccurs</ref>;</highlight></codeline>
-<codeline lineno="42" refid="a01875_1a46982632722937610d685465b0d929ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><ref refid="a01875_1a46982632722937610d685465b0d929ac" kindref="member">searchTerm</ref>;</highlight></codeline>
-<codeline lineno="43" refid="a01875_1a8150789bc417d7f707902a76584a7170" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><ref refid="a01875_1a8150789bc417d7f707902a76584a7170" kindref="member">genType</ref>;</highlight></codeline>
-<codeline lineno="44" refid="a01875_1ac9f82d3050795fbd72514a8b42696874" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><sp/><sp/><ref refid="a01875_1ac9f82d3050795fbd72514a8b42696874" kindref="member">genName</ref>;</highlight></codeline>
-<codeline lineno="45" refid="a01875_1a3897087540c5626164ef8f16da74018f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int64_t<sp/><sp/><ref refid="a01875_1a3897087540c5626164ef8f16da74018f" kindref="member">typeCode</ref>;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="47" refid="a01875_1a867a4db696362671994a8436d25cdf10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01875_1a867a4db696362671994a8436d25cdf10" kindref="member">isRequired</ref>;</highlight></codeline>
-<codeline lineno="48" refid="a01875_1a63dbdef548c0434a5bda7dbe9ef72027" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01875_1a63dbdef548c0434a5bda7dbe9ef72027" kindref="member">isUnbounded</ref>;</highlight></codeline>
-<codeline lineno="49" refid="a01875_1ab1ecd0902df1444e42939b2b32ca3c43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01875_1ab1ecd0902df1444e42939b2b32ca3c43" kindref="member">isSingle</ref>;</highlight></codeline>
-<codeline lineno="50" refid="a01875_1ac64b747912c6e887c357414cf9cfd68c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01875_1ac64b747912c6e887c357414cf9cfd68c" kindref="member">isValid</ref>;</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="a01875_1ac358ed3ea23cf478037a2bbfd67cd305" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01875_1ac358ed3ea23cf478037a2bbfd67cd305" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01875" kindref="compound">Element</ref>&amp;<sp/>el)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="53"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01875_1a3897087540c5626164ef8f16da74018f" kindref="member">typeCode</ref><sp/>==<sp/>el.<ref refid="a01875_1a3897087540c5626164ef8f16da74018f" kindref="member">typeCode</ref>;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="a01879" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="a01255" kindref="compound" tooltip="Provides a key-value representation of an XML attribute. ">Attribute</ref></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="60" refid="a01879_1a9d2605079d65d800705c0f17e27b3474" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="a01879_1a9d2605079d65d800705c0f17e27b3474" kindref="member">genType</ref>;</highlight></codeline>
-<codeline lineno="61" refid="a01879_1ad574d36f4222db87ee9bcc8c42bea2e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="a01879_1ad574d36f4222db87ee9bcc8c42bea2e4" kindref="member">genName</ref>;</highlight></codeline>
-<codeline lineno="62" refid="a01879_1a431a9a458518616849b8bd0872f251ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="a01879_1a431a9a458518616849b8bd0872f251ba" kindref="member">searchTerm</ref>;</highlight></codeline>
-<codeline lineno="63" refid="a01879_1aa50e6b42239a8911cfc926fa759e8b5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="a01879_1aa50e6b42239a8911cfc926fa759e8b5d" kindref="member">isRequired</ref>;</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::DoxApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01907_1ae0dc86a7326691195ed5f55597eaf5b7" kindref="member">HtmlDocumentWriter::~HtmlDocumentWriter</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a5daf0d8d14c50ccca660c05968b993b3" kindref="member" tooltip="Implementations should write a common document header. ">HtmlDocumentWriter::beginDocument</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SiteBuilder&amp;<sp/>builder<sp/>=<sp/><ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>style<sp/>=<sp/>builder.styleSheet.empty()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;style.css&quot;</highlight><highlight class="normal"><sp/>:<sp/>builder.styleSheet;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>R</highlight><highlight class="stringliteral">&quot;(&lt;!DOCTYPE<sp/>html&gt;)&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="46"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>R</highlight><highlight class="stringliteral">&quot;(&lt;html&gt;)&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;head&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>R</highlight><highlight class="stringliteral">&quot;(&lt;meta<sp/>http-equiv=&quot;Content-Type&quot;<sp/>content=&quot;text/xhtml;charset=UTF-8&quot;/&gt;)&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>R</highlight><highlight class="stringliteral">&quot;(&lt;meta<sp/>http-equiv=&quot;X-UA-Compatible&quot;<sp/>content=&quot;IE=9&quot;<sp/>/&gt;)&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>R</highlight><highlight class="stringliteral">&quot;(&lt;meta<sp/>http-equiv=&quot;Content-Type&quot;<sp/>content=&quot;text/xhtml;charset=UTF-8&quot;/&gt;)&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="51"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>R</highlight><highlight class="stringliteral">&quot;(&lt;meta<sp/>name=&quot;robots&quot;<sp/>content=&quot;noindex&quot;<sp/>/&gt;)&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="52"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>R</highlight><highlight class="stringliteral">&quot;(&lt;meta<sp/>name=&quot;generator&quot;<sp/>content=&quot;MdDox&quot;/&gt;)&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="53"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>R</highlight><highlight class="stringliteral">&quot;(&lt;meta<sp/>name=&quot;viewport&quot;<sp/>content=&quot;width=device-width,<sp/>initial-scale=1&quot;/&gt;)&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="54"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;link<sp/>href=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>style<sp/>&lt;&lt;<sp/>R</highlight><highlight class="stringliteral">&quot;(&quot;<sp/>rel=&quot;stylesheet&quot;<sp/>type=&quot;text/css&quot;/&gt;)&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="55"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;title&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>title<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/title&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/head&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;body&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1afb4e833a61ac2c31943e0969ec8958f0" kindref="member">Html::beginDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;document&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1afb4e833a61ac2c31943e0969ec8958f0" kindref="member">Html::beginDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;document-content&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/><ref refid="a01839_1a115b0cf102c16116e020830eb0430b89" kindref="member" tooltip="Cleans the supplied title. ">HashUtils::cleanTitle</ref>(title));</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">Html::heading</ref>(output,<sp/>1,<sp/>title);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" kindref="member" tooltip="Implementations should write a common document header. ">HtmlDocumentWriter::endDocument</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>docSource)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>().showDebug<sp/>&amp;&amp;<sp/>!docSource.empty())</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PathUtil<sp/>util(docSource);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">Html::heading</ref>(output,<sp/>3,<sp/></highlight><highlight class="stringliteral">&quot;Debug<sp/>links&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0f247c1b052c8d5feaa85fae78d6de29" kindref="member">Html::beginBlockQuote</ref>(output);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1abcae1e0614a73145390d5f4d36076b76" kindref="member">Html::embedContent</ref>(output,<sp/><ref refid="a01911_1a827443ad25f19890725b2ec9f2a82bdd" kindref="member" tooltip="Provides access to the icon associated with the supplied id. ">IconSet::fileName</ref>(<ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a3076bf86bac52b5d81fc8f87cbefd178" kindref="member">ICO_DEBUG</ref>));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1aa8da87be8ae84652cdfee4a024530671" kindref="member">Html::inlineText</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>following<sp/>sources<sp/>were<sp/>used<sp/>to<sp/>generate<sp/>this<sp/>page.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a4e67bdb93c2e1c1121a2ee33f83f5de2" kindref="member" tooltip="Writes a break to output stream. ">Html::lineBreak</ref>(output);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1afd4a1a662954c5f7c3a6fa028727a0fe" kindref="member">Html::embedLinkContentPoint</ref>(output,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01911_1a827443ad25f19890725b2ec9f2a82bdd" kindref="member" tooltip="Provides access to the icon associated with the supplied id. ">IconSet::fileName</ref>(<ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9ab398f8efe94633a601de81f999994ec2" kindref="member">ICO_CODE_BEHIND</ref>),</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(</highlight><highlight class="stringliteral">&quot;../xml/&quot;</highlight><highlight class="normal">,<sp/>util.stem(),<sp/></highlight><highlight class="stringliteral">&quot;.xml#L1&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>util.fileName());</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a4e67bdb93c2e1c1121a2ee33f83f5de2" kindref="member" tooltip="Writes a break to output stream. ">Html::lineBreak</ref>(output);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1afd4a1a662954c5f7c3a6fa028727a0fe" kindref="member">Html::embedLinkContentPoint</ref>(output,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01911_1a827443ad25f19890725b2ec9f2a82bdd" kindref="member" tooltip="Provides access to the icon associated with the supplied id. ">IconSet::fileName</ref>(<ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9ab398f8efe94633a601de81f999994ec2" kindref="member">ICO_CODE_BEHIND</ref>),</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;../xml/compound.xsd#L1&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;compound.xsd&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0be46add43352dfd05116b59a296cfb2" kindref="member">Html::endBlockQuote</ref>(output);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0824649e36363745a69b9d152ed94b04" kindref="member">Html::endDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;document-content&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0824649e36363745a69b9d152ed94b04" kindref="member">Html::endDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;document&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/body&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/html&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a393170e139ed9b833f12f7aceb6b7e2b" kindref="member" tooltip="Implementations should start a subsection of the body. ">HtmlDocumentWriter::addSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/><ref refid="a01839_1a115b0cf102c16116e020830eb0430b89" kindref="member" tooltip="Cleans the supplied title. ">HashUtils::cleanTitle</ref>(title));</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">Html::heading</ref>(output,<sp/>depth,<sp/>title);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a328cad37df7b7649bd03f468857388be" kindref="member">HtmlDocumentWriter::writeSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="102"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/><ref refid="a01839_1a115b0cf102c16116e020830eb0430b89" kindref="member" tooltip="Cleans the supplied title. ">HashUtils::cleanTitle</ref>(title));</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">Html::heading</ref>(output,<sp/>_sectionDepth,<sp/>title);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ac71887b572b72ef944e1789a5c6a91d6" kindref="member" tooltip="Implementations should start a subsection of the body. ">HtmlDocumentWriter::beginSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(depth<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_sectionDepth++;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_sectionDepth<sp/>=<sp/>depth;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_sectionDepth<sp/>&gt;<sp/>6)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_sectionDepth<sp/>=<sp/>6;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01907_1a328cad37df7b7649bd03f468857388be" kindref="member">writeSection</ref>(output,<sp/>title);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1abfccb6378e3f2b6e6ff47401e2db0e93" kindref="member" tooltip="Implementations should end a subsection. ">HtmlDocumentWriter::endSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>--_sectionDepth;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_sectionDepth<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_sectionDepth<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1acd0a32131263bd726a8d4b544ccfa9be" kindref="member" tooltip="Implementations should start sub title bar of a section. ">HtmlDocumentWriter::beginSectionBar</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1afb4e833a61ac2c31943e0969ec8958f0" kindref="member">Html::beginDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;section-bar&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a44bbf3cf9b95c103353d7efb1c909830" kindref="member" tooltip="Implementations should end sub title bar of a section. ">HtmlDocumentWriter::endSectionBar</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0824649e36363745a69b9d152ed94b04" kindref="member">Html::endDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;section-bar&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a36c520c92eb493ab20ad76a541b84eb6" kindref="member" tooltip="Implementations should start a method block. ">HtmlDocumentWriter::beginMethod</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_sectionDepth++;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">Html::heading</ref>(output,<sp/>_sectionDepth,<sp/>title);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a43a804f8734dac76729b9f72b544482d" kindref="member" tooltip="Implementations should end a method block. ">HtmlDocumentWriter::endMethod</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01907_1abfccb6378e3f2b6e6ff47401e2db0e93" kindref="member" tooltip="Implementations should end a subsection. ">endSection</ref>(output);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ae6014a836ebe94925abf19f7474155f2" kindref="member" tooltip="Implementations should start a list block. ">HtmlDocumentWriter::beginList</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>header)</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!header.empty())</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1afb4e833a61ac2c31943e0969ec8958f0" kindref="member">Html::beginDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;list-heading&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0807ba879dc0fa7afc1ae9a3b4710b38" kindref="member">Html::boldText</ref>(output,<sp/>header);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0824649e36363745a69b9d152ed94b04" kindref="member">Html::endDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;list-heading&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1ab5ae7e558daef6efcb42857bcda20d53" kindref="member">Html::beginOrderedList</ref>(output);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1af75a89e0658a7320a555c3a13828b2cd" kindref="member" tooltip="Implementations should end a list block. ">HtmlDocumentWriter::endList</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a780153861168d285a1be766dd1f7ddf3" kindref="member">Html::endOrderedList</ref>(output);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a2e8740d2526db06211f9958291bf0206" kindref="member" tooltip="Implementations should start a paragraph block. ">HtmlDocumentWriter::beginParagraph</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a9dd8f65f0793b72ab773f37d8443d69b" kindref="member">Html::beginParagraph</ref>(output);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a59702d6a4aded0cac48500f45a1be0bc" kindref="member" tooltip="Implementations should end a paragraph block. ">HtmlDocumentWriter::endParagraph</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a970cd0db4358cb9c2601595c454479e1" kindref="member">Html::endParagraph</ref>(output);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a7670b12958509c16853688989e990b78" kindref="member" tooltip="Implementations should start a block-quote block. ">HtmlDocumentWriter::beginBlockQuote</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0f247c1b052c8d5feaa85fae78d6de29" kindref="member">Html::beginBlockQuote</ref>(output);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1aace4d5d82afd9c97c8326a46e7fb7cef" kindref="member" tooltip="Implementations should end a block-quote block. ">HtmlDocumentWriter::endBlockQuote</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0be46add43352dfd05116b59a296cfb2" kindref="member">Html::endBlockQuote</ref>(output);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a836317c9151472a9e66508b664b3e49f" kindref="member" tooltip="Implementations should start a list item block. ">HtmlDocumentWriter::beginListItem</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a6bf5c13eb272af099e69e31a54349fb9" kindref="member">Html::beginListItem</ref>(output);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a80c6372146b10c286b77a001d93967e4" kindref="member" tooltip="Implementations should start a list item block. ">HtmlDocumentWriter::endListItem</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1aa69008ed495f3e69076213dd05b992d0" kindref="member">Html::endListItem</ref>(output);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ad9995cb31fc3e5a9ef4fe4983d93446f" kindref="member" tooltip="Implementations should write a paragraph. ">HtmlDocumentWriter::paragraph</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1aa4a0de5cb5e7eb2760f72184be3a1320" kindref="member">Html::paragraph</ref>(output,<sp/>text);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a398b1a19231cc08d405381e4424d2d86" kindref="member" tooltip="Implementations should write fragment of plain-text. ">HtmlDocumentWriter::inlineText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1aa8da87be8ae84652cdfee4a024530671" kindref="member">Html::inlineText</ref>(output,<sp/>text);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1aa539467d2a680bb2c304af1e6892d1d8" kindref="member" tooltip="Implementations should write a bold block of text. ">HtmlDocumentWriter::boldText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0807ba879dc0fa7afc1ae9a3b4710b38" kindref="member">Html::boldText</ref>(output,<sp/>text);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a05d9df064ebbf4524c3c3260bca61a2c" kindref="member" tooltip="Implementations should write an italic block of text. ">HtmlDocumentWriter::italicText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a96ea910a055a54cf23b9819ebfefa604" kindref="member">Html::italicText</ref>(output,<sp/>text);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ac71eba6fffa8e88ac74a08d69c92d792" kindref="member" tooltip="Implementations should write a typewriter block of text. ">HtmlDocumentWriter::typewriterText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a2bb4faee66304448a12583437d97d66e" kindref="member">Html::typewriterText</ref>(output,<sp/>text);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a5e927215716d8ec55d63e67c3cf1cd42" kindref="member" tooltip="Implementations should write a code block. ">HtmlDocumentWriter::code</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>type)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a454baa3642a29697ccd7604911131fb9" kindref="member">Html::code</ref>(output,<sp/>text);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1aac4c21f67539c6e9bbdb5df04cc7a6ad" kindref="member" tooltip="Implementations should write an image block. ">HtmlDocumentWriter::image</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>src)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1ac3486e77d313a9efcade4627b8e4602e" kindref="member">Html::embedImage</ref>(output,<sp/>src);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a68c79d1b42c171eabb11deee197d0788" kindref="member" tooltip="Implementations should write a list item block with a link to the title. ">HtmlDocumentWriter::listItem</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>href)</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>tVal;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a129eedfc9277ca8acab4fe29cf3dcdea" kindref="member" tooltip="Removes any white space characters from the start and end of the string. ">StringUtils::trimWhiteSpace</ref>(tVal,<sp/>title);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!href.empty())</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>link;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a7c366ea2942779a96722181c617fbe35" kindref="member">StringUtils::replaceAll</ref>(link,<sp/>href,<sp/></highlight><highlight class="stringliteral">&quot;\\&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a6bf5c13eb272af099e69e31a54349fb9" kindref="member">Html::beginListItem</ref>(output);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1acf2ca4cce2f6a82e53465809c87bef51" kindref="member">Html::beginLink</ref>(output,<sp/>link);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>tVal;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1ae00b2ad365f221d267c183ac53f572a7" kindref="member">Html::endLink</ref>(output);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1aa69008ed495f3e69076213dd05b992d0" kindref="member">Html::endListItem</ref>(output);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a6bf5c13eb272af099e69e31a54349fb9" kindref="member">Html::beginListItem</ref>(output);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>tVal;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1aa69008ed495f3e69076213dd05b992d0" kindref="member">Html::endListItem</ref>(output);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1adf6ad311b4df2e7455824ddb62a09836" kindref="member" tooltip="Implementations should write a list item block with an icon and link to the title. ">HtmlDocumentWriter::listIcon</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>href)</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!href.empty())</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PathUtil<sp/>path(href);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a4fe70a6cc84575f162d21da8ced43494" kindref="member">Html::linkImage</ref>(output,<sp/><ref refid="a01907_1aac4c21f67539c6e9bbdb5df04cc7a6ad" kindref="member" tooltip="Implementations should write an image block. ">image</ref>,<sp/>path.fullPath());</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ab7afa93eee2cee8a13fdeae204abcbed" kindref="member" tooltip="Implementations write an anchor. ">HtmlDocumentWriter::anchor</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">Html::anchor</ref>(output,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1afbd95a2ba1f88e5a4c5e64ba05876eb8" kindref="member" tooltip="Implementations write a horizontal rule. ">HtmlDocumentWriter::horizontalRule</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a822284a5f98549094fcfc504dfc4d8c5" kindref="member">Html::horizontalRule</ref>(output);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1aa025bf1524b7d5d5f5607ed01bf0fcac" kindref="member" tooltip="Implementations write a line break. ">HtmlDocumentWriter::lineBreak</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a4e67bdb93c2e1c1121a2ee33f83f5de2" kindref="member" tooltip="Writes a break to output stream. ">Html::lineBreak</ref>(output);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a503d460a5235e20307153903ec2e5423" kindref="member" tooltip="Implementations should embed the predefined content icon. ">HtmlDocumentWriter::embedContent</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>content)</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1abcae1e0614a73145390d5f4d36076b76" kindref="member">Html::embedContent</ref>(output,<sp/><ref refid="a01911_1a827443ad25f19890725b2ec9f2a82bdd" kindref="member" tooltip="Provides access to the icon associated with the supplied id. ">IconSet::fileName</ref>(content));</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a222ca48b75a73f539a83d10a3eb9f2dc" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL. ">HtmlDocumentWriter::embedContentLink</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>content,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a079b0a5c964849113fa9c5dd8943c5c3" kindref="member">Html::embedContentLink</ref>(output,<sp/><ref refid="a01911_1a827443ad25f19890725b2ec9f2a82bdd" kindref="member" tooltip="Provides access to the icon associated with the supplied id. ">IconSet::fileName</ref>(content),<sp/>ref);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1ac9ef7a20c9ad41cd27866e98b344672c" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">HtmlDocumentWriter::embedContentLinkText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/>output,</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/><sp/>content,</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref,</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1afd4a1a662954c5f7c3a6fa028727a0fe" kindref="member">Html::embedLinkContentPoint</ref>(output,<sp/><ref refid="a01911_1a827443ad25f19890725b2ec9f2a82bdd" kindref="member" tooltip="Provides access to the icon associated with the supplied id. ">IconSet::fileName</ref>(content),<sp/>ref,<sp/>text);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a531301c8b4583e19702e78d48b909c8c" kindref="member" tooltip="Implementations should write an external URL. ">HtmlDocumentWriter::linkUrl</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1a55e0ba58b2823e339a320d8a2d496c" kindref="member">Html::linkRef</ref>(output,<sp/>title,<sp/>ref);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a6d5374eb819d40a3dc64c3c28eb5aa88" kindref="member" tooltip="Implementations write a text link. ">HtmlDocumentWriter::linkText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref)</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Do<sp/>not<sp/>use<sp/>with<sp/>a<sp/>URL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>\todo<sp/>A<sp/>URL<sp/>needs<sp/>its<sp/>own<sp/>method<sp/>linkURL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PathUtil(ref).fullExtension().empty())</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>link<sp/>=<sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(ref,<sp/><ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>().outputFileExt);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1a55e0ba58b2823e339a320d8a2d496c" kindref="member">Html::linkRef</ref>(output,<sp/>title,<sp/>link);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1a55e0ba58b2823e339a320d8a2d496c" kindref="member">Html::linkRef</ref>(output,<sp/>title,<sp/>ref);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a51609f3c7e7733d8366e0d3d72ec7120" kindref="member" tooltip="Implementations write text link to a page with an icon attached to it. ">HtmlDocumentWriter::linkRefIcon</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9" kindref="member" tooltip="internal icons to this system ">IconId</ref><sp/>ico,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>kind,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title)</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1afb4e833a61ac2c31943e0969ec8958f0" kindref="member">Html::beginDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;icon-link&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1abcae1e0614a73145390d5f4d36076b76" kindref="member">Html::embedContent</ref>(output,<sp/><ref refid="a01911_1a827443ad25f19890725b2ec9f2a82bdd" kindref="member" tooltip="Provides access to the icon associated with the supplied id. ">IconSet::fileName</ref>(ico));</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01907_1a62545b47950718fa095ab34c8a4c09f4" kindref="member" tooltip="Implementations write text link to a page. ">linkRef</ref>(output,<sp/>kind,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>title);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0824649e36363745a69b9d152ed94b04" kindref="member">Html::endDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;icon-link&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01907_1a62545b47950718fa095ab34c8a4c09f4" kindref="member" tooltip="Implementations write text link to a page. ">HtmlDocumentWriter::linkRef</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>kind,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title)</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SiteBuilder&amp;<sp/>builder<sp/>=<sp/><ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>();</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">heading</ref>;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(kind<sp/>==<sp/>0)<sp/><sp/></highlight><highlight class="comment">//<sp/>compound</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CompoundReference*<sp/>ref<sp/>=<sp/>builder.getCompoundRef(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ref)</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">heading</ref><sp/>=<sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(ref-&gt;getName());</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1a55e0ba58b2823e339a320d8a2d496c" kindref="member">Html::linkRef</ref>(output,</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>title.empty()<sp/>?<sp/>ref-&gt;getName()<sp/>:<sp/>title,</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(ref-&gt;getId(),<sp/>builder.outputFileExt,<sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">heading</ref>));</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0807ba879dc0fa7afc1ae9a3b4710b38" kindref="member">Html::boldText</ref>(output,<sp/>title.empty()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;(empty<sp/>title)&quot;</highlight><highlight class="normal"><sp/>:<sp/>title);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CompoundReference*<sp/>pref;</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pos<sp/>=<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.find_last_of(</highlight><highlight class="charliteral">&apos;_&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pos<sp/>!=<sp/>String::npos)</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pref<sp/>=<sp/>builder.getCompoundRef(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">.substr(0,<sp/>pos));</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pref<sp/>=<sp/>builder.getCompoundRef(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>member</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemberReference*<sp/>ref<sp/>=<sp/>builder.getMemberRef(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ref)</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">heading</ref><sp/>=<sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(ref-&gt;getName());</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pref)</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1a55e0ba58b2823e339a320d8a2d496c" kindref="member">Html::linkRef</ref>(output,</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>title.empty()<sp/>?<sp/>ref-&gt;getName()<sp/>:<sp/>title,</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(pref-&gt;getId(),<sp/>builder.outputFileExt,<sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">heading</ref>));</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1a55e0ba58b2823e339a320d8a2d496c" kindref="member">Html::linkRef</ref>(output,</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>title.empty()<sp/>?<sp/>ref-&gt;getName()<sp/>:<sp/>title,</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">heading</ref>);</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pref)</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">heading</ref><sp/>=<sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(pref-&gt;getName());</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1a55e0ba58b2823e339a320d8a2d496c" kindref="member">Html::linkRef</ref>(output,</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>title.empty()<sp/>?<sp/>pref-&gt;getName()<sp/>:<sp/>title,</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(pref-&gt;getId(),<sp/>builder.outputFileExt,<sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">heading</ref>));</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0807ba879dc0fa7afc1ae9a3b4710b38" kindref="member">Html::boldText</ref>(output,<sp/>title.empty()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;(empty<sp/>title)&quot;</highlight><highlight class="normal"><sp/>:<sp/>title);</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/GenApi/Types.h"/>
+    <location file="Source/MdDoxTree/HtmlDocumentWriter.cpp"/>
   </compounddef>
 </doxygen>

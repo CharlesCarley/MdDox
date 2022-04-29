@@ -1,187 +1,210 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01115" kind="class" language="C++" prot="public" final="yes">
-    <compoundname>MdDox::ListItemVisitor</compoundname>
-    <basecompoundref refid="a01635" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</basecompoundref>
-      <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="a01115_1a6e781b13787ea156e8bc19beac987753" prot="private" static="no" mutable="no">
-        <type><ref refid="a00986_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
-        <definition>OutputStringStream MdDox::ListItemVisitor::_out</definition>
-        <argsstring></argsstring>
-        <name>_out</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterListWriter.cpp" line="68" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="68" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01115_1aede632844b945ef1e2f22777a910ccfc" prot="private" static="no" mutable="no">
-        <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
-        <definition>OStream* MdDox::ListItemVisitor::_stream</definition>
-        <argsstring></argsstring>
-        <name>_stream</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterListWriter.cpp" line="67" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="67" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01115_1ab1576733a5e26bb5292975a1f063083c" prot="private" static="no" mutable="no">
-        <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-        <definition>DocumentWriter* MdDox::ListItemVisitor::_writer</definition>
-        <argsstring></argsstring>
-        <name>_writer</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterListWriter.cpp" line="66" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="66" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
-      <memberdef kind="function" id="a01115_1aef796bb55636bb4586b0f18c0320e37e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ListItemVisitor::visitedParameterDescription</definition>
-        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
-        <name>visitedParameterDescription</name>
-        <reimplements refid="a01635_1abb167851f92aa42f3bbe217c018c2c77">visitedParameterDescription</reimplements>
-        <param>
-          <type>const <ref refid="a01339" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>parameterdescription</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the DescriptionQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterListWriter.cpp" line="76" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="76" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="function" id="a01115_1a29071bddce7e5ea72f3438a4c6c455f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ListItemVisitor::visitedParameterNameList</definition>
-        <argsstring>(const Doxygen::ParamNameListQuery &amp;query) override</argsstring>
-        <name>visitedParameterNameList</name>
-        <reimplements refid="a01635_1aba0722de677dc1d813b33da4c7c525aa">visitedParameterNameList</reimplements>
-        <param>
-          <type>const <ref refid="a01655" kindref="compound">Doxygen::ParamNameListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>parameternamelist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the ParamNameListQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterListWriter.cpp" line="70" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="70" bodyend="74"/>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01115_1af28ee599e5d8bbb6d21143f81fa4852d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::ListItemVisitor::ListItemVisitor</definition>
-        <argsstring>(DocumentWriter *writer, OStream *out)</argsstring>
-        <name>ListItemVisitor</name>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterListWriter.cpp" line="83" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="83" bodyend="87"/>
-      </memberdef>
-      <memberdef kind="function" id="a01115_1abec5f0899099abba75d285e9d8e51841" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MdDox::ListItemVisitor::write</definition>
-        <argsstring>(const Doxygen::ParamListItemQuery &amp;paramList)</argsstring>
-        <name>write</name>
-        <param>
-          <type>const <ref refid="a01639" kindref="compound">Doxygen::ParamListItemQuery</ref> &amp;</type>
-          <declname>paramList</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ParameterListWriter.cpp" line="89" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="89" bodyend="99"/>
-        <references refid="a01415_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="a00575" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
-        <references refid="a01019_1ac0991eec3d7463745cd6687d372f3233">MdDox::DocumentWriter::beginListItem</references>
-        <references refid="a01639_1a6240c1e609721da2b7311bbc2f673131" compoundref="a00764" startline="30" endline="52">MdDox::Doxygen::ParamListItemQuery::visit</references>
-        <references refid="a01019_1a10727ccaa35e764594bfe2de2f246d29">MdDox::DocumentWriter::endListItem</references>
-        <references refid="a00986_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="a00284" startline="176" endline="187">MdDox::syncStream</references>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a01115" kind="file" language="C++">
+    <compoundname>SectionDefListingWriter.h</compoundname>
+    <includes refid="a01406" local="yes">Doxygen/DoxSectionKind.h</includes>
+    <includes refid="a01721" local="yes">Doxygen/SectionDefQuery.h</includes>
+    <includes refid="a01220" local="yes">Utils/Path.h</includes>
+    <includedby refid="a01049" local="yes">Source/MdDoxTree/PageWriter.cpp</includedby>
+    <includedby refid="a01112" local="yes">Source/MdDoxTree/SectionDefListingWriter.cpp</includedby>
+    <incdepgraph>
+      <node id="2146">
+        <label>Utils/Console.h</label>
+        <childnode refid="2134" relation="include">
+        </childnode>
+      </node>
+      <node id="2140">
+        <label>iomanip</label>
+      </node>
+      <node id="2132">
+        <label>functional</label>
+      </node>
+      <node id="2148">
+        <label>Utils/Path.h</label>
+        <childnode refid="2134" relation="include">
+        </childnode>
+      </node>
+      <node id="2142">
+        <label>Utils/Exception.h</label>
+        <childnode refid="2143" relation="include">
+        </childnode>
+        <childnode refid="2144" relation="include">
+        </childnode>
+        <childnode refid="2145" relation="include">
+        </childnode>
+        <childnode refid="2146" relation="include">
+        </childnode>
+        <childnode refid="2134" relation="include">
+        </childnode>
+      </node>
+      <node id="2129">
+        <label>Source/MdDoxTree/SectionDefListingWriter.h</label>
+        <link refid="a01115"/>
+        <childnode refid="2130" relation="include">
+        </childnode>
+        <childnode refid="2147" relation="include">
+        </childnode>
+        <childnode refid="2148" relation="include">
+        </childnode>
+      </node>
+      <node id="2130">
+        <label>Doxygen/DoxSectionKind.h</label>
+        <childnode refid="2131" relation="include">
+        </childnode>
+      </node>
+      <node id="2144">
+        <label>stdexcept</label>
+      </node>
+      <node id="2138">
+        <label>string</label>
+      </node>
+      <node id="2131">
+        <label>Doxygen.h</label>
+        <childnode refid="2132" relation="include">
+        </childnode>
+        <childnode refid="2133" relation="include">
+        </childnode>
+        <childnode refid="2134" relation="include">
+        </childnode>
+        <childnode refid="2141" relation="include">
+        </childnode>
+        <childnode refid="2142" relation="include">
+        </childnode>
+      </node>
+      <node id="2143">
+        <label>exception</label>
+      </node>
+      <node id="2136">
+        <label>fstream</label>
+      </node>
+      <node id="2141">
+        <label>Xml/Node.h</label>
+        <childnode refid="2132" relation="include">
+        </childnode>
+        <childnode refid="2133" relation="include">
+        </childnode>
+        <childnode refid="2134" relation="include">
+        </childnode>
+      </node>
+      <node id="2134">
+        <label>Utils/String.h</label>
+        <childnode refid="2135" relation="include">
+        </childnode>
+        <childnode refid="2136" relation="include">
+        </childnode>
+        <childnode refid="2137" relation="include">
+        </childnode>
+        <childnode refid="2138" relation="include">
+        </childnode>
+        <childnode refid="2133" relation="include">
+        </childnode>
+        <childnode refid="2139" relation="include">
+        </childnode>
+        <childnode refid="2140" relation="include">
+        </childnode>
+      </node>
+      <node id="2139">
+        <label>vector</label>
+      </node>
+      <node id="2145">
+        <label>utility</label>
+      </node>
+      <node id="2137">
+        <label>sstream</label>
+      </node>
+      <node id="2135">
+        <label>deque</label>
+      </node>
+      <node id="2133">
+        <label>unordered_map</label>
+      </node>
+      <node id="2147">
+        <label>Doxygen/SectionDefQuery.h</label>
+        <childnode refid="2131" relation="include">
+        </childnode>
+        <childnode refid="2130" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2149">
+        <label>Source/MdDoxTree/SectionDefListingWriter.h</label>
+        <link refid="a01115"/>
+        <childnode refid="2150" relation="include">
+        </childnode>
+        <childnode refid="2151" relation="include">
+        </childnode>
+      </node>
+      <node id="2150">
+        <label>Source/MdDoxTree/PageWriter.cpp</label>
+      </node>
+      <node id="2151">
+        <label>Source/MdDoxTree/SectionDefListingWriter.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a02011" prot="public">MdDox::SectionDefListingWriter</innerclass>
+    <innernamespace refid="a01838">MdDox</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <inheritancegraph>
-      <node id="866">
-        <label>MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</label>
-        <link refid="a01635"/>
-      </node>
-      <node id="865">
-        <label>MdDox::ListItemVisitor</label>
-        <link refid="a01115"/>
-        <childnode refid="866" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="868">
-        <label>MdDox::Doxygen::Visitors::ParamListItemQueryVisitor</label>
-        <link refid="a01635"/>
-      </node>
-      <node id="867">
-        <label>MdDox::ListItemVisitor</label>
-        <link refid="a01115"/>
-        <childnode refid="868" relation="public-inheritance">
-        </childnode>
-      </node>
-    </collaborationgraph>
-    <location file="Source/MdDoxTree/ParameterListWriter.cpp" line="64" column="1" bodyfile="Source/MdDoxTree/ParameterListWriter.cpp" bodystart="63" bodyend="100"/>
-    <listofallmembers>
-      <member refid="a01115_1a6e781b13787ea156e8bc19beac987753" prot="private" virt="non-virtual"><scope>MdDox::ListItemVisitor</scope><name>_out</name></member>
-      <member refid="a01115_1aede632844b945ef1e2f22777a910ccfc" prot="private" virt="non-virtual"><scope>MdDox::ListItemVisitor</scope><name>_stream</name></member>
-      <member refid="a01115_1ab1576733a5e26bb5292975a1f063083c" prot="private" virt="non-virtual"><scope>MdDox::ListItemVisitor</scope><name>_writer</name></member>
-      <member refid="a01115_1af28ee599e5d8bbb6d21143f81fa4852d" prot="public" virt="non-virtual"><scope>MdDox::ListItemVisitor</scope><name>ListItemVisitor</name></member>
-      <member refid="a01115_1aef796bb55636bb4586b0f18c0320e37e" prot="private" virt="virtual"><scope>MdDox::ListItemVisitor</scope><name>visitedParameterDescription</name></member>
-      <member refid="a01115_1a29071bddce7e5ea72f3438a4c6c455f1" prot="private" virt="virtual"><scope>MdDox::ListItemVisitor</scope><name>visitedParameterNameList</name></member>
-      <member refid="a01635_1ae70ad29573dafb0e4939ffeb1485348f" prot="public" virt="virtual"><scope>MdDox::ListItemVisitor</scope><name>visitedText</name></member>
-      <member refid="a01115_1abec5f0899099abba75d285e9d8e51841" prot="public" virt="non-virtual"><scope>MdDox::ListItemVisitor</scope><name>write</name></member>
-      <member refid="a01635_1ae9e6bf9b5bab0102e9e0eb7cffa9f9a2" prot="public" virt="virtual"><scope>MdDox::ListItemVisitor</scope><name>~ParamListItemQueryVisitor</name></member>
-    </listofallmembers>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DoxSectionKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/SectionDefQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Path.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DocumentWriter;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="a02011" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02011" kindref="compound">SectionDefListingWriter</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02607" kindref="compound">Doxygen::Visitors::SectionDefQueryVisitor</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/><sp/><sp/><sp/>_writer;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_stream;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>_out;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_depth;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedMemberDef(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02467" kindref="compound" tooltip="Implements the memberdefType scaffolding. ">Doxygen::MemberDefQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedDescription(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02191" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">Doxygen::DescriptionQuery</ref>&amp;<sp/>query)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitedHeader(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeHeading(<ref refid="a01843_1a7f2b31fb58f486ef341e07ed25f12b8a" kindref="member">Doxygen::DoxSectionKindEnum</ref><sp/>kind);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02011_1abada5775b8144d51ee985067d57efe35" kindref="member">SectionDefListingWriter</ref>(<ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/>out);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02011_1a687b673217b074953bb64347127e778a" kindref="member">setDepth</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a02011_1ade13a6a2d0628c6afe0a71c4b5e073ed" kindref="member">write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02611" kindref="compound" tooltip="Implements the sectiondefType scaffolding. ">Doxygen::SectionDefQuery</ref>&amp;<sp/>sec);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/MdDoxTree/SectionDefListingWriter.h"/>
   </compounddef>
 </doxygen>

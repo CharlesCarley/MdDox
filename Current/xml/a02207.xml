@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02207" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::DoxCompoundKind</compoundname>
+    <includes local="no">Tools/Doxygen/DoxCompoundKind.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="a02207_1a87e35757d67cddda1026143d985d4ba1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">DoxCompoundKindEnum</ref></type>
+        <definition>DoxCompoundKindEnum MdDox::Doxygen::DoxCompoundKind::get</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <defname>look</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/DoxCompoundKind.h" line="134" column="1" bodyfile="Tools/Doxygen/DoxCompoundKind.cpp" bodystart="30" bodyend="67"/>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759a62d9911613fef621427568c486495d4c" compoundref="a01340" startline="63">MdDox::Doxygen::DCK_CLASS</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759a7ad4ae6d7976453b64ef8a0791b0158e" compoundref="a01340" startline="67">MdDox::Doxygen::DCK_INTERFACE</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759ad01b6adae675a6349479b37cc0f65366" compoundref="a01340" startline="71">MdDox::Doxygen::DCK_NAMESPACE</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759a2b3a3f717dea394ec4ae149f613b9042" compoundref="a01340" startline="75">MdDox::Doxygen::DCK_STRUCT</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759a59237cda618d0e1f1833529c99f4148e" compoundref="a01340" startline="79">MdDox::Doxygen::DCK_SERVICE</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759a706740e90560c5071cf7619921bbf7ec" compoundref="a01340" startline="83">MdDox::Doxygen::DCK_UNION</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759aa0c1d26563110b2bf14e492472f4602f" compoundref="a01340" startline="87">MdDox::Doxygen::DCK_PROTOCOL</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759ad96aac392b0092d981faddc1765edaec" compoundref="a01340" startline="91">MdDox::Doxygen::DCK_CATEGORY</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759a983745cc5e0a14fdc9e107ad995ab69f" compoundref="a01340" startline="95">MdDox::Doxygen::DCK_PAGE</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759a22ee676f334849e444ea683a58ba372f" compoundref="a01340" startline="99">MdDox::Doxygen::DCK_EXCEPTION</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759a28e9f146dd80ee4d35ffccd9cb060bd4" compoundref="a01340" startline="103">MdDox::Doxygen::DCK_SINGLETON</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759add3f99e1b666270b36faa4205be36081" compoundref="a01340" startline="107">MdDox::Doxygen::DCK_MODULE</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759ab423cb91da1b34fecccffb8ff7b5a3f7" compoundref="a01340" startline="111">MdDox::Doxygen::DCK_TYPE</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759a4a255089d57c59b114e5c097444f468b" compoundref="a01340" startline="115">MdDox::Doxygen::DCK_FILE</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759a99ca1a5e5560f707207d20393f94003a" compoundref="a01340" startline="119">MdDox::Doxygen::DCK_GROUP</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759a1786e8b407322c496997f045c7abf9e1" compoundref="a01340" startline="123">MdDox::Doxygen::DCK_EXAMPLE</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759af5700e85d79c43fdcf2fbf0da2599d43" compoundref="a01340" startline="127">MdDox::Doxygen::DCK_DIR</references>
+        <references refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759aa5e51775c781d51afe7643b05f7bd886" compoundref="a01340" startline="59">MdDox::Doxygen::DCK_INVALID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/DoxCompoundKind.h" line="132" column="1" bodyfile="Tools/Doxygen/DoxCompoundKind.h" bodystart="131" bodyend="135"/>
+    <listofallmembers>
+      <member refid="a02207_1a87e35757d67cddda1026143d985d4ba1" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxCompoundKind</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

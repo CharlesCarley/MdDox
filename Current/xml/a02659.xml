@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02659" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::TocListQueryVisitor</compoundname>
+    <includes local="no">Tools/Doxygen/TocListQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02659_1ab6ed4ee014f877dea0c88f42a6084447" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::TocListQueryVisitor::~TocListQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~TocListQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TocListQuery.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02659_1a06af1b07d58e64fd5e6aab0a43d61795" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::TocListQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TocListQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/TocListQuery.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="a02659_1afd58d69687d67c6baa15c8b9fed19ac1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::TocListQueryVisitor::visitedTocItem</definition>
+        <argsstring>(const TocItemQuery &amp;query)</argsstring>
+        <name>visitedTocItem</name>
+        <param>
+          <type>const <ref refid="a02655" kindref="compound">TocItemQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>tocitem</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02655" kindref="compound">TocItemQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TocListQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/TocListQuery.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/TocListQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/TocListQuery.h" bodystart="30" bodyend="45"/>
+    <listofallmembers>
+      <member refid="a02659_1a06af1b07d58e64fd5e6aab0a43d61795" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocListQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="a02659_1afd58d69687d67c6baa15c8b9fed19ac1" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocListQueryVisitor</scope><name>visitedTocItem</name></member>
+      <member refid="a02659_1ab6ed4ee014f877dea0c88f42a6084447" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocListQueryVisitor</scope><name>~TocListQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

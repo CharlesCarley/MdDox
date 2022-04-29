@@ -254,21 +254,24 @@ namespace MdDox
 
     void NamespacePageWriter::notifyBriefDescription(const Doxygen::DescriptionQuery& query)
     {
-        writeTableOfContents(query.node()->parent());
+        _writer->lineBreak(_out);
+        _writer->lineBreak(_out);
     }
 
-    void NamespacePageWriter::notifyDetailDescriptionHeading(const Doxygen::DescriptionQuery& query)
+    void NamespacePageWriter::notifyDetailDescription(const Doxygen::DescriptionQuery& query)
     {
-        _writer->addSection(_out, "Details", 2);
+        //_writer->addSection(_out, "Details", 2);
     }
 
     void NamespacePageWriter::writeTableOfContents(Xml::Node* compoundDef)
     {
         const Doxygen::CompoundDefQuery cdq(compoundDef);
-        const String&                   id = cdq.getId();
+
+        const String& id = cdq.getId();
 
         TableOfContents contents;
         cdq.visit(&contents);
+
         if (contents.hasAny())
         {
             _writer->beginSection(_out, "Contents", 2);

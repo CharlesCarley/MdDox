@@ -1,183 +1,199 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01511" kind="class" language="C++" prot="public">
-    <compoundname>MdDox::Doxygen::InternalQuery</compoundname>
-    <basecompoundref refid="a01415" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/InternalQuery.h</includes>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01511_1abaffc543ad8c88d43b2ab497dd37be27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::InternalQuery::InternalQuery</definition>
-        <argsstring>()=default</argsstring>
-        <name>InternalQuery</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalQuery.h" line="70" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01511_1a51fedc00638457836c6c16588a81015b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::InternalQuery::InternalQuery</definition>
-        <argsstring>(const InternalQuery &amp;other)=default</argsstring>
-        <name>InternalQuery</name>
-        <param>
-          <type>const <ref refid="a01511" kindref="compound">InternalQuery</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalQuery.h" line="71" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01511_1a7b1e207dbea2fc649b37b8ebdf374e0f" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::InternalQuery::InternalQuery</definition>
-        <argsstring>(Xml::Node *node)</argsstring>
-        <name>InternalQuery</name>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalQuery.h" line="73" column="1" bodyfile="Tools/Doxygen/InternalQuery.h" bodystart="73" bodyend="76"/>
-      </memberdef>
-      <memberdef kind="function" id="a01511_1af3570923f39da573bd9cf4c2b7f7bf62" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::InternalQuery::foreachParagraph</definition>
-        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
-        <name>foreachParagraph</name>
-        <param>
-          <type>const <ref refid="a00991_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalQuery.h" line="82" column="1" bodyfile="Tools/Doxygen/InternalQuery.cpp" bodystart="53" bodyend="56"/>
-        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
-      </memberdef>
-      <memberdef kind="function" id="a01511_1a0ccdb6f32e1225639fea2036e79d76b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::InternalQuery::foreachSect1</definition>
-        <argsstring>(const Sect1QueryFunction &amp;invoke) const</argsstring>
-        <name>foreachSect1</name>
-        <param>
-          <type>const <ref refid="a00991_1a6438087de1dd68238d70bafc49bee2a0" kindref="member">Sect1QueryFunction</ref> &amp;</type>
-          <declname>invoke</declname>
-        </param>
-        <briefdescription>
-<para>Invokes the supplied callback on <bold>sect1</bold> elements. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalQuery.h" line="87" column="1" bodyfile="Tools/Doxygen/InternalQuery.cpp" bodystart="58" bodyend="61"/>
-        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
-      </memberdef>
-      <memberdef kind="function" id="a01511_1aafd7d0ada6159c129412b8f18fbf1410" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::InternalQuery::visit</definition>
-        <argsstring>(Visitors::InternalQueryVisitor *) const</argsstring>
-        <name>visit</name>
-        <param>
-          <type><ref refid="a01507" kindref="compound">Visitors::InternalQueryVisitor</ref> *</type>
-          <defname>visitor</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/InternalQuery.h" line="78" column="1" bodyfile="Tools/Doxygen/InternalQuery.cpp" bodystart="30" bodyend="52"/>
-        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
-        <references refid="a01259_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a00398" startline="275" endline="278">MdDox::Xml::Node::children</references>
-        <references refid="a00991_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="a00293" startline="31">MdDox::Doxygen::DoxTextNode</references>
-        <references refid="a01507_1ac4c0ad4a5f26a336a5d801f8f66bd92b" compoundref="a00659" startline="38" endline="38">MdDox::Doxygen::Visitors::InternalQueryVisitor::visitedText</references>
-        <references refid="a01507_1a0c08f607e286245c14a9220c9cf616ee" compoundref="a00659" startline="43" endline="43">MdDox::Doxygen::Visitors::InternalQueryVisitor::visitedParagraph</references>
-        <references refid="a01507_1ac08c382f2a21525878001415c3eebe86" compoundref="a00659" startline="48" endline="48">MdDox::Doxygen::Visitors::InternalQueryVisitor::visitedSect1</references>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a01511" kind="file" language="C++">
+    <compoundname>InternalQuery.h</compoundname>
+    <includes refid="a01427" local="yes">Doxygen.h</includes>
+    <includedby refid="a01307" local="yes">Tools/Doxygen/CopyQuery.cpp</includedby>
+    <includedby refid="a01313" local="yes">Tools/Doxygen/DescriptionQuery.cpp</includedby>
+    <includedby refid="a01508" local="yes">Tools/Doxygen/InternalQuery.cpp</includedby>
+    <incdepgraph>
+      <node id="6939">
+        <label>Utils/Console.h</label>
+        <childnode refid="6927" relation="include">
+        </childnode>
+      </node>
+      <node id="6933">
+        <label>iomanip</label>
+      </node>
+      <node id="6925">
+        <label>functional</label>
+      </node>
+      <node id="6935">
+        <label>Utils/Exception.h</label>
+        <childnode refid="6936" relation="include">
+        </childnode>
+        <childnode refid="6937" relation="include">
+        </childnode>
+        <childnode refid="6938" relation="include">
+        </childnode>
+        <childnode refid="6939" relation="include">
+        </childnode>
+        <childnode refid="6927" relation="include">
+        </childnode>
+      </node>
+      <node id="6937">
+        <label>stdexcept</label>
+      </node>
+      <node id="6931">
+        <label>string</label>
+      </node>
+      <node id="6924">
+        <label>Doxygen.h</label>
+        <childnode refid="6925" relation="include">
+        </childnode>
+        <childnode refid="6926" relation="include">
+        </childnode>
+        <childnode refid="6927" relation="include">
+        </childnode>
+        <childnode refid="6934" relation="include">
+        </childnode>
+        <childnode refid="6935" relation="include">
+        </childnode>
+      </node>
+      <node id="6936">
+        <label>exception</label>
+      </node>
+      <node id="6923">
+        <label>Tools/Doxygen/InternalQuery.h</label>
+        <link refid="a01511"/>
+        <childnode refid="6924" relation="include">
+        </childnode>
+      </node>
+      <node id="6929">
+        <label>fstream</label>
+      </node>
+      <node id="6934">
+        <label>Xml/Node.h</label>
+        <childnode refid="6925" relation="include">
+        </childnode>
+        <childnode refid="6926" relation="include">
+        </childnode>
+        <childnode refid="6927" relation="include">
+        </childnode>
+      </node>
+      <node id="6927">
+        <label>Utils/String.h</label>
+        <childnode refid="6928" relation="include">
+        </childnode>
+        <childnode refid="6929" relation="include">
+        </childnode>
+        <childnode refid="6930" relation="include">
+        </childnode>
+        <childnode refid="6931" relation="include">
+        </childnode>
+        <childnode refid="6926" relation="include">
+        </childnode>
+        <childnode refid="6932" relation="include">
+        </childnode>
+        <childnode refid="6933" relation="include">
+        </childnode>
+      </node>
+      <node id="6932">
+        <label>vector</label>
+      </node>
+      <node id="6938">
+        <label>utility</label>
+      </node>
+      <node id="6930">
+        <label>sstream</label>
+      </node>
+      <node id="6928">
+        <label>deque</label>
+      </node>
+      <node id="6926">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6943">
+        <label>Tools/Doxygen/InternalQuery.cpp</label>
+      </node>
+      <node id="6941">
+        <label>Tools/Doxygen/CopyQuery.cpp</label>
+      </node>
+      <node id="6940">
+        <label>Tools/Doxygen/InternalQuery.h</label>
+        <link refid="a01511"/>
+        <childnode refid="6941" relation="include">
+        </childnode>
+        <childnode refid="6942" relation="include">
+        </childnode>
+        <childnode refid="6943" relation="include">
+        </childnode>
+      </node>
+      <node id="6942">
+        <label>Tools/Doxygen/DescriptionQuery.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a02363" prot="public">MdDox::Doxygen::InternalQuery</innerclass>
+    <innerclass refid="a02359" prot="public">MdDox::Doxygen::Visitors::InternalQueryVisitor</innerclass>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
+    <innernamespace refid="a01847">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>
-<para>Implements the <computeroutput>docInternalType</computeroutput> scaffolding. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>The following xml provides the source for the <bold>docInternalType</bold> scaffolding. <linebreak/>
-<linebreak/>
-<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docInternalType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">mixed</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;para&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docParaType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;sect1&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docSect1Type&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
-</programlisting> </para>    </detaileddescription>
-    <inheritancegraph>
-      <node id="239">
-        <label>MdDox::Doxygen::InternalQuery</label>
-        <link refid="a01511"/>
-        <childnode refid="240" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="240">
-        <label>MdDox::Doxygen::Query</label>
-        <link refid="a01415"/>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="243">
-        <label>MdDox::Xml::Node</label>
-        <link refid="a01259"/>
-        <childnode refid="244" relation="usage">
-          <edgelabel>_autoDelete</edgelabel>
-        </childnode>
-      </node>
-      <node id="241">
-        <label>MdDox::Doxygen::InternalQuery</label>
-        <link refid="a01511"/>
-        <childnode refid="242" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="242">
-        <label>MdDox::Doxygen::Query</label>
-        <link refid="a01415"/>
-        <childnode refid="243" relation="usage">
-          <edgelabel>_node</edgelabel>
-        </childnode>
-      </node>
-      <node id="244">
-        <label>bool</label>
-      </node>
-    </collaborationgraph>
-    <location file="Tools/Doxygen/InternalQuery.h" line="68" column="1" bodyfile="Tools/Doxygen/InternalQuery.h" bodystart="67" bodyend="90"/>
-    <listofallmembers>
-      <member refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>_node</name></member>
-      <member refid="a01415_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>empty</name></member>
-      <member refid="a01511_1af3570923f39da573bd9cf4c2b7f7bf62" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>foreachParagraph</name></member>
-      <member refid="a01511_1a0ccdb6f32e1225639fea2036e79d76b0" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>foreachSect1</name></member>
-      <member refid="a01511_1abaffc543ad8c88d43b2ab497dd37be27" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>InternalQuery</name></member>
-      <member refid="a01511_1a51fedc00638457836c6c16588a81015b" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>InternalQuery</name></member>
-      <member refid="a01511_1a7b1e207dbea2fc649b37b8ebdf374e0f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>InternalQuery</name></member>
-      <member refid="a01415_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>isValid</name></member>
-      <member refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>node</name></member>
-      <member refid="a01415_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>Query</name></member>
-      <member refid="a01415_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>Query</name></member>
-      <member refid="a01415_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>reset</name></member>
-      <member refid="a01415_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>sort</name></member>
-      <member refid="a01415_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>text</name></member>
-      <member refid="a01511_1aafd7d0ada6159c129412b8f18fbf1410" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::InternalQuery</scope><name>visit</name></member>
-    </listofallmembers>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Visitors</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30" refid="a02359" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02359" kindref="compound">InternalQueryVisitor</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="a02359_1ae92f77b537003202900f521ca3937a32" kindref="member">~InternalQueryVisitor</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="a02359_1ac4c0ad4a5f26a336a5d801f8f66bd92b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02359_1ac4c0ad4a5f26a336a5d801f8f66bd92b" kindref="member" tooltip="Callback for every _text_node. ">visitedText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="43" refid="a02359_1a0c08f607e286245c14a9220c9cf616ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02359_1a0c08f607e286245c14a9220c9cf616ee" kindref="member" tooltip="Called when the element para is found. ">visitedParagraph</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02539" kindref="compound" tooltip="Implements the docParaType scaffolding. ">ParaQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="48" refid="a02359_1ac08c382f2a21525878001415c3eebe86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02359_1ac08c382f2a21525878001415c3eebe86" kindref="member" tooltip="Called when the element sect1 is found. ">visitedSect1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02579" kindref="compound" tooltip="Implements the docSect1Type scaffolding. ">Sect1Query</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67" refid="a02363" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02363" kindref="compound" tooltip="Implements the docInternalType scaffolding. ">InternalQuery</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02267" kindref="compound">Query</ref></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02363_1abaffc543ad8c88d43b2ab497dd37be27" kindref="member">InternalQuery</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02363_1abaffc543ad8c88d43b2ab497dd37be27" kindref="member">InternalQuery</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02363" kindref="compound" tooltip="Implements the docInternalType scaffolding. ">InternalQuery</ref>&amp;<sp/>other)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="a02363_1a7b1e207dbea2fc649b37b8ebdf374e0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="a02363_1a7b1e207dbea2fc649b37b8ebdf374e0f" kindref="member">InternalQuery</ref>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/><ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02267" kindref="compound">Query</ref>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02363_1aafd7d0ada6159c129412b8f18fbf1410" kindref="member">visit</ref>(<ref refid="a02359" kindref="compound">Visitors::InternalQueryVisitor</ref><sp/>*)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02363_1af3570923f39da573bd9cf4c2b7f7bf62" kindref="member" tooltip="Invokes the supplied callback on para elements. ">foreachParagraph</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref>&amp;<sp/>invoke)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02363_1a0ccdb6f32e1225639fea2036e79d76b0" kindref="member" tooltip="Invokes the supplied callback on sect1 elements. ">foreachSect1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1a6438087de1dd68238d70bafc49bee2a0" kindref="member">Sect1QueryFunction</ref>&amp;<sp/>invoke)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/InternalQuery.h"/>
   </compounddef>
 </doxygen>

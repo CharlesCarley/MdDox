@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02567" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::RowQueryVisitor</compoundname>
+    <includes local="no">Tools/Doxygen/RowQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02567_1a1e8c768ab1a6bc9b6c0d980920ee63ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::RowQueryVisitor::~RowQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~RowQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/RowQuery.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02567_1ad09748699a745aeee3c7a7703a216911" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::RowQueryVisitor::visitedEntry</definition>
+        <argsstring>(const EntryQuery &amp;query)</argsstring>
+        <name>visitedEntry</name>
+        <param>
+          <type>const <ref refid="a02295" kindref="compound">EntryQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>entry</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02295" kindref="compound">EntryQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/RowQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/RowQuery.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="a02567_1aca71527bd37b67463582f736d985269b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::RowQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/RowQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/RowQuery.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/RowQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/RowQuery.h" bodystart="30" bodyend="45"/>
+    <listofallmembers>
+      <member refid="a02567_1ad09748699a745aeee3c7a7703a216911" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::RowQueryVisitor</scope><name>visitedEntry</name></member>
+      <member refid="a02567_1aca71527bd37b67463582f736d985269b" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::RowQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="a02567_1a1e8c768ab1a6bc9b6c0d980920ee63ec" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::RowQueryVisitor</scope><name>~RowQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

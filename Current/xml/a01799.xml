@@ -1,437 +1,187 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01799" kind="class" language="C++" prot="public">
-    <compoundname>MdDox::Doxygen::Visitors::TocItemQueryVisitor</compoundname>
-    <includes local="no">Tools/Doxygen/TocItemQuery.h</includes>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01799_1afbe80eb914603a6043df3fb4c27128a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>virtual MdDox::Doxygen::Visitors::TocItemQueryVisitor::~TocItemQueryVisitor</definition>
-        <argsstring>()=default</argsstring>
-        <name>~TocItemQueryVisitor</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="33" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1a089f72d5a657b90b221f74f4af925cf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedAnchor</definition>
-        <argsstring>(const AnchorQuery &amp;query)</argsstring>
-        <name>visitedAnchor</name>
-        <param>
-          <type>const <ref refid="a01275" kindref="compound">AnchorQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>anchor</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01275" kindref="compound">AnchorQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="73" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="73" bodyend="73"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1a376ce43a3f048fd0931007fc5071fd77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedBold</definition>
-        <argsstring>(const MarkupQuery &amp;query)</argsstring>
-        <name>visitedBold</name>
-        <param>
-          <type>const <ref refid="a01607" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>bold</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01607" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="48" bodyend="48"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1abd181f0de1f5be5c7d2f38c0d513f5fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedCenter</definition>
-        <argsstring>(const MarkupQuery &amp;query)</argsstring>
-        <name>visitedCenter</name>
-        <param>
-          <type>const <ref refid="a01607" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>center</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01607" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="63" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="63" bodyend="63"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1aba3a58e0271783ad599e4fe467c8e539" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedComputerOutput</definition>
-        <argsstring>(const MarkupQuery &amp;query)</argsstring>
-        <name>visitedComputerOutput</name>
-        <param>
-          <type>const <ref refid="a01607" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>computeroutput</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01607" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="58" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="58" bodyend="58"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1a9fc837486c52fd15aeeff3a3ceaa1ab9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedDot</definition>
-        <argsstring>(const String &amp;text)</argsstring>
-        <name>visitedDot</name>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>dot</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="113" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="113" bodyend="113"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1a488ce6ef92384a4a5ffadafaf75ffe83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedEmphasis</definition>
-        <argsstring>(const MarkupQuery &amp;query)</argsstring>
-        <name>visitedEmphasis</name>
-        <param>
-          <type>const <ref refid="a01607" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>emphasis</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01607" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="53" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="53" bodyend="53"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1a36e6ac15a7132acd1806bf9041916c38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedLang</definition>
-        <argsstring>(const EmptyQuery &amp;query)</argsstring>
-        <name>visitedLang</name>
-        <param>
-          <type>const <ref refid="a01435" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>lang</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01435" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="108" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="108" bodyend="108"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1a14bccdf376d3ea0f587ed3d679b1215d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedParagraph</definition>
-        <argsstring>(const ParaQuery &amp;query)</argsstring>
-        <name>visitedParagraph</name>
-        <param>
-          <type>const <ref refid="a01687" kindref="compound">ParaQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01687" kindref="compound">ParaQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="93" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="93" bodyend="93"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1a021693bc4b87e3f760dac6504865de16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedPart</definition>
-        <argsstring>(const EmptyQuery &amp;query)</argsstring>
-        <name>visitedPart</name>
-        <param>
-          <type>const <ref refid="a01435" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>part</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01435" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="98" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="98" bodyend="98"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1ad4179f7b4bdd898d12604b61b5fe6d27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedProp</definition>
-        <argsstring>(const EmptyQuery &amp;query)</argsstring>
-        <name>visitedProp</name>
-        <param>
-          <type>const <ref refid="a01435" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>prop</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01435" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="103" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="103" bodyend="103"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1af423e4dbc7f67fa9a993ccbc3683c216" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedRef</definition>
-        <argsstring>(const RefTextQuery &amp;query)</argsstring>
-        <name>visitedRef</name>
-        <param>
-          <type>const <ref refid="a01707" kindref="compound">RefTextQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>ref</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01707" kindref="compound">RefTextQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="78" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="78" bodyend="78"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1acb94b99b797ad0ec59c30048b02ad66b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedRegistered</definition>
-        <argsstring>(const EmptyQuery &amp;query)</argsstring>
-        <name>visitedRegistered</name>
-        <param>
-          <type>const <ref refid="a01435" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>registered</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01435" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="88" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="88" bodyend="88"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1a35267dcd20515b59b31cd72a96e2cb48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedSect</definition>
-        <argsstring>(const EmptyQuery &amp;query)</argsstring>
-        <name>visitedSect</name>
-        <param>
-          <type>const <ref refid="a01435" kindref="compound">EmptyQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>sect</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01435" kindref="compound">EmptyQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="83" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="83" bodyend="83"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1a7db10d2d7748cab0bb77066aa8dfbd80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedSmall</definition>
-        <argsstring>(const MarkupQuery &amp;query)</argsstring>
-        <name>visitedSmall</name>
-        <param>
-          <type>const <ref refid="a01607" kindref="compound">MarkupQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>small</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01607" kindref="compound">MarkupQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="68" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="68" bodyend="68"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1a97e236f46ee9aff48264cb18690e6fdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedText</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>visitedText</name>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-        </param>
-        <briefdescription>
-<para>Callback for every _text_node. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="38" bodyend="38"/>
-      </memberdef>
-      <memberdef kind="function" id="a01799_1ae74692ffc93e814d7631321041fc3563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>void</type>
-        <definition>virtual void MdDox::Doxygen::Visitors::TocItemQueryVisitor::visitedULink</definition>
-        <argsstring>(const UrlLinkQuery &amp;query)</argsstring>
-        <name>visitedULink</name>
-        <param>
-          <type>const <ref refid="a01819" kindref="compound">UrlLinkQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>ulink</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the <ref refid="a01819" kindref="compound">UrlLinkQuery</ref> class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/TocItemQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="43" bodyend="43"/>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a01799" kind="file" language="C++">
+    <compoundname>Complex.h</compoundname>
+    <includes refid="a01817" local="yes">Group.h</includes>
+    <includes refid="a01835" local="yes">Types.h</includes>
+    <includes refid="a01226" local="yes">Utils/String.h</includes>
+    <includes refid="a01250" local="yes">Xml/Node.h</includes>
+    <includedby refid="a01796" local="yes">Tools/GenApi/Complex.cpp</includedby>
+    <includedby refid="a01808" local="yes">Tools/GenApi/Generator.cpp</includedby>
+    <incdepgraph>
+      <node id="9265">
+        <label>functional</label>
+      </node>
+      <node id="9262">
+        <label>iomanip</label>
+      </node>
+      <node id="9267">
+        <label>cstdint</label>
+      </node>
+      <node id="9254">
+        <label>Object.h</label>
+        <childnode refid="9255" relation="include">
+        </childnode>
+        <childnode refid="9263" relation="include">
+        </childnode>
+        <childnode refid="9264" relation="include">
+        </childnode>
+      </node>
+      <node id="9259">
+        <label>string</label>
+      </node>
+      <node id="9257">
+        <label>fstream</label>
+      </node>
+      <node id="9266">
+        <label>Types.h</label>
+        <childnode refid="9267" relation="include">
+        </childnode>
+        <childnode refid="9255" relation="include">
+        </childnode>
+      </node>
+      <node id="9252">
+        <label>Tools/GenApi/Complex.h</label>
+        <link refid="a01799"/>
+        <childnode refid="9253" relation="include">
+        </childnode>
+        <childnode refid="9266" relation="include">
+        </childnode>
+        <childnode refid="9255" relation="include">
+        </childnode>
+        <childnode refid="9264" relation="include">
+        </childnode>
+      </node>
+      <node id="9264">
+        <label>Xml/Node.h</label>
+        <childnode refid="9265" relation="include">
+        </childnode>
+        <childnode refid="9260" relation="include">
+        </childnode>
+        <childnode refid="9255" relation="include">
+        </childnode>
+      </node>
+      <node id="9263">
+        <label>Writer.h</label>
+        <childnode refid="9255" relation="include">
+        </childnode>
+        <childnode refid="9264" relation="include">
+        </childnode>
+      </node>
+      <node id="9255">
+        <label>Utils/String.h</label>
+        <childnode refid="9256" relation="include">
+        </childnode>
+        <childnode refid="9257" relation="include">
+        </childnode>
+        <childnode refid="9258" relation="include">
+        </childnode>
+        <childnode refid="9259" relation="include">
+        </childnode>
+        <childnode refid="9260" relation="include">
+        </childnode>
+        <childnode refid="9261" relation="include">
+        </childnode>
+        <childnode refid="9262" relation="include">
+        </childnode>
+      </node>
+      <node id="9261">
+        <label>vector</label>
+      </node>
+      <node id="9258">
+        <label>sstream</label>
+      </node>
+      <node id="9256">
+        <label>deque</label>
+      </node>
+      <node id="9260">
+        <label>unordered_map</label>
+      </node>
+      <node id="9253">
+        <label>Group.h</label>
+        <childnode refid="9254" relation="include">
+        </childnode>
+        <childnode refid="9266" relation="include">
+        </childnode>
+        <childnode refid="9255" relation="include">
+        </childnode>
+        <childnode refid="9264" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="9270">
+        <label>Tools/GenApi/Generator.cpp</label>
+      </node>
+      <node id="9269">
+        <label>Tools/GenApi/Complex.cpp</label>
+      </node>
+      <node id="9268">
+        <label>Tools/GenApi/Complex.h</label>
+        <link refid="a01799"/>
+        <childnode refid="9269" relation="include">
+        </childnode>
+        <childnode refid="9270" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a02691" prot="public">MdDox::GenApi::Complex</innerclass>
+    <innernamespace refid="a01838">MdDox</innernamespace>
+    <innernamespace refid="a01848">MdDox::GenApi</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/TocItemQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/TocItemQuery.h" bodystart="30" bodyend="115"/>
-    <listofallmembers>
-      <member refid="a01799_1a089f72d5a657b90b221f74f4af925cf4" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedAnchor</name></member>
-      <member refid="a01799_1a376ce43a3f048fd0931007fc5071fd77" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedBold</name></member>
-      <member refid="a01799_1abd181f0de1f5be5c7d2f38c0d513f5fd" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedCenter</name></member>
-      <member refid="a01799_1aba3a58e0271783ad599e4fe467c8e539" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedComputerOutput</name></member>
-      <member refid="a01799_1a9fc837486c52fd15aeeff3a3ceaa1ab9" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedDot</name></member>
-      <member refid="a01799_1a488ce6ef92384a4a5ffadafaf75ffe83" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedEmphasis</name></member>
-      <member refid="a01799_1a36e6ac15a7132acd1806bf9041916c38" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedLang</name></member>
-      <member refid="a01799_1a14bccdf376d3ea0f587ed3d679b1215d" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedParagraph</name></member>
-      <member refid="a01799_1a021693bc4b87e3f760dac6504865de16" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedPart</name></member>
-      <member refid="a01799_1ad4179f7b4bdd898d12604b61b5fe6d27" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedProp</name></member>
-      <member refid="a01799_1af423e4dbc7f67fa9a993ccbc3683c216" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedRef</name></member>
-      <member refid="a01799_1acb94b99b797ad0ec59c30048b02ad66b" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedRegistered</name></member>
-      <member refid="a01799_1a35267dcd20515b59b31cd72a96e2cb48" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedSect</name></member>
-      <member refid="a01799_1a7db10d2d7748cab0bb77066aa8dfbd80" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedSmall</name></member>
-      <member refid="a01799_1a97e236f46ee9aff48264cb18690e6fdb" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedText</name></member>
-      <member refid="a01799_1ae74692ffc93e814d7631321041fc3563" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>visitedULink</name></member>
-      <member refid="a01799_1afbe80eb914603a6043df3fb4c27128a6" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::TocItemQueryVisitor</scope><name>~TocItemQueryVisitor</name></member>
-    </listofallmembers>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Group.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Xml/Node.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">PathUtil;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01848" kindref="compound" tooltip="GenApi is used to generate a static scaffolding library. ">MdDox::GenApi</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35" refid="a01848_1a8506c438f76b4e422a526477806e60da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01848_1a8506c438f76b4e422a526477806e60da" kindref="member">ElementArray</ref><sp/><sp/><sp/>=<sp/>std::vector&lt;Element&gt;;</highlight></codeline>
+<codeline lineno="36" refid="a01848_1afdad56995d9980eac00f17e1b815b488" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01848_1afdad56995d9980eac00f17e1b815b488" kindref="member">AttributeArray</ref><sp/>=<sp/>std::vector&lt;Attribute&gt;;</highlight></codeline>
+<codeline lineno="37" refid="a01848_1a9065dffb1dceea28cf482e36013b3b72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01846_1a0b1831d2f6bb20e16b0298d1b90feb4d" kindref="member" tooltip="Defines the attribute storage container. ">AttributeMap</ref><sp/><sp/><sp/>=<sp/>std::unordered_map&lt;String,<sp/>Attribute&gt;;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="a02691" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02691" kindref="compound">Complex</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02707" kindref="compound">Group</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02691_1a856ca564f02b72daf0e56700de7f3aec" kindref="member">Complex</ref>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/>node,<sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>name,<sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>type);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02691_1a7db9b70aa4b7500700ae31fd36a6ea85" kindref="member">~Complex</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02691_1a8b6b0dd4bf00bf4823732fab0973dd86" kindref="member">write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>output);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::DoxApi</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/GenApi/Complex.h"/>
   </compounddef>
 </doxygen>

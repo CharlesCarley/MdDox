@@ -1,52 +1,164 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01355" kind="class" language="C++" prot="public">
-    <compoundname>MdDox::Doxygen::DoxCompoundKind</compoundname>
-    <includes local="no">Tools/Doxygen/DoxCompoundKind.h</includes>
-      <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="a01355_1a87e35757d67cddda1026143d985d4ba1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">DoxCompoundKindEnum</ref></type>
-        <definition>DoxCompoundKindEnum MdDox::Doxygen::DoxCompoundKind::get</definition>
-        <argsstring>(const String &amp;)</argsstring>
-        <name>get</name>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <defname>look</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/DoxCompoundKind.h" line="134" column="1" bodyfile="Tools/Doxygen/DoxCompoundKind.cpp" bodystart="30" bodyend="67"/>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a62d9911613fef621427568c486495d4c" compoundref="a00488" startline="63">MdDox::Doxygen::DCK_CLASS</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a7ad4ae6d7976453b64ef8a0791b0158e" compoundref="a00488" startline="67">MdDox::Doxygen::DCK_INTERFACE</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759ad01b6adae675a6349479b37cc0f65366" compoundref="a00488" startline="71">MdDox::Doxygen::DCK_NAMESPACE</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a2b3a3f717dea394ec4ae149f613b9042" compoundref="a00488" startline="75">MdDox::Doxygen::DCK_STRUCT</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a59237cda618d0e1f1833529c99f4148e" compoundref="a00488" startline="79">MdDox::Doxygen::DCK_SERVICE</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a706740e90560c5071cf7619921bbf7ec" compoundref="a00488" startline="83">MdDox::Doxygen::DCK_UNION</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759aa0c1d26563110b2bf14e492472f4602f" compoundref="a00488" startline="87">MdDox::Doxygen::DCK_PROTOCOL</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759ad96aac392b0092d981faddc1765edaec" compoundref="a00488" startline="91">MdDox::Doxygen::DCK_CATEGORY</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a983745cc5e0a14fdc9e107ad995ab69f" compoundref="a00488" startline="95">MdDox::Doxygen::DCK_PAGE</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a22ee676f334849e444ea683a58ba372f" compoundref="a00488" startline="99">MdDox::Doxygen::DCK_EXCEPTION</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a28e9f146dd80ee4d35ffccd9cb060bd4" compoundref="a00488" startline="103">MdDox::Doxygen::DCK_SINGLETON</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759add3f99e1b666270b36faa4205be36081" compoundref="a00488" startline="107">MdDox::Doxygen::DCK_MODULE</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759ab423cb91da1b34fecccffb8ff7b5a3f7" compoundref="a00488" startline="111">MdDox::Doxygen::DCK_TYPE</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a4a255089d57c59b114e5c097444f468b" compoundref="a00488" startline="115">MdDox::Doxygen::DCK_FILE</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a99ca1a5e5560f707207d20393f94003a" compoundref="a00488" startline="119">MdDox::Doxygen::DCK_GROUP</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759a1786e8b407322c496997f045c7abf9e1" compoundref="a00488" startline="123">MdDox::Doxygen::DCK_EXAMPLE</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759af5700e85d79c43fdcf2fbf0da2599d43" compoundref="a00488" startline="127">MdDox::Doxygen::DCK_DIR</references>
-        <references refid="a00991_1ad8ad9f92594486e7bf4e3a37b030a759aa5e51775c781d51afe7643b05f7bd886" compoundref="a00488" startline="59">MdDox::Doxygen::DCK_INVALID</references>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a01355" kind="file" language="C++">
+    <compoundname>DoxImageKind.cpp</compoundname>
+    <includes refid="a01358" local="yes">DoxImageKind.h</includes>
+    <includes refid="a01184" local="yes">Utils/Exception.h</includes>
+    <includes refid="a01181" local="yes">Utils/Console.h</includes>
+    <incdepgraph>
+      <node id="5410">
+        <label>Utils/Console.h</label>
+        <childnode refid="5398" relation="include">
+        </childnode>
+      </node>
+      <node id="5404">
+        <label>iomanip</label>
+      </node>
+      <node id="5396">
+        <label>functional</label>
+      </node>
+      <node id="5406">
+        <label>Utils/Exception.h</label>
+        <childnode refid="5407" relation="include">
+        </childnode>
+        <childnode refid="5408" relation="include">
+        </childnode>
+        <childnode refid="5409" relation="include">
+        </childnode>
+        <childnode refid="5410" relation="include">
+        </childnode>
+        <childnode refid="5398" relation="include">
+        </childnode>
+      </node>
+      <node id="5394">
+        <label>DoxImageKind.h</label>
+        <childnode refid="5395" relation="include">
+        </childnode>
+      </node>
+      <node id="5408">
+        <label>stdexcept</label>
+      </node>
+      <node id="5402">
+        <label>string</label>
+      </node>
+      <node id="5395">
+        <label>Doxygen.h</label>
+        <childnode refid="5396" relation="include">
+        </childnode>
+        <childnode refid="5397" relation="include">
+        </childnode>
+        <childnode refid="5398" relation="include">
+        </childnode>
+        <childnode refid="5405" relation="include">
+        </childnode>
+        <childnode refid="5406" relation="include">
+        </childnode>
+      </node>
+      <node id="5407">
+        <label>exception</label>
+      </node>
+      <node id="5400">
+        <label>fstream</label>
+      </node>
+      <node id="5405">
+        <label>Xml/Node.h</label>
+        <childnode refid="5396" relation="include">
+        </childnode>
+        <childnode refid="5397" relation="include">
+        </childnode>
+        <childnode refid="5398" relation="include">
+        </childnode>
+      </node>
+      <node id="5398">
+        <label>Utils/String.h</label>
+        <childnode refid="5399" relation="include">
+        </childnode>
+        <childnode refid="5400" relation="include">
+        </childnode>
+        <childnode refid="5401" relation="include">
+        </childnode>
+        <childnode refid="5402" relation="include">
+        </childnode>
+        <childnode refid="5397" relation="include">
+        </childnode>
+        <childnode refid="5403" relation="include">
+        </childnode>
+        <childnode refid="5404" relation="include">
+        </childnode>
+      </node>
+      <node id="5403">
+        <label>vector</label>
+      </node>
+      <node id="5409">
+        <label>utility</label>
+      </node>
+      <node id="5401">
+        <label>sstream</label>
+      </node>
+      <node id="5399">
+        <label>deque</label>
+      </node>
+      <node id="5397">
+        <label>unordered_map</label>
+      </node>
+      <node id="5393">
+        <label>Tools/Doxygen/DoxImageKind.cpp</label>
+        <link refid="a01355"/>
+        <childnode refid="5394" relation="include">
+        </childnode>
+        <childnode refid="5406" relation="include">
+        </childnode>
+        <childnode refid="5410" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Tools/Doxygen/DoxCompoundKind.h" line="132" column="1" bodyfile="Tools/Doxygen/DoxCompoundKind.h" bodystart="131" bodyend="135"/>
-    <listofallmembers>
-      <member refid="a01355_1a87e35757d67cddda1026143d985d4ba1" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::DoxCompoundKind</scope><name>get</name></member>
-    </listofallmembers>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DoxImageKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Exception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Console.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30" refid="a02219_1a3f9dbedc3ecced5cd670164796b78e14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01843_1a0a7b852b65e142f0ea8ecd63815a49b6" kindref="member">DoxImageKindEnum</ref><sp/><ref refid="a02219_1a3f9dbedc3ecced5cd670164796b78e14" kindref="member">DoxImageKind::get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>&amp;look)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(look<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;html&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1a0a7b852b65e142f0ea8ecd63815a49b6a115343b5e42cb9f67028a7cadb709199" kindref="member" tooltip="Definition for the DoxImageKind.html value. ">DIK_HTML</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(look<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;latex&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1a0a7b852b65e142f0ea8ecd63815a49b6a776d6b285e4ee4aba9b2e709a6a23bdd" kindref="member" tooltip="Definition for the DoxImageKind.latex value. ">DIK_LATEX</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(look<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;rtf&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1a0a7b852b65e142f0ea8ecd63815a49b6a5554e1244e2d9e39daf44f4edf992284" kindref="member" tooltip="Definition for the DoxImageKind.rtf value. ">DIK_RTF</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1a0a7b852b65e142f0ea8ecd63815a49b6a63b1d9ac7883071b8d05b4a2861ec7c0" kindref="member">DIK_INVALID</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/DoxImageKind.cpp"/>
   </compounddef>
 </doxygen>

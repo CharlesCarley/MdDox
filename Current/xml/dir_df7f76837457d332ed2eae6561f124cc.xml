@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_df7f76837457d332ed2eae6561f124cc" kind="dir">
     <compoundname>Source/Utils/Win32</compoundname>
-    <innerfile refid="a00386">CrtUtils.cpp</innerfile>
-    <innerfile refid="a00389">CrtUtils.h</innerfile>
+    <innerfile refid="a01238">CrtUtils.cpp</innerfile>
+    <innerfile refid="a01241">CrtUtils.h</innerfile>
     <briefdescription>
 <para>Contains platform dependent code to test for unallocated memory. </para>    </briefdescription>
     <detaileddescription>

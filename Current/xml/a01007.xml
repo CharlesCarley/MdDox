@@ -1,800 +1,361 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01007" kind="class" language="C++" prot="public" final="yes">
-    <compoundname>MdDox::ClassPageWriter</compoundname>
-    <basecompoundref refid="a01103" prot="public" virt="non-virtual">MdDox::PageWriter</basecompoundref>
-    <includes local="no">Source/MdDoxTree/ClassPageWriter.h</includes>
-      <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="a01007_1a8f4bafa7b7dcf75796ac2a6054027abb" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::ClassPageWriter::_baseInit</definition>
-        <argsstring></argsstring>
-        <name>_baseInit</name>
-        <initializer>{false}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="a01007_1a21e4581ad277c15d55e61a561d63cb76" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MdDox::ClassPageWriter::_deriveInit</definition>
-        <argsstring></argsstring>
-        <name>_deriveInit</name>
-        <initializer>{false}</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
-      <memberdef kind="function" id="a01007_1a8f73f1cb18b7e7ec1afd8f9c3c94cc91" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::notifyBriefDescription</definition>
-        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
-        <name>notifyBriefDescription</name>
-        <reimplements refid="a01103_1a92b457f94cf847bb021dbacd0d292579">notifyBriefDescription</reimplements>
-        <param>
-          <type>const <ref refid="a01339" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="81" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="172" bodyend="175"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a0bc06fa770308bc08c13c200cb0793dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::notifyDetailDescription</definition>
-        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
-        <name>notifyDetailDescription</name>
-        <reimplements refid="a01103_1a4af6fb6bc18922ccfe3df4688f0c625e">notifyDetailDescription</reimplements>
-        <param>
-          <type>const <ref refid="a01339" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="85" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="167" bodyend="170"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a5a812fc72f9826de858b822e6ea8d308" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::notifyDetailDescriptionHeading</definition>
-        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
-        <name>notifyDetailDescriptionHeading</name>
-        <reimplements refid="a01103_1a34a7cd04b8e56c0c65d11084e1951d34">notifyDetailDescriptionHeading</reimplements>
-        <param>
-          <type>const <ref refid="a01339" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="83" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="162" bodyend="165"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a4a1cb00a84c2006d7a21bf7be2eb498b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::preSortQuery</definition>
-        <argsstring>(const Doxygen::CompoundDefQuery &amp;query) override</argsstring>
-        <name>preSortQuery</name>
-        <reimplements refid="a01103_1a85da1c3da15b04352ddaeb0fb877ce8c">preSortQuery</reimplements>
-        <param>
-          <type>const <ref refid="a01311" kindref="compound">Doxygen::CompoundDefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="79" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="177" bodyend="195"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a5dd2797b3932ac98d21d0d8816c6d451" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedBaseCompoundRef</definition>
-        <argsstring>(const Doxygen::CompoundRefQuery &amp;query) override</argsstring>
-        <name>visitedBaseCompoundRef</name>
-        <reimplements refid="a01307_1a61b8487366558ce7cd7749ad7baee3ac">visitedBaseCompoundRef</reimplements>
-        <param>
-          <type>const <ref refid="a01323" kindref="compound">Doxygen::CompoundRefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>basecompoundref</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the CompoundRefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="50" bodyend="59"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a5b80da8a8547f5b15966d08a997eff9a" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedCollaborationGraph</definition>
-        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
-        <name>visitedCollaborationGraph</name>
-        <reimplements refid="a01307_1a07b21a15f65d8614859140fc71579e39">visitedCollaborationGraph</reimplements>
-        <param>
-          <type>const <ref refid="a01471" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>collaborationgraph</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the GraphQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="133" bodyend="136"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1acb373e835ec95dd0117bc38a61073dbe" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedCompoundName</definition>
-        <argsstring>(const String &amp;text) override</argsstring>
-        <name>visitedCompoundName</name>
-        <reimplements refid="a01307_1ab9b0bbbcc61d79676ab6ca42ee73cef2">visitedCompoundName</reimplements>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>compoundname</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="72" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="45" bodyend="48"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a415ff5d1ce6e51b9b191dd323f77f3af" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedDerivedCompoundRef</definition>
-        <argsstring>(const Doxygen::CompoundRefQuery &amp;query) override</argsstring>
-        <name>visitedDerivedCompoundRef</name>
-        <reimplements refid="a01307_1a75a893e5819d6bd49e5e0005d8c8dadc">visitedDerivedCompoundRef</reimplements>
-        <param>
-          <type>const <ref refid="a01323" kindref="compound">Doxygen::CompoundRefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>derivedcompoundref</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the CompoundRefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="61" bodyend="70"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a9f313f16a5105f0bff0f09b6ffdf74a8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedIncDepGraph</definition>
-        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
-        <name>visitedIncDepGraph</name>
-        <reimplements refid="a01307_1af52e424ab412bc68bfb5f973b7b5b27c">visitedIncDepGraph</reimplements>
-        <param>
-          <type>const <ref refid="a01471" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>incdepgraph</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the GraphQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="112" bodyend="115"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1aef006e533167b0b56e3fbb9b0c141ae1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedIncludedBy</definition>
-        <argsstring>(const Doxygen::IncQuery &amp;query) override</argsstring>
-        <name>visitedIncludedBy</name>
-        <reimplements refid="a01307_1aaa0b3a67ada1b58bd4059ac320f15eab">visitedIncludedBy</reimplements>
-        <param>
-          <type>const <ref refid="a01499" kindref="compound">Doxygen::IncQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>includedby</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the IncQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="77" bodyend="80"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1afc0097c6bfabd17613398f52bf810d7c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedIncludes</definition>
-        <argsstring>(const Doxygen::IncQuery &amp;query) override</argsstring>
-        <name>visitedIncludes</name>
-        <reimplements refid="a01307_1ad2da872ba085491d223264276737a8e7">visitedIncludes</reimplements>
-        <param>
-          <type>const <ref refid="a01499" kindref="compound">Doxygen::IncQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>includes</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the IncQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="72" bodyend="75"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1ac7811400097404d8d21063422b48dd8b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedInheritanceGraph</definition>
-        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
-        <name>visitedInheritanceGraph</name>
-        <reimplements refid="a01307_1a60616523a9a6cd3aff6897862cb5c14b">visitedInheritanceGraph</reimplements>
-        <param>
-          <type>const <ref refid="a01471" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>inheritancegraph</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the GraphQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="127" bodyend="131"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1ae844ae18453b21220e8b1d7d9bdedcde" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedInnerClass</definition>
-        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
-        <name>visitedInnerClass</name>
-        <reimplements refid="a01307_1a2b27eae2f46b53f204c8174a54207175">visitedInnerClass</reimplements>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innerclass</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the RefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="50" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="92" bodyend="95"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a4aa91fc8cbe34bb5eaa9de700b6d3900" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedInnerDir</definition>
-        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
-        <name>visitedInnerDir</name>
-        <reimplements refid="a01307_1a5072b0b483becf3b84daf42925b80853">visitedInnerDir</reimplements>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innerdir</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the RefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="82" bodyend="85"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a01b6644a8c73ff5901fe8aa921be378c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedInnerFile</definition>
-        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
-        <name>visitedInnerFile</name>
-        <reimplements refid="a01307_1ad2e10284bb8208420841a0849375db05">visitedInnerFile</reimplements>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innerfile</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the RefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="87" bodyend="90"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1adaaae97bcba75233e4c2d302926d76b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedInnerGroup</definition>
-        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
-        <name>visitedInnerGroup</name>
-        <reimplements refid="a01307_1a74899cd76eb6db5a8ee59146c77b07b3">visitedInnerGroup</reimplements>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innergroup</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the RefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="56" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="107" bodyend="110"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1ab09afee50cf5ad20c82d110593ec19f8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedInnerNamespace</definition>
-        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
-        <name>visitedInnerNamespace</name>
-        <reimplements refid="a01307_1a97bac53ff2623f83712993ab2f5ae852">visitedInnerNamespace</reimplements>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innernamespace</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the RefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="97" bodyend="100"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1addd339c6b74e27b2ee537474a3d3e7b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedInnerPage</definition>
-        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
-        <name>visitedInnerPage</name>
-        <reimplements refid="a01307_1ab79909c80676fc9bccbb6e431ba412c2">visitedInnerPage</reimplements>
-        <param>
-          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>innerpage</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the RefQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="102" bodyend="105"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a36651f0a2dd4f8a6abaf38ef277bc7e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedInvIncDepGraph</definition>
-        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
-        <name>visitedInvIncDepGraph</name>
-        <reimplements refid="a01307_1a728a5f23cbb39f768d46e4c9e7314ecb">visitedInvIncDepGraph</reimplements>
-        <param>
-          <type>const <ref refid="a01471" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>invincdepgraph</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the GraphQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="117" bodyend="120"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a5d3fc55feded32356046c2fdfe6711de" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedLocation</definition>
-        <argsstring>(const Doxygen::LocationQuery &amp;query) override</argsstring>
-        <name>visitedLocation</name>
-        <reimplements refid="a01307_1ab432daf1eec44809f0140f9140509532">visitedLocation</reimplements>
-        <param>
-          <type>const <ref refid="a01599" kindref="compound">Doxygen::LocationQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>location</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the LocationQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="70" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="143" bodyend="150"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a0dd7ffa920914e52007d3216a3b65cf2" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedProgramListing</definition>
-        <argsstring>(const Doxygen::ListingQuery &amp;query) override</argsstring>
-        <name>visitedProgramListing</name>
-        <reimplements refid="a01307_1af838f90479d190c3d25be240f05a9c6c">visitedProgramListing</reimplements>
-        <param>
-          <type>const <ref refid="a01571" kindref="compound">Doxygen::ListingQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>programlisting</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the ListingQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="68" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="138" bodyend="141"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a8d7c06dcdc567be33ac5fd941b361753" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedTableOfContents</definition>
-        <argsstring>(const String &amp;text) override</argsstring>
-        <name>visitedTableOfContents</name>
-        <reimplements refid="a01307_1a2008b336a42ef282667002b5fb39eae5">visitedTableOfContents</reimplements>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>tableofcontents</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="76" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="157" bodyend="160"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1a113b00d9671b56d5f239d7b9b5726683" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedTemplateParamList</definition>
-        <argsstring>(const Doxygen::TemplateParamListQuery &amp;query) override</argsstring>
-        <name>visitedTemplateParamList</name>
-        <reimplements refid="a01307_1a5d0ceb3437dac0e5f9da19bf6762b3ba">visitedTemplateParamList</reimplements>
-        <param>
-          <type>const <ref refid="a01787" kindref="compound">Doxygen::TemplateParamListQuery</ref> &amp;</type>
-          <declname>query</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>templateparamlist</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>query</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the TemplateParamListQuery class. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="62" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="122" bodyend="125"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1ae70d5a14e9f16b0c1d471a6058cff704" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::ClassPageWriter::visitedTitle</definition>
-        <argsstring>(const String &amp;text) override</argsstring>
-        <name>visitedTitle</name>
-        <reimplements refid="a01307_1a4f31cf429855fdbc0a9b38a16f18e68b">visitedTitle</reimplements>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
-        </param>
-        <briefdescription>
-<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Const reference to the internal text. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="74" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="152" bodyend="155"/>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01007_1a9f99dbdfd13e3350735ec146b10817fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::ClassPageWriter::ClassPageWriter</definition>
-        <argsstring>(DocumentWriter *writer, const Reference &amp;ref, const PathUtil &amp;out)</argsstring>
-        <name>ClassPageWriter</name>
-        <param>
-          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
-          <declname>writer</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a01127" kindref="compound">Reference</ref> &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a01239" kindref="compound">PathUtil</ref> &amp;</type>
-          <declname>out</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="89" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.cpp" bodystart="38" bodyend="43"/>
-      </memberdef>
-      <memberdef kind="function" id="a01007_1aa8592f0f4eca3dad3f1ff9794256426e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::ClassPageWriter::~ClassPageWriter</definition>
-        <argsstring>() override=default</argsstring>
-        <name>~ClassPageWriter</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/ClassPageWriter.h" line="91" column="1"/>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a01007" kind="file" language="C++">
+    <compoundname>LocationWriter.cpp</compoundname>
+    <includes refid="a01010" local="yes">MdDoxTree/LocationWriter.h</includes>
+    <includes refid="a00938" local="yes">DocumentWriter.h</includes>
+    <includes refid="a01292" local="yes">Doxygen/CompoundDefQuery.h</includes>
+    <includes refid="a00974" local="yes">MdDoxTree/HashUtils.h</includes>
+    <includes refid="a01127" local="yes">MdDoxTree/SiteBuilder.h</includes>
+    <includes refid="a01139" local="yes">MdDoxTree/WriteUtils.h</includes>
+    <includes refid="a01220" local="yes">Utils/Path.h</includes>
+    <includes refid="a01145" local="yes">TypeFilter/DoxygenFilter.h</includes>
+    <incdepgraph>
+      <node id="1040">
+        <label>Utils/Console.h</label>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1034">
+        <label>iomanip</label>
+      </node>
+      <node id="1026">
+        <label>functional</label>
+      </node>
+      <node id="1057">
+        <label>Utils/Path.h</label>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1060">
+        <label>cstdint</label>
+      </node>
+      <node id="1036">
+        <label>Utils/Exception.h</label>
+        <childnode refid="1037" relation="include">
+        </childnode>
+        <childnode refid="1038" relation="include">
+        </childnode>
+        <childnode refid="1039" relation="include">
+        </childnode>
+        <childnode refid="1040" relation="include">
+        </childnode>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1047">
+        <label>DoxLanguage.h</label>
+        <childnode refid="1025" relation="include">
+        </childnode>
+      </node>
+      <node id="1038">
+        <label>stdexcept</label>
+      </node>
+      <node id="1032">
+        <label>string</label>
+      </node>
+      <node id="1025">
+        <label>Doxygen.h</label>
+        <childnode refid="1026" relation="include">
+        </childnode>
+        <childnode refid="1027" relation="include">
+        </childnode>
+        <childnode refid="1028" relation="include">
+        </childnode>
+        <childnode refid="1035" relation="include">
+        </childnode>
+        <childnode refid="1036" relation="include">
+        </childnode>
+      </node>
+      <node id="1037">
+        <label>exception</label>
+      </node>
+      <node id="1030">
+        <label>fstream</label>
+      </node>
+      <node id="1051">
+        <label>MdDoxTree/SiteBuilder.h</label>
+        <childnode refid="1027" relation="include">
+        </childnode>
+        <childnode refid="1046" relation="include">
+        </childnode>
+        <childnode refid="1052" relation="include">
+        </childnode>
+        <childnode refid="1053" relation="include">
+        </childnode>
+        <childnode refid="1055" relation="include">
+        </childnode>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1023">
+        <label>MdDoxTree/LocationWriter.h</label>
+        <childnode refid="1024" relation="include">
+        </childnode>
+      </node>
+      <node id="1042">
+        <label>IconSet.h</label>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1035">
+        <label>Xml/Node.h</label>
+        <childnode refid="1026" relation="include">
+        </childnode>
+        <childnode refid="1027" relation="include">
+        </childnode>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1041">
+        <label>DocumentWriter.h</label>
+        <childnode refid="1042" relation="include">
+        </childnode>
+        <childnode refid="1043" relation="include">
+        </childnode>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1045">
+        <label>Doxygen/CompoundDefQuery.h</label>
+        <childnode refid="1025" relation="include">
+        </childnode>
+        <childnode refid="1046" relation="include">
+        </childnode>
+        <childnode refid="1047" relation="include">
+        </childnode>
+        <childnode refid="1048" relation="include">
+        </childnode>
+        <childnode refid="1049" relation="include">
+        </childnode>
+      </node>
+      <node id="1050">
+        <label>MdDoxTree/HashUtils.h</label>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1048">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="1025" relation="include">
+        </childnode>
+      </node>
+      <node id="1052">
+        <label>Doxygen/DoxMemberKind.h</label>
+        <childnode refid="1025" relation="include">
+        </childnode>
+      </node>
+      <node id="1053">
+        <label>ReferenceIdentifiers.h</label>
+        <childnode refid="1046" relation="include">
+        </childnode>
+        <childnode refid="1052" relation="include">
+        </childnode>
+        <childnode refid="1054" relation="include">
+        </childnode>
+      </node>
+      <node id="1028">
+        <label>Utils/String.h</label>
+        <childnode refid="1029" relation="include">
+        </childnode>
+        <childnode refid="1030" relation="include">
+        </childnode>
+        <childnode refid="1031" relation="include">
+        </childnode>
+        <childnode refid="1032" relation="include">
+        </childnode>
+        <childnode refid="1027" relation="include">
+        </childnode>
+        <childnode refid="1033" relation="include">
+        </childnode>
+        <childnode refid="1034" relation="include">
+        </childnode>
+      </node>
+      <node id="1024">
+        <label>Doxygen/LocationQuery.h</label>
+        <childnode refid="1025" relation="include">
+        </childnode>
+      </node>
+      <node id="1033">
+        <label>vector</label>
+      </node>
+      <node id="1039">
+        <label>utility</label>
+      </node>
+      <node id="1031">
+        <label>sstream</label>
+      </node>
+      <node id="1056">
+        <label>MdDoxTree/WriteUtils.h</label>
+        <childnode refid="1042" relation="include">
+        </childnode>
+        <childnode refid="1054" relation="include">
+        </childnode>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1058">
+        <label>TypeFilter/DoxygenFilter.h</label>
+        <childnode refid="1059" relation="include">
+        </childnode>
+      </node>
+      <node id="1043">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="1044" relation="include">
+        </childnode>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1029">
+        <label>deque</label>
+      </node>
+      <node id="1055">
+        <label>Utils/Config.h</label>
+        <childnode refid="1028" relation="include">
+        </childnode>
+        <childnode refid="1035" relation="include">
+        </childnode>
+      </node>
+      <node id="1027">
+        <label>unordered_map</label>
+      </node>
+      <node id="1022">
+        <label>Source/MdDoxTree/LocationWriter.cpp</label>
+        <link refid="a01007"/>
+        <childnode refid="1023" relation="include">
+        </childnode>
+        <childnode refid="1041" relation="include">
+        </childnode>
+        <childnode refid="1045" relation="include">
+        </childnode>
+        <childnode refid="1050" relation="include">
+        </childnode>
+        <childnode refid="1051" relation="include">
+        </childnode>
+        <childnode refid="1056" relation="include">
+        </childnode>
+        <childnode refid="1057" relation="include">
+        </childnode>
+        <childnode refid="1058" relation="include">
+        </childnode>
+      </node>
+      <node id="1059">
+        <label>Utils/TypeFilter.h</label>
+        <childnode refid="1060" relation="include">
+        </childnode>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1049">
+        <label>DoxBool.h</label>
+        <childnode refid="1025" relation="include">
+        </childnode>
+      </node>
+      <node id="1046">
+        <label>DoxCompoundKind.h</label>
+        <childnode refid="1025" relation="include">
+        </childnode>
+      </node>
+      <node id="1054">
+        <label>Reference.h</label>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+      <node id="1044">
+        <label>experimental/filesystem</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="a01838">MdDox</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <inheritancegraph>
-      <node id="7">
-        <label>MdDox::PageWriter</label>
-        <link refid="a01103"/>
-        <childnode refid="8" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
-        <link refid="a01307"/>
-      </node>
-      <node id="6">
-        <label>MdDox::ClassPageWriter</label>
-        <link refid="a01007"/>
-        <childnode refid="7" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="13">
-        <label>MdDox::DocumentWriter</label>
-        <link refid="a01019"/>
-      </node>
-      <node id="10">
-        <label>MdDox::PageWriter</label>
-        <link refid="a01103"/>
-        <childnode refid="11" relation="public-inheritance">
-        </childnode>
-        <childnode refid="12" relation="usage">
-          <edgelabel>_sections</edgelabel>
-        </childnode>
-        <childnode refid="13" relation="usage">
-          <edgelabel>_writer</edgelabel>
-        </childnode>
-        <childnode refid="14" relation="usage">
-          <edgelabel>_inDir</edgelabel>
-          <edgelabel>_outDir</edgelabel>
-        </childnode>
-        <childnode refid="15" relation="usage">
-          <edgelabel>_ref</edgelabel>
-        </childnode>
-        <childnode refid="17" relation="usage">
-          <edgelabel>_out</edgelabel>
-        </childnode>
-      </node>
-      <node id="16">
-        <label>string</label>
-      </node>
-      <node id="17">
-        <label>ofstream</label>
-      </node>
-      <node id="11">
-        <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
-        <link refid="a01307"/>
-      </node>
-      <node id="9">
-        <label>MdDox::ClassPageWriter</label>
-        <link refid="a01007"/>
-        <childnode refid="10" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>vector&lt; Node *&gt;</label>
-      </node>
-      <node id="14">
-        <label>MdDox::PathUtil</label>
-        <link refid="a01239"/>
-      </node>
-      <node id="15">
-        <label>MdDox::Reference</label>
-        <link refid="a01127"/>
-        <childnode refid="16" relation="usage">
-          <edgelabel>_ref</edgelabel>
-          <edgelabel>_name</edgelabel>
-        </childnode>
-      </node>
-    </collaborationgraph>
-    <location file="Source/MdDoxTree/ClassPageWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/ClassPageWriter.h" bodystart="31" bodyend="92"/>
-    <listofallmembers>
-      <member refid="a01007_1a8f4bafa7b7dcf75796ac2a6054027abb" prot="private" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_baseInit</name></member>
-      <member refid="a01007_1a21e4581ad277c15d55e61a561d63cb76" prot="private" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_deriveInit</name></member>
-      <member refid="a01103_1ac012825bbcafe1452762c50cd2d35037" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_inDir</name></member>
-      <member refid="a01103_1a1fd2e2d5dddec4f47bb5c229d79c6229" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_out</name></member>
-      <member refid="a01103_1a3199dcb45dcad5468a8b8a1060bd25ec" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_outDir</name></member>
-      <member refid="a01103_1acc94668f2fc82e437e3f7f79f3dda0ae" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_ref</name></member>
-      <member refid="a01103_1a4c7ba3bc919a40013541f6c409781d01" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_sections</name></member>
-      <member refid="a01103_1a95e0ecf4368ab7b570ab15f4e17fd9a5" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>_writer</name></member>
-      <member refid="a01007_1a9f99dbdfd13e3350735ec146b10817fe" prot="public" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>ClassPageWriter</name></member>
-      <member refid="a01103_1a51f4ed154feeb26e6a5ed4e940d53377" prot="public" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>exec</name></member>
-      <member refid="a01007_1a8f73f1cb18b7e7ec1afd8f9c3c94cc91" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>notifyBriefDescription</name></member>
-      <member refid="a01007_1a0bc06fa770308bc08c13c200cb0793dc" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>notifyDetailDescription</name></member>
-      <member refid="a01007_1a5a812fc72f9826de858b822e6ea8d308" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>notifyDetailDescriptionHeading</name></member>
-      <member refid="a01103_1a7b84542c57c02926a9930f35bc95fc47" prot="public" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>PageWriter</name></member>
-      <member refid="a01007_1a4a1cb00a84c2006d7a21bf7be2eb498b" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>preSortQuery</name></member>
-      <member refid="a01007_1a5dd2797b3932ac98d21d0d8816c6d451" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedBaseCompoundRef</name></member>
-      <member refid="a01103_1a7160540760aa919d69427ad74df8ebc5" prot="protected" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedBriefDescription</name></member>
-      <member refid="a01007_1a5b80da8a8547f5b15966d08a997eff9a" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedCollaborationGraph</name></member>
-      <member refid="a01007_1acb373e835ec95dd0117bc38a61073dbe" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedCompoundName</name></member>
-      <member refid="a01007_1a415ff5d1ce6e51b9b191dd323f77f3af" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedDerivedCompoundRef</name></member>
-      <member refid="a01103_1a59596c8bb00a0e5b7c8e57a23e4594df" prot="protected" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedDetailedDescription</name></member>
-      <member refid="a01007_1a9f313f16a5105f0bff0f09b6ffdf74a8" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedIncDepGraph</name></member>
-      <member refid="a01007_1aef006e533167b0b56e3fbb9b0c141ae1" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedIncludedBy</name></member>
-      <member refid="a01007_1afc0097c6bfabd17613398f52bf810d7c" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedIncludes</name></member>
-      <member refid="a01007_1ac7811400097404d8d21063422b48dd8b" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInheritanceGraph</name></member>
-      <member refid="a01007_1ae844ae18453b21220e8b1d7d9bdedcde" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerClass</name></member>
-      <member refid="a01007_1a4aa91fc8cbe34bb5eaa9de700b6d3900" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerDir</name></member>
-      <member refid="a01007_1a01b6644a8c73ff5901fe8aa921be378c" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerFile</name></member>
-      <member refid="a01007_1adaaae97bcba75233e4c2d302926d76b1" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerGroup</name></member>
-      <member refid="a01007_1ab09afee50cf5ad20c82d110593ec19f8" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerNamespace</name></member>
-      <member refid="a01007_1addd339c6b74e27b2ee537474a3d3e7b1" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInnerPage</name></member>
-      <member refid="a01007_1a36651f0a2dd4f8a6abaf38ef277bc7e8" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedInvIncDepGraph</name></member>
-      <member refid="a01307_1a13689b56851840c15903ed8320968695" prot="public" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedListOfAllMembers</name></member>
-      <member refid="a01007_1a5d3fc55feded32356046c2fdfe6711de" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedLocation</name></member>
-      <member refid="a01007_1a0dd7ffa920914e52007d3216a3b65cf2" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedProgramListing</name></member>
-      <member refid="a01103_1a1797bd939c1c708fe68fc62caf3f208f" prot="protected" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedSectionDef</name></member>
-      <member refid="a01007_1a8d7c06dcdc567be33ac5fd941b361753" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedTableOfContents</name></member>
-      <member refid="a01007_1a113b00d9671b56d5f239d7b9b5726683" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedTemplateParamList</name></member>
-      <member refid="a01307_1aae60bad7f1b3cf035e71eedba8e55ba3" prot="public" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedText</name></member>
-      <member refid="a01007_1ae70d5a14e9f16b0c1d471a6058cff704" prot="private" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>visitedTitle</name></member>
-      <member refid="a01103_1a09b77ba57a73bbc653a7ca5b04b35ecf" prot="protected" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>writeDetails</name></member>
-      <member refid="a01007_1aa8592f0f4eca3dad3f1ff9794256426e" prot="public" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>~ClassPageWriter</name></member>
-      <member refid="a01307_1a128fb87d0a9bae23d3be69e2904330a9" prot="public" virt="virtual"><scope>MdDox::ClassPageWriter</scope><name>~CompoundDefQueryVisitor</name></member>
-      <member refid="a01103_1adcae154a36099ba1f1895758b128252e" prot="public" virt="non-virtual"><scope>MdDox::ClassPageWriter</scope><name>~PageWriter</name></member>
-    </listofallmembers>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/LocationWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DocumentWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/CompoundDefQuery.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/HashUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/SiteBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/WriteUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Path.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TypeFilter/DoxygenFilter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33" refid="a01927_1a6b3e37b191b2112b5aec7308b3533ece" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01927_1a6b3e37b191b2112b5aec7308b3533ece" kindref="member">LocationWriter::LocationWriter</ref>(<ref refid="a01871" kindref="compound" tooltip="Interface for writing a custom back-end document. ">DocumentWriter</ref>*<sp/>writer,<sp/><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>*<sp/>out)<sp/>:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer(writer),</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_stream(out)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="a01927_1a50b9e5fa07ec18956f2c7761c787cb92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01927_1a50b9e5fa07ec18956f2c7761c787cb92" kindref="member">LocationWriter::write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02451" kindref="compound" tooltip="Implements the locationType scaffolding. ">Doxygen::LocationQuery</ref>&amp;<sp/>query)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><sp/><sp/>decl<sp/><sp/><sp/><sp/><sp/>=<sp/>query.<ref refid="a02451_1a27a144259da294a167d424f007bbf31b" kindref="member" tooltip="Provides access to the file attribute. ">getFile</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><sp/><sp/>impl<sp/><sp/><sp/><sp/><sp/>=<sp/>query.<ref refid="a02451_1acc6307af92b229be442f2516e60dd942" kindref="member" tooltip="Provides access to the bodyfile attribute. ">getBodyFile</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t&amp;<sp/>declLine<sp/>=<sp/>(uint32_t)query.<ref refid="a02451_1a6a8703060d4afdceceea8c212a9e9e85" kindref="member" tooltip="Provides access to the line attribute. ">getLine</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t&amp;<sp/>implLine<sp/>=<sp/>(uint32_t)query.<ref refid="a02451_1a325ddd25202ab7653bc2383165ff014a" kindref="member" tooltip="Provides access to the bodystart attribute. ">getBodyStart</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>hasDecl<sp/>=<sp/>!decl.empty();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>hasImpl<sp/>=<sp/>!impl.empty()<sp/>&amp;&amp;<sp/>impl<sp/>!=<sp/>decl;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hasDecl<sp/>||<sp/>hasImpl)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02019" kindref="compound" tooltip="The site builder runs the main loop, and provides static access to properties during the build stage...">SiteBuilder</ref>&amp;<sp/>builder<sp/>=<sp/><ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="a01871_1a2f743defa2378643d75f55989cc54319" kindref="member" tooltip="Implementations should start a subsection of the body. ">addSection</ref>(_out,<sp/></highlight><highlight class="stringliteral">&quot;Defined<sp/>in&quot;</highlight><highlight class="normal">,<sp/>4);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hasDecl)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>url<sp/>=<sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(builder.<ref refid="a02019_1ab3d27ff9347009b029054c1ab2bfc557" kindref="member" tooltip="Defined as ${siteUrl}/blob/master/ ">fileUrl</ref>,<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>decl,<sp/><ref refid="a01839_1a4a9cd5a09c91b2558f86e17c2d447999" kindref="member" tooltip="Constructs a line fragment. ">HashUtils::lineNumber</ref>(declLine));</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="a01871_1a9be820d4ab0e061e7344846e0ce3df87" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(_out,<sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" kindref="member">ICO_FILE</ref>,<sp/>url,<sp/><ref refid="a02091" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>(decl).fileName());</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hasImpl)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="a01871_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hasImpl)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>url<sp/>=<sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(builder.<ref refid="a02019_1ab3d27ff9347009b029054c1ab2bfc557" kindref="member" tooltip="Defined as ${siteUrl}/blob/master/ ">fileUrl</ref>,<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">,<sp/>impl,<sp/><ref refid="a01839_1a4a9cd5a09c91b2558f86e17c2d447999" kindref="member" tooltip="Constructs a line fragment. ">HashUtils::lineNumber</ref>(implLine));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="a01871_1a9be820d4ab0e061e7344846e0ce3df87" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(_out,<sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" kindref="member">ICO_FILE</ref>,<sp/>url,<sp/><ref refid="a02091" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>(impl).fileName());</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>root;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(query.<ref refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" kindref="member" tooltip="Checks to see if the internal node is usable. ">isValid</ref>())</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02163" kindref="compound" tooltip="Implements the compounddefType scaffolding. ">Doxygen::CompoundDefQuery</ref><sp/>cdq(query.<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>()-&gt;<ref refid="a02111_1a351e5efc578e2af82cec5e6edbfff72d" kindref="member">firstParentOf</ref>(<ref refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06af8cb21026e60adb7382ac5bcbe9d43a7" kindref="member">Doxygen::DoxCompoundDef</ref>));</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>root<sp/>=<sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(cdq.getCompoundName());</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>root<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;#&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="a01871_1aaf6f0b1cb7330218fb7e9cade49f951a" kindref="member" tooltip="Implementations write a line break. ">lineBreak</ref>(_out);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_writer-&gt;<ref refid="a01871_1a9be820d4ab0e061e7344846e0ce3df87" kindref="member" tooltip="Implementations should embed the predefined content icon as a link to the URL with text beside it...">embedContentLinkText</ref>(_out,<sp/><ref refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a326ed5ffe4f436e2dbf69e7c6311065b" kindref="member">ICO_JUMP_TO_TOP</ref>,<sp/>root,<sp/></highlight><highlight class="stringliteral">&quot;top&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01838_1abcedb5cde83c1d846f72a4e6c116924c" kindref="member">syncStream</ref>(_stream,<sp/>_out);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/MdDoxTree/LocationWriter.cpp"/>
   </compounddef>
 </doxygen>

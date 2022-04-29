@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02547" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::ParBlockQuery</compoundname>
+    <basecompoundref refid="a02267" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/ParBlockQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02547_1a0acae7756a253b07b03f97008458ee30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ParBlockQuery::ParBlockQuery</definition>
+        <argsstring>()=default</argsstring>
+        <name>ParBlockQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParBlockQuery.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02547_1a2f8bebe69b0c2163349d3cb8d7a45052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ParBlockQuery::ParBlockQuery</definition>
+        <argsstring>(const ParBlockQuery &amp;other)=default</argsstring>
+        <name>ParBlockQuery</name>
+        <param>
+          <type>const <ref refid="a02547" kindref="compound">ParBlockQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParBlockQuery.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02547_1a030cea6ac42be3da6664294bd5efb12d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ParBlockQuery::ParBlockQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>ParBlockQuery</name>
+        <param>
+          <type><ref refid="a02111" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParBlockQuery.h" line="67" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="a02547_1aa85c114f316b3aca0d200d34fa30ed68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParBlockQuery::foreachParagraph</definition>
+        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachParagraph</name>
+        <param>
+          <type>const <ref refid="a01843_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParBlockQuery.h" line="76" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.cpp" bodystart="49" bodyend="52"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+      </memberdef>
+      <memberdef kind="function" id="a02547_1ab85d49c4ebfedd1542eea86dd3c40e62" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParBlockQuery::visit</definition>
+        <argsstring>(Visitors::ParBlockQueryVisitor *) const</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="a02543" kindref="compound">Visitors::ParBlockQueryVisitor</ref> *</type>
+          <defname>visitor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParBlockQuery.h" line="72" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.cpp" bodystart="29" bodyend="48"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a01250" startline="270" endline="273">MdDox::Xml::Node::children</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="a01145" startline="31">MdDox::Doxygen::DoxTextNode</references>
+        <references refid="a02543_1a1df60e9a1afc62b55c16bfc5dd3620f8" compoundref="a01661" startline="38" endline="38">MdDox::Doxygen::Visitors::ParBlockQueryVisitor::visitedText</references>
+        <references refid="a02543_1a73ae6cd099de3978c75d3be849ba9026" compoundref="a01661" startline="43" endline="43">MdDox::Doxygen::Visitors::ParBlockQueryVisitor::visitedParagraph</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>docParBlockType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>docParBlockType</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docParBlockType&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;para&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docParaType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="389">
+        <label>MdDox::Doxygen::ParBlockQuery</label>
+        <link refid="a02547"/>
+        <childnode refid="390" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="390">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="393">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a02111"/>
+        <childnode refid="394" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="391">
+        <label>MdDox::Doxygen::ParBlockQuery</label>
+        <link refid="a02547"/>
+        <childnode refid="392" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="392">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+        <childnode refid="393" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="394">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/ParBlockQuery.h" line="62" column="1" bodyfile="Tools/Doxygen/ParBlockQuery.h" bodystart="61" bodyend="79"/>
+    <listofallmembers>
+      <member refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>_node</name></member>
+      <member refid="a02267_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>empty</name></member>
+      <member refid="a02547_1aa85c114f316b3aca0d200d34fa30ed68" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>foreachParagraph</name></member>
+      <member refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>isValid</name></member>
+      <member refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>node</name></member>
+      <member refid="a02547_1a0acae7756a253b07b03f97008458ee30" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>ParBlockQuery</name></member>
+      <member refid="a02547_1a2f8bebe69b0c2163349d3cb8d7a45052" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>ParBlockQuery</name></member>
+      <member refid="a02547_1a030cea6ac42be3da6664294bd5efb12d" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>ParBlockQuery</name></member>
+      <member refid="a02267_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>reset</name></member>
+      <member refid="a02267_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>sort</name></member>
+      <member refid="a02267_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>text</name></member>
+      <member refid="a02547_1ab85d49c4ebfedd1542eea86dd3c40e62" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParBlockQuery</scope><name>visit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

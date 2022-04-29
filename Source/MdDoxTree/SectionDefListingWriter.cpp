@@ -119,6 +119,9 @@ namespace MdDox
         case Doxygen::DSK_PROTECTED_TYPE:
             _writer->addSection(_out, "Protected Typedefs", _depth);
             break;
+        case Doxygen::DSK_FRIEND:
+            _writer->addSection(_out, "Friends", _depth);
+            break;
         case Doxygen::DSK_USER_DEFINED:
             _writer->addSection(_out, "DSK_USER_DEFINED", _depth);
             break;
@@ -160,9 +163,6 @@ namespace MdDox
             break;
         case Doxygen::DSK_PACKAGE_ATTRIB:
             _writer->addSection(_out, "DSK_PACKAGE_ATTRIB", _depth);
-            break;
-        case Doxygen::DSK_FRIEND:
-            _writer->addSection(_out, "DSK_FRIEND", _depth);
             break;
         case Doxygen::DSK_PROTOTYPE:
             _writer->addSection(_out, "DSK_PROTOTYPE", _depth);

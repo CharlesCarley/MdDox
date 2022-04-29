@@ -1,164 +1,218 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="a00977" kind="file" language="C++">
-    <compoundname>Simple.cpp</compoundname>
-    <includes refid="a00980" local="yes">Simple.h</includes>
-    <includes refid="a00965" local="yes">Group.h</includes>
-    <includes refid="a00332" local="yes">Utils/Exception.h</includes>
-    <includes refid="a00368" local="yes">Utils/Path.h</includes>
-    <includes refid="a00374" local="yes">Utils/String.h</includes>
-    <includes refid="a02163" local="yes">Xml/Writer.h</includes>
+    <compoundname>HtmlCommandWriter.cpp</compoundname>
+    <includes refid="a00980" local="yes">HtmlCommandWriter.h</includes>
+    <includes refid="a00986" local="yes">HtmlDocumentWriter.h</includes>
+    <includes refid="a00974" local="yes">MdDoxTree/HashUtils.h</includes>
+    <includes refid="a01127" local="yes">MdDoxTree/SiteBuilder.h</includes>
+    <includes refid="a01151" local="yes">Utils/Char.h</includes>
     <incdepgraph>
-      <node id="9440">
+      <node id="752">
         <label>Utils/Console.h</label>
-        <childnode refid="9423" relation="include">
+        <childnode refid="729" relation="include">
         </childnode>
       </node>
-      <node id="9433">
+      <node id="746">
         <label>functional</label>
       </node>
-      <node id="9430">
+      <node id="736">
         <label>iomanip</label>
       </node>
-      <node id="9441">
-        <label>Utils/Path.h</label>
-        <childnode refid="9423" relation="include">
-        </childnode>
-      </node>
-      <node id="9435">
+      <node id="758">
         <label>cstdint</label>
       </node>
-      <node id="9436">
+      <node id="748">
         <label>Utils/Exception.h</label>
-        <childnode refid="9437" relation="include">
+        <childnode refid="749" relation="include">
         </childnode>
-        <childnode refid="9438" relation="include">
+        <childnode refid="750" relation="include">
         </childnode>
-        <childnode refid="9439" relation="include">
+        <childnode refid="751" relation="include">
         </childnode>
-        <childnode refid="9440" relation="include">
+        <childnode refid="752" relation="include">
         </childnode>
-        <childnode refid="9423" relation="include">
-        </childnode>
-      </node>
-      <node id="9422">
-        <label>Object.h</label>
-        <childnode refid="9423" relation="include">
-        </childnode>
-        <childnode refid="9431" relation="include">
-        </childnode>
-        <childnode refid="9432" relation="include">
+        <childnode refid="729" relation="include">
         </childnode>
       </node>
-      <node id="9438">
+      <node id="737">
+        <label>HtmlDocumentWriter.h</label>
+        <childnode refid="738" relation="include">
+        </childnode>
+        <childnode refid="740" relation="include">
+        </childnode>
+        <childnode refid="729" relation="include">
+        </childnode>
+      </node>
+      <node id="750">
         <label>stdexcept</label>
       </node>
-      <node id="9427">
+      <node id="733">
         <label>string</label>
       </node>
-      <node id="9437">
+      <node id="745">
+        <label>Doxygen.h</label>
+        <childnode refid="746" relation="include">
+        </childnode>
+        <childnode refid="734" relation="include">
+        </childnode>
+        <childnode refid="729" relation="include">
+        </childnode>
+        <childnode refid="747" relation="include">
+        </childnode>
+        <childnode refid="748" relation="include">
+        </childnode>
+      </node>
+      <node id="749">
         <label>exception</label>
       </node>
-      <node id="9425">
+      <node id="731">
         <label>fstream</label>
       </node>
-      <node id="9434">
-        <label>Types.h</label>
-        <childnode refid="9435" relation="include">
+      <node id="743">
+        <label>MdDoxTree/SiteBuilder.h</label>
+        <childnode refid="734" relation="include">
         </childnode>
-        <childnode refid="9423" relation="include">
+        <childnode refid="744" relation="include">
+        </childnode>
+        <childnode refid="753" relation="include">
+        </childnode>
+        <childnode refid="754" relation="include">
+        </childnode>
+        <childnode refid="756" relation="include">
+        </childnode>
+        <childnode refid="729" relation="include">
         </childnode>
       </node>
-      <node id="9432">
+      <node id="739">
+        <label>IconSet.h</label>
+        <childnode refid="729" relation="include">
+        </childnode>
+      </node>
+      <node id="727">
+        <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
+        <link refid="a00977"/>
+        <childnode refid="728" relation="include">
+        </childnode>
+        <childnode refid="737" relation="include">
+        </childnode>
+        <childnode refid="742" relation="include">
+        </childnode>
+        <childnode refid="743" relation="include">
+        </childnode>
+        <childnode refid="757" relation="include">
+        </childnode>
+      </node>
+      <node id="747">
         <label>Xml/Node.h</label>
-        <childnode refid="9433" relation="include">
+        <childnode refid="746" relation="include">
         </childnode>
-        <childnode refid="9428" relation="include">
+        <childnode refid="734" relation="include">
         </childnode>
-        <childnode refid="9423" relation="include">
-        </childnode>
-      </node>
-      <node id="9431">
-        <label>Writer.h</label>
-        <childnode refid="9423" relation="include">
-        </childnode>
-        <childnode refid="9432" relation="include">
+        <childnode refid="729" relation="include">
         </childnode>
       </node>
-      <node id="9442">
-        <label>Xml/Writer.h</label>
-        <childnode refid="9423" relation="include">
+      <node id="738">
+        <label>MdDoxTree/DocumentWriter.h</label>
+        <childnode refid="739" relation="include">
+        </childnode>
+        <childnode refid="740" relation="include">
+        </childnode>
+        <childnode refid="729" relation="include">
         </childnode>
       </node>
-      <node id="9420">
-        <label>Simple.h</label>
-        <childnode refid="9421" relation="include">
-        </childnode>
-        <childnode refid="9423" relation="include">
+      <node id="742">
+        <label>MdDoxTree/HashUtils.h</label>
+        <childnode refid="729" relation="include">
         </childnode>
       </node>
-      <node id="9423">
+      <node id="753">
+        <label>Doxygen/DoxMemberKind.h</label>
+        <childnode refid="745" relation="include">
+        </childnode>
+      </node>
+      <node id="754">
+        <label>ReferenceIdentifiers.h</label>
+        <childnode refid="744" relation="include">
+        </childnode>
+        <childnode refid="753" relation="include">
+        </childnode>
+        <childnode refid="755" relation="include">
+        </childnode>
+      </node>
+      <node id="729">
         <label>Utils/String.h</label>
-        <childnode refid="9424" relation="include">
+        <childnode refid="730" relation="include">
         </childnode>
-        <childnode refid="9425" relation="include">
+        <childnode refid="731" relation="include">
         </childnode>
-        <childnode refid="9426" relation="include">
+        <childnode refid="732" relation="include">
         </childnode>
-        <childnode refid="9427" relation="include">
+        <childnode refid="733" relation="include">
         </childnode>
-        <childnode refid="9428" relation="include">
+        <childnode refid="734" relation="include">
         </childnode>
-        <childnode refid="9429" relation="include">
+        <childnode refid="735" relation="include">
         </childnode>
-        <childnode refid="9430" relation="include">
+        <childnode refid="736" relation="include">
         </childnode>
       </node>
-      <node id="9429">
+      <node id="735">
         <label>vector</label>
       </node>
-      <node id="9419">
-        <label>Tools/GenApi/Simple.cpp</label>
-        <link refid="a00977"/>
-        <childnode refid="9420" relation="include">
-        </childnode>
-        <childnode refid="9421" relation="include">
-        </childnode>
-        <childnode refid="9436" relation="include">
-        </childnode>
-        <childnode refid="9441" relation="include">
-        </childnode>
-        <childnode refid="9423" relation="include">
-        </childnode>
-        <childnode refid="9442" relation="include">
-        </childnode>
-      </node>
-      <node id="9439">
+      <node id="751">
         <label>utility</label>
       </node>
-      <node id="9426">
+      <node id="732">
         <label>sstream</label>
       </node>
-      <node id="9424">
+      <node id="757">
+        <label>Utils/Char.h</label>
+        <childnode refid="758" relation="include">
+        </childnode>
+        <childnode refid="729" relation="include">
+        </childnode>
+      </node>
+      <node id="740">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="741" relation="include">
+        </childnode>
+        <childnode refid="729" relation="include">
+        </childnode>
+      </node>
+      <node id="730">
         <label>deque</label>
       </node>
-      <node id="9428">
+      <node id="756">
+        <label>Utils/Config.h</label>
+        <childnode refid="729" relation="include">
+        </childnode>
+        <childnode refid="747" relation="include">
+        </childnode>
+      </node>
+      <node id="734">
         <label>unordered_map</label>
       </node>
-      <node id="9421">
-        <label>Group.h</label>
-        <childnode refid="9422" relation="include">
-        </childnode>
-        <childnode refid="9434" relation="include">
-        </childnode>
-        <childnode refid="9423" relation="include">
-        </childnode>
-        <childnode refid="9432" relation="include">
+      <node id="728">
+        <label>HtmlCommandWriter.h</label>
+        <childnode refid="729" relation="include">
         </childnode>
       </node>
+      <node id="744">
+        <label>Doxygen/DoxCompoundKind.h</label>
+        <childnode refid="745" relation="include">
+        </childnode>
+      </node>
+      <node id="755">
+        <label>Reference.h</label>
+        <childnode refid="729" relation="include">
+        </childnode>
+      </node>
+      <node id="741">
+        <label>experimental/filesystem</label>
+      </node>
     </incdepgraph>
-    <innernamespace refid="a00986">MdDox</innernamespace>
-    <innernamespace refid="a00996">MdDox::GenApi</innernamespace>
+    <innernamespace refid="a01840">MdDox::Html</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -185,137 +239,279 @@
 <codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
 <codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
 <codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Simple.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Group.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Exception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Path.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/String.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Xml/Writer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00986" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
-<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">PathUtil;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00996" kindref="compound" tooltip="GenApi is used to generate a static scaffolding library. ">MdDox::GenApi</ref></highlight></codeline>
-<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="36" refid="a01871_1ae42f3562cb13785a5f07f695a32fa2b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01871_1ae42f3562cb13785a5f07f695a32fa2b6" kindref="member">Simple::Simple</ref>(<ref refid="a01259" kindref="compound" tooltip="Provides a tree structure to contain an XML document. ">Xml::Node</ref>*<sp/>node,<sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>name,<sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>type,<sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>header)<sp/>:</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01863" kindref="compound">Object</ref>(<ref refid="a00999" kindref="compound">std</ref>::move(name)),</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_node(node),</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_tagType(<ref refid="a00999" kindref="compound">std</ref><sp/>::move(type)),</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_header(<ref refid="a00999" kindref="compound">std</ref>::move(header))</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ch<sp/>:<sp/><ref refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>)</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ch<sp/>&gt;=<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>ch<sp/>&lt;=<sp/></highlight><highlight class="charliteral">&apos;Z&apos;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_prefix.push_back(ch);</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01871_1a371a012e7eb3511e17591dd97c4aa490" kindref="member">Simple::~Simple</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="a01871_1a3f93f35cae7b04e89dff905f76780518" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01871_1a3f93f35cae7b04e89dff905f76780518" kindref="member">Simple::writeHeader</ref>(<ref refid="a00986_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref>&amp;<sp/>out)</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>&lt;&lt;<sp/>_header;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;#pragma<sp/>once&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;#include<sp/>\&quot;Doxygen.h\&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newLine(out,<sp/>2);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;namespace<sp/>MdDox::Doxygen&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="charliteral">&apos;{&apos;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;/**&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*<sp/>The<sp/>following<sp/>xml<sp/>provides<sp/>the<sp/>&lt;b&gt;&quot;</highlight><highlight class="normal">,<sp/>_tagType,<sp/></highlight><highlight class="stringliteral">&quot;&lt;/b&gt;<sp/>declaration.&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*<sp/>\\code{.xml}&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>oss;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01271" kindref="compound" tooltip="Is a utility class that is used to write the xml text structure to the supplied stream from the suppl...">Xml::Writer</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w(_node);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w.<ref refid="a01271_1a7d48f1a4ee7a1bbefb8ca05a0ded4536" kindref="member" tooltip="Sets the indentation level per depth.   ">setIndent</ref>(0x02);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w.<ref refid="a01271_1a386ffcf7d74ba57836183ad2be6214a5" kindref="member" tooltip="Enables the xml header. ">setWriteXml</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w.<ref refid="a01271_1a3de47d9176cd5216f12c3e71d7c6e828" kindref="member" tooltip="Writes the contents of the node to the supplied output stream. ">write</ref>(oss);</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1af43ecb087272339550cd14a78f59b6a6" kindref="member" tooltip="Structure to hold a vector of strings. ">StringArray</ref><sp/>lines;</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01247_1aca409c0c7ed03c4e60564c4955b736d2" kindref="member" tooltip="Splits the supplied string into a list of sub-strings. ">StringUtils::split</ref>(lines,<sp/>oss.str(),<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>line<sp/>:<sp/>lines)</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*<sp/>&quot;</highlight><highlight class="normal">,<sp/>line);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x05,<sp/></highlight><highlight class="stringliteral">&quot;*<sp/>\\endcode&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;<sp/>*/&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;enum<sp/>&quot;</highlight><highlight class="normal">,<sp/><ref refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Enum&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="charliteral">&apos;{&apos;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/>_prefix,<sp/></highlight><highlight class="stringliteral">&quot;_INVALID=&quot;</highlight><highlight class="normal">,<sp/>-1,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>[key,<sp/>val]<sp/>:<sp/>_enums)</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/></highlight><highlight class="stringliteral">&quot;/**&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x09,<sp/></highlight><highlight class="stringliteral">&quot;*<sp/>\\brief<sp/>Definition<sp/>for<sp/>the<sp/>&lt;tt&gt;&quot;</highlight><highlight class="normal">,<sp/>_tagType,<sp/></highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">,<sp/>key,<sp/></highlight><highlight class="stringliteral">&quot;&lt;/tt&gt;<sp/>value.&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x09,<sp/></highlight><highlight class="stringliteral">&quot;*/&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/>_prefix,<sp/></highlight><highlight class="stringliteral">&quot;_&quot;</highlight><highlight class="normal">,<sp/>val,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/>_prefix,<sp/></highlight><highlight class="stringliteral">&quot;_MAX&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;};&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newLine(out,<sp/>1);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;class<sp/>&quot;</highlight><highlight class="normal">,<sp/><ref refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>);</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="charliteral">&apos;{&apos;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;public:&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/></highlight><highlight class="stringliteral">&quot;static<sp/>&quot;</highlight><highlight class="normal">,<sp/><ref refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Enum<sp/>get(const<sp/>String<sp/>&amp;);&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="stringliteral">&quot;};&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;}<sp/>//<sp/>namespace<sp/>MdDox::Doxygen&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="a01871_1a7866e4471bb71712f2f3f86886c4e046" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01871_1a7866e4471bb71712f2f3f86886c4e046" kindref="member">Simple::writeSource</ref>(<ref refid="a00986_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref>&amp;<sp/>out)</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>&lt;&lt;<sp/>_header;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;HtmlCommandWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;HtmlDocumentWriter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/HashUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MdDoxTree/SiteBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Char.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="a01840" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01840" kindref="compound" tooltip="Provides markdown utility write functions. ">MdDox::Html</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30" refid="a01840_1a4e67bdb93c2e1c1121a2ee33f83f5de2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a4e67bdb93c2e1c1121a2ee33f83f5de2" kindref="member" tooltip="Writes a break to output stream. ">lineBreak</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;br/&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="a01840_1aa40ae7a1ac649ca5df5860c5b9dd96e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1aa40ae7a1ac649ca5df5860c5b9dd96e3" kindref="member">space</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(i--<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="a01840_1afb4e833a61ac2c31943e0969ec8958f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1afb4e833a61ac2c31943e0969ec8958f0" kindref="member">beginDivSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0355076f1ebdaf535206ffbb10c29137" kindref="member">comment</ref>(output,<sp/>name);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;div<sp/>class=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>name<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="a01840_1a0824649e36363745a69b9d152ed94b04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a0824649e36363745a69b9d152ed94b04" kindref="member">endDivSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/div&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0355076f1ebdaf535206ffbb10c29137" kindref="member">comment</ref>(output,<sp/>name);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="a01840_1afc691ab358642c56afd858e681421be7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1afc691ab358642c56afd858e681421be7" kindref="member">beginSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>name,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>depth<sp/>=<sp/>std::min(std::max(depth,<sp/>1),<sp/>6);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">anchor</ref>(output,<sp/><ref refid="a01839_1a115b0cf102c16116e020830eb0430b89" kindref="member" tooltip="Cleans the supplied title. ">HashUtils::cleanTitle</ref>(name));</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>className<sp/>=<sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(</highlight><highlight class="stringliteral">&quot;section-&quot;</highlight><highlight class="normal">,<sp/>depth);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">heading</ref>(output,<sp/>depth,<sp/>name);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1afb4e833a61ac2c31943e0969ec8958f0" kindref="member">beginDivSection</ref>(output,<sp/>className.c_str());</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="a01840_1ad291848410b1662c97d40889917add0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1ad291848410b1662c97d40889917add0b" kindref="member">endSection</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0824649e36363745a69b9d152ed94b04" kindref="member">endDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;section&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="a01840_1a0f247c1b052c8d5feaa85fae78d6de29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a0f247c1b052c8d5feaa85fae78d6de29" kindref="member">beginBlockQuote</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;blockquote&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="a01840_1a0be46add43352dfd05116b59a296cfb2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a0be46add43352dfd05116b59a296cfb2" kindref="member">endBlockQuote</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/blockquote&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="a01840_1a454baa3642a29697ccd7604911131fb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a454baa3642a29697ccd7604911131fb9" kindref="member">code</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a01840_1a454baa3642a29697ccd7604911131fb9" kindref="member">code</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>type)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1afb4e833a61ac2c31943e0969ec8958f0" kindref="member">beginDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;code-block&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;pre&gt;&lt;code&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="a01840_1a454baa3642a29697ccd7604911131fb9" kindref="member">code</ref>.empty())</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>cpy;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a7c366ea2942779a96722181c617fbe35" kindref="member">StringUtils::replaceAll</ref>(cpy,<sp/>cpy,<sp/></highlight><highlight class="stringliteral">&quot;&amp;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&amp;amp;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a7c366ea2942779a96722181c617fbe35" kindref="member">StringUtils::replaceAll</ref>(cpy,<sp/><ref refid="a01840_1a454baa3642a29697ccd7604911131fb9" kindref="member">code</ref>,<sp/></highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&amp;gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a7c366ea2942779a96722181c617fbe35" kindref="member">StringUtils::replaceAll</ref>(cpy,<sp/>cpy,<sp/></highlight><highlight class="stringliteral">&quot;&lt;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&amp;lt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a7c366ea2942779a96722181c617fbe35" kindref="member">StringUtils::replaceAll</ref>(cpy,<sp/>cpy,<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&amp;quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a7c366ea2942779a96722181c617fbe35" kindref="member">StringUtils::replaceAll</ref>(cpy,<sp/>cpy,<sp/></highlight><highlight class="stringliteral">&quot;&apos;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&amp;apos;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>cpy;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="a01838_1aace85994356ad90a0d76534a0bbccc9d" kindref="member">isNewLine</ref>(<ref refid="a01840_1a454baa3642a29697ccd7604911131fb9" kindref="member">code</ref>.back()))</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/code&gt;&lt;/pre&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0824649e36363745a69b9d152ed94b04" kindref="member">endDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;code-block&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;#include<sp/>\&quot;&quot;</highlight><highlight class="normal">,<sp/><ref refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;.h\&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;#include<sp/>\&quot;Utils/Exception.h\&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;#include<sp/>\&quot;Utils/Console.h\&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newLine(out,<sp/>2);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;namespace<sp/>MdDox::Doxygen&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;{&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/><ref refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Enum<sp/>&quot;</highlight><highlight class="normal">,<sp/><ref refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" kindref="member">_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;::get(const<sp/>String<sp/>&amp;look)&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="charliteral">&apos;{&apos;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>[old,<sp/>val]<sp/>:<sp/>_enums)</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/></highlight><highlight class="stringliteral">&quot;if<sp/>(look<sp/>==<sp/>\&quot;&quot;</highlight><highlight class="normal">,<sp/>old,<sp/></highlight><highlight class="stringliteral">&quot;\&quot;)&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x0C,<sp/></highlight><highlight class="stringliteral">&quot;return<sp/>&quot;</highlight><highlight class="normal">,<sp/>_prefix,<sp/></highlight><highlight class="stringliteral">&quot;_&quot;</highlight><highlight class="normal">,<sp/>val,<sp/></highlight><highlight class="charliteral">&apos;;&apos;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x08,<sp/></highlight><highlight class="stringliteral">&quot;return<sp/>&quot;</highlight><highlight class="normal">,<sp/>_prefix,<sp/></highlight><highlight class="stringliteral">&quot;_INVALID;&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x04,<sp/></highlight><highlight class="charliteral">&apos;}&apos;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text(out,<sp/>0x00,<sp/></highlight><highlight class="stringliteral">&quot;}<sp/>//<sp/>namespace<sp/>MdDox::Doxygen&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="a01871_1a16c28db586098493f7076662db0fb457" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01871_1a16c28db586098493f7076662db0fb457" kindref="member">Simple::write</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>output)</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01239" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref><sp/>obj(output);</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>hdr<sp/>=<sp/><ref refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(obj.<ref refid="a01239_1aa1452c3fe344917e66dca2fb53168fb0" kindref="member">rootedDir</ref>(),<sp/>obj.<ref refid="a01239_1a982c0e9ff01aa862f2d6e42d9425f75a" kindref="member" tooltip="Provides access to the name portion of the file. ">stem</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;.h&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>src<sp/>=<sp/><ref refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(obj.<ref refid="a01239_1aa1452c3fe344917e66dca2fb53168fb0" kindref="member">rootedDir</ref>(),<sp/>obj.<ref refid="a01239_1a982c0e9ff01aa862f2d6e42d9425f75a" kindref="member" tooltip="Provides access to the name portion of the file. ">stem</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;.cpp&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref><sp/>header(hdr);</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!header.is_open())</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/><ref refid="a01203" kindref="compound" tooltip="Primary class for exception handling   ">Exception</ref>(</highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>open<sp/>the<sp/>output<sp/>file:<sp/>&quot;</highlight><highlight class="normal">,<sp/>hdr);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01871_1a3f93f35cae7b04e89dff905f76780518" kindref="member">writeHeader</ref>(header);</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>header.close();</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1adc74d0adf91d7282eae3edd76765bf03" kindref="member" tooltip="Declaration of the output file stream class. ">OutputFileStream</ref><sp/>source(src);</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!source.is_open())</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/><ref refid="a01203" kindref="compound" tooltip="Primary class for exception handling   ">Exception</ref>(</highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>open<sp/>the<sp/>output<sp/>file:<sp/>&quot;</highlight><highlight class="normal">,<sp/>src);</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01871_1a7866e4471bb71712f2f3f86886c4e046" kindref="member">writeSource</ref>(source);</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>source.close();</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="a01871_1aa72e1f0b2cac1a416f2f7a9d9fd9e076" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01871_1aa72e1f0b2cac1a416f2f7a9d9fd9e076" kindref="member">Simple::addEnumValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>searchTerm,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>value)</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_enums.find(searchTerm)<sp/>==<sp/>_enums.end())</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_enums[searchTerm]<sp/>=<sp/>value;</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="151"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::GenApi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="a01840_1a9dd8f65f0793b72ab773f37d8443d69b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a9dd8f65f0793b72ab773f37d8443d69b" kindref="member">beginParagraph</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1afb4e833a61ac2c31943e0969ec8958f0" kindref="member">beginDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;paragraph&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1dc8a7d9f3c29e9e7e15e40a6303ee6d" kindref="member">beginSpan</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;paragraph&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="a01840_1a970cd0db4358cb9c2601595c454479e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a970cd0db4358cb9c2601595c454479e1" kindref="member">endParagraph</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a30cb6ccb3ead1fde0b4565c3d4c084d2" kindref="member">endSpan</ref>(output);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a0824649e36363745a69b9d152ed94b04" kindref="member">endDivSection</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;paragraph&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="a01840_1aa4a0de5cb5e7eb2760f72184be3a1320" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1aa4a0de5cb5e7eb2760f72184be3a1320" kindref="member">paragraph</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>str)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a9dd8f65f0793b72ab773f37d8443d69b" kindref="member">beginParagraph</ref>(output);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>str;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a970cd0db4358cb9c2601595c454479e1" kindref="member">endParagraph</ref>(output);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="a01840_1a822284a5f98549094fcfc504dfc4d8c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a822284a5f98549094fcfc504dfc4d8c5" kindref="member">horizontalRule</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;hr/&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="a01840_1a8bc834d49091ecffa2ed998ebbf1817d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a8bc834d49091ecffa2ed998ebbf1817d" kindref="member">anchor</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>assertLower;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a0c6460ffd00b82ae4cd21ce37ea22a4e" kindref="member">StringUtils::toLower</ref>(assertLower,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;a<sp/>id=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>assertLower<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&gt;&lt;/a&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="a01840_1aa8da87be8ae84652cdfee4a024530671" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1aa8da87be8ae84652cdfee4a024530671" kindref="member">inlineText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>className)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1dc8a7d9f3c29e9e7e15e40a6303ee6d" kindref="member">beginSpan</ref>(output,<sp/>className.empty()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;inline-text&quot;</highlight><highlight class="normal"><sp/>:<sp/>className);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>str;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a30cb6ccb3ead1fde0b4565c3d4c084d2" kindref="member">endSpan</ref>(output);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="a01840_1a97fe56265abcde241b1562de413ece45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a97fe56265abcde241b1562de413ece45" kindref="member">inlineImage</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>className)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!className.empty())</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;img<sp/>src=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>src<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;<sp/>class=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>className<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;/&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;img<sp/>src=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>src<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;/&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="a01840_1a2bb4faee66304448a12583437d97d66e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a2bb4faee66304448a12583437d97d66e" kindref="member">typewriterText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>str)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>out;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a129eedfc9277ca8acab4fe29cf3dcdea" kindref="member" tooltip="Removes any white space characters from the start and end of the string. ">StringUtils::trimWhiteSpace</ref>(out,<sp/>str);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;code<sp/>class=\&quot;typewriter\&quot;&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>out<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/code&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="a01840_1a0807ba879dc0fa7afc1ae9a3b4710b38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a0807ba879dc0fa7afc1ae9a3b4710b38" kindref="member">boldText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>str)</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>out;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a129eedfc9277ca8acab4fe29cf3dcdea" kindref="member" tooltip="Removes any white space characters from the start and end of the string. ">StringUtils::trimWhiteSpace</ref>(out,<sp/>str);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1dc8a7d9f3c29e9e7e15e40a6303ee6d" kindref="member">beginSpan</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;bold-text&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;b&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>out<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/b&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a30cb6ccb3ead1fde0b4565c3d4c084d2" kindref="member">endSpan</ref>(output);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="a01840_1a96ea910a055a54cf23b9819ebfefa604" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a96ea910a055a54cf23b9819ebfefa604" kindref="member">italicText</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>str)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>out;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a129eedfc9277ca8acab4fe29cf3dcdea" kindref="member" tooltip="Removes any white space characters from the start and end of the string. ">StringUtils::trimWhiteSpace</ref>(out,<sp/>str);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1dc8a7d9f3c29e9e7e15e40a6303ee6d" kindref="member">beginSpan</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;italic-text&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;i&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>out<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/i&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a30cb6ccb3ead1fde0b4565c3d4c084d2" kindref="member">endSpan</ref>(output);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="a01840_1a4fe70a6cc84575f162d21da8ced43494" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a4fe70a6cc84575f162d21da8ced43494" kindref="member">linkImage</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>reference)</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a079b0a5c964849113fa9c5dd8943c5c3" kindref="member">embedContentLink</ref>(output,<sp/>image,<sp/>reference);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="a01840_1ac3486e77d313a9efcade4627b8e4602e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1ac3486e77d313a9efcade4627b8e4602e" kindref="member">embedImage</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>reference)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1abcae1e0614a73145390d5f4d36076b76" kindref="member">embedContent</ref>(output,<sp/>reference);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="a01840_1abcae1e0614a73145390d5f4d36076b76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1abcae1e0614a73145390d5f4d36076b76" kindref="member">embedContent</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>content)</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>path<sp/>=<sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(<ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>().imageDir,<sp/>content);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a97fe56265abcde241b1562de413ece45" kindref="member">inlineImage</ref>(output,<sp/>path);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="a01840_1a079b0a5c964849113fa9c5dd8943c5c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a079b0a5c964849113fa9c5dd8943c5c3" kindref="member">embedContentLink</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>content,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>reference)</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>path<sp/>=<sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(<ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>().imageDir,<sp/>content);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1acf2ca4cce2f6a82e53465809c87bef51" kindref="member">beginLink</ref>(output,<sp/>reference);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a97fe56265abcde241b1562de413ece45" kindref="member">inlineImage</ref>(output,<sp/>path);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1ae00b2ad365f221d267c183ac53f572a7" kindref="member">endLink</ref>(output);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="a01840_1afd4a1a662954c5f7c3a6fa028727a0fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1afd4a1a662954c5f7c3a6fa028727a0fe" kindref="member">embedLinkContentPoint</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>content,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>reference,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>point,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>addNewLine)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>path<sp/>=<sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(<ref refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" kindref="member" tooltip="Provides singleton access to the site builder. ">SiteBuilder::get</ref>().imageDir,<sp/>content);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a1dc8a7d9f3c29e9e7e15e40a6303ee6d" kindref="member">beginSpan</ref>(output,<sp/></highlight><highlight class="stringliteral">&quot;icon-list-item&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1acf2ca4cce2f6a82e53465809c87bef51" kindref="member">beginLink</ref>(output,<sp/>reference,<sp/></highlight><highlight class="stringliteral">&quot;icon-list-item&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a97fe56265abcde241b1562de413ece45" kindref="member">inlineImage</ref>(output,<sp/>path,<sp/></highlight><highlight class="stringliteral">&quot;icon-list-item&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1aa8da87be8ae84652cdfee4a024530671" kindref="member">inlineText</ref>(output,<sp/>point,<sp/></highlight><highlight class="stringliteral">&quot;icon-list-item&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1ae00b2ad365f221d267c183ac53f572a7" kindref="member">endLink</ref>(output);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a30cb6ccb3ead1fde0b4565c3d4c084d2" kindref="member">endSpan</ref>(output);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="a01840_1a0355076f1ebdaf535206ffbb10c29137" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a0355076f1ebdaf535206ffbb10c29137" kindref="member">comment</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>str)</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//output<sp/>&lt;&lt;<sp/>&quot;&lt;!--<sp/>&quot;<sp/>&lt;&lt;<sp/>str<sp/>&lt;&lt;<sp/>&quot;<sp/>--&gt;&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="a01840_1a9ac5fac2002b4e7494e3e99fcfc9e6be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">heading</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a01840_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">heading</ref>)</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a6af26c779f680dfe78f70d5a685eeb8d" kindref="member">beginHeading</ref>(output,<sp/>index);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/><ref refid="a01840_1a9ac5fac2002b4e7494e3e99fcfc9e6be" kindref="member">heading</ref>;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1a9440be988c40aaece8151b3399ca0166" kindref="member">endHeading</ref>(output,<sp/>index);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="a01840_1a1dc8a7d9f3c29e9e7e15e40a6303ee6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a1dc8a7d9f3c29e9e7e15e40a6303ee6d" kindref="member">beginSpan</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>className)</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!className.empty())</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;span<sp/>class=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>className<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;span&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="a01840_1a30cb6ccb3ead1fde0b4565c3d4c084d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a30cb6ccb3ead1fde0b4565c3d4c084d2" kindref="member">endSpan</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/span&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="a01840_1acf2ca4cce2f6a82e53465809c87bef51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1acf2ca4cce2f6a82e53465809c87bef51" kindref="member">beginLink</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>className)</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(className.empty())</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;a<sp/>href=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>ref<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;a<sp/>href=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>ref<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;<sp/>class=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>className<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="a01840_1ae00b2ad365f221d267c183ac53f572a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1ae00b2ad365f221d267c183ac53f572a7" kindref="member">endLink</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/a&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="a01840_1ab5ae7e558daef6efcb42857bcda20d53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1ab5ae7e558daef6efcb42857bcda20d53" kindref="member">beginOrderedList</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;ul&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="a01840_1a780153861168d285a1be766dd1f7ddf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a780153861168d285a1be766dd1f7ddf3" kindref="member">endOrderedList</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/ul&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="a01840_1a6bf5c13eb272af099e69e31a54349fb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a6bf5c13eb272af099e69e31a54349fb9" kindref="member">beginListItem</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;li&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="a01840_1aa69008ed495f3e69076213dd05b992d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1aa69008ed495f3e69076213dd05b992d0" kindref="member">endListItem</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/li&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="a01840_1a6af26c779f680dfe78f70d5a685eeb8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a6af26c779f680dfe78f70d5a685eeb8d" kindref="member">beginHeading</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index<sp/>=<sp/>std::min(std::max(1,<sp/>index),<sp/>6);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;h&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>index<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="a01840_1a9440be988c40aaece8151b3399ca0166" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a9440be988c40aaece8151b3399ca0166" kindref="member">endHeading</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index<sp/>=<sp/>std::min(std::max(1,<sp/>index),<sp/>6);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/h&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>index<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281" refid="a01840_1a1a55e0ba58b2823e339a320d8a2d496c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01840_1a1a55e0ba58b2823e339a320d8a2d496c" kindref="member">linkRef</ref>(<ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member" tooltip="Declaration of the output stream base class. ">OStream</ref>&amp;<sp/>output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>reference)</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>link;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02099_1a129eedfc9277ca8acab4fe29cf3dcdea" kindref="member" tooltip="Removes any white space characters from the start and end of the string. ">StringUtils::trimWhiteSpace</ref>(link,<sp/>reference);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(reference.find(</highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal">)<sp/>==<sp/>String::npos)</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" kindref="member">StringCombine</ref>(link,<sp/>link,<sp/><ref refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" kindref="member" tooltip="Constructs a heading fragment. ">HashUtils::heading</ref>(title));</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1acf2ca4cce2f6a82e53465809c87bef51" kindref="member">beginLink</ref>(output,<sp/>link);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output<sp/>&lt;&lt;<sp/>title;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01840_1ae00b2ad365f221d267c183ac53f572a7" kindref="member">endLink</ref>(output);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Html</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Tools/GenApi/Simple.cpp"/>
+    <location file="Source/MdDoxTree/HtmlCommandWriter.cpp"/>
   </compounddef>
 </doxygen>

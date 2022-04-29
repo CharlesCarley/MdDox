@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01349" kind="file" language="C++">
+    <compoundname>DoxHighlightClass.cpp</compoundname>
+    <includes refid="a01352" local="yes">DoxHighlightClass.h</includes>
+    <includes refid="a01184" local="yes">Utils/Exception.h</includes>
+    <includes refid="a01181" local="yes">Utils/Console.h</includes>
+    <incdepgraph>
+      <node id="5368">
+        <label>Utils/Console.h</label>
+        <childnode refid="5356" relation="include">
+        </childnode>
+      </node>
+      <node id="5362">
+        <label>iomanip</label>
+      </node>
+      <node id="5354">
+        <label>functional</label>
+      </node>
+      <node id="5364">
+        <label>Utils/Exception.h</label>
+        <childnode refid="5365" relation="include">
+        </childnode>
+        <childnode refid="5366" relation="include">
+        </childnode>
+        <childnode refid="5367" relation="include">
+        </childnode>
+        <childnode refid="5368" relation="include">
+        </childnode>
+        <childnode refid="5356" relation="include">
+        </childnode>
+      </node>
+      <node id="5366">
+        <label>stdexcept</label>
+      </node>
+      <node id="5351">
+        <label>Tools/Doxygen/DoxHighlightClass.cpp</label>
+        <link refid="a01349"/>
+        <childnode refid="5352" relation="include">
+        </childnode>
+        <childnode refid="5364" relation="include">
+        </childnode>
+        <childnode refid="5368" relation="include">
+        </childnode>
+      </node>
+      <node id="5360">
+        <label>string</label>
+      </node>
+      <node id="5353">
+        <label>Doxygen.h</label>
+        <childnode refid="5354" relation="include">
+        </childnode>
+        <childnode refid="5355" relation="include">
+        </childnode>
+        <childnode refid="5356" relation="include">
+        </childnode>
+        <childnode refid="5363" relation="include">
+        </childnode>
+        <childnode refid="5364" relation="include">
+        </childnode>
+      </node>
+      <node id="5352">
+        <label>DoxHighlightClass.h</label>
+        <childnode refid="5353" relation="include">
+        </childnode>
+      </node>
+      <node id="5365">
+        <label>exception</label>
+      </node>
+      <node id="5358">
+        <label>fstream</label>
+      </node>
+      <node id="5363">
+        <label>Xml/Node.h</label>
+        <childnode refid="5354" relation="include">
+        </childnode>
+        <childnode refid="5355" relation="include">
+        </childnode>
+        <childnode refid="5356" relation="include">
+        </childnode>
+      </node>
+      <node id="5356">
+        <label>Utils/String.h</label>
+        <childnode refid="5357" relation="include">
+        </childnode>
+        <childnode refid="5358" relation="include">
+        </childnode>
+        <childnode refid="5359" relation="include">
+        </childnode>
+        <childnode refid="5360" relation="include">
+        </childnode>
+        <childnode refid="5355" relation="include">
+        </childnode>
+        <childnode refid="5361" relation="include">
+        </childnode>
+        <childnode refid="5362" relation="include">
+        </childnode>
+      </node>
+      <node id="5361">
+        <label>vector</label>
+      </node>
+      <node id="5367">
+        <label>utility</label>
+      </node>
+      <node id="5359">
+        <label>sstream</label>
+      </node>
+      <node id="5357">
+        <label>deque</label>
+      </node>
+      <node id="5355">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DoxHighlightClass.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Exception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Console.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30" refid="a02215_1acc48a67c313a21d666ad703da040518a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="a01843_1ac5451284772d69cec9ce3d6cf8aa13a5" kindref="member">DoxHighlightClassEnum</ref><sp/><ref refid="a02215_1acc48a67c313a21d666ad703da040518a" kindref="member">DoxHighlightClass::get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref><sp/>&amp;look)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(look<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;comment&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1ac5451284772d69cec9ce3d6cf8aa13a5a16b9f238cc7b4495f41772d2d7899e73" kindref="member" tooltip="Definition for the DoxHighlightClass.comment value. ">DHC_COMMENT</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(look<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;preprocessor&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1ac5451284772d69cec9ce3d6cf8aa13a5acbe87582bee9a603c903b65b00890d7b" kindref="member" tooltip="Definition for the DoxHighlightClass.preprocessor value. ">DHC_PREPROCESSOR</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(look<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;normal&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1ac5451284772d69cec9ce3d6cf8aa13a5a70c662fa365b77058bd0f4500c5e2fca" kindref="member" tooltip="Definition for the DoxHighlightClass.normal value. ">DHC_NORMAL</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(look<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;charliteral&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1ac5451284772d69cec9ce3d6cf8aa13a5ab316289804f497c27e6f5732a4202ce9" kindref="member" tooltip="Definition for the DoxHighlightClass.charliteral value. ">DHC_CHAR_LITERAL</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(look<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;keywordflow&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1ac5451284772d69cec9ce3d6cf8aa13a5a5a8160efc30790eee80d3e2170acb4df" kindref="member" tooltip="Definition for the DoxHighlightClass.keywordflow value. ">DHC_KEYWORD_FLOW</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(look<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;keywordtype&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1ac5451284772d69cec9ce3d6cf8aa13a5a2301ef01c6822a4cf15a2eb26bf74741" kindref="member" tooltip="Definition for the DoxHighlightClass.keywordtype value. ">DHC_KEYWORD_TYPE</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(look<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;keyword&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1ac5451284772d69cec9ce3d6cf8aa13a5a90fcd0495dfec81dc570660c5ee37f39" kindref="member" tooltip="Definition for the DoxHighlightClass.keyword value. ">DHC_KEYWORD</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(look<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;stringliteral&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1ac5451284772d69cec9ce3d6cf8aa13a5a61c4cb5be7a467271384a5dff7bbff83" kindref="member" tooltip="Definition for the DoxHighlightClass.stringliteral value. ">DHC_STRINGLITERAL</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01843_1ac5451284772d69cec9ce3d6cf8aa13a5a159c7eb2b82ca47edb7889f79c02687d" kindref="member">DHC_INVALID</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/DoxHighlightClass.cpp"/>
+  </compounddef>
+</doxygen>

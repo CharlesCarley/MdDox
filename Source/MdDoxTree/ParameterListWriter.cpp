@@ -38,8 +38,8 @@ namespace MdDox
 
         void visitedParameterName(const Doxygen::ParamNameQuery& query) override
         {
-            _writer->boldText(_out, query.text());
-            _writer->inlineText(_out, " - ");
+            _writer->italicText(_out, query.text());
+            _writer->inlineText(_out, ": ");
         }
 
     public:
@@ -115,6 +115,7 @@ namespace MdDox
     {
         if (paramList.isValid())
         {
+            _writer->lineBreak(_out);
             _writer->beginList(_out);
             paramList.visit(this);
             _writer->endList(_out);

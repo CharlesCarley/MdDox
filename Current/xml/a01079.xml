@@ -1,212 +1,342 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01079" kind="class" language="C++" prot="public" final="yes">
-    <compoundname>MdDox::MarkdownDocumentWriter</compoundname>
-    <basecompoundref refid="a01055" prot="public" virt="non-virtual">MdDox::HtmlDocumentWriter</basecompoundref>
-    <includes local="no">Source/MdDoxTree/MarkdownDocumentWriter.h</includes>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01079_1aec6710fea7e297e171c6005fc39be777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::MarkdownDocumentWriter::MarkdownDocumentWriter</definition>
-        <argsstring>()</argsstring>
-        <name>MarkdownDocumentWriter</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="32" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01079_1ac27f2c8cdde0047ca0c295b4d069ad75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::MarkdownDocumentWriter::~MarkdownDocumentWriter</definition>
-        <argsstring>() override</argsstring>
-        <name>~MarkdownDocumentWriter</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="34" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01079_1a1150f137edb6f722579428907c551c29" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::MarkdownDocumentWriter::beginDocument</definition>
-        <argsstring>(OStream &amp;output, const String &amp;title) override</argsstring>
-        <name>beginDocument</name>
-        <reimplements refid="a01055_1a5daf0d8d14c50ccca660c05968b993b3">beginDocument</reimplements>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>title</declname>
-        </param>
-        <briefdescription>
-<para>Implementations should write a common document header. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>title</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The title of the document. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="33" bodyend="38"/>
-        <references refid="a00988_1a8bc834d49091ecffa2ed998ebbf1817d" compoundref="a00125" startline="127" endline="132">MdDox::Html::anchor</references>
-        <references refid="a00987_1a115b0cf102c16116e020830eb0430b89" compoundref="a00119" startline="36" endline="53">MdDox::HashUtils::cleanTitle</references>
-        <references refid="a00988_1a9ac5fac2002b4e7494e3e99fcfc9e6be" compoundref="a00125" startline="216" endline="221">MdDox::Html::heading</references>
-      </memberdef>
-      <memberdef kind="function" id="a01079_1a1f2b5dac793d3693eab1b275a50f87f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void MdDox::MarkdownDocumentWriter::code</definition>
-        <argsstring>(OStream &amp;output, const String &amp;text, const String &amp;type=&quot;.txt&quot;) override</argsstring>
-        <name>code</name>
-        <reimplements refid="a01055_1a5e927215716d8ec55d63e67c3cf1cd42">code</reimplements>
-        <param>
-          <type><ref refid="a00986_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> &amp;</type>
-          <declname>output</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>text</declname>
-        </param>
-        <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>type</declname>
-          <defval>&quot;.txt&quot;</defval>
-        </param>
-        <briefdescription>
-<para>Implementations should write a code block. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>output</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The output stream to write to. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>text</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The code. </para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>type</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>The type of code. </para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.cpp" bodystart="41" bodyend="48"/>
-        <references refid="a00989_1a6ea1760a2a939239b664a1f812fa5295" compoundref="a00161" startline="118" endline="125">MdDox::Md::code</references>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a01079" kind="file" language="C++">
+    <compoundname>ReferenceIdentifiers.h</compoundname>
+    <includes refid="a01340" local="yes">Doxygen/DoxCompoundKind.h</includes>
+    <includes refid="a01370" local="yes">Doxygen/DoxMemberKind.h</includes>
+    <includes refid="a01073" local="yes">Reference.h</includes>
+    <includedby refid="a00983" local="yes">Source/MdDoxTree/HtmlDocumentWriter.cpp</includedby>
+    <includedby refid="a01076" local="yes">Source/MdDoxTree/ReferenceIdentifiers.cpp</includedby>
+    <includedby refid="a01127" local="yes">Source/MdDoxTree/SiteBuilder.h</includedby>
+    <includedby refid="a01085" local="yes">Source/MdDoxTree/ReferenceTable.h</includedby>
+    <incdepgraph>
+      <node id="1803">
+        <label>Utils/Console.h</label>
+        <childnode refid="1791" relation="include">
+        </childnode>
+      </node>
+      <node id="1797">
+        <label>iomanip</label>
+      </node>
+      <node id="1789">
+        <label>functional</label>
+      </node>
+      <node id="1799">
+        <label>Utils/Exception.h</label>
+        <childnode refid="1800" relation="include">
+        </childnode>
+        <childnode refid="1801" relation="include">
+        </childnode>
+        <childnode refid="1802" relation="include">
+        </childnode>
+        <childnode refid="1803" relation="include">
+        </childnode>
+        <childnode refid="1791" relation="include">
+        </childnode>
+      </node>
+      <node id="1801">
+        <label>stdexcept</label>
+      </node>
+      <node id="1795">
+        <label>string</label>
+      </node>
+      <node id="1788">
+        <label>Doxygen.h</label>
+        <childnode refid="1789" relation="include">
+        </childnode>
+        <childnode refid="1790" relation="include">
+        </childnode>
+        <childnode refid="1791" relation="include">
+        </childnode>
+        <childnode refid="1798" relation="include">
+        </childnode>
+        <childnode refid="1799" relation="include">
+        </childnode>
+      </node>
+      <node id="1800">
+        <label>exception</label>
+      </node>
+      <node id="1793">
+        <label>fstream</label>
+      </node>
+      <node id="1798">
+        <label>Xml/Node.h</label>
+        <childnode refid="1789" relation="include">
+        </childnode>
+        <childnode refid="1790" relation="include">
+        </childnode>
+        <childnode refid="1791" relation="include">
+        </childnode>
+      </node>
+      <node id="1804">
+        <label>Doxygen/DoxMemberKind.h</label>
+        <childnode refid="1788" relation="include">
+        </childnode>
+      </node>
+      <node id="1786">
+        <label>Source/MdDoxTree/ReferenceIdentifiers.h</label>
+        <link refid="a01079"/>
+        <childnode refid="1787" relation="include">
+        </childnode>
+        <childnode refid="1804" relation="include">
+        </childnode>
+        <childnode refid="1805" relation="include">
+        </childnode>
+      </node>
+      <node id="1791">
+        <label>Utils/String.h</label>
+        <childnode refid="1792" relation="include">
+        </childnode>
+        <childnode refid="1793" relation="include">
+        </childnode>
+        <childnode refid="1794" relation="include">
+        </childnode>
+        <childnode refid="1795" relation="include">
+        </childnode>
+        <childnode refid="1790" relation="include">
+        </childnode>
+        <childnode refid="1796" relation="include">
+        </childnode>
+        <childnode refid="1797" relation="include">
+        </childnode>
+      </node>
+      <node id="1796">
+        <label>vector</label>
+      </node>
+      <node id="1802">
+        <label>utility</label>
+      </node>
+      <node id="1794">
+        <label>sstream</label>
+      </node>
+      <node id="1792">
+        <label>deque</label>
+      </node>
+      <node id="1790">
+        <label>unordered_map</label>
+      </node>
+      <node id="1787">
+        <label>Doxygen/DoxCompoundKind.h</label>
+        <childnode refid="1788" relation="include">
+        </childnode>
+      </node>
+      <node id="1805">
+        <label>Reference.h</label>
+        <childnode refid="1791" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1821">
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
+      </node>
+      <node id="1815">
+        <label>Source/MdDoxTree/GenericPageWriter.cpp</label>
+      </node>
+      <node id="1826">
+        <label>Source/MdDoxTree/WriteUtils.cpp</label>
+      </node>
+      <node id="1808">
+        <label>Source/MdDoxTree/ReferenceIdentifiers.cpp</label>
+      </node>
+      <node id="1816">
+        <label>Source/MdDoxTree/GraphWriter.cpp</label>
+      </node>
+      <node id="1809">
+        <label>Source/MdDoxTree/SiteBuilder.h</label>
+        <childnode refid="1810" relation="include">
+        </childnode>
+        <childnode refid="1811" relation="include">
+        </childnode>
+        <childnode refid="1812" relation="include">
+        </childnode>
+        <childnode refid="1813" relation="include">
+        </childnode>
+        <childnode refid="1814" relation="include">
+        </childnode>
+        <childnode refid="1815" relation="include">
+        </childnode>
+        <childnode refid="1816" relation="include">
+        </childnode>
+        <childnode refid="1817" relation="include">
+        </childnode>
+        <childnode refid="1807" relation="include">
+        </childnode>
+        <childnode refid="1818" relation="include">
+        </childnode>
+        <childnode refid="1819" relation="include">
+        </childnode>
+        <childnode refid="1820" relation="include">
+        </childnode>
+        <childnode refid="1821" relation="include">
+        </childnode>
+        <childnode refid="1822" relation="include">
+        </childnode>
+        <childnode refid="1823" relation="include">
+        </childnode>
+        <childnode refid="1824" relation="include">
+        </childnode>
+        <childnode refid="1808" relation="include">
+        </childnode>
+        <childnode refid="1825" relation="include">
+        </childnode>
+        <childnode refid="1826" relation="include">
+        </childnode>
+      </node>
+      <node id="1817">
+        <label>Source/MdDoxTree/HtmlCommandWriter.cpp</label>
+      </node>
+      <node id="1813">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+      </node>
+      <node id="1822">
+        <label>Source/MdDoxTree/NamespacePageWriter.cpp</label>
+      </node>
+      <node id="1823">
+        <label>Source/MdDoxTree/PageWriter.cpp</label>
+      </node>
+      <node id="1814">
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+      </node>
+      <node id="1806">
+        <label>Source/MdDoxTree/ReferenceIdentifiers.h</label>
+        <link refid="a01079"/>
+        <childnode refid="1807" relation="include">
+        </childnode>
+        <childnode refid="1808" relation="include">
+        </childnode>
+        <childnode refid="1809" relation="include">
+        </childnode>
+        <childnode refid="1827" relation="include">
+        </childnode>
+      </node>
+      <node id="1807">
+        <label>Source/MdDoxTree/HtmlDocumentWriter.cpp</label>
+      </node>
+      <node id="1827">
+        <label>Source/MdDoxTree/ReferenceTable.h</label>
+        <childnode refid="1828" relation="include">
+        </childnode>
+        <childnode refid="1825" relation="include">
+        </childnode>
+      </node>
+      <node id="1811">
+        <label>Source/MdDoxTree/ClassPageWriter.cpp</label>
+      </node>
+      <node id="1825">
+        <label>Source/MdDoxTree/SiteBuilder.cpp</label>
+      </node>
+      <node id="1820">
+        <label>Source/MdDoxTree/MarkdownCommandWriter.cpp</label>
+      </node>
+      <node id="1824">
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
+      </node>
+      <node id="1810">
+        <label>Source/MdDox/Main.cpp</label>
+      </node>
+      <node id="1819">
+        <label>Source/MdDoxTree/LocationWriter.cpp</label>
+      </node>
+      <node id="1812">
+        <label>Source/MdDoxTree/DirectoryPageWriter.cpp</label>
+      </node>
+      <node id="1828">
+        <label>Source/MdDoxTree/ReferenceTable.cpp</label>
+      </node>
+      <node id="1818">
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a01983" prot="public">MdDox::CompoundReference</innerclass>
+    <innerclass refid="a01987" prot="public">MdDox::MemberReference</innerclass>
+    <innernamespace refid="a01838">MdDox</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <inheritancegraph>
-      <node id="873">
-        <label>MdDox::DocumentWriter</label>
-        <link refid="a01019"/>
-      </node>
-      <node id="871">
-        <label>MdDox::MarkdownDocumentWriter</label>
-        <link refid="a01079"/>
-        <childnode refid="872" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="872">
-        <label>MdDox::HtmlDocumentWriter</label>
-        <link refid="a01055"/>
-        <childnode refid="873" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="876">
-        <label>MdDox::DocumentWriter</label>
-        <link refid="a01019"/>
-      </node>
-      <node id="874">
-        <label>MdDox::MarkdownDocumentWriter</label>
-        <link refid="a01079"/>
-        <childnode refid="875" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="875">
-        <label>MdDox::HtmlDocumentWriter</label>
-        <link refid="a01055"/>
-        <childnode refid="876" relation="public-inheritance">
-        </childnode>
-      </node>
-    </collaborationgraph>
-    <location file="Source/MdDoxTree/MarkdownDocumentWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/MarkdownDocumentWriter.h" bodystart="29" bodyend="46"/>
-    <listofallmembers>
-      <member refid="a01055_1a393170e139ed9b833f12f7aceb6b7e2b" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>addSection</name></member>
-      <member refid="a01055_1ab7afa93eee2cee8a13fdeae204abcbed" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>anchor</name></member>
-      <member refid="a01055_1a7670b12958509c16853688989e990b78" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginBlockQuote</name></member>
-      <member refid="a01079_1a1150f137edb6f722579428907c551c29" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginDocument</name></member>
-      <member refid="a01055_1ae6014a836ebe94925abf19f7474155f2" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginList</name></member>
-      <member refid="a01055_1a836317c9151472a9e66508b664b3e49f" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginListItem</name></member>
-      <member refid="a01055_1a36c520c92eb493ab20ad76a541b84eb6" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginMethod</name></member>
-      <member refid="a01055_1a2e8740d2526db06211f9958291bf0206" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginParagraph</name></member>
-      <member refid="a01055_1ac71887b572b72ef944e1789a5c6a91d6" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginSection</name></member>
-      <member refid="a01055_1acd0a32131263bd726a8d4b544ccfa9be" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>beginSectionBar</name></member>
-      <member refid="a01055_1aa539467d2a680bb2c304af1e6892d1d8" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>boldText</name></member>
-      <member refid="a01079_1a1f2b5dac793d3693eab1b275a50f87f4" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>code</name></member>
-      <member refid="a01019_1ac95b89701f2d725e03e82ab142007ddb" prot="public" virt="non-virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>DocumentWriter</name></member>
-      <member refid="a01055_1a503d460a5235e20307153903ec2e5423" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>embedContent</name></member>
-      <member refid="a01055_1a222ca48b75a73f539a83d10a3eb9f2dc" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>embedContentLink</name></member>
-      <member refid="a01055_1ac9ef7a20c9ad41cd27866e98b344672c" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>embedContentLinkText</name></member>
-      <member refid="a01055_1aace4d5d82afd9c97c8326a46e7fb7cef" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endBlockQuote</name></member>
-      <member refid="a01055_1a1738b9a6b2c8bf0df37bf4ed9779a8ae" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endDocument</name></member>
-      <member refid="a01055_1af75a89e0658a7320a555c3a13828b2cd" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endList</name></member>
-      <member refid="a01055_1a80c6372146b10c286b77a001d93967e4" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endListItem</name></member>
-      <member refid="a01055_1a43a804f8734dac76729b9f72b544482d" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endMethod</name></member>
-      <member refid="a01055_1a59702d6a4aded0cac48500f45a1be0bc" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endParagraph</name></member>
-      <member refid="a01055_1abfccb6378e3f2b6e6ff47401e2db0e93" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endSection</name></member>
-      <member refid="a01055_1a44bbf3cf9b95c103353d7efb1c909830" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>endSectionBar</name></member>
-      <member refid="a01055_1afbd95a2ba1f88e5a4c5e64ba05876eb8" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>horizontalRule</name></member>
-      <member refid="a01055_1a43d31bcaf97f0816559d3c7bccee0db9" prot="public" virt="non-virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>HtmlDocumentWriter</name></member>
-      <member refid="a01055_1aac4c21f67539c6e9bbdb5df04cc7a6ad" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>image</name></member>
-      <member refid="a01055_1a398b1a19231cc08d405381e4424d2d86" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>inlineText</name></member>
-      <member refid="a01055_1a05d9df064ebbf4524c3c3260bca61a2c" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>italicText</name></member>
-      <member refid="a01055_1aa025bf1524b7d5d5f5607ed01bf0fcac" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>lineBreak</name></member>
-      <member refid="a01055_1a62545b47950718fa095ab34c8a4c09f4" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkRef</name></member>
-      <member refid="a01055_1a51609f3c7e7733d8366e0d3d72ec7120" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkRefIcon</name></member>
-      <member refid="a01055_1a6d5374eb819d40a3dc64c3c28eb5aa88" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkText</name></member>
-      <member refid="a01055_1a531301c8b4583e19702e78d48b909c8c" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>linkUrl</name></member>
-      <member refid="a01055_1adf6ad311b4df2e7455824ddb62a09836" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>listIcon</name></member>
-      <member refid="a01055_1a68c79d1b42c171eabb11deee197d0788" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>listItem</name></member>
-      <member refid="a01079_1aec6710fea7e297e171c6005fc39be777" prot="public" virt="non-virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>MarkdownDocumentWriter</name></member>
-      <member refid="a01055_1ad9995cb31fc3e5a9ef4fe4983d93446f" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>paragraph</name></member>
-      <member refid="a01055_1ac71eba6fffa8e88ac74a08d69c92d792" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>typewriterText</name></member>
-      <member refid="a01055_1a328cad37df7b7649bd03f468857388be" prot="protected" virt="non-virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>writeSection</name></member>
-      <member refid="a01019_1a297f732e031126c821090feebf2adcc5" prot="public" virt="virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>~DocumentWriter</name></member>
-      <member refid="a01055_1ae0dc86a7326691195ed5f55597eaf5b7" prot="public" virt="non-virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>~HtmlDocumentWriter</name></member>
-      <member refid="a01079_1ac27f2c8cdde0047ca0c295b4d069ad75" prot="public" virt="non-virtual"><scope>MdDox::MarkdownDocumentWriter</scope><name>~MarkdownDocumentWriter</name></member>
-    </listofallmembers>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DoxCompoundKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen/DoxMemberKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Reference.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01838" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29" refid="a01983" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a01983" kindref="compound">CompoundReference</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a01979" kindref="compound">Reference</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">Doxygen::DoxCompoundKindEnum</ref><sp/>_kind{<ref refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759aa5e51775c781d51afe7643b05f7bd886" kindref="member">Doxygen::DCK_INVALID</ref>};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01983_1a1132cc530039092767fa0614fd8ef5ec" kindref="member">CompoundReference</ref>()<sp/><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01983_1a01ef9f3882c69dffcf05f15f6a4f7cb3" kindref="member">~CompoundReference</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">Doxygen::DoxCompoundKindEnum</ref>&amp;<sp/><ref refid="a01983_1ac6b6c8bcdd32060c1663d011e431e40d" kindref="member">getKind</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01983_1a83f1a3e75316ae7bc582c59a2c8d4276" kindref="member">setKind</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">Doxygen::DoxCompoundKindEnum</ref>&amp;<sp/>kind);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="a01987" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a01987" kindref="compound">MemberReference</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a01979" kindref="compound">Reference</ref></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">Doxygen::DoxMemberKindEnum</ref><sp/>_kind{<ref refid="a01843_1acde8234d6785b4c35a72e8c35b9c9ac4a15118713cbeff24e4971ff43277c1adc" kindref="member">Doxygen::DMK_INVALID</ref>};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01987_1a1c532b2f1cf8689df2c0a9c950f491f2" kindref="member">MemberReference</ref>()<sp/><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01987_1aa64115565d417aa32dfc7697b1e90abb" kindref="member">~MemberReference</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">Doxygen::DoxMemberKindEnum</ref>&amp;<sp/><ref refid="a01987_1a22463d3ae05194a06cd03945a09a6795" kindref="member">getKind</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01987_1a98349bb66a93348ee0768f2702d48f37" kindref="member">setKind</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">Doxygen::DoxMemberKindEnum</ref>&amp;<sp/>kind);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01983" kindref="compound">CompoundReference</ref>*<sp/><ref refid="a01987_1a2cc383744ae39efba753bb79d120f9f6" kindref="member">findParent</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="a01983_1ac6b6c8bcdd32060c1663d011e431e40d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">Doxygen::DoxCompoundKindEnum</ref>&amp;<sp/><ref refid="a01983_1ac6b6c8bcdd32060c1663d011e431e40d" kindref="member">CompoundReference::getKind</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="61"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_kind;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="a01983_1a83f1a3e75316ae7bc582c59a2c8d4276" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01983_1a83f1a3e75316ae7bc582c59a2c8d4276" kindref="member">CompoundReference::setKind</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1ad8ad9f92594486e7bf4e3a37b030a759" kindref="member">Doxygen::DoxCompoundKindEnum</ref>&amp;<sp/>kind)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_kind<sp/>=<sp/>kind;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="a01987_1a22463d3ae05194a06cd03945a09a6795" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">Doxygen::DoxMemberKindEnum</ref>&amp;<sp/><ref refid="a01987_1a22463d3ae05194a06cd03945a09a6795" kindref="member">MemberReference::getKind</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="71"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_kind;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="a01987_1a98349bb66a93348ee0768f2702d48f37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01987_1a98349bb66a93348ee0768f2702d48f37" kindref="member">MemberReference::setKind</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01843_1acde8234d6785b4c35a72e8c35b9c9ac4" kindref="member">Doxygen::DoxMemberKindEnum</ref>&amp;<sp/>kind)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_kind<sp/>=<sp/>kind;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/MdDoxTree/ReferenceIdentifiers.h"/>
   </compounddef>
 </doxygen>

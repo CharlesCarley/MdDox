@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02599" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::Sect4QueryVisitor</compoundname>
+    <derivedcompoundref refid="a02007" prot="public" virt="non-virtual">MdDox::Section4Writer</derivedcompoundref>
+    <includes local="no">Tools/Doxygen/Sect4Query.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02599_1acfd50d6c008f37cf9139296b988f9bd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::Sect4QueryVisitor::~Sect4QueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Sect4QueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02599_1aa33b235c51bd074b2e1ff5a2a6b6324f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::Sect4QueryVisitor::visitedInternal</definition>
+        <argsstring>(const InternalS4Query &amp;query)</argsstring>
+        <name>visitedInternal</name>
+        <param>
+          <type>const <ref refid="a02395" kindref="compound">InternalS4Query</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>internal</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02395" kindref="compound">InternalS4Query</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="48" column="1" bodyfile="Tools/Doxygen/Sect4Query.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="a02599_1a0624f8b419bcd017d310723321abc279" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::Sect4QueryVisitor::visitedParagraph</definition>
+        <argsstring>(const ParaQuery &amp;query)</argsstring>
+        <name>visitedParagraph</name>
+        <reimplementedby refid="a02007_1af02f1c1a17c3f70e6f1f71f066697355">visitedParagraph</reimplementedby>
+        <param>
+          <type>const <ref refid="a02539" kindref="compound">ParaQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>para</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02539" kindref="compound">ParaQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="43" column="1" bodyfile="Tools/Doxygen/Sect4Query.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="a02599_1a2de69bc853470f0d05f91bc3b0a00d00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::Sect4QueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="38" column="1" bodyfile="Tools/Doxygen/Sect4Query.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="a02599_1ae0c8db61683031f85a6a065eff09ffe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::Sect4QueryVisitor::visitedTitle</definition>
+        <argsstring>(const String &amp;text)</argsstring>
+        <name>visitedTitle</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="53" column="1" bodyfile="Tools/Doxygen/Sect4Query.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="698">
+        <label>MdDox::Section4Writer</label>
+        <link refid="a02007"/>
+        <childnode refid="697" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="697">
+        <label>MdDox::Doxygen::Visitors::Sect4QueryVisitor</label>
+        <link refid="a02599"/>
+      </node>
+    </inheritancegraph>
+    <location file="Tools/Doxygen/Sect4Query.h" line="31" column="1" bodyfile="Tools/Doxygen/Sect4Query.h" bodystart="30" bodyend="55"/>
+    <listofallmembers>
+      <member refid="a02599_1aa33b235c51bd074b2e1ff5a2a6b6324f" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::Sect4QueryVisitor</scope><name>visitedInternal</name></member>
+      <member refid="a02599_1a0624f8b419bcd017d310723321abc279" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::Sect4QueryVisitor</scope><name>visitedParagraph</name></member>
+      <member refid="a02599_1a2de69bc853470f0d05f91bc3b0a00d00" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::Sect4QueryVisitor</scope><name>visitedText</name></member>
+      <member refid="a02599_1ae0c8db61683031f85a6a065eff09ffe7" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::Sect4QueryVisitor</scope><name>visitedTitle</name></member>
+      <member refid="a02599_1acfd50d6c008f37cf9139296b988f9bd1" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::Sect4QueryVisitor</scope><name>~Sect4QueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

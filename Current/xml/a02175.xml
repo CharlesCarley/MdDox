@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02175" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::CompoundRefQuery</compoundname>
+    <basecompoundref refid="a02267" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/CompoundRefQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02175_1a393774d3f4c8c04642ebad100da3498f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::CompoundRefQuery::CompoundRefQuery</definition>
+        <argsstring>()=default</argsstring>
+        <name>CompoundRefQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02175_1a2d6a1538ec201794a4af50ba5ddfd563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::CompoundRefQuery::CompoundRefQuery</definition>
+        <argsstring>(const CompoundRefQuery &amp;other)=default</argsstring>
+        <name>CompoundRefQuery</name>
+        <param>
+          <type>const <ref refid="a02175" kindref="compound">CompoundRefQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02175_1a67038d537482d8694971a1c4282173a0" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::CompoundRefQuery::CompoundRefQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>CompoundRefQuery</name>
+        <param>
+          <type><ref refid="a02111" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="55" column="1" bodyfile="Tools/Doxygen/CompoundRefQuery.h" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="a02175_1aef1e3efa4723d8b4f9e20bcbe9d365ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1adadfcc04a080e0c820d68d73c2e51714" kindref="member">DoxProtectionKindEnum</ref></type>
+        <definition>DoxProtectionKindEnum MdDox::Doxygen::CompoundRefQuery::getProt</definition>
+        <argsstring>() const</argsstring>
+        <name>getProt</name>
+        <briefdescription>
+<para>Provides access to the <bold>prot</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>prot</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/CompoundRefQuery.cpp" bodystart="35" bodyend="40"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02239_1afebd04e883867f4c63546f2b26b466af" compoundref="a01385" startline="30" endline="41">MdDox::Doxygen::DoxProtectionKind::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02175_1aeeb6242188ae0a5027eeb27f3440f22f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::CompoundRefQuery::getRefId</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getRefId</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>refid</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>refid</bold> enumerated value or an empty string the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="79" column="1" bodyfile="Tools/Doxygen/CompoundRefQuery.cpp" bodystart="28" bodyend="33"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02175_1aabd2f5019d2748fc17acb87f7b577641" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01843_1a7802d9f578bf7a12515d6bbf87b807ba" kindref="member">DoxVirtualKindEnum</ref></type>
+        <definition>DoxVirtualKindEnum MdDox::Doxygen::CompoundRefQuery::getVirt</definition>
+        <argsstring>() const</argsstring>
+        <name>getVirt</name>
+        <briefdescription>
+<para>Provides access to the <bold>virt</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>virt</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/CompoundRefQuery.h" line="71" column="1" bodyfile="Tools/Doxygen/CompoundRefQuery.cpp" bodystart="42" bodyend="47"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02263_1afbb3d4bbe0cb4ecb72ba8e9fea0fbf13" compoundref="a01421" startline="30" endline="39">MdDox::Doxygen::DoxVirtualKind::get</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>compoundRefType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>compoundRefType</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;compoundRefType&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:simpleContent</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:extension</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">base</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refid&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;prot&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxProtectionKind&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;virt&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxVirtualKind&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:extension</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:simpleContent</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="108">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+      </node>
+      <node id="107">
+        <label>MdDox::Doxygen::CompoundRefQuery</label>
+        <link refid="a02175"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="111">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a02111"/>
+        <childnode refid="112" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="110">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+        <childnode refid="111" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="109">
+        <label>MdDox::Doxygen::CompoundRefQuery</label>
+        <link refid="a02175"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/CompoundRefQuery.h" line="50" column="1" bodyfile="Tools/Doxygen/CompoundRefQuery.h" bodystart="49" bodyend="82"/>
+    <listofallmembers>
+      <member refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>_node</name></member>
+      <member refid="a02175_1a393774d3f4c8c04642ebad100da3498f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>CompoundRefQuery</name></member>
+      <member refid="a02175_1a2d6a1538ec201794a4af50ba5ddfd563" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>CompoundRefQuery</name></member>
+      <member refid="a02175_1a67038d537482d8694971a1c4282173a0" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>CompoundRefQuery</name></member>
+      <member refid="a02267_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>empty</name></member>
+      <member refid="a02175_1aef1e3efa4723d8b4f9e20bcbe9d365ec" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>getProt</name></member>
+      <member refid="a02175_1aeeb6242188ae0a5027eeb27f3440f22f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>getRefId</name></member>
+      <member refid="a02175_1aabd2f5019d2748fc17acb87f7b577641" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>getVirt</name></member>
+      <member refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>isValid</name></member>
+      <member refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>node</name></member>
+      <member refid="a02267_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>reset</name></member>
+      <member refid="a02267_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>sort</name></member>
+      <member refid="a02267_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::CompoundRefQuery</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

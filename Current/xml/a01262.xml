@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01262" kind="file" language="C++">
+    <compoundname>AnchorQuery.h</compoundname>
+    <includes refid="a01427" local="yes">Doxygen.h</includes>
+    <includedby refid="a01259" local="yes">Tools/Doxygen/AnchorQuery.cpp</includedby>
+    <includedby refid="a01271" local="yes">Tools/Doxygen/CaptionQuery.cpp</includedby>
+    <includedby refid="a01460" local="yes">Tools/Doxygen/FileQuery.cpp</includedby>
+    <includedby refid="a01478" local="yes">Tools/Doxygen/HeadingQuery.cpp</includedby>
+    <includedby refid="a01490" local="yes">Tools/Doxygen/ImageQuery.cpp</includedby>
+    <includedby refid="a01586" local="yes">Tools/Doxygen/MarkupQuery.cpp</includedby>
+    <includedby refid="a01652" local="yes">Tools/Doxygen/ParaQuery.cpp</includedby>
+    <includedby refid="a01748" local="yes">Tools/Doxygen/TitleQuery.cpp</includedby>
+    <includedby refid="a01754" local="yes">Tools/Doxygen/TocItemQuery.cpp</includedby>
+    <includedby refid="a01766" local="yes">Tools/Doxygen/UrlLinkQuery.cpp</includedby>
+    <incdepgraph>
+      <node id="4590">
+        <label>Utils/Console.h</label>
+        <childnode refid="4578" relation="include">
+        </childnode>
+      </node>
+      <node id="4584">
+        <label>iomanip</label>
+      </node>
+      <node id="4576">
+        <label>functional</label>
+      </node>
+      <node id="4586">
+        <label>Utils/Exception.h</label>
+        <childnode refid="4587" relation="include">
+        </childnode>
+        <childnode refid="4588" relation="include">
+        </childnode>
+        <childnode refid="4589" relation="include">
+        </childnode>
+        <childnode refid="4590" relation="include">
+        </childnode>
+        <childnode refid="4578" relation="include">
+        </childnode>
+      </node>
+      <node id="4588">
+        <label>stdexcept</label>
+      </node>
+      <node id="4582">
+        <label>string</label>
+      </node>
+      <node id="4575">
+        <label>Doxygen.h</label>
+        <childnode refid="4576" relation="include">
+        </childnode>
+        <childnode refid="4577" relation="include">
+        </childnode>
+        <childnode refid="4578" relation="include">
+        </childnode>
+        <childnode refid="4585" relation="include">
+        </childnode>
+        <childnode refid="4586" relation="include">
+        </childnode>
+      </node>
+      <node id="4587">
+        <label>exception</label>
+      </node>
+      <node id="4580">
+        <label>fstream</label>
+      </node>
+      <node id="4585">
+        <label>Xml/Node.h</label>
+        <childnode refid="4576" relation="include">
+        </childnode>
+        <childnode refid="4577" relation="include">
+        </childnode>
+        <childnode refid="4578" relation="include">
+        </childnode>
+      </node>
+      <node id="4578">
+        <label>Utils/String.h</label>
+        <childnode refid="4579" relation="include">
+        </childnode>
+        <childnode refid="4580" relation="include">
+        </childnode>
+        <childnode refid="4581" relation="include">
+        </childnode>
+        <childnode refid="4582" relation="include">
+        </childnode>
+        <childnode refid="4577" relation="include">
+        </childnode>
+        <childnode refid="4583" relation="include">
+        </childnode>
+        <childnode refid="4584" relation="include">
+        </childnode>
+      </node>
+      <node id="4583">
+        <label>vector</label>
+      </node>
+      <node id="4589">
+        <label>utility</label>
+      </node>
+      <node id="4581">
+        <label>sstream</label>
+      </node>
+      <node id="4579">
+        <label>deque</label>
+      </node>
+      <node id="4577">
+        <label>unordered_map</label>
+      </node>
+      <node id="4574">
+        <label>Tools/Doxygen/AnchorQuery.h</label>
+        <link refid="a01262"/>
+        <childnode refid="4575" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4598">
+        <label>Tools/Doxygen/ParaQuery.cpp</label>
+      </node>
+      <node id="4596">
+        <label>Tools/Doxygen/ImageQuery.cpp</label>
+      </node>
+      <node id="4595">
+        <label>Tools/Doxygen/HeadingQuery.cpp</label>
+      </node>
+      <node id="4601">
+        <label>Tools/Doxygen/UrlLinkQuery.cpp</label>
+      </node>
+      <node id="4600">
+        <label>Tools/Doxygen/TocItemQuery.cpp</label>
+      </node>
+      <node id="4597">
+        <label>Tools/Doxygen/MarkupQuery.cpp</label>
+      </node>
+      <node id="4593">
+        <label>Tools/Doxygen/CaptionQuery.cpp</label>
+      </node>
+      <node id="4599">
+        <label>Tools/Doxygen/TitleQuery.cpp</label>
+      </node>
+      <node id="4592">
+        <label>Tools/Doxygen/AnchorQuery.cpp</label>
+      </node>
+      <node id="4594">
+        <label>Tools/Doxygen/FileQuery.cpp</label>
+      </node>
+      <node id="4591">
+        <label>Tools/Doxygen/AnchorQuery.h</label>
+        <link refid="a01262"/>
+        <childnode refid="4592" relation="include">
+        </childnode>
+        <childnode refid="4593" relation="include">
+        </childnode>
+        <childnode refid="4594" relation="include">
+        </childnode>
+        <childnode refid="4595" relation="include">
+        </childnode>
+        <childnode refid="4596" relation="include">
+        </childnode>
+        <childnode refid="4597" relation="include">
+        </childnode>
+        <childnode refid="4598" relation="include">
+        </childnode>
+        <childnode refid="4599" relation="include">
+        </childnode>
+        <childnode refid="4600" relation="include">
+        </childnode>
+        <childnode refid="4601" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a02127" prot="public">MdDox::Doxygen::AnchorQuery</innerclass>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="a02127" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02127" kindref="compound" tooltip="Implements the docAnchorType scaffolding. ">AnchorQuery</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02267" kindref="compound">Query</ref></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02127_1ad55c095a132894bfd1a81c723cf3b94c" kindref="member">AnchorQuery</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02127_1ad55c095a132894bfd1a81c723cf3b94c" kindref="member">AnchorQuery</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02127" kindref="compound" tooltip="Implements the docAnchorType scaffolding. ">AnchorQuery</ref>&amp;<sp/>other)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="a02127_1aaf04d97d9071cd499c184bcb0c2e8970" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="a02127_1aaf04d97d9071cd499c184bcb0c2e8970" kindref="member">AnchorQuery</ref>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/><ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02267" kindref="compound">Query</ref>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a02127_1a5f5c4845626720501d9e49a57ef5dfd3" kindref="member" tooltip="Provides access to the id attribute. ">getId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/AnchorQuery.h"/>
+  </compounddef>
+</doxygen>

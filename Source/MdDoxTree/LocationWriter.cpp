@@ -77,8 +77,6 @@ namespace MdDox
         else
             root = "#";
 
-
-        _writer->lineBreak(_out);
         _writer->lineBreak(_out);
         _writer->embedContentLinkText(_out, ICO_JUMP_TO_TOP, root, "top");
          return syncStream(_stream, _out);

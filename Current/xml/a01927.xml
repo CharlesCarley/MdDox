@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01927" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::LocationWriter</compoundname>
+    <includes local="no">Source/MdDoxTree/LocationWriter.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a01927_1a3078bab0955488084e2e4caffe63c377" prot="private" static="no" mutable="no">
+        <type><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::LocationWriter::_out</definition>
+        <argsstring></argsstring>
+        <name>_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/LocationWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01927_1af4cdfc377cc44f0870c4ae3c519a38c8" prot="private" static="no" mutable="no">
+        <type><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+        <definition>OStream* MdDox::LocationWriter::_stream</definition>
+        <argsstring></argsstring>
+        <name>_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/LocationWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01927_1a7195b14bf2bd7f60d5a7214d15c03abf" prot="private" static="no" mutable="no">
+        <type><ref refid="a01871" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::LocationWriter::_writer</definition>
+        <argsstring></argsstring>
+        <name>_writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/LocationWriter.h" line="32" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01927_1a6b3e37b191b2112b5aec7308b3533ece" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::LocationWriter::LocationWriter</definition>
+        <argsstring>(DocumentWriter *writer, OStream *out)</argsstring>
+        <name>LocationWriter</name>
+        <param>
+          <type><ref refid="a01871" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/LocationWriter.h" line="37" column="1" bodyfile="Source/MdDoxTree/LocationWriter.cpp" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="a01927_1a50b9e5fa07ec18956f2c7761c787cb92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::LocationWriter::write</definition>
+        <argsstring>(const Doxygen::LocationQuery &amp;query)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="a02451" kindref="compound">Doxygen::LocationQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/LocationWriter.h" line="39" column="1" bodyfile="Source/MdDoxTree/LocationWriter.cpp" bodystart="39" bodyend="83"/>
+        <references refid="a02451_1a27a144259da294a167d424f007bbf31b" compoundref="a01580" startline="35" endline="40">MdDox::Doxygen::LocationQuery::getFile</references>
+        <references refid="a02451_1acc6307af92b229be442f2516e60dd942" compoundref="a01580" startline="28" endline="33">MdDox::Doxygen::LocationQuery::getBodyFile</references>
+        <references refid="a02451_1a6a8703060d4afdceceea8c212a9e9e85" compoundref="a01580" startline="52" endline="55">MdDox::Doxygen::LocationQuery::getLine</references>
+        <references refid="a02451_1a325ddd25202ab7653bc2383165ff014a" compoundref="a01580" startline="42" endline="45">MdDox::Doxygen::LocationQuery::getBodyStart</references>
+        <references refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" compoundref="a01124" startline="279" endline="284">MdDox::SiteBuilder::get</references>
+        <references refid="a01871_1a2f743defa2378643d75f55989cc54319">MdDox::DocumentWriter::addSection</references>
+        <references refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a01226" startline="223" endline="228">MdDox::StringCombine</references>
+        <references refid="a02019_1ab3d27ff9347009b029054c1ab2bfc557" compoundref="a01127" startline="245">MdDox::SiteBuilder::fileUrl</references>
+        <references refid="a01839_1a4a9cd5a09c91b2558f86e17c2d447999" compoundref="a00971" startline="26" endline="29">MdDox::HashUtils::lineNumber</references>
+        <references refid="a01871_1a9be820d4ab0e061e7344846e0ce3df87">MdDox::DocumentWriter::embedContentLinkText</references>
+        <references refid="a01838_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" compoundref="a00992" startline="35">MdDox::ICO_FILE</references>
+        <references refid="a01871_1aaf6f0b1cb7330218fb7e9cade49f951a">MdDox::DocumentWriter::lineBreak</references>
+        <references refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="a01427" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1a351e5efc578e2af82cec5e6edbfff72d" compoundref="a01247" startline="244" endline="254">MdDox::Xml::Node::firstParentOf</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06af8cb21026e60adb7382ac5bcbe9d43a7" compoundref="a01145" startline="44">MdDox::Doxygen::DoxCompoundDef</references>
+        <references refid="a01839_1a50a78de1e03d26a0a98f494a71b754e9" compoundref="a00971" startline="31" endline="34">MdDox::HashUtils::heading</references>
+        <references refid="a01838_1ae00359e24be5b111fdb21332d3a103d9a326ed5ffe4f436e2dbf69e7c6311065b" compoundref="a00992" startline="40">MdDox::ICO_JUMP_TO_TOP</references>
+        <references refid="a01838_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="a01136" startline="176" endline="187">MdDox::syncStream</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/MdDoxTree/LocationWriter.h" line="30" column="1" bodyfile="Source/MdDoxTree/LocationWriter.h" bodystart="29" bodyend="40"/>
+    <listofallmembers>
+      <member refid="a01927_1a3078bab0955488084e2e4caffe63c377" prot="private" virt="non-virtual"><scope>MdDox::LocationWriter</scope><name>_out</name></member>
+      <member refid="a01927_1af4cdfc377cc44f0870c4ae3c519a38c8" prot="private" virt="non-virtual"><scope>MdDox::LocationWriter</scope><name>_stream</name></member>
+      <member refid="a01927_1a7195b14bf2bd7f60d5a7214d15c03abf" prot="private" virt="non-virtual"><scope>MdDox::LocationWriter</scope><name>_writer</name></member>
+      <member refid="a01927_1a6b3e37b191b2112b5aec7308b3533ece" prot="public" virt="non-virtual"><scope>MdDox::LocationWriter</scope><name>LocationWriter</name></member>
+      <member refid="a01927_1a50b9e5fa07ec18956f2c7761c787cb92" prot="public" virt="non-virtual"><scope>MdDox::LocationWriter</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,236 +1,214 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01487" kind="class" language="C++" prot="public">
-    <compoundname>MdDox::Doxygen::HighlightQuery</compoundname>
-    <basecompoundref refid="a01415" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
-    <includes local="no">Tools/Doxygen/HighlightQuery.h</includes>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01487_1af5a83b73095be7f961e2ca57fb307820" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::HighlightQuery::HighlightQuery</definition>
-        <argsstring>()=default</argsstring>
-        <name>HighlightQuery</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/HighlightQuery.h" line="72" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01487_1a77fe9f7b426f80d3457485483d5198d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::HighlightQuery::HighlightQuery</definition>
-        <argsstring>(const HighlightQuery &amp;other)=default</argsstring>
-        <name>HighlightQuery</name>
-        <param>
-          <type>const <ref refid="a01487" kindref="compound">HighlightQuery</ref> &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/HighlightQuery.h" line="73" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01487_1a556ee43cd70a783beb36248395d0156d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::Doxygen::HighlightQuery::HighlightQuery</definition>
-        <argsstring>(Xml::Node *node)</argsstring>
-        <name>HighlightQuery</name>
-        <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/HighlightQuery.h" line="75" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="75" bodyend="78"/>
-      </memberdef>
-      <memberdef kind="function" id="a01487_1a578834e328b62a7aba98430162fb068d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="a00991_1ac5451284772d69cec9ce3d6cf8aa13a5" kindref="member">DoxHighlightClassEnum</ref></type>
-        <definition>DoxHighlightClassEnum MdDox::Doxygen::HighlightQuery::getClass</definition>
-        <argsstring>() const</argsstring>
-        <name>getClass</name>
-        <briefdescription>
-<para>Provides access to the <bold>class</bold> element. </para>        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="return"><para>The <bold>class</bold> enumerated value or -1 if the value is not found. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/HighlightQuery.h" line="86" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="53" bodyend="58"/>
-        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
-        <references refid="a01363_1acc48a67c313a21d666ad703da040518a" compoundref="a00497" startline="30" endline="49">MdDox::Doxygen::DoxHighlightClass::get</references>
-        <references refid="a01259_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a00395" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
-      </memberdef>
-      <memberdef kind="function" id="a01487_1a0aeadbe7c094116077aedb32897d374a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::HighlightQuery::getRef</definition>
-        <argsstring>(RefTextQuery &amp;dest) const</argsstring>
-        <name>getRef</name>
-        <param>
-          <type><ref refid="a01707" kindref="compound">RefTextQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/HighlightQuery.h" line="101" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="78" bodyend="87"/>
-        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
-        <references refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a00575" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="a01259_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a00395" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="a01415_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a00575" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="a01487_1aa870e651570f57dbd587666a995f8b19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="a01707" kindref="compound">RefTextQuery</ref></type>
-        <definition>RefTextQuery MdDox::Doxygen::HighlightQuery::getRef</definition>
-        <argsstring>() const</argsstring>
-        <name>getRef</name>
-        <briefdescription>
-<para>Provides access to the <bold>ref</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/HighlightQuery.h" line="106" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="89" bodyend="94"/>
-      </memberdef>
-      <memberdef kind="function" id="a01487_1ace0a9d373120bde7f1c8cfc1880d31d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::HighlightQuery::getSp</definition>
-        <argsstring>(SpQuery &amp;dest) const</argsstring>
-        <name>getSp</name>
-        <param>
-          <type><ref refid="a01771" kindref="compound">SpQuery</ref> &amp;</type>
-          <declname>dest</declname>
-        </param>
-        <briefdescription>
-<para>Provides access to the <bold>sp</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/HighlightQuery.h" line="91" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="60" bodyend="69"/>
-        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
-        <references refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a00575" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="a01259_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a00395" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="a01415_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a00575" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
-      </memberdef>
-      <memberdef kind="function" id="a01487_1a963c488aad14c145a0bfd9d5dc308eae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="a01771" kindref="compound">SpQuery</ref></type>
-        <definition>SpQuery MdDox::Doxygen::HighlightQuery::getSp</definition>
-        <argsstring>() const</argsstring>
-        <name>getSp</name>
-        <briefdescription>
-<para>Provides access to the <bold>sp</bold> attribute. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/HighlightQuery.h" line="96" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="71" bodyend="76"/>
-      </memberdef>
-      <memberdef kind="function" id="a01487_1ab02c49d464c9c4edfd6878cf79d95bfa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::Doxygen::HighlightQuery::visit</definition>
-        <argsstring>(Visitors::HighlightQueryVisitor *) const</argsstring>
-        <name>visit</name>
-        <param>
-          <type><ref refid="a01483" kindref="compound">Visitors::HighlightQueryVisitor</ref> *</type>
-          <defname>visitor</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/Doxygen/HighlightQuery.h" line="80" column="1" bodyfile="Tools/Doxygen/HighlightQuery.cpp" bodystart="30" bodyend="52"/>
-        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
-        <references refid="a01259_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a00398" startline="275" endline="278">MdDox::Xml::Node::children</references>
-        <references refid="a00991_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="a00293" startline="31">MdDox::Doxygen::DoxTextNode</references>
-        <references refid="a01483_1a90f696010e0b5a3c69e1bcbbb80551f8" compoundref="a00635" startline="39" endline="39">MdDox::Doxygen::Visitors::HighlightQueryVisitor::visitedText</references>
-        <references refid="a01483_1a02464ca497410c2a3ace5cb1a63e8204" compoundref="a00635" startline="44" endline="44">MdDox::Doxygen::Visitors::HighlightQueryVisitor::visitedSp</references>
-        <references refid="a01483_1a068af587d0f76905ee7b82f4367bf01b" compoundref="a00635" startline="49" endline="49">MdDox::Doxygen::Visitors::HighlightQueryVisitor::visitedRef</references>
-      </memberdef>
-      </sectiondef>
+  <compounddef id="a01487" kind="file" language="C++">
+    <compoundname>HighlightQuery.h</compoundname>
+    <includes refid="a01427" local="yes">Doxygen.h</includes>
+    <includes refid="a01352" local="yes">DoxHighlightClass.h</includes>
+    <includedby refid="a01055" local="yes">Source/MdDoxTree/ParagraphWriter.cpp</includedby>
+    <includedby refid="a01283" local="yes">Tools/Doxygen/CodeLineQuery.cpp</includedby>
+    <includedby refid="a01484" local="yes">Tools/Doxygen/HighlightQuery.cpp</includedby>
+    <incdepgraph>
+      <node id="6751">
+        <label>Utils/Console.h</label>
+        <childnode refid="6739" relation="include">
+        </childnode>
+      </node>
+      <node id="6745">
+        <label>iomanip</label>
+      </node>
+      <node id="6737">
+        <label>functional</label>
+      </node>
+      <node id="6747">
+        <label>Utils/Exception.h</label>
+        <childnode refid="6748" relation="include">
+        </childnode>
+        <childnode refid="6749" relation="include">
+        </childnode>
+        <childnode refid="6750" relation="include">
+        </childnode>
+        <childnode refid="6751" relation="include">
+        </childnode>
+        <childnode refid="6739" relation="include">
+        </childnode>
+      </node>
+      <node id="6749">
+        <label>stdexcept</label>
+      </node>
+      <node id="6743">
+        <label>string</label>
+      </node>
+      <node id="6736">
+        <label>Doxygen.h</label>
+        <childnode refid="6737" relation="include">
+        </childnode>
+        <childnode refid="6738" relation="include">
+        </childnode>
+        <childnode refid="6739" relation="include">
+        </childnode>
+        <childnode refid="6746" relation="include">
+        </childnode>
+        <childnode refid="6747" relation="include">
+        </childnode>
+      </node>
+      <node id="6752">
+        <label>DoxHighlightClass.h</label>
+        <childnode refid="6736" relation="include">
+        </childnode>
+      </node>
+      <node id="6748">
+        <label>exception</label>
+      </node>
+      <node id="6741">
+        <label>fstream</label>
+      </node>
+      <node id="6746">
+        <label>Xml/Node.h</label>
+        <childnode refid="6737" relation="include">
+        </childnode>
+        <childnode refid="6738" relation="include">
+        </childnode>
+        <childnode refid="6739" relation="include">
+        </childnode>
+      </node>
+      <node id="6739">
+        <label>Utils/String.h</label>
+        <childnode refid="6740" relation="include">
+        </childnode>
+        <childnode refid="6741" relation="include">
+        </childnode>
+        <childnode refid="6742" relation="include">
+        </childnode>
+        <childnode refid="6743" relation="include">
+        </childnode>
+        <childnode refid="6738" relation="include">
+        </childnode>
+        <childnode refid="6744" relation="include">
+        </childnode>
+        <childnode refid="6745" relation="include">
+        </childnode>
+      </node>
+      <node id="6744">
+        <label>vector</label>
+      </node>
+      <node id="6735">
+        <label>Tools/Doxygen/HighlightQuery.h</label>
+        <link refid="a01487"/>
+        <childnode refid="6736" relation="include">
+        </childnode>
+        <childnode refid="6752" relation="include">
+        </childnode>
+      </node>
+      <node id="6750">
+        <label>utility</label>
+      </node>
+      <node id="6742">
+        <label>sstream</label>
+      </node>
+      <node id="6740">
+        <label>deque</label>
+      </node>
+      <node id="6738">
+        <label>unordered_map</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6756">
+        <label>Tools/Doxygen/HighlightQuery.cpp</label>
+      </node>
+      <node id="6755">
+        <label>Tools/Doxygen/CodeLineQuery.cpp</label>
+      </node>
+      <node id="6753">
+        <label>Tools/Doxygen/HighlightQuery.h</label>
+        <link refid="a01487"/>
+        <childnode refid="6754" relation="include">
+        </childnode>
+        <childnode refid="6755" relation="include">
+        </childnode>
+        <childnode refid="6756" relation="include">
+        </childnode>
+      </node>
+      <node id="6754">
+        <label>Source/MdDoxTree/ParagraphWriter.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a02339" prot="public">MdDox::Doxygen::HighlightQuery</innerclass>
+    <innerclass refid="a02335" prot="public">MdDox::Doxygen::Visitors::HighlightQueryVisitor</innerclass>
+    <innernamespace refid="a01843">MdDox::Doxygen</innernamespace>
+    <innernamespace refid="a01847">MdDox::Doxygen::Visitors</innernamespace>
     <briefdescription>
-<para>Implements the <computeroutput>highlightType</computeroutput> scaffolding. </para>    </briefdescription>
+    </briefdescription>
     <detaileddescription>
-<para>The following xml provides the source for the <bold>highlightType</bold> scaffolding. <linebreak/>
-<linebreak/>
-<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;highlightType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">mixed</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:choice</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;sp&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;spType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;ref&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refTextType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:choice</highlight><highlight class="normal">&gt;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;class&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxHighlightClass&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
-<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
-</programlisting> </para>    </detaileddescription>
-    <inheritancegraph>
-      <node id="215">
-        <label>MdDox::Doxygen::HighlightQuery</label>
-        <link refid="a01487"/>
-        <childnode refid="216" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="216">
-        <label>MdDox::Doxygen::Query</label>
-        <link refid="a01415"/>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="217">
-        <label>MdDox::Doxygen::HighlightQuery</label>
-        <link refid="a01487"/>
-        <childnode refid="218" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="219">
-        <label>MdDox::Xml::Node</label>
-        <link refid="a01259"/>
-        <childnode refid="220" relation="usage">
-          <edgelabel>_autoDelete</edgelabel>
-        </childnode>
-      </node>
-      <node id="218">
-        <label>MdDox::Doxygen::Query</label>
-        <link refid="a01415"/>
-        <childnode refid="219" relation="usage">
-          <edgelabel>_node</edgelabel>
-        </childnode>
-      </node>
-      <node id="220">
-        <label>bool</label>
-      </node>
-    </collaborationgraph>
-    <location file="Tools/Doxygen/HighlightQuery.h" line="70" column="1" bodyfile="Tools/Doxygen/HighlightQuery.h" bodystart="69" bodyend="109"/>
-    <listofallmembers>
-      <member refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>_node</name></member>
-      <member refid="a01415_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>empty</name></member>
-      <member refid="a01487_1a578834e328b62a7aba98430162fb068d" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>getClass</name></member>
-      <member refid="a01487_1a0aeadbe7c094116077aedb32897d374a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>getRef</name></member>
-      <member refid="a01487_1aa870e651570f57dbd587666a995f8b19" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>getRef</name></member>
-      <member refid="a01487_1ace0a9d373120bde7f1c8cfc1880d31d6" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>getSp</name></member>
-      <member refid="a01487_1a963c488aad14c145a0bfd9d5dc308eae" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>getSp</name></member>
-      <member refid="a01487_1af5a83b73095be7f961e2ca57fb307820" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>HighlightQuery</name></member>
-      <member refid="a01487_1a77fe9f7b426f80d3457485483d5198d3" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>HighlightQuery</name></member>
-      <member refid="a01487_1a556ee43cd70a783beb36248395d0156d" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>HighlightQuery</name></member>
-      <member refid="a01415_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>isValid</name></member>
-      <member refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>node</name></member>
-      <member refid="a01415_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>Query</name></member>
-      <member refid="a01415_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>Query</name></member>
-      <member refid="a01415_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>reset</name></member>
-      <member refid="a01415_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>sort</name></member>
-      <member refid="a01415_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>text</name></member>
-      <member refid="a01487_1ab02c49d464c9c4edfd6878cf79d95bfa" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::HighlightQuery</scope><name>visit</name></member>
-    </listofallmembers>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DoxHighlightClass.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a01843" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Visitors</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31" refid="a02335" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02335" kindref="compound">HighlightQueryVisitor</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="a02335_1a78ef3e75ae1fdffcbcdea210b1aa590c" kindref="member">~HighlightQueryVisitor</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="a02335_1a90f696010e0b5a3c69e1bcbbb80551f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02335_1a90f696010e0b5a3c69e1bcbbb80551f8" kindref="member" tooltip="Callback for every _text_node. ">visitedText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="44" refid="a02335_1a02464ca497410c2a3ace5cb1a63e8204" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02335_1a02464ca497410c2a3ace5cb1a63e8204" kindref="member" tooltip="Called when the element sp is found. ">visitedSp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02623" kindref="compound" tooltip="Implements the spType scaffolding. ">SpQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="49" refid="a02335_1a068af587d0f76905ee7b82f4367bf01b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02335_1a068af587d0f76905ee7b82f4367bf01b" kindref="member" tooltip="Called when the element ref is found. ">visitedRef</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02559" kindref="compound" tooltip="Implements the refTextType scaffolding. ">RefTextQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69" refid="a02339" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a02339" kindref="compound" tooltip="Implements the highlightType scaffolding. ">HighlightQuery</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a02267" kindref="compound">Query</ref></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02339_1af5a83b73095be7f961e2ca57fb307820" kindref="member">HighlightQuery</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02339_1af5a83b73095be7f961e2ca57fb307820" kindref="member">HighlightQuery</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a02339" kindref="compound" tooltip="Implements the highlightType scaffolding. ">HighlightQuery</ref>&amp;<sp/>other)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="a02339_1a556ee43cd70a783beb36248395d0156d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="a02339_1a556ee43cd70a783beb36248395d0156d" kindref="member">HighlightQuery</ref>(<ref refid="a02111" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/><ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02267" kindref="compound">Query</ref>(<ref refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02339_1ab02c49d464c9c4edfd6878cf79d95bfa" kindref="member">visit</ref>(<ref refid="a02335" kindref="compound">Visitors::HighlightQueryVisitor</ref><sp/>*)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01843_1ac5451284772d69cec9ce3d6cf8aa13a5" kindref="member">DoxHighlightClassEnum</ref><sp/><ref refid="a02339_1a578834e328b62a7aba98430162fb068d" kindref="member" tooltip="Provides access to the class element. ">getClass</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02339_1a963c488aad14c145a0bfd9d5dc308eae" kindref="member" tooltip="Provides access to the sp attribute. ">getSp</ref>(<ref refid="a02623" kindref="compound" tooltip="Implements the spType scaffolding. ">SpQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02623" kindref="compound" tooltip="Implements the spType scaffolding. ">SpQuery</ref><sp/><ref refid="a02339_1a963c488aad14c145a0bfd9d5dc308eae" kindref="member" tooltip="Provides access to the sp attribute. ">getSp</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a02339_1aa870e651570f57dbd587666a995f8b19" kindref="member" tooltip="Provides access to the ref attribute. ">getRef</ref>(<ref refid="a02559" kindref="compound" tooltip="Implements the refTextType scaffolding. ">RefTextQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a02559" kindref="compound" tooltip="Implements the refTextType scaffolding. ">RefTextQuery</ref><sp/><ref refid="a02339_1aa870e651570f57dbd587666a995f8b19" kindref="member" tooltip="Provides access to the ref attribute. ">getRef</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/HighlightQuery.h"/>
   </compounddef>
 </doxygen>

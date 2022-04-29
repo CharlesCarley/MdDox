@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02479" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Visitors::NodeQueryVisitor</compoundname>
+    <includes local="no">Tools/Doxygen/NodeQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02479_1aa22e9945b4382eb9998fa97e1c8968c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual MdDox::Doxygen::Visitors::NodeQueryVisitor::~NodeQueryVisitor</definition>
+        <argsstring>()=default</argsstring>
+        <name>~NodeQueryVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/NodeQuery.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02479_1ae5adc59531096e8fd31118e5a936f878" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::NodeQueryVisitor::visitedChildNode</definition>
+        <argsstring>(const ChildNodeQuery &amp;query)</argsstring>
+        <name>visitedChildNode</name>
+        <param>
+          <type>const <ref refid="a02147" kindref="compound">ChildNodeQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>childnode</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02147" kindref="compound">ChildNodeQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/NodeQuery.h" line="43" column="1" bodyfile="Tools/Doxygen/NodeQuery.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="a02479_1a43c0cb037f776ff1845fc0dc28b7a41a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::NodeQueryVisitor::visitedLabel</definition>
+        <argsstring>(const String &amp;text)</argsstring>
+        <name>visitedLabel</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>label</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/NodeQuery.h" line="53" column="1" bodyfile="Tools/Doxygen/NodeQuery.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="a02479_1afa7c002cbc79acdd5bd8dc14ebcc204a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::NodeQueryVisitor::visitedLink</definition>
+        <argsstring>(const LinkQuery &amp;query)</argsstring>
+        <name>visitedLink</name>
+        <param>
+          <type>const <ref refid="a02415" kindref="compound">LinkQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>link</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the <ref refid="a02415" kindref="compound">LinkQuery</ref> class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/NodeQuery.h" line="48" column="1" bodyfile="Tools/Doxygen/NodeQuery.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="a02479_1ad6433533e2c2935042b589d186e303e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MdDox::Doxygen::Visitors::NodeQueryVisitor::visitedText</definition>
+        <argsstring>(const String &amp;)</argsstring>
+        <name>visitedText</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Callback for every _text_node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/NodeQuery.h" line="38" column="1" bodyfile="Tools/Doxygen/NodeQuery.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/Doxygen/NodeQuery.h" line="31" column="1" bodyfile="Tools/Doxygen/NodeQuery.h" bodystart="30" bodyend="55"/>
+    <listofallmembers>
+      <member refid="a02479_1ae5adc59531096e8fd31118e5a936f878" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::NodeQueryVisitor</scope><name>visitedChildNode</name></member>
+      <member refid="a02479_1a43c0cb037f776ff1845fc0dc28b7a41a" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::NodeQueryVisitor</scope><name>visitedLabel</name></member>
+      <member refid="a02479_1afa7c002cbc79acdd5bd8dc14ebcc204a" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::NodeQueryVisitor</scope><name>visitedLink</name></member>
+      <member refid="a02479_1ad6433533e2c2935042b589d186e303e7" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::NodeQueryVisitor</scope><name>visitedText</name></member>
+      <member refid="a02479_1aa22e9945b4382eb9998fa97e1c8968c6" prot="public" virt="virtual"><scope>MdDox::Doxygen::Visitors::NodeQueryVisitor</scope><name>~NodeQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

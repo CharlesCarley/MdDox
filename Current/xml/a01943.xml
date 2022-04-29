@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01943" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::MemberDefWriter</compoundname>
+    <basecompoundref refid="a02463" prot="public" virt="non-virtual">MdDox::Doxygen::Visitors::MemberDefQueryVisitor</basecompoundref>
+    <includes local="no">Source/MdDoxTree/MemberDefWriter.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a01943_1a88550b09968b10485d3e638df7b08a11" prot="private" static="no" mutable="no">
+        <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::MemberDefWriter::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01943_1a1e5d67504585509f554882e1c2a742ef" prot="private" static="no" mutable="no">
+        <type><ref refid="a01838_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member">OutputStringStream</ref></type>
+        <definition>OutputStringStream MdDox::MemberDefWriter::_out</definition>
+        <argsstring></argsstring>
+        <name>_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01943_1a1255a5ea325adface6b62ac03a24f9f8" prot="private" static="no" mutable="no">
+        <type><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+        <definition>OStream* MdDox::MemberDefWriter::_stream</definition>
+        <argsstring></argsstring>
+        <name>_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="34" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01943_1acb450ddc6b623e3e65922f44fa33fb8b" prot="private" static="no" mutable="no">
+        <type><ref refid="a01871" kindref="compound">DocumentWriter</ref> *</type>
+        <definition>DocumentWriter* MdDox::MemberDefWriter::_writer</definition>
+        <argsstring></argsstring>
+        <name>_writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="a01943_1ac2c66ea47adbf4932ea4dff00e3402a7" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedBriefDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
+        <name>visitedBriefDescription</name>
+        <reimplements refid="a02463_1a8d74a0a375c2a1e1b6adc13d4d535c84">visitedBriefDescription</reimplements>
+        <param>
+          <type>const <ref refid="a02191" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>briefdescription</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the DescriptionQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="94" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a7241af1c439a60893ff28668ab0b5041" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedDetailedDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
+        <name>visitedDetailedDescription</name>
+        <reimplements refid="a02463_1a3908192abe6af7c2dd845d0e1eadb28e">visitedDetailedDescription</reimplements>
+        <param>
+          <type>const <ref refid="a02191" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>detaileddescription</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the DescriptionQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="62" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="130" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a38df18997aa5373853e612bae9dac72e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedEnumValue</definition>
+        <argsstring>(const Doxygen::EnumValueQuery &amp;query) override</argsstring>
+        <name>visitedEnumValue</name>
+        <reimplements refid="a02463_1a1645689701abd5f6e6f253bd19174117">visitedEnumValue</reimplements>
+        <param>
+          <type>const <ref refid="a02303" kindref="compound">Doxygen::EnumValueQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>enumvalue</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the EnumValueQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a52963cbee2b614a694ef2164ef9594db" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedExceptions</definition>
+        <argsstring>(const Doxygen::LinkedTextQuery &amp;query) override</argsstring>
+        <name>visitedExceptions</name>
+        <reimplements refid="a02463_1a39a2568b896da4f5e6c8a23f5beffc6f">visitedExceptions</reimplements>
+        <param>
+          <type>const <ref refid="a02411" kindref="compound">Doxygen::LinkedTextQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>exceptions</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the LinkedTextQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a245fdc097d2889a552102df3cdbced7a" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedInitializer</definition>
+        <argsstring>(const Doxygen::LinkedTextQuery &amp;query) override</argsstring>
+        <name>visitedInitializer</name>
+        <reimplements refid="a02463_1aa83c5a26f31c38a7702473d9d5280045">visitedInitializer</reimplements>
+        <param>
+          <type>const <ref refid="a02411" kindref="compound">Doxygen::LinkedTextQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>initializer</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the LinkedTextQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="50" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="81" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1ab4457380a4217194531ce9bb51ba713c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedLocation</definition>
+        <argsstring>(const Doxygen::LocationQuery &amp;query) override</argsstring>
+        <name>visitedLocation</name>
+        <reimplements refid="a02463_1a310fd141c0e63196edd178b531c5ff91">visitedLocation</reimplements>
+        <param>
+          <type>const <ref refid="a02451" kindref="compound">Doxygen::LocationQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>location</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the LocationQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="137" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a29d7b2f3592d333aac905ae1ec975883" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedName</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedName</name>
+        <reimplements refid="a02463_1a31129dca7adde74aa4c7a148d2894c22">visitedName</reimplements>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>name</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="109" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1aca00dd23e51ac8473581614256d54344" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedParameter</definition>
+        <argsstring>(const Doxygen::ParamQuery &amp;query) override</argsstring>
+        <name>visitedParameter</name>
+        <reimplements refid="a02463_1a10d681be509de10feeed51f5679f9bd1">visitedParameter</reimplements>
+        <param>
+          <type>const <ref refid="a02523" kindref="compound">Doxygen::ParamQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>param</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ParamQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="116" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a0cae456a0270bb73a2d606fb1eb0e1a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedReferencedBy</definition>
+        <argsstring>(const Doxygen::ReferenceQuery &amp;query) override</argsstring>
+        <name>visitedReferencedBy</name>
+        <reimplements refid="a02463_1aef4eb183f509d685b9a7b4958603fce3">visitedReferencedBy</reimplements>
+        <param>
+          <type>const <ref refid="a02551" kindref="compound">Doxygen::ReferenceQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>referencedby</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ReferenceQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1ac4c2b6466a7d6ed78953e264c4ba8625" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedReferences</definition>
+        <argsstring>(const Doxygen::ReferenceQuery &amp;query) override</argsstring>
+        <name>visitedReferences</name>
+        <reimplements refid="a02463_1a8fa5a0682abee9c29053fdd5578a9559">visitedReferences</reimplements>
+        <param>
+          <type>const <ref refid="a02551" kindref="compound">Doxygen::ReferenceQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>references</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ReferenceQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a0aaafb9a7c9f0c9ef20e733269a60d43" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedReImplementedBy</definition>
+        <argsstring>(const Doxygen::ReimplementQuery &amp;query) override</argsstring>
+        <name>visitedReImplementedBy</name>
+        <reimplements refid="a02463_1ad2c08e03b561365b25155545137c506d">visitedReImplementedBy</reimplements>
+        <param>
+          <type>const <ref refid="a02563" kindref="compound">Doxygen::ReimplementQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>reimplementedby</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ReimplementQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a11ac88b289aff93e19f9b61a6d556d6a" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedReImplements</definition>
+        <argsstring>(const Doxygen::ReimplementQuery &amp;query) override</argsstring>
+        <name>visitedReImplements</name>
+        <reimplements refid="a02463_1a2dc11969cc7b3596edb064093a472c23">visitedReImplements</reimplements>
+        <param>
+          <type>const <ref refid="a02563" kindref="compound">Doxygen::ReimplementQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>reimplements</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ReimplementQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a1d711ba9ef2827649d244827af3acb88" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedTemplateParamList</definition>
+        <argsstring>(const Doxygen::TemplateParamListQuery &amp;query) override</argsstring>
+        <name>visitedTemplateParamList</name>
+        <reimplements refid="a02463_1acac770d1f242c13069d46ded92d8599b">visitedTemplateParamList</reimplements>
+        <param>
+          <type>const <ref refid="a02639" kindref="compound">Doxygen::TemplateParamListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>templateparamlist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the TemplateParamListQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a7626e99aff8d7f074dbe0eecf141645e" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedType</definition>
+        <argsstring>(const Doxygen::LinkedTextQuery &amp;query) override</argsstring>
+        <name>visitedType</name>
+        <reimplements refid="a02463_1a5b18881ca1b21e683c9918d8939efda1">visitedType</reimplements>
+        <param>
+          <type>const <ref refid="a02411" kindref="compound">Doxygen::LinkedTextQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>type</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the LinkedTextQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="56" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="103" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a17c15970163e326c7100bdaa539a65b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::MemberDefWriter::visitedWrite</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedWrite</name>
+        <reimplements refid="a02463_1a2d2296a52a26af00d2b5947f001baefa">visitedWrite</reimplements>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>write</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="146" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01943_1ae8b7ce08166fa56e68317607a0c8779d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::MemberDefWriter::MemberDefWriter</definition>
+        <argsstring>(DocumentWriter *writer, OStream *out)</argsstring>
+        <name>MemberDefWriter</name>
+        <param>
+          <type><ref refid="a01871" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type><ref refid="a01838_1ae45041f1718b927d8ad04a7f13a88d0c" kindref="member">OStream</ref> *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="69" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="a01943_1a63c4009c79aef6b9b5b0a83e9d1a394e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::MemberDefWriter::write</definition>
+        <argsstring>(const Doxygen::MemberDefQuery &amp;mdq)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const <ref refid="a02467" kindref="compound">Doxygen::MemberDefQuery</ref> &amp;</type>
+          <declname>mdq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/MemberDefWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.cpp" bodystart="151" bodyend="186"/>
+        <references refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="a01427" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
+        <references refid="a02467_1ac68cf32ca18b91aa10c6cd998eff35c9" compoundref="a01592" startline="121" endline="126">MdDox::Doxygen::MemberDefQuery::getKind</references>
+        <references refid="a01843_1acde8234d6785b4c35a72e8c35b9c9ac4ab0bd4ceb63c9efda529003aad5fb27b7" compoundref="a01370" startline="84">MdDox::Doxygen::DMK_FUNCTION</references>
+        <references refid="a01887_1a29298e12b2dccae016c5803525b9eb52" compoundref="a00953" startline="174" endline="199">MdDox::FunctionDefWriter::write</references>
+        <references refid="a01843_1acde8234d6785b4c35a72e8c35b9c9ac4ad1458999750564d3858a4050dd2657c0" compoundref="a01370" startline="64">MdDox::Doxygen::DMK_ENUM</references>
+        <references refid="a01883_1a5079e5da919c5dcb333bc9e1ea603918" compoundref="a00947" startline="191" endline="215">MdDox::EnumDefWriter::write</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06a2bb69856a7a198e9f2007d06dfab2574" compoundref="a01145" startline="62">MdDox::Doxygen::DoxEnumValue</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06a7b2a4e2fec8c7583f51a597db3f94f1b" compoundref="a01145" startline="135">MdDox::Doxygen::DoxType</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06acb513f1f5c43b97dd9494c329f0bf6a6" compoundref="a01145" startline="96">MdDox::Doxygen::DoxName</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06ac195972a46c9b7f6400b66683861bbb4" compoundref="a01145" startline="100">MdDox::Doxygen::DoxParam</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06a53af8dfaa01a1ed5b6dac555c58c1996" compoundref="a01145" startline="38">MdDox::Doxygen::DoxBriefDescription</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06a50626210e6492fb55a2ed7fd9a196d8e" compoundref="a01145" startline="54">MdDox::Doxygen::DoxDetailedDescription</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06a2799e040389f10aeafc974e8c87f3b90" compoundref="a01145" startline="49">MdDox::Doxygen::DoxDefinition</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06a1a941e8dbc5c0a12cd462616b98b1d6d" compoundref="a01145" startline="93">MdDox::Doxygen::DoxLocation</references>
+        <references refid="a02267_1a13a557c0fdece24403e21021e476587a" compoundref="a01427" startline="246" endline="269">MdDox::Doxygen::Query::sort</references>
+        <references refid="a01871_1a2f743defa2378643d75f55989cc54319">MdDox::DocumentWriter::addSection</references>
+        <references refid="a02467_1ab714a02390a2d9c9896c78f931800569" compoundref="a01592" startline="377" endline="384">MdDox::Doxygen::MemberDefQuery::getName</references>
+        <references refid="a02467_1a5f35691bd798dd06bb3344544bd83a69" compoundref="a01592" startline="36" endline="106">MdDox::Doxygen::MemberDefQuery::visit</references>
+        <references refid="a01838_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="a01136" startline="176" endline="187">MdDox::syncStream</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="886">
+        <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
+        <link refid="a02463"/>
+      </node>
+      <node id="885">
+        <label>MdDox::MemberDefWriter</label>
+        <link refid="a01943"/>
+        <childnode refid="886" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="888">
+        <label>MdDox::Doxygen::Visitors::MemberDefQueryVisitor</label>
+        <link refid="a02463"/>
+      </node>
+      <node id="887">
+        <label>MdDox::MemberDefWriter</label>
+        <link refid="a01943"/>
+        <childnode refid="888" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/MdDoxTree/MemberDefWriter.h" line="31" column="1" bodyfile="Source/MdDoxTree/MemberDefWriter.h" bodystart="30" bodyend="72"/>
+    <listofallmembers>
+      <member refid="a01943_1a88550b09968b10485d3e638df7b08a11" prot="private" virt="non-virtual"><scope>MdDox::MemberDefWriter</scope><name>_name</name></member>
+      <member refid="a01943_1a1e5d67504585509f554882e1c2a742ef" prot="private" virt="non-virtual"><scope>MdDox::MemberDefWriter</scope><name>_out</name></member>
+      <member refid="a01943_1a1255a5ea325adface6b62ac03a24f9f8" prot="private" virt="non-virtual"><scope>MdDox::MemberDefWriter</scope><name>_stream</name></member>
+      <member refid="a01943_1acb450ddc6b623e3e65922f44fa33fb8b" prot="private" virt="non-virtual"><scope>MdDox::MemberDefWriter</scope><name>_writer</name></member>
+      <member refid="a01943_1ae8b7ce08166fa56e68317607a0c8779d" prot="public" virt="non-virtual"><scope>MdDox::MemberDefWriter</scope><name>MemberDefWriter</name></member>
+      <member refid="a02463_1a006132878ac6bd8e7068b9f22c32213c" prot="public" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedArgsString</name></member>
+      <member refid="a01943_1ac2c66ea47adbf4932ea4dff00e3402a7" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedBriefDescription</name></member>
+      <member refid="a02463_1af6f5e3e2685e7770fe1d2020d6078088" prot="public" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedDefinition</name></member>
+      <member refid="a01943_1a7241af1c439a60893ff28668ab0b5041" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedDetailedDescription</name></member>
+      <member refid="a01943_1a38df18997aa5373853e612bae9dac72e" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedEnumValue</name></member>
+      <member refid="a01943_1a52963cbee2b614a694ef2164ef9594db" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedExceptions</name></member>
+      <member refid="a02463_1a9b91ad481178b68369d47dafa0c9f7b5" prot="public" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedInBodyDescription</name></member>
+      <member refid="a01943_1a245fdc097d2889a552102df3cdbced7a" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedInitializer</name></member>
+      <member refid="a01943_1ab4457380a4217194531ce9bb51ba713c" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedLocation</name></member>
+      <member refid="a01943_1a29d7b2f3592d333aac905ae1ec975883" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedName</name></member>
+      <member refid="a01943_1aca00dd23e51ac8473581614256d54344" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedParameter</name></member>
+      <member refid="a01943_1a0cae456a0270bb73a2d606fb1eb0e1a9" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedReferencedBy</name></member>
+      <member refid="a01943_1ac4c2b6466a7d6ed78953e264c4ba8625" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedReferences</name></member>
+      <member refid="a01943_1a0aaafb9a7c9f0c9ef20e733269a60d43" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedReImplementedBy</name></member>
+      <member refid="a01943_1a11ac88b289aff93e19f9b61a6d556d6a" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedReImplements</name></member>
+      <member refid="a01943_1a1d711ba9ef2827649d244827af3acb88" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedTemplateParamList</name></member>
+      <member refid="a02463_1a517e31a3b398865139ac319704fc1636" prot="public" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedText</name></member>
+      <member refid="a01943_1a7626e99aff8d7f074dbe0eecf141645e" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedType</name></member>
+      <member refid="a01943_1a17c15970163e326c7100bdaa539a65b6" prot="private" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>visitedWrite</name></member>
+      <member refid="a01943_1a63c4009c79aef6b9b5b0a83e9d1a394e" prot="public" virt="non-virtual"><scope>MdDox::MemberDefWriter</scope><name>write</name></member>
+      <member refid="a02463_1a59ff64c01154536ffb1f4cd7e0635434" prot="public" virt="virtual"><scope>MdDox::MemberDefWriter</scope><name>~MemberDefQueryVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

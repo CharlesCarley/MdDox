@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02631" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::TableQuery</compoundname>
+    <basecompoundref refid="a02267" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/TableQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02631_1a81f769b339edb6a21e2ff79800239c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::TableQuery::TableQuery</definition>
+        <argsstring>()=default</argsstring>
+        <name>TableQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TableQuery.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02631_1a64238a5ad0b1932eb847405e30eb3638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::TableQuery::TableQuery</definition>
+        <argsstring>(const TableQuery &amp;other)=default</argsstring>
+        <name>TableQuery</name>
+        <param>
+          <type>const <ref refid="a02631" kindref="compound">TableQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TableQuery.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02631_1a37be2025113ef1841e5ab39a7ff4ab19" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::TableQuery::TableQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>TableQuery</name>
+        <param>
+          <type><ref refid="a02111" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TableQuery.h" line="70" column="1" bodyfile="Tools/Doxygen/TableQuery.h" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="a02631_1a8772e9ebbf3c28f9903280bfe92882dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::TableQuery::getCaption</definition>
+        <argsstring>(CaptionQuery &amp;dest) const</argsstring>
+        <name>getCaption</name>
+        <param>
+          <type><ref refid="a02143" kindref="compound">CaptionQuery</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>caption</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TableQuery.h" line="79" column="1" bodyfile="Tools/Doxygen/TableQuery.cpp" bodystart="59" bodyend="68"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a01427" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="a02631_1a5218a0b9c135f51bafe760bf683bb120" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a02143" kindref="compound">CaptionQuery</ref></type>
+        <definition>CaptionQuery MdDox::Doxygen::TableQuery::getCaption</definition>
+        <argsstring>() const</argsstring>
+        <name>getCaption</name>
+        <briefdescription>
+<para>Provides access to the <bold>caption</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TableQuery.h" line="84" column="1" bodyfile="Tools/Doxygen/TableQuery.cpp" bodystart="70" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="a02631_1a13f2ccfb00fca36a7500a91d090f9f9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::Doxygen::TableQuery::getCols</definition>
+        <argsstring>(int64_t def=-1) const</argsstring>
+        <name>getCols</name>
+        <param>
+          <type>int64_t</type>
+          <declname>def</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>cols</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TableQuery.h" line="94" column="1" bodyfile="Tools/Doxygen/TableQuery.cpp" bodystart="54" bodyend="57"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1af5396b174492eaed6d8566442df57554" compoundref="a01247" startline="117" endline="123">MdDox::Xml::Node::integer</references>
+      </memberdef>
+      <memberdef kind="function" id="a02631_1a7bf7946b0e6e5e5803cef5c917a5d759" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::Doxygen::TableQuery::getRows</definition>
+        <argsstring>(int64_t def=-1) const</argsstring>
+        <name>getRows</name>
+        <param>
+          <type>int64_t</type>
+          <declname>def</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>rows</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TableQuery.h" line="89" column="1" bodyfile="Tools/Doxygen/TableQuery.cpp" bodystart="49" bodyend="52"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1af5396b174492eaed6d8566442df57554" compoundref="a01247" startline="117" endline="123">MdDox::Xml::Node::integer</references>
+      </memberdef>
+      <memberdef kind="function" id="a02631_1a7a5879749fd8a5c47832575bd312d834" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::TableQuery::visit</definition>
+        <argsstring>(Visitors::TableQueryVisitor *) const</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="a02627" kindref="compound">Visitors::TableQueryVisitor</ref> *</type>
+          <defname>visitor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/TableQuery.h" line="75" column="1" bodyfile="Tools/Doxygen/TableQuery.cpp" bodystart="29" bodyend="48"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a01250" startline="270" endline="273">MdDox::Xml::Node::children</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="a01145" startline="31">MdDox::Doxygen::DoxTextNode</references>
+        <references refid="a02627_1a881ff6f296e874c607e680404cb10432" compoundref="a01739" startline="38" endline="38">MdDox::Doxygen::Visitors::TableQueryVisitor::visitedText</references>
+        <references refid="a02627_1ae065dded410d21602245fac8315efe69" compoundref="a01739" startline="43" endline="43">MdDox::Doxygen::Visitors::TableQueryVisitor::visitedCaption</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>docTableType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>docTableType</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docTableType&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;row&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docRowType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;caption&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docCaptionType&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;rows&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:integer&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;cols&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:integer&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="542">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+      </node>
+      <node id="541">
+        <label>MdDox::Doxygen::TableQuery</label>
+        <link refid="a02631"/>
+        <childnode refid="542" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="545">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a02111"/>
+        <childnode refid="546" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="544">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+        <childnode refid="545" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="543">
+        <label>MdDox::Doxygen::TableQuery</label>
+        <link refid="a02631"/>
+        <childnode refid="544" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="546">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/TableQuery.h" line="65" column="1" bodyfile="Tools/Doxygen/TableQuery.h" bodystart="64" bodyend="97"/>
+    <listofallmembers>
+      <member refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>_node</name></member>
+      <member refid="a02267_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>empty</name></member>
+      <member refid="a02631_1a8772e9ebbf3c28f9903280bfe92882dd" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>getCaption</name></member>
+      <member refid="a02631_1a5218a0b9c135f51bafe760bf683bb120" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>getCaption</name></member>
+      <member refid="a02631_1a13f2ccfb00fca36a7500a91d090f9f9e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>getCols</name></member>
+      <member refid="a02631_1a7bf7946b0e6e5e5803cef5c917a5d759" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>getRows</name></member>
+      <member refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>isValid</name></member>
+      <member refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>node</name></member>
+      <member refid="a02267_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>reset</name></member>
+      <member refid="a02267_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>sort</name></member>
+      <member refid="a02631_1a81f769b339edb6a21e2ff79800239c1d" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>TableQuery</name></member>
+      <member refid="a02631_1a64238a5ad0b1932eb847405e30eb3638" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>TableQuery</name></member>
+      <member refid="a02631_1a37be2025113ef1841e5ab39a7ff4ab19" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>TableQuery</name></member>
+      <member refid="a02267_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>text</name></member>
+      <member refid="a02631_1a7a5879749fd8a5c47832575bd312d834" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::TableQuery</scope><name>visit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

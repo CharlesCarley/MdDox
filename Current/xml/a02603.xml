@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02603" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::Sect4Query</compoundname>
+    <basecompoundref refid="a02267" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/Sect4Query.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02603_1aed87de5b04dd0a5fc7e4a466ba664284" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::Sect4Query::Sect4Query</definition>
+        <argsstring>()=default</argsstring>
+        <name>Sect4Query</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02603_1ae61e90066fc4e4586bf97ce075d06882" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::Sect4Query::Sect4Query</definition>
+        <argsstring>(const Sect4Query &amp;other)=default</argsstring>
+        <name>Sect4Query</name>
+        <param>
+          <type>const <ref refid="a02603" kindref="compound">Sect4Query</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02603_1a53677beb00f41f15d2fdfa10e2cfdecb" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::Sect4Query::Sect4Query</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>Sect4Query</name>
+        <param>
+          <type><ref refid="a02111" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="80" column="1" bodyfile="Tools/Doxygen/Sect4Query.h" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="a02603_1a869a51669799d14f4602283855a0d49c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::Sect4Query::foreachParagraph</definition>
+        <argsstring>(const ParaQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachParagraph</name>
+        <param>
+          <type>const <ref refid="a01843_1a4b012831ccd3b9011d3a246762449d77" kindref="member">ParaQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>para</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="114" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="90" bodyend="93"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+      </memberdef>
+      <memberdef kind="function" id="a02603_1a863ddec67b4edfa47019ef847ff00697" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::Sect4Query::getId</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getId</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>id</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>id</bold> enumerated value or an empty string the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="92" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="56" bodyend="61"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a01247" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a02603_1a97e89b17f93c28de4092e529915b464a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::Sect4Query::getInternal</definition>
+        <argsstring>(InternalS4Query &amp;dest) const</argsstring>
+        <name>getInternal</name>
+        <param>
+          <type><ref refid="a02395" kindref="compound">InternalS4Query</ref> &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>internal</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="104" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="72" bodyend="81"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" compoundref="a01427" startline="230" endline="233">MdDox::Doxygen::Query::reset</references>
+      </memberdef>
+      <memberdef kind="function" id="a02603_1a5c4d113087369b7eeae06d2d771b3b04" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a02395" kindref="compound">InternalS4Query</ref></type>
+        <definition>InternalS4Query MdDox::Doxygen::Sect4Query::getInternal</definition>
+        <argsstring>() const</argsstring>
+        <name>getInternal</name>
+        <briefdescription>
+<para>Provides access to the <bold>internal</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="109" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="a02603_1afe4d97cafd7e5bae8cfde980d1c69b09" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::Sect4Query::getTitle</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getTitle</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>title</bold> tag&apos;s inner text. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>title&apos;s</bold> text or the default value if the node is invalid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="99" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="63" bodyend="70"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
+        <references refid="a02111_1ab85578367da69da2df67971b9420726a" compoundref="a01250" startline="285" endline="288">MdDox::Xml::Node::text</references>
+      </memberdef>
+      <memberdef kind="function" id="a02603_1aec89c471dd0447f474a28c0e517afc59" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::Sect4Query::visit</definition>
+        <argsstring>(Visitors::Sect4QueryVisitor *) const</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="a02599" kindref="compound">Visitors::Sect4QueryVisitor</ref> *</type>
+          <defname>visitor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/Sect4Query.h" line="85" column="1" bodyfile="Tools/Doxygen/Sect4Query.cpp" bodystart="30" bodyend="55"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a01250" startline="270" endline="273">MdDox::Xml::Node::children</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="a01145" startline="31">MdDox::Doxygen::DoxTextNode</references>
+        <references refid="a02599_1a2de69bc853470f0d05f91bc3b0a00d00" compoundref="a01715" startline="38" endline="38">MdDox::Doxygen::Visitors::Sect4QueryVisitor::visitedText</references>
+        <references refid="a02599_1a0624f8b419bcd017d310723321abc279" compoundref="a01715" startline="43" endline="43">MdDox::Doxygen::Visitors::Sect4QueryVisitor::visitedParagraph</references>
+        <references refid="a02599_1aa33b235c51bd074b2e1ff5a2a6b6324f" compoundref="a01715" startline="48" endline="48">MdDox::Doxygen::Visitors::Sect4QueryVisitor::visitedInternal</references>
+        <references refid="a02599_1ae0c8db61683031f85a6a065eff09ffe7" compoundref="a01715" startline="53" endline="53">MdDox::Doxygen::Visitors::Sect4QueryVisitor::visitedTitle</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>docSect4Type</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>docSect4Type</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docSect4Type&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">mixed</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;title&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;para&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docParaType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;internal&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docInternalS4Type&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;id&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="517">
+        <label>MdDox::Doxygen::Sect4Query</label>
+        <link refid="a02603"/>
+        <childnode refid="518" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="518">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="519">
+        <label>MdDox::Doxygen::Sect4Query</label>
+        <link refid="a02603"/>
+        <childnode refid="520" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="521">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a02111"/>
+        <childnode refid="522" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="520">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+        <childnode refid="521" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="522">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/Sect4Query.h" line="75" column="1" bodyfile="Tools/Doxygen/Sect4Query.h" bodystart="74" bodyend="117"/>
+    <listofallmembers>
+      <member refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>_node</name></member>
+      <member refid="a02267_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>empty</name></member>
+      <member refid="a02603_1a869a51669799d14f4602283855a0d49c" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>foreachParagraph</name></member>
+      <member refid="a02603_1a863ddec67b4edfa47019ef847ff00697" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>getId</name></member>
+      <member refid="a02603_1a97e89b17f93c28de4092e529915b464a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>getInternal</name></member>
+      <member refid="a02603_1a5c4d113087369b7eeae06d2d771b3b04" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>getInternal</name></member>
+      <member refid="a02603_1afe4d97cafd7e5bae8cfde980d1c69b09" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>getTitle</name></member>
+      <member refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>isValid</name></member>
+      <member refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>node</name></member>
+      <member refid="a02267_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>Query</name></member>
+      <member refid="a02267_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>Query</name></member>
+      <member refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>reset</name></member>
+      <member refid="a02603_1aed87de5b04dd0a5fc7e4a466ba664284" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>Sect4Query</name></member>
+      <member refid="a02603_1ae61e90066fc4e4586bf97ce075d06882" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>Sect4Query</name></member>
+      <member refid="a02603_1a53677beb00f41f15d2fdfa10e2cfdecb" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>Sect4Query</name></member>
+      <member refid="a02267_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>sort</name></member>
+      <member refid="a02267_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>text</name></member>
+      <member refid="a02603_1aec89c471dd0447f474a28c0e517afc59" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::Sect4Query</scope><name>visit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

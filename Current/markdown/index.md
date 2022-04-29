@@ -15,13 +15,13 @@
 <a id="pages"></a>
 <h2>Pages</h2>
 <ul>
-<li><a href="a02120.md#md001">Project Structure</a>
+<li><a href="a02972.md#md001">Project Structure</a>
 <span class="inline-text"> Illustrates the project&apos;s library and executable dependency structure.</span>
 </li>
-<li><a href="a02121.md#md002">Site Layout</a>
+<li><a href="a02973.md#md002">Site Layout</a>
 <span class="inline-text"> Illustrates the structure of the generated site.</span>
 </li>
-<li><a href="a02122.md#md003">Image handling</a>
+<li><a href="a02974.md#md003">Image handling</a>
 <span class="inline-text"> Describes the way internal icons are accessed.</span>
 </li>
 </ul>

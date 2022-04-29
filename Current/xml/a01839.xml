@@ -1,228 +1,90 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
-  <compounddef id="a01839" kind="class" language="C++" prot="public" final="yes">
-    <compoundname>MdDox::GenApi::Complex</compoundname>
-    <basecompoundref refid="a01855" prot="public" virt="non-virtual">MdDox::GenApi::Group</basecompoundref>
-    <includes local="no">Tools/GenApi/Complex.h</includes>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="a01839_1a856ca564f02b72daf0e56700de7f3aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::GenApi::Complex::Complex</definition>
-        <argsstring>(Xml::Node *node, String name, String type)</argsstring>
-        <name>Complex</name>
+  <compounddef id="a01839" kind="namespace" language="C++">
+    <compoundname>MdDox::HashUtils</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="a01839_1a49ec2eb5df6b578da034ce5eb27b257d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::HashUtils::anchor</definition>
+        <argsstring>(const String &amp;id)</argsstring>
+        <name>anchor</name>
         <param>
-          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
-          <declname>node</declname>
-        </param>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-          <declname>name</declname>
-        </param>
-        <param>
-          <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
-          <declname>type</declname>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>id</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Constructs a heading fragment. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Returns a string formatted as: <computeroutput>#</computeroutput> <computeroutput>id</computeroutput> <linebreak/>
+ Assumes that id points to an anchor somewhere in the current document. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Complex.h" line="42" column="1" bodyfile="Tools/GenApi/Complex.cpp" bodystart="30" bodyend="33"/>
+        <location file="Source/MdDoxTree/HashUtils.cpp" line="55" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="55" bodyend="58"/>
+        <references refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a01226" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
-      <memberdef kind="function" id="a01839_1a7db9b70aa4b7500700ae31fd36a6ea85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MdDox::GenApi::Complex::~Complex</definition>
-        <argsstring>() override</argsstring>
-        <name>~Complex</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Tools/GenApi/Complex.h" line="43" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="a01839_1a8b6b0dd4bf00bf4823732fab0973dd86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::GenApi::Complex::write</definition>
-        <argsstring>(const String &amp;output)</argsstring>
-        <name>write</name>
+      <memberdef kind="function" id="a01839_1a115b0cf102c16116e020830eb0430b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::HashUtils::cleanTitle</definition>
+        <argsstring>(const String &amp;title)</argsstring>
+        <name>cleanTitle</name>
         <param>
-          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
-          <declname>output</declname>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Cleans the supplied title. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Removes all binary resolution operators. Replaces white space and path separators with a dash. Converts the string to lowercase. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tools/GenApi/Complex.h" line="45" column="1" bodyfile="Tools/GenApi/Complex.cpp" bodystart="37" bodyend="57"/>
-        <references refid="a00986_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a00374" startline="223" endline="228">MdDox::StringCombine</references>
-        <references refid="a01239_1aa1452c3fe344917e66dca2fb53168fb0" compoundref="a00365" startline="191" endline="194">MdDox::PathUtil::rootedDir</references>
-        <references refid="a01239_1a982c0e9ff01aa862f2d6e42d9425f75a" compoundref="a00365" startline="126" endline="129">MdDox::PathUtil::stem</references>
-        <references refid="a01855_1ae779a1556e2e68ee172437716dc02206" compoundref="a00962" startline="405" endline="454">MdDox::GenApi::Group::writeHeader</references>
-        <references refid="a01855_1af9680b0901481956bf51c025c9d6a79d" compoundref="a00962" startline="456" endline="475">MdDox::GenApi::Group::writeSource</references>
+        <location file="Source/MdDoxTree/HashUtils.cpp" line="36" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="36" bodyend="53"/>
+        <references refid="a02099_1aca409c0c7ed03c4e60564c4955b736d2" compoundref="a01223" startline="125" endline="132">MdDox::StringUtils::split</references>
+        <references refid="a02099_1a7c366ea2942779a96722181c617fbe35" compoundref="a01223" startline="31" endline="74">MdDox::StringUtils::replaceAll</references>
+        <references refid="a02099_1a0c6460ffd00b82ae4cd21ce37ea22a4e" compoundref="a01223" startline="76" endline="82">MdDox::StringUtils::toLower</references>
+      </memberdef>
+      <memberdef kind="function" id="a01839_1a50a78de1e03d26a0a98f494a71b754e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::HashUtils::heading</definition>
+        <argsstring>(const String &amp;title)</argsstring>
+        <name>heading</name>
+        <param>
+          <type>const <ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a heading fragment. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns a string formatted as: <computeroutput>#</computeroutput> <computeroutput>title</computeroutput> <linebreak/>
+ Where title is sanitized with cleanTitle. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/HashUtils.cpp" line="31" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="31" bodyend="34"/>
+        <references refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a01226" startline="223" endline="228">MdDox::StringCombine</references>
+        <references refid="a01839_1a115b0cf102c16116e020830eb0430b89" compoundref="a00971" startline="36" endline="53">cleanTitle</references>
+      </memberdef>
+      <memberdef kind="function" id="a01839_1a4a9cd5a09c91b2558f86e17c2d447999" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a01838_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::HashUtils::lineNumber</definition>
+        <argsstring>(const uint32_t &amp;line)</argsstring>
+        <name>lineNumber</name>
+        <param>
+          <type>const uint32_t &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a line fragment. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns a string formatted as: <computeroutput>#</computeroutput> <computeroutput>L</computeroutput> <computeroutput>line</computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/HashUtils.cpp" line="26" column="1" bodyfile="Source/MdDoxTree/HashUtils.cpp" bodystart="26" bodyend="29"/>
+        <references refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a01226" startline="223" endline="228">MdDox::StringCombine</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Provides methods for creating URL hash fragments. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <inheritancegraph>
-      <node id="754">
-        <label>MdDox::Xml::Writer</label>
-        <link refid="a01271"/>
-      </node>
-      <node id="753">
-        <label>MdDox::GenApi::Object</label>
-        <link refid="a01863"/>
-        <childnode refid="754" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="751">
-        <label>MdDox::GenApi::Complex</label>
-        <link refid="a01839"/>
-        <childnode refid="752" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="752">
-        <label>MdDox::GenApi::Group</label>
-        <link refid="a01855"/>
-        <childnode refid="753" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="758">
-        <label>MdDox::Xml::Writer</label>
-        <link refid="a01271"/>
-      </node>
-      <node id="765">
-        <label>vector&lt; Group *&gt;</label>
-      </node>
-      <node id="757">
-        <label>MdDox::GenApi::Object</label>
-        <link refid="a01863"/>
-        <childnode refid="758" relation="public-inheritance">
-        </childnode>
-        <childnode refid="759" relation="usage">
-          <edgelabel>_name</edgelabel>
-        </childnode>
-      </node>
-      <node id="755">
-        <label>MdDox::GenApi::Complex</label>
-        <link refid="a01839"/>
-        <childnode refid="756" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="762">
-        <label>MdDox::Xml::Node</label>
-        <link refid="a01259"/>
-        <childnode refid="763" relation="usage">
-          <edgelabel>_autoDelete</edgelabel>
-        </childnode>
-      </node>
-      <node id="760">
-        <label>unordered_map&lt; String, String &gt;</label>
-      </node>
-      <node id="759">
-        <label>string</label>
-      </node>
-      <node id="764">
-        <label>unordered_map&lt; std::string, std::string &gt;</label>
-      </node>
-      <node id="756">
-        <label>MdDox::GenApi::Group</label>
-        <link refid="a01855"/>
-        <childnode refid="757" relation="public-inheritance">
-        </childnode>
-        <childnode refid="760" relation="usage">
-          <edgelabel>_stringAttributes</edgelabel>
-          <edgelabel>_enumAttributes</edgelabel>
-          <edgelabel>_integerAttributes</edgelabel>
-        </childnode>
-        <childnode refid="761" relation="usage">
-          <edgelabel>_textReturns</edgelabel>
-          <edgelabel>_elements</edgelabel>
-          <edgelabel>_singleReturns</edgelabel>
-        </childnode>
-        <childnode refid="762" relation="usage">
-          <edgelabel>_node</edgelabel>
-        </childnode>
-        <childnode refid="764" relation="usage">
-          <edgelabel>_dependentHeaderTypes</edgelabel>
-          <edgelabel>_dependentTypes</edgelabel>
-        </childnode>
-        <childnode refid="763" relation="usage">
-          <edgelabel>_first</edgelabel>
-          <edgelabel>_foreach</edgelabel>
-        </childnode>
-        <childnode refid="759" relation="usage">
-          <edgelabel>_tagType</edgelabel>
-        </childnode>
-        <childnode refid="765" relation="usage">
-          <edgelabel>_groups</edgelabel>
-        </childnode>
-      </node>
-      <node id="761">
-        <label>vector&lt; Element &gt;</label>
-      </node>
-      <node id="763">
-        <label>bool</label>
-      </node>
-    </collaborationgraph>
-    <location file="Tools/GenApi/Complex.h" line="40" column="1" bodyfile="Tools/GenApi/Complex.h" bodystart="39" bodyend="46"/>
-    <listofallmembers>
-      <member refid="a01855_1ab691fb2100aa94a659dcda88a5884b7a" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_dependentHeaderTypes</name></member>
-      <member refid="a01855_1a97b2a5261119b03d3970655b60707f76" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_dependentTypes</name></member>
-      <member refid="a01855_1a45b775e686164e197337cff2e324321e" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_elements</name></member>
-      <member refid="a01855_1a6a50c87e762c3dc61ff76a21322f1066" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_enumAttributes</name></member>
-      <member refid="a01855_1a170ee7fc3edb34e81da2028023d5a88f" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_first</name></member>
-      <member refid="a01855_1a040f01434f53b98917564a2ae66fd60d" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_foreach</name></member>
-      <member refid="a01855_1a3ab183df23ba0b8e08480b4a13216992" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_groups</name></member>
-      <member refid="a01855_1ac0ad6accc04e5671ca135fe95625a3b1" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_integerAttributes</name></member>
-      <member refid="a01863_1aab4a2aeec8527b9f8d9a7aed22af8d74" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_name</name></member>
-      <member refid="a01855_1a3e6d87b5fadced46e6decede161443a8" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_node</name></member>
-      <member refid="a01855_1a84facfa06d2fe6a525a53789969f3b1d" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_singleReturns</name></member>
-      <member refid="a01855_1a70c29435b823d9e9fb05f6e77101a228" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_stringAttributes</name></member>
-      <member refid="a01855_1a3f2b6d71aaefa528f3950197904307e4" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_tagType</name></member>
-      <member refid="a01855_1a58d8eb4faf1136b2574bec8e5dcebf65" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>_textReturns</name></member>
-      <member refid="a01855_1af1f857fb9ca4e94790b29de7ed0c3bde" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>addElement</name></member>
-      <member refid="a01855_1a58debcbe89901b51283db9008bcf40aa" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>addEnumAttribute</name></member>
-      <member refid="a01855_1ab7373a29323cc8420720462ae2f55e2e" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>addGroup</name></member>
-      <member refid="a01855_1a0ec10f2269dc9705c80d53d9124e3b8f" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>addIntegerAttribute</name></member>
-      <member refid="a01855_1a7a69ae96c946a0074e2a2e09f4cd5173" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>addSingleElement</name></member>
-      <member refid="a01855_1ab1a610ffab87fc4c30b58fbc6b81f778" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>addStringAttribute</name></member>
-      <member refid="a01855_1a9d1801a39a637e20ecdcae46ed7a6f16" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>addStringTextElement</name></member>
-      <member refid="a01855_1a8d616c9df8cf6fa56e4bbbde7be635b5" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>canHaveVisitors</name></member>
-      <member refid="a01839_1a856ca564f02b72daf0e56700de7f3aec" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>Complex</name></member>
-      <member refid="a01855_1afbb9dc3336478795a577993abc87cbdc" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>Group</name></member>
-      <member refid="a01855_1a44246225a27853a77ab1550b245609d7" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>Group</name></member>
-      <member refid="a01863_1a6be862a818c5b97b96fa69e6e29f4ba9" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>Object</name></member>
-      <member refid="a01855_1afb0e32c688e5b3b0d497916c9dba829c" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>replicate</name></member>
-      <member refid="a01855_1a4e8dd1f4e16317ca926da1ec5e3a6592" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>setForeach</name></member>
-      <member refid="a01271_1a7d48f1a4ee7a1bbefb8ca05a0ded4536" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>setIndent</name></member>
-      <member refid="a01271_1a386ffcf7d74ba57836183ad2be6214a5" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>setWriteXml</name></member>
-      <member refid="a01839_1a8b6b0dd4bf00bf4823732fab0973dd86" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>write</name></member>
-      <member refid="a01271_1a3de47d9176cd5216f12c3e71d7c6e828" prot="public" virt="non-virtual" ambiguityscope="MdDox::GenApi::Group::"><scope>MdDox::GenApi::Complex</scope><name>write</name></member>
-      <member refid="a01855_1ac71d0fdad5e9b5e0f7384da2b9dfbbfa" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>writeForeachHeader</name></member>
-      <member refid="a01855_1a912a199b7b7d52badc355c7d89734263" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>writeForeachSource</name></member>
-      <member refid="a01855_1ae779a1556e2e68ee172437716dc02206" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>writeHeader</name></member>
-      <member refid="a01271_1ab057bff69eed3c14bd6fc1c7558af3c1" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>Writer</name></member>
-      <member refid="a01855_1af9680b0901481956bf51c025c9d6a79d" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>writeSource</name></member>
-      <member refid="a01855_1a888bd481755c42946dfdf6f28f33a587" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>writeStringGettersHeader</name></member>
-      <member refid="a01855_1a6283208a31ea3adfa8626e7713fe425a" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>writeStringGettersSource</name></member>
-      <member refid="a01855_1a54a45dd15eb51ff0b22923127e3f2dc5" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>writeVisitElement</name></member>
-      <member refid="a01855_1a2f1e34a46c2afbc1f61057b31028db75" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>writeVisitElementItem</name></member>
-      <member refid="a01855_1a852f0637694bf248fd2f007db3eafeba" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>writeVisitElementItems</name></member>
-      <member refid="a01855_1ab9127617000e31463c5a23614d750b28" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>writeVisitElementItemText</name></member>
-      <member refid="a01855_1a45beb0e96c63403bbc99b7e7dadcaba0" prot="protected" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>writeVisitElementSource</name></member>
-      <member refid="a01839_1a7db9b70aa4b7500700ae31fd36a6ea85" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>~Complex</name></member>
-      <member refid="a01855_1ae3284ae5ed3a5e0484c721ab11be6045" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>~Group</name></member>
-      <member refid="a01863_1a4386695048c025b9141bc42bd45c1bf4" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>~Object</name></member>
-      <member refid="a01271_1aa7759dd2e58c15311613673da60ecb38" prot="public" virt="non-virtual"><scope>MdDox::GenApi::Complex</scope><name>~Writer</name></member>
-    </listofallmembers>
+    <location file="Source/MdDoxTree/HashUtils.cpp" line="25" column="1"/>
   </compounddef>
 </doxygen>

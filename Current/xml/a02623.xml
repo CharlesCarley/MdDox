@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02623" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::SpQuery</compoundname>
+    <basecompoundref refid="a02267" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/SpQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a02623_1af874e6ee22755df31f27b4cb21b7bcfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::SpQuery::SpQuery</definition>
+        <argsstring>()=default</argsstring>
+        <name>SpQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SpQuery.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02623_1acb9011ddb54a887d0d48ce63789427be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::SpQuery::SpQuery</definition>
+        <argsstring>(const SpQuery &amp;other)=default</argsstring>
+        <name>SpQuery</name>
+        <param>
+          <type>const <ref refid="a02623" kindref="compound">SpQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SpQuery.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a02623_1ad75c9fdf3374be891d992c1f63077a30" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::SpQuery::SpQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>SpQuery</name>
+        <param>
+          <type><ref refid="a02111" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SpQuery.h" line="47" column="1" bodyfile="Tools/Doxygen/SpQuery.h" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="a02623_1a81bfe6e403a856718e52cd5702e602cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::Doxygen::SpQuery::getValue</definition>
+        <argsstring>(int64_t def=-1) const</argsstring>
+        <name>getValue</name>
+        <param>
+          <type>int64_t</type>
+          <declname>def</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>value</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/SpQuery.h" line="54" column="1" bodyfile="Tools/Doxygen/SpQuery.cpp" bodystart="28" bodyend="31"/>
+        <references refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a01427" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a02111_1af5396b174492eaed6d8566442df57554" compoundref="a01247" startline="117" endline="123">MdDox::Xml::Node::integer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>spType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>spType</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;spType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">mixed</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;value&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:integer&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="535">
+        <label>MdDox::Doxygen::SpQuery</label>
+        <link refid="a02623"/>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="536">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="537">
+        <label>MdDox::Doxygen::SpQuery</label>
+        <link refid="a02623"/>
+        <childnode refid="538" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="539">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a02111"/>
+        <childnode refid="540" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="538">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a02267"/>
+        <childnode refid="539" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="540">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/SpQuery.h" line="42" column="1" bodyfile="Tools/Doxygen/SpQuery.h" bodystart="41" bodyend="57"/>
+    <listofallmembers>
+      <member refid="a02267_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>_node</name></member>
+      <member refid="a02267_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>empty</name></member>
+      <member refid="a02623_1a81bfe6e403a856718e52cd5702e602cc" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>getValue</name></member>
+      <member refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>isValid</name></member>
+      <member refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>node</name></member>
+      <member refid="a02267_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>Query</name></member>
+      <member refid="a02267_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>reset</name></member>
+      <member refid="a02267_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>sort</name></member>
+      <member refid="a02623_1af874e6ee22755df31f27b4cb21b7bcfa" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>SpQuery</name></member>
+      <member refid="a02623_1acb9011ddb54a887d0d48ce63789427be" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>SpQuery</name></member>
+      <member refid="a02623_1ad75c9fdf3374be891d992c1f63077a30" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>SpQuery</name></member>
+      <member refid="a02267_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::SpQuery</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
