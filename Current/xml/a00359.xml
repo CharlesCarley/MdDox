@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a00359" kind="file" language="C++">
+    <compoundname>ScannerBase.h</compoundname>
+    <includes refid="a00338" local="yes">Utils/FileSystem.h</includes>
+    <includes refid="a00341" local="yes">Utils/IndexCache.h</includes>
+    <includes refid="a00368" local="yes">Utils/Path.h</includes>
+    <includes refid="a00362" local="yes">Utils/ParserBase/TokenBase.h</includes>
+    <includedby refid="a00350" local="yes">Source/Utils/ParserBase/ParserBase.cpp</includedby>
+    <includedby refid="a00353" local="yes">Source/Utils/ParserBase/ParserBase.h</includedby>
+    <includedby refid="a00356" local="yes">Source/Utils/ParserBase/ScannerBase.cpp</includedby>
+    <includedby refid="a02154" local="yes">Source/Xml/Scanner.h</includedby>
+    <incdepgraph>
+      <node id="3603">
+        <label>Utils/Console.h</label>
+        <childnode refid="3589" relation="include">
+        </childnode>
+      </node>
+      <node id="3596">
+        <label>iomanip</label>
+      </node>
+      <node id="3605">
+        <label>Utils/ParserBase/TokenBase.h</label>
+      </node>
+      <node id="3586">
+        <label>Source/Utils/ParserBase/ScannerBase.h</label>
+        <link refid="a00359"/>
+        <childnode refid="3587" relation="include">
+        </childnode>
+        <childnode refid="3597" relation="include">
+        </childnode>
+        <childnode refid="3604" relation="include">
+        </childnode>
+        <childnode refid="3605" relation="include">
+        </childnode>
+      </node>
+      <node id="3604">
+        <label>Utils/Path.h</label>
+        <childnode refid="3589" relation="include">
+        </childnode>
+      </node>
+      <node id="3599">
+        <label>Utils/Exception.h</label>
+        <childnode refid="3600" relation="include">
+        </childnode>
+        <childnode refid="3601" relation="include">
+        </childnode>
+        <childnode refid="3602" relation="include">
+        </childnode>
+        <childnode refid="3603" relation="include">
+        </childnode>
+        <childnode refid="3589" relation="include">
+        </childnode>
+      </node>
+      <node id="3601">
+        <label>stdexcept</label>
+      </node>
+      <node id="3593">
+        <label>string</label>
+      </node>
+      <node id="3598">
+        <label>unordered_set</label>
+      </node>
+      <node id="3600">
+        <label>exception</label>
+      </node>
+      <node id="3591">
+        <label>fstream</label>
+      </node>
+      <node id="3589">
+        <label>Utils/String.h</label>
+        <childnode refid="3590" relation="include">
+        </childnode>
+        <childnode refid="3591" relation="include">
+        </childnode>
+        <childnode refid="3592" relation="include">
+        </childnode>
+        <childnode refid="3593" relation="include">
+        </childnode>
+        <childnode refid="3594" relation="include">
+        </childnode>
+        <childnode refid="3595" relation="include">
+        </childnode>
+        <childnode refid="3596" relation="include">
+        </childnode>
+      </node>
+      <node id="3595">
+        <label>vector</label>
+      </node>
+      <node id="3602">
+        <label>utility</label>
+      </node>
+      <node id="3592">
+        <label>sstream</label>
+      </node>
+      <node id="3587">
+        <label>Utils/FileSystem.h</label>
+        <childnode refid="3588" relation="include">
+        </childnode>
+        <childnode refid="3589" relation="include">
+        </childnode>
+      </node>
+      <node id="3590">
+        <label>deque</label>
+      </node>
+      <node id="3594">
+        <label>unordered_map</label>
+      </node>
+      <node id="3597">
+        <label>Utils/IndexCache.h</label>
+        <childnode refid="3594" relation="include">
+        </childnode>
+        <childnode refid="3598" relation="include">
+        </childnode>
+        <childnode refid="3599" relation="include">
+        </childnode>
+      </node>
+      <node id="3588">
+        <label>experimental/filesystem</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3615">
+        <label>Source/Xml/Parser.cpp</label>
+      </node>
+      <node id="3616">
+        <label>Tools/GenApi/Main.cpp</label>
+      </node>
+      <node id="3609">
+        <label>Source/Utils/Config.cpp</label>
+      </node>
+      <node id="3606">
+        <label>Source/Utils/ParserBase/ScannerBase.h</label>
+        <link refid="a00359"/>
+        <childnode refid="3607" relation="include">
+        </childnode>
+        <childnode refid="3608" relation="include">
+        </childnode>
+        <childnode refid="3617" relation="include">
+        </childnode>
+        <childnode refid="3618" relation="include">
+        </childnode>
+      </node>
+      <node id="3608">
+        <label>Source/Utils/ParserBase/ParserBase.h</label>
+        <childnode refid="3609" relation="include">
+        </childnode>
+        <childnode refid="3607" relation="include">
+        </childnode>
+        <childnode refid="3610" relation="include">
+        </childnode>
+        <childnode refid="3611" relation="include">
+        </childnode>
+      </node>
+      <node id="3607">
+        <label>Source/Utils/ParserBase/ParserBase.cpp</label>
+      </node>
+      <node id="3619">
+        <label>Source/Xml/Scanner.cpp</label>
+      </node>
+      <node id="3611">
+        <label>Source/Xml/Parser.h</label>
+        <childnode refid="3612" relation="include">
+        </childnode>
+        <childnode refid="3613" relation="include">
+        </childnode>
+        <childnode refid="3614" relation="include">
+        </childnode>
+        <childnode refid="3615" relation="include">
+        </childnode>
+        <childnode refid="3616" relation="include">
+        </childnode>
+      </node>
+      <node id="3614">
+        <label>Source/MdDoxTree/SiteBuilder.cpp</label>
+      </node>
+      <node id="3617">
+        <label>Source/Utils/ParserBase/ScannerBase.cpp</label>
+      </node>
+      <node id="3612">
+        <label>Source/MdDox/Main.cpp</label>
+      </node>
+      <node id="3618">
+        <label>Source/Xml/Scanner.h</label>
+        <childnode refid="3615" relation="include">
+        </childnode>
+        <childnode refid="3619" relation="include">
+        </childnode>
+      </node>
+      <node id="3613">
+        <label>Source/MdDoxTree/IndexPageWriter.cpp</label>
+      </node>
+      <node id="3610">
+        <label>Source/Xml/Node.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a01231" prot="public">MdDox::ScannerBase</innerclass>
+    <innernamespace refid="a00986">MdDox</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="a00359_1a6381d62d288c299e72ba79f181fe969d" prot="public" static="no">
+        <name>Digits09</name>
+        <initializer>&apos;0&apos; : case &apos;1&apos; : case &apos;2&apos; : case &apos;3&apos; : case &apos;4&apos; : case &apos;5&apos; : case &apos;6&apos; \
+        : case &apos;7&apos; : case &apos;8&apos; : case &apos;9&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ScannerBase.h" line="130" column="9" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="a00359_1ac3cd1b079ed7176efca57b086b4efc0d" prot="public" static="no">
+        <name>LowerCaseAz</name>
+        <initializer>&apos;a&apos; : case &apos;b&apos; : case &apos;c&apos; : case &apos;d&apos; : case &apos;e&apos; : case &apos;f&apos; : case &apos;g&apos; \
+        : case &apos;h&apos; : case &apos;i&apos; : case &apos;j&apos; : case &apos;k&apos; : case &apos;l&apos; : case &apos;m&apos; \
+        : case &apos;n&apos; : case &apos;o&apos; : case &apos;p&apos; : case &apos;q&apos; : case &apos;r&apos; : case &apos;s&apos; \
+        : case &apos;t&apos; : case &apos;u&apos; : case &apos;v&apos; : case &apos;w&apos; : case &apos;x&apos; : case &apos;y&apos; \
+        : case &apos;z&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ScannerBase.h" line="116" column="9" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="a00359_1aa883c9593fad7ae7cf64210b4aeb5810" prot="public" static="no">
+        <name>UpperCaseAz</name>
+        <initializer>&apos;A&apos; : case &apos;B&apos; : case &apos;C&apos; : case &apos;D&apos; : case &apos;E&apos; : case &apos;F&apos; : case &apos;G&apos; \
+        : case &apos;H&apos; : case &apos;I&apos; : case &apos;J&apos; : case &apos;K&apos; : case &apos;L&apos; : case &apos;M&apos; \
+        : case &apos;N&apos; : case &apos;O&apos; : case &apos;P&apos; : case &apos;Q&apos; : case &apos;R&apos; : case &apos;S&apos; \
+        : case &apos;T&apos; : case &apos;U&apos; : case &apos;V&apos; : case &apos;W&apos; : case &apos;X&apos; : case &apos;Y&apos; \
+        : case &apos;Z&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/Utils/ParserBase/ScannerBase.h" line="123" column="9" bodyfile="Source/Utils/ParserBase/ScannerBase.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/FileSystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/IndexCache.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/Path.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Utils/ParserBase/TokenBase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00986" kindref="compound" tooltip="Provides a class grouping for all defined types in this project. ">MdDox</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30" refid="a00986_1ac3281bf161fc4483a362d7d0927b1625" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01211" kindref="compound">StringTable</ref><sp/>=<sp/><ref refid="a01211" kindref="compound">IndexCache&lt;String&gt;</ref>;</highlight></codeline>
+<codeline lineno="31" refid="a00986_1a4c55f9803a876f4a62ca7b2200629ed0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="a01211" kindref="compound">IntTable</ref><sp/><sp/><sp/><sp/>=<sp/><ref refid="a01211" kindref="compound">IndexCache&lt;int&gt;</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="a00986_1a655a1549e9d59b70fafb5626fa3adbf5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="a00986_1a655a1549e9d59b70fafb5626fa3adbf5" kindref="member">MultiLineCommentStop0</ref><sp/>=<sp/></highlight><highlight class="charliteral">&apos;-&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34" refid="a00986_1aeba7b8e95ffe7a28fc022b2a1e874620" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="a00986_1aeba7b8e95ffe7a28fc022b2a1e874620" kindref="member">MultiLineCommentStop1</ref><sp/>=<sp/></highlight><highlight class="charliteral">&apos;&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="a01231" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a01231" kindref="compound">ScannerBase</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39" refid="a01231_1a7341428741f7072bf12be18e56b42561" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a9601d0e9c9bcb992817361caf37a8518" kindref="member" tooltip="Declaration of the input stream base class. ">IStream</ref>*<sp/><sp/><sp/><sp/><ref refid="a01231_1a7341428741f7072bf12be18e56b42561" kindref="member">_stream</ref>;</highlight></codeline>
+<codeline lineno="40" refid="a01231_1af0b17865c1d6628c714046868516eddd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01211" kindref="compound">StringTable</ref><sp/><ref refid="a01231_1af0b17865c1d6628c714046868516eddd" kindref="member">_stringTable</ref>;</highlight></codeline>
+<codeline lineno="41" refid="a01231_1a8f12ed3e560e95ff1c44c4ea06301bfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01211" kindref="compound">IntTable</ref><sp/><sp/><sp/><sp/><ref refid="a01231_1a8f12ed3e560e95ff1c44c4ea06301bfc" kindref="member">_intTable</ref>;</highlight></codeline>
+<codeline lineno="42" refid="a01231_1a934a6e0d12dd5938dbc3008251b4c9de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01239" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref><sp/><sp/><sp/><sp/><ref refid="a01231_1a934a6e0d12dd5938dbc3008251b4c9de" kindref="member">_file</ref>;</highlight></codeline>
+<codeline lineno="43" refid="a01231_1a8a05d9ab5f3e5d8336f48cd24efd91bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01231_1a8a05d9ab5f3e5d8336f48cd24efd91bd" kindref="member">_line</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="a01231_1a326af694d60f35c9c3ef666b9093f90d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="a01231_1a326af694d60f35c9c3ef666b9093f90d" kindref="member">save</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>str)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01231_1af0b17865c1d6628c714046868516eddd" kindref="member">_stringTable</ref>.<ref refid="a01211_1a507b07ead5102ff30dacc3ba043df044" kindref="member" tooltip="Inserts a new value into the map if it does not already exist. ">insert</ref>(str);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="a01231_1acf3c9bec82d0de447677bc4c14c5cf13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="a01231_1acf3c9bec82d0de447677bc4c14c5cf13" kindref="member">save</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>val)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01231_1a8f12ed3e560e95ff1c44c4ea06301bfc" kindref="member">_intTable</ref>.<ref refid="a01211_1a507b07ead5102ff30dacc3ba043df044" kindref="member" tooltip="Inserts a new value into the map if it does not already exist. ">insert</ref>(val);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="56" refid="a01231_1a5fae1e009f8d9d6a7977c129e71c9137" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[noreturn]]<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01231_1a5fae1e009f8d9d6a7977c129e71c9137" kindref="member">syntaxError</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>what,<sp/>Args&amp;&amp;...<sp/>args)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00986_1a67fc013655f72b4c048a1855ccfd58cb" kindref="member" tooltip="Declaration of an output only string stream. ">OutputStringStream</ref><sp/>oss;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>oss<sp/>&lt;&lt;<sp/>what;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((oss<sp/>&lt;&lt;<sp/>std::forward&lt;Args&gt;(args)),<sp/>...);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>syntaxErrorThrow(oss.str());</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01231_1a6acd939ece7a51328beff1ca96c3779d" kindref="member">scanWhiteSpace</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01231_1abd49d4440537f369a0cf45e502e58ab2" kindref="member">scanLineComment</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01231_1a0d73b6dd10560d18c56e8fdbbb1d6a30" kindref="member">scanMultiLineComment</ref>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01231_1ae36492794cc7ecc9de9eefac35b82cfa" kindref="member">scanAny</ref>(<ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seqStart,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seqEnd);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01231_1ad5f97041fa02c6896be9bb6126964678" kindref="member">extractCode</ref>(<ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seqStart,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>seqEnd);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[noreturn]]<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>syntaxErrorThrow(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>message)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01231_1ad033c4d87d156cd3f07263d93ee29a5a" kindref="member">ScannerBase</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="a01231_1a3d48b4bf8b41f4edac6b084f2f38b547" kindref="member">~ScannerBase</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01231_1af35e6bac3429139d85df8cf603851613" kindref="member" tooltip="Abstract method, derived scanners should implement their own scan loop. ">scan</ref>(<ref refid="a01235" kindref="compound">TokenBase</ref>&amp;<sp/>tok)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01231_1a92c079cf84c73c6b16e739dae863c273" kindref="member" tooltip="Attaches an input stream to this scanner, resets the line count, and assigns a file name for error re...">attach</ref>(<ref refid="a00986_1a9601d0e9c9bcb992817361caf37a8518" kindref="member" tooltip="Declaration of the input stream base class. ">IStream</ref>*<sp/>stream,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01239" kindref="compound" tooltip="A utility file for path access. ">PathUtil</ref>&amp;<sp/>file);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a01231_1a9b38ff930bd6a8b0155e0afd68d216d3" kindref="member">string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/>i)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01231_1a9b38ff930bd6a8b0155e0afd68d216d3" kindref="member">string</ref>(<ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/>i)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="a01231_1a0cec0b6ae81275f097ed33cc113ac259" kindref="member">integer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/>i)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="a01231_1a2fc7c34a950c607523f811904009b1a6" kindref="member">line</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="a01231_1ac41a3035df9fa7c37651752b6299589d" kindref="member">containsString</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="a01231_1a2fc7c34a950c607523f811904009b1a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="a01231_1a2fc7c34a950c607523f811904009b1a6" kindref="member">ScannerBase::line</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="111"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="a01231_1a8a05d9ab5f3e5d8336f48cd24efd91bd" kindref="member">_line</ref>;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>clang-format<sp/>off</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LowerCaseAz<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="117"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>&apos;a&apos;<sp/>:<sp/>case<sp/>&apos;b&apos;<sp/>:<sp/>case<sp/>&apos;c&apos;<sp/>:<sp/>case<sp/>&apos;d&apos;<sp/>:<sp/>case<sp/>&apos;e&apos;<sp/>:<sp/>case<sp/>&apos;f&apos;<sp/>:<sp/>case<sp/>&apos;g&apos;<sp/>\</highlight></codeline>
+<codeline lineno="118"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>case<sp/>&apos;h&apos;<sp/>:<sp/>case<sp/>&apos;i&apos;<sp/>:<sp/>case<sp/>&apos;j&apos;<sp/>:<sp/>case<sp/>&apos;k&apos;<sp/>:<sp/>case<sp/>&apos;l&apos;<sp/>:<sp/>case<sp/>&apos;m&apos;<sp/>\</highlight></codeline>
+<codeline lineno="119"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>case<sp/>&apos;n&apos;<sp/>:<sp/>case<sp/>&apos;o&apos;<sp/>:<sp/>case<sp/>&apos;p&apos;<sp/>:<sp/>case<sp/>&apos;q&apos;<sp/>:<sp/>case<sp/>&apos;r&apos;<sp/>:<sp/>case<sp/>&apos;s&apos;<sp/>\</highlight></codeline>
+<codeline lineno="120"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>case<sp/>&apos;t&apos;<sp/>:<sp/>case<sp/>&apos;u&apos;<sp/>:<sp/>case<sp/>&apos;v&apos;<sp/>:<sp/>case<sp/>&apos;w&apos;<sp/>:<sp/>case<sp/>&apos;x&apos;<sp/>:<sp/>case<sp/>&apos;y&apos;<sp/>\</highlight></codeline>
+<codeline lineno="121"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>case<sp/>&apos;z&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UpperCaseAz<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="124"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>&apos;A&apos;<sp/>:<sp/>case<sp/>&apos;B&apos;<sp/>:<sp/>case<sp/>&apos;C&apos;<sp/>:<sp/>case<sp/>&apos;D&apos;<sp/>:<sp/>case<sp/>&apos;E&apos;<sp/>:<sp/>case<sp/>&apos;F&apos;<sp/>:<sp/>case<sp/>&apos;G&apos;<sp/>\</highlight></codeline>
+<codeline lineno="125"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>case<sp/>&apos;H&apos;<sp/>:<sp/>case<sp/>&apos;I&apos;<sp/>:<sp/>case<sp/>&apos;J&apos;<sp/>:<sp/>case<sp/>&apos;K&apos;<sp/>:<sp/>case<sp/>&apos;L&apos;<sp/>:<sp/>case<sp/>&apos;M&apos;<sp/>\</highlight></codeline>
+<codeline lineno="126"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>case<sp/>&apos;N&apos;<sp/>:<sp/>case<sp/>&apos;O&apos;<sp/>:<sp/>case<sp/>&apos;P&apos;<sp/>:<sp/>case<sp/>&apos;Q&apos;<sp/>:<sp/>case<sp/>&apos;R&apos;<sp/>:<sp/>case<sp/>&apos;S&apos;<sp/>\</highlight></codeline>
+<codeline lineno="127"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>case<sp/>&apos;T&apos;<sp/>:<sp/>case<sp/>&apos;U&apos;<sp/>:<sp/>case<sp/>&apos;V&apos;<sp/>:<sp/>case<sp/>&apos;W&apos;<sp/>:<sp/>case<sp/>&apos;X&apos;<sp/>:<sp/>case<sp/>&apos;Y&apos;<sp/>\</highlight></codeline>
+<codeline lineno="128"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>case<sp/>&apos;Z&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Digits09<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="131"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>&apos;0&apos;<sp/>:<sp/>case<sp/>&apos;1&apos;<sp/>:<sp/>case<sp/>&apos;2&apos;<sp/>:<sp/>case<sp/>&apos;3&apos;<sp/>:<sp/>case<sp/>&apos;4&apos;<sp/>:<sp/>case<sp/>&apos;5&apos;<sp/>:<sp/>case<sp/>&apos;6&apos;<sp/>\</highlight></codeline>
+<codeline lineno="132"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>case<sp/>&apos;7&apos;<sp/>:<sp/>case<sp/>&apos;8&apos;<sp/>:<sp/>case<sp/>&apos;9&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>clang-format<sp/>on</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Source/Utils/ParserBase/ScannerBase.h"/>
+  </compounddef>
+</doxygen>

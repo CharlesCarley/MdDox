@@ -22,9 +22,9 @@ cmake_minimum_required(VERSION 3.6)
 project(MdDox)
 enable_language(CXX)
 
-set(MdDox_VERSION 1.0.0.0)
-set(MdDox_HOMEPAGE_URL "https://github.com/CharlesCarley/MdDox")
-set(MdDox_DESCRIPTION "A doxygen to markdown utility tool")
+set(CMAKE_PROJECT_VERSION 1.0.0.0)
+set(CMAKE_PROJECT_HOMEPAGE_URL "https://github.com/CharlesCarley/MdDox")
+set(CMAKE_PROJECT_DESCRIPTION "A doxygen to markdown utility tool")
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01059" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::IconSet</compoundname>
+    <includes local="no">Source/MdDoxTree/IconSet.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="a01059_1a827443ad25f19890725b2ec9f2a82bdd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref></type>
+        <definition>String MdDox::IconSet::fileName</definition>
+        <argsstring>(IconId id)</argsstring>
+        <name>fileName</name>
+        <param>
+          <type><ref refid="a00986_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the icon associated with the supplied id. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be one of the IconIds values </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The base file name of the requested on success or the error icon file name if the id is not handled or one of IconIds values </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/IconSet.h" line="63" column="1" bodyfile="Source/MdDoxTree/IconSet.cpp" bodystart="27" bodyend="63"/>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9a493c8fb5f3da723f76336e02a4a6463f" compoundref="a00140" startline="33">MdDox::ICO_BACK</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9a3076bf86bac52b5d81fc8f87cbefd178" compoundref="a00140" startline="34">MdDox::ICO_DEBUG</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9af2cfe47c6092040a015f3a8cb07ad0b6" compoundref="a00140" startline="35">MdDox::ICO_FILE</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9a808fd339a1a965f49191f19503b020f0" compoundref="a00140" startline="36">MdDox::ICO_FOLDER</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9ac01081934d9c799c0cb8ccc2656b478a" compoundref="a00140" startline="37">MdDox::ICO_HOME</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9a28936c90ab2d553e6d8034ad0cb0d8df" compoundref="a00140" startline="38">MdDox::ICO_H_SPACE_12</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9a57be8eec4a568de822f91ed9aab272a4" compoundref="a00140" startline="39">MdDox::ICO_H_SPACE_24</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9a326ed5ffe4f436e2dbf69e7c6311065b" compoundref="a00140" startline="40">MdDox::ICO_JUMP_TO_TOP</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9a9e6002e4b1f7d26d82368d96a829c628" compoundref="a00140" startline="41">MdDox::ICO_LINK</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9ab398f8efe94633a601de81f999994ec2" compoundref="a00140" startline="42">MdDox::ICO_CODE_BEHIND</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9af29aff868135f9b52029429e9e8de86d" compoundref="a00140" startline="44">MdDox::ICO_ENUM</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9ada8d11ea29ff98f15c600f05b9797e3c" compoundref="a00140" startline="43">MdDox::ICO_CLASS</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9a38c13f3a89c2ba03549c455812fc46ab" compoundref="a00140" startline="45">MdDox::ICO_VAR_PRIVATE</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9a12bca8c5f8464a950cb54ac5b59f133d" compoundref="a00140" startline="46">MdDox::ICO_NAMESPACE</references>
+        <references refid="a00986_1ae00359e24be5b111fdb21332d3a103d9a5661e76de80ef739bc15a619c2ad3d01" compoundref="a00140" startline="32">MdDox::ICO_NONE</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Is a static class to access predefined navigation icons. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>Image </para></simplesect>
+</para>    </detaileddescription>
+    <location file="Source/MdDoxTree/IconSet.h" line="55" column="1" bodyfile="Source/MdDoxTree/IconSet.h" bodystart="54" bodyend="64"/>
+    <listofallmembers>
+      <member refid="a01059_1a827443ad25f19890725b2ec9f2a82bdd" prot="public" virt="non-virtual"><scope>MdDox::IconSet</scope><name>fileName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

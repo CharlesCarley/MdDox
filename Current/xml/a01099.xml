@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01099" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MdDox::NamespacePageWriter</compoundname>
+    <basecompoundref refid="a01103" prot="public" virt="non-virtual">MdDox::PageWriter</basecompoundref>
+    <includes local="no">Source/MdDoxTree/NamespacePageWriter.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="a01099_1afd0691ce0b2b6bc8ce8bd4ecc04cf2ba" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::NamespacePageWriter::_classHeading</definition>
+        <argsstring></argsstring>
+        <name>_classHeading</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="36" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="a01099_1ae14adcd70ef27edec801449d112fb77c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MdDox::NamespacePageWriter::_namespaceHeading</definition>
+        <argsstring></argsstring>
+        <name>_namespaceHeading</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="35" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="a01099_1a7bcb90a2c9d1d69e21f63cd7f18bf5bc" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::notifyBriefDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
+        <name>notifyBriefDescription</name>
+        <reimplements refid="a01103_1a92b457f94cf847bb021dbacd0d292579">notifyBriefDescription</reimplements>
+        <param>
+          <type>const <ref refid="a01339" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="84" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="255" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1a57b3c4ce567d27be8156aa70e7051f6a" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::notifyDetailDescription</definition>
+        <argsstring>(const Doxygen::DescriptionQuery &amp;query) override</argsstring>
+        <name>notifyDetailDescription</name>
+        <reimplements refid="a01103_1a4af6fb6bc18922ccfe3df4688f0c625e">notifyDetailDescription</reimplements>
+        <param>
+          <type>const <ref refid="a01339" kindref="compound">Doxygen::DescriptionQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="86" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="261" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1ae0cc932c250c18f470cbe75ac23415b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::preSortQuery</definition>
+        <argsstring>(const Doxygen::CompoundDefQuery &amp;query) override</argsstring>
+        <name>preSortQuery</name>
+        <reimplements refid="a01103_1a85da1c3da15b04352ddaeb0fb877ce8c">preSortQuery</reimplements>
+        <param>
+          <type>const <ref refid="a01311" kindref="compound">Doxygen::CompoundDefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="82" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="319" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1a2d313018254ad25b252eeba723315334" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedBaseCompoundRef</definition>
+        <argsstring>(const Doxygen::CompoundRefQuery &amp;query) override</argsstring>
+        <name>visitedBaseCompoundRef</name>
+        <reimplements refid="a01307_1a61b8487366558ce7cd7749ad7baee3ac">visitedBaseCompoundRef</reimplements>
+        <param>
+          <type>const <ref refid="a01323" kindref="compound">Doxygen::CompoundRefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>basecompoundref</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the CompoundRefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="44" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1a90ff00c61ac325a498e2cba6263dd0d1" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedCollaborationGraph</definition>
+        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
+        <name>visitedCollaborationGraph</name>
+        <reimplements refid="a01307_1a07b21a15f65d8614859140fc71579e39">visitedCollaborationGraph</reimplements>
+        <param>
+          <type>const <ref refid="a01471" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>collaborationgraph</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the GraphQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="68" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="201" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1addb538d010ad7d656fc01c4ac5e8fdeb" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedCompoundName</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedCompoundName</name>
+        <reimplements refid="a01307_1ab9b0bbbcc61d79676ab6ca42ee73cef2">visitedCompoundName</reimplements>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>compoundname</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="42" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1ad590bef655fb918640ecb011457ccce7" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedDerivedCompoundRef</definition>
+        <argsstring>(const Doxygen::CompoundRefQuery &amp;query) override</argsstring>
+        <name>visitedDerivedCompoundRef</name>
+        <reimplements refid="a01307_1a75a893e5819d6bd49e5e0005d8c8dadc">visitedDerivedCompoundRef</reimplements>
+        <param>
+          <type>const <ref refid="a01323" kindref="compound">Doxygen::CompoundRefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>derivedcompoundref</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the CompoundRefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="46" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1aaff91c77819ce7f373b8da20cd37baff" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedIncDepGraph</definition>
+        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
+        <name>visitedIncDepGraph</name>
+        <reimplements refid="a01307_1af52e424ab412bc68bfb5f973b7b5b27c">visitedIncDepGraph</reimplements>
+        <param>
+          <type>const <ref refid="a01471" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>incdepgraph</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the GraphQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="60" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1adc34017362c378fe1c3c3c0e4fc3d6ea" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedIncludedBy</definition>
+        <argsstring>(const Doxygen::IncQuery &amp;query) override</argsstring>
+        <name>visitedIncludedBy</name>
+        <reimplements refid="a01307_1aaa0b3a67ada1b58bd4059ac320f15eab">visitedIncludedBy</reimplements>
+        <param>
+          <type>const <ref refid="a01499" kindref="compound">Doxygen::IncQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>includedby</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the IncQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="50" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1a037b2653fb10fbb44a597af6e01c2260" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedIncludes</definition>
+        <argsstring>(const Doxygen::IncQuery &amp;query) override</argsstring>
+        <name>visitedIncludes</name>
+        <reimplements refid="a01307_1ad2da872ba085491d223264276737a8e7">visitedIncludes</reimplements>
+        <param>
+          <type>const <ref refid="a01499" kindref="compound">Doxygen::IncQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>includes</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the IncQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="48" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1ad47c8fff43abb341d839177976b58cf8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedInheritanceGraph</definition>
+        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
+        <name>visitedInheritanceGraph</name>
+        <reimplements refid="a01307_1a60616523a9a6cd3aff6897862cb5c14b">visitedInheritanceGraph</reimplements>
+        <param>
+          <type>const <ref refid="a01471" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>inheritancegraph</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the GraphQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="66" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="196" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1af7be3a06639ece142068793a4ed69d11" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedInnerClass</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerClass</name>
+        <reimplements refid="a01307_1a2b27eae2f46b53f204c8174a54207175">visitedInnerClass</reimplements>
+        <param>
+          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innerclass</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="131" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1aa15832a7257a7b100e3c0634a5ec9467" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedInnerDir</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerDir</name>
+        <reimplements refid="a01307_1a5072b0b483becf3b84daf42925b80853">visitedInnerDir</reimplements>
+        <param>
+          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innerdir</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="52" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="235" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1ab0938061ccc77a4dc97150c52d4b80a6" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedInnerFile</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerFile</name>
+        <reimplements refid="a01307_1ad2e10284bb8208420841a0849375db05">visitedInnerFile</reimplements>
+        <param>
+          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innerfile</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="54" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="240" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1aaaa0e4826183bce9161e55db8bb2281d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedInnerGroup</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerGroup</name>
+        <reimplements refid="a01307_1a74899cd76eb6db5a8ee59146c77b07b3">visitedInnerGroup</reimplements>
+        <param>
+          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innergroup</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="58" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="250" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1aac53bf612644c647dbb343b498362895" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedInnerNamespace</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerNamespace</name>
+        <reimplements refid="a01307_1a97bac53ff2623f83712993ab2f5ae852">visitedInnerNamespace</reimplements>
+        <param>
+          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innernamespace</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="40" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="146" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1aeb118d47ff48eacd451b2f4e7a918887" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedInnerPage</definition>
+        <argsstring>(const Doxygen::RefQuery &amp;query) override</argsstring>
+        <name>visitedInnerPage</name>
+        <reimplements refid="a01307_1ab79909c80676fc9bccbb6e431ba412c2">visitedInnerPage</reimplements>
+        <param>
+          <type>const <ref refid="a01703" kindref="compound">Doxygen::RefQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>innerpage</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the RefQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="56" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="245" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1a86cb60f56ceaebca80bfca23ca50bc0c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedInvIncDepGraph</definition>
+        <argsstring>(const Doxygen::GraphQuery &amp;query) override</argsstring>
+        <name>visitedInvIncDepGraph</name>
+        <reimplements refid="a01307_1a728a5f23cbb39f768d46e4c9e7314ecb">visitedInvIncDepGraph</reimplements>
+        <param>
+          <type>const <ref refid="a01471" kindref="compound">Doxygen::GraphQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>invincdepgraph</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the GraphQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="62" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1a6b299ae6d4e95b28280b2022b0e84423" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedListOfAllMembers</definition>
+        <argsstring>(const Doxygen::ListOfAllMembersQuery &amp;query) override</argsstring>
+        <name>visitedListOfAllMembers</name>
+        <reimplements refid="a01307_1a13689b56851840c15903ed8320968695">visitedListOfAllMembers</reimplements>
+        <param>
+          <type>const <ref refid="a01587" kindref="compound">Doxygen::ListOfAllMembersQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>listofallmembers</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ListOfAllMembersQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="74" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1af234628f079075f8b6d3d7a3cdb89084" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedLocation</definition>
+        <argsstring>(const Doxygen::LocationQuery &amp;query) override</argsstring>
+        <name>visitedLocation</name>
+        <reimplements refid="a01307_1ab432daf1eec44809f0140f9140509532">visitedLocation</reimplements>
+        <param>
+          <type>const <ref refid="a01599" kindref="compound">Doxygen::LocationQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>location</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the LocationQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="72" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="211" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1ac63fedebca9aa1748bc1914111ae0920" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedProgramListing</definition>
+        <argsstring>(const Doxygen::ListingQuery &amp;query) override</argsstring>
+        <name>visitedProgramListing</name>
+        <reimplements refid="a01307_1af838f90479d190c3d25be240f05a9c6c">visitedProgramListing</reimplements>
+        <param>
+          <type>const <ref refid="a01571" kindref="compound">Doxygen::ListingQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>programlisting</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the ListingQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="70" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="206" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1abc29545b7ed06962e5b73bbeef4d3444" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedTableOfContents</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedTableOfContents</name>
+        <reimplements refid="a01307_1a2008b336a42ef282667002b5fb39eae5">visitedTableOfContents</reimplements>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>tableofcontents</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="78" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="230" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1abbb1919ed57bbfae8afb8217cf94a6fd" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedTemplateParamList</definition>
+        <argsstring>(const Doxygen::TemplateParamListQuery &amp;query) override</argsstring>
+        <name>visitedTemplateParamList</name>
+        <reimplements refid="a01307_1a5d0ceb3437dac0e5f9da19bf6762b3ba">visitedTemplateParamList</reimplements>
+        <param>
+          <type>const <ref refid="a01787" kindref="compound">Doxygen::TemplateParamListQuery</ref> &amp;</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>templateparamlist</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the TemplateParamListQuery class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="64" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1abed5229c3f96fcb96a7891f4b3d38998" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::visitedTitle</definition>
+        <argsstring>(const String &amp;text) override</argsstring>
+        <name>visitedTitle</name>
+        <reimplements refid="a01307_1a4f31cf429855fdbc0a9b38a16f18e68b">visitedTitle</reimplements>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Called when the element <bold>title</bold> is found. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Const reference to the internal text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="76" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="225" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1a1c62d7ee23511a57469592d19b177fc2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::NamespacePageWriter::writeTableOfContents</definition>
+        <argsstring>(Xml::Node *compoundDef)</argsstring>
+        <name>writeTableOfContents</name>
+        <param>
+          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
+          <declname>compoundDef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="80" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="266" bodyend="317"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01099_1ac588a5f3dac60850adb0db16ec9fcdf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::NamespacePageWriter::NamespacePageWriter</definition>
+        <argsstring>(DocumentWriter *writer, const Reference &amp;ref, const PathUtil &amp;out)</argsstring>
+        <name>NamespacePageWriter</name>
+        <param>
+          <type><ref refid="a01019" kindref="compound">DocumentWriter</ref> *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a01127" kindref="compound">Reference</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const <ref refid="a01239" kindref="compound">PathUtil</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="89" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.cpp" bodystart="119" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="a01099_1a8059a0c662841acf63a455ab187cc76f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::NamespacePageWriter::~NamespacePageWriter</definition>
+        <argsstring>() override=default</argsstring>
+        <name>~NamespacePageWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/MdDoxTree/NamespacePageWriter.h" line="90" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="903">
+        <label>MdDox::PageWriter</label>
+        <link refid="a01103"/>
+        <childnode refid="904" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="902">
+        <label>MdDox::NamespacePageWriter</label>
+        <link refid="a01099"/>
+        <childnode refid="903" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="904">
+        <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
+        <link refid="a01307"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="909">
+        <label>MdDox::DocumentWriter</label>
+        <link refid="a01019"/>
+      </node>
+      <node id="906">
+        <label>MdDox::PageWriter</label>
+        <link refid="a01103"/>
+        <childnode refid="907" relation="public-inheritance">
+        </childnode>
+        <childnode refid="908" relation="usage">
+          <edgelabel>_sections</edgelabel>
+        </childnode>
+        <childnode refid="909" relation="usage">
+          <edgelabel>_writer</edgelabel>
+        </childnode>
+        <childnode refid="910" relation="usage">
+          <edgelabel>_inDir</edgelabel>
+          <edgelabel>_outDir</edgelabel>
+        </childnode>
+        <childnode refid="911" relation="usage">
+          <edgelabel>_ref</edgelabel>
+        </childnode>
+        <childnode refid="913" relation="usage">
+          <edgelabel>_out</edgelabel>
+        </childnode>
+      </node>
+      <node id="912">
+        <label>string</label>
+      </node>
+      <node id="905">
+        <label>MdDox::NamespacePageWriter</label>
+        <link refid="a01099"/>
+        <childnode refid="906" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="913">
+        <label>ofstream</label>
+      </node>
+      <node id="907">
+        <label>MdDox::Doxygen::Visitors::CompoundDefQueryVisitor</label>
+        <link refid="a01307"/>
+      </node>
+      <node id="908">
+        <label>vector&lt; Node *&gt;</label>
+      </node>
+      <node id="910">
+        <label>MdDox::PathUtil</label>
+        <link refid="a01239"/>
+      </node>
+      <node id="911">
+        <label>MdDox::Reference</label>
+        <link refid="a01127"/>
+        <childnode refid="912" relation="usage">
+          <edgelabel>_ref</edgelabel>
+          <edgelabel>_name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/MdDoxTree/NamespacePageWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/NamespacePageWriter.h" bodystart="32" bodyend="91"/>
+    <listofallmembers>
+      <member refid="a01099_1afd0691ce0b2b6bc8ce8bd4ecc04cf2ba" prot="private" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>_classHeading</name></member>
+      <member refid="a01103_1ac012825bbcafe1452762c50cd2d35037" prot="protected" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>_inDir</name></member>
+      <member refid="a01099_1ae14adcd70ef27edec801449d112fb77c" prot="private" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>_namespaceHeading</name></member>
+      <member refid="a01103_1a1fd2e2d5dddec4f47bb5c229d79c6229" prot="protected" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>_out</name></member>
+      <member refid="a01103_1a3199dcb45dcad5468a8b8a1060bd25ec" prot="protected" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>_outDir</name></member>
+      <member refid="a01103_1acc94668f2fc82e437e3f7f79f3dda0ae" prot="protected" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>_ref</name></member>
+      <member refid="a01103_1a4c7ba3bc919a40013541f6c409781d01" prot="protected" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>_sections</name></member>
+      <member refid="a01103_1a95e0ecf4368ab7b570ab15f4e17fd9a5" prot="protected" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>_writer</name></member>
+      <member refid="a01103_1a51f4ed154feeb26e6a5ed4e940d53377" prot="public" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>exec</name></member>
+      <member refid="a01099_1ac588a5f3dac60850adb0db16ec9fcdf8" prot="public" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>NamespacePageWriter</name></member>
+      <member refid="a01099_1a7bcb90a2c9d1d69e21f63cd7f18bf5bc" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>notifyBriefDescription</name></member>
+      <member refid="a01099_1a57b3c4ce567d27be8156aa70e7051f6a" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>notifyDetailDescription</name></member>
+      <member refid="a01103_1a34a7cd04b8e56c0c65d11084e1951d34" prot="protected" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>notifyDetailDescriptionHeading</name></member>
+      <member refid="a01103_1a7b84542c57c02926a9930f35bc95fc47" prot="public" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>PageWriter</name></member>
+      <member refid="a01099_1ae0cc932c250c18f470cbe75ac23415b5" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>preSortQuery</name></member>
+      <member refid="a01099_1a2d313018254ad25b252eeba723315334" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedBaseCompoundRef</name></member>
+      <member refid="a01103_1a7160540760aa919d69427ad74df8ebc5" prot="protected" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedBriefDescription</name></member>
+      <member refid="a01099_1a90ff00c61ac325a498e2cba6263dd0d1" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedCollaborationGraph</name></member>
+      <member refid="a01099_1addb538d010ad7d656fc01c4ac5e8fdeb" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedCompoundName</name></member>
+      <member refid="a01099_1ad590bef655fb918640ecb011457ccce7" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedDerivedCompoundRef</name></member>
+      <member refid="a01103_1a59596c8bb00a0e5b7c8e57a23e4594df" prot="protected" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedDetailedDescription</name></member>
+      <member refid="a01099_1aaff91c77819ce7f373b8da20cd37baff" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedIncDepGraph</name></member>
+      <member refid="a01099_1adc34017362c378fe1c3c3c0e4fc3d6ea" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedIncludedBy</name></member>
+      <member refid="a01099_1a037b2653fb10fbb44a597af6e01c2260" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedIncludes</name></member>
+      <member refid="a01099_1ad47c8fff43abb341d839177976b58cf8" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedInheritanceGraph</name></member>
+      <member refid="a01099_1af7be3a06639ece142068793a4ed69d11" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedInnerClass</name></member>
+      <member refid="a01099_1aa15832a7257a7b100e3c0634a5ec9467" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedInnerDir</name></member>
+      <member refid="a01099_1ab0938061ccc77a4dc97150c52d4b80a6" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedInnerFile</name></member>
+      <member refid="a01099_1aaaa0e4826183bce9161e55db8bb2281d" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedInnerGroup</name></member>
+      <member refid="a01099_1aac53bf612644c647dbb343b498362895" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedInnerNamespace</name></member>
+      <member refid="a01099_1aeb118d47ff48eacd451b2f4e7a918887" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedInnerPage</name></member>
+      <member refid="a01099_1a86cb60f56ceaebca80bfca23ca50bc0c" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedInvIncDepGraph</name></member>
+      <member refid="a01099_1a6b299ae6d4e95b28280b2022b0e84423" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedListOfAllMembers</name></member>
+      <member refid="a01099_1af234628f079075f8b6d3d7a3cdb89084" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedLocation</name></member>
+      <member refid="a01099_1ac63fedebca9aa1748bc1914111ae0920" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedProgramListing</name></member>
+      <member refid="a01103_1a1797bd939c1c708fe68fc62caf3f208f" prot="protected" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedSectionDef</name></member>
+      <member refid="a01099_1abc29545b7ed06962e5b73bbeef4d3444" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedTableOfContents</name></member>
+      <member refid="a01099_1abbb1919ed57bbfae8afb8217cf94a6fd" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedTemplateParamList</name></member>
+      <member refid="a01307_1aae60bad7f1b3cf035e71eedba8e55ba3" prot="public" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedText</name></member>
+      <member refid="a01099_1abed5229c3f96fcb96a7891f4b3d38998" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>visitedTitle</name></member>
+      <member refid="a01103_1a09b77ba57a73bbc653a7ca5b04b35ecf" prot="protected" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>writeDetails</name></member>
+      <member refid="a01099_1a1c62d7ee23511a57469592d19b177fc2" prot="private" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>writeTableOfContents</name></member>
+      <member refid="a01307_1a128fb87d0a9bae23d3be69e2904330a9" prot="public" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>~CompoundDefQueryVisitor</name></member>
+      <member refid="a01099_1a8059a0c662841acf63a455ab187cc76f" prot="public" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>~NamespacePageWriter</name></member>
+      <member refid="a01103_1adcae154a36099ba1f1895758b128252e" prot="public" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>~PageWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

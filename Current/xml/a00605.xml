@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a00605" kind="file" language="C++">
+    <compoundname>EnumValueQuery.h</compoundname>
+    <includes refid="a00575" local="yes">Doxygen.h</includes>
+    <includes refid="a00536" local="yes">DoxProtectionKind.h</includes>
+    <includedby refid="a00095" local="yes">Source/MdDoxTree/EnumDefWriter.cpp</includedby>
+    <includedby refid="a00101" local="yes">Source/MdDoxTree/FunctionDefWriter.cpp</includedby>
+    <includedby refid="a00185" local="yes">Source/MdDoxTree/MemberDefWriter.cpp</includedby>
+    <includedby refid="a00602" local="yes">Tools/Doxygen/EnumValueQuery.cpp</includedby>
+    <includedby refid="a00740" local="yes">Tools/Doxygen/MemberDefQuery.cpp</includedby>
+    <incdepgraph>
+      <node id="6513">
+        <label>Utils/Console.h</label>
+        <childnode refid="6501" relation="include">
+        </childnode>
+      </node>
+      <node id="6507">
+        <label>iomanip</label>
+      </node>
+      <node id="6499">
+        <label>functional</label>
+      </node>
+      <node id="6509">
+        <label>Utils/Exception.h</label>
+        <childnode refid="6510" relation="include">
+        </childnode>
+        <childnode refid="6511" relation="include">
+        </childnode>
+        <childnode refid="6512" relation="include">
+        </childnode>
+        <childnode refid="6513" relation="include">
+        </childnode>
+        <childnode refid="6501" relation="include">
+        </childnode>
+      </node>
+      <node id="6511">
+        <label>stdexcept</label>
+      </node>
+      <node id="6505">
+        <label>string</label>
+      </node>
+      <node id="6498">
+        <label>Doxygen.h</label>
+        <childnode refid="6499" relation="include">
+        </childnode>
+        <childnode refid="6500" relation="include">
+        </childnode>
+        <childnode refid="6501" relation="include">
+        </childnode>
+        <childnode refid="6508" relation="include">
+        </childnode>
+        <childnode refid="6509" relation="include">
+        </childnode>
+      </node>
+      <node id="6510">
+        <label>exception</label>
+      </node>
+      <node id="6503">
+        <label>fstream</label>
+      </node>
+      <node id="6508">
+        <label>Xml/Node.h</label>
+        <childnode refid="6499" relation="include">
+        </childnode>
+        <childnode refid="6500" relation="include">
+        </childnode>
+        <childnode refid="6501" relation="include">
+        </childnode>
+      </node>
+      <node id="6514">
+        <label>DoxProtectionKind.h</label>
+        <childnode refid="6498" relation="include">
+        </childnode>
+      </node>
+      <node id="6501">
+        <label>Utils/String.h</label>
+        <childnode refid="6502" relation="include">
+        </childnode>
+        <childnode refid="6503" relation="include">
+        </childnode>
+        <childnode refid="6504" relation="include">
+        </childnode>
+        <childnode refid="6505" relation="include">
+        </childnode>
+        <childnode refid="6500" relation="include">
+        </childnode>
+        <childnode refid="6506" relation="include">
+        </childnode>
+        <childnode refid="6507" relation="include">
+        </childnode>
+      </node>
+      <node id="6506">
+        <label>vector</label>
+      </node>
+      <node id="6512">
+        <label>utility</label>
+      </node>
+      <node id="6504">
+        <label>sstream</label>
+      </node>
+      <node id="6502">
+        <label>deque</label>
+      </node>
+      <node id="6500">
+        <label>unordered_map</label>
+      </node>
+      <node id="6497">
+        <label>Tools/Doxygen/EnumValueQuery.h</label>
+        <link refid="a00605"/>
+        <childnode refid="6498" relation="include">
+        </childnode>
+        <childnode refid="6514" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6518">
+        <label>Source/MdDoxTree/MemberDefWriter.cpp</label>
+      </node>
+      <node id="6516">
+        <label>Source/MdDoxTree/EnumDefWriter.cpp</label>
+      </node>
+      <node id="6517">
+        <label>Source/MdDoxTree/FunctionDefWriter.cpp</label>
+      </node>
+      <node id="6519">
+        <label>Tools/Doxygen/EnumValueQuery.cpp</label>
+      </node>
+      <node id="6515">
+        <label>Tools/Doxygen/EnumValueQuery.h</label>
+        <link refid="a00605"/>
+        <childnode refid="6516" relation="include">
+        </childnode>
+        <childnode refid="6517" relation="include">
+        </childnode>
+        <childnode refid="6518" relation="include">
+        </childnode>
+        <childnode refid="6519" relation="include">
+        </childnode>
+        <childnode refid="6520" relation="include">
+        </childnode>
+      </node>
+      <node id="6520">
+        <label>Tools/Doxygen/MemberDefQuery.cpp</label>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="a01451" prot="public">MdDox::Doxygen::EnumValueQuery</innerclass>
+    <innerclass refid="a01447" prot="public">MdDox::Doxygen::Visitors::EnumValueQueryVisitor</innerclass>
+    <innernamespace refid="a00991">MdDox::Doxygen</innernamespace>
+    <innernamespace refid="a00995">MdDox::Doxygen::Visitors</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright<sp/>(c)<sp/>Charles<sp/>Carley.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/>This<sp/>software<sp/>is<sp/>provided<sp/>&apos;as-is&apos;,<sp/>without<sp/>any<sp/>express<sp/>or<sp/>implied</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>warranty.<sp/>In<sp/>no<sp/>event<sp/>will<sp/>the<sp/>authors<sp/>be<sp/>held<sp/>liable<sp/>for<sp/>any<sp/>damages</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>arising<sp/>from<sp/>the<sp/>use<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/>Permission<sp/>is<sp/>granted<sp/>to<sp/>anyone<sp/>to<sp/>use<sp/>this<sp/>software<sp/>for<sp/>any<sp/>purpose,</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>including<sp/>commercial<sp/>applications,<sp/>and<sp/>to<sp/>alter<sp/>it<sp/>and<sp/>redistribute<sp/>it</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>freely,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>restrictions:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>1.<sp/>The<sp/>origin<sp/>of<sp/>this<sp/>software<sp/>must<sp/>not<sp/>be<sp/>misrepresented;<sp/>you<sp/>must<sp/>not</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>claim<sp/>that<sp/>you<sp/>wrote<sp/>the<sp/>original<sp/>software.<sp/>If<sp/>you<sp/>use<sp/>this<sp/>software</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>in<sp/>a<sp/>product,<sp/>an<sp/>acknowledgment<sp/>in<sp/>the<sp/>product<sp/>documentation<sp/>would<sp/>be</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>appreciated<sp/>but<sp/>is<sp/>not<sp/>required.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>2.<sp/>Altered<sp/>source<sp/>versions<sp/>must<sp/>be<sp/>plainly<sp/>marked<sp/>as<sp/>such,<sp/>and<sp/>must<sp/>not<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>misrepresented<sp/>as<sp/>being<sp/>the<sp/>original<sp/>software.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>3.<sp/>This<sp/>notice<sp/>may<sp/>not<sp/>be<sp/>removed<sp/>or<sp/>altered<sp/>from<sp/>any<sp/>source<sp/>distribution.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">-------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DoxProtectionKind.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="a00991" kindref="compound">MdDox::Doxygen</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Visitors</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31" refid="a01447" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a01447" kindref="compound">EnumValueQueryVisitor</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="a01447_1a5a0c619b7085093b260aead177e620c2" kindref="member">~EnumValueQueryVisitor</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="a01447_1a9b145b645b9ac842de9b5de18a6b7690" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01447_1a9b145b645b9ac842de9b5de18a6b7690" kindref="member" tooltip="Callback for every _text_node. ">visitedText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="44" refid="a01447_1a2667a88d3674c9409b49b7c2ed201120" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01447_1a2667a88d3674c9409b49b7c2ed201120" kindref="member" tooltip="Called when the element initializer is found. ">visitedInitializer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01559" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="49" refid="a01447_1a9a6ce073c6946cd7c463b3fef1d7ef3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01447_1a9a6ce073c6946cd7c463b3fef1d7ef3e" kindref="member" tooltip="Called when the element briefdescription is found. ">visitedBriefDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01339" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="54" refid="a01447_1a0c8248672971560d35da21dce2053c5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01447_1a0c8248672971560d35da21dce2053c5d" kindref="member" tooltip="Called when the element detaileddescription is found. ">visitedDetailedDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01339" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref>&amp;<sp/>query)<sp/>{}</highlight></codeline>
+<codeline lineno="59" refid="a01447_1a915b323d62e3300fb6b52708cfe8b5be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01447_1a915b323d62e3300fb6b52708cfe8b5be" kindref="member" tooltip="Called when the element name is found. ">visitedName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>text)<sp/>{}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82" refid="a01451" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="a01451" kindref="compound" tooltip="Implements the enumvalueType scaffolding. ">EnumValueQuery</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="a01415" kindref="compound">Query</ref></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01451_1afce0e4a6110d18ccd0ded534e5b66a9b" kindref="member">EnumValueQuery</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01451_1afce0e4a6110d18ccd0ded534e5b66a9b" kindref="member">EnumValueQuery</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a01451" kindref="compound" tooltip="Implements the enumvalueType scaffolding. ">EnumValueQuery</ref>&amp;<sp/>other)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="a01451_1a868fc00e1a5bc712683b67d23ffd4305" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="a01451_1a868fc00e1a5bc712683b67d23ffd4305" kindref="member">EnumValueQuery</ref>(<ref refid="a01259" kindref="compound" tooltip="Provides an unbounded N-ary tree structure to store an XML document. ">Xml::Node</ref>*<sp/><ref refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01415" kindref="compound">Query</ref>(<ref refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" kindref="member" tooltip="Returns the wrapped node pointer. ">node</ref>)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01451_1ada42d7ba0ca446992a75c4e40e7dad46" kindref="member">visit</ref>(<ref refid="a01447" kindref="compound">Visitors::EnumValueQueryVisitor</ref><sp/>*)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a00991_1adadfcc04a080e0c820d68d73c2e51714" kindref="member">DoxProtectionKindEnum</ref><sp/><ref refid="a01451_1a288755136e1ebe4adf692da03a42213a" kindref="member" tooltip="Provides access to the prot element. ">getProt</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a01451_1a6195dabf4917f7c9ca2bea39fa8f3142" kindref="member" tooltip="Provides access to the id attribute. ">getId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/><ref refid="a01451_1a579306992ec7969b1a98f509f0a9836f" kindref="member" tooltip="Provides access to the name tag&amp;#39;s inner text. ">getName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member" tooltip="Declaration of a string. ">String</ref>&amp;<sp/>notFound=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01451_1a65d6359fbf2607c89a3b6421da057a81" kindref="member" tooltip="Provides access to the initializer attribute. ">getInitializer</ref>(<ref refid="a01559" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01559" kindref="compound" tooltip="Implements the linkedTextType scaffolding. ">LinkedTextQuery</ref><sp/><ref refid="a01451_1a65d6359fbf2607c89a3b6421da057a81" kindref="member" tooltip="Provides access to the initializer attribute. ">getInitializer</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01451_1a1f8dad836b756d88f26462ecfb76d347" kindref="member" tooltip="Provides access to the briefdescription attribute. ">getBriefDescription</ref>(<ref refid="a01339" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01339" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref><sp/><ref refid="a01451_1a1f8dad836b756d88f26462ecfb76d347" kindref="member" tooltip="Provides access to the briefdescription attribute. ">getBriefDescription</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="a01451_1a9460525b022c4afedd9c93a07f47967c" kindref="member" tooltip="Provides access to the detaileddescription attribute. ">getDetailedDescription</ref>(<ref refid="a01339" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref><sp/>&amp;dest)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="a01339" kindref="compound" tooltip="Implements the descriptionType scaffolding. ">DescriptionQuery</ref><sp/><ref refid="a01451_1a9460525b022c4afedd9c93a07f47967c" kindref="member" tooltip="Provides access to the detaileddescription attribute. ">getDetailedDescription</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>MdDox::Doxygen</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/Doxygen/EnumValueQuery.h"/>
+  </compounddef>
+</doxygen>

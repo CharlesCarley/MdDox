@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a02122" kind="page">
+    <compoundname>MD003</compoundname>
+    <title>Image handling</title>
+    <briefdescription>
+<para>Describes the way internal icons are accessed. </para>    </briefdescription>
+    <detaileddescription>
+<para>Describes the way internal icons are accessed.</para><para><heading level="2">Image handling information</heading>
+</para><para>Application icons and other images are pulled directly from the source code comment and output in-line with the current document. <linebreak/>
+<linebreak/>
+ The following shows the current set of navigation icons. <blockquote><para><image type="html" name="back.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="error.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="folder.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="home.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="enum.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="jumpToTop.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="debug.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="file.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="link.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="lookInside.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="class.svg"></image>
+ <image type="html" name="horSpace24px.svg"></image>
+ <image type="html" name="namespace.svg"></image>
+ </para></blockquote></para><para>The command <computeroutput>\image html [file-stem.file-extension]</computeroutput> will embed the image. Icons and reference images are expected to be in the <ulink url="../images">images</ulink> directory. From there, the class <ref refid="a01059" kindref="compound">IconSet</ref> maps files to the <ref refid="a00986_1ae00359e24be5b111fdb21332d3a103d9" kindref="member">IconId</ref> enum.</para><para><heading level="3">External Sources</heading>
+</para><para>Some icons have been copied and modified from the material-design-icons set. The original sources can be found here: <ulink url="https://github.com/google/material-design-icons">https://github.com/google/material-design-icons</ulink> </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

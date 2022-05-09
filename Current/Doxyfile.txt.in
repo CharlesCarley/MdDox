@@ -4,7 +4,7 @@
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = ${MdDoxBuilder_ProjectName}
-PROJECT_NUMBER         = ${MdDoxBuilder_ProjecVersion}
+PROJECT_NUMBER         = ${MdDoxBuilder_ProjectVersion}
 PROJECT_BRIEF          = "${MdDoxBuilder_Brief}"
 PROJECT_LOGO           = 
 OUTPUT_DIRECTORY       = "${MdDoxBuilder_OutputDir}"

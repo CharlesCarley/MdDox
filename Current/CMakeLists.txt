@@ -34,5 +34,7 @@ set(MdDoxBuilder_InvokeDotScript ${MdDox_SOURCE_DIR}/CMake/Modules/invokeDot.py)
 
 set(MdDoxBuilder_AutoBuild TRUE)
 set(MdDoxBuilder_BackEnd   md)
+set(MdDoxBuilder_QUIET     TRUE)
+set(TargetGroup )
 MdDox(Doxyfile.txt.in ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile)
 

@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01699" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::ReferenceQuery</compoundname>
+    <basecompoundref refid="a01415" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/ReferenceQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01699_1af4aca904934294c14b66f6f714c5fd58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ReferenceQuery::ReferenceQuery</definition>
+        <argsstring>()=default</argsstring>
+        <name>ReferenceQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ReferenceQuery.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01699_1a53dc5f0981be9129a571a35dda93a98b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ReferenceQuery::ReferenceQuery</definition>
+        <argsstring>(const ReferenceQuery &amp;other)=default</argsstring>
+        <name>ReferenceQuery</name>
+        <param>
+          <type>const <ref refid="a01699" kindref="compound">ReferenceQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ReferenceQuery.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01699_1a1cffa6ed23051a809819b1e3387c430b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ReferenceQuery::ReferenceQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>ReferenceQuery</name>
+        <param>
+          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ReferenceQuery.h" line="50" column="1" bodyfile="Tools/Doxygen/ReferenceQuery.h" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="a01699_1a41a31d5ef1fedb1c2e9ee59315365823" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::ReferenceQuery::getCompoundRef</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getCompoundRef</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>compoundref</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>compoundref</bold> enumerated value or an empty string the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ReferenceQuery.h" line="68" column="1" bodyfile="Tools/Doxygen/ReferenceQuery.cpp" bodystart="35" bodyend="40"/>
+        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a01259_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a00395" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a01699_1a0dffad9ae13a73f03ad90fcaafadc418" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::Doxygen::ReferenceQuery::getEndline</definition>
+        <argsstring>(int64_t def=-1) const</argsstring>
+        <name>getEndline</name>
+        <param>
+          <type>int64_t</type>
+          <declname>def</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>endline</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ReferenceQuery.h" line="78" column="1" bodyfile="Tools/Doxygen/ReferenceQuery.cpp" bodystart="47" bodyend="50"/>
+        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a01259_1af5396b174492eaed6d8566442df57554" compoundref="a00395" startline="117" endline="123">MdDox::Xml::Node::integer</references>
+      </memberdef>
+      <memberdef kind="function" id="a01699_1ae4a3aae9808cd028cced88426b8da8d9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+        <definition>const String &amp; MdDox::Doxygen::ReferenceQuery::getRefId</definition>
+        <argsstring>(const String &amp;notFound=&quot;&quot;) const</argsstring>
+        <name>getRefId</name>
+        <param>
+          <type>const <ref refid="a00986_1a7639eaccaedfad528ef1dc0002de943e" kindref="member">String</ref> &amp;</type>
+          <declname>notFound</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>refid</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>refid</bold> enumerated value or an empty string the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ReferenceQuery.h" line="60" column="1" bodyfile="Tools/Doxygen/ReferenceQuery.cpp" bodystart="28" bodyend="33"/>
+        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a01259_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a00395" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a01699_1a580ae41ad553789bc1ee39f23aaccb5a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t MdDox::Doxygen::ReferenceQuery::getStartLine</definition>
+        <argsstring>(int64_t def=-1) const</argsstring>
+        <name>getStartLine</name>
+        <param>
+          <type>int64_t</type>
+          <declname>def</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Provides access to the <bold>startline</bold> attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ReferenceQuery.h" line="73" column="1" bodyfile="Tools/Doxygen/ReferenceQuery.cpp" bodystart="42" bodyend="45"/>
+        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a01259_1af5396b174492eaed6d8566442df57554" compoundref="a00395" startline="117" endline="123">MdDox::Xml::Node::integer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>referenceType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>referenceType</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;referenceType&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">mixed</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;refid&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;compoundref&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:string&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">use</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;optional&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;startline&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:integer&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;endline&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;xsd:integer&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="470">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a01415"/>
+      </node>
+      <node id="469">
+        <label>MdDox::Doxygen::ReferenceQuery</label>
+        <link refid="a01699"/>
+        <childnode refid="470" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="473">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a01259"/>
+        <childnode refid="474" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="472">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a01415"/>
+        <childnode refid="473" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="471">
+        <label>MdDox::Doxygen::ReferenceQuery</label>
+        <link refid="a01699"/>
+        <childnode refid="472" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="474">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/ReferenceQuery.h" line="45" column="1" bodyfile="Tools/Doxygen/ReferenceQuery.h" bodystart="44" bodyend="81"/>
+    <listofallmembers>
+      <member refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>_node</name></member>
+      <member refid="a01415_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>empty</name></member>
+      <member refid="a01699_1a41a31d5ef1fedb1c2e9ee59315365823" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>getCompoundRef</name></member>
+      <member refid="a01699_1a0dffad9ae13a73f03ad90fcaafadc418" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>getEndline</name></member>
+      <member refid="a01699_1ae4a3aae9808cd028cced88426b8da8d9" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>getRefId</name></member>
+      <member refid="a01699_1a580ae41ad553789bc1ee39f23aaccb5a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>getStartLine</name></member>
+      <member refid="a01415_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>isValid</name></member>
+      <member refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>node</name></member>
+      <member refid="a01415_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>Query</name></member>
+      <member refid="a01415_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>Query</name></member>
+      <member refid="a01699_1af4aca904934294c14b66f6f714c5fd58" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>ReferenceQuery</name></member>
+      <member refid="a01699_1a53dc5f0981be9129a571a35dda93a98b" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>ReferenceQuery</name></member>
+      <member refid="a01699_1a1cffa6ed23051a809819b1e3387c430b" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>ReferenceQuery</name></member>
+      <member refid="a01415_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>reset</name></member>
+      <member refid="a01415_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>sort</name></member>
+      <member refid="a01415_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ReferenceQuery</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

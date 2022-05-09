@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="a01647" kind="class" language="C++" prot="public">
+    <compoundname>MdDox::Doxygen::ParamListQuery</compoundname>
+    <basecompoundref refid="a01415" prot="public" virt="non-virtual">MdDox::Doxygen::Query</basecompoundref>
+    <includes local="no">Tools/Doxygen/ParamListQuery.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="a01647_1a3b349d6e30704ad3962cacec158a7e7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ParamListQuery::ParamListQuery</definition>
+        <argsstring>()=default</argsstring>
+        <name>ParamListQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamListQuery.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01647_1ab774d215c42211f24c6971b97983da6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ParamListQuery::ParamListQuery</definition>
+        <argsstring>(const ParamListQuery &amp;other)=default</argsstring>
+        <name>ParamListQuery</name>
+        <param>
+          <type>const <ref refid="a01647" kindref="compound">ParamListQuery</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamListQuery.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="a01647_1ae7cd47e1c9b90a250416c08b883984d4" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MdDox::Doxygen::ParamListQuery::ParamListQuery</definition>
+        <argsstring>(Xml::Node *node)</argsstring>
+        <name>ParamListQuery</name>
+        <param>
+          <type><ref refid="a01259" kindref="compound">Xml::Node</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamListQuery.h" line="69" column="1" bodyfile="Tools/Doxygen/ParamListQuery.h" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="a01647_1a715fa3dd085fb8d155e116aeb34f211e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParamListQuery::foreachParameterItem</definition>
+        <argsstring>(const ParamListItemQueryFunction &amp;invoke) const</argsstring>
+        <name>foreachParameterItem</name>
+        <param>
+          <type>const <ref refid="a00991_1a8102444e5fdc6819b1264293ef452cbb" kindref="member">ParamListItemQueryFunction</ref> &amp;</type>
+          <declname>invoke</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the supplied callback on <bold>parameteritem</bold> elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamListQuery.h" line="85" column="1" bodyfile="Tools/Doxygen/ParamListQuery.cpp" bodystart="56" bodyend="59"/>
+        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
+      </memberdef>
+      <memberdef kind="function" id="a01647_1a6efd087096e7e6dc37dd210f8ec645cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="a00991_1a9128ed41c1161394dc4f8acbe047bee2" kindref="member">DoxParamListKindEnum</ref></type>
+        <definition>DoxParamListKindEnum MdDox::Doxygen::ParamListQuery::getKind</definition>
+        <argsstring>() const</argsstring>
+        <name>getKind</name>
+        <briefdescription>
+<para>Provides access to the <bold>kind</bold> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <bold>kind</bold> enumerated value or -1 if the value is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamListQuery.h" line="80" column="1" bodyfile="Tools/Doxygen/ParamListQuery.cpp" bodystart="49" bodyend="54"/>
+        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a01383_1ae51bb8c5bf64b2427af5c0877fe03bee" compoundref="a00527" startline="30" endline="41">MdDox::Doxygen::DoxParamListKind::get</references>
+        <references refid="a01259_1a17c4d3328d9ea41d2fffeb946b2aac12" compoundref="a00395" startline="109" endline="115">MdDox::Xml::Node::attribute</references>
+      </memberdef>
+      <memberdef kind="function" id="a01647_1a08b797cd8bf2a5a4e1a3e033be8bf9a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MdDox::Doxygen::ParamListQuery::visit</definition>
+        <argsstring>(Visitors::ParamListQueryVisitor *) const</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="a01643" kindref="compound">Visitors::ParamListQueryVisitor</ref> *</type>
+          <defname>visitor</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/Doxygen/ParamListQuery.h" line="74" column="1" bodyfile="Tools/Doxygen/ParamListQuery.cpp" bodystart="29" bodyend="48"/>
+        <references refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" compoundref="a00575" startline="198">MdDox::Doxygen::Query::_node</references>
+        <references refid="a01259_1aca46484307f43cd0fb3c7263827ffa36" compoundref="a00398" startline="270" endline="273">MdDox::Xml::Node::children</references>
+        <references refid="a00991_1a65e5a8c426cac4de9a60cc1e64468f06afef7992ee74a3e572d4b593680cbe0c4" compoundref="a00293" startline="31">MdDox::Doxygen::DoxTextNode</references>
+        <references refid="a01643_1ac9c074f3fc8eaca1be96da2669ff15f4" compoundref="a00773" startline="39" endline="39">MdDox::Doxygen::Visitors::ParamListQueryVisitor::visitedText</references>
+        <references refid="a01643_1a541190e5976f3e6dd4d53c00bdbe55bf" compoundref="a00773" startline="44" endline="44">MdDox::Doxygen::Visitors::ParamListQueryVisitor::visitedParameterItem</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements the <computeroutput>docParamListType</computeroutput> scaffolding. </para>    </briefdescription>
+    <detaileddescription>
+<para>The following xml provides the source for the <bold>docParamListType</bold> scaffolding. <linebreak/>
+<linebreak/>
+<programlisting filename=".xml"><codeline><highlight class="normal">&lt;</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docParamListType&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:element</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">minOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;parameteritem&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;docParamListItem&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">maxOccurs</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;unbounded&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/</highlight><highlight class="keywordtype">xsd:sequence</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;</highlight><highlight class="keywordtype">xsd:attribute</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">name</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;kind&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">type</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;DoxParamListKind&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/</highlight><highlight class="keywordtype">xsd:complexType</highlight><highlight class="normal">&gt;</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="354">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a01415"/>
+      </node>
+      <node id="353">
+        <label>MdDox::Doxygen::ParamListQuery</label>
+        <link refid="a01647"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="357">
+        <label>MdDox::Xml::Node</label>
+        <link refid="a01259"/>
+        <childnode refid="358" relation="usage">
+          <edgelabel>_autoDelete</edgelabel>
+        </childnode>
+      </node>
+      <node id="356">
+        <label>MdDox::Doxygen::Query</label>
+        <link refid="a01415"/>
+        <childnode refid="357" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="355">
+        <label>MdDox::Doxygen::ParamListQuery</label>
+        <link refid="a01647"/>
+        <childnode refid="356" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="358">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/Doxygen/ParamListQuery.h" line="64" column="1" bodyfile="Tools/Doxygen/ParamListQuery.h" bodystart="63" bodyend="88"/>
+    <listofallmembers>
+      <member refid="a01415_1a3e0f18cc95f2aaf61a9c219ae5b45354" prot="protected" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>_node</name></member>
+      <member refid="a01415_1ab466b1cea9b4392aaf153a31b36af930" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>empty</name></member>
+      <member refid="a01647_1a715fa3dd085fb8d155e116aeb34f211e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>foreachParameterItem</name></member>
+      <member refid="a01647_1a6efd087096e7e6dc37dd210f8ec645cb" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>getKind</name></member>
+      <member refid="a01415_1ac8c65300de8f93ea052ce50d46a352b7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>isValid</name></member>
+      <member refid="a01415_1aeddbb3baa6cf7675b3245349e53f4ad2" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>node</name></member>
+      <member refid="a01647_1a3b349d6e30704ad3962cacec158a7e7e" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>ParamListQuery</name></member>
+      <member refid="a01647_1ab774d215c42211f24c6971b97983da6f" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>ParamListQuery</name></member>
+      <member refid="a01647_1ae7cd47e1c9b90a250416c08b883984d4" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>ParamListQuery</name></member>
+      <member refid="a01415_1a9d8694a0c158c4cc4c9befb54ff7a414" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>Query</name></member>
+      <member refid="a01415_1ab6b6192452f57daccb41b10d3c3b0449" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>Query</name></member>
+      <member refid="a01415_1ad750915f5c1549aaea31cfb88b41a6e5" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>reset</name></member>
+      <member refid="a01415_1a13a557c0fdece24403e21021e476587a" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>sort</name></member>
+      <member refid="a01415_1ab42423fc916a9d4321bc1cb8a3f4fb43" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>text</name></member>
+      <member refid="a01647_1a08b797cd8bf2a5a4e1a3e033be8bf9a7" prot="public" virt="non-virtual"><scope>MdDox::Doxygen::ParamListQuery</scope><name>visit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
