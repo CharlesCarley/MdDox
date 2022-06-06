@@ -784,7 +784,7 @@
       <member refid="a01955_1acc94668f2fc82e437e3f7f79f3dda0ae" prot="protected" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>_ref</name></member>
       <member refid="a01955_1a4c7ba3bc919a40013541f6c409781d01" prot="protected" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>_sections</name></member>
       <member refid="a01955_1a95e0ecf4368ab7b570ab15f4e17fd9a5" prot="protected" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>_writer</name></member>
-      <member refid="a01955_1a51f4ed154feeb26e6a5ed4e940d53377" prot="public" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>exec</name></member>
+      <member refid="a01955_1a9267dda3605b09a92c7db1d87301c73d" prot="public" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>exec</name></member>
       <member refid="a01951_1ac588a5f3dac60850adb0db16ec9fcdf8" prot="public" virt="non-virtual"><scope>MdDox::NamespacePageWriter</scope><name>NamespacePageWriter</name></member>
       <member refid="a01951_1a7bcb90a2c9d1d69e21f63cd7f18bf5bc" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>notifyBriefDescription</name></member>
       <member refid="a01951_1a57b3c4ce567d27be8156aa70e7051f6a" prot="private" virt="virtual"><scope>MdDox::NamespacePageWriter</scope><name>notifyDetailDescription</name></member>

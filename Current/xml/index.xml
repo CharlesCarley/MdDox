@@ -2296,6 +2296,10 @@
     <member refid="a01915_1a5af790a805305e03445993ab73b41d16" kind="variable"><name>dirPaths</name></member>
     <member refid="a01915_1a00ca08211ae104a97a81bc848a1badef" kind="variable"><name>hasMainPage</name></member>
     <member refid="a01915_1a8997dcb5798f0a9b4c5f10155da6811a" kind="variable"><name>namespaces</name></member>
+    <member refid="a01915_1ab0bf86b3afccf99ef0f9381825f77bcd" kind="variable"><name>outClasses</name></member>
+    <member refid="a01915_1adb67a2eb653a016545b812fb4b34378d" kind="variable"><name>outDirectories</name></member>
+    <member refid="a01915_1a27ab7048048171ca0a962d8f3b78bd2c" kind="variable"><name>outNamespaces</name></member>
+    <member refid="a01915_1a716448b7152ce2e9db0d78d2ce128418" kind="variable"><name>outPages</name></member>
     <member refid="a01915_1af95e9d593b18963c3759b466a1a63d53" kind="variable"><name>pages</name></member>
     <member refid="a01915_1a05b0e7dee4ba5e59d39a576c0ed9863b" kind="function"><name>addDirectory</name></member>
     <member refid="a01915_1a4b11bd55f2547d99725cf9d4f0474b37" kind="function"><name>addPage</name></member>
@@ -2307,7 +2311,7 @@
     <member refid="a01919_1aeae7102d403da0869553dfba7acd1120" kind="variable"><name>_outDir</name></member>
     <member refid="a01919_1af2ab5886d3134679fc01622bc9f70eae" kind="variable"><name>_stream</name></member>
     <member refid="a01919_1ad06e1785cdbe0f7186bb539769aced40" kind="variable"><name>_writer</name></member>
-    <member refid="a01919_1aec94abb8b8d9f45b1fa2e7685aa47cb5" kind="function"><name>dispatchFilter</name></member>
+    <member refid="a01919_1ab3b78c15c7ed93da62139e143320b635" kind="function"><name>dispatchFilter</name></member>
     <member refid="a01919_1afd6bd463f95fc3691b896eb248718fbf" kind="function"><name>makeFilename</name></member>
     <member refid="a01919_1a66fe10db1fafdc6d6b720e2f11eca759" kind="function"><name>writeReferenceFile</name></member>
     <member refid="a01919_1a1ab046de58032ab297dbefd1859511a2" kind="function"><name>extractTopLevelDirectories</name></member>
@@ -2472,7 +2476,7 @@
     <member refid="a01955_1a09b77ba57a73bbc653a7ca5b04b35ecf" kind="function"><name>writeDetails</name></member>
     <member refid="a01955_1a7b84542c57c02926a9930f35bc95fc47" kind="function"><name>PageWriter</name></member>
     <member refid="a01955_1adcae154a36099ba1f1895758b128252e" kind="function"><name>~PageWriter</name></member>
-    <member refid="a01955_1a51f4ed154feeb26e6a5ed4e940d53377" kind="function"><name>exec</name></member>
+    <member refid="a01955_1a9267dda3605b09a92c7db1d87301c73d" kind="function"><name>exec</name></member>
   </compound>
   <compound refid="a01959" kind="class"><name>MdDox::ParagraphWriter</name>
     <member refid="a01959_1adc9512fba75ed51d4c18b9e4ecd81860" kind="variable"><name>_out</name></member>
@@ -2981,7 +2985,7 @@
     <member refid="a01838_1a05eb5502d200714d8a3f429bb891db0c" kind="variable"><name>Switches</name></member>
     <member refid="a01838_1a882abed0385daed0f7c9d02ff800408f" kind="function"><name>CrtDump</name></member>
     <member refid="a01838_1a657f139bc5f6e89a7bb95a7fe0879214" kind="function"><name>CrtTestMemory</name></member>
-    <member refid="a01838_1a10c86bf623d1e4477190dd7197e166dc" kind="function"><name>dispatch</name></member>
+    <member refid="a01838_1a8089d443e3b0dd292a48b19952b4b12e" kind="function"><name>dispatch</name></member>
     <member refid="a01838_1a4338aec09dbef3739444c62befccc06b" kind="function"><name>isDecimal</name></member>
     <member refid="a01838_1abe37af316ba8d5a613895a5f016233f7" kind="function"><name>isLetter</name></member>
     <member refid="a01838_1aace85994356ad90a0d76534a0bbccc9d" kind="function"><name>isNewLine</name></member>

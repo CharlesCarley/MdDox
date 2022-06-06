@@ -381,7 +381,7 @@ Maps to the config option <computeroutput>FILE_URL</computeroutput> </para>     
         <references refid="a02079_1ac0f4754066eb37834a6e6bed93993b50" compoundref="a01202" startline="83" endline="99">MdDox::ParserBase::parse</references>
         <references refid="a02115_1ad981d8abab00654645b673875dde2b9a" compoundref="a02988" startline="82" endline="87">MdDox::Xml::Parser::root</references>
         <references refid="a02111_1ae3a0ac5394abbac021ed9bc51802105f" compoundref="a01247" startline="231" endline="242">MdDox::Xml::Node::firstChildOf</references>
-        <references refid="a01919_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="a00995" startline="278" endline="359">MdDox::IndexPageWriter::exec</references>
+        <references refid="a01919_1a2e3c4396a1c20b3ebfc263f6e1db2924" compoundref="a00995" startline="287" endline="368">MdDox::IndexPageWriter::exec</references>
         <references refid="a02019_1a818f474bf94b27ba6ec9debe11da39fb" compoundref="a01127" startline="229">outputDir</references>
       </memberdef>
       <memberdef kind="function" id="a02019_1a6f1d0e35196991ee8b6e28eac813d917" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">

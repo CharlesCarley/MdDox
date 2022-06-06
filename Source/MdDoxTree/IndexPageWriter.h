@@ -39,7 +39,7 @@ namespace MdDox
         String            _indexDir;
         PathUtil          _outDir;
 
-        void dispatchFilter(const IndexPageFilter& filter) const;
+        void dispatchFilter(IndexPageFilter& filter) const;
 
         String makeFilename(const Reference& ref) const;
 

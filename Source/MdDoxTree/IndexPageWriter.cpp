@@ -43,12 +43,20 @@ namespace MdDox
     class IndexPageFilter final : public Doxygen::Visitors::DoxygenIndexQueryVisitor
     {
     public:
+        // pages filtered from the XML
         ReferenceList pages;
         ReferenceList classes;
         ReferenceList namespaces;
         ReferenceList directories;
         ReferenceList dirPaths;
-        bool          hasMainPage{false};
+
+        bool hasMainPage{false};
+
+        // pages that were actually written
+        ReferenceList outPages;
+        ReferenceList outClasses;
+        ReferenceList outNamespaces;
+        ReferenceList outDirectories;
 
     public:
         void addPage(const Reference& compoundRef)
@@ -139,7 +147,7 @@ namespace MdDox
     }
 
     template <typename Page>
-    void dispatch(DocumentWriter* writer, const Reference& page, const String& indexDir, const PathUtil& outDir)
+    void dispatch(DocumentWriter* writer, const Reference& page, const String& indexDir, const PathUtil& outDir, ReferenceList& output)
     {
         Console::writeLine("building => ", page.getId());
 
@@ -155,22 +163,23 @@ namespace MdDox
             const Doxygen::DoxygenQuery doxygen(psr.root()->firstChildOf("doxygen"));
 
             Page pageVisitor(writer, page, outDir);
-            pageVisitor.exec(doxygen);
+            if (pageVisitor.exec(doxygen))
+                output.push_back(page);
         }
         else
             throw InputException("File, ", path.fullPath(), " does not exist");
     }
 
-    void IndexPageWriter::dispatchFilter(const IndexPageFilter& filter) const
+    void IndexPageWriter::dispatchFilter(IndexPageFilter& filter) const
     {
         for (const Reference& page : filter.pages)
-            dispatch<GenericPageWriter>(_writer, page, _indexDir, _outDir);
+            dispatch<GenericPageWriter>(_writer, page, _indexDir, _outDir, filter.outPages);
         for (const Reference& page : filter.namespaces)
-            dispatch<NamespacePageWriter>(_writer, page, _indexDir, _outDir);
+            dispatch<NamespacePageWriter>(_writer, page, _indexDir, _outDir, filter.outNamespaces);
         for (const Reference& page : filter.classes)
-            dispatch<ClassPageWriter>(_writer, page, _indexDir, _outDir);
+            dispatch<ClassPageWriter>(_writer, page, _indexDir, _outDir, filter.outClasses);
         for (const Reference& page : filter.directories)
-            dispatch<DirectoryPageWriter>(_writer, page, _indexDir, _outDir);
+            dispatch<DirectoryPageWriter>(_writer, page, _indexDir, _outDir, filter.outDirectories);
     }
 
     String IndexPageWriter::makeFilename(const Reference& ref) const
@@ -292,6 +301,8 @@ namespace MdDox
         IndexPageFilter filter;
         query.visit(&filter);
 
+        dispatchFilter(filter);
+
         _writer->beginDocument(out, builder.projectTitle);
 
         writeGenericTitleBar(out, _writer, "");
@@ -319,20 +330,20 @@ namespace MdDox
             {
             case Doxygen::DCK_PAGE:
                 ref  = builder.getRefId("page_index");
-                list = &filter.pages;
+                list = &filter.outPages;
                 break;
             case Doxygen::DCK_DIR:
                 ref   = builder.getRefId("directory_index");
-                list  = &filter.directories;
+                list  = &filter.outDirectories;
                 isDir = true;
                 break;
             case Doxygen::DCK_NAMESPACE:
                 ref  = builder.getRefId("namespace_index");
-                list = &filter.namespaces;
+                list = &filter.outNamespaces;
                 break;
             case Doxygen::DCK_CLASS:
                 ref  = builder.getRefId("class_index");
-                list = &filter.classes;
+                list = &filter.outClasses;
                 break;
             default:
                 break;
@@ -353,8 +364,6 @@ namespace MdDox
         _writer->endList(out);
         _writer->endSection(out);
         _writer->endDocument(out, "../index.xml");
-
-        dispatchFilter(filter);
         _stream = nullptr;
     }
 

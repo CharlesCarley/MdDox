@@ -368,9 +368,9 @@
         </inbodydescription>
         <location file="Source/MdDoxTree/PageWriter.h" line="69" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="a01955_1a51f4ed154feeb26e6a5ed4e940d53377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MdDox::PageWriter::exec</definition>
+      <memberdef kind="function" id="a01955_1a9267dda3605b09a92c7db1d87301c73d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MdDox::PageWriter::exec</definition>
         <argsstring>(const Doxygen::DoxygenQuery &amp;doxygen)</argsstring>
         <name>exec</name>
         <param>
@@ -380,11 +380,24 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doxygen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="115" bodyend="134"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="76" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="115" bodyend="139"/>
         <references refid="a01955_1a1fd2e2d5dddec4f47bb5c229d79c6229" compoundref="a01052" startline="37">_out</references>
+        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
+        <references refid="a02111_1a40236f07810dc8800e95fada2cc09ef5" compoundref="a01247" startline="184" endline="206">MdDox::Xml::Node::getFirstChild</references>
+        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06af8cb21026e60adb7382ac5bcbe9d43a7" compoundref="a01145" startline="44">MdDox::Doxygen::DoxCompoundDef</references>
+        <references refid="a01843_1a778793e67765b66ac62d62a3af2dccf1ac79688c8b6052f2a0d5cd3e207faa63a" compoundref="a01364" startline="62">MdDox::Doxygen::DL_UNKNOWN</references>
         <references refid="a01955_1a3199dcb45dcad5468a8b8a1060bd25ec" compoundref="a01052" startline="38">_outDir</references>
         <references refid="a02091_1a557163bcb8705610f1f58c45590d3f78" compoundref="a01217" startline="107" endline="110">MdDox::PathUtil::fileName</references>
         <references refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a01226" startline="223" endline="228">MdDox::StringCombine</references>
@@ -393,9 +406,6 @@
         <references refid="a02019_1a69f198ab68458ee9fa64bd7538415af4" compoundref="a01124" startline="279" endline="284">MdDox::SiteBuilder::get</references>
         <references refid="a02019_1a918f3a77721cccaac92bd2e593880b99" compoundref="a01127" startline="215">MdDox::SiteBuilder::outputFileExt</references>
         <references refid="a02091_1affcdc94254d5be39dd6e195cfff55092" compoundref="a01217" startline="181" endline="189">MdDox::PathUtil::fullPath</references>
-        <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
-        <references refid="a02111_1a40236f07810dc8800e95fada2cc09ef5" compoundref="a01247" startline="184" endline="206">MdDox::Xml::Node::getFirstChild</references>
-        <references refid="a01843_1a65e5a8c426cac4de9a60cc1e64468f06af8cb21026e60adb7382ac5bcbe9d43a7" compoundref="a01145" startline="44">MdDox::Doxygen::DoxCompoundDef</references>
         <references refid="a01955_1a09b77ba57a73bbc653a7ca5b04b35ecf" compoundref="a01049" startline="106" endline="113">writeDetails</references>
       </memberdef>
       </sectiondef>
@@ -492,7 +502,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/PageWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="32" bodyend="72"/>
+    <location file="Source/MdDoxTree/PageWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="32" bodyend="77"/>
     <listofallmembers>
       <member refid="a01955_1ac012825bbcafe1452762c50cd2d35037" prot="protected" virt="non-virtual"><scope>MdDox::PageWriter</scope><name>_inDir</name></member>
       <member refid="a01955_1a1fd2e2d5dddec4f47bb5c229d79c6229" prot="protected" virt="non-virtual"><scope>MdDox::PageWriter</scope><name>_out</name></member>
@@ -502,7 +512,7 @@
       <member refid="a01955_1a95e0ecf4368ab7b570ab15f4e17fd9a5" prot="protected" virt="non-virtual"><scope>MdDox::PageWriter</scope><name>_writer</name></member>
       <member refid="a01955_1afc5873d30f45070066a2cce9b182e6c0" prot="private" virt="non-virtual"><scope>MdDox::PageWriter</scope><name>beginDocument</name></member>
       <member refid="a01955_1ade67be3a10921926e583b25f2f5a7193" prot="private" virt="non-virtual"><scope>MdDox::PageWriter</scope><name>endDocument</name></member>
-      <member refid="a01955_1a51f4ed154feeb26e6a5ed4e940d53377" prot="public" virt="non-virtual"><scope>MdDox::PageWriter</scope><name>exec</name></member>
+      <member refid="a01955_1a9267dda3605b09a92c7db1d87301c73d" prot="public" virt="non-virtual"><scope>MdDox::PageWriter</scope><name>exec</name></member>
       <member refid="a01955_1a92b457f94cf847bb021dbacd0d292579" prot="protected" virt="virtual"><scope>MdDox::PageWriter</scope><name>notifyBriefDescription</name></member>
       <member refid="a01955_1a4af6fb6bc18922ccfe3df4688f0c625e" prot="protected" virt="virtual"><scope>MdDox::PageWriter</scope><name>notifyDetailDescription</name></member>
       <member refid="a01955_1a34a7cd04b8e56c0c65d11084e1951d34" prot="protected" virt="virtual"><scope>MdDox::PageWriter</scope><name>notifyDetailDescriptionHeading</name></member>

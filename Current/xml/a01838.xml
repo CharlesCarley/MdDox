@@ -878,7 +878,7 @@
         </inbodydescription>
         <location file="Source/Utils/Win32/CrtUtils.cpp" line="40" column="1" bodyfile="Source/Utils/Win32/CrtUtils.cpp" bodystart="40" bodyend="53"/>
       </memberdef>
-      <memberdef kind="function" id="a01838_1a10c86bf623d1e4477190dd7197e166dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="a01838_1a8089d443e3b0dd292a48b19952b4b12e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename Page</type>
@@ -886,7 +886,7 @@
         </templateparamlist>
         <type>void</type>
         <definition>void MdDox::dispatch</definition>
-        <argsstring>(DocumentWriter *writer, const Reference &amp;page, const String &amp;indexDir, const PathUtil &amp;outDir)</argsstring>
+        <argsstring>(DocumentWriter *writer, const Reference &amp;page, const String &amp;indexDir, const PathUtil &amp;outDir, ReferenceList &amp;output)</argsstring>
         <name>dispatch</name>
         <param>
           <type><ref refid="a01871" kindref="compound">DocumentWriter</ref> *</type>
@@ -904,13 +904,17 @@
           <type>const <ref refid="a02091" kindref="compound">PathUtil</ref> &amp;</type>
           <declname>outDir</declname>
         </param>
+        <param>
+          <type><ref refid="a01838_1a2eeb882248272ad9b7bc54d708532d2f" kindref="member">ReferenceList</ref> &amp;</type>
+          <declname>output</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="142" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="142" bodyend="162"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="150" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="150" bodyend="171"/>
         <references refid="a02051_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="a01178" startline="199" endline="204">MdDox::Console::writeLine</references>
         <references refid="a01979_1a9caaf6a7703029c6c819bf558c05960b" compoundref="a01073" startline="61" endline="64">MdDox::Reference::getId</references>
         <references refid="a01838_1a15dad607ed0da2e2586a76873d2e4620" compoundref="a01226" startline="223" endline="228">StringCombine</references>
@@ -1358,7 +1362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="239" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="239" bodyend="276"/>
+        <location file="Source/MdDoxTree/IndexPageWriter.cpp" line="248" column="1" bodyfile="Source/MdDoxTree/IndexPageWriter.cpp" bodystart="248" bodyend="285"/>
         <references refid="a02051_1aaf1391b3bcf6cfd461fa04ac9c7003a5" compoundref="a01178" startline="199" endline="204">MdDox::Console::writeLine</references>
         <references refid="a02091_1a557163bcb8705610f1f58c45590d3f78" compoundref="a01217" startline="107" endline="110">MdDox::PathUtil::fileName</references>
         <references refid="a02091_1a76a0e63f574b4c06d4945dc764df1243" compoundref="a01217" startline="176" endline="179">MdDox::PathUtil::exists</references>

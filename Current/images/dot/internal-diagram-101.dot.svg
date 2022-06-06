@@ -10,11 +10,11 @@
 <title>%3</title>
 <polygon fill="#f8f8fa" stroke="none" points="-4,4 -4,-325 464.27,-325 464.27,4 -4,4"/>
 <text text-anchor="middle" x="230.135" y="-309" font-family="Segoe UI" font-size="10.00">Functional Structure</text>
-<g id="clust1" class="cluster"><title>cluster_a</title>
-<polygon fill="none" stroke="none" points="8,-44 8,-294 452.27,-294 452.27,-44 8,-44"/>
-</g>
 <g id="clust2" class="cluster"><title>cluster_b</title>
 <polygon fill="#f8f8fa" stroke="none" points="137,-8 137,-44 201,-44 201,-8 137,-8"/>
+</g>
+<g id="clust1" class="cluster"><title>cluster_a</title>
+<polygon fill="none" stroke="none" points="8,-44 8,-294 452.27,-294 452.27,-44 8,-44"/>
 </g>
 <!-- Application -->
 <g id="node1" class="node"><title>Application</title>

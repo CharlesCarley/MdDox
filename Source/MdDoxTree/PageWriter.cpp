@@ -112,10 +112,17 @@ namespace MdDox
         }
     }
 
-    void PageWriter::exec(const Doxygen::DoxygenQuery& doxygen)
+    bool PageWriter::exec(const Doxygen::DoxygenQuery& doxygen)
     {
         if (_out.is_open())
             _out.close();
+
+        const Doxygen::CompoundDefQuery query(
+            doxygen.node()->getFirstChild(Doxygen::DoxCompoundDef));
+
+        // filter out unknown language types
+        if (query.getLanguage() == Doxygen::DL_UNKNOWN)
+            return false;
 
         PathUtil path(_outDir);
         path.fileName(StringCombine(_ref.getId(), SiteBuilder::get().outputFileExt));
@@ -124,12 +131,10 @@ namespace MdDox
         if (!_out.is_open())
             throw InputException("Failed to open the output file: '", path.fullPath(), "'");
 
-        const Doxygen::CompoundDefQuery query(
-            doxygen.node()->getFirstChild(Doxygen::DoxCompoundDef));
-
         beginDocument(query);
         query.visit(this);
         writeDetails();
         endDocument(query);
+        return true;
     }
 }  // namespace MdDox
