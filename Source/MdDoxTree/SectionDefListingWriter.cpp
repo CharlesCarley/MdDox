@@ -122,23 +122,32 @@ namespace MdDox
         case Doxygen::DSK_FRIEND:
             _writer->addSection(_out, "Friends", _depth);
             break;
-        case Doxygen::DSK_USER_DEFINED:
-            _writer->addSection(_out, "DSK_USER_DEFINED", _depth);
+        case Doxygen::DSK_PROPERTY:
+            _writer->addSection(_out, "Properties", _depth);
             break;
         case Doxygen::DSK_PACKAGE_STATIC_FUNC:
-            _writer->addSection(_out, "DSK_PACKAGE_STATIC_FUNC", _depth);
+            _writer->addSection(_out, "Package Static", _depth);
+            break;
+        case Doxygen::DSK_PACKAGE_STATIC_ATTRIB:
+            _writer->addSection(_out, "Package Static Attributes", _depth);
+            break;
+        case Doxygen::DSK_PACKAGE_FUNC:
+            _writer->addSection(_out, "Package Functions", _depth);
+            break;
+        case Doxygen::DSK_PACKAGE_TYPE:
+            _writer->addSection(_out, "Package Types", _depth);
+            break;
+        case Doxygen::DSK_PACKAGE_ATTRIB:
+            _writer->addSection(_out, "Package Attributes", _depth);
+            break;
+        case Doxygen::DSK_USER_DEFINED:
+            _writer->addSection(_out, "DSK_USER_DEFINED", _depth);
             break;
         case Doxygen::DSK_PUBLIC_SLOT:
             _writer->addSection(_out, "DSK_PUBLIC_SLOT", _depth);
             break;
-        case Doxygen::DSK_PACKAGE_STATIC_ATTRIB:
-            _writer->addSection(_out, "DSK_PACKAGE_STATIC_ATTRIB", _depth);
-            break;
         case Doxygen::DSK_SIGNAL:
             _writer->addSection(_out, "DSK_SIGNAL", _depth);
-            break;
-        case Doxygen::DSK_PROPERTY:
-            _writer->addSection(_out, "DSK_PROPERTY", _depth);
             break;
         case Doxygen::DSK_DCOP_FUNC:
             _writer->addSection(_out, "DSK_DCOP_FUNC", _depth);
@@ -149,20 +158,11 @@ namespace MdDox
         case Doxygen::DSK_EVENT:
             _writer->addSection(_out, "DSK_EVENT", _depth);
             break;
-        case Doxygen::DSK_PACKAGE_FUNC:
-            _writer->addSection(_out, "DSK_PACKAGE_FUNC", _depth);
-            break;
         case Doxygen::DSK_RELATED:
             _writer->addSection(_out, "DSK_RELATED", _depth);
             break;
         case Doxygen::DSK_PROTECTED_SLOT:
             _writer->addSection(_out, "DSK_PROTECTED_SLOT", _depth);
-            break;
-        case Doxygen::DSK_PACKAGE_TYPE:
-            _writer->addSection(_out, "DSK_PACKAGE_TYPE", _depth);
-            break;
-        case Doxygen::DSK_PACKAGE_ATTRIB:
-            _writer->addSection(_out, "DSK_PACKAGE_ATTRIB", _depth);
             break;
         case Doxygen::DSK_PROTOTYPE:
             _writer->addSection(_out, "DSK_PROTOTYPE", _depth);

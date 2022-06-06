@@ -144,6 +144,7 @@ namespace MdDox
         {
             LinkedTextWriter link(_writer, &_out);
             link.write(query);
+            _writer->lineBreak(_out);
         }
     }
 

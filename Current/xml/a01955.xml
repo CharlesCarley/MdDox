@@ -380,19 +380,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>doxygen</parametername>
-</parameternamelist>
-<parameterdescription>
-<para></para></parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para></para></simplesect>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/PageWriter.h" line="76" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="115" bodyend="139"/>
+        <location file="Source/MdDoxTree/PageWriter.h" line="71" column="1" bodyfile="Source/MdDoxTree/PageWriter.cpp" bodystart="115" bodyend="139"/>
         <references refid="a01955_1a1fd2e2d5dddec4f47bb5c229d79c6229" compoundref="a01052" startline="37">_out</references>
         <references refid="a02267_1aeddbb3baa6cf7675b3245349e53f4ad2" compoundref="a01427" startline="238" endline="241">MdDox::Doxygen::Query::node</references>
         <references refid="a02111_1a40236f07810dc8800e95fada2cc09ef5" compoundref="a01247" startline="184" endline="206">MdDox::Xml::Node::getFirstChild</references>
@@ -502,7 +493,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/MdDoxTree/PageWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="32" bodyend="77"/>
+    <location file="Source/MdDoxTree/PageWriter.h" line="33" column="1" bodyfile="Source/MdDoxTree/PageWriter.h" bodystart="32" bodyend="72"/>
     <listofallmembers>
       <member refid="a01955_1ac012825bbcafe1452762c50cd2d35037" prot="protected" virt="non-virtual"><scope>MdDox::PageWriter</scope><name>_inDir</name></member>
       <member refid="a01955_1a1fd2e2d5dddec4f47bb5c229d79c6229" prot="protected" virt="non-virtual"><scope>MdDox::PageWriter</scope><name>_out</name></member>

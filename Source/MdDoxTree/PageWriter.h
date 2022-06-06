@@ -68,11 +68,6 @@ namespace MdDox
         PageWriter(DocumentWriter* writer, const Reference& ref, const PathUtil& out);
         ~PageWriter() override = default;
 
-        /**
-         * \brief 
-         * \param doxygen 
-         * \return 
-         */
         bool exec(const Doxygen::DoxygenQuery& doxygen);
     };
 

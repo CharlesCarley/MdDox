@@ -49,6 +49,7 @@ namespace MdDox
         case Doxygen::DRK_COMPOUND:
             _writer->linkRef(_out, 0, query.getRefId(), query.text());
             break;
+        case Doxygen::DRK_MAX:
         case Doxygen::DRK_INVALID:
         default:
             break;

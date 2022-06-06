@@ -70,7 +70,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="41" bodyend="56"/>
+        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="38" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="41" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="a01923_1a6c6887bdaf86c77a97a01e1fde4b3506" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="58" bodyend="66"/>
+        <location file="Source/MdDoxTree/LinkedTextWriter.h" line="43" column="1" bodyfile="Source/MdDoxTree/LinkedTextWriter.cpp" bodystart="59" bodyend="67"/>
         <references refid="a02267_1ac8c65300de8f93ea052ce50d46a352b7" compoundref="a01427" startline="214" endline="217">MdDox::Doxygen::Query::isValid</references>
         <references refid="a02411_1a87fbbc8198d459fc80cafc7f3394f404" compoundref="a01544" startline="29" endline="48">MdDox::Doxygen::LinkedTextQuery::visit</references>
         <references refid="a01838_1abcedb5cde83c1d846f72a4e6c116924c" compoundref="a01136" startline="176" endline="187">MdDox::syncStream</references>
